@@ -11851,9 +11851,9 @@
       }
     },
     "c_0053": {
-      "revision": 2,
+      "revision": 3,
       "region_id": null,
-      "status_fronteira": "needs_expansion",
+      "status_fronteira": "expanded",
       "definition": {
         "text": "Lo spostarsi nell'acqua muovendo braccia e gambe, per sport o per non annegare.",
         "example": "Ha imparato il nuoto a cinque anni in piscina."
@@ -11878,18 +11878,18 @@
       }
     },
     "c_0056": {
-      "revision": 2,
+      "revision": 3,
       "region_id": null,
-      "status_fronteira": "needs_expansion",
+      "status_fronteira": "expanded",
       "definition": {
         "text": "Insieme di minuti granelli di roccia che formano le spiagge e i deserti.",
         "example": "I bambini costruivano castelli di sabbia sulla battigia."
       }
     },
     "c_0057": {
-      "revision": 2,
+      "revision": 3,
       "region_id": null,
-      "status_fronteira": "needs_expansion",
+      "status_fronteira": "expanded",
       "definition": {
         "text": "La striscia di sabbia bagnata dove le onde si spingono e si ritirano.",
         "example": "Passeggiavano scalzi sulla battigia."
@@ -35507,8 +35507,8 @@
       "direction_hint": "symmetric",
       "association_strength": 0.9,
       "confidence": 0.85,
-      "status": "candidate",
-      "revision": 1
+      "status": "validated",
+      "revision": 2
     },
     {
       "concept_a": "c_0053",
@@ -35517,8 +35517,8 @@
       "direction_hint": "symmetric",
       "association_strength": 0.85,
       "confidence": 0.85,
-      "status": "candidate",
-      "revision": 1
+      "status": "validated",
+      "revision": 2
     },
     {
       "concept_a": "c_0053",
@@ -35527,8 +35527,8 @@
       "direction_hint": "symmetric",
       "association_strength": 0.8,
       "confidence": 0.85,
-      "status": "candidate",
-      "revision": 1
+      "status": "validated",
+      "revision": 2
     },
     {
       "concept_a": "c_0053",
@@ -35537,8 +35537,8 @@
       "direction_hint": "symmetric",
       "association_strength": 0.75,
       "confidence": 0.85,
-      "status": "candidate",
-      "revision": 1
+      "status": "validated",
+      "revision": 2
     },
     {
       "concept_a": "c_0053",
@@ -35547,8 +35547,8 @@
       "direction_hint": "symmetric",
       "association_strength": 0.65,
       "confidence": 0.85,
-      "status": "candidate",
-      "revision": 1
+      "status": "validated",
+      "revision": 2
     },
     {
       "concept_a": "c_0053",
@@ -35557,8 +35557,8 @@
       "direction_hint": "symmetric",
       "association_strength": 0.7,
       "confidence": 0.85,
-      "status": "candidate",
-      "revision": 1
+      "status": "validated",
+      "revision": 2
     },
     {
       "concept_a": "c_0053",
@@ -35567,8 +35567,8 @@
       "direction_hint": "symmetric",
       "association_strength": 0.65,
       "confidence": 0.85,
-      "status": "candidate",
-      "revision": 1
+      "status": "validated",
+      "revision": 2
     },
     {
       "concept_a": "c_0053",
@@ -35577,8 +35577,8 @@
       "direction_hint": "symmetric",
       "association_strength": 0.6,
       "confidence": 0.85,
-      "status": "candidate",
-      "revision": 1
+      "status": "validated",
+      "revision": 2
     },
     {
       "concept_a": "c_0056",
@@ -35587,8 +35587,8 @@
       "direction_hint": "symmetric",
       "association_strength": 0.85,
       "confidence": 0.85,
-      "status": "candidate",
-      "revision": 1
+      "status": "validated",
+      "revision": 2
     },
     {
       "concept_a": "c_0056",
@@ -35597,8 +35597,8 @@
       "direction_hint": "symmetric",
       "association_strength": 0.9,
       "confidence": 0.85,
-      "status": "candidate",
-      "revision": 1
+      "status": "validated",
+      "revision": 2
     },
     {
       "concept_a": "c_0056",
@@ -35607,8 +35607,8 @@
       "direction_hint": "symmetric",
       "association_strength": 0.8,
       "confidence": 0.85,
-      "status": "candidate",
-      "revision": 1
+      "status": "validated",
+      "revision": 2
     },
     {
       "concept_a": "c_0056",
@@ -35617,8 +35617,8 @@
       "direction_hint": "symmetric",
       "association_strength": 0.75,
       "confidence": 0.85,
-      "status": "candidate",
-      "revision": 1
+      "status": "validated",
+      "revision": 2
     },
     {
       "concept_a": "c_0056",
@@ -35627,8 +35627,8 @@
       "direction_hint": "symmetric",
       "association_strength": 0.6,
       "confidence": 0.85,
-      "status": "candidate",
-      "revision": 1
+      "status": "validated",
+      "revision": 2
     },
     {
       "concept_a": "c_0056",
@@ -35637,8 +35637,8 @@
       "direction_hint": "symmetric",
       "association_strength": 0.65,
       "confidence": 0.85,
-      "status": "candidate",
-      "revision": 1
+      "status": "validated",
+      "revision": 2
     },
     {
       "concept_a": "c_0056",
@@ -35647,8 +35647,8 @@
       "direction_hint": "symmetric",
       "association_strength": 0.6,
       "confidence": 0.85,
-      "status": "candidate",
-      "revision": 1
+      "status": "validated",
+      "revision": 2
     },
     {
       "concept_a": "c_0056",
@@ -35657,8 +35657,8 @@
       "direction_hint": "symmetric",
       "association_strength": 0.6,
       "confidence": 0.85,
-      "status": "candidate",
-      "revision": 1
+      "status": "validated",
+      "revision": 2
     },
     {
       "concept_a": "c_0057",
@@ -35667,8 +35667,8 @@
       "direction_hint": "symmetric",
       "association_strength": 0.8,
       "confidence": 0.85,
-      "status": "candidate",
-      "revision": 1
+      "status": "validated",
+      "revision": 2
     },
     {
       "concept_a": "c_0042",
@@ -35677,8 +35677,8 @@
       "direction_hint": "symmetric",
       "association_strength": 0.85,
       "confidence": 0.85,
-      "status": "candidate",
-      "revision": 1
+      "status": "validated",
+      "revision": 2
     },
     {
       "concept_a": "c_0057",
@@ -35687,8 +35687,8 @@
       "direction_hint": "symmetric",
       "association_strength": 0.8,
       "confidence": 0.85,
-      "status": "candidate",
-      "revision": 1
+      "status": "validated",
+      "revision": 2
     },
     {
       "concept_a": "c_0057",
@@ -35697,8 +35697,8 @@
       "direction_hint": "symmetric",
       "association_strength": 0.6,
       "confidence": 0.85,
-      "status": "candidate",
-      "revision": 1
+      "status": "validated",
+      "revision": 2
     },
     {
       "concept_a": "c_0057",
@@ -35707,8 +35707,8 @@
       "direction_hint": "symmetric",
       "association_strength": 0.75,
       "confidence": 0.85,
-      "status": "candidate",
-      "revision": 1
+      "status": "validated",
+      "revision": 2
     },
     {
       "concept_a": "c_0057",
@@ -35717,8 +35717,8 @@
       "direction_hint": "symmetric",
       "association_strength": 0.6,
       "confidence": 0.85,
-      "status": "candidate",
-      "revision": 1
+      "status": "validated",
+      "revision": 2
     },
     {
       "concept_a": "c_0056",
@@ -35727,8 +35727,8 @@
       "direction_hint": "symmetric",
       "association_strength": 0.8,
       "confidence": 0.85,
-      "status": "candidate",
-      "revision": 1
+      "status": "validated",
+      "revision": 2
     },
     {
       "concept_a": "c_0001",
@@ -35737,8 +35737,8 @@
       "direction_hint": "symmetric",
       "association_strength": 0.85,
       "confidence": 0.85,
-      "status": "candidate",
-      "revision": 1
+      "status": "validated",
+      "revision": 2
     }
   ],
   "lexical_index": [

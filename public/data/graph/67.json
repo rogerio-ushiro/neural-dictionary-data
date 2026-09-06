@@ -2,9 +2,9 @@
   "shard": "67",
   "concepts": {
     "c_0053": {
-      "revision": 2,
+      "revision": 3,
       "region_id": null,
-      "status_fronteira": "needs_expansion",
+      "status_fronteira": "expanded",
       "definition": {
         "text": "Lo spostarsi nell'acqua muovendo braccia e gambe, per sport o per non annegare.",
         "example": "Ha imparato il nuoto a cinque anni in piscina."
@@ -67,8 +67,8 @@
       "direction_hint": "symmetric",
       "association_strength": 0.9,
       "confidence": 0.85,
-      "status": "candidate",
-      "revision": 1
+      "status": "validated",
+      "revision": 2
     },
     {
       "concept_a": "c_0053",
@@ -77,8 +77,8 @@
       "direction_hint": "symmetric",
       "association_strength": 0.85,
       "confidence": 0.85,
-      "status": "candidate",
-      "revision": 1
+      "status": "validated",
+      "revision": 2
     },
     {
       "concept_a": "c_0053",
@@ -87,8 +87,8 @@
       "direction_hint": "symmetric",
       "association_strength": 0.8,
       "confidence": 0.85,
-      "status": "candidate",
-      "revision": 1
+      "status": "validated",
+      "revision": 2
     },
     {
       "concept_a": "c_0053",
@@ -97,8 +97,8 @@
       "direction_hint": "symmetric",
       "association_strength": 0.75,
       "confidence": 0.85,
-      "status": "candidate",
-      "revision": 1
+      "status": "validated",
+      "revision": 2
     },
     {
       "concept_a": "c_0053",
@@ -107,8 +107,8 @@
       "direction_hint": "symmetric",
       "association_strength": 0.65,
       "confidence": 0.85,
-      "status": "candidate",
-      "revision": 1
+      "status": "validated",
+      "revision": 2
     },
     {
       "concept_a": "c_0053",
@@ -117,8 +117,8 @@
       "direction_hint": "symmetric",
       "association_strength": 0.7,
       "confidence": 0.85,
-      "status": "candidate",
-      "revision": 1
+      "status": "validated",
+      "revision": 2
     },
     {
       "concept_a": "c_0053",
@@ -127,8 +127,8 @@
       "direction_hint": "symmetric",
       "association_strength": 0.65,
       "confidence": 0.85,
-      "status": "candidate",
-      "revision": 1
+      "status": "validated",
+      "revision": 2
     },
     {
       "concept_a": "c_0053",
@@ -137,8 +137,8 @@
       "direction_hint": "symmetric",
       "association_strength": 0.6,
       "confidence": 0.85,
-      "status": "candidate",
-      "revision": 1
+      "status": "validated",
+      "revision": 2
     }
   ],
   "word_senses": {

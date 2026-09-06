@@ -1,0 +1,20 @@
+{
+  "pack": "graph.5d",
+  "from": 4,
+  "to": 5,
+  "ops": [
+    {
+      "op": "UPDATE_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0053",
+        "concept_b": "c_1023",
+        "relation_type": "esseri_viventi",
+        "direction_hint": "symmetric",
+        "association_strength": 0.8,
+        "confidence": 0.85,
+        "status": "validated",
+        "revision": 2
+      }
+    }
+  ]
+}

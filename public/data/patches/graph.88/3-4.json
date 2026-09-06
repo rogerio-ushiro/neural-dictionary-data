@@ -1,0 +1,137 @@
+{
+  "pack": "graph.88",
+  "from": 3,
+  "to": 4,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0056",
+      "concept": {
+        "revision": 3,
+        "region_id": null,
+        "status_fronteira": "expanded",
+        "definition": {
+          "text": "Insieme di minuti granelli di roccia che formano le spiagge e i deserti.",
+          "example": "I bambini costruivano castelli di sabbia sulla battigia."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0056",
+        "concept_b": "c_1027",
+        "relation_type": "categoria",
+        "direction_hint": "symmetric",
+        "association_strength": 0.85,
+        "confidence": 0.85,
+        "status": "validated",
+        "revision": 2
+      }
+    },
+    {
+      "op": "UPDATE_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0056",
+        "concept_b": "c_1028",
+        "relation_type": "costituzione",
+        "direction_hint": "symmetric",
+        "association_strength": 0.9,
+        "confidence": 0.85,
+        "status": "validated",
+        "revision": 2
+      }
+    },
+    {
+      "op": "UPDATE_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0056",
+        "concept_b": "c_0653",
+        "relation_type": "luoghi",
+        "direction_hint": "symmetric",
+        "association_strength": 0.8,
+        "confidence": 0.85,
+        "status": "validated",
+        "revision": 2
+      }
+    },
+    {
+      "op": "UPDATE_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0056",
+        "concept_b": "c_1029",
+        "relation_type": "parti",
+        "direction_hint": "symmetric",
+        "association_strength": 0.75,
+        "confidence": 0.85,
+        "status": "validated",
+        "revision": 2
+      }
+    },
+    {
+      "op": "UPDATE_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0056",
+        "concept_b": "c_1030",
+        "relation_type": "oggetti",
+        "direction_hint": "symmetric",
+        "association_strength": 0.6,
+        "confidence": 0.85,
+        "status": "validated",
+        "revision": 2
+      }
+    },
+    {
+      "op": "UPDATE_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0056",
+        "concept_b": "c_1031",
+        "relation_type": "cause",
+        "direction_hint": "symmetric",
+        "association_strength": 0.65,
+        "confidence": 0.85,
+        "status": "validated",
+        "revision": 2
+      }
+    },
+    {
+      "op": "UPDATE_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0056",
+        "concept_b": "c_1032",
+        "relation_type": "evocativa",
+        "direction_hint": "symmetric",
+        "association_strength": 0.6,
+        "confidence": 0.85,
+        "status": "validated",
+        "revision": 2
+      }
+    },
+    {
+      "op": "UPDATE_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0056",
+        "concept_b": "c_0646",
+        "relation_type": "proprietà",
+        "direction_hint": "symmetric",
+        "association_strength": 0.6,
+        "confidence": 0.85,
+        "status": "validated",
+        "revision": 2
+      }
+    },
+    {
+      "op": "UPDATE_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0056",
+        "concept_b": "c_0057",
+        "relation_type": "costituzione",
+        "direction_hint": "symmetric",
+        "association_strength": 0.8,
+        "confidence": 0.85,
+        "status": "validated",
+        "revision": 2
+      }
+    }
+  ]
+}

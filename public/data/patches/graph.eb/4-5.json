@@ -1,0 +1,20 @@
+{
+  "pack": "graph.eb",
+  "from": 4,
+  "to": 5,
+  "ops": [
+    {
+      "op": "UPDATE_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0053",
+        "concept_b": "c_1025",
+        "relation_type": "fenomeni",
+        "direction_hint": "symmetric",
+        "association_strength": 0.7,
+        "confidence": 0.85,
+        "status": "validated",
+        "revision": 2
+      }
+    }
+  ]
+}

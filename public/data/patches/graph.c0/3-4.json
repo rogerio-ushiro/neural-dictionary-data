@@ -1,0 +1,20 @@
+{
+  "pack": "graph.c0",
+  "from": 3,
+  "to": 4,
+  "ops": [
+    {
+      "op": "UPDATE_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0057",
+        "concept_b": "c_0306",
+        "relation_type": "azioni",
+        "direction_hint": "symmetric",
+        "association_strength": 0.6,
+        "confidence": 0.85,
+        "status": "validated",
+        "revision": 2
+      }
+    }
+  ]
+}
