@@ -171,6 +171,126 @@
       "confidence": 1,
       "status": "validated",
       "revision": 1
+    },
+    {
+      "concept_a": "c_0034",
+      "concept_b": "c_0419",
+      "relation_type": "contenuto",
+      "direction_hint": "symmetric",
+      "association_strength": 0.5,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0034",
+      "concept_b": "c_0423",
+      "relation_type": "evocativa",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0034",
+      "concept_b": "c_0424",
+      "relation_type": "parti",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0034",
+      "concept_b": "c_0427",
+      "relation_type": "oggetti",
+      "direction_hint": "symmetric",
+      "association_strength": 0.5,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0034",
+      "concept_b": "c_0429",
+      "relation_type": "effetti",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0034",
+      "concept_b": "c_0430",
+      "relation_type": "contenuto",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0034",
+      "concept_b": "c_0435",
+      "relation_type": "categoria",
+      "direction_hint": "symmetric",
+      "association_strength": 0.85,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0034",
+      "concept_b": "c_0436",
+      "relation_type": "categoria",
+      "direction_hint": "symmetric",
+      "association_strength": 0.75,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0034",
+      "concept_b": "c_0437",
+      "relation_type": "effetti",
+      "direction_hint": "symmetric",
+      "association_strength": 0.7,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0034",
+      "concept_b": "c_0438",
+      "relation_type": "effetti",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0034",
+      "concept_b": "c_0439",
+      "relation_type": "categoria",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0034",
+      "concept_b": "c_0440",
+      "relation_type": "effetti",
+      "direction_hint": "symmetric",
+      "association_strength": 0.75,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
     }
   ],
   "word_senses": {

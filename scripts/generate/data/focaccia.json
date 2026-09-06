@@ -1,0 +1,127 @@
+[
+  {
+    "lemma": "pane",
+    "relation_type": "categoria",
+    "association_strength": 0.75
+  },
+  {
+    "lemma": "pizza",
+    "relation_type": "categoria",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "pagnotta",
+    "relation_type": "categoria",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "cracker",
+    "relation_type": "similarità",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "grissino",
+    "relation_type": "similarità",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "farina",
+    "relation_type": "costituzione",
+    "association_strength": 0.7
+  },
+  {
+    "lemma": "lievito",
+    "relation_type": "costituzione",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "impasto",
+    "relation_type": "costituzione",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "acqua",
+    "relation_type": "costituzione",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "crosta",
+    "relation_type": "parti",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "mollica",
+    "relation_type": "parti",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "profumo",
+    "relation_type": "proprietà",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "caldo",
+    "relation_type": "proprietà",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "dorato",
+    "relation_type": "proprietà",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "mangiare",
+    "relation_type": "azioni",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "merenda",
+    "relation_type": "azioni",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "cucina",
+    "relation_type": "azioni",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "forno",
+    "relation_type": "luoghi",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "cucina",
+    "relation_type": "luoghi",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "tavola",
+    "relation_type": "luoghi",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "nutrimento",
+    "relation_type": "effetti",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "piacere",
+    "relation_type": "effetti",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "energia",
+    "relation_type": "effetti",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "spiaggia",
+    "relation_type": "evocativa",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "estate",
+    "relation_type": "evocativa",
+    "association_strength": 0.35
+  }
+]

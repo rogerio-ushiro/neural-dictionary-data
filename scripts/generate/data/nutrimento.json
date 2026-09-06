@@ -1,0 +1,147 @@
+[
+  {
+    "lemma": "alimento",
+    "relation_type": "categoria",
+    "association_strength": 0.75
+  },
+  {
+    "lemma": "cibo",
+    "relation_type": "categoria",
+    "association_strength": 0.7
+  },
+  {
+    "lemma": "vitto",
+    "relation_type": "categoria",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "energia",
+    "relation_type": "similarità",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "pasto",
+    "relation_type": "similarità",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "energia",
+    "relation_type": "effetti",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "vita",
+    "relation_type": "effetti",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "vigore",
+    "relation_type": "effetti",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "vitalità",
+    "relation_type": "effetti",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "cibo",
+    "relation_type": "cause",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "fotosintesi",
+    "relation_type": "cause",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "coltivazione",
+    "relation_type": "cause",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "allattamento",
+    "relation_type": "cause",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "organismo",
+    "relation_type": "esseri_viventi",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "pianta",
+    "relation_type": "esseri_viventi",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "animale",
+    "relation_type": "esseri_viventi",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "uomo",
+    "relation_type": "esseri_viventi",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "fame",
+    "relation_type": "contrasto",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "deperimento",
+    "relation_type": "contrasto",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "mancanza",
+    "relation_type": "contrasto",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "suolo",
+    "relation_type": "luoghi",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "terra",
+    "relation_type": "luoghi",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "campo",
+    "relation_type": "luoghi",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "essenza",
+    "relation_type": "proprietà",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "freschezza",
+    "relation_type": "proprietà",
+    "association_strength": 0.35
+  },
+  {
+    "lemma": "mangiare",
+    "relation_type": "azioni",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "propagazione",
+    "relation_type": "azioni",
+    "association_strength": 0.35
+  },
+  {
+    "lemma": "madre",
+    "relation_type": "evocativa",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "natura",
+    "relation_type": "evocativa",
+    "association_strength": 0.4
+  }
+]

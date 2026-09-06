@@ -1,0 +1,122 @@
+[
+  {
+    "lemma": "portata",
+    "relation_type": "categoria",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "vivanda",
+    "relation_type": "categoria",
+    "association_strength": 0.65
+  },
+  {
+    "lemma": "cibo",
+    "relation_type": "categoria",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "pasto",
+    "relation_type": "similarità",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "alimento",
+    "relation_type": "similarità",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "ingrediente",
+    "relation_type": "parti",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "vegetale",
+    "relation_type": "parti",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "pasta",
+    "relation_type": "costituzione",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "farina",
+    "relation_type": "costituzione",
+    "association_strength": 0.35
+  },
+  {
+    "lemma": "mangiare",
+    "relation_type": "azioni",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "cucina",
+    "relation_type": "azioni",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "ricetta",
+    "relation_type": "azioni",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "sapore",
+    "relation_type": "proprietà",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "profumo",
+    "relation_type": "proprietà",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "gusto",
+    "relation_type": "proprietà",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "tavola",
+    "relation_type": "luoghi",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "cucina",
+    "relation_type": "luoghi",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "banchetto",
+    "relation_type": "luoghi",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "piacere",
+    "relation_type": "effetti",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "nutrimento",
+    "relation_type": "effetti",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "commensale",
+    "relation_type": "esseri_viventi",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "festa",
+    "relation_type": "evocativa",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "convivio",
+    "relation_type": "evocativa",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "famiglia",
+    "relation_type": "evocativa",
+    "association_strength": 0.4
+  }
+]

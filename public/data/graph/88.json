@@ -519,6 +519,26 @@
       "confidence": 0.85,
       "status": "candidate",
       "revision": 1
+    },
+    {
+      "concept_a": "c_0056",
+      "concept_b": "c_0413",
+      "relation_type": "parti",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0056",
+      "concept_b": "c_0437",
+      "relation_type": "similarità",
+      "direction_hint": "symmetric",
+      "association_strength": 0.3,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
     }
   ],
   "word_senses": {

@@ -1,0 +1,132 @@
+[
+  {
+    "lemma": "cibo",
+    "relation_type": "categoria",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "banchetto",
+    "relation_type": "categoria",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "convivio",
+    "relation_type": "categoria",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "portata",
+    "relation_type": "parti",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "pietanza",
+    "relation_type": "parti",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "dessert",
+    "relation_type": "parti",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "pane",
+    "relation_type": "parti",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "merenda",
+    "relation_type": "similarità",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "mangiare",
+    "relation_type": "azioni",
+    "association_strength": 0.7
+  },
+  {
+    "lemma": "cenare",
+    "relation_type": "azioni",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "cucina",
+    "relation_type": "azioni",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "tavola",
+    "relation_type": "luoghi",
+    "association_strength": 0.7
+  },
+  {
+    "lemma": "cucina",
+    "relation_type": "luoghi",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "casa",
+    "relation_type": "luoghi",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "sapore",
+    "relation_type": "proprietà",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "durata",
+    "relation_type": "proprietà",
+    "association_strength": 0.35
+  },
+  {
+    "lemma": "caldo",
+    "relation_type": "proprietà",
+    "association_strength": 0.35
+  },
+  {
+    "lemma": "piacere",
+    "relation_type": "effetti",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "nutrimento",
+    "relation_type": "effetti",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "energia",
+    "relation_type": "effetti",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "commensale",
+    "relation_type": "esseri_viventi",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "famiglia",
+    "relation_type": "esseri_viventi",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "fame",
+    "relation_type": "contrasto",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "scarsità",
+    "relation_type": "contrasto",
+    "association_strength": 0.35
+  },
+  {
+    "lemma": "ritmo",
+    "relation_type": "evocativa",
+    "association_strength": 0.35
+  },
+  {
+    "lemma": "festa",
+    "relation_type": "evocativa",
+    "association_strength": 0.35
+  }
+]

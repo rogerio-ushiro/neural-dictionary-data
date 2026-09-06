@@ -1,0 +1,117 @@
+[
+  {
+    "lemma": "componente",
+    "relation_type": "categoria",
+    "association_strength": 0.65
+  },
+  {
+    "lemma": "elemento",
+    "relation_type": "categoria",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "sostanza",
+    "relation_type": "categoria",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "ricetta",
+    "relation_type": "parti",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "pietanza",
+    "relation_type": "parti",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "impasto",
+    "relation_type": "parti",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "farina",
+    "relation_type": "similarità",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "farina",
+    "relation_type": "oggetti",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "acqua",
+    "relation_type": "oggetti",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "lievito",
+    "relation_type": "oggetti",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "vaniglia",
+    "relation_type": "oggetti",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "cucina",
+    "relation_type": "azioni",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "mangiare",
+    "relation_type": "azioni",
+    "association_strength": 0.35
+  },
+  {
+    "lemma": "freschezza",
+    "relation_type": "proprietà",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "sapore",
+    "relation_type": "proprietà",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "qualità",
+    "relation_type": "proprietà",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "profumo",
+    "relation_type": "effetti",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "gusto",
+    "relation_type": "effetti",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "risultato",
+    "relation_type": "effetti",
+    "association_strength": 0.35
+  },
+  {
+    "lemma": "cucina",
+    "relation_type": "luoghi",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "orto",
+    "relation_type": "luoghi",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "tavola",
+    "relation_type": "luoghi",
+    "association_strength": 0.35
+  },
+  {
+    "lemma": "natura",
+    "relation_type": "evocativa",
+    "association_strength": 0.35
+  }
+]

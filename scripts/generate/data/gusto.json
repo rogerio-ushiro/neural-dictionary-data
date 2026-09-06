@@ -1,0 +1,122 @@
+[
+  {
+    "lemma": "sensazione",
+    "relation_type": "categoria",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "sapore",
+    "relation_type": "categoria",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "facoltà",
+    "relation_type": "categoria",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "scelta",
+    "relation_type": "similarità",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "passione",
+    "relation_type": "similarità",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "bocca",
+    "relation_type": "luoghi",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "tavola",
+    "relation_type": "luoghi",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "cucina",
+    "relation_type": "luoghi",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "cibo",
+    "relation_type": "cause",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "sapore",
+    "relation_type": "cause",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "profumo",
+    "relation_type": "cause",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "pietanza",
+    "relation_type": "cause",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "piacere",
+    "relation_type": "effetti",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "armonia",
+    "relation_type": "effetti",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "delicato",
+    "relation_type": "proprietà",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "originalità",
+    "relation_type": "proprietà",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "mangiare",
+    "relation_type": "azioni",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "riflessione",
+    "relation_type": "azioni",
+    "association_strength": 0.35
+  },
+  {
+    "lemma": "indifferenza",
+    "relation_type": "contrasto",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "ludibrio",
+    "relation_type": "contrasto",
+    "association_strength": 0.35
+  },
+  {
+    "lemma": "estimatore",
+    "relation_type": "esseri_viventi",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "commensale",
+    "relation_type": "esseri_viventi",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "bellezza",
+    "relation_type": "evocativa",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "opera",
+    "relation_type": "evocativa",
+    "association_strength": 0.35
+  }
+]

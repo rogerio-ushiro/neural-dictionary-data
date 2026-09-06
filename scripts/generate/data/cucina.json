@@ -1,0 +1,132 @@
+[
+  {
+    "lemma": "stanza",
+    "relation_type": "categoria",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "locale",
+    "relation_type": "categoria",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "ambiente",
+    "relation_type": "categoria",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "forno",
+    "relation_type": "parti",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "tavola",
+    "relation_type": "parti",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "focolare",
+    "relation_type": "parti",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "fuoco",
+    "relation_type": "parti",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "cibo",
+    "relation_type": "contenuto",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "pietanza",
+    "relation_type": "contenuto",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "ricetta",
+    "relation_type": "contenuto",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "ingrediente",
+    "relation_type": "contenuto",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "mangiare",
+    "relation_type": "azioni",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "cenare",
+    "relation_type": "azioni",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "cura",
+    "relation_type": "azioni",
+    "association_strength": 0.35
+  },
+  {
+    "lemma": "nonna",
+    "relation_type": "esseri_viventi",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "madre",
+    "relation_type": "esseri_viventi",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "famiglia",
+    "relation_type": "esseri_viventi",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "profumo",
+    "relation_type": "proprietà",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "calore",
+    "relation_type": "proprietà",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "sapore",
+    "relation_type": "proprietà",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "casa",
+    "relation_type": "luoghi",
+    "association_strength": 0.65
+  },
+  {
+    "lemma": "alloggio",
+    "relation_type": "luoghi",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "nutrimento",
+    "relation_type": "effetti",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "piacere",
+    "relation_type": "effetti",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "convivio",
+    "relation_type": "effetti",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "focolare",
+    "relation_type": "evocativa",
+    "association_strength": 0.4
+  }
+]
