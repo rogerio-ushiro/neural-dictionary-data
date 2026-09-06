@@ -1,0 +1,293 @@
+{
+  "pack": "graph.30",
+  "from": 0,
+  "to": 2,
+  "ops": [
+    {
+      "op": "ADD_CONCEPT",
+      "concept_id": "c_0027",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Parte della pianta, spesso colorata e profumata, da cui si sviluppa il frutto; si regala e si usa per ornare.",
+          "example": "Ha colto un fiore di campo e se l'è messo tra i capelli."
+        }
+      }
+    },
+    {
+      "op": "ADD_CONCEPT",
+      "concept_id": "c_0092",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Lingua di gas incandescente che si alza da qualcosa che brucia.",
+          "example": "La fiamma della candela tremolava alla corrente."
+        }
+      }
+    },
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0005",
+        "concept_b": "c_0092",
+        "relation_type": "associata",
+        "direction_hint": "symmetric",
+        "association_strength": 0.65,
+        "confidence": 1,
+        "status": "validated",
+        "revision": 1
+      }
+    },
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0021",
+        "concept_b": "c_0027",
+        "relation_type": "associata",
+        "direction_hint": "symmetric",
+        "association_strength": 0.4,
+        "confidence": 1,
+        "status": "validated",
+        "revision": 1
+      }
+    },
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0025",
+        "concept_b": "c_0027",
+        "relation_type": "associata",
+        "direction_hint": "symmetric",
+        "association_strength": 0.65,
+        "confidence": 1,
+        "status": "validated",
+        "revision": 1
+      }
+    },
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0027",
+        "concept_b": "c_0086",
+        "relation_type": "associata",
+        "direction_hint": "symmetric",
+        "association_strength": 0.65,
+        "confidence": 1,
+        "status": "validated",
+        "revision": 1
+      }
+    },
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0027",
+        "concept_b": "c_0298",
+        "relation_type": "associata",
+        "direction_hint": "symmetric",
+        "association_strength": 0.4,
+        "confidence": 1,
+        "status": "validated",
+        "revision": 1
+      }
+    },
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0027",
+        "concept_b": "c_0300",
+        "relation_type": "associata",
+        "direction_hint": "symmetric",
+        "association_strength": 0.65,
+        "confidence": 1,
+        "status": "validated",
+        "revision": 1
+      }
+    },
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0027",
+        "concept_b": "c_0339",
+        "relation_type": "associata",
+        "direction_hint": "symmetric",
+        "association_strength": 0.65,
+        "confidence": 1,
+        "status": "validated",
+        "revision": 1
+      }
+    },
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0027",
+        "concept_b": "c_0352",
+        "relation_type": "associata",
+        "direction_hint": "symmetric",
+        "association_strength": 0.65,
+        "confidence": 1,
+        "status": "validated",
+        "revision": 1
+      }
+    },
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0027",
+        "concept_b": "c_0356",
+        "relation_type": "associata",
+        "direction_hint": "symmetric",
+        "association_strength": 0.9,
+        "confidence": 1,
+        "status": "validated",
+        "revision": 1
+      }
+    },
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0027",
+        "concept_b": "c_0357",
+        "relation_type": "associata",
+        "direction_hint": "symmetric",
+        "association_strength": 0.65,
+        "confidence": 1,
+        "status": "validated",
+        "revision": 1
+      }
+    },
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0027",
+        "concept_b": "c_0358",
+        "relation_type": "associata",
+        "direction_hint": "symmetric",
+        "association_strength": 0.65,
+        "confidence": 1,
+        "status": "validated",
+        "revision": 1
+      }
+    },
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0027",
+        "concept_b": "c_0359",
+        "relation_type": "associata",
+        "direction_hint": "symmetric",
+        "association_strength": 0.65,
+        "confidence": 1,
+        "status": "validated",
+        "revision": 1
+      }
+    },
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0027",
+        "concept_b": "c_0360",
+        "relation_type": "associata",
+        "direction_hint": "symmetric",
+        "association_strength": 0.65,
+        "confidence": 1,
+        "status": "validated",
+        "revision": 1
+      }
+    },
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0027",
+        "concept_b": "c_0361",
+        "relation_type": "associata",
+        "direction_hint": "symmetric",
+        "association_strength": 0.65,
+        "confidence": 1,
+        "status": "validated",
+        "revision": 1
+      }
+    },
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0027",
+        "concept_b": "c_0362",
+        "relation_type": "associata",
+        "direction_hint": "symmetric",
+        "association_strength": 0.65,
+        "confidence": 1,
+        "status": "validated",
+        "revision": 1
+      }
+    },
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0027",
+        "concept_b": "c_0363",
+        "relation_type": "associata",
+        "direction_hint": "symmetric",
+        "association_strength": 0.65,
+        "confidence": 1,
+        "status": "validated",
+        "revision": 1
+      }
+    },
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0027",
+        "concept_b": "c_0364",
+        "relation_type": "associata",
+        "direction_hint": "symmetric",
+        "association_strength": 0.65,
+        "confidence": 1,
+        "status": "validated",
+        "revision": 1
+      }
+    },
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0027",
+        "concept_b": "c_0365",
+        "relation_type": "associata",
+        "direction_hint": "symmetric",
+        "association_strength": 0.65,
+        "confidence": 1,
+        "status": "validated",
+        "revision": 1
+      }
+    },
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0065",
+        "concept_b": "c_0092",
+        "relation_type": "associata",
+        "direction_hint": "symmetric",
+        "association_strength": 0.65,
+        "confidence": 1,
+        "status": "validated",
+        "revision": 1
+      }
+    },
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0080",
+        "concept_b": "c_0092",
+        "relation_type": "associata",
+        "direction_hint": "symmetric",
+        "association_strength": 0.65,
+        "confidence": 1,
+        "status": "validated",
+        "revision": 1
+      }
+    }
+  ]
+}

@@ -1,0 +1,345 @@
+{
+  "pack": "graph.62",
+  "from": 0,
+  "to": 7,
+  "ops": [
+    {
+      "op": "ADD_CONCEPT",
+      "concept_id": "c_0058",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "La striscia di terra a ridosso dell'acqua di un mare, di un lago o di un fiume.",
+          "example": "Tirarono la barca in secco sulla riva."
+        }
+      }
+    },
+    {
+      "op": "ADD_CONCEPT",
+      "concept_id": "c_0454",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Frutto dolce e succoso, più stretto in alto e largo in basso, dalla polpa granulosa.",
+          "example": "Ha sbucciato una pera matura per il bambino."
+        }
+      }
+    },
+    {
+      "op": "ADD_CONCEPT",
+      "concept_id": "c_0627",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Il passaggio graduale da uno stato a un altro.",
+          "example": "Il crepuscolo è la transizione tra il giorno e la notte."
+        }
+      }
+    },
+    {
+      "op": "ADD_CONCEPT",
+      "concept_id": "c_0740",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Piccolo gruppo di case, il centro originario di un abitato.",
+          "example": "Il nucleo antico del paese è tutto in pietra."
+        }
+      }
+    },
+    {
+      "op": "ADD_CONCEPT",
+      "concept_id": "c_0982",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Il pregio di ciò che è nuovo e non imitato da altri.",
+          "example": "La sua musica colpisce per l'originalità."
+        }
+      }
+    },
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0002",
+        "concept_b": "c_0058",
+        "relation_type": "associata",
+        "direction_hint": "symmetric",
+        "association_strength": 0.9,
+        "confidence": 1,
+        "status": "validated",
+        "revision": 1
+      }
+    },
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0028",
+        "concept_b": "c_0058",
+        "relation_type": "associata",
+        "direction_hint": "symmetric",
+        "association_strength": 0.4,
+        "confidence": 1,
+        "status": "validated",
+        "revision": 1
+      }
+    },
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0032",
+        "concept_b": "c_0058",
+        "relation_type": "associata",
+        "direction_hint": "symmetric",
+        "association_strength": 0.4,
+        "confidence": 1,
+        "status": "validated",
+        "revision": 1
+      }
+    },
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0035",
+        "concept_b": "c_0454",
+        "relation_type": "associata",
+        "direction_hint": "symmetric",
+        "association_strength": 0.65,
+        "confidence": 1,
+        "status": "validated",
+        "revision": 1
+      }
+    },
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0043",
+        "concept_b": "c_0058",
+        "relation_type": "associata",
+        "direction_hint": "symmetric",
+        "association_strength": 0.9,
+        "confidence": 1,
+        "status": "validated",
+        "revision": 1
+      }
+    },
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0046",
+        "concept_b": "c_0058",
+        "relation_type": "associata",
+        "direction_hint": "symmetric",
+        "association_strength": 0.65,
+        "confidence": 1,
+        "status": "validated",
+        "revision": 1
+      }
+    },
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0055",
+        "concept_b": "c_0058",
+        "relation_type": "associata",
+        "direction_hint": "symmetric",
+        "association_strength": 0.65,
+        "confidence": 1,
+        "status": "validated",
+        "revision": 1
+      }
+    },
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0058",
+        "concept_b": "c_0175",
+        "relation_type": "associata",
+        "direction_hint": "symmetric",
+        "association_strength": 0.4,
+        "confidence": 1,
+        "status": "validated",
+        "revision": 1
+      }
+    },
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0058",
+        "concept_b": "c_0416",
+        "relation_type": "associata",
+        "direction_hint": "symmetric",
+        "association_strength": 0.65,
+        "confidence": 1,
+        "status": "validated",
+        "revision": 1
+      }
+    },
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0058",
+        "concept_b": "c_0539",
+        "relation_type": "associata",
+        "direction_hint": "symmetric",
+        "association_strength": 0.9,
+        "confidence": 1,
+        "status": "validated",
+        "revision": 1
+      }
+    },
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0058",
+        "concept_b": "c_0542",
+        "relation_type": "associata",
+        "direction_hint": "symmetric",
+        "association_strength": 0.65,
+        "confidence": 1,
+        "status": "validated",
+        "revision": 1
+      }
+    },
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0058",
+        "concept_b": "c_0543",
+        "relation_type": "associata",
+        "direction_hint": "symmetric",
+        "association_strength": 0.65,
+        "confidence": 1,
+        "status": "validated",
+        "revision": 1
+      }
+    },
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0058",
+        "concept_b": "c_0547",
+        "relation_type": "associata",
+        "direction_hint": "symmetric",
+        "association_strength": 0.4,
+        "confidence": 1,
+        "status": "validated",
+        "revision": 1
+      }
+    },
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0058",
+        "concept_b": "c_0549",
+        "relation_type": "associata",
+        "direction_hint": "symmetric",
+        "association_strength": 0.65,
+        "confidence": 1,
+        "status": "validated",
+        "revision": 1
+      }
+    },
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0058",
+        "concept_b": "c_0589",
+        "relation_type": "associata",
+        "direction_hint": "symmetric",
+        "association_strength": 0.65,
+        "confidence": 1,
+        "status": "validated",
+        "revision": 1
+      }
+    },
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0058",
+        "concept_b": "c_0590",
+        "relation_type": "associata",
+        "direction_hint": "symmetric",
+        "association_strength": 0.65,
+        "confidence": 1,
+        "status": "validated",
+        "revision": 1
+      }
+    },
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0075",
+        "concept_b": "c_0627",
+        "relation_type": "associata",
+        "direction_hint": "symmetric",
+        "association_strength": 0.65,
+        "confidence": 1,
+        "status": "validated",
+        "revision": 1
+      }
+    },
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0164",
+        "concept_b": "c_0740",
+        "relation_type": "associata",
+        "direction_hint": "symmetric",
+        "association_strength": 0.65,
+        "confidence": 1,
+        "status": "validated",
+        "revision": 1
+      }
+    },
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0353",
+        "concept_b": "c_0454",
+        "relation_type": "associata",
+        "direction_hint": "symmetric",
+        "association_strength": 0.65,
+        "confidence": 1,
+        "status": "validated",
+        "revision": 1
+      }
+    },
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0390",
+        "concept_b": "c_0982",
+        "relation_type": "associata",
+        "direction_hint": "symmetric",
+        "association_strength": 0.65,
+        "confidence": 1,
+        "status": "validated",
+        "revision": 1
+      }
+    },
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0049",
+        "concept_b": "c_0058",
+        "relation_type": "luoghi",
+        "direction_hint": "symmetric",
+        "association_strength": 0.6,
+        "confidence": 0.8,
+        "status": "validated",
+        "revision": 2
+      }
+    }
+  ]
+}

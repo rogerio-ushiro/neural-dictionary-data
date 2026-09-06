@@ -1,0 +1,150 @@
+{
+  "pack": "graph.89",
+  "from": 0,
+  "to": 2,
+  "ops": [
+    {
+      "op": "ADD_CONCEPT",
+      "concept_id": "c_0275",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Compagno con cui si è condiviso il servizio militare o un'esperienza di gruppo.",
+          "example": "Si ritrovano ogni anno con i vecchi camerati di leva."
+        }
+      }
+    },
+    {
+      "op": "ADD_CONCEPT",
+      "concept_id": "c_0341",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Terreno coltivato a ortaggi per il consumo familiare.",
+          "example": "Nell'orto ha piantato zucchine, pomodori e insalata."
+        }
+      }
+    },
+    {
+      "op": "ADD_CONCEPT",
+      "concept_id": "c_0525",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Nelle prime ore del giorno, prima del solito.",
+          "example": "Si alza presto anche la domenica."
+        }
+      }
+    },
+    {
+      "op": "ADD_CONCEPT",
+      "concept_id": "c_0598",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Sostanza scura che colora la pelle e la protegge dai raggi del sole.",
+          "example": "La melanina aumenta con l'esposizione al sole."
+        }
+      }
+    },
+    {
+      "op": "ADD_CONCEPT",
+      "concept_id": "c_0811",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Vasta estensione di terreno piatto.",
+          "example": "La pianura si stende a perdita d'occhio tra i due fiumi."
+        }
+      }
+    },
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0019",
+        "concept_b": "c_0275",
+        "relation_type": "associata",
+        "direction_hint": "symmetric",
+        "association_strength": 0.9,
+        "confidence": 1,
+        "status": "validated",
+        "revision": 1
+      }
+    },
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0025",
+        "concept_b": "c_0341",
+        "relation_type": "associata",
+        "direction_hint": "symmetric",
+        "association_strength": 0.65,
+        "confidence": 1,
+        "status": "validated",
+        "revision": 1
+      }
+    },
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0040",
+        "concept_b": "c_0525",
+        "relation_type": "associata",
+        "direction_hint": "symmetric",
+        "association_strength": 0.4,
+        "confidence": 1,
+        "status": "validated",
+        "revision": 1
+      }
+    },
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0060",
+        "concept_b": "c_0598",
+        "relation_type": "associata",
+        "direction_hint": "symmetric",
+        "association_strength": 0.65,
+        "confidence": 1,
+        "status": "validated",
+        "revision": 1
+      }
+    },
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0273",
+        "concept_b": "c_0275",
+        "relation_type": "associata",
+        "direction_hint": "symmetric",
+        "association_strength": 0.65,
+        "confidence": 1,
+        "status": "validated",
+        "revision": 1
+      }
+    },
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0298",
+        "concept_b": "c_0811",
+        "relation_type": "associata",
+        "direction_hint": "symmetric",
+        "association_strength": 0.4,
+        "confidence": 1,
+        "status": "validated",
+        "revision": 1
+      }
+    }
+  ]
+}

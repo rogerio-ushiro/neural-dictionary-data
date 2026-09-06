@@ -1,0 +1,189 @@
+{
+  "pack": "graph.d5",
+  "from": 0,
+  "to": 2,
+  "ops": [
+    {
+      "op": "ADD_CONCEPT",
+      "concept_id": "c_0271",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Raccolta ordinata di leggi o di regole; anche un lungo manoscritto antico.",
+          "example": "Il codice della strada punisce quell'infrazione con una multa."
+        }
+      }
+    },
+    {
+      "op": "ADD_CONCEPT",
+      "concept_id": "c_0345",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Stato d'animo calmo e limpido, senza turbamenti.",
+          "example": "Il giardino gli trasmetteva una grande serenità."
+        }
+      }
+    },
+    {
+      "op": "ADD_CONCEPT",
+      "concept_id": "c_0468",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Gelato morbido e spumoso servito a fette.",
+          "example": "A fine cena portarono uno spumone al torroncino."
+        }
+      }
+    },
+    {
+      "op": "ADD_CONCEPT",
+      "concept_id": "c_0521",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Il comparire delle prime luci del mattino.",
+          "example": "All'albeggiare i galli cominciarono a cantare."
+        }
+      }
+    },
+    {
+      "op": "ADD_CONCEPT",
+      "concept_id": "c_0639",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Nebbia leggera che vela il paesaggio.",
+          "example": "Una foschia dorata avvolgeva la campagna al mattino."
+        }
+      }
+    },
+    {
+      "op": "ADD_CONCEPT",
+      "concept_id": "c_0815",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "L'insieme delle condizioni naturali e sociali in cui si vive; anche il clima morale di un luogo.",
+          "example": "Bisogna proteggere l'ambiente dall'inquinamento."
+        }
+      }
+    },
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0018",
+        "concept_b": "c_0271",
+        "relation_type": "associata",
+        "direction_hint": "symmetric",
+        "association_strength": 0.65,
+        "confidence": 1,
+        "status": "validated",
+        "revision": 1
+      }
+    },
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0025",
+        "concept_b": "c_0345",
+        "relation_type": "associata",
+        "direction_hint": "symmetric",
+        "association_strength": 0.4,
+        "confidence": 1,
+        "status": "validated",
+        "revision": 1
+      }
+    },
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0036",
+        "concept_b": "c_0468",
+        "relation_type": "associata",
+        "direction_hint": "symmetric",
+        "association_strength": 0.9,
+        "confidence": 1,
+        "status": "validated",
+        "revision": 1
+      }
+    },
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0040",
+        "concept_b": "c_0521",
+        "relation_type": "associata",
+        "direction_hint": "symmetric",
+        "association_strength": 0.9,
+        "confidence": 1,
+        "status": "validated",
+        "revision": 1
+      }
+    },
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0078",
+        "concept_b": "c_0639",
+        "relation_type": "associata",
+        "direction_hint": "symmetric",
+        "association_strength": 0.4,
+        "confidence": 1,
+        "status": "validated",
+        "revision": 1
+      }
+    },
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0300",
+        "concept_b": "c_0815",
+        "relation_type": "associata",
+        "direction_hint": "symmetric",
+        "association_strength": 0.9,
+        "confidence": 1,
+        "status": "validated",
+        "revision": 1
+      }
+    },
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0345",
+        "concept_b": "c_0516",
+        "relation_type": "associata",
+        "direction_hint": "symmetric",
+        "association_strength": 0.9,
+        "confidence": 1,
+        "status": "validated",
+        "revision": 1
+      }
+    },
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0387",
+        "concept_b": "c_0815",
+        "relation_type": "associata",
+        "direction_hint": "symmetric",
+        "association_strength": 0.65,
+        "confidence": 1,
+        "status": "validated",
+        "revision": 1
+      }
+    }
+  ]
+}

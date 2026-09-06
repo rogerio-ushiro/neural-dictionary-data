@@ -1,0 +1,111 @@
+{
+  "pack": "graph.37",
+  "from": 0,
+  "to": 4,
+  "ops": [
+    {
+      "op": "ADD_CONCEPT",
+      "concept_id": "c_0202",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Stirpe, discendenza di una famiglia (spesso con valore spregiativo).",
+          "example": "Veniva da una schiatta di prepotenti, dicevano in paese."
+        }
+      }
+    },
+    {
+      "op": "ADD_CONCEPT",
+      "concept_id": "c_0552",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Spazio vuoto all'interno di un corpo o del terreno.",
+          "example": "Il torrente ha scavato una cavità nella parete."
+        }
+      }
+    },
+    {
+      "op": "ADD_CONCEPT",
+      "concept_id": "c_1021",
+      "concept": {
+        "revision": 2,
+        "region_id": "r_natura",
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Piccolo animale marino che vive in colonie e forma scogliere ramificate.",
+          "example": "Nuotando sopra la barriera vedeva il corallo rosa e giallo."
+        }
+      }
+    },
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0013",
+        "concept_b": "c_0202",
+        "relation_type": "associata",
+        "direction_hint": "symmetric",
+        "association_strength": 0.65,
+        "confidence": 1,
+        "status": "validated",
+        "revision": 1
+      }
+    },
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0044",
+        "concept_b": "c_0552",
+        "relation_type": "associata",
+        "direction_hint": "symmetric",
+        "association_strength": 0.4,
+        "confidence": 1,
+        "status": "validated",
+        "revision": 1
+      }
+    },
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0200",
+        "concept_b": "c_0202",
+        "relation_type": "associata",
+        "direction_hint": "symmetric",
+        "association_strength": 0.65,
+        "confidence": 1,
+        "status": "validated",
+        "revision": 1
+      }
+    },
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0202",
+        "concept_b": "c_0203",
+        "relation_type": "associata",
+        "direction_hint": "symmetric",
+        "association_strength": 0.9,
+        "confidence": 1,
+        "status": "validated",
+        "revision": 1
+      }
+    },
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0050",
+        "concept_b": "c_1021",
+        "relation_type": "contenuto",
+        "direction_hint": "symmetric",
+        "association_strength": 0.65,
+        "confidence": 0.85,
+        "status": "validated",
+        "revision": 2
+      }
+    }
+  ]
+}

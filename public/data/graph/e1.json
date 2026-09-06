@@ -27,15 +27,6 @@
         "text": "Che nasce da un impulso naturale e non da riflessione.",
         "example": "Ebbe una reazione istintiva di paura."
       }
-    },
-    "c_1034": {
-      "revision": 2,
-      "region_id": null,
-      "status_fronteira": "needs_expansion",
-      "definition": {
-        "text": "L'alzarsi e abbassarsi periodico del livello del mare lungo le coste.",
-        "example": "Con la bassa marea si può camminare fino allo scoglio."
-      }
     }
   },
   "associations": [
@@ -88,16 +79,6 @@
       "confidence": 1,
       "status": "validated",
       "revision": 1
-    },
-    {
-      "concept_a": "c_0057",
-      "concept_b": "c_1034",
-      "relation_type": "fenomeni",
-      "direction_hint": "symmetric",
-      "association_strength": 0.75,
-      "confidence": 0.85,
-      "status": "validated",
-      "revision": 2
     }
   ],
   "word_senses": {
@@ -118,12 +99,6 @@
       "lexeme_kind": "word",
       "concept_id": "c_0842",
       "is_primary": true
-    },
-    "s_1034": {
-      "lexeme_id": "w_1034",
-      "lexeme_kind": "word",
-      "concept_id": "c_1034",
-      "is_primary": true
     }
   },
   "words": {
@@ -140,11 +115,6 @@
     "w_0842": {
       "display_form": "istintivo",
       "normalized_form": "istintivo",
-      "pos": null
-    },
-    "w_1034": {
-      "display_form": "marea",
-      "normalized_form": "marea",
       "pos": null
     }
   },

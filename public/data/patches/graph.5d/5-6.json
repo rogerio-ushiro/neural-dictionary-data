@@ -1,0 +1,13 @@
+{
+  "pack": "graph.5d",
+  "from": 5,
+  "to": 6,
+  "ops": [
+    {
+      "op": "REMOVE_ASSOCIATION",
+      "concept_a": "c_0053",
+      "concept_b": "c_1023",
+      "relation_type": "esseri_viventi"
+    }
+  ]
+}

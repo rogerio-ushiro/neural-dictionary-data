@@ -1,0 +1,228 @@
+{
+  "pack": "graph.28",
+  "from": 0,
+  "to": 4,
+  "ops": [
+    {
+      "op": "ADD_CONCEPT",
+      "concept_id": "c_0049",
+      "concept": {
+        "revision": 3,
+        "region_id": null,
+        "status_fronteira": "expanded",
+        "definition": {
+          "text": "Piccola imbarcazione a remi, a vela o a motore, usata per la pesca o per brevi tragitti sull'acqua.",
+          "example": "Hanno noleggiato una barca per fare il giro del lago."
+        }
+      }
+    },
+    {
+      "op": "ADD_CONCEPT",
+      "concept_id": "c_0311",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Struttura portante di una bicicletta o di una macchina, a cui si fissano le altre parti.",
+          "example": "Il telaio in alluminio rende la bici leggerissima."
+        }
+      }
+    },
+    {
+      "op": "ADD_CONCEPT",
+      "concept_id": "c_0386",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "L'azione di togliere lo sporco con acqua; al figurato, un ripulire da colpe o accuse.",
+          "example": "Una bella pioggia ha dato un lavaggio a tutta la città."
+        }
+      }
+    },
+    {
+      "op": "ADD_CONCEPT",
+      "concept_id": "c_0841",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Piccolo animale col corpo diviso in tre parti e sei zampe, come la formica e la mosca.",
+          "example": "Un insetto ronzava contro il vetro della lampada."
+        }
+      }
+    },
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0001",
+        "concept_b": "c_0049",
+        "relation_type": "associata",
+        "direction_hint": "symmetric",
+        "association_strength": 0.65,
+        "confidence": 1,
+        "status": "validated",
+        "revision": 1
+      }
+    },
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0022",
+        "concept_b": "c_0311",
+        "relation_type": "associata",
+        "direction_hint": "symmetric",
+        "association_strength": 0.65,
+        "confidence": 1,
+        "status": "validated",
+        "revision": 1
+      }
+    },
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0029",
+        "concept_b": "c_0386",
+        "relation_type": "associata",
+        "direction_hint": "symmetric",
+        "association_strength": 0.4,
+        "confidence": 1,
+        "status": "validated",
+        "revision": 1
+      }
+    },
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0319",
+        "concept_b": "c_0841",
+        "relation_type": "associata",
+        "direction_hint": "symmetric",
+        "association_strength": 0.65,
+        "confidence": 1,
+        "status": "validated",
+        "revision": 1
+      }
+    },
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0047",
+        "concept_b": "c_0049",
+        "relation_type": "similarità",
+        "direction_hint": "symmetric",
+        "association_strength": 0.6,
+        "confidence": 0.8,
+        "status": "validated",
+        "revision": 2
+      }
+    },
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0049",
+        "concept_b": "c_1008",
+        "relation_type": "categoria",
+        "direction_hint": "symmetric",
+        "association_strength": 0.85,
+        "confidence": 0.9,
+        "status": "validated",
+        "revision": 2
+      }
+    },
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0049",
+        "concept_b": "c_1014",
+        "relation_type": "parti",
+        "direction_hint": "symmetric",
+        "association_strength": 0.7,
+        "confidence": 0.85,
+        "status": "validated",
+        "revision": 2
+      }
+    },
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0049",
+        "concept_b": "c_0573",
+        "relation_type": "parti",
+        "direction_hint": "symmetric",
+        "association_strength": 0.65,
+        "confidence": 0.8,
+        "status": "validated",
+        "revision": 2
+      }
+    },
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0049",
+        "concept_b": "c_1015",
+        "relation_type": "esseri_viventi",
+        "direction_hint": "symmetric",
+        "association_strength": 0.65,
+        "confidence": 0.8,
+        "status": "validated",
+        "revision": 2
+      }
+    },
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0049",
+        "concept_b": "c_1016",
+        "relation_type": "azioni",
+        "direction_hint": "symmetric",
+        "association_strength": 0.75,
+        "confidence": 0.85,
+        "status": "validated",
+        "revision": 2
+      }
+    },
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0049",
+        "concept_b": "c_1017",
+        "relation_type": "proprietà",
+        "direction_hint": "symmetric",
+        "association_strength": 0.55,
+        "confidence": 0.7,
+        "status": "validated",
+        "revision": 2
+      }
+    },
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0049",
+        "concept_b": "c_0058",
+        "relation_type": "luoghi",
+        "direction_hint": "symmetric",
+        "association_strength": 0.6,
+        "confidence": 0.8,
+        "status": "validated",
+        "revision": 2
+      }
+    },
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0049",
+        "concept_b": "c_1018",
+        "relation_type": "azioni",
+        "direction_hint": "symmetric",
+        "association_strength": 0.6,
+        "confidence": 0.75,
+        "status": "validated",
+        "revision": 2
+      }
+    }
+  ]
+}

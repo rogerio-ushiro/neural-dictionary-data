@@ -1,0 +1,68 @@
+{
+  "pack": "graph.1b",
+  "from": 4,
+  "to": 5,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0057",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "La striscia di sabbia bagnata dove le onde si spingono e si ritirano.",
+          "example": "Passeggiavano scalzi sulla battigia."
+        }
+      }
+    },
+    {
+      "op": "REMOVE_ASSOCIATION",
+      "concept_a": "c_0057",
+      "concept_b": "c_1033",
+      "relation_type": "categoria"
+    },
+    {
+      "op": "REMOVE_ASSOCIATION",
+      "concept_a": "c_0042",
+      "concept_b": "c_0057",
+      "relation_type": "cause"
+    },
+    {
+      "op": "REMOVE_ASSOCIATION",
+      "concept_a": "c_0057",
+      "concept_b": "c_0058",
+      "relation_type": "similarità"
+    },
+    {
+      "op": "REMOVE_ASSOCIATION",
+      "concept_a": "c_0057",
+      "concept_b": "c_1020",
+      "relation_type": "contenuto"
+    },
+    {
+      "op": "REMOVE_ASSOCIATION",
+      "concept_a": "c_0057",
+      "concept_b": "c_1034",
+      "relation_type": "fenomeni"
+    },
+    {
+      "op": "REMOVE_ASSOCIATION",
+      "concept_a": "c_0057",
+      "concept_b": "c_0306",
+      "relation_type": "azioni"
+    },
+    {
+      "op": "REMOVE_ASSOCIATION",
+      "concept_a": "c_0056",
+      "concept_b": "c_0057",
+      "relation_type": "costituzione"
+    },
+    {
+      "op": "REMOVE_ASSOCIATION",
+      "concept_a": "c_0001",
+      "concept_b": "c_0057",
+      "relation_type": "luoghi"
+    }
+  ]
+}
