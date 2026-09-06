@@ -1,0 +1,20 @@
+{
+  "pack": "graph.a4",
+  "from": 12,
+  "to": 13,
+  "ops": [
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0443",
+        "concept_b": "c_0553",
+        "relation_type": "costituzione",
+        "direction_hint": "symmetric",
+        "association_strength": 0.4,
+        "confidence": 0.85,
+        "status": "candidate",
+        "revision": 1
+      }
+    }
+  ]
+}

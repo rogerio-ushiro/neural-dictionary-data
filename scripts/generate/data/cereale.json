@@ -1,0 +1,147 @@
+[
+  {
+    "lemma": "pianta",
+    "relation_type": "categoria",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "vegetale",
+    "relation_type": "categoria",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "seme",
+    "relation_type": "categoria",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "alimento",
+    "relation_type": "categoria",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "grano",
+    "relation_type": "similarità",
+    "association_strength": 0.7
+  },
+  {
+    "lemma": "gramigna",
+    "relation_type": "similarità",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "erba",
+    "relation_type": "similarità",
+    "association_strength": 0.35
+  },
+  {
+    "lemma": "granello",
+    "relation_type": "parti",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "stelo",
+    "relation_type": "parti",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "fusto",
+    "relation_type": "parti",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "radice",
+    "relation_type": "parti",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "campo",
+    "relation_type": "luoghi",
+    "association_strength": 0.65
+  },
+  {
+    "lemma": "campagna",
+    "relation_type": "luoghi",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "pianura",
+    "relation_type": "luoghi",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "podere",
+    "relation_type": "luoghi",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "coltivazione",
+    "relation_type": "azioni",
+    "association_strength": 0.65
+  },
+  {
+    "lemma": "raccolto",
+    "relation_type": "azioni",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "falciatura",
+    "relation_type": "azioni",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "farina",
+    "relation_type": "effetti",
+    "association_strength": 0.65
+  },
+  {
+    "lemma": "pane",
+    "relation_type": "effetti",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "pasta",
+    "relation_type": "effetti",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "nutrimento",
+    "relation_type": "effetti",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "dorato",
+    "relation_type": "proprietà",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "fertilità",
+    "relation_type": "proprietà",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "secchezza",
+    "relation_type": "proprietà",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "insetto",
+    "relation_type": "esseri_viventi",
+    "association_strength": 0.3
+  },
+  {
+    "lemma": "uccello",
+    "relation_type": "esseri_viventi",
+    "association_strength": 0.3
+  },
+  {
+    "lemma": "estate",
+    "relation_type": "evocativa",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "terra",
+    "relation_type": "evocativa",
+    "association_strength": 0.4
+  }
+]

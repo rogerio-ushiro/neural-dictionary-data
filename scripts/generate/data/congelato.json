@@ -1,0 +1,137 @@
+[
+  {
+    "lemma": "ghiacciato",
+    "relation_type": "categoria",
+    "association_strength": 0.7
+  },
+  {
+    "lemma": "gelido",
+    "relation_type": "categoria",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "freddo",
+    "relation_type": "categoria",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "glaciale",
+    "relation_type": "categoria",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "gelato",
+    "relation_type": "similarità",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "ghiaccio",
+    "relation_type": "similarità",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "brina",
+    "relation_type": "similarità",
+    "association_strength": 0.35
+  },
+  {
+    "lemma": "congelamento",
+    "relation_type": "cause",
+    "association_strength": 0.7
+  },
+  {
+    "lemma": "freddo",
+    "relation_type": "cause",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "gelo",
+    "relation_type": "cause",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "ghiaccio",
+    "relation_type": "cause",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "rigidità",
+    "relation_type": "effetti",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "immobilità",
+    "relation_type": "effetti",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "torpore",
+    "relation_type": "effetti",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "caldo",
+    "relation_type": "contrasto",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "tepore",
+    "relation_type": "contrasto",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "calore",
+    "relation_type": "contrasto",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "algidità",
+    "relation_type": "proprietà",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "trasparenza",
+    "relation_type": "proprietà",
+    "association_strength": 0.35
+  },
+  {
+    "lemma": "cibo",
+    "relation_type": "oggetti",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "alimento",
+    "relation_type": "oggetti",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "pesce",
+    "relation_type": "oggetti",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "gelato",
+    "relation_type": "oggetti",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "montagna",
+    "relation_type": "luoghi",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "lago",
+    "relation_type": "luoghi",
+    "association_strength": 0.35
+  },
+  {
+    "lemma": "inverno",
+    "relation_type": "evocativa",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "silenzio",
+    "relation_type": "evocativa",
+    "association_strength": 0.3
+  }
+]

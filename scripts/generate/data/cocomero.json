@@ -1,0 +1,132 @@
+[
+  {
+    "lemma": "frutta",
+    "relation_type": "categoria",
+    "association_strength": 0.8
+  },
+  {
+    "lemma": "frutto",
+    "relation_type": "categoria",
+    "association_strength": 0.65
+  },
+  {
+    "lemma": "melone",
+    "relation_type": "categoria",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "melone",
+    "relation_type": "similarità",
+    "association_strength": 0.7
+  },
+  {
+    "lemma": "arancia",
+    "relation_type": "similarità",
+    "association_strength": 0.3
+  },
+  {
+    "lemma": "seme",
+    "relation_type": "parti",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "crosta",
+    "relation_type": "parti",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "pianta",
+    "relation_type": "esseri_viventi",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "erba",
+    "relation_type": "esseri_viventi",
+    "association_strength": 0.35
+  },
+  {
+    "lemma": "rosso",
+    "relation_type": "proprietà",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "dolce",
+    "relation_type": "proprietà",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "rotondità",
+    "relation_type": "proprietà",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "freschezza",
+    "relation_type": "proprietà",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "refrigerio",
+    "relation_type": "effetti",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "sollievo",
+    "relation_type": "effetti",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "piacere",
+    "relation_type": "effetti",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "campo",
+    "relation_type": "luoghi",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "orto",
+    "relation_type": "luoghi",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "campagna",
+    "relation_type": "luoghi",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "spiaggia",
+    "relation_type": "luoghi",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "raccolto",
+    "relation_type": "azioni",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "coltivazione",
+    "relation_type": "azioni",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "mangiare",
+    "relation_type": "azioni",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "estate",
+    "relation_type": "evocativa",
+    "association_strength": 0.65
+  },
+  {
+    "lemma": "caldo",
+    "relation_type": "evocativa",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "afa",
+    "relation_type": "evocativa",
+    "association_strength": 0.4
+  }
+]

@@ -1,0 +1,142 @@
+[
+  {
+    "lemma": "dolce",
+    "relation_type": "categoria",
+    "association_strength": 0.7
+  },
+  {
+    "lemma": "dessert",
+    "relation_type": "categoria",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "torta",
+    "relation_type": "categoria",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "gelato",
+    "relation_type": "categoria",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "spumone",
+    "relation_type": "similarità",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "crema",
+    "relation_type": "similarità",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "crema",
+    "relation_type": "costituzione",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "frutta",
+    "relation_type": "costituzione",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "cioccolato",
+    "relation_type": "costituzione",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "mandorla",
+    "relation_type": "costituzione",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "dolce",
+    "relation_type": "proprietà",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "colore",
+    "relation_type": "proprietà",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "cremoso",
+    "relation_type": "proprietà",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "decorazione",
+    "relation_type": "proprietà",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "ciliegia",
+    "relation_type": "contenuto",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "vaniglia",
+    "relation_type": "contenuto",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "mangiare",
+    "relation_type": "azioni",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "decorazione",
+    "relation_type": "azioni",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "celebrazione",
+    "relation_type": "azioni",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "cucina",
+    "relation_type": "azioni",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "festa",
+    "relation_type": "luoghi",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "tavola",
+    "relation_type": "luoghi",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "cucina",
+    "relation_type": "luoghi",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "piacere",
+    "relation_type": "effetti",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "gioia",
+    "relation_type": "effetti",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "energia",
+    "relation_type": "effetti",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "estate",
+    "relation_type": "evocativa",
+    "association_strength": 0.35
+  },
+  {
+    "lemma": "allegria",
+    "relation_type": "evocativa",
+    "association_strength": 0.4
+  }
+]

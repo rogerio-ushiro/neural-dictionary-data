@@ -1,0 +1,112 @@
+[
+  {
+    "lemma": "ingrediente",
+    "relation_type": "categoria",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "organismo",
+    "relation_type": "categoria",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "sostanza",
+    "relation_type": "categoria",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "vivente",
+    "relation_type": "esseri_viventi",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "molecola",
+    "relation_type": "esseri_viventi",
+    "association_strength": 0.35
+  },
+  {
+    "lemma": "propagazione",
+    "relation_type": "azioni",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "impasto",
+    "relation_type": "azioni",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "pane",
+    "relation_type": "effetti",
+    "association_strength": 0.65
+  },
+  {
+    "lemma": "impasto",
+    "relation_type": "effetti",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "mollica",
+    "relation_type": "effetti",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "pizza",
+    "relation_type": "effetti",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "vitalità",
+    "relation_type": "proprietà",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "delicato",
+    "relation_type": "proprietà",
+    "association_strength": 0.35
+  },
+  {
+    "lemma": "cucina",
+    "relation_type": "luoghi",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "forno",
+    "relation_type": "luoghi",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "calore",
+    "relation_type": "cause",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "tepore",
+    "relation_type": "cause",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "farina",
+    "relation_type": "cause",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "freddo",
+    "relation_type": "contrasto",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "inerzia",
+    "relation_type": "contrasto",
+    "association_strength": 0.35
+  },
+  {
+    "lemma": "vita",
+    "relation_type": "evocativa",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "nonna",
+    "relation_type": "evocativa",
+    "association_strength": 0.35
+  }
+]
