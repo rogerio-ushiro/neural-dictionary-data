@@ -1,0 +1,97 @@
+[
+  {
+    "lemma": "bocca",
+    "relation_type": "categoria",
+    "association_strength": 0.65
+  },
+  {
+    "lemma": "delta",
+    "relation_type": "categoria",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "acqua",
+    "relation_type": "costituzione",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "fiume",
+    "relation_type": "parti",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "canale",
+    "relation_type": "parti",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "mare",
+    "relation_type": "luoghi",
+    "association_strength": 0.65
+  },
+  {
+    "lemma": "fiume",
+    "relation_type": "luoghi",
+    "association_strength": 0.65
+  },
+  {
+    "lemma": "delta",
+    "relation_type": "luoghi",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "laguna",
+    "relation_type": "luoghi",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "palude",
+    "relation_type": "luoghi",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "costa",
+    "relation_type": "luoghi",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "litorale",
+    "relation_type": "luoghi",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "bocca",
+    "relation_type": "similarità",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "delta",
+    "relation_type": "similarità",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "flusso",
+    "relation_type": "azioni",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "sorgente",
+    "relation_type": "contrasto",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "fonte",
+    "relation_type": "contrasto",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "mare",
+    "relation_type": "evocativa",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "fiume",
+    "relation_type": "evocativa",
+    "association_strength": 0.4
+  }
+]

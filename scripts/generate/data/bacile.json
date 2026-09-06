@@ -1,0 +1,102 @@
+[
+  {
+    "lemma": "contenitore",
+    "relation_type": "categoria",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "bacino",
+    "relation_type": "categoria",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "vasca",
+    "relation_type": "categoria",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "acqua",
+    "relation_type": "costituzione",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "bordo",
+    "relation_type": "parti",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "acqua",
+    "relation_type": "contenuto",
+    "association_strength": 0.65
+  },
+  {
+    "lemma": "liquido",
+    "relation_type": "contenuto",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "rotondita",
+    "relation_type": "proprietà",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "profondita",
+    "relation_type": "proprietà",
+    "association_strength": 0.3
+  },
+  {
+    "lemma": "cucina",
+    "relation_type": "luoghi",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "casa",
+    "relation_type": "luoghi",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "fontana",
+    "relation_type": "luoghi",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "vasca",
+    "relation_type": "oggetti",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "contenitore",
+    "relation_type": "oggetti",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "bacino",
+    "relation_type": "oggetti",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "lavaggio",
+    "relation_type": "azioni",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "pulizia",
+    "relation_type": "azioni",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "bacino",
+    "relation_type": "similarità",
+    "association_strength": 0.65
+  },
+  {
+    "lemma": "vasca",
+    "relation_type": "similarità",
+    "association_strength": 0.65
+  },
+  {
+    "lemma": "contenitore",
+    "relation_type": "similarità",
+    "association_strength": 0.55
+  }
+]

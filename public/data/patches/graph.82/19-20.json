@@ -1,0 +1,46 @@
+{
+  "pack": "graph.82",
+  "from": 19,
+  "to": 20,
+  "ops": [
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0932",
+        "concept_b": "c_0933",
+        "relation_type": "azioni",
+        "direction_hint": "symmetric",
+        "association_strength": 0.6,
+        "confidence": 0.85,
+        "status": "candidate",
+        "revision": 1
+      }
+    },
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0932",
+        "concept_b": "c_0933",
+        "relation_type": "similarità",
+        "direction_hint": "symmetric",
+        "association_strength": 0.75,
+        "confidence": 0.85,
+        "status": "candidate",
+        "revision": 1
+      }
+    },
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0933",
+        "concept_b": "c_0942",
+        "relation_type": "azioni",
+        "direction_hint": "symmetric",
+        "association_strength": 0.45,
+        "confidence": 0.85,
+        "status": "candidate",
+        "revision": 1
+      }
+    }
+  ]
+}
