@@ -1,0 +1,33 @@
+{
+  "pack": "graph.a3",
+  "from": 24,
+  "to": 25,
+  "ops": [
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0646",
+        "concept_b": "c_0997",
+        "relation_type": "cause",
+        "direction_hint": "symmetric",
+        "association_strength": 0.4,
+        "confidence": 0.85,
+        "status": "candidate",
+        "revision": 1
+      }
+    },
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0422",
+        "concept_b": "c_1027",
+        "relation_type": "effetti",
+        "direction_hint": "symmetric",
+        "association_strength": 0.4,
+        "confidence": 0.85,
+        "status": "candidate",
+        "revision": 1
+      }
+    }
+  ]
+}

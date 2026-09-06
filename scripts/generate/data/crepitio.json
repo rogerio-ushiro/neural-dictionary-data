@@ -1,0 +1,127 @@
+[
+  {
+    "lemma": "suono",
+    "relation_type": "categoria",
+    "association_strength": 0.75
+  },
+  {
+    "lemma": "rumore",
+    "relation_type": "categoria",
+    "association_strength": 0.7
+  },
+  {
+    "lemma": "suono",
+    "relation_type": "costituzione",
+    "association_strength": 0.65
+  },
+  {
+    "lemma": "rumore",
+    "relation_type": "costituzione",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "intensita",
+    "relation_type": "proprietà",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "ritmo",
+    "relation_type": "proprietà",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "fuoco",
+    "relation_type": "cause",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "fiamma",
+    "relation_type": "cause",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "secchezza",
+    "relation_type": "cause",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "grissino",
+    "relation_type": "effetti",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "biscotto",
+    "relation_type": "effetti",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "cracker",
+    "relation_type": "effetti",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "crosta",
+    "relation_type": "effetti",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "fuoco",
+    "relation_type": "fenomeni",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "fiamma",
+    "relation_type": "fenomeni",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "focolare",
+    "relation_type": "fenomeni",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "rumore",
+    "relation_type": "similarità",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "scoppio",
+    "relation_type": "similarità",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "focolare",
+    "relation_type": "luoghi",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "bosco",
+    "relation_type": "luoghi",
+    "association_strength": 0.3
+  },
+  {
+    "lemma": "legno",
+    "relation_type": "oggetti",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "foglia",
+    "relation_type": "oggetti",
+    "association_strength": 0.35
+  },
+  {
+    "lemma": "silenzio",
+    "relation_type": "contrasto",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "quiete",
+    "relation_type": "contrasto",
+    "association_strength": 0.35
+  },
+  {
+    "lemma": "inverno",
+    "relation_type": "evocativa",
+    "association_strength": 0.35
+  }
+]

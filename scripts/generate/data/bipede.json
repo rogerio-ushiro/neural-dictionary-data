@@ -1,0 +1,122 @@
+[
+  {
+    "lemma": "animale",
+    "relation_type": "categoria",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "essere",
+    "relation_type": "categoria",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "creatura",
+    "relation_type": "categoria",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "gamba",
+    "relation_type": "costituzione",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "piede",
+    "relation_type": "costituzione",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "osso",
+    "relation_type": "costituzione",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "gamba",
+    "relation_type": "parti",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "piede",
+    "relation_type": "parti",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "arto",
+    "relation_type": "parti",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "postura",
+    "relation_type": "proprietà",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "equilibrio",
+    "relation_type": "proprietà",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "andatura",
+    "relation_type": "proprietà",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "uomo",
+    "relation_type": "esseri_viventi",
+    "association_strength": 0.65
+  },
+  {
+    "lemma": "uccello",
+    "relation_type": "esseri_viventi",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "animale",
+    "relation_type": "esseri_viventi",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "cammino",
+    "relation_type": "azioni",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "passo",
+    "relation_type": "azioni",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "locomozione",
+    "relation_type": "azioni",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "marcia",
+    "relation_type": "azioni",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "corsa",
+    "relation_type": "azioni",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "quadrupede",
+    "relation_type": "contrasto",
+    "association_strength": 0.7
+  },
+  {
+    "lemma": "rettile",
+    "relation_type": "contrasto",
+    "association_strength": 0.35
+  },
+  {
+    "lemma": "uomo",
+    "relation_type": "similarità",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "postura",
+    "relation_type": "evocativa",
+    "association_strength": 0.4
+  }
+]

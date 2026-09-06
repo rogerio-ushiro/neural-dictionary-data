@@ -1,0 +1,33 @@
+{
+  "pack": "graph.83",
+  "from": 22,
+  "to": 23,
+  "ops": [
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0620",
+        "concept_b": "c_1028",
+        "relation_type": "similarità",
+        "direction_hint": "symmetric",
+        "association_strength": 0.55,
+        "confidence": 0.85,
+        "status": "candidate",
+        "revision": 1
+      }
+    },
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0620",
+        "concept_b": "c_1029",
+        "relation_type": "fenomeni",
+        "direction_hint": "symmetric",
+        "association_strength": 0.4,
+        "confidence": 0.85,
+        "status": "candidate",
+        "revision": 1
+      }
+    }
+  ]
+}
