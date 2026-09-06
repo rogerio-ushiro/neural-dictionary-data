@@ -1,0 +1,16 @@
+[
+  { "lemma": "ferita", "relation_type": "categoria", "association_strength": 0.8, "pos": "sostantivo", "region": "corpo" },
+  { "lemma": "pelle", "relation_type": "parti", "association_strength": 0.6 },
+  { "lemma": "pelle", "relation_type": "luoghi", "association_strength": 0.75 },
+  { "lemma": "arto", "relation_type": "luoghi", "association_strength": 0.45 },
+  { "lemma": "fuoco", "relation_type": "cause", "association_strength": 0.85 },
+  { "lemma": "fiamma", "relation_type": "cause", "association_strength": 0.8 },
+  { "lemma": "calore", "relation_type": "cause", "association_strength": 0.75 },
+  { "lemma": "sole", "relation_type": "cause", "association_strength": 0.6 },
+  { "lemma": "vapore", "relation_type": "cause", "association_strength": 0.5 },
+  { "lemma": "bruciore", "relation_type": "effetti", "association_strength": 0.7 },
+  { "lemma": "bruciatura", "relation_type": "effetti", "association_strength": 0.6 },
+  { "lemma": "scottatura", "relation_type": "similarità", "association_strength": 0.8 },
+  { "lemma": "bruciatura", "relation_type": "similarità", "association_strength": 0.65 },
+  { "lemma": "fuoco", "relation_type": "evocativa", "association_strength": 0.55 }
+]

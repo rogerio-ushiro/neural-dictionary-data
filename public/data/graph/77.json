@@ -146,6 +146,46 @@
       "confidence": 0.75,
       "status": "validated",
       "revision": 2
+    },
+    {
+      "concept_a": "c_0064",
+      "concept_b": "c_0192",
+      "relation_type": "parti",
+      "direction_hint": "symmetric",
+      "association_strength": 0.5,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0088",
+      "concept_b": "c_0471",
+      "relation_type": "fenomeni",
+      "direction_hint": "symmetric",
+      "association_strength": 0.7,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0088",
+      "concept_b": "c_0974",
+      "relation_type": "proprietà",
+      "direction_hint": "symmetric",
+      "association_strength": 0.45,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0093",
+      "concept_b": "c_0471",
+      "relation_type": "contrasto",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
     }
   ],
   "word_senses": {

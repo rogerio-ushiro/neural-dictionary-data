@@ -1,0 +1,20 @@
+{
+  "pack": "graph.0c",
+  "from": 7,
+  "to": 8,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_1028",
+      "concept": {
+        "revision": 2,
+        "region_id": "r_tempo",
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Tratto di tempo con un inizio e una fine, considerato come un'unica fase (il periodo delle piogge, un brutto periodo).",
+          "example": "Ha lavorato all'estero per un lungo periodo."
+        }
+      }
+    }
+  ]
+}

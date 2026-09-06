@@ -18,6 +18,15 @@
         "text": "Spaccatura profonda del terreno tra pareti ripide.",
         "example": "Il sentiero costeggiava un dirupo senza parapetto."
       }
+    },
+    "c_1025": {
+      "revision": 2,
+      "region_id": "r_oggetti",
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Pezzo di tessuto largo e piatto che si stende per coprire qualcosa, appoggiarsi o ripararsi.",
+        "example": "Stese un telo sull'erba prima di sedersi."
+      }
     }
   },
   "associations": [
@@ -50,6 +59,16 @@
       "confidence": 1,
       "status": "validated",
       "revision": 1
+    },
+    {
+      "concept_a": "c_0063",
+      "concept_b": "c_1025",
+      "relation_type": "categoria",
+      "direction_hint": "symmetric",
+      "association_strength": 0.8,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
     }
   ],
   "word_senses": {
@@ -64,6 +83,12 @@
       "lexeme_kind": "word",
       "concept_id": "c_0556",
       "is_primary": true
+    },
+    "s_1025": {
+      "lexeme_id": "w_1025",
+      "lexeme_kind": "word",
+      "concept_id": "c_1025",
+      "is_primary": true
     }
   },
   "words": {
@@ -76,6 +101,11 @@
       "display_form": "dirupo",
       "normalized_form": "dirupo",
       "pos": null
+    },
+    "w_1025": {
+      "display_form": "telo",
+      "normalized_form": "telo",
+      "pos": "sostantivo"
     }
   },
   "expressions": {}

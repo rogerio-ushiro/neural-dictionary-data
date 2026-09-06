@@ -1,0 +1,17 @@
+[
+  { "lemma": "permesso", "relation_type": "categoria", "association_strength": 0.8 },
+  { "lemma": "licenza", "relation_type": "categoria", "association_strength": 0.75 },
+  { "lemma": "ferie", "relation_type": "similarità", "association_strength": 0.75 },
+  { "lemma": "pausa", "relation_type": "similarità", "association_strength": 0.55 },
+  { "lemma": "riposo", "relation_type": "similarità", "association_strength": 0.5 },
+  { "lemma": "ritorno", "relation_type": "contrasto", "association_strength": 0.45 },
+  { "lemma": "riposo", "relation_type": "effetti", "association_strength": 0.6 },
+  { "lemma": "sollievo", "relation_type": "effetti", "association_strength": 0.55 },
+  { "lemma": "relax", "relation_type": "effetti", "association_strength": 0.5 },
+  { "lemma": "libertà", "relation_type": "effetti", "association_strength": 0.5 },
+  { "lemma": "assenza", "relation_type": "azioni", "association_strength": 0.65 },
+  { "lemma": "distacco", "relation_type": "azioni", "association_strength": 0.45 },
+  { "lemma": "partenza", "relation_type": "azioni", "association_strength": 0.4 },
+  { "lemma": "durata", "relation_type": "proprietà", "association_strength": 0.5 },
+  { "lemma": "quiete", "relation_type": "evocativa", "association_strength": 0.5 }
+]

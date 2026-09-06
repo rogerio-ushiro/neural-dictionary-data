@@ -27,6 +27,15 @@
         "text": "Proprio delle belve, per aspetto o istinti feroci.",
         "example": "Aveva uno sguardo ferino quando si arrabbiava."
       }
+    },
+    "c_1030": {
+      "revision": 2,
+      "region_id": "r_oggetti",
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Impianto o elettrodomestico chiuso in cui si concentra il calore per cuocere cibi o lavorare materiali; al figurato, un ambiente rovente.",
+        "example": "Ha infornato il pane e ha chiuso lo sportello del forno."
+      }
     }
   },
   "associations": [
@@ -229,6 +238,26 @@
       "confidence": 1,
       "status": "validated",
       "revision": 1
+    },
+    {
+      "concept_a": "c_0068",
+      "concept_b": "c_0381",
+      "relation_type": "luoghi",
+      "direction_hint": "symmetric",
+      "association_strength": 0.85,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0093",
+      "concept_b": "c_1030",
+      "relation_type": "categoria",
+      "direction_hint": "symmetric",
+      "association_strength": 0.8,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
     }
   ],
   "word_senses": {
@@ -249,6 +278,12 @@
       "lexeme_kind": "word",
       "concept_id": "c_0846",
       "is_primary": true
+    },
+    "s_1030": {
+      "lexeme_id": "w_1030",
+      "lexeme_kind": "word",
+      "concept_id": "c_1030",
+      "is_primary": true
     }
   },
   "words": {
@@ -266,6 +301,11 @@
       "display_form": "ferino",
       "normalized_form": "ferino",
       "pos": null
+    },
+    "w_1030": {
+      "display_form": "forno",
+      "normalized_form": "forno",
+      "pos": "sostantivo"
     }
   },
   "expressions": {}

@@ -1,0 +1,15 @@
+[
+  { "lemma": "mese", "relation_type": "categoria", "association_strength": 0.85, "pos": "sostantivo", "region": "tempo" },
+  { "lemma": "luglio", "relation_type": "similarità", "association_strength": 0.8 },
+  { "lemma": "agosto", "relation_type": "similarità", "association_strength": 0.7 },
+  { "lemma": "estate", "relation_type": "fenomeni", "association_strength": 0.8 },
+  { "lemma": "primavera", "relation_type": "fenomeni", "association_strength": 0.55 },
+  { "lemma": "caldo", "relation_type": "fenomeni", "association_strength": 0.6 },
+  { "lemma": "tepore", "relation_type": "proprietà", "association_strength": 0.5 },
+  { "lemma": "raccolto", "relation_type": "azioni", "association_strength": 0.45 },
+  { "lemma": "fioritura", "relation_type": "effetti", "association_strength": 0.5 },
+  { "lemma": "inverno", "relation_type": "contrasto", "association_strength": 0.5 },
+  { "lemma": "scuola", "relation_type": "evocativa", "association_strength": 0.55 },
+  { "lemma": "mare", "relation_type": "evocativa", "association_strength": 0.5 },
+  { "lemma": "sole", "relation_type": "evocativa", "association_strength": 0.55 }
+]

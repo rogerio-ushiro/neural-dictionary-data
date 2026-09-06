@@ -69,6 +69,16 @@
       "confidence": 1,
       "status": "validated",
       "revision": 1
+    },
+    {
+      "concept_a": "c_0110",
+      "concept_b": "c_0733",
+      "relation_type": "azioni",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
     }
   ],
   "word_senses": {

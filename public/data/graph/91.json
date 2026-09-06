@@ -78,6 +78,36 @@
       "confidence": 1,
       "status": "validated",
       "revision": 1
+    },
+    {
+      "concept_a": "c_0061",
+      "concept_b": "c_0143",
+      "relation_type": "azioni",
+      "direction_hint": "symmetric",
+      "association_strength": 0.55,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0097",
+      "concept_b": "c_0929",
+      "relation_type": "effetti",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0111",
+      "concept_b": "c_0136",
+      "relation_type": "oggetti",
+      "direction_hint": "symmetric",
+      "association_strength": 0.45,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
     }
   ],
   "word_senses": {

@@ -1,0 +1,19 @@
+[
+  { "lemma": "alloggio", "relation_type": "categoria", "association_strength": 0.8 },
+  { "lemma": "edificio", "relation_type": "categoria", "association_strength": 0.55 },
+  { "lemma": "stanza", "relation_type": "parti", "association_strength": 0.7 },
+  { "lemma": "bagaglio", "relation_type": "contenuto", "association_strength": 0.5 },
+  { "lemma": "valigia", "relation_type": "contenuto", "association_strength": 0.5 },
+  { "lemma": "passeggero", "relation_type": "esseri_viventi", "association_strength": 0.5 },
+  { "lemma": "riposo", "relation_type": "azioni", "association_strength": 0.5 },
+  { "lemma": "passaggio", "relation_type": "azioni", "association_strength": 0.4 },
+  { "lemma": "città", "relation_type": "luoghi", "association_strength": 0.55 },
+  { "lemma": "mare", "relation_type": "luoghi", "association_strength": 0.45 },
+  { "lemma": "montagna", "relation_type": "luoghi", "association_strength": 0.45 },
+  { "lemma": "dimora", "relation_type": "similarità", "association_strength": 0.55 },
+  { "lemma": "domicilio", "relation_type": "similarità", "association_strength": 0.45 },
+  { "lemma": "rifugio", "relation_type": "similarità", "association_strength": 0.4 },
+  { "lemma": "ricovero", "relation_type": "similarità", "association_strength": 0.4 },
+  { "lemma": "viaggio", "relation_type": "evocativa", "association_strength": 0.65 },
+  { "lemma": "vacanza", "relation_type": "evocativa", "association_strength": 0.5 }
+]

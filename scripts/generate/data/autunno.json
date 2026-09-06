@@ -1,0 +1,18 @@
+[
+  { "lemma": "stagione", "relation_type": "categoria", "association_strength": 0.9 },
+  { "lemma": "primavera", "relation_type": "contrasto", "association_strength": 0.55 },
+  { "lemma": "inverno", "relation_type": "similarità", "association_strength": 0.45 },
+  { "lemma": "pioggia", "relation_type": "fenomeni", "association_strength": 0.65 },
+  { "lemma": "nebbia", "relation_type": "fenomeni", "association_strength": 0.6 },
+  { "lemma": "vento", "relation_type": "fenomeni", "association_strength": 0.5 },
+  { "lemma": "freddo", "relation_type": "proprietà", "association_strength": 0.5 },
+  { "lemma": "umidità", "relation_type": "proprietà", "association_strength": 0.45 },
+  { "lemma": "marrone", "relation_type": "proprietà", "association_strength": 0.4 },
+  { "lemma": "foglia", "relation_type": "esseri_viventi", "association_strength": 0.75 },
+  { "lemma": "albero", "relation_type": "esseri_viventi", "association_strength": 0.5 },
+  { "lemma": "avvizzimento", "relation_type": "azioni", "association_strength": 0.6 },
+  { "lemma": "raccolto", "relation_type": "azioni", "association_strength": 0.6 },
+  { "lemma": "fogliame", "relation_type": "effetti", "association_strength": 0.5 },
+  { "lemma": "bosco", "relation_type": "luoghi", "association_strength": 0.55 },
+  { "lemma": "malinconia", "relation_type": "evocativa", "association_strength": 0.6 }
+]

@@ -1,0 +1,20 @@
+{
+  "pack": "graph.ca",
+  "from": 7,
+  "to": 8,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_1022",
+      "concept": {
+        "revision": 2,
+        "region_id": "r_natura",
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Quantità minima e indivisibile di una sostanza in polvere o in minuti frammenti; se ne parla anche per dire una parte piccolissima di qualcosa (non un granello di buon senso).",
+          "example": "Aveva ancora qualche granello di sabbia dentro le scarpe."
+        }
+      }
+    }
+  ]
+}

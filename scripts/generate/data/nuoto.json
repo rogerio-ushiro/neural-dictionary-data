@@ -1,0 +1,19 @@
+[
+  { "lemma": "attività", "relation_type": "categoria", "association_strength": 0.75 },
+  { "lemma": "disciplina", "relation_type": "categoria", "association_strength": 0.6 },
+  { "lemma": "movimento", "relation_type": "categoria", "association_strength": 0.55 },
+  { "lemma": "piscina", "relation_type": "luoghi", "association_strength": 0.9 },
+  { "lemma": "mare", "relation_type": "luoghi", "association_strength": 0.8 },
+  { "lemma": "lago", "relation_type": "luoghi", "association_strength": 0.5 },
+  { "lemma": "traversata", "relation_type": "azioni", "association_strength": 0.6 },
+  { "lemma": "respiro", "relation_type": "azioni", "association_strength": 0.5 },
+  { "lemma": "agilità", "relation_type": "proprietà", "association_strength": 0.6 },
+  { "lemma": "vigore", "relation_type": "proprietà", "association_strength": 0.55 },
+  { "lemma": "velocità", "relation_type": "proprietà", "association_strength": 0.5 },
+  { "lemma": "pesce", "relation_type": "esseri_viventi", "association_strength": 0.5 },
+  { "lemma": "bagnante", "relation_type": "esseri_viventi", "association_strength": 0.6 },
+  { "lemma": "refrigerio", "relation_type": "effetti", "association_strength": 0.6 },
+  { "lemma": "corrente", "relation_type": "fenomeni", "association_strength": 0.5 },
+  { "lemma": "estate", "relation_type": "evocativa", "association_strength": 0.6 },
+  { "lemma": "libertà", "relation_type": "evocativa", "association_strength": 0.45 }
+]

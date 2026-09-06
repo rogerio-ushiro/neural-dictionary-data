@@ -1,0 +1,33 @@
+{
+  "pack": "graph.3a",
+  "from": 2,
+  "to": 3,
+  "ops": [
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0056",
+        "concept_b": "c_0371",
+        "relation_type": "categoria",
+        "direction_hint": "symmetric",
+        "association_strength": 0.5,
+        "confidence": 0.85,
+        "status": "candidate",
+        "revision": 1
+      }
+    },
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0029",
+        "concept_b": "c_0087",
+        "relation_type": "fenomeni",
+        "direction_hint": "symmetric",
+        "association_strength": 0.65,
+        "confidence": 0.85,
+        "status": "candidate",
+        "revision": 1
+      }
+    }
+  ]
+}

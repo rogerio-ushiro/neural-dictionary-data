@@ -5107,6 +5107,71 @@
       "display_form": "corallo",
       "normalized_form": "corallo",
       "pos": "sostantivo"
+    },
+    "w_1022": {
+      "display_form": "granello",
+      "normalized_form": "granello",
+      "pos": "sostantivo"
+    },
+    "w_1023": {
+      "display_form": "soccorritore",
+      "normalized_form": "soccorritore",
+      "pos": "sostantivo"
+    },
+    "w_1024": {
+      "display_form": "turista",
+      "normalized_form": "turista",
+      "pos": "sostantivo"
+    },
+    "w_1025": {
+      "display_form": "telo",
+      "normalized_form": "telo",
+      "pos": "sostantivo"
+    },
+    "w_1026": {
+      "display_form": "pianeta",
+      "normalized_form": "pianeta",
+      "pos": "sostantivo"
+    },
+    "w_1027": {
+      "display_form": "clorofilla",
+      "normalized_form": "clorofilla",
+      "pos": "sostantivo"
+    },
+    "w_1028": {
+      "display_form": "periodo",
+      "normalized_form": "periodo",
+      "pos": "sostantivo"
+    },
+    "w_1029": {
+      "display_form": "mese",
+      "normalized_form": "mese",
+      "pos": "sostantivo"
+    },
+    "w_1030": {
+      "display_form": "forno",
+      "normalized_form": "forno",
+      "pos": "sostantivo"
+    },
+    "w_1031": {
+      "display_form": "mattone",
+      "normalized_form": "mattone",
+      "pos": "sostantivo"
+    },
+    "w_1032": {
+      "display_form": "ferita",
+      "normalized_form": "ferita",
+      "pos": "sostantivo"
+    },
+    "w_1033": {
+      "display_form": "sintomo",
+      "normalized_form": "sintomo",
+      "pos": "sostantivo"
+    },
+    "w_1034": {
+      "display_form": "termometro",
+      "normalized_form": "termometro",
+      "pos": "sostantivo"
     }
   },
   "expressions": {},
@@ -11235,6 +11300,84 @@
       "lexeme_id": "w_1021",
       "lexeme_kind": "word",
       "concept_id": "c_1021",
+      "is_primary": true
+    },
+    "s_1022": {
+      "lexeme_id": "w_1022",
+      "lexeme_kind": "word",
+      "concept_id": "c_1022",
+      "is_primary": true
+    },
+    "s_1023": {
+      "lexeme_id": "w_1023",
+      "lexeme_kind": "word",
+      "concept_id": "c_1023",
+      "is_primary": true
+    },
+    "s_1024": {
+      "lexeme_id": "w_1024",
+      "lexeme_kind": "word",
+      "concept_id": "c_1024",
+      "is_primary": true
+    },
+    "s_1025": {
+      "lexeme_id": "w_1025",
+      "lexeme_kind": "word",
+      "concept_id": "c_1025",
+      "is_primary": true
+    },
+    "s_1026": {
+      "lexeme_id": "w_1026",
+      "lexeme_kind": "word",
+      "concept_id": "c_1026",
+      "is_primary": true
+    },
+    "s_1027": {
+      "lexeme_id": "w_1027",
+      "lexeme_kind": "word",
+      "concept_id": "c_1027",
+      "is_primary": true
+    },
+    "s_1028": {
+      "lexeme_id": "w_1028",
+      "lexeme_kind": "word",
+      "concept_id": "c_1028",
+      "is_primary": true
+    },
+    "s_1029": {
+      "lexeme_id": "w_1029",
+      "lexeme_kind": "word",
+      "concept_id": "c_1029",
+      "is_primary": true
+    },
+    "s_1030": {
+      "lexeme_id": "w_1030",
+      "lexeme_kind": "word",
+      "concept_id": "c_1030",
+      "is_primary": true
+    },
+    "s_1031": {
+      "lexeme_id": "w_1031",
+      "lexeme_kind": "word",
+      "concept_id": "c_1031",
+      "is_primary": true
+    },
+    "s_1032": {
+      "lexeme_id": "w_1032",
+      "lexeme_kind": "word",
+      "concept_id": "c_1032",
+      "is_primary": true
+    },
+    "s_1033": {
+      "lexeme_id": "w_1033",
+      "lexeme_kind": "word",
+      "concept_id": "c_1033",
+      "is_primary": true
+    },
+    "s_1034": {
+      "lexeme_id": "w_1034",
+      "lexeme_kind": "word",
+      "concept_id": "c_1034",
       "is_primary": true
     }
   },
@@ -20426,6 +20569,123 @@
       "definition": {
         "text": "Piccolo animale marino che vive in colonie e forma scogliere ramificate.",
         "example": "Nuotando sopra la barriera vedeva il corallo rosa e giallo."
+      }
+    },
+    "c_1022": {
+      "revision": 2,
+      "region_id": "r_natura",
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Quantità minima e indivisibile di una sostanza in polvere o in minuti frammenti; se ne parla anche per dire una parte piccolissima di qualcosa (non un granello di buon senso).",
+        "example": "Aveva ancora qualche granello di sabbia dentro le scarpe."
+      }
+    },
+    "c_1023": {
+      "revision": 2,
+      "region_id": "r_lavoro",
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Chi interviene per portare aiuto a una persona in pericolo o in difficoltà, spesso prima che arrivino i mezzi specializzati.",
+        "example": "I soccorritori raggiunsero l'escursionista poco prima del buio."
+      }
+    },
+    "c_1024": {
+      "revision": 2,
+      "region_id": "r_relazioni_sociali",
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Chi si sposta e visita luoghi diversi da quelli in cui vive, per svago o curiosità e di solito per un periodo breve.",
+        "example": "Ad agosto i turisti riempiono i vicoli del centro."
+      }
+    },
+    "c_1025": {
+      "revision": 2,
+      "region_id": "r_oggetti",
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Pezzo di tessuto largo e piatto che si stende per coprire qualcosa, appoggiarsi o ripararsi.",
+        "example": "Stese un telo sull'erba prima di sedersi."
+      }
+    },
+    "c_1026": {
+      "revision": 2,
+      "region_id": "r_natura",
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Grande corpo celeste che gira intorno a una stella senza emettere luce propria, come la Terra rispetto al Sole.",
+        "example": "Con il telescopio si distingueva un pianeta poco sopra la Luna."
+      }
+    },
+    "c_1027": {
+      "revision": 2,
+      "region_id": "r_natura",
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Sostanza che dà il colore verde alle foglie e consente alle piante di ricavare nutrimento dalla luce.",
+        "example": "In autunno la clorofilla si esaurisce e le foglie ingialliscono."
+      }
+    },
+    "c_1028": {
+      "revision": 2,
+      "region_id": "r_tempo",
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Tratto di tempo con un inizio e una fine, considerato come un'unica fase (il periodo delle piogge, un brutto periodo).",
+        "example": "Ha lavorato all'estero per un lungo periodo."
+      }
+    },
+    "c_1029": {
+      "revision": 2,
+      "region_id": "r_tempo",
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Ciascuna delle dodici parti in cui si divide l'anno, lunga poco più di quattro settimane.",
+        "example": "Manca ancora un mese alla partenza."
+      }
+    },
+    "c_1030": {
+      "revision": 2,
+      "region_id": "r_oggetti",
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Impianto o elettrodomestico chiuso in cui si concentra il calore per cuocere cibi o lavorare materiali; al figurato, un ambiente rovente.",
+        "example": "Ha infornato il pane e ha chiuso lo sportello del forno."
+      }
+    },
+    "c_1031": {
+      "revision": 2,
+      "region_id": "r_oggetti",
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Blocco squadrato di argilla cotta che, disposto in fila con la malta, serve a tirare su muri ed edifici.",
+        "example": "Il muretto era fatto di mattoni rossi a vista."
+      }
+    },
+    "c_1032": {
+      "revision": 2,
+      "region_id": "r_corpo",
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Rottura della pelle e dei tessuti provocata da un colpo, un taglio o un'arma; al figurato, un dolore che rimane a lungo.",
+        "example": "La ferita al ginocchio si e rimarginata in una settimana."
+      }
+    },
+    "c_1033": {
+      "revision": 2,
+      "region_id": "r_corpo",
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Segno con cui una malattia si manifesta e che permette di riconoscerla; più in generale, l'indizio di qualcosa che non va.",
+        "example": "La tosse fu il primo sintomo dell'influenza."
+      }
+    },
+    "c_1034": {
+      "revision": 2,
+      "region_id": "r_oggetti",
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Strumento che misura la temperatura dell'aria o del corpo e la indica su una scala graduata.",
+        "example": "Ha tenuto il termometro sotto il braccio per qualche minuto."
       }
     }
   },
@@ -35239,6 +35499,3756 @@
       "confidence": 0.95,
       "status": "validated",
       "revision": 2
+    },
+    {
+      "concept_a": "c_0053",
+      "concept_b": "c_0716",
+      "relation_type": "categoria",
+      "direction_hint": "symmetric",
+      "association_strength": 0.75,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0053",
+      "concept_b": "c_0258",
+      "relation_type": "categoria",
+      "direction_hint": "symmetric",
+      "association_strength": 0.6,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0053",
+      "concept_b": "c_0118",
+      "relation_type": "categoria",
+      "direction_hint": "symmetric",
+      "association_strength": 0.55,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0053",
+      "concept_b": "c_0905",
+      "relation_type": "luoghi",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0001",
+      "concept_b": "c_0053",
+      "relation_type": "luoghi",
+      "direction_hint": "symmetric",
+      "association_strength": 0.8,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0032",
+      "concept_b": "c_0053",
+      "relation_type": "luoghi",
+      "direction_hint": "symmetric",
+      "association_strength": 0.5,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0053",
+      "concept_b": "c_0570",
+      "relation_type": "azioni",
+      "direction_hint": "symmetric",
+      "association_strength": 0.6,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0053",
+      "concept_b": "c_0978",
+      "relation_type": "azioni",
+      "direction_hint": "symmetric",
+      "association_strength": 0.5,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0053",
+      "concept_b": "c_0337",
+      "relation_type": "proprietà",
+      "direction_hint": "symmetric",
+      "association_strength": 0.6,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0053",
+      "concept_b": "c_0987",
+      "relation_type": "proprietà",
+      "direction_hint": "symmetric",
+      "association_strength": 0.55,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0053",
+      "concept_b": "c_0138",
+      "relation_type": "proprietà",
+      "direction_hint": "symmetric",
+      "association_strength": 0.5,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0053",
+      "concept_b": "c_0054",
+      "relation_type": "esseri_viventi",
+      "direction_hint": "symmetric",
+      "association_strength": 0.5,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0053",
+      "concept_b": "c_0062",
+      "relation_type": "esseri_viventi",
+      "direction_hint": "symmetric",
+      "association_strength": 0.6,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0053",
+      "concept_b": "c_0985",
+      "relation_type": "effetti",
+      "direction_hint": "symmetric",
+      "association_strength": 0.6,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0053",
+      "concept_b": "c_0374",
+      "relation_type": "fenomeni",
+      "direction_hint": "symmetric",
+      "association_strength": 0.5,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0004",
+      "concept_b": "c_0053",
+      "relation_type": "evocativa",
+      "direction_hint": "symmetric",
+      "association_strength": 0.6,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0053",
+      "concept_b": "c_0109",
+      "relation_type": "evocativa",
+      "direction_hint": "symmetric",
+      "association_strength": 0.45,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0056",
+      "concept_b": "c_0948",
+      "relation_type": "categoria",
+      "direction_hint": "symmetric",
+      "association_strength": 0.6,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0056",
+      "concept_b": "c_0371",
+      "relation_type": "categoria",
+      "direction_hint": "symmetric",
+      "association_strength": 0.5,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0056",
+      "concept_b": "c_1022",
+      "relation_type": "costituzione",
+      "direction_hint": "symmetric",
+      "association_strength": 0.85,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0056",
+      "concept_b": "c_0553",
+      "relation_type": "costituzione",
+      "direction_hint": "symmetric",
+      "association_strength": 0.6,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0002",
+      "concept_b": "c_0056",
+      "relation_type": "luoghi",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0056",
+      "concept_b": "c_0653",
+      "relation_type": "luoghi",
+      "direction_hint": "symmetric",
+      "association_strength": 0.8,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0056",
+      "concept_b": "c_0589",
+      "relation_type": "luoghi",
+      "direction_hint": "symmetric",
+      "association_strength": 0.7,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0056",
+      "concept_b": "c_0057",
+      "relation_type": "luoghi",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0056",
+      "concept_b": "c_0644",
+      "relation_type": "proprietà",
+      "direction_hint": "symmetric",
+      "association_strength": 0.6,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0056",
+      "concept_b": "c_0646",
+      "relation_type": "proprietà",
+      "direction_hint": "symmetric",
+      "association_strength": 0.55,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0056",
+      "concept_b": "c_0596",
+      "relation_type": "proprietà",
+      "direction_hint": "symmetric",
+      "association_strength": 0.5,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0056",
+      "concept_b": "c_0064",
+      "relation_type": "oggetti",
+      "direction_hint": "symmetric",
+      "association_strength": 0.6,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0056",
+      "concept_b": "c_1020",
+      "relation_type": "oggetti",
+      "direction_hint": "symmetric",
+      "association_strength": 0.55,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0004",
+      "concept_b": "c_0056",
+      "relation_type": "evocativa",
+      "direction_hint": "symmetric",
+      "association_strength": 0.55,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0001",
+      "concept_b": "c_0056",
+      "relation_type": "evocativa",
+      "direction_hint": "symmetric",
+      "association_strength": 0.55,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0057",
+      "concept_b": "c_0058",
+      "relation_type": "categoria",
+      "direction_hint": "symmetric",
+      "association_strength": 0.8,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0057",
+      "concept_b": "c_0542",
+      "relation_type": "categoria",
+      "direction_hint": "symmetric",
+      "association_strength": 0.5,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0002",
+      "concept_b": "c_0057",
+      "relation_type": "luoghi",
+      "direction_hint": "symmetric",
+      "association_strength": 0.85,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0001",
+      "concept_b": "c_0057",
+      "relation_type": "luoghi",
+      "direction_hint": "symmetric",
+      "association_strength": 0.8,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0043",
+      "concept_b": "c_0057",
+      "relation_type": "luoghi",
+      "direction_hint": "symmetric",
+      "association_strength": 0.7,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0055",
+      "concept_b": "c_0057",
+      "relation_type": "luoghi",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0056",
+      "concept_b": "c_0057",
+      "relation_type": "parti",
+      "direction_hint": "symmetric",
+      "association_strength": 0.7,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0042",
+      "concept_b": "c_0057",
+      "relation_type": "parti",
+      "direction_hint": "symmetric",
+      "association_strength": 0.7,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0057",
+      "concept_b": "c_0370",
+      "relation_type": "proprietà",
+      "direction_hint": "symmetric",
+      "association_strength": 0.6,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0057",
+      "concept_b": "c_0379",
+      "relation_type": "proprietà",
+      "direction_hint": "symmetric",
+      "association_strength": 0.6,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0057",
+      "concept_b": "c_0714",
+      "relation_type": "fenomeni",
+      "direction_hint": "symmetric",
+      "association_strength": 0.55,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0057",
+      "concept_b": "c_0374",
+      "relation_type": "fenomeni",
+      "direction_hint": "symmetric",
+      "association_strength": 0.45,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0057",
+      "concept_b": "c_1020",
+      "relation_type": "oggetti",
+      "direction_hint": "symmetric",
+      "association_strength": 0.5,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0057",
+      "concept_b": "c_0306",
+      "relation_type": "azioni",
+      "direction_hint": "symmetric",
+      "association_strength": 0.5,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0057",
+      "concept_b": "c_0062",
+      "relation_type": "esseri_viventi",
+      "direction_hint": "symmetric",
+      "association_strength": 0.5,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0004",
+      "concept_b": "c_0057",
+      "relation_type": "evocativa",
+      "direction_hint": "symmetric",
+      "association_strength": 0.5,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0059",
+      "concept_b": "c_0329",
+      "relation_type": "categoria",
+      "direction_hint": "symmetric",
+      "association_strength": 0.7,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0059",
+      "concept_b": "c_0188",
+      "relation_type": "similarità",
+      "direction_hint": "symmetric",
+      "association_strength": 0.45,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0059",
+      "concept_b": "c_0145",
+      "relation_type": "parti",
+      "direction_hint": "symmetric",
+      "association_strength": 0.55,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0002",
+      "concept_b": "c_0059",
+      "relation_type": "luoghi",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0055",
+      "concept_b": "c_0059",
+      "relation_type": "luoghi",
+      "direction_hint": "symmetric",
+      "association_strength": 0.8,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0059",
+      "concept_b": "c_0589",
+      "relation_type": "luoghi",
+      "direction_hint": "symmetric",
+      "association_strength": 0.55,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0059",
+      "concept_b": "c_0063",
+      "relation_type": "oggetti",
+      "direction_hint": "symmetric",
+      "association_strength": 0.7,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0056",
+      "concept_b": "c_0059",
+      "relation_type": "oggetti",
+      "direction_hint": "symmetric",
+      "association_strength": 0.5,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0003",
+      "concept_b": "c_0059",
+      "relation_type": "oggetti",
+      "direction_hint": "symmetric",
+      "association_strength": 0.5,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0059",
+      "concept_b": "c_0354",
+      "relation_type": "proprietà",
+      "direction_hint": "symmetric",
+      "association_strength": 0.75,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0059",
+      "concept_b": "c_0985",
+      "relation_type": "effetti",
+      "direction_hint": "symmetric",
+      "association_strength": 0.55,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0059",
+      "concept_b": "c_0085",
+      "relation_type": "azioni",
+      "direction_hint": "symmetric",
+      "association_strength": 0.45,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0059",
+      "concept_b": "c_0062",
+      "relation_type": "esseri_viventi",
+      "direction_hint": "symmetric",
+      "association_strength": 0.55,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0004",
+      "concept_b": "c_0059",
+      "relation_type": "evocativa",
+      "direction_hint": "symmetric",
+      "association_strength": 0.7,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0006",
+      "concept_b": "c_0059",
+      "relation_type": "evocativa",
+      "direction_hint": "symmetric",
+      "association_strength": 0.6,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0061",
+      "concept_b": "c_0232",
+      "relation_type": "categoria",
+      "direction_hint": "symmetric",
+      "association_strength": 0.6,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0061",
+      "concept_b": "c_0234",
+      "relation_type": "categoria",
+      "direction_hint": "symmetric",
+      "association_strength": 0.55,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0061",
+      "concept_b": "c_1023",
+      "relation_type": "categoria",
+      "direction_hint": "symmetric",
+      "association_strength": 0.8,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0002",
+      "concept_b": "c_0061",
+      "relation_type": "luoghi",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0061",
+      "concept_b": "c_0905",
+      "relation_type": "luoghi",
+      "direction_hint": "symmetric",
+      "association_strength": 0.8,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0001",
+      "concept_b": "c_0061",
+      "relation_type": "luoghi",
+      "direction_hint": "symmetric",
+      "association_strength": 0.7,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0055",
+      "concept_b": "c_0061",
+      "relation_type": "luoghi",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0061",
+      "concept_b": "c_0143",
+      "relation_type": "azioni",
+      "direction_hint": "symmetric",
+      "association_strength": 0.55,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0061",
+      "concept_b": "c_0329",
+      "relation_type": "azioni",
+      "direction_hint": "symmetric",
+      "association_strength": 0.6,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0061",
+      "concept_b": "c_0062",
+      "relation_type": "esseri_viventi",
+      "direction_hint": "symmetric",
+      "association_strength": 0.75,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0061",
+      "concept_b": "c_0106",
+      "relation_type": "effetti",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0061",
+      "concept_b": "c_0987",
+      "relation_type": "proprietà",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0004",
+      "concept_b": "c_0061",
+      "relation_type": "evocativa",
+      "direction_hint": "symmetric",
+      "association_strength": 0.55,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0001",
+      "concept_b": "c_0061",
+      "relation_type": "evocativa",
+      "direction_hint": "symmetric",
+      "association_strength": 0.5,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0062",
+      "concept_b": "c_0756",
+      "relation_type": "categoria",
+      "direction_hint": "symmetric",
+      "association_strength": 0.7,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0062",
+      "concept_b": "c_1024",
+      "relation_type": "categoria",
+      "direction_hint": "symmetric",
+      "association_strength": 0.6,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0053",
+      "concept_b": "c_0062",
+      "relation_type": "azioni",
+      "direction_hint": "symmetric",
+      "association_strength": 0.7,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0062",
+      "concept_b": "c_0591",
+      "relation_type": "azioni",
+      "direction_hint": "symmetric",
+      "association_strength": 0.6,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0062",
+      "concept_b": "c_0306",
+      "relation_type": "azioni",
+      "direction_hint": "symmetric",
+      "association_strength": 0.45,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0002",
+      "concept_b": "c_0062",
+      "relation_type": "luoghi",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0001",
+      "concept_b": "c_0062",
+      "relation_type": "luoghi",
+      "direction_hint": "symmetric",
+      "association_strength": 0.8,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0055",
+      "concept_b": "c_0062",
+      "relation_type": "luoghi",
+      "direction_hint": "symmetric",
+      "association_strength": 0.7,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0062",
+      "concept_b": "c_0905",
+      "relation_type": "luoghi",
+      "direction_hint": "symmetric",
+      "association_strength": 0.55,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0062",
+      "concept_b": "c_0063",
+      "relation_type": "oggetti",
+      "direction_hint": "symmetric",
+      "association_strength": 0.6,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0059",
+      "concept_b": "c_0062",
+      "relation_type": "oggetti",
+      "direction_hint": "symmetric",
+      "association_strength": 0.6,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0060",
+      "concept_b": "c_0062",
+      "relation_type": "proprietà",
+      "direction_hint": "symmetric",
+      "association_strength": 0.55,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0062",
+      "concept_b": "c_0595",
+      "relation_type": "effetti",
+      "direction_hint": "symmetric",
+      "association_strength": 0.45,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0004",
+      "concept_b": "c_0062",
+      "relation_type": "evocativa",
+      "direction_hint": "symmetric",
+      "association_strength": 0.7,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0006",
+      "concept_b": "c_0062",
+      "relation_type": "evocativa",
+      "direction_hint": "symmetric",
+      "association_strength": 0.6,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0063",
+      "concept_b": "c_1025",
+      "relation_type": "categoria",
+      "direction_hint": "symmetric",
+      "association_strength": 0.8,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0063",
+      "concept_b": "c_0892",
+      "relation_type": "costituzione",
+      "direction_hint": "symmetric",
+      "association_strength": 0.55,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0063",
+      "concept_b": "c_0837",
+      "relation_type": "costituzione",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0063",
+      "concept_b": "c_0386",
+      "relation_type": "azioni",
+      "direction_hint": "symmetric",
+      "association_strength": 0.5,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0063",
+      "concept_b": "c_0370",
+      "relation_type": "proprietà",
+      "direction_hint": "symmetric",
+      "association_strength": 0.55,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0063",
+      "concept_b": "c_0646",
+      "relation_type": "proprietà",
+      "direction_hint": "symmetric",
+      "association_strength": 0.5,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0063",
+      "concept_b": "c_0364",
+      "relation_type": "proprietà",
+      "direction_hint": "symmetric",
+      "association_strength": 0.35,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0002",
+      "concept_b": "c_0063",
+      "relation_type": "luoghi",
+      "direction_hint": "symmetric",
+      "association_strength": 0.85,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0001",
+      "concept_b": "c_0063",
+      "relation_type": "luoghi",
+      "direction_hint": "symmetric",
+      "association_strength": 0.55,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0063",
+      "concept_b": "c_0905",
+      "relation_type": "luoghi",
+      "direction_hint": "symmetric",
+      "association_strength": 0.55,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0063",
+      "concept_b": "c_0901",
+      "relation_type": "luoghi",
+      "direction_hint": "symmetric",
+      "association_strength": 0.45,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0056",
+      "concept_b": "c_0063",
+      "relation_type": "oggetti",
+      "direction_hint": "symmetric",
+      "association_strength": 0.5,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0062",
+      "concept_b": "c_0063",
+      "relation_type": "esseri_viventi",
+      "direction_hint": "symmetric",
+      "association_strength": 0.55,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0063",
+      "concept_b": "c_0810",
+      "relation_type": "similarità",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0063",
+      "concept_b": "c_0808",
+      "relation_type": "similarità",
+      "direction_hint": "symmetric",
+      "association_strength": 0.35,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0004",
+      "concept_b": "c_0063",
+      "relation_type": "evocativa",
+      "direction_hint": "symmetric",
+      "association_strength": 0.5,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0064",
+      "concept_b": "c_0187",
+      "relation_type": "categoria",
+      "direction_hint": "symmetric",
+      "association_strength": 0.8,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0064",
+      "concept_b": "c_0764",
+      "relation_type": "categoria",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0056",
+      "concept_b": "c_0064",
+      "relation_type": "costituzione",
+      "direction_hint": "symmetric",
+      "association_strength": 0.85,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0064",
+      "concept_b": "c_0192",
+      "relation_type": "parti",
+      "direction_hint": "symmetric",
+      "association_strength": 0.5,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0064",
+      "concept_b": "c_0397",
+      "relation_type": "parti",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0002",
+      "concept_b": "c_0064",
+      "relation_type": "luoghi",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0057",
+      "concept_b": "c_0064",
+      "relation_type": "luoghi",
+      "direction_hint": "symmetric",
+      "association_strength": 0.7,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0064",
+      "concept_b": "c_0589",
+      "relation_type": "luoghi",
+      "direction_hint": "symmetric",
+      "association_strength": 0.55,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0014",
+      "concept_b": "c_0064",
+      "relation_type": "esseri_viventi",
+      "direction_hint": "symmetric",
+      "association_strength": 0.7,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0020",
+      "concept_b": "c_0064",
+      "relation_type": "azioni",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0064",
+      "concept_b": "c_0107",
+      "relation_type": "azioni",
+      "direction_hint": "symmetric",
+      "association_strength": 0.5,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0042",
+      "concept_b": "c_0064",
+      "relation_type": "fenomeni",
+      "direction_hint": "symmetric",
+      "association_strength": 0.5,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0004",
+      "concept_b": "c_0064",
+      "relation_type": "evocativa",
+      "direction_hint": "symmetric",
+      "association_strength": 0.6,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0064",
+      "concept_b": "c_0601",
+      "relation_type": "evocativa",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0068",
+      "concept_b": "c_0758",
+      "relation_type": "categoria",
+      "direction_hint": "symmetric",
+      "association_strength": 0.45,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0067",
+      "concept_b": "c_0068",
+      "relation_type": "similarità",
+      "direction_hint": "symmetric",
+      "association_strength": 0.85,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0003",
+      "concept_b": "c_0068",
+      "relation_type": "similarità",
+      "direction_hint": "symmetric",
+      "association_strength": 0.8,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0068",
+      "concept_b": "c_1026",
+      "relation_type": "similarità",
+      "direction_hint": "symmetric",
+      "association_strength": 0.7,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0068",
+      "concept_b": "c_0077",
+      "relation_type": "similarità",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0068",
+      "concept_b": "c_0381",
+      "relation_type": "luoghi",
+      "direction_hint": "symmetric",
+      "association_strength": 0.85,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0068",
+      "concept_b": "c_0960",
+      "relation_type": "luoghi",
+      "direction_hint": "symmetric",
+      "association_strength": 0.8,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0068",
+      "concept_b": "c_0963",
+      "relation_type": "luoghi",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0068",
+      "concept_b": "c_0069",
+      "relation_type": "proprietà",
+      "direction_hint": "symmetric",
+      "association_strength": 0.75,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0068",
+      "concept_b": "c_0527",
+      "relation_type": "proprietà",
+      "direction_hint": "symmetric",
+      "association_strength": 0.6,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0066",
+      "concept_b": "c_0068",
+      "relation_type": "fenomeni",
+      "direction_hint": "symmetric",
+      "association_strength": 0.7,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0068",
+      "concept_b": "c_0071",
+      "relation_type": "fenomeni",
+      "direction_hint": "symmetric",
+      "association_strength": 0.55,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0068",
+      "concept_b": "c_0078",
+      "relation_type": "contrasto",
+      "direction_hint": "symmetric",
+      "association_strength": 0.5,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0068",
+      "concept_b": "c_0510",
+      "relation_type": "evocativa",
+      "direction_hint": "symmetric",
+      "association_strength": 0.6,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0068",
+      "concept_b": "c_0965",
+      "relation_type": "evocativa",
+      "direction_hint": "symmetric",
+      "association_strength": 0.5,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0076",
+      "concept_b": "c_0826",
+      "relation_type": "categoria",
+      "direction_hint": "symmetric",
+      "association_strength": 0.7,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0076",
+      "concept_b": "c_0339",
+      "relation_type": "esseri_viventi",
+      "direction_hint": "symmetric",
+      "association_strength": 0.85,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0026",
+      "concept_b": "c_0076",
+      "relation_type": "esseri_viventi",
+      "direction_hint": "symmetric",
+      "association_strength": 0.6,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0076",
+      "concept_b": "c_0304",
+      "relation_type": "esseri_viventi",
+      "direction_hint": "symmetric",
+      "association_strength": 0.45,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0076",
+      "concept_b": "c_1027",
+      "relation_type": "parti",
+      "direction_hint": "symmetric",
+      "association_strength": 0.7,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0066",
+      "concept_b": "c_0076",
+      "relation_type": "cause",
+      "direction_hint": "symmetric",
+      "association_strength": 0.8,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0003",
+      "concept_b": "c_0076",
+      "relation_type": "cause",
+      "direction_hint": "symmetric",
+      "association_strength": 0.7,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0076",
+      "concept_b": "c_0355",
+      "relation_type": "effetti",
+      "direction_hint": "symmetric",
+      "association_strength": 0.8,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0076",
+      "concept_b": "c_0422",
+      "relation_type": "effetti",
+      "direction_hint": "symmetric",
+      "association_strength": 0.7,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0072",
+      "concept_b": "c_0076",
+      "relation_type": "effetti",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0076",
+      "concept_b": "c_0299",
+      "relation_type": "proprietà",
+      "direction_hint": "symmetric",
+      "association_strength": 0.5,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0076",
+      "concept_b": "c_0349",
+      "relation_type": "luoghi",
+      "direction_hint": "symmetric",
+      "association_strength": 0.6,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0076",
+      "concept_b": "c_0512",
+      "relation_type": "contrasto",
+      "direction_hint": "symmetric",
+      "association_strength": 0.55,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0076",
+      "concept_b": "c_0648",
+      "relation_type": "contrasto",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0076",
+      "concept_b": "c_0086",
+      "relation_type": "evocativa",
+      "direction_hint": "symmetric",
+      "association_strength": 0.45,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0079",
+      "concept_b": "c_1028",
+      "relation_type": "categoria",
+      "direction_hint": "symmetric",
+      "association_strength": 0.75,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0004",
+      "concept_b": "c_0079",
+      "relation_type": "categoria",
+      "direction_hint": "symmetric",
+      "association_strength": 0.8,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0079",
+      "concept_b": "c_0086",
+      "relation_type": "categoria",
+      "direction_hint": "symmetric",
+      "association_strength": 0.8,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0079",
+      "concept_b": "c_0087",
+      "relation_type": "categoria",
+      "direction_hint": "symmetric",
+      "association_strength": 0.8,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0079",
+      "concept_b": "c_0088",
+      "relation_type": "categoria",
+      "direction_hint": "symmetric",
+      "association_strength": 0.8,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0079",
+      "concept_b": "c_1029",
+      "relation_type": "contenuto",
+      "direction_hint": "symmetric",
+      "association_strength": 0.6,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0079",
+      "concept_b": "c_0964",
+      "relation_type": "fenomeni",
+      "direction_hint": "symmetric",
+      "association_strength": 0.8,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0079",
+      "concept_b": "c_0618",
+      "relation_type": "fenomeni",
+      "direction_hint": "symmetric",
+      "association_strength": 0.6,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0079",
+      "concept_b": "c_0619",
+      "relation_type": "proprietà",
+      "direction_hint": "symmetric",
+      "association_strength": 0.5,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0079",
+      "concept_b": "c_0627",
+      "relation_type": "azioni",
+      "direction_hint": "symmetric",
+      "association_strength": 0.5,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0079",
+      "concept_b": "c_0620",
+      "relation_type": "azioni",
+      "direction_hint": "symmetric",
+      "association_strength": 0.5,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0079",
+      "concept_b": "c_0913",
+      "relation_type": "effetti",
+      "direction_hint": "symmetric",
+      "association_strength": 0.5,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0079",
+      "concept_b": "c_0664",
+      "relation_type": "effetti",
+      "direction_hint": "symmetric",
+      "association_strength": 0.45,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0079",
+      "concept_b": "c_0300",
+      "relation_type": "evocativa",
+      "direction_hint": "symmetric",
+      "association_strength": 0.45,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0081",
+      "concept_b": "c_1029",
+      "relation_type": "categoria",
+      "direction_hint": "symmetric",
+      "association_strength": 0.85,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0081",
+      "concept_b": "c_0082",
+      "relation_type": "similarità",
+      "direction_hint": "symmetric",
+      "association_strength": 0.85,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0081",
+      "concept_b": "c_0083",
+      "relation_type": "similarità",
+      "direction_hint": "symmetric",
+      "association_strength": 0.8,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0004",
+      "concept_b": "c_0081",
+      "relation_type": "fenomeni",
+      "direction_hint": "symmetric",
+      "association_strength": 0.8,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0005",
+      "concept_b": "c_0081",
+      "relation_type": "fenomeni",
+      "direction_hint": "symmetric",
+      "association_strength": 0.75,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0081",
+      "concept_b": "c_0640",
+      "relation_type": "fenomeni",
+      "direction_hint": "symmetric",
+      "association_strength": 0.6,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0081",
+      "concept_b": "c_0089",
+      "relation_type": "proprietà",
+      "direction_hint": "symmetric",
+      "association_strength": 0.6,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0006",
+      "concept_b": "c_0081",
+      "relation_type": "azioni",
+      "direction_hint": "symmetric",
+      "association_strength": 0.7,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0081",
+      "concept_b": "c_0101",
+      "relation_type": "azioni",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0081",
+      "concept_b": "c_0084",
+      "relation_type": "effetti",
+      "direction_hint": "symmetric",
+      "association_strength": 0.5,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0081",
+      "concept_b": "c_0088",
+      "relation_type": "contrasto",
+      "direction_hint": "symmetric",
+      "association_strength": 0.55,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0001",
+      "concept_b": "c_0081",
+      "relation_type": "evocativa",
+      "direction_hint": "symmetric",
+      "association_strength": 0.6,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0003",
+      "concept_b": "c_0081",
+      "relation_type": "evocativa",
+      "direction_hint": "symmetric",
+      "association_strength": 0.55,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0002",
+      "concept_b": "c_0081",
+      "relation_type": "evocativa",
+      "direction_hint": "symmetric",
+      "association_strength": 0.5,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0082",
+      "concept_b": "c_1029",
+      "relation_type": "categoria",
+      "direction_hint": "symmetric",
+      "association_strength": 0.85,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0082",
+      "concept_b": "c_0083",
+      "relation_type": "similarità",
+      "direction_hint": "symmetric",
+      "association_strength": 0.75,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0004",
+      "concept_b": "c_0082",
+      "relation_type": "fenomeni",
+      "direction_hint": "symmetric",
+      "association_strength": 0.8,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0005",
+      "concept_b": "c_0082",
+      "relation_type": "fenomeni",
+      "direction_hint": "symmetric",
+      "association_strength": 0.8,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0082",
+      "concept_b": "c_0640",
+      "relation_type": "fenomeni",
+      "direction_hint": "symmetric",
+      "association_strength": 0.7,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0082",
+      "concept_b": "c_0089",
+      "relation_type": "proprietà",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0082",
+      "concept_b": "c_0641",
+      "relation_type": "proprietà",
+      "direction_hint": "symmetric",
+      "association_strength": 0.5,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0082",
+      "concept_b": "c_0101",
+      "relation_type": "azioni",
+      "direction_hint": "symmetric",
+      "association_strength": 0.8,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0006",
+      "concept_b": "c_0082",
+      "relation_type": "azioni",
+      "direction_hint": "symmetric",
+      "association_strength": 0.75,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0082",
+      "concept_b": "c_0125",
+      "relation_type": "azioni",
+      "direction_hint": "symmetric",
+      "association_strength": 0.6,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0082",
+      "concept_b": "c_0084",
+      "relation_type": "effetti",
+      "direction_hint": "symmetric",
+      "association_strength": 0.55,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0001",
+      "concept_b": "c_0082",
+      "relation_type": "luoghi",
+      "direction_hint": "symmetric",
+      "association_strength": 0.55,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0082",
+      "concept_b": "c_0088",
+      "relation_type": "contrasto",
+      "direction_hint": "symmetric",
+      "association_strength": 0.5,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0002",
+      "concept_b": "c_0082",
+      "relation_type": "evocativa",
+      "direction_hint": "symmetric",
+      "association_strength": 0.55,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0082",
+      "concept_b": "c_1000",
+      "relation_type": "evocativa",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0083",
+      "concept_b": "c_1029",
+      "relation_type": "categoria",
+      "direction_hint": "symmetric",
+      "association_strength": 0.85,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0004",
+      "concept_b": "c_0083",
+      "relation_type": "fenomeni",
+      "direction_hint": "symmetric",
+      "association_strength": 0.8,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0083",
+      "concept_b": "c_0086",
+      "relation_type": "fenomeni",
+      "direction_hint": "symmetric",
+      "association_strength": 0.55,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0005",
+      "concept_b": "c_0083",
+      "relation_type": "fenomeni",
+      "direction_hint": "symmetric",
+      "association_strength": 0.6,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0083",
+      "concept_b": "c_0603",
+      "relation_type": "proprietà",
+      "direction_hint": "symmetric",
+      "association_strength": 0.5,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0083",
+      "concept_b": "c_0913",
+      "relation_type": "azioni",
+      "direction_hint": "symmetric",
+      "association_strength": 0.45,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0083",
+      "concept_b": "c_0664",
+      "relation_type": "effetti",
+      "direction_hint": "symmetric",
+      "association_strength": 0.5,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0083",
+      "concept_b": "c_0088",
+      "relation_type": "contrasto",
+      "direction_hint": "symmetric",
+      "association_strength": 0.5,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0017",
+      "concept_b": "c_0083",
+      "relation_type": "evocativa",
+      "direction_hint": "symmetric",
+      "association_strength": 0.55,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0001",
+      "concept_b": "c_0083",
+      "relation_type": "evocativa",
+      "direction_hint": "symmetric",
+      "association_strength": 0.5,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0003",
+      "concept_b": "c_0083",
+      "relation_type": "evocativa",
+      "direction_hint": "symmetric",
+      "association_strength": 0.55,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0086",
+      "concept_b": "c_0087",
+      "relation_type": "contrasto",
+      "direction_hint": "symmetric",
+      "association_strength": 0.55,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0087",
+      "concept_b": "c_0088",
+      "relation_type": "similarità",
+      "direction_hint": "symmetric",
+      "association_strength": 0.45,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0029",
+      "concept_b": "c_0087",
+      "relation_type": "fenomeni",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0087",
+      "concept_b": "c_0926",
+      "relation_type": "fenomeni",
+      "direction_hint": "symmetric",
+      "association_strength": 0.6,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0030",
+      "concept_b": "c_0087",
+      "relation_type": "fenomeni",
+      "direction_hint": "symmetric",
+      "association_strength": 0.5,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0087",
+      "concept_b": "c_0382",
+      "relation_type": "proprietà",
+      "direction_hint": "symmetric",
+      "association_strength": 0.5,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0087",
+      "concept_b": "c_0370",
+      "relation_type": "proprietà",
+      "direction_hint": "symmetric",
+      "association_strength": 0.45,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0087",
+      "concept_b": "c_0599",
+      "relation_type": "proprietà",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0087",
+      "concept_b": "c_0349",
+      "relation_type": "esseri_viventi",
+      "direction_hint": "symmetric",
+      "association_strength": 0.75,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0026",
+      "concept_b": "c_0087",
+      "relation_type": "esseri_viventi",
+      "direction_hint": "symmetric",
+      "association_strength": 0.5,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0087",
+      "concept_b": "c_0648",
+      "relation_type": "azioni",
+      "direction_hint": "symmetric",
+      "association_strength": 0.6,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0087",
+      "concept_b": "c_0913",
+      "relation_type": "azioni",
+      "direction_hint": "symmetric",
+      "association_strength": 0.6,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0087",
+      "concept_b": "c_0910",
+      "relation_type": "effetti",
+      "direction_hint": "symmetric",
+      "association_strength": 0.5,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0087",
+      "concept_b": "c_0297",
+      "relation_type": "luoghi",
+      "direction_hint": "symmetric",
+      "association_strength": 0.55,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0087",
+      "concept_b": "c_0383",
+      "relation_type": "evocativa",
+      "direction_hint": "symmetric",
+      "association_strength": 0.6,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0004",
+      "concept_b": "c_0088",
+      "relation_type": "contrasto",
+      "direction_hint": "symmetric",
+      "association_strength": 0.7,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0005",
+      "concept_b": "c_0088",
+      "relation_type": "contrasto",
+      "direction_hint": "symmetric",
+      "association_strength": 0.6,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0088",
+      "concept_b": "c_0382",
+      "relation_type": "fenomeni",
+      "direction_hint": "symmetric",
+      "association_strength": 0.85,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0088",
+      "concept_b": "c_0471",
+      "relation_type": "fenomeni",
+      "direction_hint": "symmetric",
+      "association_strength": 0.7,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0088",
+      "concept_b": "c_0967",
+      "relation_type": "fenomeni",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0088",
+      "concept_b": "c_0971",
+      "relation_type": "fenomeni",
+      "direction_hint": "symmetric",
+      "association_strength": 0.5,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0088",
+      "concept_b": "c_0969",
+      "relation_type": "proprietà",
+      "direction_hint": "symmetric",
+      "association_strength": 0.55,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0088",
+      "concept_b": "c_0974",
+      "relation_type": "proprietà",
+      "direction_hint": "symmetric",
+      "association_strength": 0.45,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0088",
+      "concept_b": "c_0659",
+      "relation_type": "esseri_viventi",
+      "direction_hint": "symmetric",
+      "association_strength": 0.5,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0088",
+      "concept_b": "c_0185",
+      "relation_type": "oggetti",
+      "direction_hint": "symmetric",
+      "association_strength": 0.5,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0031",
+      "concept_b": "c_0088",
+      "relation_type": "luoghi",
+      "direction_hint": "symmetric",
+      "association_strength": 0.5,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0088",
+      "concept_b": "c_0970",
+      "relation_type": "effetti",
+      "direction_hint": "symmetric",
+      "association_strength": 0.55,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0088",
+      "concept_b": "c_0661",
+      "relation_type": "effetti",
+      "direction_hint": "symmetric",
+      "association_strength": 0.45,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0088",
+      "concept_b": "c_0998",
+      "relation_type": "evocativa",
+      "direction_hint": "symmetric",
+      "association_strength": 0.45,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0065",
+      "concept_b": "c_0089",
+      "relation_type": "categoria",
+      "direction_hint": "symmetric",
+      "association_strength": 0.85,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0089",
+      "concept_b": "c_0090",
+      "relation_type": "categoria",
+      "direction_hint": "symmetric",
+      "association_strength": 0.5,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0089",
+      "concept_b": "c_0640",
+      "relation_type": "similarità",
+      "direction_hint": "symmetric",
+      "association_strength": 0.8,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0080",
+      "concept_b": "c_0089",
+      "relation_type": "similarità",
+      "direction_hint": "symmetric",
+      "association_strength": 0.85,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0084",
+      "concept_b": "c_0089",
+      "relation_type": "similarità",
+      "direction_hint": "symmetric",
+      "association_strength": 0.7,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0089",
+      "concept_b": "c_0641",
+      "relation_type": "similarità",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0089",
+      "concept_b": "c_0382",
+      "relation_type": "contrasto",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0089",
+      "concept_b": "c_0390",
+      "relation_type": "contrasto",
+      "direction_hint": "symmetric",
+      "association_strength": 0.55,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0003",
+      "concept_b": "c_0089",
+      "relation_type": "cause",
+      "direction_hint": "symmetric",
+      "association_strength": 0.8,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0004",
+      "concept_b": "c_0089",
+      "relation_type": "cause",
+      "direction_hint": "symmetric",
+      "association_strength": 0.7,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0089",
+      "concept_b": "c_0645",
+      "relation_type": "cause",
+      "direction_hint": "symmetric",
+      "association_strength": 0.5,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0089",
+      "concept_b": "c_0094",
+      "relation_type": "effetti",
+      "direction_hint": "symmetric",
+      "association_strength": 0.7,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0089",
+      "concept_b": "c_0100",
+      "relation_type": "effetti",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0089",
+      "concept_b": "c_0661",
+      "relation_type": "effetti",
+      "direction_hint": "symmetric",
+      "association_strength": 0.5,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0089",
+      "concept_b": "c_0647",
+      "relation_type": "effetti",
+      "direction_hint": "symmetric",
+      "association_strength": 0.5,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0089",
+      "concept_b": "c_0612",
+      "relation_type": "proprietà",
+      "direction_hint": "symmetric",
+      "association_strength": 0.5,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0089",
+      "concept_b": "c_0642",
+      "relation_type": "fenomeni",
+      "direction_hint": "symmetric",
+      "association_strength": 0.5,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0089",
+      "concept_b": "c_0524",
+      "relation_type": "evocativa",
+      "direction_hint": "symmetric",
+      "association_strength": 0.55,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0093",
+      "concept_b": "c_1030",
+      "relation_type": "categoria",
+      "direction_hint": "symmetric",
+      "association_strength": 0.8,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0093",
+      "concept_b": "c_1031",
+      "relation_type": "costituzione",
+      "direction_hint": "symmetric",
+      "association_strength": 0.7,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0091",
+      "concept_b": "c_0093",
+      "relation_type": "contenuto",
+      "direction_hint": "symmetric",
+      "association_strength": 0.8,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0092",
+      "concept_b": "c_0093",
+      "relation_type": "contenuto",
+      "direction_hint": "symmetric",
+      "association_strength": 0.75,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0065",
+      "concept_b": "c_0093",
+      "relation_type": "contenuto",
+      "direction_hint": "symmetric",
+      "association_strength": 0.8,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0093",
+      "concept_b": "c_0095",
+      "relation_type": "proprietà",
+      "direction_hint": "symmetric",
+      "association_strength": 0.7,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0093",
+      "concept_b": "c_0641",
+      "relation_type": "proprietà",
+      "direction_hint": "symmetric",
+      "association_strength": 0.6,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0093",
+      "concept_b": "c_0098",
+      "relation_type": "effetti",
+      "direction_hint": "symmetric",
+      "association_strength": 0.5,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0093",
+      "concept_b": "c_0643",
+      "relation_type": "effetti",
+      "direction_hint": "symmetric",
+      "association_strength": 0.55,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0003",
+      "concept_b": "c_0093",
+      "relation_type": "similarità",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0093",
+      "concept_b": "c_0382",
+      "relation_type": "contrasto",
+      "direction_hint": "symmetric",
+      "association_strength": 0.5,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0093",
+      "concept_b": "c_0471",
+      "relation_type": "contrasto",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0004",
+      "concept_b": "c_0093",
+      "relation_type": "evocativa",
+      "direction_hint": "symmetric",
+      "association_strength": 0.5,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0093",
+      "concept_b": "c_0640",
+      "relation_type": "evocativa",
+      "direction_hint": "symmetric",
+      "association_strength": 0.5,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0097",
+      "concept_b": "c_0607",
+      "relation_type": "categoria",
+      "direction_hint": "symmetric",
+      "association_strength": 0.8,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0097",
+      "concept_b": "c_0592",
+      "relation_type": "luoghi",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0097",
+      "concept_b": "c_0330",
+      "relation_type": "luoghi",
+      "direction_hint": "symmetric",
+      "association_strength": 0.45,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0097",
+      "concept_b": "c_0434",
+      "relation_type": "luoghi",
+      "direction_hint": "symmetric",
+      "association_strength": 0.5,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0091",
+      "concept_b": "c_0097",
+      "relation_type": "cause",
+      "direction_hint": "symmetric",
+      "association_strength": 0.7,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0065",
+      "concept_b": "c_0097",
+      "relation_type": "cause",
+      "direction_hint": "symmetric",
+      "association_strength": 0.7,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0003",
+      "concept_b": "c_0097",
+      "relation_type": "cause",
+      "direction_hint": "symmetric",
+      "association_strength": 0.55,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0092",
+      "concept_b": "c_0097",
+      "relation_type": "cause",
+      "direction_hint": "symmetric",
+      "association_strength": 0.55,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0097",
+      "concept_b": "c_0602",
+      "relation_type": "similarità",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0065",
+      "concept_b": "c_0097",
+      "relation_type": "similarità",
+      "direction_hint": "symmetric",
+      "association_strength": 0.5,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0097",
+      "concept_b": "c_0106",
+      "relation_type": "contrasto",
+      "direction_hint": "symmetric",
+      "association_strength": 0.6,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0097",
+      "concept_b": "c_0985",
+      "relation_type": "contrasto",
+      "direction_hint": "symmetric",
+      "association_strength": 0.55,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0097",
+      "concept_b": "c_0390",
+      "relation_type": "contrasto",
+      "direction_hint": "symmetric",
+      "association_strength": 0.5,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0097",
+      "concept_b": "c_0612",
+      "relation_type": "proprietà",
+      "direction_hint": "symmetric",
+      "association_strength": 0.45,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0097",
+      "concept_b": "c_0929",
+      "relation_type": "effetti",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0097",
+      "concept_b": "c_0099",
+      "relation_type": "evocativa",
+      "direction_hint": "symmetric",
+      "association_strength": 0.45,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0098",
+      "concept_b": "c_1032",
+      "relation_type": "categoria",
+      "direction_hint": "symmetric",
+      "association_strength": 0.8,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0098",
+      "concept_b": "c_0592",
+      "relation_type": "parti",
+      "direction_hint": "symmetric",
+      "association_strength": 0.6,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0098",
+      "concept_b": "c_0592",
+      "relation_type": "luoghi",
+      "direction_hint": "symmetric",
+      "association_strength": 0.75,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0098",
+      "concept_b": "c_0863",
+      "relation_type": "luoghi",
+      "direction_hint": "symmetric",
+      "association_strength": 0.45,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0091",
+      "concept_b": "c_0098",
+      "relation_type": "cause",
+      "direction_hint": "symmetric",
+      "association_strength": 0.85,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0092",
+      "concept_b": "c_0098",
+      "relation_type": "cause",
+      "direction_hint": "symmetric",
+      "association_strength": 0.8,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0065",
+      "concept_b": "c_0098",
+      "relation_type": "cause",
+      "direction_hint": "symmetric",
+      "association_strength": 0.75,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0003",
+      "concept_b": "c_0098",
+      "relation_type": "cause",
+      "direction_hint": "symmetric",
+      "association_strength": 0.6,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0096",
+      "concept_b": "c_0098",
+      "relation_type": "cause",
+      "direction_hint": "symmetric",
+      "association_strength": 0.5,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0097",
+      "concept_b": "c_0098",
+      "relation_type": "effetti",
+      "direction_hint": "symmetric",
+      "association_strength": 0.7,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0098",
+      "concept_b": "c_0651",
+      "relation_type": "effetti",
+      "direction_hint": "symmetric",
+      "association_strength": 0.6,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0098",
+      "concept_b": "c_0595",
+      "relation_type": "similarità",
+      "direction_hint": "symmetric",
+      "association_strength": 0.8,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0098",
+      "concept_b": "c_0651",
+      "relation_type": "similarità",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0091",
+      "concept_b": "c_0098",
+      "relation_type": "evocativa",
+      "direction_hint": "symmetric",
+      "association_strength": 0.55,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0099",
+      "concept_b": "c_1033",
+      "relation_type": "categoria",
+      "direction_hint": "symmetric",
+      "association_strength": 0.8,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0099",
+      "concept_b": "c_0772",
+      "relation_type": "cause",
+      "direction_hint": "symmetric",
+      "association_strength": 0.7,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0090",
+      "concept_b": "c_0099",
+      "relation_type": "proprietà",
+      "direction_hint": "symmetric",
+      "association_strength": 0.75,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0065",
+      "concept_b": "c_0099",
+      "relation_type": "proprietà",
+      "direction_hint": "symmetric",
+      "association_strength": 0.7,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0094",
+      "concept_b": "c_0099",
+      "relation_type": "effetti",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0099",
+      "concept_b": "c_0972",
+      "relation_type": "effetti",
+      "direction_hint": "symmetric",
+      "association_strength": 0.7,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0099",
+      "concept_b": "c_0713",
+      "relation_type": "effetti",
+      "direction_hint": "symmetric",
+      "association_strength": 0.6,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0099",
+      "concept_b": "c_0661",
+      "relation_type": "effetti",
+      "direction_hint": "symmetric",
+      "association_strength": 0.45,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0099",
+      "concept_b": "c_0655",
+      "relation_type": "effetti",
+      "direction_hint": "symmetric",
+      "association_strength": 0.45,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0099",
+      "concept_b": "c_1034",
+      "relation_type": "oggetti",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0085",
+      "concept_b": "c_0099",
+      "relation_type": "azioni",
+      "direction_hint": "symmetric",
+      "association_strength": 0.55,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0099",
+      "concept_b": "c_0656",
+      "relation_type": "azioni",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0099",
+      "concept_b": "c_0772",
+      "relation_type": "similarità",
+      "direction_hint": "symmetric",
+      "association_strength": 0.5,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0088",
+      "concept_b": "c_0099",
+      "relation_type": "evocativa",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0103",
+      "concept_b": "c_0688",
+      "relation_type": "categoria",
+      "direction_hint": "symmetric",
+      "association_strength": 0.8,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0103",
+      "concept_b": "c_0687",
+      "relation_type": "categoria",
+      "direction_hint": "symmetric",
+      "association_strength": 0.75,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0101",
+      "concept_b": "c_0103",
+      "relation_type": "similarità",
+      "direction_hint": "symmetric",
+      "association_strength": 0.75,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0103",
+      "concept_b": "c_0105",
+      "relation_type": "similarità",
+      "direction_hint": "symmetric",
+      "association_strength": 0.55,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0085",
+      "concept_b": "c_0103",
+      "relation_type": "similarità",
+      "direction_hint": "symmetric",
+      "association_strength": 0.5,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0103",
+      "concept_b": "c_0111",
+      "relation_type": "contrasto",
+      "direction_hint": "symmetric",
+      "association_strength": 0.45,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0085",
+      "concept_b": "c_0103",
+      "relation_type": "effetti",
+      "direction_hint": "symmetric",
+      "association_strength": 0.6,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0103",
+      "concept_b": "c_0106",
+      "relation_type": "effetti",
+      "direction_hint": "symmetric",
+      "association_strength": 0.55,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0103",
+      "concept_b": "c_0660",
+      "relation_type": "effetti",
+      "direction_hint": "symmetric",
+      "association_strength": 0.5,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0103",
+      "concept_b": "c_0109",
+      "relation_type": "effetti",
+      "direction_hint": "symmetric",
+      "association_strength": 0.5,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0103",
+      "concept_b": "c_0632",
+      "relation_type": "azioni",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0103",
+      "concept_b": "c_0976",
+      "relation_type": "azioni",
+      "direction_hint": "symmetric",
+      "association_strength": 0.45,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0103",
+      "concept_b": "c_0121",
+      "relation_type": "azioni",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0103",
+      "concept_b": "c_0619",
+      "relation_type": "proprietà",
+      "direction_hint": "symmetric",
+      "association_strength": 0.5,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0103",
+      "concept_b": "c_0516",
+      "relation_type": "evocativa",
+      "direction_hint": "symmetric",
+      "association_strength": 0.5,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0106",
+      "concept_b": "c_0607",
+      "relation_type": "categoria",
+      "direction_hint": "symmetric",
+      "association_strength": 0.7,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0085",
+      "concept_b": "c_0106",
+      "relation_type": "cause",
+      "direction_hint": "symmetric",
+      "association_strength": 0.6,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0105",
+      "concept_b": "c_0106",
+      "relation_type": "cause",
+      "direction_hint": "symmetric",
+      "association_strength": 0.55,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0106",
+      "concept_b": "c_0985",
+      "relation_type": "cause",
+      "direction_hint": "symmetric",
+      "association_strength": 0.5,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0106",
+      "concept_b": "c_0958",
+      "relation_type": "contrasto",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0106",
+      "concept_b": "c_0712",
+      "relation_type": "contrasto",
+      "direction_hint": "symmetric",
+      "association_strength": 0.6,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0106",
+      "concept_b": "c_0516",
+      "relation_type": "similarità",
+      "direction_hint": "symmetric",
+      "association_strength": 0.6,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0106",
+      "concept_b": "c_0345",
+      "relation_type": "similarità",
+      "direction_hint": "symmetric",
+      "association_strength": 0.55,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0106",
+      "concept_b": "c_0662",
+      "relation_type": "similarità",
+      "direction_hint": "symmetric",
+      "association_strength": 0.55,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0106",
+      "concept_b": "c_0657",
+      "relation_type": "similarità",
+      "direction_hint": "symmetric",
+      "association_strength": 0.5,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0106",
+      "concept_b": "c_1001",
+      "relation_type": "effetti",
+      "direction_hint": "symmetric",
+      "association_strength": 0.6,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0106",
+      "concept_b": "c_0658",
+      "relation_type": "effetti",
+      "direction_hint": "symmetric",
+      "association_strength": 0.55,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0106",
+      "concept_b": "c_0978",
+      "relation_type": "effetti",
+      "direction_hint": "symmetric",
+      "association_strength": 0.5,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0106",
+      "concept_b": "c_0999",
+      "relation_type": "evocativa",
+      "direction_hint": "symmetric",
+      "association_strength": 0.55,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0110",
+      "concept_b": "c_0184",
+      "relation_type": "categoria",
+      "direction_hint": "symmetric",
+      "association_strength": 0.8,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0110",
+      "concept_b": "c_0186",
+      "relation_type": "categoria",
+      "direction_hint": "symmetric",
+      "association_strength": 0.55,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0110",
+      "concept_b": "c_0191",
+      "relation_type": "parti",
+      "direction_hint": "symmetric",
+      "association_strength": 0.7,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0110",
+      "concept_b": "c_0140",
+      "relation_type": "contenuto",
+      "direction_hint": "symmetric",
+      "association_strength": 0.5,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0009",
+      "concept_b": "c_0110",
+      "relation_type": "contenuto",
+      "direction_hint": "symmetric",
+      "association_strength": 0.5,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0110",
+      "concept_b": "c_0133",
+      "relation_type": "esseri_viventi",
+      "direction_hint": "symmetric",
+      "association_strength": 0.5,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0085",
+      "concept_b": "c_0110",
+      "relation_type": "azioni",
+      "direction_hint": "symmetric",
+      "association_strength": 0.5,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0110",
+      "concept_b": "c_0733",
+      "relation_type": "azioni",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0010",
+      "concept_b": "c_0110",
+      "relation_type": "luoghi",
+      "direction_hint": "symmetric",
+      "association_strength": 0.55,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0001",
+      "concept_b": "c_0110",
+      "relation_type": "luoghi",
+      "direction_hint": "symmetric",
+      "association_strength": 0.45,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0031",
+      "concept_b": "c_0110",
+      "relation_type": "luoghi",
+      "direction_hint": "symmetric",
+      "association_strength": 0.45,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0110",
+      "concept_b": "c_0182",
+      "relation_type": "similarità",
+      "direction_hint": "symmetric",
+      "association_strength": 0.55,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0110",
+      "concept_b": "c_0183",
+      "relation_type": "similarità",
+      "direction_hint": "symmetric",
+      "association_strength": 0.45,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0110",
+      "concept_b": "c_0190",
+      "relation_type": "similarità",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0110",
+      "concept_b": "c_0194",
+      "relation_type": "similarità",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0007",
+      "concept_b": "c_0110",
+      "relation_type": "evocativa",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0006",
+      "concept_b": "c_0110",
+      "relation_type": "evocativa",
+      "direction_hint": "symmetric",
+      "association_strength": 0.5,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0111",
+      "concept_b": "c_0705",
+      "relation_type": "categoria",
+      "direction_hint": "symmetric",
+      "association_strength": 0.6,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0007",
+      "concept_b": "c_0111",
+      "relation_type": "categoria",
+      "direction_hint": "symmetric",
+      "association_strength": 0.5,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0111",
+      "concept_b": "c_0121",
+      "relation_type": "contrasto",
+      "direction_hint": "symmetric",
+      "association_strength": 0.85,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0111",
+      "concept_b": "c_0125",
+      "relation_type": "contrasto",
+      "direction_hint": "symmetric",
+      "association_strength": 0.5,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0111",
+      "concept_b": "c_0976",
+      "relation_type": "contrasto",
+      "direction_hint": "symmetric",
+      "association_strength": 0.45,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0111",
+      "concept_b": "c_0122",
+      "relation_type": "similarità",
+      "direction_hint": "symmetric",
+      "association_strength": 0.7,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0007",
+      "concept_b": "c_0111",
+      "relation_type": "azioni",
+      "direction_hint": "symmetric",
+      "association_strength": 0.6,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0111",
+      "concept_b": "c_0114",
+      "relation_type": "azioni",
+      "direction_hint": "symmetric",
+      "association_strength": 0.5,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0111",
+      "concept_b": "c_0115",
+      "relation_type": "azioni",
+      "direction_hint": "symmetric",
+      "association_strength": 0.45,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0012",
+      "concept_b": "c_0111",
+      "relation_type": "luoghi",
+      "direction_hint": "symmetric",
+      "association_strength": 0.7,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0111",
+      "concept_b": "c_0170",
+      "relation_type": "luoghi",
+      "direction_hint": "symmetric",
+      "association_strength": 0.6,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0111",
+      "concept_b": "c_0743",
+      "relation_type": "luoghi",
+      "direction_hint": "symmetric",
+      "association_strength": 0.55,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0111",
+      "concept_b": "c_0130",
+      "relation_type": "luoghi",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0106",
+      "concept_b": "c_0111",
+      "relation_type": "effetti",
+      "direction_hint": "symmetric",
+      "association_strength": 0.45,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0111",
+      "concept_b": "c_0383",
+      "relation_type": "effetti",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0111",
+      "concept_b": "c_0140",
+      "relation_type": "oggetti",
+      "direction_hint": "symmetric",
+      "association_strength": 0.5,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0111",
+      "concept_b": "c_0136",
+      "relation_type": "oggetti",
+      "direction_hint": "symmetric",
+      "association_strength": 0.45,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0013",
+      "concept_b": "c_0111",
+      "relation_type": "evocativa",
+      "direction_hint": "symmetric",
+      "association_strength": 0.5,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
     }
   ],
   "lexical_index": [
@@ -40345,6 +44355,71 @@
     {
       "normalized_form": "corallo",
       "lexeme_id": "w_1021",
+      "lexeme_kind": "word"
+    },
+    {
+      "normalized_form": "granello",
+      "lexeme_id": "w_1022",
+      "lexeme_kind": "word"
+    },
+    {
+      "normalized_form": "soccorritore",
+      "lexeme_id": "w_1023",
+      "lexeme_kind": "word"
+    },
+    {
+      "normalized_form": "turista",
+      "lexeme_id": "w_1024",
+      "lexeme_kind": "word"
+    },
+    {
+      "normalized_form": "telo",
+      "lexeme_id": "w_1025",
+      "lexeme_kind": "word"
+    },
+    {
+      "normalized_form": "pianeta",
+      "lexeme_id": "w_1026",
+      "lexeme_kind": "word"
+    },
+    {
+      "normalized_form": "clorofilla",
+      "lexeme_id": "w_1027",
+      "lexeme_kind": "word"
+    },
+    {
+      "normalized_form": "periodo",
+      "lexeme_id": "w_1028",
+      "lexeme_kind": "word"
+    },
+    {
+      "normalized_form": "mese",
+      "lexeme_id": "w_1029",
+      "lexeme_kind": "word"
+    },
+    {
+      "normalized_form": "forno",
+      "lexeme_id": "w_1030",
+      "lexeme_kind": "word"
+    },
+    {
+      "normalized_form": "mattone",
+      "lexeme_id": "w_1031",
+      "lexeme_kind": "word"
+    },
+    {
+      "normalized_form": "ferita",
+      "lexeme_id": "w_1032",
+      "lexeme_kind": "word"
+    },
+    {
+      "normalized_form": "sintomo",
+      "lexeme_id": "w_1033",
+      "lexeme_kind": "word"
+    },
+    {
+      "normalized_form": "termometro",
+      "lexeme_id": "w_1034",
       "lexeme_kind": "word"
     }
   ],

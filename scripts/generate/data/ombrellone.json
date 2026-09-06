@@ -1,0 +1,17 @@
+[
+  { "lemma": "protezione", "relation_type": "categoria", "association_strength": 0.7 },
+  { "lemma": "tetto", "relation_type": "similarità", "association_strength": 0.45 },
+  { "lemma": "manico", "relation_type": "parti", "association_strength": 0.55 },
+  { "lemma": "spiaggia", "relation_type": "luoghi", "association_strength": 0.9 },
+  { "lemma": "lido", "relation_type": "luoghi", "association_strength": 0.8 },
+  { "lemma": "arenile", "relation_type": "luoghi", "association_strength": 0.55 },
+  { "lemma": "asciugamano", "relation_type": "oggetti", "association_strength": 0.7 },
+  { "lemma": "sabbia", "relation_type": "oggetti", "association_strength": 0.5 },
+  { "lemma": "sole", "relation_type": "oggetti", "association_strength": 0.5 },
+  { "lemma": "ombra", "relation_type": "proprietà", "association_strength": 0.75 },
+  { "lemma": "refrigerio", "relation_type": "effetti", "association_strength": 0.55 },
+  { "lemma": "riposo", "relation_type": "azioni", "association_strength": 0.45 },
+  { "lemma": "bagnante", "relation_type": "esseri_viventi", "association_strength": 0.55 },
+  { "lemma": "estate", "relation_type": "evocativa", "association_strength": 0.7 },
+  { "lemma": "vacanza", "relation_type": "evocativa", "association_strength": 0.6 }
+]

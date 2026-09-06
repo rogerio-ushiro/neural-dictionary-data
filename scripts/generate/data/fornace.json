@@ -1,0 +1,16 @@
+[
+  { "lemma": "forno", "relation_type": "categoria", "association_strength": 0.8, "pos": "sostantivo", "region": "oggetti" },
+  { "lemma": "mattone", "relation_type": "costituzione", "association_strength": 0.7, "pos": "sostantivo", "region": "oggetti" },
+  { "lemma": "fuoco", "relation_type": "contenuto", "association_strength": 0.8 },
+  { "lemma": "fiamma", "relation_type": "contenuto", "association_strength": 0.75 },
+  { "lemma": "calore", "relation_type": "contenuto", "association_strength": 0.8 },
+  { "lemma": "incandescenza", "relation_type": "proprietà", "association_strength": 0.7 },
+  { "lemma": "torridità", "relation_type": "proprietà", "association_strength": 0.6 },
+  { "lemma": "ustione", "relation_type": "effetti", "association_strength": 0.5 },
+  { "lemma": "vampata", "relation_type": "effetti", "association_strength": 0.55 },
+  { "lemma": "sole", "relation_type": "similarità", "association_strength": 0.4 },
+  { "lemma": "freddo", "relation_type": "contrasto", "association_strength": 0.5 },
+  { "lemma": "gelo", "relation_type": "contrasto", "association_strength": 0.4 },
+  { "lemma": "estate", "relation_type": "evocativa", "association_strength": 0.5 },
+  { "lemma": "afa", "relation_type": "evocativa", "association_strength": 0.5 }
+]

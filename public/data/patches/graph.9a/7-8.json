@@ -1,0 +1,20 @@
+{
+  "pack": "graph.9a",
+  "from": 7,
+  "to": 8,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_1031",
+      "concept": {
+        "revision": 2,
+        "region_id": "r_oggetti",
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Blocco squadrato di argilla cotta che, disposto in fila con la malta, serve a tirare su muri ed edifici.",
+          "example": "Il muretto era fatto di mattoni rossi a vista."
+        }
+      }
+    }
+  ]
+}

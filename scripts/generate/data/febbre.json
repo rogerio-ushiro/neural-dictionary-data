@@ -1,0 +1,16 @@
+[
+  { "lemma": "sintomo", "relation_type": "categoria", "association_strength": 0.8, "pos": "sostantivo", "region": "corpo" },
+  { "lemma": "influenza", "relation_type": "cause", "association_strength": 0.7 },
+  { "lemma": "temperatura", "relation_type": "proprietà", "association_strength": 0.75 },
+  { "lemma": "calore", "relation_type": "proprietà", "association_strength": 0.7 },
+  { "lemma": "sudore", "relation_type": "effetti", "association_strength": 0.65 },
+  { "lemma": "brivido", "relation_type": "effetti", "association_strength": 0.7 },
+  { "lemma": "tremore", "relation_type": "effetti", "association_strength": 0.6 },
+  { "lemma": "torpore", "relation_type": "effetti", "association_strength": 0.45 },
+  { "lemma": "languore", "relation_type": "effetti", "association_strength": 0.45 },
+  { "lemma": "termometro", "relation_type": "oggetti", "association_strength": 0.65, "pos": "sostantivo", "region": "oggetti" },
+  { "lemma": "riposo", "relation_type": "azioni", "association_strength": 0.55 },
+  { "lemma": "sonno", "relation_type": "azioni", "association_strength": 0.4 },
+  { "lemma": "influenza", "relation_type": "similarità", "association_strength": 0.5 },
+  { "lemma": "inverno", "relation_type": "evocativa", "association_strength": 0.4 }
+]

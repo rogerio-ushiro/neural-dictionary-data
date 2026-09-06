@@ -252,6 +252,16 @@
       "confidence": 0.85,
       "status": "validated",
       "revision": 2
+    },
+    {
+      "concept_a": "c_0079",
+      "concept_b": "c_0618",
+      "relation_type": "fenomeni",
+      "direction_hint": "symmetric",
+      "association_strength": 0.6,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
     }
   ],
   "word_senses": {

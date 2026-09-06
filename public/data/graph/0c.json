@@ -18,6 +18,15 @@
         "text": "Il mammifero dotato di ragione e linguaggio; l'essere umano.",
         "example": "L'uomo ha imparato a controllare il fuoco molto presto."
       }
+    },
+    "c_1028": {
+      "revision": 2,
+      "region_id": "r_tempo",
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Tratto di tempo con un inizio e una fine, considerato come un'unica fase (il periodo delle piogge, un brutto periodo).",
+        "example": "Ha lavorato all'estero per un lungo periodo."
+      }
     }
   },
   "associations": [
@@ -190,6 +199,16 @@
       "confidence": 1,
       "status": "validated",
       "revision": 1
+    },
+    {
+      "concept_a": "c_0079",
+      "concept_b": "c_1028",
+      "relation_type": "categoria",
+      "direction_hint": "symmetric",
+      "association_strength": 0.75,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
     }
   ],
   "word_senses": {
@@ -204,6 +223,12 @@
       "lexeme_kind": "word",
       "concept_id": "c_0852",
       "is_primary": true
+    },
+    "s_1028": {
+      "lexeme_id": "w_1028",
+      "lexeme_kind": "word",
+      "concept_id": "c_1028",
+      "is_primary": true
     }
   },
   "words": {
@@ -216,6 +241,11 @@
       "display_form": "uomo",
       "normalized_form": "uomo",
       "pos": null
+    },
+    "w_1028": {
+      "display_form": "periodo",
+      "normalized_form": "periodo",
+      "pos": "sostantivo"
     }
   },
   "expressions": {}

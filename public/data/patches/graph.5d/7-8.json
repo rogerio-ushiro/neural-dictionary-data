@@ -1,0 +1,20 @@
+{
+  "pack": "graph.5d",
+  "from": 7,
+  "to": 8,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_1023",
+      "concept": {
+        "revision": 2,
+        "region_id": "r_lavoro",
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Chi interviene per portare aiuto a una persona in pericolo o in difficoltà, spesso prima che arrivino i mezzi specializzati.",
+          "example": "I soccorritori raggiunsero l'escursionista poco prima del buio."
+        }
+      }
+    }
+  ]
+}

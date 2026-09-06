@@ -27,6 +27,15 @@
         "text": "Belva feroce e temibile, spesso di grossa taglia.",
         "example": "Nella leggenda l'eroe affronta una belva mostruosa."
       }
+    },
+    "c_1032": {
+      "revision": 2,
+      "region_id": "r_corpo",
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Rottura della pelle e dei tessuti provocata da un colpo, un taglio o un'arma; al figurato, un dolore che rimane a lungo.",
+        "example": "La ferita al ginocchio si e rimarginata in una settimana."
+      }
     }
   },
   "associations": [
@@ -69,6 +78,36 @@
       "confidence": 1,
       "status": "validated",
       "revision": 1
+    },
+    {
+      "concept_a": "c_0087",
+      "concept_b": "c_0383",
+      "relation_type": "evocativa",
+      "direction_hint": "symmetric",
+      "association_strength": 0.6,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0098",
+      "concept_b": "c_1032",
+      "relation_type": "categoria",
+      "direction_hint": "symmetric",
+      "association_strength": 0.8,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0111",
+      "concept_b": "c_0383",
+      "relation_type": "effetti",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
     }
   ],
   "word_senses": {
@@ -89,6 +128,12 @@
       "lexeme_kind": "word",
       "concept_id": "c_0844",
       "is_primary": true
+    },
+    "s_1032": {
+      "lexeme_id": "w_1032",
+      "lexeme_kind": "word",
+      "concept_id": "c_1032",
+      "is_primary": true
     }
   },
   "words": {
@@ -106,6 +151,11 @@
       "display_form": "belva",
       "normalized_form": "belva",
       "pos": null
+    },
+    "w_1032": {
+      "display_form": "ferita",
+      "normalized_form": "ferita",
+      "pos": "sostantivo"
     }
   },
   "expressions": {}

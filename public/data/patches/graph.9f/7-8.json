@@ -1,0 +1,20 @@
+{
+  "pack": "graph.9f",
+  "from": 7,
+  "to": 8,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_1029",
+      "concept": {
+        "revision": 2,
+        "region_id": "r_tempo",
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Ciascuna delle dodici parti in cui si divide l'anno, lunga poco più di quattro settimane.",
+          "example": "Manca ancora un mese alla partenza."
+        }
+      }
+    }
+  ]
+}

@@ -247,6 +247,26 @@
       "confidence": 1,
       "status": "validated",
       "revision": 1
+    },
+    {
+      "concept_a": "c_0053",
+      "concept_b": "c_0716",
+      "relation_type": "categoria",
+      "direction_hint": "symmetric",
+      "association_strength": 0.75,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0064",
+      "concept_b": "c_0107",
+      "relation_type": "azioni",
+      "direction_hint": "symmetric",
+      "association_strength": 0.5,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
     }
   ],
   "word_senses": {

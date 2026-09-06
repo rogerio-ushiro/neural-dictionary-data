@@ -18,6 +18,15 @@
         "text": "Precipizio stretto e profondo tra le rocce.",
         "example": "Un ponte di corda attraversava il burrone."
       }
+    },
+    "c_1024": {
+      "revision": 2,
+      "region_id": "r_relazioni_sociali",
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Chi si sposta e visita luoghi diversi da quelli in cui vive, per svago o curiosità e di solito per un periodo breve.",
+        "example": "Ad agosto i turisti riempiono i vicoli del centro."
+      }
     }
   },
   "associations": [
@@ -40,6 +49,16 @@
       "confidence": 1,
       "status": "validated",
       "revision": 1
+    },
+    {
+      "concept_a": "c_0062",
+      "concept_b": "c_1024",
+      "relation_type": "categoria",
+      "direction_hint": "symmetric",
+      "association_strength": 0.6,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
     }
   ],
   "word_senses": {
@@ -54,6 +73,12 @@
       "lexeme_kind": "word",
       "concept_id": "c_0557",
       "is_primary": true
+    },
+    "s_1024": {
+      "lexeme_id": "w_1024",
+      "lexeme_kind": "word",
+      "concept_id": "c_1024",
+      "is_primary": true
     }
   },
   "words": {
@@ -66,6 +91,11 @@
       "display_form": "burrone",
       "normalized_form": "burrone",
       "pos": null
+    },
+    "w_1024": {
+      "display_form": "turista",
+      "normalized_form": "turista",
+      "pos": "sostantivo"
     }
   },
   "expressions": {}

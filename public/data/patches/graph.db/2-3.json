@@ -1,0 +1,46 @@
+{
+  "pack": "graph.db",
+  "from": 2,
+  "to": 3,
+  "ops": [
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0079",
+        "concept_b": "c_0664",
+        "relation_type": "effetti",
+        "direction_hint": "symmetric",
+        "association_strength": 0.45,
+        "confidence": 0.85,
+        "status": "candidate",
+        "revision": 1
+      }
+    },
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0083",
+        "concept_b": "c_0664",
+        "relation_type": "effetti",
+        "direction_hint": "symmetric",
+        "association_strength": 0.5,
+        "confidence": 0.85,
+        "status": "candidate",
+        "revision": 1
+      }
+    },
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0088",
+        "concept_b": "c_0185",
+        "relation_type": "oggetti",
+        "direction_hint": "symmetric",
+        "association_strength": 0.5,
+        "confidence": 0.85,
+        "status": "candidate",
+        "revision": 1
+      }
+    }
+  ]
+}
