@@ -1,0 +1,33 @@
+{
+  "pack": "graph.07",
+  "from": 6,
+  "to": 8,
+  "ops": [
+    {
+      "op": "ADD_CONCEPT",
+      "concept_id": "c_1032",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Strumento che misura il tempo facendo colare la sabbia da un'ampolla all'altra.",
+          "example": "Girò la clessidra e cominciò a leggere."
+        }
+      }
+    },
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0056",
+        "concept_b": "c_1032",
+        "relation_type": "evocativa",
+        "direction_hint": "symmetric",
+        "association_strength": 0.6,
+        "confidence": 0.85,
+        "status": "candidate",
+        "revision": 1
+      }
+    }
+  ]
+}

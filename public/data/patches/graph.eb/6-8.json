@@ -1,0 +1,33 @@
+{
+  "pack": "graph.eb",
+  "from": 6,
+  "to": 8,
+  "ops": [
+    {
+      "op": "ADD_CONCEPT",
+      "concept_id": "c_1025",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Il restare a galla sull'acqua senza affondare.",
+          "example": "Il salvagente aiuta il galleggiamento di chi non sa nuotare."
+        }
+      }
+    },
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0053",
+        "concept_b": "c_1025",
+        "relation_type": "fenomeni",
+        "direction_hint": "symmetric",
+        "association_strength": 0.7,
+        "confidence": 0.85,
+        "status": "candidate",
+        "revision": 1
+      }
+    }
+  ]
+}

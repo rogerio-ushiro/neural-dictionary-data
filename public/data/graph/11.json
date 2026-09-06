@@ -18,6 +18,15 @@
         "text": "Roccia alta e scoscesa, quasi a strapiombo.",
         "example": "L'aquila aveva il nido su una rupe inaccessibile."
       }
+    },
+    "c_1027": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Ciò di cui una cosa è fatta; la sostanza che si lavora per costruire o produrre qualcosa.",
+        "example": "Hanno scelto un materiale leggero per il tetto."
+      }
     }
   },
   "associations": [
@@ -40,6 +49,16 @@
       "confidence": 1,
       "status": "validated",
       "revision": 1
+    },
+    {
+      "concept_a": "c_0056",
+      "concept_b": "c_1027",
+      "relation_type": "categoria",
+      "direction_hint": "symmetric",
+      "association_strength": 0.85,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
     }
   ],
   "word_senses": {
@@ -54,6 +73,12 @@
       "lexeme_kind": "word",
       "concept_id": "c_0554",
       "is_primary": true
+    },
+    "s_1027": {
+      "lexeme_id": "w_1027",
+      "lexeme_kind": "word",
+      "concept_id": "c_1027",
+      "is_primary": true
     }
   },
   "words": {
@@ -65,6 +90,11 @@
     "w_0554": {
       "display_form": "rupe",
       "normalized_form": "rupe",
+      "pos": null
+    },
+    "w_1027": {
+      "display_form": "materiale",
+      "normalized_form": "materiale",
       "pos": null
     }
   },

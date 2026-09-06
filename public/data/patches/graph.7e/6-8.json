@@ -1,0 +1,33 @@
+{
+  "pack": "graph.7e",
+  "from": 6,
+  "to": 8,
+  "ops": [
+    {
+      "op": "ADD_CONCEPT",
+      "concept_id": "c_1026",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "La capacità di sopportare a lungo uno sforzo senza cedere.",
+          "example": "Gli allenamenti hanno migliorato la sua resistenza."
+        }
+      }
+    },
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0053",
+        "concept_b": "c_1026",
+        "relation_type": "effetti",
+        "direction_hint": "symmetric",
+        "association_strength": 0.65,
+        "confidence": 0.85,
+        "status": "candidate",
+        "revision": 1
+      }
+    }
+  ]
+}

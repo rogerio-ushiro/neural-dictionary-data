@@ -18,6 +18,15 @@
         "text": "Il momento in cui la femmina dà alla luce il piccolo.",
         "example": "Il parto è andato bene e il vitello sta in piedi."
       }
+    },
+    "c_1029": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Collina di sabbia modellata dal vento lungo le coste e nei deserti.",
+        "example": "I bambini si rincorrevano su e giù per le dune."
+      }
     }
   },
   "associations": [
@@ -190,6 +199,16 @@
       "confidence": 1,
       "status": "validated",
       "revision": 1
+    },
+    {
+      "concept_a": "c_0056",
+      "concept_b": "c_1029",
+      "relation_type": "parti",
+      "direction_hint": "symmetric",
+      "association_strength": 0.75,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
     }
   ],
   "word_senses": {
@@ -204,6 +223,12 @@
       "lexeme_kind": "word",
       "concept_id": "c_0853",
       "is_primary": true
+    },
+    "s_1029": {
+      "lexeme_id": "w_1029",
+      "lexeme_kind": "word",
+      "concept_id": "c_1029",
+      "is_primary": true
     }
   },
   "words": {
@@ -215,6 +240,11 @@
     "w_0853": {
       "display_form": "parto",
       "normalized_form": "parto",
+      "pos": null
+    },
+    "w_1029": {
+      "display_form": "duna",
+      "normalized_form": "duna",
       "pos": null
     }
   },
