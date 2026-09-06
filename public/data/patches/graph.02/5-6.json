@@ -1,0 +1,20 @@
+{
+  "pack": "graph.02",
+  "from": 5,
+  "to": 6,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_1039",
+      "concept": {
+        "revision": 2,
+        "region_id": "r_movimento",
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Barra di metallo su cui scorrono le ruote del treno, posata in coppia lungo la linea.",
+          "example": "Il carrello sferragliava a ogni giunzione delle rotaie."
+        }
+      }
+    }
+  ]
+}

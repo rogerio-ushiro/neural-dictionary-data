@@ -1,0 +1,89 @@
+[
+  {
+    "lemma": "contenitore",
+    "relation_type": "categoria",
+    "association_strength": 0.75,
+    "pos": "sostantivo",
+    "region": "oggetti"
+  },
+  {
+    "lemma": "scorta",
+    "relation_type": "categoria",
+    "association_strength": 0.3
+  },
+  {
+    "lemma": "chiusura",
+    "relation_type": "parti",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "base",
+    "relation_type": "parti",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "anello",
+    "relation_type": "parti",
+    "association_strength": 0.3
+  },
+  {
+    "lemma": "legno",
+    "relation_type": "costituzione",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "pelle",
+    "relation_type": "costituzione",
+    "association_strength": 0.35
+  },
+  {
+    "lemma": "abito",
+    "relation_type": "contenuto",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "scorta",
+    "relation_type": "contenuto",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "nave",
+    "relation_type": "luoghi",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "casa",
+    "relation_type": "luoghi",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "dimora",
+    "relation_type": "luoghi",
+    "association_strength": 0.35
+  },
+  {
+    "lemma": "valigia",
+    "relation_type": "similarità",
+    "association_strength": 0.75
+  },
+  {
+    "lemma": "trasporto",
+    "relation_type": "azioni",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "custodia",
+    "relation_type": "azioni",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "viaggio",
+    "relation_type": "evocativa",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "partenza",
+    "relation_type": "evocativa",
+    "association_strength": 0.35
+  }
+]

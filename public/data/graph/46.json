@@ -45,6 +45,15 @@
         "text": "Fusto sottile ed erbaceo che regge il fiore o la foglia.",
         "example": "Il gambo del girasole era spesso come un polso."
       }
+    },
+    "c_1044": {
+      "revision": 2,
+      "region_id": "r_oggetti",
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Oggetto fatto per tenere altre cose al proprio interno.",
+        "example": "Travasò la farina in un contenitore a chiusura ermetica."
+      }
     }
   },
   "associations": [
@@ -247,6 +256,46 @@
       "confidence": 1,
       "status": "validated",
       "revision": 1
+    },
+    {
+      "concept_a": "c_0141",
+      "concept_b": "c_1044",
+      "relation_type": "categoria",
+      "direction_hint": "symmetric",
+      "association_strength": 0.75,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0142",
+      "concept_b": "c_1044",
+      "relation_type": "categoria",
+      "direction_hint": "symmetric",
+      "association_strength": 0.7,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0143",
+      "concept_b": "c_1044",
+      "relation_type": "categoria",
+      "direction_hint": "symmetric",
+      "association_strength": 0.6,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0144",
+      "concept_b": "c_1044",
+      "relation_type": "categoria",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
     }
   ],
   "word_senses": {
@@ -279,6 +328,12 @@
       "lexeme_kind": "word",
       "concept_id": "c_0898",
       "is_primary": true
+    },
+    "s_1044": {
+      "lexeme_id": "w_1044",
+      "lexeme_kind": "word",
+      "concept_id": "c_1044",
+      "is_primary": true
     }
   },
   "words": {
@@ -306,6 +361,11 @@
       "display_form": "gambo",
       "normalized_form": "gambo",
       "pos": null
+    },
+    "w_1044": {
+      "display_form": "contenitore",
+      "normalized_form": "contenitore",
+      "pos": "sostantivo"
     }
   },
   "expressions": {}

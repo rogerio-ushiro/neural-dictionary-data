@@ -45,6 +45,15 @@
         "text": "Fusto sottile e allungato di una pianta erbacea o di un fiore.",
         "example": "Recise il fiore lasciando uno stelo lungo per il vaso."
       }
+    },
+    "c_1045": {
+      "revision": 2,
+      "region_id": "r_casa",
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Qualsiasi cosa protegga dalle intemperie o da un pericolo.",
+        "example": "Cercarono riparo sotto una tettoia finché non spiovve."
+      }
     }
   },
   "associations": [
@@ -107,6 +116,26 @@
       "confidence": 1,
       "status": "validated",
       "revision": 1
+    },
+    {
+      "concept_a": "c_0122",
+      "concept_b": "c_0873",
+      "relation_type": "esseri_viventi",
+      "direction_hint": "symmetric",
+      "association_strength": 0.35,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0143",
+      "concept_b": "c_1045",
+      "relation_type": "effetti",
+      "direction_hint": "symmetric",
+      "association_strength": 0.5,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
     }
   ],
   "word_senses": {
@@ -139,6 +168,12 @@
       "lexeme_kind": "word",
       "concept_id": "c_0899",
       "is_primary": true
+    },
+    "s_1045": {
+      "lexeme_id": "w_1045",
+      "lexeme_kind": "word",
+      "concept_id": "c_1045",
+      "is_primary": true
     }
   },
   "words": {
@@ -166,6 +201,11 @@
       "display_form": "stelo",
       "normalized_form": "stelo",
       "pos": null
+    },
+    "w_1045": {
+      "display_form": "riparo",
+      "normalized_form": "riparo",
+      "pos": "sostantivo"
     }
   },
   "expressions": {}

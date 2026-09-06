@@ -27,6 +27,15 @@
         "text": "Bestia feroce e pericolosa; anche una grande esposizione con vendita di merci e bestiame.",
         "example": "Il domatore entrò nella gabbia della fiera."
       }
+    },
+    "c_1035": {
+      "revision": 2,
+      "region_id": "r_movimento",
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Punto della costa dove ci si accosta con la barca e si sbarca; al figurato, la situazione sicura raggiunta dopo un periodo difficile.",
+        "example": "Dopo mesi in mare aperto, il porto fu un approdo tanto atteso."
+      }
     }
   },
   "associations": [
@@ -69,6 +78,36 @@
       "confidence": 1,
       "status": "validated",
       "revision": 1
+    },
+    {
+      "concept_a": "c_0112",
+      "concept_b": "c_1035",
+      "relation_type": "categoria",
+      "direction_hint": "symmetric",
+      "association_strength": 0.45,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0122",
+      "concept_b": "c_1035",
+      "relation_type": "categoria",
+      "direction_hint": "symmetric",
+      "association_strength": 0.55,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0126",
+      "concept_b": "c_0313",
+      "relation_type": "categoria",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
     }
   ],
   "word_senses": {
@@ -89,6 +128,12 @@
       "lexeme_kind": "word",
       "concept_id": "c_0843",
       "is_primary": true
+    },
+    "s_1035": {
+      "lexeme_id": "w_1035",
+      "lexeme_kind": "word",
+      "concept_id": "c_1035",
+      "is_primary": true
     }
   },
   "words": {
@@ -106,6 +151,11 @@
       "display_form": "fiera",
       "normalized_form": "fiera",
       "pos": null
+    },
+    "w_1035": {
+      "display_form": "approdo",
+      "normalized_form": "approdo",
+      "pos": "sostantivo"
     }
   },
   "expressions": {}

@@ -36,6 +36,15 @@
         "text": "Che riguarda una sola persona e non è aperto agli altri.",
         "example": "Ha voluto un funerale strettamente privato."
       }
+    },
+    "c_1043": {
+      "revision": 2,
+      "region_id": "r_concetti_astratti",
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Quanto una cosa conta, in denaro o in importanza.",
+        "example": "Quel vecchio orologio ha soprattutto un valore affettivo."
+      }
     }
   },
   "associations": [
@@ -258,6 +267,16 @@
       "confidence": 1,
       "status": "validated",
       "revision": 1
+    },
+    {
+      "concept_a": "c_0137",
+      "concept_b": "c_1043",
+      "relation_type": "proprietà",
+      "direction_hint": "symmetric",
+      "association_strength": 0.5,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
     }
   ],
   "word_senses": {
@@ -284,6 +303,12 @@
       "lexeme_kind": "word",
       "concept_id": "c_0875",
       "is_primary": true
+    },
+    "s_1043": {
+      "lexeme_id": "w_1043",
+      "lexeme_kind": "word",
+      "concept_id": "c_1043",
+      "is_primary": true
     }
   },
   "words": {
@@ -306,6 +331,11 @@
       "display_form": "privato",
       "normalized_form": "privato",
       "pos": null
+    },
+    "w_1043": {
+      "display_form": "valore",
+      "normalized_form": "valore",
+      "pos": "sostantivo"
     }
   },
   "expressions": {}

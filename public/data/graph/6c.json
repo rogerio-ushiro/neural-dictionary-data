@@ -36,6 +36,15 @@
         "text": "Che riguarda la convivenza ordinata tra i cittadini; anche cortese ed educato.",
         "example": "Ha modi civili anche quando discute."
       }
+    },
+    "c_1042": {
+      "revision": 2,
+      "region_id": "r_oggetti",
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Materiale sottile ricavato dalla cellulosa, su cui si scrive, si stampa o si avvolgono le cose.",
+        "example": "Avvolse il regalo in un foglio di carta colorata."
+      }
     }
   },
   "associations": [
@@ -258,6 +267,16 @@
       "confidence": 1,
       "status": "validated",
       "revision": 1
+    },
+    {
+      "concept_a": "c_0136",
+      "concept_b": "c_1042",
+      "relation_type": "costituzione",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
     }
   ],
   "word_senses": {
@@ -284,6 +303,12 @@
       "lexeme_kind": "word",
       "concept_id": "c_0874",
       "is_primary": true
+    },
+    "s_1042": {
+      "lexeme_id": "w_1042",
+      "lexeme_kind": "word",
+      "concept_id": "c_1042",
+      "is_primary": true
     }
   },
   "words": {
@@ -306,6 +331,11 @@
       "display_form": "civile",
       "normalized_form": "civile",
       "pos": null
+    },
+    "w_1042": {
+      "display_form": "carta",
+      "normalized_form": "carta",
+      "pos": "sostantivo"
     }
   },
   "expressions": {}

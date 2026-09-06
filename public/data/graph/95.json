@@ -18,6 +18,15 @@
         "text": "Breve emissione d'aria dalla bocca o di vento leggero.",
         "example": "Spense le candeline con un soffio."
       }
+    },
+    "c_1038": {
+      "revision": 2,
+      "region_id": "r_movimento",
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Vettura chiusa di un treno dove viaggiano i passeggeri; un tempo, il veicolo tirato dai cavalli.",
+        "example": "Salirono nell'ultima carrozza, quasi vuota."
+      }
     }
   },
   "associations": [
@@ -110,6 +119,86 @@
       "confidence": 0.9,
       "status": "validated",
       "revision": 2
+    },
+    {
+      "concept_a": "c_0046",
+      "concept_b": "c_0112",
+      "relation_type": "luoghi",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0046",
+      "concept_b": "c_0121",
+      "relation_type": "luoghi",
+      "direction_hint": "symmetric",
+      "association_strength": 0.5,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0046",
+      "concept_b": "c_0122",
+      "relation_type": "luoghi",
+      "direction_hint": "symmetric",
+      "association_strength": 0.5,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0126",
+      "concept_b": "c_1038",
+      "relation_type": "categoria",
+      "direction_hint": "symmetric",
+      "association_strength": 0.8,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0046",
+      "concept_b": "c_0133",
+      "relation_type": "luoghi",
+      "direction_hint": "symmetric",
+      "association_strength": 0.35,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0046",
+      "concept_b": "c_0136",
+      "relation_type": "luoghi",
+      "direction_hint": "symmetric",
+      "association_strength": 0.3,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0046",
+      "concept_b": "c_0137",
+      "relation_type": "luoghi",
+      "direction_hint": "symmetric",
+      "association_strength": 0.6,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0046",
+      "concept_b": "c_0140",
+      "relation_type": "luoghi",
+      "direction_hint": "symmetric",
+      "association_strength": 0.35,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
     }
   ],
   "word_senses": {
@@ -124,6 +213,12 @@
       "lexeme_kind": "word",
       "concept_id": "c_0389",
       "is_primary": true
+    },
+    "s_1038": {
+      "lexeme_id": "w_1038",
+      "lexeme_kind": "word",
+      "concept_id": "c_1038",
+      "is_primary": true
     }
   },
   "words": {
@@ -136,6 +231,11 @@
       "display_form": "soffio",
       "normalized_form": "soffio",
       "pos": null
+    },
+    "w_1038": {
+      "display_form": "carrozza",
+      "normalized_form": "carrozza",
+      "pos": "sostantivo"
     }
   },
   "expressions": {}

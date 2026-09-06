@@ -1,0 +1,29 @@
+{
+  "pack": "graph.20",
+  "from": 3,
+  "to": 4,
+  "ops": [
+    {
+      "op": "ADD_CONCEPT",
+      "concept_id": "c_1046",
+      "concept": {
+        "revision": 1,
+        "region_id": "r_concetti_astratti",
+        "status_fronteira": "needs_expansion"
+      }
+    },
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0143",
+        "concept_b": "c_1046",
+        "relation_type": "evocativa",
+        "direction_hint": "symmetric",
+        "association_strength": 0.45,
+        "confidence": 0.85,
+        "status": "candidate",
+        "revision": 1
+      }
+    }
+  ]
+}

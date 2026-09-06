@@ -54,6 +54,15 @@
         "text": "Parte posteriore e sporgente del piede, sotto la caviglia.",
         "example": "Le scarpe nuove gli hanno fatto una vescica al calcagno."
       }
+    },
+    "c_1046": {
+      "revision": 2,
+      "region_id": "r_concetti_astratti",
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Attenzione costante che si dedica a mantenere qualcosa in buono stato o a far guarire qualcuno.",
+        "example": "La pianta è sopravvissuta solo grazie alle sue cure."
+      }
     }
   },
   "associations": [
@@ -306,6 +315,16 @@
       "confidence": 0.85,
       "status": "candidate",
       "revision": 1
+    },
+    {
+      "concept_a": "c_0143",
+      "concept_b": "c_1046",
+      "relation_type": "evocativa",
+      "direction_hint": "symmetric",
+      "association_strength": 0.45,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
     }
   ],
   "word_senses": {
@@ -344,6 +363,12 @@
       "lexeme_kind": "word",
       "concept_id": "c_0870",
       "is_primary": true
+    },
+    "s_1046": {
+      "lexeme_id": "w_1046",
+      "lexeme_kind": "word",
+      "concept_id": "c_1046",
+      "is_primary": true
     }
   },
   "words": {
@@ -376,6 +401,11 @@
       "display_form": "calcagno",
       "normalized_form": "calcagno",
       "pos": null
+    },
+    "w_1046": {
+      "display_form": "cura",
+      "normalized_form": "cura",
+      "pos": "sostantivo"
     }
   },
   "expressions": {}

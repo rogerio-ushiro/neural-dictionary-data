@@ -1,0 +1,20 @@
+{
+  "pack": "graph.20",
+  "from": 4,
+  "to": 5,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_1046",
+      "concept": {
+        "revision": 2,
+        "region_id": "r_concetti_astratti",
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Attenzione costante che si dedica a mantenere qualcosa in buono stato o a far guarire qualcuno.",
+          "example": "La pianta è sopravvissuta solo grazie alle sue cure."
+        }
+      }
+    }
+  ]
+}

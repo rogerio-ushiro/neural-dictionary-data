@@ -36,6 +36,15 @@
         "text": "Animale dalla pelle coperta di squame che striscia o cammina su zampe corte, come il serpente e la lucertola.",
         "example": "Sotto il sasso si nascondeva un piccolo rettile."
       }
+    },
+    "c_1036": {
+      "revision": 2,
+      "region_id": "r_movimento",
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Tratto di strada che sale, o l'atto di percorrerlo andando verso l'alto.",
+        "example": "L'ultima salita prima del passo mise alla prova le gambe."
+      }
     }
   },
   "associations": [
@@ -358,6 +367,16 @@
       "confidence": 1,
       "status": "validated",
       "revision": 1
+    },
+    {
+      "concept_a": "c_0119",
+      "concept_b": "c_1036",
+      "relation_type": "azioni",
+      "direction_hint": "symmetric",
+      "association_strength": 0.5,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
     }
   ],
   "word_senses": {
@@ -384,6 +403,12 @@
       "lexeme_kind": "word",
       "concept_id": "c_0840",
       "is_primary": true
+    },
+    "s_1036": {
+      "lexeme_id": "w_1036",
+      "lexeme_kind": "word",
+      "concept_id": "c_1036",
+      "is_primary": true
     }
   },
   "words": {
@@ -406,6 +431,11 @@
       "display_form": "rettile",
       "normalized_form": "rettile",
       "pos": null
+    },
+    "w_1036": {
+      "display_form": "salita",
+      "normalized_form": "salita",
+      "pos": "sostantivo"
     }
   },
   "expressions": {}

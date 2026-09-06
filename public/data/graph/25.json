@@ -45,6 +45,15 @@
         "text": "Frutto secco dal guscio duro e legnoso, con dentro un seme oleoso.",
         "example": "A Natale non mancano mai noci e mandarini."
       }
+    },
+    "c_1041": {
+      "revision": 2,
+      "region_id": "r_oggetti",
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Foglio o fascicolo che registra o certifica qualcosa di ufficiale.",
+        "example": "Per il rimborso serve il documento originale, non una copia."
+      }
     }
   },
   "associations": [
@@ -257,6 +266,26 @@
       "confidence": 1,
       "status": "validated",
       "revision": 1
+    },
+    {
+      "concept_a": "c_0119",
+      "concept_b": "c_0802",
+      "relation_type": "luoghi",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0136",
+      "concept_b": "c_1041",
+      "relation_type": "categoria",
+      "direction_hint": "symmetric",
+      "association_strength": 0.6,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
     }
   ],
   "word_senses": {
@@ -289,6 +318,12 @@
       "lexeme_kind": "word",
       "concept_id": "c_0918",
       "is_primary": true
+    },
+    "s_1041": {
+      "lexeme_id": "w_1041",
+      "lexeme_kind": "word",
+      "concept_id": "c_1041",
+      "is_primary": true
     }
   },
   "words": {
@@ -316,6 +351,11 @@
       "display_form": "noce",
       "normalized_form": "noce",
       "pos": null
+    },
+    "w_1041": {
+      "display_form": "documento",
+      "normalized_form": "documento",
+      "pos": "sostantivo"
     }
   },
   "expressions": {}

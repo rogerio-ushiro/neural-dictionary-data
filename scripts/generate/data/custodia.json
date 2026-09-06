@@ -1,0 +1,76 @@
+[
+  {
+    "lemma": "contenitore",
+    "relation_type": "categoria",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "protezione",
+    "relation_type": "categoria",
+    "association_strength": 0.7
+  },
+  {
+    "lemma": "rifugio",
+    "relation_type": "similarità",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "chiusura",
+    "relation_type": "parti",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "base",
+    "relation_type": "parti",
+    "association_strength": 0.35
+  },
+  {
+    "lemma": "strumento",
+    "relation_type": "contenuto",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "libro",
+    "relation_type": "contenuto",
+    "association_strength": 0.35
+  },
+  {
+    "lemma": "valigia",
+    "relation_type": "oggetti",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "strumento",
+    "relation_type": "oggetti",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "esposizione",
+    "relation_type": "contrasto",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "immunità",
+    "relation_type": "effetti",
+    "association_strength": 0.35
+  },
+  {
+    "lemma": "riparo",
+    "relation_type": "effetti",
+    "association_strength": 0.5,
+    "pos": "sostantivo",
+    "region": "casa"
+  },
+  {
+    "lemma": "rigidità",
+    "relation_type": "proprietà",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "cura",
+    "relation_type": "evocativa",
+    "association_strength": 0.45,
+    "pos": "sostantivo",
+    "region": "concetti_astratti"
+  }
+]

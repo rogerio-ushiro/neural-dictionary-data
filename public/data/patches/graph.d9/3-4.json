@@ -1,0 +1,20 @@
+{
+  "pack": "graph.d9",
+  "from": 3,
+  "to": 4,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_1045",
+      "concept": {
+        "revision": 2,
+        "region_id": "r_casa",
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Qualsiasi cosa protegga dalle intemperie o da un pericolo.",
+          "example": "Cercarono riparo sotto una tettoia finché non spiovve."
+        }
+      }
+    }
+  ]
+}

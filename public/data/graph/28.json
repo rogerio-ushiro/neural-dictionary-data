@@ -36,6 +36,15 @@
         "text": "Piccolo animale col corpo diviso in tre parti e sei zampe, come la formica e la mosca.",
         "example": "Un insetto ronzava contro il vetro della lampada."
       }
+    },
+    "c_1037": {
+      "revision": 2,
+      "region_id": "r_relazioni_sociali",
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Gesto o parola che si scambia incontrando qualcuno o lasciandolo.",
+        "example": "Fece un cenno di saluto dal finestrino mentre il treno partiva."
+      }
     }
   },
   "associations": [
@@ -178,6 +187,16 @@
       "confidence": 0.85,
       "status": "candidate",
       "revision": 1
+    },
+    {
+      "concept_a": "c_0121",
+      "concept_b": "c_1037",
+      "relation_type": "azioni",
+      "direction_hint": "symmetric",
+      "association_strength": 0.55,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
     }
   ],
   "word_senses": {
@@ -204,6 +223,12 @@
       "lexeme_kind": "word",
       "concept_id": "c_0841",
       "is_primary": true
+    },
+    "s_1037": {
+      "lexeme_id": "w_1037",
+      "lexeme_kind": "word",
+      "concept_id": "c_1037",
+      "is_primary": true
     }
   },
   "words": {
@@ -226,6 +251,11 @@
       "display_form": "insetto",
       "normalized_form": "insetto",
       "pos": null
+    },
+    "w_1037": {
+      "display_form": "saluto",
+      "normalized_form": "saluto",
+      "pos": "sostantivo"
     }
   },
   "expressions": {}

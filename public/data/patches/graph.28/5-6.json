@@ -1,0 +1,29 @@
+{
+  "pack": "graph.28",
+  "from": 5,
+  "to": 6,
+  "ops": [
+    {
+      "op": "ADD_CONCEPT",
+      "concept_id": "c_1037",
+      "concept": {
+        "revision": 1,
+        "region_id": "r_relazioni_sociali",
+        "status_fronteira": "needs_expansion"
+      }
+    },
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0121",
+        "concept_b": "c_1037",
+        "relation_type": "azioni",
+        "direction_hint": "symmetric",
+        "association_strength": 0.55,
+        "confidence": 0.85,
+        "status": "candidate",
+        "revision": 1
+      }
+    }
+  ]
+}

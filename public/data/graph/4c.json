@@ -78,6 +78,16 @@
       "confidence": 0.85,
       "status": "validated",
       "revision": 2
+    },
+    {
+      "concept_a": "c_0133",
+      "concept_b": "c_1011",
+      "relation_type": "contrasto",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
     }
   ],
   "word_senses": {
