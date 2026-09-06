@@ -27,6 +27,15 @@
         "text": "Proprio di chi agisce con violenza cieca e senza pietà.",
         "example": "Fu un gesto brutale e ingiustificato."
       }
+    },
+    "c_1031": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Il lento consumarsi del terreno o della roccia per l'azione dell'acqua e del vento.",
+        "example": "L'erosione ha arretrato la spiaggia di diversi metri."
+      }
     }
   },
   "associations": [
@@ -79,6 +88,16 @@
       "confidence": 1,
       "status": "validated",
       "revision": 1
+    },
+    {
+      "concept_a": "c_0056",
+      "concept_b": "c_1031",
+      "relation_type": "cause",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
     }
   ],
   "word_senses": {
@@ -99,6 +118,12 @@
       "lexeme_kind": "word",
       "concept_id": "c_0847",
       "is_primary": true
+    },
+    "s_1031": {
+      "lexeme_id": "w_1031",
+      "lexeme_kind": "word",
+      "concept_id": "c_1031",
+      "is_primary": true
     }
   },
   "words": {
@@ -115,6 +140,11 @@
     "w_0847": {
       "display_form": "brutale",
       "normalized_form": "brutale",
+      "pos": null
+    },
+    "w_1031": {
+      "display_form": "erosione",
+      "normalized_form": "erosione",
       "pos": null
     }
   },

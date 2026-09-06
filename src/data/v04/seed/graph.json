@@ -5107,6 +5107,71 @@
       "display_form": "corallo",
       "normalized_form": "corallo",
       "pos": "sostantivo"
+    },
+    "w_1022": {
+      "display_form": "sport",
+      "normalized_form": "sport",
+      "pos": null
+    },
+    "w_1023": {
+      "display_form": "nuotatore",
+      "normalized_form": "nuotatore",
+      "pos": null
+    },
+    "w_1024": {
+      "display_form": "bracciata",
+      "normalized_form": "bracciata",
+      "pos": null
+    },
+    "w_1025": {
+      "display_form": "galleggiamento",
+      "normalized_form": "galleggiamento",
+      "pos": null
+    },
+    "w_1026": {
+      "display_form": "resistenza",
+      "normalized_form": "resistenza",
+      "pos": null
+    },
+    "w_1027": {
+      "display_form": "materiale",
+      "normalized_form": "materiale",
+      "pos": null
+    },
+    "w_1028": {
+      "display_form": "granello",
+      "normalized_form": "granello",
+      "pos": null
+    },
+    "w_1029": {
+      "display_form": "duna",
+      "normalized_form": "duna",
+      "pos": null
+    },
+    "w_1030": {
+      "display_form": "secchiello",
+      "normalized_form": "secchiello",
+      "pos": null
+    },
+    "w_1031": {
+      "display_form": "erosione",
+      "normalized_form": "erosione",
+      "pos": null
+    },
+    "w_1032": {
+      "display_form": "clessidra",
+      "normalized_form": "clessidra",
+      "pos": null
+    },
+    "w_1033": {
+      "display_form": "zona",
+      "normalized_form": "zona",
+      "pos": null
+    },
+    "w_1034": {
+      "display_form": "marea",
+      "normalized_form": "marea",
+      "pos": null
     }
   },
   "expressions": {},
@@ -11235,6 +11300,84 @@
       "lexeme_id": "w_1021",
       "lexeme_kind": "word",
       "concept_id": "c_1021",
+      "is_primary": true
+    },
+    "s_1022": {
+      "lexeme_id": "w_1022",
+      "lexeme_kind": "word",
+      "concept_id": "c_1022",
+      "is_primary": true
+    },
+    "s_1023": {
+      "lexeme_id": "w_1023",
+      "lexeme_kind": "word",
+      "concept_id": "c_1023",
+      "is_primary": true
+    },
+    "s_1024": {
+      "lexeme_id": "w_1024",
+      "lexeme_kind": "word",
+      "concept_id": "c_1024",
+      "is_primary": true
+    },
+    "s_1025": {
+      "lexeme_id": "w_1025",
+      "lexeme_kind": "word",
+      "concept_id": "c_1025",
+      "is_primary": true
+    },
+    "s_1026": {
+      "lexeme_id": "w_1026",
+      "lexeme_kind": "word",
+      "concept_id": "c_1026",
+      "is_primary": true
+    },
+    "s_1027": {
+      "lexeme_id": "w_1027",
+      "lexeme_kind": "word",
+      "concept_id": "c_1027",
+      "is_primary": true
+    },
+    "s_1028": {
+      "lexeme_id": "w_1028",
+      "lexeme_kind": "word",
+      "concept_id": "c_1028",
+      "is_primary": true
+    },
+    "s_1029": {
+      "lexeme_id": "w_1029",
+      "lexeme_kind": "word",
+      "concept_id": "c_1029",
+      "is_primary": true
+    },
+    "s_1030": {
+      "lexeme_id": "w_1030",
+      "lexeme_kind": "word",
+      "concept_id": "c_1030",
+      "is_primary": true
+    },
+    "s_1031": {
+      "lexeme_id": "w_1031",
+      "lexeme_kind": "word",
+      "concept_id": "c_1031",
+      "is_primary": true
+    },
+    "s_1032": {
+      "lexeme_id": "w_1032",
+      "lexeme_kind": "word",
+      "concept_id": "c_1032",
+      "is_primary": true
+    },
+    "s_1033": {
+      "lexeme_id": "w_1033",
+      "lexeme_kind": "word",
+      "concept_id": "c_1033",
+      "is_primary": true
+    },
+    "s_1034": {
+      "lexeme_id": "w_1034",
+      "lexeme_kind": "word",
+      "concept_id": "c_1034",
       "is_primary": true
     }
   },
@@ -20426,6 +20569,123 @@
       "definition": {
         "text": "Piccolo animale marino che vive in colonie e forma scogliere ramificate.",
         "example": "Nuotando sopra la barriera vedeva il corallo rosa e giallo."
+      }
+    },
+    "c_1022": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Attività fisica praticata per gioco, per gara o per tenersi in forma, spesso secondo regole precise; anche l'insieme di queste attività.",
+        "example": "Da ragazzo faceva sport tutti i pomeriggi."
+      }
+    },
+    "c_1023": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Chi nuota, per passione o come atleta.",
+        "example": "I nuotatori si allinearono sui blocchi di partenza."
+      }
+    },
+    "c_1024": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Ciascun movimento completo delle braccia con cui si avanza nuotando.",
+        "example": "Con poche bracciate raggiunse la boa."
+      }
+    },
+    "c_1025": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Il restare a galla sull'acqua senza affondare.",
+        "example": "Il salvagente aiuta il galleggiamento di chi non sa nuotare."
+      }
+    },
+    "c_1026": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "La capacità di sopportare a lungo uno sforzo o una difficoltà senza cedere.",
+        "example": "Gli allenamenti in piscina hanno migliorato la sua resistenza."
+      }
+    },
+    "c_1027": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Ciò di cui una cosa è fatta; la sostanza che si lavora per costruire o produrre qualcosa.",
+        "example": "Hanno scelto un materiale leggero e resistente per il tetto."
+      }
+    },
+    "c_1028": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Ciascuna delle minuscole particelle in cui si sgretola una sostanza come la sabbia o il sale.",
+        "example": "Un granello di sabbia gli era entrato nell'occhio."
+      }
+    },
+    "c_1029": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Collina di sabbia modellata dal vento lungo le coste e nei deserti.",
+        "example": "I bambini si rincorrevano su e giù per le dune."
+      }
+    },
+    "c_1030": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Piccolo recipiente con manico usato dai bambini per giocare con la sabbia.",
+        "example": "Riempì il secchiello di sabbia bagnata per fare il castello."
+      }
+    },
+    "c_1031": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Il lento consumarsi del terreno o della roccia per l'azione dell'acqua e del vento.",
+        "example": "L'erosione ha arretrato la spiaggia di diversi metri."
+      }
+    },
+    "c_1032": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Strumento che misura il tempo facendo colare la sabbia da un'ampolla all'altra.",
+        "example": "Girò la clessidra e cominciò a leggere."
+      }
+    },
+    "c_1033": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Parte di territorio delimitata e considerata a sé per una certa caratteristica o funzione.",
+        "example": "È vietato fumare nella zona d'attesa."
+      }
+    },
+    "c_1034": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "L'alzarsi e abbassarsi periodico del livello del mare lungo le coste.",
+        "example": "Con la bassa marea si può camminare fino allo scoglio."
       }
     }
   },
@@ -35239,6 +35499,246 @@
       "confidence": 0.95,
       "status": "validated",
       "revision": 2
+    },
+    {
+      "concept_a": "c_0053",
+      "concept_b": "c_1022",
+      "relation_type": "categoria",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0053",
+      "concept_b": "c_0905",
+      "relation_type": "luoghi",
+      "direction_hint": "symmetric",
+      "association_strength": 0.85,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0053",
+      "concept_b": "c_1023",
+      "relation_type": "esseri_viventi",
+      "direction_hint": "symmetric",
+      "association_strength": 0.8,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0053",
+      "concept_b": "c_1024",
+      "relation_type": "costituzione",
+      "direction_hint": "symmetric",
+      "association_strength": 0.75,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0053",
+      "concept_b": "c_0978",
+      "relation_type": "parti",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0053",
+      "concept_b": "c_1025",
+      "relation_type": "fenomeni",
+      "direction_hint": "symmetric",
+      "association_strength": 0.7,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0053",
+      "concept_b": "c_1026",
+      "relation_type": "effetti",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0053",
+      "concept_b": "c_0118",
+      "relation_type": "similarità",
+      "direction_hint": "symmetric",
+      "association_strength": 0.6,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0056",
+      "concept_b": "c_1027",
+      "relation_type": "categoria",
+      "direction_hint": "symmetric",
+      "association_strength": 0.85,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0056",
+      "concept_b": "c_1028",
+      "relation_type": "costituzione",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0056",
+      "concept_b": "c_0653",
+      "relation_type": "luoghi",
+      "direction_hint": "symmetric",
+      "association_strength": 0.8,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0056",
+      "concept_b": "c_1029",
+      "relation_type": "parti",
+      "direction_hint": "symmetric",
+      "association_strength": 0.75,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0056",
+      "concept_b": "c_1030",
+      "relation_type": "oggetti",
+      "direction_hint": "symmetric",
+      "association_strength": 0.6,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0056",
+      "concept_b": "c_1031",
+      "relation_type": "cause",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0056",
+      "concept_b": "c_1032",
+      "relation_type": "evocativa",
+      "direction_hint": "symmetric",
+      "association_strength": 0.6,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0056",
+      "concept_b": "c_0646",
+      "relation_type": "proprietà",
+      "direction_hint": "symmetric",
+      "association_strength": 0.6,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0057",
+      "concept_b": "c_1033",
+      "relation_type": "categoria",
+      "direction_hint": "symmetric",
+      "association_strength": 0.8,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0042",
+      "concept_b": "c_0057",
+      "relation_type": "cause",
+      "direction_hint": "symmetric",
+      "association_strength": 0.85,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0057",
+      "concept_b": "c_0058",
+      "relation_type": "similarità",
+      "direction_hint": "symmetric",
+      "association_strength": 0.8,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0057",
+      "concept_b": "c_1020",
+      "relation_type": "contenuto",
+      "direction_hint": "symmetric",
+      "association_strength": 0.6,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0057",
+      "concept_b": "c_1034",
+      "relation_type": "fenomeni",
+      "direction_hint": "symmetric",
+      "association_strength": 0.75,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0057",
+      "concept_b": "c_0306",
+      "relation_type": "azioni",
+      "direction_hint": "symmetric",
+      "association_strength": 0.6,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0056",
+      "concept_b": "c_0057",
+      "relation_type": "costituzione",
+      "direction_hint": "symmetric",
+      "association_strength": 0.8,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0001",
+      "concept_b": "c_0057",
+      "relation_type": "luoghi",
+      "direction_hint": "symmetric",
+      "association_strength": 0.85,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
     }
   ],
   "lexical_index": [
@@ -40345,6 +40845,71 @@
     {
       "normalized_form": "corallo",
       "lexeme_id": "w_1021",
+      "lexeme_kind": "word"
+    },
+    {
+      "normalized_form": "sport",
+      "lexeme_id": "w_1022",
+      "lexeme_kind": "word"
+    },
+    {
+      "normalized_form": "nuotatore",
+      "lexeme_id": "w_1023",
+      "lexeme_kind": "word"
+    },
+    {
+      "normalized_form": "bracciata",
+      "lexeme_id": "w_1024",
+      "lexeme_kind": "word"
+    },
+    {
+      "normalized_form": "galleggiamento",
+      "lexeme_id": "w_1025",
+      "lexeme_kind": "word"
+    },
+    {
+      "normalized_form": "resistenza",
+      "lexeme_id": "w_1026",
+      "lexeme_kind": "word"
+    },
+    {
+      "normalized_form": "materiale",
+      "lexeme_id": "w_1027",
+      "lexeme_kind": "word"
+    },
+    {
+      "normalized_form": "granello",
+      "lexeme_id": "w_1028",
+      "lexeme_kind": "word"
+    },
+    {
+      "normalized_form": "duna",
+      "lexeme_id": "w_1029",
+      "lexeme_kind": "word"
+    },
+    {
+      "normalized_form": "secchiello",
+      "lexeme_id": "w_1030",
+      "lexeme_kind": "word"
+    },
+    {
+      "normalized_form": "erosione",
+      "lexeme_id": "w_1031",
+      "lexeme_kind": "word"
+    },
+    {
+      "normalized_form": "clessidra",
+      "lexeme_id": "w_1032",
+      "lexeme_kind": "word"
+    },
+    {
+      "normalized_form": "zona",
+      "lexeme_id": "w_1033",
+      "lexeme_kind": "word"
+    },
+    {
+      "normalized_form": "marea",
+      "lexeme_id": "w_1034",
       "lexeme_kind": "word"
     }
   ],

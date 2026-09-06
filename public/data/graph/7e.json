@@ -18,6 +18,15 @@
         "text": "Parete di roccia a picco sul mare, spesso di gesso o calcare chiaro.",
         "example": "Le falesie bianche si vedevano dalla nave a miglia di distanza."
       }
+    },
+    "c_1026": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "La capacità di sopportare a lungo uno sforzo o una difficoltà senza cedere.",
+        "example": "Gli allenamenti in piscina hanno migliorato la sua resistenza."
+      }
     }
   },
   "associations": [
@@ -50,6 +59,16 @@
       "confidence": 1,
       "status": "validated",
       "revision": 1
+    },
+    {
+      "concept_a": "c_0053",
+      "concept_b": "c_1026",
+      "relation_type": "effetti",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
     }
   ],
   "word_senses": {
@@ -64,6 +83,12 @@
       "lexeme_kind": "word",
       "concept_id": "c_0555",
       "is_primary": true
+    },
+    "s_1026": {
+      "lexeme_id": "w_1026",
+      "lexeme_kind": "word",
+      "concept_id": "c_1026",
+      "is_primary": true
     }
   },
   "words": {
@@ -75,6 +100,11 @@
     "w_0555": {
       "display_form": "falesia",
       "normalized_form": "falesia",
+      "pos": null
+    },
+    "w_1026": {
+      "display_form": "resistenza",
+      "normalized_form": "resistenza",
       "pos": null
     }
   },

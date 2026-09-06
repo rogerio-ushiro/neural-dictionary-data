@@ -36,6 +36,15 @@
         "text": "Rivestimento corneo che protegge il piede di cavalli, buoi e altri animali.",
         "example": "Il maniscalco ferrava gli zoccoli del cavallo."
       }
+    },
+    "c_1023": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Chi nuota, per passione o come atleta.",
+        "example": "I nuotatori si allinearono sui blocchi di partenza."
+      }
     }
   },
   "associations": [
@@ -228,6 +237,16 @@
       "confidence": 1,
       "status": "validated",
       "revision": 1
+    },
+    {
+      "concept_a": "c_0053",
+      "concept_b": "c_1023",
+      "relation_type": "esseri_viventi",
+      "direction_hint": "symmetric",
+      "association_strength": 0.8,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
     }
   ],
   "word_senses": {
@@ -254,6 +273,12 @@
       "lexeme_kind": "word",
       "concept_id": "c_0859",
       "is_primary": true
+    },
+    "s_1023": {
+      "lexeme_id": "w_1023",
+      "lexeme_kind": "word",
+      "concept_id": "c_1023",
+      "is_primary": true
     }
   },
   "words": {
@@ -275,6 +300,11 @@
     "w_0859": {
       "display_form": "zoccolo",
       "normalized_form": "zoccolo",
+      "pos": null
+    },
+    "w_1023": {
+      "display_form": "nuotatore",
+      "normalized_form": "nuotatore",
       "pos": null
     }
   },

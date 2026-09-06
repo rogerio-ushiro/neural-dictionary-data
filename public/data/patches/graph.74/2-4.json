@@ -1,0 +1,33 @@
+{
+  "pack": "graph.74",
+  "from": 2,
+  "to": 4,
+  "ops": [
+    {
+      "op": "ADD_CONCEPT",
+      "concept_id": "c_1033",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Parte di territorio delimitata e considerata a sé per una certa caratteristica o funzione.",
+          "example": "È vietato fumare nella zona d'attesa."
+        }
+      }
+    },
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0057",
+        "concept_b": "c_1033",
+        "relation_type": "categoria",
+        "direction_hint": "symmetric",
+        "association_strength": 0.8,
+        "confidence": 0.85,
+        "status": "candidate",
+        "revision": 1
+      }
+    }
+  ]
+}

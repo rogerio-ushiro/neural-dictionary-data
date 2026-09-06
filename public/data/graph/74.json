@@ -27,6 +27,15 @@
         "text": "Che vive nei boschi allo stato naturale, non allevato dall'uomo.",
         "example": "Nella tana c'era una covata di conigli selvatici."
       }
+    },
+    "c_1033": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Parte di territorio delimitata e considerata a sé per una certa caratteristica o funzione.",
+        "example": "È vietato fumare nella zona d'attesa."
+      }
     }
   },
   "associations": [
@@ -229,6 +238,16 @@
       "confidence": 1,
       "status": "validated",
       "revision": 1
+    },
+    {
+      "concept_a": "c_0057",
+      "concept_b": "c_1033",
+      "relation_type": "categoria",
+      "direction_hint": "symmetric",
+      "association_strength": 0.8,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
     }
   ],
   "word_senses": {
@@ -249,6 +268,12 @@
       "lexeme_kind": "word",
       "concept_id": "c_0845",
       "is_primary": true
+    },
+    "s_1033": {
+      "lexeme_id": "w_1033",
+      "lexeme_kind": "word",
+      "concept_id": "c_1033",
+      "is_primary": true
     }
   },
   "words": {
@@ -265,6 +290,11 @@
     "w_0845": {
       "display_form": "selvatico",
       "normalized_form": "selvatico",
+      "pos": null
+    },
+    "w_1033": {
+      "display_form": "zona",
+      "normalized_form": "zona",
       "pos": null
     }
   },
