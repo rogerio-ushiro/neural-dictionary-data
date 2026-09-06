@@ -1,8 +1,10 @@
-// Client loader (T4.4): fetches the manifest + packs (same-origin, `/data` —
-// GitHub raw is deferred, see PIANO Story 4), diffs against the local cache
-// (IndexedDB by default), fetches only what changed (a `graph.*` pack prefers
-// its patch over a full re-fetch when one exists), reconstructs the
-// PublishedGraph (graphMerge.ts), and reports `sync_state`.
+// Client loader: fetches the manifest + packs from the data host
+// (`DATA_BASE_URL` — this repo's GitHub Pages, cross-origin; CORS `*`), diffs
+// against the local cache (IndexedDB by default), fetches only what changed
+// (a `graph.*` pack prefers its patch over a full re-fetch when one exists),
+// reconstructs the PublishedGraph (graphMerge.ts), and reports `sync_state`.
+// Pass `LoadOptions.baseUrl` to point elsewhere (dev, tests, a same-origin
+// deployment).
 //
 // Depth policy (MVP): every pack in the manifest is fetched/cached on first
 // load — no selective/on-demand shard fetching (spec §46/§47 deferred).
@@ -20,8 +22,18 @@ const EMPTY_GLOBAL: GlobalPack = {
   sync_state: { manifest_version: null, ready: false },
 }
 
+/**
+ * Where the manifest and packs are served from. Default: this repo's GitHub
+ * Pages `data/` directory (cross-origin; GitHub Pages sends
+ * `Access-Control-Allow-Origin: *` so the response is readable and the loader
+ * can populate IndexedDB). Kept as a single literal here and mirrored by the
+ * Pages publish path in `.github/workflows/pages.yml`.
+ */
+export const DATA_BASE_URL = 'https://rogerio-ushiro.github.io/neural-dictionary-data/data'
+
 export interface LoadOptions {
-  /** Same-origin base the manifest/packs are served from. Default: `/data`. */
+  /** Base the manifest/packs are served from. Default: `DATA_BASE_URL`.
+   * Override for local dev, tests, or a same-origin deployment. */
   baseUrl?: string
   fetchImpl?: typeof fetch
   /** Default: IndexedDB. Inject `createMemoryCacheStore()` for tests, or a
@@ -147,7 +159,7 @@ async function openStore(): Promise<CacheStore> {
 }
 
 export async function loadGraph(opts: LoadOptions = {}): Promise<LoadResult> {
-  const baseUrl = opts.baseUrl ?? '/data'
+  const baseUrl = opts.baseUrl ?? DATA_BASE_URL
   const fetchImpl = opts.fetchImpl ?? fetch
   const store = opts.store ?? (await openStore())
 

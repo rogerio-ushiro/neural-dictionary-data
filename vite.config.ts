@@ -1,6 +1,7 @@
-import { resolve } from 'node:path'
 import { defineConfig } from 'vite'
 import dts from 'vite-plugin-dts'
+
+const here = import.meta.dirname
 
 // Library build for @neural-dictionary/client. The barrel (src/index.ts)
 // re-exports the model, loader, ego-graph and search. `resolveJsonModule` +
@@ -13,7 +14,7 @@ export default defineConfig({
   publicDir: false,
   build: {
     lib: {
-      entry: resolve(__dirname, 'src/index.ts'),
+      entry: `${here}/src/index.ts`,
       formats: ['es'],
       fileName: 'index',
     },
