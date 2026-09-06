@@ -4,7 +4,7 @@
     "target": "es2023",
     "lib": ["ES2023", "DOM"],
     "module": "esnext",
-    "types": ["vite/client"],
+    "types": ["node"],
     "allowArbitraryExtensions": true,
     "resolveJsonModule": true,
     "skipLibCheck": true,
@@ -15,7 +15,6 @@
     "verbatimModuleSyntax": true,
     "moduleDetection": "force",
     "noEmit": true,
-    "jsx": "react-jsx",
 
     /* Linting */
     "noUnusedLocals": true,
