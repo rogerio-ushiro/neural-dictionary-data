@@ -1,0 +1,29 @@
+{
+  "pack": "graph.9f",
+  "from": 2,
+  "to": 3,
+  "ops": [
+    {
+      "op": "ADD_CONCEPT",
+      "concept_id": "c_1029",
+      "concept": {
+        "revision": 1,
+        "region_id": null,
+        "status_fronteira": "needs_expansion"
+      }
+    },
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0056",
+        "concept_b": "c_1029",
+        "relation_type": "parti",
+        "direction_hint": "symmetric",
+        "association_strength": 0.75,
+        "confidence": 0.85,
+        "status": "candidate",
+        "revision": 1
+      }
+    }
+  ]
+}

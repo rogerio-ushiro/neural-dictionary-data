@@ -257,6 +257,16 @@
       "confidence": 0.8,
       "status": "validated",
       "revision": 2
+    },
+    {
+      "concept_a": "c_0057",
+      "concept_b": "c_0058",
+      "relation_type": "similarità",
+      "direction_hint": "symmetric",
+      "association_strength": 0.8,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
     }
   ],
   "word_senses": {

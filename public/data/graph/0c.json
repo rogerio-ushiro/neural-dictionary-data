@@ -18,6 +18,15 @@
         "text": "Il mammifero dotato di ragione e linguaggio; l'essere umano.",
         "example": "L'uomo ha imparato a controllare il fuoco molto presto."
       }
+    },
+    "c_1028": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Ciascuna delle minuscole particelle in cui si sgretola una sostanza come la sabbia o il sale.",
+        "example": "Un granello di sabbia gli era entrato nell'occhio."
+      }
     }
   },
   "associations": [
@@ -190,6 +199,16 @@
       "confidence": 1,
       "status": "validated",
       "revision": 1
+    },
+    {
+      "concept_a": "c_0056",
+      "concept_b": "c_1028",
+      "relation_type": "costituzione",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
     }
   ],
   "word_senses": {
@@ -204,6 +223,12 @@
       "lexeme_kind": "word",
       "concept_id": "c_0852",
       "is_primary": true
+    },
+    "s_1028": {
+      "lexeme_id": "w_1028",
+      "lexeme_kind": "word",
+      "concept_id": "c_1028",
+      "is_primary": true
     }
   },
   "words": {
@@ -215,6 +240,11 @@
     "w_0852": {
       "display_form": "uomo",
       "normalized_form": "uomo",
+      "pos": null
+    },
+    "w_1028": {
+      "display_form": "granello",
+      "normalized_form": "granello",
       "pos": null
     }
   },

@@ -27,6 +27,15 @@
         "text": "Proprio delle belve, per aspetto o istinti feroci.",
         "example": "Aveva uno sguardo ferino quando si arrabbiava."
       }
+    },
+    "c_1030": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Piccolo recipiente con manico usato dai bambini per giocare con la sabbia.",
+        "example": "Riempì il secchiello di sabbia bagnata per fare il castello."
+      }
     }
   },
   "associations": [
@@ -229,6 +238,16 @@
       "confidence": 1,
       "status": "validated",
       "revision": 1
+    },
+    {
+      "concept_a": "c_0056",
+      "concept_b": "c_1030",
+      "relation_type": "oggetti",
+      "direction_hint": "symmetric",
+      "association_strength": 0.6,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
     }
   ],
   "word_senses": {
@@ -249,6 +268,12 @@
       "lexeme_kind": "word",
       "concept_id": "c_0846",
       "is_primary": true
+    },
+    "s_1030": {
+      "lexeme_id": "w_1030",
+      "lexeme_kind": "word",
+      "concept_id": "c_1030",
+      "is_primary": true
     }
   },
   "words": {
@@ -265,6 +290,11 @@
     "w_0846": {
       "display_form": "ferino",
       "normalized_form": "ferino",
+      "pos": null
+    },
+    "w_1030": {
+      "display_form": "secchiello",
+      "normalized_form": "secchiello",
       "pos": null
     }
   },

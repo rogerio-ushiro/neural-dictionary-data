@@ -36,6 +36,15 @@
         "text": "La parte finale di un arto o di un oggetto allungato, il punto più lontano dal centro.",
         "example": "Ha battuto l'estremità del dito contro lo spigolo."
       }
+    },
+    "c_1022": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Attività fisica praticata per gioco, per gara o per tenersi in forma, spesso secondo regole precise; anche l'insieme di queste attività.",
+        "example": "Da ragazzo faceva sport tutti i pomeriggi."
+      }
     }
   },
   "associations": [
@@ -118,6 +127,16 @@
       "confidence": 1,
       "status": "validated",
       "revision": 1
+    },
+    {
+      "concept_a": "c_0053",
+      "concept_b": "c_1022",
+      "relation_type": "categoria",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
     }
   ],
   "word_senses": {
@@ -144,6 +163,12 @@
       "lexeme_kind": "word",
       "concept_id": "c_0858",
       "is_primary": true
+    },
+    "s_1022": {
+      "lexeme_id": "w_1022",
+      "lexeme_kind": "word",
+      "concept_id": "c_1022",
+      "is_primary": true
     }
   },
   "words": {
@@ -165,6 +190,11 @@
     "w_0858": {
       "display_form": "estremità",
       "normalized_form": "estremita",
+      "pos": null
+    },
+    "w_1022": {
+      "display_form": "sport",
+      "normalized_form": "sport",
       "pos": null
     }
   },
