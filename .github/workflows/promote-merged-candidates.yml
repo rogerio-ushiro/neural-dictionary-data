@@ -1,0 +1,52 @@
+# Merge-time gate (spec §13): the ONLY place `status: candidate` becomes
+# `validated`. Runs after a growth PR (see .claude/skills/crescimento-conceitos)
+# is merged — never as part of generation itself.
+#
+# Trigger: push to main touching the seed graph (i.e. right after a growth PR
+# merges). Runs scripts/routine/promote-candidates.ts, which fails the job
+# (exit 1, no commit) if the promoted graph doesn't pass
+# validatePublishedClosure. Its commit re-touches public/data, which then
+# triggers pages.yml — this job never deploys itself.
+name: Promote merged candidates
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'src/data/v04/seed/graph.json'
+
+concurrency:
+  group: promote-merged-candidates
+  cancel-in-progress: false
+
+# The job pushes its promotion commit back to main — GITHUB_TOKEN is read-only
+# by default on repos created since Feb 2023.
+permissions:
+  contents: write
+
+jobs:
+  promote:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - run: npm ci
+
+      - name: Promote candidate → validated and rebuild packs
+        run: npx tsx scripts/routine/promote-candidates.ts
+
+      - name: Commit the promotion (if anything changed)
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+          git add src/data/v04/seed/graph.json public/data
+          git diff --cached --quiet && echo "nothing to promote" && exit 0
+          git commit -m "Promote merged candidates to validated"
+          git pull --rebase origin main
+          git push

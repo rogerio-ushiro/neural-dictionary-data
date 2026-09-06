@@ -1,0 +1,58 @@
+# Publishes the committed packs to GitHub Pages under `data/`, so the app fetches
+# them cross-origin from
+#   https://rogerio-ushiro.github.io/neural-dictionary-data/data/manifest.json
+# (this path is the literal `DATA_BASE_URL` in src/data/loader.ts).
+#
+# The packs in `public/data/` are authoritative on `main` — the growth skill
+# rebuilds them in its PR and `promote-merged-candidates.yml` rebuilds them again
+# on promotion. This job only DEPLOYS; it re-runs `packs-in-sync` as a guard
+# that the committed packs still match `build-packs(seed)`.
+name: Pages
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'public/data/**'
+      - 'src/data/v04/seed/**'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# One deploy at a time; don't cancel an in-flight publish.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - run: npm ci
+
+      - name: Guard — committed packs match build-packs(seed)
+        run: npx vitest run scripts/pack/packs-in-sync.test.ts
+
+      - name: Stage packs under data/
+        run: |
+          mkdir -p _site/data
+          cp -r public/data/. _site/data/
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - id: deployment
+        uses: actions/deploy-pages@v4
