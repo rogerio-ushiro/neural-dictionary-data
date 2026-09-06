@@ -1,0 +1,102 @@
+{
+  "shard": "ce",
+  "concepts": {
+    "c_0151": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Insieme di capi coordinati che si indossano per vestirsi con una certa cura.",
+        "example": "Ha stirato l'abito per il colloquio di lavoro."
+      }
+    },
+    "c_0429": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Descrizione degli ingredienti e dei passaggi per preparare un piatto.",
+        "example": "Ha copiato la ricetta della torta dalla nonna."
+      }
+    },
+    "c_0726": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Ruota con pale che gira spinta da acqua, vapore o gas per produrre energia.",
+        "example": "La turbina della centrale sfrutta la caduta dell'acqua."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0009",
+      "concept_b": "c_0151",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0033",
+      "concept_b": "c_0429",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0135",
+      "concept_b": "c_0726",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    }
+  ],
+  "word_senses": {
+    "s_0151": {
+      "lexeme_id": "w_0151",
+      "lexeme_kind": "word",
+      "concept_id": "c_0151",
+      "is_primary": true
+    },
+    "s_0429": {
+      "lexeme_id": "w_0429",
+      "lexeme_kind": "word",
+      "concept_id": "c_0429",
+      "is_primary": true
+    },
+    "s_0726": {
+      "lexeme_id": "w_0726",
+      "lexeme_kind": "word",
+      "concept_id": "c_0726",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0151": {
+      "display_form": "abito",
+      "normalized_form": "abito",
+      "pos": null
+    },
+    "w_0429": {
+      "display_form": "ricetta",
+      "normalized_form": "ricetta",
+      "pos": null
+    },
+    "w_0726": {
+      "display_form": "turbina",
+      "normalized_form": "turbina",
+      "pos": null
+    }
+  },
+  "expressions": {}
+}

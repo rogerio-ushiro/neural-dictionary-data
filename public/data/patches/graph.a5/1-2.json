@@ -1,0 +1,33 @@
+{
+  "pack": "graph.a5",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0110",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Struttura che offre a pagamento alloggio e servizi a chi è di passaggio.",
+          "example": "Hanno prenotato due notti in un piccolo albergo sul lago."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0774",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "La possibilità concreta di fare, imporre o ottenere qualcosa.",
+          "example": "Chi ha il potere ha anche la responsabilità di usarlo bene."
+        }
+      }
+    }
+  ]
+}

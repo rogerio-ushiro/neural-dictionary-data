@@ -1,0 +1,59 @@
+{
+  "pack": "graph.6c",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0324",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Ciascuno degli arti su cui un animale si regge e cammina, spesso munito di unghie o artigli.",
+          "example": "Il gatto si è fatto male a una zampa saltando dal muro."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0351",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Il tronco della pianta, la parte legnosa che sale dal terreno e regge la chioma.",
+          "example": "Il fusto del faggio era liscio e grigio."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0801",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Pianta bassa e ramificata fin dalla base, più piccola di un albero.",
+          "example": "Dietro il muretto era cresciuto un cespuglio di rovi."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0874",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Che riguarda la convivenza ordinata tra i cittadini; anche cortese ed educato.",
+          "example": "Ha modi civili anche quando discute."
+        }
+      }
+    }
+  ]
+}

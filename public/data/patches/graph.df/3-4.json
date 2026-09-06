@@ -1,0 +1,59 @@
+{
+  "pack": "graph.df",
+  "from": 3,
+  "to": 4,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0246",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Ente pubblico o privato che si occupa di istruzione, ricerca o assistenza.",
+          "example": "Frequenta un istituto tecnico per geometri."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0479",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Aroma dolce e profumato ricavato da un baccello, usato per insaporire dolci, creme e bevande.",
+          "example": "Ha preparato un budino alla vaniglia per i bambini."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0516",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Stato di calma assoluta, senza rumori né movimenti né agitazione d'animo.",
+          "example": "Cercava la quiete della campagna per scrivere."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_1010",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "L'insieme delle persone che lavorano a bordo di una nave o di un aereo.",
+          "example": "L'equipaggio si preparò alle manovre di attracco."
+        }
+      }
+    }
+  ]
+}

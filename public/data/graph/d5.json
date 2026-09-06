@@ -1,0 +1,212 @@
+{
+  "shard": "d5",
+  "concepts": {
+    "c_0271": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Raccolta ordinata di leggi o di regole; anche un lungo manoscritto antico.",
+        "example": "Il codice della strada punisce quell'infrazione con una multa."
+      }
+    },
+    "c_0345": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Stato d'animo calmo e limpido, senza turbamenti.",
+        "example": "Il giardino gli trasmetteva una grande serenità."
+      }
+    },
+    "c_0468": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Gelato morbido e spumoso servito a fette.",
+        "example": "A fine cena portarono uno spumone al torroncino."
+      }
+    },
+    "c_0521": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Il comparire delle prime luci del mattino.",
+        "example": "All'albeggiare i galli cominciarono a cantare."
+      }
+    },
+    "c_0639": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Nebbia leggera che vela il paesaggio.",
+        "example": "Una foschia dorata avvolgeva la campagna al mattino."
+      }
+    },
+    "c_0815": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "L'insieme delle condizioni naturali e sociali in cui si vive; anche il clima morale di un luogo.",
+        "example": "Bisogna proteggere l'ambiente dall'inquinamento."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0018",
+      "concept_b": "c_0271",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0025",
+      "concept_b": "c_0345",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0036",
+      "concept_b": "c_0468",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0040",
+      "concept_b": "c_0521",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0078",
+      "concept_b": "c_0639",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0300",
+      "concept_b": "c_0815",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0345",
+      "concept_b": "c_0516",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0387",
+      "concept_b": "c_0815",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    }
+  ],
+  "word_senses": {
+    "s_0271": {
+      "lexeme_id": "w_0271",
+      "lexeme_kind": "word",
+      "concept_id": "c_0271",
+      "is_primary": true
+    },
+    "s_0345": {
+      "lexeme_id": "w_0345",
+      "lexeme_kind": "word",
+      "concept_id": "c_0345",
+      "is_primary": true
+    },
+    "s_0468": {
+      "lexeme_id": "w_0468",
+      "lexeme_kind": "word",
+      "concept_id": "c_0468",
+      "is_primary": true
+    },
+    "s_0521": {
+      "lexeme_id": "w_0521",
+      "lexeme_kind": "word",
+      "concept_id": "c_0521",
+      "is_primary": true
+    },
+    "s_0639": {
+      "lexeme_id": "w_0639",
+      "lexeme_kind": "word",
+      "concept_id": "c_0639",
+      "is_primary": true
+    },
+    "s_0815": {
+      "lexeme_id": "w_0815",
+      "lexeme_kind": "word",
+      "concept_id": "c_0815",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0271": {
+      "display_form": "codice",
+      "normalized_form": "codice",
+      "pos": null
+    },
+    "w_0345": {
+      "display_form": "serenità",
+      "normalized_form": "serenita",
+      "pos": null
+    },
+    "w_0468": {
+      "display_form": "spumone",
+      "normalized_form": "spumone",
+      "pos": null
+    },
+    "w_0521": {
+      "display_form": "albeggiare",
+      "normalized_form": "albeggiare",
+      "pos": null
+    },
+    "w_0639": {
+      "display_form": "foschia",
+      "normalized_form": "foschia",
+      "pos": null
+    },
+    "w_0815": {
+      "display_form": "ambiente",
+      "normalized_form": "ambiente",
+      "pos": null
+    }
+  },
+  "expressions": {}
+}

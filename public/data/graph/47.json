@@ -1,0 +1,132 @@
+{
+  "shard": "47",
+  "concepts": {
+    "c_0462": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Piccolo frutto rosso a granuli, simile alla mora, che cresce sui cespugli di montagna.",
+        "example": "Fecero una marmellata di lamponi a fine estate."
+      }
+    },
+    "c_0596": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Del colore dell'oro; detto della pelle abbronzata dal sole.",
+        "example": "Aveva la pelle dorata dopo un mese di mare."
+      }
+    },
+    "c_0633": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Il colore più scuro di tutti, quello dell'assenza di luce.",
+        "example": "Indossava un abito nero per il funerale."
+      }
+    },
+    "c_0901": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Recipiente ampio e incassato che contiene acqua, in bagno o nelle fontane.",
+        "example": "I bambini sguazzavano nella vasca della fontana."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0035",
+      "concept_b": "c_0462",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0060",
+      "concept_b": "c_0596",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0078",
+      "concept_b": "c_0633",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0343",
+      "concept_b": "c_0901",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    }
+  ],
+  "word_senses": {
+    "s_0462": {
+      "lexeme_id": "w_0462",
+      "lexeme_kind": "word",
+      "concept_id": "c_0462",
+      "is_primary": true
+    },
+    "s_0596": {
+      "lexeme_id": "w_0596",
+      "lexeme_kind": "word",
+      "concept_id": "c_0596",
+      "is_primary": true
+    },
+    "s_0633": {
+      "lexeme_id": "w_0633",
+      "lexeme_kind": "word",
+      "concept_id": "c_0633",
+      "is_primary": true
+    },
+    "s_0901": {
+      "lexeme_id": "w_0901",
+      "lexeme_kind": "word",
+      "concept_id": "c_0901",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0462": {
+      "display_form": "lampone",
+      "normalized_form": "lampone",
+      "pos": null
+    },
+    "w_0596": {
+      "display_form": "dorato",
+      "normalized_form": "dorato",
+      "pos": null
+    },
+    "w_0633": {
+      "display_form": "nero",
+      "normalized_form": "nero",
+      "pos": null
+    },
+    "w_0901": {
+      "display_form": "vasca",
+      "normalized_form": "vasca",
+      "pos": null
+    }
+  },
+  "expressions": {}
+}

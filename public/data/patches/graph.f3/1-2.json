@@ -1,0 +1,85 @@
+{
+  "pack": "graph.f3",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0233",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Punto da cui sgorga l'acqua; al figurato, chi o ciò che dà origine a una notizia o a un bene.",
+          "example": "L'acqua della fonte era freschissima anche d'estate."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0286",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Compagno fidato, camerata (voce di uso familiare e affettuoso).",
+          "example": "Sono stati camarada per tutta la naia."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0417",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Solco artificiale scavato per far scorrere l'acqua, per irrigare o per far passare le barche; per estensione, una via attraverso cui passano informazioni o programmi (un canale televisivo).",
+          "example": "Le merci arrivavano in città lungo il canale."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0563",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Punta sottile e slanciata che sormonta una torre o una montagna.",
+          "example": "La guglia del duomo si vede da tutta la pianura."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0691",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Non soggetto a costrizioni o vincoli; anche non occupato.",
+          "example": "Il pomeriggio è libero, possiamo vederci."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0952",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Legge o verità di fondo da cui si parte per ragionare o per agire.",
+          "example": "Non transige sui suoi principi morali."
+        }
+      }
+    }
+  ]
+}

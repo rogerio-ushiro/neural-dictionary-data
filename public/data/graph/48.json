@@ -1,0 +1,302 @@
+{
+  "shard": "48",
+  "concepts": {
+    "c_0184": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Luogo dove si è ospitati o si vive temporaneamente.",
+        "example": "L'alloggio era piccolo ma pulito e vicino al centro."
+      }
+    },
+    "c_0258": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Materia di studio; anche la capacità di rispettare regole e ordine.",
+        "example": "La matematica è la disciplina che preferisce."
+      }
+    },
+    "c_0399": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Linea di roccia frastagliata che corre lungo la sommità di un monte; anche il ciuffo di penne sul capo di certi uccelli.",
+        "example": "Camminarono lungo la cresta con il vuoto da entrambe le parti."
+      }
+    },
+    "c_0401": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Terreno che si eleva rispetto a quello circostante, meno di una montagna.",
+        "example": "La cascina sorge su un'altura ventosa."
+      }
+    },
+    "c_0496": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Sequenza di note che, cantata o suonata, forma un motivo riconoscibile e piacevole.",
+        "example": "Fischiettava una melodia allegra andando a lavoro."
+      }
+    },
+    "c_0508": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "L'altezza e il colore di un suono o di una voce; anche l'atteggiamento che traspare dal modo di parlare.",
+        "example": "Rispose con un tono seccato."
+      }
+    },
+    "c_0610": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Qualità di ciò che brilla ed emette molta luce.",
+        "example": "La brillantezza dello smalto durò tutta la stagione."
+      }
+    },
+    "c_0665": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Un tornare a vivere e a fiorire dopo un periodo di declino.",
+        "example": "La primavera è il simbolo della rinascita della natura."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0012",
+      "concept_b": "c_0184",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0017",
+      "concept_b": "c_0258",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0031",
+      "concept_b": "c_0399",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0031",
+      "concept_b": "c_0401",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0038",
+      "concept_b": "c_0496",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0038",
+      "concept_b": "c_0508",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0066",
+      "concept_b": "c_0610",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0069",
+      "concept_b": "c_0610",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0086",
+      "concept_b": "c_0665",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0387",
+      "concept_b": "c_0496",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0387",
+      "concept_b": "c_0508",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0392",
+      "concept_b": "c_0496",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0392",
+      "concept_b": "c_0508",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    }
+  ],
+  "word_senses": {
+    "s_0184": {
+      "lexeme_id": "w_0184",
+      "lexeme_kind": "word",
+      "concept_id": "c_0184",
+      "is_primary": true
+    },
+    "s_0258": {
+      "lexeme_id": "w_0258",
+      "lexeme_kind": "word",
+      "concept_id": "c_0258",
+      "is_primary": true
+    },
+    "s_0399": {
+      "lexeme_id": "w_0399",
+      "lexeme_kind": "word",
+      "concept_id": "c_0399",
+      "is_primary": true
+    },
+    "s_0401": {
+      "lexeme_id": "w_0401",
+      "lexeme_kind": "word",
+      "concept_id": "c_0401",
+      "is_primary": true
+    },
+    "s_0496": {
+      "lexeme_id": "w_0496",
+      "lexeme_kind": "word",
+      "concept_id": "c_0496",
+      "is_primary": true
+    },
+    "s_0508": {
+      "lexeme_id": "w_0508",
+      "lexeme_kind": "word",
+      "concept_id": "c_0508",
+      "is_primary": true
+    },
+    "s_0610": {
+      "lexeme_id": "w_0610",
+      "lexeme_kind": "word",
+      "concept_id": "c_0610",
+      "is_primary": true
+    },
+    "s_0665": {
+      "lexeme_id": "w_0665",
+      "lexeme_kind": "word",
+      "concept_id": "c_0665",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0184": {
+      "display_form": "alloggio",
+      "normalized_form": "alloggio",
+      "pos": null
+    },
+    "w_0258": {
+      "display_form": "disciplina",
+      "normalized_form": "disciplina",
+      "pos": null
+    },
+    "w_0399": {
+      "display_form": "cresta",
+      "normalized_form": "cresta",
+      "pos": null
+    },
+    "w_0401": {
+      "display_form": "altura",
+      "normalized_form": "altura",
+      "pos": null
+    },
+    "w_0496": {
+      "display_form": "melodia",
+      "normalized_form": "melodia",
+      "pos": null
+    },
+    "w_0508": {
+      "display_form": "tono",
+      "normalized_form": "tono",
+      "pos": null
+    },
+    "w_0610": {
+      "display_form": "brillantezza",
+      "normalized_form": "brillantezza",
+      "pos": null
+    },
+    "w_0665": {
+      "display_form": "rinascita",
+      "normalized_form": "rinascita",
+      "pos": null
+    }
+  },
+  "expressions": {}
+}

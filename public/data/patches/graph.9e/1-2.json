@@ -1,0 +1,33 @@
+{
+  "pack": "graph.9e",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0366",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Sostanza che scorre e prende la forma del recipiente, senza volume né forma propri come i solidi.",
+          "example": "Versò il liquido con attenzione nella provetta."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0836",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Erba infestante dalle radici tenaci, difficile da estirpare.",
+          "example": "La gramigna aveva invaso tutta l'aiuola."
+        }
+      }
+    }
+  ]
+}

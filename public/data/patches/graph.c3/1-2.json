@@ -1,0 +1,33 @@
+{
+  "pack": "graph.c3",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0026",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Pianta legnosa di grande sviluppo, con un fusto centrale da cui si dipartono i rami; dà ombra, legname e ossigeno, e vive molti anni.",
+          "example": "Sotto quell'albero il nonno aveva messo una panchina."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0093",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Forno di mattoni in cui si raggiungono temperature altissime per cuocere ceramiche o fondere metalli; al figurato, un luogo caldissimo.",
+          "example": "D'estate quella soffitta è una fornace."
+        }
+      }
+    }
+  ]
+}

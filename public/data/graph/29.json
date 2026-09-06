@@ -1,0 +1,72 @@
+{
+  "shard": "29",
+  "concepts": {
+    "c_0330": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Apertura del viso con cui si mangia e si emettono suoni; nell'animale, il muso con le fauci.",
+        "example": "Il cane teneva il bastone in bocca."
+      }
+    },
+    "c_0860": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Il modo di camminare di una persona o di un animale, il suo passo.",
+        "example": "Riconobbe l'amico da lontano per l'andatura ciondolante."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0023",
+      "concept_b": "c_0330",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0322",
+      "concept_b": "c_0860",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    }
+  ],
+  "word_senses": {
+    "s_0330": {
+      "lexeme_id": "w_0330",
+      "lexeme_kind": "word",
+      "concept_id": "c_0330",
+      "is_primary": true
+    },
+    "s_0860": {
+      "lexeme_id": "w_0860",
+      "lexeme_kind": "word",
+      "concept_id": "c_0860",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0330": {
+      "display_form": "bocca",
+      "normalized_form": "bocca",
+      "pos": null
+    },
+    "w_0860": {
+      "display_form": "andatura",
+      "normalized_form": "andatura",
+      "pos": null
+    }
+  },
+  "expressions": {}
+}

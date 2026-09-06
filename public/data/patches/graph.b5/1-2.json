@@ -1,0 +1,124 @@
+{
+  "pack": "graph.b5",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0222",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Bambino paffuto raffigurato nell'arte come un angioletto nudo.",
+          "example": "Sulla volta della chiesa erano dipinti dei putti tra le nuvole."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0257",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Stanza della scuola dove si tengono le lezioni.",
+          "example": "L'aula in fondo al corridoio ha la lavagna nuova."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0396",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Cima aguzza e isolata di una montagna.",
+          "example": "Il picco più alto della catena supera i quattromila metri."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0499",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Accordo piacevole di suoni che stanno bene insieme; al figurato, la concordia tra persone o parti.",
+          "example": "Nel coro le voci si fondevano in perfetta armonia."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0507",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Il suono prodotto dall'apparato vocale dell'uomo per parlare o cantare.",
+          "example": "Riconobbe la sua voce al telefono dopo anni."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0572",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Serie di azioni con cui si guida e si sposta una nave, un'auto o un aereo.",
+          "example": "La manovra di parcheggio in quello spazio stretto fu delicata."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0684",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Il potere o la possibilità riconosciuta di fare qualcosa; anche una branca dell'università.",
+          "example": "Ha la facoltà di firmare al posto del direttore."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0961",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Nelle religioni, il luogo di felicità eterna dopo la morte; al figurato, un posto meraviglioso.",
+          "example": "Quell'isola sperduta era un piccolo paradiso."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_1005",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Mancanza di movimento o di reazione; anche la pigrizia di chi non prende iniziative.",
+          "example": "Lo Stato è rimasto nell'inerzia di fronte al problema."
+        }
+      }
+    }
+  ]
+}

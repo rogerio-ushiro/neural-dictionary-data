@@ -1,0 +1,33 @@
+{
+  "pack": "graph.f7",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0017",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Luogo dove i ragazzi vanno per anni a imparare a leggere, contare e ragionare guidati da insegnanti; per estensione, qualsiasi esperienza che insegna qualcosa (la scuola della vita).",
+          "example": "I bambini tornano da scuola verso l'una."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0088",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "La stagione più fredda dell'anno, tra l'autunno e la primavera.",
+          "example": "L'inverno scorso è nevicato fino in pianura."
+        }
+      }
+    }
+  ]
+}

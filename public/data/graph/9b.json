@@ -1,0 +1,102 @@
+{
+  "shard": "9b",
+  "concepts": {
+    "c_0215": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Ragazzo nell'età tra l'infanzia e la giovinezza.",
+        "example": "Da ragazzo giocava a pallone in quel campetto."
+      }
+    },
+    "c_0545": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Il punto oltre il quale una cosa non può andare.",
+        "example": "La pazienza ha un limite."
+      }
+    },
+    "c_0884": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Il mantello di lana o di pelo che copre alcuni animali.",
+        "example": "Il vello della pecora si tosa una volta l'anno."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0014",
+      "concept_b": "c_0215",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0043",
+      "concept_b": "c_0545",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0326",
+      "concept_b": "c_0884",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    }
+  ],
+  "word_senses": {
+    "s_0215": {
+      "lexeme_id": "w_0215",
+      "lexeme_kind": "word",
+      "concept_id": "c_0215",
+      "is_primary": true
+    },
+    "s_0545": {
+      "lexeme_id": "w_0545",
+      "lexeme_kind": "word",
+      "concept_id": "c_0545",
+      "is_primary": true
+    },
+    "s_0884": {
+      "lexeme_id": "w_0884",
+      "lexeme_kind": "word",
+      "concept_id": "c_0884",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0215": {
+      "display_form": "ragazzo",
+      "normalized_form": "ragazzo",
+      "pos": null
+    },
+    "w_0545": {
+      "display_form": "limite",
+      "normalized_form": "limite",
+      "pos": null
+    },
+    "w_0884": {
+      "display_form": "vello",
+      "normalized_form": "vello",
+      "pos": null
+    }
+  },
+  "expressions": {}
+}

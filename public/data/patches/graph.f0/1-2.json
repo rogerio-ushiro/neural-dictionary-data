@@ -1,0 +1,59 @@
+{
+  "pack": "graph.f0",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0452",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Frutto tondo dalla buccia liscia, croccante e dal sapore tra il dolce e l'aspro.",
+          "example": "Mette sempre una mela nella borsa per lo spuntino."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0621",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "La linea lontana dove sembrano toccarsi cielo e terra; al figurato, l'insieme delle prospettive che si aprono.",
+          "example": "Il sole si alzò lento sull'orizzonte del mare."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0746",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "La famiglia nobile con i suoi antenati e discendenti.",
+          "example": "Appartiene a un casato che risale al Medioevo."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0984",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Qualcosa di nuovo che prima non c'era o non si conosceva.",
+          "example": "L'arrivo del treno fu una grande novità per il paese."
+        }
+      }
+    }
+  ]
+}

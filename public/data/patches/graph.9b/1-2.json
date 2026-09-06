@@ -1,0 +1,46 @@
+{
+  "pack": "graph.9b",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0215",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Ragazzo nell'età tra l'infanzia e la giovinezza.",
+          "example": "Da ragazzo giocava a pallone in quel campetto."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0545",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Il punto oltre il quale una cosa non può andare.",
+          "example": "La pazienza ha un limite."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0884",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Il mantello di lana o di pelo che copre alcuni animali.",
+          "example": "Il vello della pecora si tosa una volta l'anno."
+        }
+      }
+    }
+  ]
+}

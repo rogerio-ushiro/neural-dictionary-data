@@ -1,0 +1,33 @@
+{
+  "pack": "graph.56",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0025",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Terreno recintato vicino a casa dove si coltivano fiori, erba e piante per ornamento o riposo.",
+          "example": "La domenica mattina cura il giardino."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0090",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Il grado di caldo o di freddo di un corpo o di un ambiente, misurato in gradi.",
+          "example": "Con la febbre la temperatura corporea sale sopra i trentasette."
+        }
+      }
+    }
+  ]
+}

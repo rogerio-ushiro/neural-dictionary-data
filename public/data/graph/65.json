@@ -1,0 +1,292 @@
+{
+  "shard": "65",
+  "concepts": {
+    "c_0169": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Comunità di persone con la stessa lingua, storia e territorio, organizzata in Stato.",
+        "example": "L'inno viene cantato prima delle partite della nazione."
+      }
+    },
+    "c_0235": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Antenato, in particolare il nonno o un ascendente lontano (voce elevata).",
+        "example": "Gli avi riposano tutti nello stesso cimitero di campagna."
+      }
+    },
+    "c_0280": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Ogni altra persona verso cui si hanno doveri di rispetto e solidarietà.",
+        "example": "Ama il prossimo come te stesso."
+      }
+    },
+    "c_0411": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Ampia conca del terreno in cui si raccolgono le acque di un fiume o di un lago.",
+        "example": "Le piogge riempiono il bacino artificiale della diga."
+      }
+    },
+    "c_0565": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Piccola isola.",
+        "example": "Al centro del lago spunta un isolotto con una cappella."
+      }
+    },
+    "c_0697": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "L'insieme delle persone che accompagnano e servono un personaggio importante.",
+        "example": "Il ministro arrivò con tutto il suo seguito."
+      }
+    },
+    "c_0738": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Il primo stabilirsi di un gruppo di persone in un luogo per abitarvi.",
+        "example": "Gli scavi hanno riportato alla luce un insediamento preistorico."
+      }
+    },
+    "c_0954": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Il modo in cui una situazione si sviluppa nel tempo, se in meglio o in peggio.",
+        "example": "L'andamento delle vendite è migliorato in autunno."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0011",
+      "concept_b": "c_0169",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0016",
+      "concept_b": "c_0235",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0019",
+      "concept_b": "c_0280",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0032",
+      "concept_b": "c_0411",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0044",
+      "concept_b": "c_0411",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0048",
+      "concept_b": "c_0565",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0113",
+      "concept_b": "c_0697",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0164",
+      "concept_b": "c_0738",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0226",
+      "concept_b": "c_0235",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0228",
+      "concept_b": "c_0235",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0273",
+      "concept_b": "c_0280",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0374",
+      "concept_b": "c_0954",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    }
+  ],
+  "word_senses": {
+    "s_0169": {
+      "lexeme_id": "w_0169",
+      "lexeme_kind": "word",
+      "concept_id": "c_0169",
+      "is_primary": true
+    },
+    "s_0235": {
+      "lexeme_id": "w_0235",
+      "lexeme_kind": "word",
+      "concept_id": "c_0235",
+      "is_primary": true
+    },
+    "s_0280": {
+      "lexeme_id": "w_0280",
+      "lexeme_kind": "word",
+      "concept_id": "c_0280",
+      "is_primary": true
+    },
+    "s_0411": {
+      "lexeme_id": "w_0411",
+      "lexeme_kind": "word",
+      "concept_id": "c_0411",
+      "is_primary": true
+    },
+    "s_0565": {
+      "lexeme_id": "w_0565",
+      "lexeme_kind": "word",
+      "concept_id": "c_0565",
+      "is_primary": true
+    },
+    "s_0697": {
+      "lexeme_id": "w_0697",
+      "lexeme_kind": "word",
+      "concept_id": "c_0697",
+      "is_primary": true
+    },
+    "s_0738": {
+      "lexeme_id": "w_0738",
+      "lexeme_kind": "word",
+      "concept_id": "c_0738",
+      "is_primary": true
+    },
+    "s_0954": {
+      "lexeme_id": "w_0954",
+      "lexeme_kind": "word",
+      "concept_id": "c_0954",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0169": {
+      "display_form": "nazione",
+      "normalized_form": "nazione",
+      "pos": null
+    },
+    "w_0235": {
+      "display_form": "avo",
+      "normalized_form": "avo",
+      "pos": null
+    },
+    "w_0280": {
+      "display_form": "prossimo",
+      "normalized_form": "prossimo",
+      "pos": null
+    },
+    "w_0411": {
+      "display_form": "bacino",
+      "normalized_form": "bacino",
+      "pos": null
+    },
+    "w_0565": {
+      "display_form": "isolotto",
+      "normalized_form": "isolotto",
+      "pos": null
+    },
+    "w_0697": {
+      "display_form": "seguito",
+      "normalized_form": "seguito",
+      "pos": null
+    },
+    "w_0738": {
+      "display_form": "insediamento",
+      "normalized_form": "insediamento",
+      "pos": null
+    },
+    "w_0954": {
+      "display_form": "andamento",
+      "normalized_form": "andamento",
+      "pos": null
+    }
+  },
+  "expressions": {}
+}

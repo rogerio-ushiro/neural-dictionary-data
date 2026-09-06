@@ -1,0 +1,172 @@
+{
+  "shard": "15",
+  "concepts": {
+    "c_0293": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Bevuta e mangiata smodata in compagnia rumorosa.",
+        "example": "Dopo la vittoria fu gozzoviglia fino a notte fonda."
+      }
+    },
+    "c_0424": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Ciascuno dei momenti della giornata in cui si mangia.",
+        "example": "Salta spesso il pasto di mezzogiorno per lavoro."
+      }
+    },
+    "c_0640": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Caldo umido e soffocante che toglie il respiro nelle giornate estive.",
+        "example": "L'afa di agosto rendeva impossibile lavorare."
+      }
+    },
+    "c_0932": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Piccola quantità di liquido lanciata all'improvviso che macchia o bagna; indica anche un disegno rapido fatto per fissare un'idea.",
+        "example": "Passando, l'auto gli lasciò uno schizzo di fango sui pantaloni."
+      }
+    },
+    "c_0947": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Ciascuna delle porzioni in cui un tutto si può dividere.",
+        "example": "Ha diviso la torta in otto parti uguali."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0020",
+      "concept_b": "c_0293",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0033",
+      "concept_b": "c_0424",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0080",
+      "concept_b": "c_0640",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0367",
+      "concept_b": "c_0932",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0370",
+      "concept_b": "c_0640",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0371",
+      "concept_b": "c_0947",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    }
+  ],
+  "word_senses": {
+    "s_0293": {
+      "lexeme_id": "w_0293",
+      "lexeme_kind": "word",
+      "concept_id": "c_0293",
+      "is_primary": true
+    },
+    "s_0424": {
+      "lexeme_id": "w_0424",
+      "lexeme_kind": "word",
+      "concept_id": "c_0424",
+      "is_primary": true
+    },
+    "s_0640": {
+      "lexeme_id": "w_0640",
+      "lexeme_kind": "word",
+      "concept_id": "c_0640",
+      "is_primary": true
+    },
+    "s_0932": {
+      "lexeme_id": "w_0932",
+      "lexeme_kind": "word",
+      "concept_id": "c_0932",
+      "is_primary": true
+    },
+    "s_0947": {
+      "lexeme_id": "w_0947",
+      "lexeme_kind": "word",
+      "concept_id": "c_0947",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0293": {
+      "display_form": "gozzoviglia",
+      "normalized_form": "gozzoviglia",
+      "pos": null
+    },
+    "w_0424": {
+      "display_form": "pasto",
+      "normalized_form": "pasto",
+      "pos": null
+    },
+    "w_0640": {
+      "display_form": "afa",
+      "normalized_form": "afa",
+      "pos": null
+    },
+    "w_0932": {
+      "display_form": "schizzo",
+      "normalized_form": "schizzo",
+      "pos": null
+    },
+    "w_0947": {
+      "display_form": "parte",
+      "normalized_form": "parte",
+      "pos": null
+    }
+  },
+  "expressions": {}
+}

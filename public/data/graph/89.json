@@ -1,0 +1,172 @@
+{
+  "shard": "89",
+  "concepts": {
+    "c_0275": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Compagno con cui si è condiviso il servizio militare o un'esperienza di gruppo.",
+        "example": "Si ritrovano ogni anno con i vecchi camerati di leva."
+      }
+    },
+    "c_0341": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Terreno coltivato a ortaggi per il consumo familiare.",
+        "example": "Nell'orto ha piantato zucchine, pomodori e insalata."
+      }
+    },
+    "c_0525": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Nelle prime ore del giorno, prima del solito.",
+        "example": "Si alza presto anche la domenica."
+      }
+    },
+    "c_0598": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Sostanza scura che colora la pelle e la protegge dai raggi del sole.",
+        "example": "La melanina aumenta con l'esposizione al sole."
+      }
+    },
+    "c_0811": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Vasta estensione di terreno piatto.",
+        "example": "La pianura si stende a perdita d'occhio tra i due fiumi."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0019",
+      "concept_b": "c_0275",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0025",
+      "concept_b": "c_0341",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0040",
+      "concept_b": "c_0525",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0060",
+      "concept_b": "c_0598",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0273",
+      "concept_b": "c_0275",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0298",
+      "concept_b": "c_0811",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    }
+  ],
+  "word_senses": {
+    "s_0275": {
+      "lexeme_id": "w_0275",
+      "lexeme_kind": "word",
+      "concept_id": "c_0275",
+      "is_primary": true
+    },
+    "s_0341": {
+      "lexeme_id": "w_0341",
+      "lexeme_kind": "word",
+      "concept_id": "c_0341",
+      "is_primary": true
+    },
+    "s_0525": {
+      "lexeme_id": "w_0525",
+      "lexeme_kind": "word",
+      "concept_id": "c_0525",
+      "is_primary": true
+    },
+    "s_0598": {
+      "lexeme_id": "w_0598",
+      "lexeme_kind": "word",
+      "concept_id": "c_0598",
+      "is_primary": true
+    },
+    "s_0811": {
+      "lexeme_id": "w_0811",
+      "lexeme_kind": "word",
+      "concept_id": "c_0811",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0275": {
+      "display_form": "camerata",
+      "normalized_form": "camerata",
+      "pos": null
+    },
+    "w_0341": {
+      "display_form": "orto",
+      "normalized_form": "orto",
+      "pos": null
+    },
+    "w_0525": {
+      "display_form": "presto",
+      "normalized_form": "presto",
+      "pos": null
+    },
+    "w_0598": {
+      "display_form": "melanina",
+      "normalized_form": "melanina",
+      "pos": null
+    },
+    "w_0811": {
+      "display_form": "pianura",
+      "normalized_form": "pianura",
+      "pos": null
+    }
+  },
+  "expressions": {}
+}

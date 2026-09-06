@@ -1,0 +1,72 @@
+{
+  "shard": "11",
+  "concepts": {
+    "c_0204": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "L'insieme dei figli, la discendenza di una coppia.",
+        "example": "Ha cresciuto una numerosa prole con pochi mezzi."
+      }
+    },
+    "c_0554": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Roccia alta e scoscesa, quasi a strapiombo.",
+        "example": "L'aquila aveva il nido su una rupe inaccessibile."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0013",
+      "concept_b": "c_0204",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0045",
+      "concept_b": "c_0554",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    }
+  ],
+  "word_senses": {
+    "s_0204": {
+      "lexeme_id": "w_0204",
+      "lexeme_kind": "word",
+      "concept_id": "c_0204",
+      "is_primary": true
+    },
+    "s_0554": {
+      "lexeme_id": "w_0554",
+      "lexeme_kind": "word",
+      "concept_id": "c_0554",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0204": {
+      "display_form": "prole",
+      "normalized_form": "prole",
+      "pos": null
+    },
+    "w_0554": {
+      "display_form": "rupe",
+      "normalized_form": "rupe",
+      "pos": null
+    }
+  },
+  "expressions": {}
+}

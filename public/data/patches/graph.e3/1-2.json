@@ -1,0 +1,72 @@
+{
+  "pack": "graph.e3",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0079",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Ciascuno dei quattro periodi in cui si divide l'anno secondo il clima.",
+          "example": "L'autunno è la sua stagione preferita."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0105",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Breve interruzione di un'attività per riposarsi o cambiare occupazione.",
+          "example": "Facciamo una pausa di dieci minuti e poi riprendiamo."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0480",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Alimento dolce e scuro ricavato dai semi del cacao, base di dolci e bevande.",
+          "example": "Sciolse un quadretto di cioccolato fondente nel latte."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0714",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Lo scorrere continuo e ordinato di un liquido, un gas o anche di persone e informazioni.",
+          "example": "Un flusso ininterrotto di turisti attraversava la piazza."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0761",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "L'aspetto esteriore di una persona vista da lontano o nell'ombra.",
+          "example": "Nella nebbia si intravedeva una figura ferma sul ponte."
+        }
+      }
+    }
+  ]
+}

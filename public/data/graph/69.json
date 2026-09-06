@@ -1,0 +1,542 @@
+{
+  "shard": "69",
+  "concepts": {
+    "c_0226": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Il primo antenato di una famiglia o di una stirpe.",
+        "example": "Il ritratto del progenitore campeggiava sopra il camino."
+      }
+    },
+    "c_0253": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Scuola di alto livello per lo studio della musica.",
+        "example": "Si è diplomato in violino al conservatorio."
+      }
+    },
+    "c_0392": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Ciò che si percepisce con l'udito, prodotto da un corpo che vibra e fa tremare l'aria.",
+        "example": "Nella valle il suono delle campane arrivava attutito."
+      }
+    },
+    "c_0503": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Composizione musicale per uno o due strumenti, in più movimenti.",
+        "example": "Suonò una sonata per pianoforte a memoria."
+      }
+    },
+    "c_0576": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Strumento con un ago calamitato che indica sempre il nord, usato per orientarsi.",
+        "example": "Senza la bussola si sarebbero persi nella nebbia."
+      }
+    },
+    "c_0680": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "L'atto di liberare o liberarsi da un legame, un obbligo o una dipendenza.",
+        "example": "Chiese lo svincolamento anticipato dal contratto."
+      }
+    },
+    "c_0965": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Ciò che non ha limiti di spazio o di tempo; al figurato, una quantità sterminata.",
+        "example": "Guardando il mare provava un senso di infinito."
+      }
+    },
+    "c_1001": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Stato di completa tranquillità, senza agitazione né rumore.",
+        "example": "Affrontò la notizia con sorprendente calma."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0015",
+      "concept_b": "c_0226",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0016",
+      "concept_b": "c_0226",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0017",
+      "concept_b": "c_0253",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0030",
+      "concept_b": "c_0392",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0038",
+      "concept_b": "c_0392",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0038",
+      "concept_b": "c_0503",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0051",
+      "concept_b": "c_0576",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0109",
+      "concept_b": "c_0680",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0223",
+      "concept_b": "c_0226",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0226",
+      "concept_b": "c_0228",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0226",
+      "concept_b": "c_0235",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0226",
+      "concept_b": "c_0237",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0226",
+      "concept_b": "c_0240",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0226",
+      "concept_b": "c_0744",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0226",
+      "concept_b": "c_0765",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0226",
+      "concept_b": "c_0766",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0226",
+      "concept_b": "c_0767",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0226",
+      "concept_b": "c_0768",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0226",
+      "concept_b": "c_0769",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0226",
+      "concept_b": "c_0770",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0226",
+      "concept_b": "c_0771",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0381",
+      "concept_b": "c_0965",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0392",
+      "concept_b": "c_0496",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0392",
+      "concept_b": "c_0499",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0392",
+      "concept_b": "c_0501",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0392",
+      "concept_b": "c_0508",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0392",
+      "concept_b": "c_0533",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0392",
+      "concept_b": "c_0585",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0392",
+      "concept_b": "c_0990",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0392",
+      "concept_b": "c_0991",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0392",
+      "concept_b": "c_0992",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0392",
+      "concept_b": "c_0993",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0392",
+      "concept_b": "c_0994",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0392",
+      "concept_b": "c_0995",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0392",
+      "concept_b": "c_0996",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0392",
+      "concept_b": "c_0997",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0516",
+      "concept_b": "c_1001",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    }
+  ],
+  "word_senses": {
+    "s_0226": {
+      "lexeme_id": "w_0226",
+      "lexeme_kind": "word",
+      "concept_id": "c_0226",
+      "is_primary": true
+    },
+    "s_0253": {
+      "lexeme_id": "w_0253",
+      "lexeme_kind": "word",
+      "concept_id": "c_0253",
+      "is_primary": true
+    },
+    "s_0392": {
+      "lexeme_id": "w_0392",
+      "lexeme_kind": "word",
+      "concept_id": "c_0392",
+      "is_primary": true
+    },
+    "s_0503": {
+      "lexeme_id": "w_0503",
+      "lexeme_kind": "word",
+      "concept_id": "c_0503",
+      "is_primary": true
+    },
+    "s_0576": {
+      "lexeme_id": "w_0576",
+      "lexeme_kind": "word",
+      "concept_id": "c_0576",
+      "is_primary": true
+    },
+    "s_0680": {
+      "lexeme_id": "w_0680",
+      "lexeme_kind": "word",
+      "concept_id": "c_0680",
+      "is_primary": true
+    },
+    "s_0965": {
+      "lexeme_id": "w_0965",
+      "lexeme_kind": "word",
+      "concept_id": "c_0965",
+      "is_primary": true
+    },
+    "s_1001": {
+      "lexeme_id": "w_1001",
+      "lexeme_kind": "word",
+      "concept_id": "c_1001",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0226": {
+      "display_form": "progenitore",
+      "normalized_form": "progenitore",
+      "pos": null
+    },
+    "w_0253": {
+      "display_form": "conservatorio",
+      "normalized_form": "conservatorio",
+      "pos": null
+    },
+    "w_0392": {
+      "display_form": "suono",
+      "normalized_form": "suono",
+      "pos": null
+    },
+    "w_0503": {
+      "display_form": "sonata",
+      "normalized_form": "sonata",
+      "pos": null
+    },
+    "w_0576": {
+      "display_form": "bussola",
+      "normalized_form": "bussola",
+      "pos": null
+    },
+    "w_0680": {
+      "display_form": "svincolamento",
+      "normalized_form": "svincolamento",
+      "pos": null
+    },
+    "w_0965": {
+      "display_form": "infinito",
+      "normalized_form": "infinito",
+      "pos": null
+    },
+    "w_1001": {
+      "display_form": "calma",
+      "normalized_form": "calma",
+      "pos": null
+    }
+  },
+  "expressions": {}
+}

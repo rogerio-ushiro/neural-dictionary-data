@@ -1,0 +1,292 @@
+{
+  "shard": "ed",
+  "concepts": {
+    "c_0002": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Striscia di sabbia o ghiaia lungo il mare, dove ci si stende al sole e si fa il bagno.",
+        "example": "D'estate la spiaggia si riempie già di mattina."
+      }
+    },
+    "c_0077": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Il corpo celeste che gira attorno alla Terra e di notte ne riflette la luce del sole.",
+        "example": "C'era la luna piena e si camminava senza torcia."
+      }
+    },
+    "c_0785": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Componimento poetico solenne, spesso di argomento sacro o funebre.",
+        "example": "Il poeta compose un carme per la morte dell'amico."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0001",
+      "concept_b": "c_0002",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0002",
+      "concept_b": "c_0003",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0002",
+      "concept_b": "c_0004",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0002",
+      "concept_b": "c_0006",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0002",
+      "concept_b": "c_0042",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0002",
+      "concept_b": "c_0043",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0002",
+      "concept_b": "c_0045",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0002",
+      "concept_b": "c_0048",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0002",
+      "concept_b": "c_0055",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0002",
+      "concept_b": "c_0056",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0002",
+      "concept_b": "c_0057",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0002",
+      "concept_b": "c_0058",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0002",
+      "concept_b": "c_0059",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0002",
+      "concept_b": "c_0060",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0002",
+      "concept_b": "c_0061",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0002",
+      "concept_b": "c_0062",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0002",
+      "concept_b": "c_0063",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0002",
+      "concept_b": "c_0064",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0003",
+      "concept_b": "c_0077",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0077",
+      "concept_b": "c_0381",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0077",
+      "concept_b": "c_0510",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0272",
+      "concept_b": "c_0785",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    }
+  ],
+  "word_senses": {
+    "s_0002": {
+      "lexeme_id": "w_0002",
+      "lexeme_kind": "word",
+      "concept_id": "c_0002",
+      "is_primary": true
+    },
+    "s_0077": {
+      "lexeme_id": "w_0077",
+      "lexeme_kind": "word",
+      "concept_id": "c_0077",
+      "is_primary": true
+    },
+    "s_0785": {
+      "lexeme_id": "w_0785",
+      "lexeme_kind": "word",
+      "concept_id": "c_0785",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0002": {
+      "display_form": "spiaggia",
+      "normalized_form": "spiaggia",
+      "pos": null
+    },
+    "w_0077": {
+      "display_form": "luna",
+      "normalized_form": "luna",
+      "pos": null
+    },
+    "w_0785": {
+      "display_form": "carme",
+      "normalized_form": "carme",
+      "pos": null
+    }
+  },
+  "expressions": {}
+}

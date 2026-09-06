@@ -1,0 +1,322 @@
+{
+  "shard": "25",
+  "concepts": {
+    "c_0327": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "L'essere costante e leale verso una persona, un'idea o un impegno; è virtù proverbiale del cane.",
+        "example": "Lo ha servito per trent'anni con assoluta fedeltà."
+      }
+    },
+    "c_0352": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "L'insieme delle piante che coprono un territorio.",
+        "example": "La vegetazione si fa più rada man mano che si sale."
+      }
+    },
+    "c_0802": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Piccola apertura erbosa in mezzo a un bosco.",
+        "example": "Trovarono una radura soleggiata dove fermarsi a mangiare."
+      }
+    },
+    "c_0877": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Docile e paziente, che non reagisce con violenza.",
+        "example": "È un cane mansueto, adatto ai bambini."
+      }
+    },
+    "c_0918": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Frutto secco dal guscio duro e legnoso, con dentro un seme oleoso.",
+        "example": "A Natale non mancano mai noci e mandarini."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0023",
+      "concept_b": "c_0327",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0026",
+      "concept_b": "c_0352",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0027",
+      "concept_b": "c_0352",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0086",
+      "concept_b": "c_0352",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0297",
+      "concept_b": "c_0352",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0297",
+      "concept_b": "c_0802",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0299",
+      "concept_b": "c_0352",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0302",
+      "concept_b": "c_0352",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0304",
+      "concept_b": "c_0352",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0325",
+      "concept_b": "c_0877",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0339",
+      "concept_b": "c_0352",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0348",
+      "concept_b": "c_0352",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0352",
+      "concept_b": "c_0796",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0352",
+      "concept_b": "c_0798",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0352",
+      "concept_b": "c_0801",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0352",
+      "concept_b": "c_0897",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0352",
+      "concept_b": "c_0909",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0352",
+      "concept_b": "c_0910",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0352",
+      "concept_b": "c_0911",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0352",
+      "concept_b": "c_0912",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0353",
+      "concept_b": "c_0918",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    }
+  ],
+  "word_senses": {
+    "s_0327": {
+      "lexeme_id": "w_0327",
+      "lexeme_kind": "word",
+      "concept_id": "c_0327",
+      "is_primary": true
+    },
+    "s_0352": {
+      "lexeme_id": "w_0352",
+      "lexeme_kind": "word",
+      "concept_id": "c_0352",
+      "is_primary": true
+    },
+    "s_0802": {
+      "lexeme_id": "w_0802",
+      "lexeme_kind": "word",
+      "concept_id": "c_0802",
+      "is_primary": true
+    },
+    "s_0877": {
+      "lexeme_id": "w_0877",
+      "lexeme_kind": "word",
+      "concept_id": "c_0877",
+      "is_primary": true
+    },
+    "s_0918": {
+      "lexeme_id": "w_0918",
+      "lexeme_kind": "word",
+      "concept_id": "c_0918",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0327": {
+      "display_form": "fedeltà",
+      "normalized_form": "fedelta",
+      "pos": null
+    },
+    "w_0352": {
+      "display_form": "vegetazione",
+      "normalized_form": "vegetazione",
+      "pos": null
+    },
+    "w_0802": {
+      "display_form": "radura",
+      "normalized_form": "radura",
+      "pos": null
+    },
+    "w_0877": {
+      "display_form": "mansueto",
+      "normalized_form": "mansueto",
+      "pos": null
+    },
+    "w_0918": {
+      "display_form": "noce",
+      "normalized_form": "noce",
+      "pos": null
+    }
+  },
+  "expressions": {}
+}

@@ -1,0 +1,172 @@
+{
+  "shard": "16",
+  "concepts": {
+    "c_0128": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Veicolo motorizzato che traina i vagoni di un treno lungo i binari.",
+        "example": "La locomotiva a vapore è esposta al museo dei trasporti."
+      }
+    },
+    "c_0450": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Dolce da forno soffice, spesso farcito, servito a fette per le occasioni speciali.",
+        "example": "Ha preparato una torta di mele per il compleanno."
+      }
+    },
+    "c_0623": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Ciascuna delle ventiquattro parti in cui si divide il giorno; anche il momento adatto per qualcosa.",
+        "example": "È arrivata l'ora di andare a dormire."
+      }
+    },
+    "c_0744": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Ceppo da cui discende una famiglia; anche il montante verticale di una porta.",
+        "example": "È lo stipite di una dinastia di artigiani."
+      }
+    },
+    "c_0986": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Lo stato di ciò che è privo di sporco e disordine.",
+        "example": "Apprezzava la pulizia impeccabile della cucina."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0008",
+      "concept_b": "c_0128",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0034",
+      "concept_b": "c_0450",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0074",
+      "concept_b": "c_0623",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0200",
+      "concept_b": "c_0744",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0226",
+      "concept_b": "c_0744",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0390",
+      "concept_b": "c_0986",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    }
+  ],
+  "word_senses": {
+    "s_0128": {
+      "lexeme_id": "w_0128",
+      "lexeme_kind": "word",
+      "concept_id": "c_0128",
+      "is_primary": true
+    },
+    "s_0450": {
+      "lexeme_id": "w_0450",
+      "lexeme_kind": "word",
+      "concept_id": "c_0450",
+      "is_primary": true
+    },
+    "s_0623": {
+      "lexeme_id": "w_0623",
+      "lexeme_kind": "word",
+      "concept_id": "c_0623",
+      "is_primary": true
+    },
+    "s_0744": {
+      "lexeme_id": "w_0744",
+      "lexeme_kind": "word",
+      "concept_id": "c_0744",
+      "is_primary": true
+    },
+    "s_0986": {
+      "lexeme_id": "w_0986",
+      "lexeme_kind": "word",
+      "concept_id": "c_0986",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0128": {
+      "display_form": "locomotiva",
+      "normalized_form": "locomotiva",
+      "pos": null
+    },
+    "w_0450": {
+      "display_form": "torta",
+      "normalized_form": "torta",
+      "pos": null
+    },
+    "w_0623": {
+      "display_form": "ora",
+      "normalized_form": "ora",
+      "pos": null
+    },
+    "w_0744": {
+      "display_form": "stipite",
+      "normalized_form": "stipite",
+      "pos": null
+    },
+    "w_0986": {
+      "display_form": "pulizia",
+      "normalized_form": "pulizia",
+      "pos": null
+    }
+  },
+  "expressions": {}
+}

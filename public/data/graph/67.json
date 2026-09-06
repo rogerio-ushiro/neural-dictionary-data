@@ -1,0 +1,102 @@
+{
+  "shard": "67",
+  "concepts": {
+    "c_0053": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Lo spostarsi nell'acqua muovendo braccia e gambe, per sport o per non annegare.",
+        "example": "Ha imparato il nuoto a cinque anni in piscina."
+      }
+    },
+    "c_0127": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Rete di binari e stazioni su cui viaggiano i treni.",
+        "example": "La nuova ferrovia collega la costa alle città interne."
+      }
+    },
+    "c_0989": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Lo stato di chi non conosce il male o non ha colpe.",
+        "example": "Difese la propria innocenza fino all'ultimo."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0001",
+      "concept_b": "c_0053",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0008",
+      "concept_b": "c_0127",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0390",
+      "concept_b": "c_0989",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    }
+  ],
+  "word_senses": {
+    "s_0053": {
+      "lexeme_id": "w_0053",
+      "lexeme_kind": "word",
+      "concept_id": "c_0053",
+      "is_primary": true
+    },
+    "s_0127": {
+      "lexeme_id": "w_0127",
+      "lexeme_kind": "word",
+      "concept_id": "c_0127",
+      "is_primary": true
+    },
+    "s_0989": {
+      "lexeme_id": "w_0989",
+      "lexeme_kind": "word",
+      "concept_id": "c_0989",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0053": {
+      "display_form": "nuoto",
+      "normalized_form": "nuoto",
+      "pos": null
+    },
+    "w_0127": {
+      "display_form": "ferrovia",
+      "normalized_form": "ferrovia",
+      "pos": null
+    },
+    "w_0989": {
+      "display_form": "innocenza",
+      "normalized_form": "innocenza",
+      "pos": null
+    }
+  },
+  "expressions": {}
+}

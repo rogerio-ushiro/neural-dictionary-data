@@ -1,0 +1,72 @@
+{
+  "pack": "graph.4f",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0219",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Che è nell'età tra l'infanzia e la maturità; anche fresco e appena formato.",
+          "example": "Da giovane ha girato l'Europa in autostop."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0336",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Emettere il verso lamentoso e prolungato tipico del gatto.",
+          "example": "Il gatto miagolava davanti alla porta chiusa."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0549",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "La fascia di terra che costeggia il mare, dove si affacciano porti e stabilimenti balneari; come aggettivo, ciò che riguarda questa zona.",
+          "example": "D'estate il littorale si riempie di ombrelloni."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0866",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Punto in cui due ossa si uniscono e lasciano piegare o ruotare una parte del corpo; in senso figurato, il modo in cui un discorso o un'organizzazione è suddiviso in parti collegate.",
+          "example": "Dopo la corsa sentiva dolore alle articolazioni delle ginocchia."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0888",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Il manto folto e morbido di peli di certi animali, usato anche per capi di abbigliamento.",
+          "example": "La volpe ha una pelliccia rossiccia e spessa."
+        }
+      }
+    }
+  ]
+}

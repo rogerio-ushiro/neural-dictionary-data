@@ -1,0 +1,102 @@
+{
+  "shard": "08",
+  "concepts": {
+    "c_0214": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Bambino che sta per nascere o appena nato.",
+        "example": "Prepararono la cameretta per il nascituro."
+      }
+    },
+    "c_0544": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "La linea che separa due territori; al figurato, il limite di ciò che è lecito.",
+        "example": "Il fiume segna il confine tra le due province."
+      }
+    },
+    "c_0885": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Pelo lungo e ruvido, come quello della coda o della criniera del cavallo.",
+        "example": "Gli archi si tendono con crine di cavallo."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0014",
+      "concept_b": "c_0214",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0043",
+      "concept_b": "c_0544",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0326",
+      "concept_b": "c_0885",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    }
+  ],
+  "word_senses": {
+    "s_0214": {
+      "lexeme_id": "w_0214",
+      "lexeme_kind": "word",
+      "concept_id": "c_0214",
+      "is_primary": true
+    },
+    "s_0544": {
+      "lexeme_id": "w_0544",
+      "lexeme_kind": "word",
+      "concept_id": "c_0544",
+      "is_primary": true
+    },
+    "s_0885": {
+      "lexeme_id": "w_0885",
+      "lexeme_kind": "word",
+      "concept_id": "c_0885",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0214": {
+      "display_form": "nascituro",
+      "normalized_form": "nascituro",
+      "pos": null
+    },
+    "w_0544": {
+      "display_form": "confine",
+      "normalized_form": "confine",
+      "pos": null
+    },
+    "w_0885": {
+      "display_form": "crine",
+      "normalized_form": "crine",
+      "pos": null
+    }
+  },
+  "expressions": {}
+}

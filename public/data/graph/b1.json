@@ -1,0 +1,222 @@
+{
+  "shard": "b1",
+  "concepts": {
+    "c_0165": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Lo stato di sviluppo di un popolo per leggi, arti e costumi; anche l'insieme dei popoli di un'epoca.",
+        "example": "La scrittura segna il passaggio a una civiltà più complessa."
+      }
+    },
+    "c_0239": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Il padre del trisnonno; antenato di cinque generazioni prima.",
+        "example": "Del trisavo restava solo un ritratto sbiadito."
+      }
+    },
+    "c_0569": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Ciascuna delle grandi masse di terra emersa in cui si divide il pianeta.",
+        "example": "Ha visitato quattro continenti in dieci anni."
+      }
+    },
+    "c_0671": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Attività leggera che distoglie la mente da pensieri e fatiche.",
+        "example": "Il giardinaggio è la sua distrazione dopo l'ufficio."
+      }
+    },
+    "c_0734": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Il tragitto che un fiume o una strada seguono nel loro sviluppo; indica anche una serie di lezioni su una materia.",
+        "example": "Il corso del fiume forma un'ampia ansa a valle."
+      }
+    },
+    "c_0958": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Stato di ciò che è teso e sul punto di cedere; tra persone, un clima carico di ostilità trattenuta.",
+        "example": "Durante la riunione si tagliava la tensione con un coltello."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0010",
+      "concept_b": "c_0165",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0016",
+      "concept_b": "c_0239",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0048",
+      "concept_b": "c_0569",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0102",
+      "concept_b": "c_0671",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0104",
+      "concept_b": "c_0671",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0159",
+      "concept_b": "c_0734",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0368",
+      "concept_b": "c_0734",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0374",
+      "concept_b": "c_0734",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0374",
+      "concept_b": "c_0958",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    }
+  ],
+  "word_senses": {
+    "s_0165": {
+      "lexeme_id": "w_0165",
+      "lexeme_kind": "word",
+      "concept_id": "c_0165",
+      "is_primary": true
+    },
+    "s_0239": {
+      "lexeme_id": "w_0239",
+      "lexeme_kind": "word",
+      "concept_id": "c_0239",
+      "is_primary": true
+    },
+    "s_0569": {
+      "lexeme_id": "w_0569",
+      "lexeme_kind": "word",
+      "concept_id": "c_0569",
+      "is_primary": true
+    },
+    "s_0671": {
+      "lexeme_id": "w_0671",
+      "lexeme_kind": "word",
+      "concept_id": "c_0671",
+      "is_primary": true
+    },
+    "s_0734": {
+      "lexeme_id": "w_0734",
+      "lexeme_kind": "word",
+      "concept_id": "c_0734",
+      "is_primary": true
+    },
+    "s_0958": {
+      "lexeme_id": "w_0958",
+      "lexeme_kind": "word",
+      "concept_id": "c_0958",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0165": {
+      "display_form": "civiltà",
+      "normalized_form": "civilta",
+      "pos": null
+    },
+    "w_0239": {
+      "display_form": "trisavo",
+      "normalized_form": "trisavo",
+      "pos": null
+    },
+    "w_0569": {
+      "display_form": "continente",
+      "normalized_form": "continente",
+      "pos": null
+    },
+    "w_0671": {
+      "display_form": "distrazione",
+      "normalized_form": "distrazione",
+      "pos": null
+    },
+    "w_0734": {
+      "display_form": "corso",
+      "normalized_form": "corso",
+      "pos": null
+    },
+    "w_0958": {
+      "display_form": "tensione",
+      "normalized_form": "tensione",
+      "pos": null
+    }
+  },
+  "expressions": {}
+}

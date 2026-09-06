@@ -1,0 +1,33 @@
+{
+  "pack": "graph.17",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0066",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Ciò che rende visibili le cose, emesso dal sole, dal fuoco o da una lampada; al figurato, la comprensione che chiarisce un problema.",
+          "example": "Accese la luce perché era ormai buio."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0790",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Compagno d'armi con cui si è combattuto insieme.",
+          "example": "Ricordava con affetto i commilitoni del battaglione."
+        }
+      }
+    }
+  ]
+}

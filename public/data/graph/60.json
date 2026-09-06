@@ -1,0 +1,252 @@
+{
+  "shard": "60",
+  "concepts": {
+    "c_0232": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Chi ha in cura la conservazione di un bene o di un luogo.",
+        "example": "È il custode del faro da vent'anni."
+      }
+    },
+    "c_0287": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Attività leggera con cui si occupa piacevolmente il tempo libero.",
+        "example": "Le parole crociate sono il suo passatempo del mattino."
+      }
+    },
+    "c_0416": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Rientranza della costa, più piccola di un golfo, dove l'acqua è calma e riparata.",
+        "example": "Ancorarono la barca in una baia tranquilla."
+      }
+    },
+    "c_0562": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Guglia rocciosa isolata e appuntita.",
+        "example": "Gli scalatori raggiunsero la cima del pinnacolo all'alba."
+      }
+    },
+    "c_0690": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Condizione di chi non può essere colpito da una legge, una malattia o un pericolo.",
+        "example": "I diplomatici godono dell'immunità giudiziaria."
+      }
+    },
+    "c_0953": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Ciascuna delle facce o dei punti di vista sotto cui si può considerare una cosa.",
+        "example": "La proposta va valutata sotto l'aspetto economico."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0015",
+      "concept_b": "c_0232",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0020",
+      "concept_b": "c_0287",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0032",
+      "concept_b": "c_0416",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0043",
+      "concept_b": "c_0416",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0044",
+      "concept_b": "c_0416",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0045",
+      "concept_b": "c_0562",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0058",
+      "concept_b": "c_0416",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0102",
+      "concept_b": "c_0287",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0104",
+      "concept_b": "c_0287",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0107",
+      "concept_b": "c_0287",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0109",
+      "concept_b": "c_0690",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0371",
+      "concept_b": "c_0953",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    }
+  ],
+  "word_senses": {
+    "s_0232": {
+      "lexeme_id": "w_0232",
+      "lexeme_kind": "word",
+      "concept_id": "c_0232",
+      "is_primary": true
+    },
+    "s_0287": {
+      "lexeme_id": "w_0287",
+      "lexeme_kind": "word",
+      "concept_id": "c_0287",
+      "is_primary": true
+    },
+    "s_0416": {
+      "lexeme_id": "w_0416",
+      "lexeme_kind": "word",
+      "concept_id": "c_0416",
+      "is_primary": true
+    },
+    "s_0562": {
+      "lexeme_id": "w_0562",
+      "lexeme_kind": "word",
+      "concept_id": "c_0562",
+      "is_primary": true
+    },
+    "s_0690": {
+      "lexeme_id": "w_0690",
+      "lexeme_kind": "word",
+      "concept_id": "c_0690",
+      "is_primary": true
+    },
+    "s_0953": {
+      "lexeme_id": "w_0953",
+      "lexeme_kind": "word",
+      "concept_id": "c_0953",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0232": {
+      "display_form": "custode",
+      "normalized_form": "custode",
+      "pos": null
+    },
+    "w_0287": {
+      "display_form": "passatempo",
+      "normalized_form": "passatempo",
+      "pos": null
+    },
+    "w_0416": {
+      "display_form": "baia",
+      "normalized_form": "baia",
+      "pos": null
+    },
+    "w_0562": {
+      "display_form": "pinnacolo",
+      "normalized_form": "pinnacolo",
+      "pos": null
+    },
+    "w_0690": {
+      "display_form": "immunità",
+      "normalized_form": "immunita",
+      "pos": null
+    },
+    "w_0953": {
+      "display_form": "aspetto",
+      "normalized_form": "aspetto",
+      "pos": null
+    }
+  },
+  "expressions": {}
+}

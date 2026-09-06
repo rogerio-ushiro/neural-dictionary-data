@@ -1,0 +1,172 @@
+{
+  "shard": "82",
+  "concepts": {
+    "c_0292": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Serie di gare tra più concorrenti per assegnare un titolo.",
+        "example": "Ha vinto il torneo di scacchi della scuola."
+      }
+    },
+    "c_0425": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Ciascuno dei piatti che compongono un pasto, servito nel suo turno.",
+        "example": "Come portata principale hanno servito arrosto e patate."
+      }
+    },
+    "c_0641": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Caldo estremo e bruciante, tipico dei deserti e delle ore di punta d'estate.",
+        "example": "Nella torridità di mezzogiorno le strade erano deserte."
+      }
+    },
+    "c_0933": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Getto rapido di gocce lanciate in aria.",
+        "example": "Passò una barca e sollevò uno spruzzo che li bagnò tutti."
+      }
+    },
+    "c_0946": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Elemento o circostanza che contribuisce a produrre un certo risultato.",
+        "example": "Il clima è un fattore decisivo per il raccolto."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0020",
+      "concept_b": "c_0292",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0033",
+      "concept_b": "c_0425",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0080",
+      "concept_b": "c_0641",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0367",
+      "concept_b": "c_0933",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0371",
+      "concept_b": "c_0946",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0374",
+      "concept_b": "c_0425",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    }
+  ],
+  "word_senses": {
+    "s_0292": {
+      "lexeme_id": "w_0292",
+      "lexeme_kind": "word",
+      "concept_id": "c_0292",
+      "is_primary": true
+    },
+    "s_0425": {
+      "lexeme_id": "w_0425",
+      "lexeme_kind": "word",
+      "concept_id": "c_0425",
+      "is_primary": true
+    },
+    "s_0641": {
+      "lexeme_id": "w_0641",
+      "lexeme_kind": "word",
+      "concept_id": "c_0641",
+      "is_primary": true
+    },
+    "s_0933": {
+      "lexeme_id": "w_0933",
+      "lexeme_kind": "word",
+      "concept_id": "c_0933",
+      "is_primary": true
+    },
+    "s_0946": {
+      "lexeme_id": "w_0946",
+      "lexeme_kind": "word",
+      "concept_id": "c_0946",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0292": {
+      "display_form": "torneo",
+      "normalized_form": "torneo",
+      "pos": null
+    },
+    "w_0425": {
+      "display_form": "portata",
+      "normalized_form": "portata",
+      "pos": null
+    },
+    "w_0641": {
+      "display_form": "torridità",
+      "normalized_form": "torridita",
+      "pos": null
+    },
+    "w_0933": {
+      "display_form": "spruzzo",
+      "normalized_form": "spruzzo",
+      "pos": null
+    },
+    "w_0946": {
+      "display_form": "fattore",
+      "normalized_form": "fattore",
+      "pos": null
+    }
+  },
+  "expressions": {}
+}

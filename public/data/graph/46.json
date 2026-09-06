@@ -1,0 +1,312 @@
+{
+  "shard": "46",
+  "concepts": {
+    "c_0322": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Animale che cammina appoggiandosi su quattro arti, come il cavallo o il cane.",
+        "example": "Nella stalla c'erano diversi quadrupedi da lavoro."
+      }
+    },
+    "c_0357": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Odore gradevole, come quello dei fiori.",
+        "example": "Nell'aria si spandeva il profumo dei tigli."
+      }
+    },
+    "c_0807": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Ampia superficie piatta e uniforme.",
+        "example": "Davanti a loro si apriva una distesa di sabbia bianca."
+      }
+    },
+    "c_0872": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Reso mansueto e abituato a vivere accanto all'uomo, detto di un animale.",
+        "example": "Il gatto selvatico non si lascia addomesticare facilmente."
+      }
+    },
+    "c_0898": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Fusto sottile ed erbaceo che regge il fiore o la foglia.",
+        "example": "Il gambo del girasole era spesso come un polso."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0023",
+      "concept_b": "c_0322",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0024",
+      "concept_b": "c_0322",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0027",
+      "concept_b": "c_0357",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0118",
+      "concept_b": "c_0322",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0298",
+      "concept_b": "c_0807",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0319",
+      "concept_b": "c_0322",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0320",
+      "concept_b": "c_0322",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0321",
+      "concept_b": "c_0322",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0322",
+      "concept_b": "c_0324",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0322",
+      "concept_b": "c_0334",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0322",
+      "concept_b": "c_0838",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0322",
+      "concept_b": "c_0856",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0322",
+      "concept_b": "c_0857",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0322",
+      "concept_b": "c_0858",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0322",
+      "concept_b": "c_0859",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0322",
+      "concept_b": "c_0860",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0322",
+      "concept_b": "c_0861",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0322",
+      "concept_b": "c_0862",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0325",
+      "concept_b": "c_0872",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0339",
+      "concept_b": "c_0898",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    }
+  ],
+  "word_senses": {
+    "s_0322": {
+      "lexeme_id": "w_0322",
+      "lexeme_kind": "word",
+      "concept_id": "c_0322",
+      "is_primary": true
+    },
+    "s_0357": {
+      "lexeme_id": "w_0357",
+      "lexeme_kind": "word",
+      "concept_id": "c_0357",
+      "is_primary": true
+    },
+    "s_0807": {
+      "lexeme_id": "w_0807",
+      "lexeme_kind": "word",
+      "concept_id": "c_0807",
+      "is_primary": true
+    },
+    "s_0872": {
+      "lexeme_id": "w_0872",
+      "lexeme_kind": "word",
+      "concept_id": "c_0872",
+      "is_primary": true
+    },
+    "s_0898": {
+      "lexeme_id": "w_0898",
+      "lexeme_kind": "word",
+      "concept_id": "c_0898",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0322": {
+      "display_form": "quadrupede",
+      "normalized_form": "quadrupede",
+      "pos": null
+    },
+    "w_0357": {
+      "display_form": "profumo",
+      "normalized_form": "profumo",
+      "pos": null
+    },
+    "w_0807": {
+      "display_form": "distesa",
+      "normalized_form": "distesa",
+      "pos": null
+    },
+    "w_0872": {
+      "display_form": "addomesticato",
+      "normalized_form": "addomesticato",
+      "pos": null
+    },
+    "w_0898": {
+      "display_form": "gambo",
+      "normalized_form": "gambo",
+      "pos": null
+    }
+  },
+  "expressions": {}
+}

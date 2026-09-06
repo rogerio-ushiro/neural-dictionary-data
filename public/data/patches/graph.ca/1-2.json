@@ -1,0 +1,59 @@
+{
+  "pack": "graph.ca",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0201",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Stirpe, razza (spesso con tono spregiativo).",
+          "example": "Non voleva aver niente a che fare con quella genia di imbroglioni."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0308",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Antico veicolo a pedali, antenato della bicicletta.",
+          "example": "Al museo è esposto un velocipede con la ruota anteriore enorme."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0551",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Sporgenza della costa che si protende nel mare.",
+          "example": "Il faro sorge sulla punta del promontorio."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0858",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "La parte finale di un arto o di un oggetto allungato, il punto più lontano dal centro.",
+          "example": "Ha battuto l'estremità del dito contro lo spigolo."
+        }
+      }
+    }
+  ]
+}

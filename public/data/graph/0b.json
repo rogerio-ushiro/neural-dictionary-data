@@ -1,0 +1,82 @@
+{
+  "shard": "0b",
+  "concepts": {
+    "c_0365": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Eleganza spontanea nei movimenti e nei modi, che rende piacevole chi la possiede.",
+        "example": "Si muoveva sul palco con grande grazia."
+      }
+    },
+    "c_0835": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Che ha l'aspetto o la natura dell'erba, dal fusto tenero.",
+        "example": "Le piante erbacee muoiono col primo gelo."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0027",
+      "concept_b": "c_0365",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0304",
+      "concept_b": "c_0835",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0365",
+      "concept_b": "c_0387",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    }
+  ],
+  "word_senses": {
+    "s_0365": {
+      "lexeme_id": "w_0365",
+      "lexeme_kind": "word",
+      "concept_id": "c_0365",
+      "is_primary": true
+    },
+    "s_0835": {
+      "lexeme_id": "w_0835",
+      "lexeme_kind": "word",
+      "concept_id": "c_0835",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0365": {
+      "display_form": "grazia",
+      "normalized_form": "grazia",
+      "pos": null
+    },
+    "w_0835": {
+      "display_form": "erbacea",
+      "normalized_form": "erbacea",
+      "pos": null
+    }
+  },
+  "expressions": {}
+}

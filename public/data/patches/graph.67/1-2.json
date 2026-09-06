@@ -1,0 +1,46 @@
+{
+  "pack": "graph.67",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0053",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Lo spostarsi nell'acqua muovendo braccia e gambe, per sport o per non annegare.",
+          "example": "Ha imparato il nuoto a cinque anni in piscina."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0127",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Rete di binari e stazioni su cui viaggiano i treni.",
+          "example": "La nuova ferrovia collega la costa alle città interne."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0989",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Lo stato di chi non conosce il male o non ha colpe.",
+          "example": "Difese la propria innocenza fino all'ultimo."
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,172 @@
+{
+  "shard": "0a",
+  "concepts": {
+    "c_0191": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Ciascuno degli ambienti chiusi in cui è divisa una casa.",
+        "example": "La stanza dei bambini dà sul cortile."
+      }
+    },
+    "c_0472": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Dolce che chiude il pasto, spesso freddo o al cucchiaio.",
+        "example": "Come dessert hanno servito una panna cotta."
+      }
+    },
+    "c_0586": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Massa di vapore acqueo sospesa in cielo, che porta ombra e a volte pioggia.",
+        "example": "Una nube nera avanzava minacciosa da ovest."
+      }
+    },
+    "c_0605": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Sentimento fortissimo che travolge la ragione, in amore o in un'attività.",
+        "example": "Mette in ogni partita una passione contagiosa."
+      }
+    },
+    "c_0977": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Severità di modi e di vita, priva di ogni comodità o indulgenza.",
+        "example": "Viveva con un'austerità quasi monastica."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0012",
+      "concept_b": "c_0191",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0036",
+      "concept_b": "c_0472",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0052",
+      "concept_b": "c_0586",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0065",
+      "concept_b": "c_0605",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0381",
+      "concept_b": "c_0586",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0382",
+      "concept_b": "c_0977",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    }
+  ],
+  "word_senses": {
+    "s_0191": {
+      "lexeme_id": "w_0191",
+      "lexeme_kind": "word",
+      "concept_id": "c_0191",
+      "is_primary": true
+    },
+    "s_0472": {
+      "lexeme_id": "w_0472",
+      "lexeme_kind": "word",
+      "concept_id": "c_0472",
+      "is_primary": true
+    },
+    "s_0586": {
+      "lexeme_id": "w_0586",
+      "lexeme_kind": "word",
+      "concept_id": "c_0586",
+      "is_primary": true
+    },
+    "s_0605": {
+      "lexeme_id": "w_0605",
+      "lexeme_kind": "word",
+      "concept_id": "c_0605",
+      "is_primary": true
+    },
+    "s_0977": {
+      "lexeme_id": "w_0977",
+      "lexeme_kind": "word",
+      "concept_id": "c_0977",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0191": {
+      "display_form": "stanza",
+      "normalized_form": "stanza",
+      "pos": null
+    },
+    "w_0472": {
+      "display_form": "dessert",
+      "normalized_form": "dessert",
+      "pos": null
+    },
+    "w_0586": {
+      "display_form": "nube",
+      "normalized_form": "nube",
+      "pos": null
+    },
+    "w_0605": {
+      "display_form": "passione",
+      "normalized_form": "passione",
+      "pos": null
+    },
+    "w_0977": {
+      "display_form": "austerità",
+      "normalized_form": "austerita",
+      "pos": null
+    }
+  },
+  "expressions": {}
+}

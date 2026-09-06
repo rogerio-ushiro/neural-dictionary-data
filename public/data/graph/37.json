@@ -1,0 +1,122 @@
+{
+  "shard": "37",
+  "concepts": {
+    "c_0202": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Stirpe, discendenza di una famiglia (spesso con valore spregiativo).",
+        "example": "Veniva da una schiatta di prepotenti, dicevano in paese."
+      }
+    },
+    "c_0552": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Spazio vuoto all'interno di un corpo o del terreno.",
+        "example": "Il torrente ha scavato una cavità nella parete."
+      }
+    },
+    "c_1021": {
+      "revision": 2,
+      "region_id": "r_natura",
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Piccolo animale marino che vive in colonie e forma scogliere ramificate.",
+        "example": "Nuotando sopra la barriera vedeva il corallo rosa e giallo."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0013",
+      "concept_b": "c_0202",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0044",
+      "concept_b": "c_0552",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0200",
+      "concept_b": "c_0202",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0202",
+      "concept_b": "c_0203",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0050",
+      "concept_b": "c_1021",
+      "relation_type": "contenuto",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 0.85,
+      "status": "validated",
+      "revision": 2
+    }
+  ],
+  "word_senses": {
+    "s_0202": {
+      "lexeme_id": "w_0202",
+      "lexeme_kind": "word",
+      "concept_id": "c_0202",
+      "is_primary": true
+    },
+    "s_0552": {
+      "lexeme_id": "w_0552",
+      "lexeme_kind": "word",
+      "concept_id": "c_0552",
+      "is_primary": true
+    },
+    "s_1021": {
+      "lexeme_id": "w_1021",
+      "lexeme_kind": "word",
+      "concept_id": "c_1021",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0202": {
+      "display_form": "schiatta",
+      "normalized_form": "schiatta",
+      "pos": null
+    },
+    "w_0552": {
+      "display_form": "cavità",
+      "normalized_form": "cavita",
+      "pos": null
+    },
+    "w_1021": {
+      "display_form": "corallo",
+      "normalized_form": "corallo",
+      "pos": "sostantivo"
+    }
+  },
+  "expressions": {}
+}

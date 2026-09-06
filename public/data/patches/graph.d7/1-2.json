@@ -1,0 +1,46 @@
+{
+  "pack": "graph.d7",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0163",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Il progressivo estendersi delle città sul territorio.",
+          "example": "L'urbanizzazione ha consumato molti terreni agricoli."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0677",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Passatempo che distrae dalle occupazioni serie.",
+          "example": "Il teatro era la sua unica diversione settimanale."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0732",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Strada principale a scorrimento veloce che collega le parti di una città; nel corpo, il vaso che porta il sangue dal cuore.",
+          "example": "L'arteria di scorrimento era bloccata dal traffico."
+        }
+      }
+    }
+  ]
+}

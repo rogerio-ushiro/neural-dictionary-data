@@ -1,0 +1,492 @@
+{
+  "shard": "43",
+  "concepts": {
+    "c_0224": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Il genitore di sesso femminile.",
+        "example": "La madre gli scriveva una lettera ogni settimana."
+      }
+    },
+    "c_0251": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Istituto in cui un tempo le fanciulle venivano educate in convitto.",
+        "example": "Sua nonna era stata cresciuta in un educandato."
+      }
+    },
+    "c_0390": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Sensazione gradevole di aria pulita e leggermente fredda; riferito a idee o persone, il pregio di essere nuovi e non sciupati dall'abitudine.",
+        "example": "La freschezza della sera invitava a passeggiare."
+      }
+    },
+    "c_0408": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Terrapieno ripido ai lati di una strada o di una ferrovia.",
+        "example": "L'auto è finita giù per la scarpata senza gravi conseguenze."
+      }
+    },
+    "c_0501": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Ciascuno dei suoni di altezza definita con cui si scrive e si esegue la musica.",
+        "example": "Ha sbagliato una nota nell'ultimo passaggio."
+      }
+    },
+    "c_0574": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Il tragitto studiato in anticipo, con le tappe da toccare durante un viaggio.",
+        "example": "Segnò sulla mappa l'itinerario del giro in bici."
+      }
+    },
+    "c_0619": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Il tempo per cui una cosa dura o si protrae.",
+        "example": "La durata del film è di due ore."
+      }
+    },
+    "c_0682": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Il potere supremo di uno Stato di governarsi senza sottostare ad altri.",
+        "example": "La sovranità appartiene al popolo."
+      }
+    },
+    "c_0967": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Acqua diventata solida per il freddo; al figurato, un atteggiamento rigido e ostile.",
+        "example": "Mise qualche cubetto di ghiaccio nel bicchiere."
+      }
+    },
+    "c_1003": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Assenza totale di movimento.",
+        "example": "Restò in perfetta immobilità finché il cervo non si allontanò."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0015",
+      "concept_b": "c_0224",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0017",
+      "concept_b": "c_0251",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0030",
+      "concept_b": "c_0390",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0031",
+      "concept_b": "c_0408",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0038",
+      "concept_b": "c_0501",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0040",
+      "concept_b": "c_0390",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0051",
+      "concept_b": "c_0574",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0072",
+      "concept_b": "c_0390",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0073",
+      "concept_b": "c_0619",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0074",
+      "concept_b": "c_0390",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0109",
+      "concept_b": "c_0682",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0159",
+      "concept_b": "c_0574",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0358",
+      "concept_b": "c_0390",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0382",
+      "concept_b": "c_0390",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0382",
+      "concept_b": "c_0967",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0390",
+      "concept_b": "c_0471",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0390",
+      "concept_b": "c_0967",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0390",
+      "concept_b": "c_0981",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0390",
+      "concept_b": "c_0982",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0390",
+      "concept_b": "c_0983",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0390",
+      "concept_b": "c_0984",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0390",
+      "concept_b": "c_0985",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0390",
+      "concept_b": "c_0986",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0390",
+      "concept_b": "c_0987",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0390",
+      "concept_b": "c_0988",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0390",
+      "concept_b": "c_0989",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0392",
+      "concept_b": "c_0501",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0516",
+      "concept_b": "c_1003",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    }
+  ],
+  "word_senses": {
+    "s_0224": {
+      "lexeme_id": "w_0224",
+      "lexeme_kind": "word",
+      "concept_id": "c_0224",
+      "is_primary": true
+    },
+    "s_0251": {
+      "lexeme_id": "w_0251",
+      "lexeme_kind": "word",
+      "concept_id": "c_0251",
+      "is_primary": true
+    },
+    "s_0390": {
+      "lexeme_id": "w_0390",
+      "lexeme_kind": "word",
+      "concept_id": "c_0390",
+      "is_primary": true
+    },
+    "s_0408": {
+      "lexeme_id": "w_0408",
+      "lexeme_kind": "word",
+      "concept_id": "c_0408",
+      "is_primary": true
+    },
+    "s_0501": {
+      "lexeme_id": "w_0501",
+      "lexeme_kind": "word",
+      "concept_id": "c_0501",
+      "is_primary": true
+    },
+    "s_0574": {
+      "lexeme_id": "w_0574",
+      "lexeme_kind": "word",
+      "concept_id": "c_0574",
+      "is_primary": true
+    },
+    "s_0619": {
+      "lexeme_id": "w_0619",
+      "lexeme_kind": "word",
+      "concept_id": "c_0619",
+      "is_primary": true
+    },
+    "s_0682": {
+      "lexeme_id": "w_0682",
+      "lexeme_kind": "word",
+      "concept_id": "c_0682",
+      "is_primary": true
+    },
+    "s_0967": {
+      "lexeme_id": "w_0967",
+      "lexeme_kind": "word",
+      "concept_id": "c_0967",
+      "is_primary": true
+    },
+    "s_1003": {
+      "lexeme_id": "w_1003",
+      "lexeme_kind": "word",
+      "concept_id": "c_1003",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0224": {
+      "display_form": "madre",
+      "normalized_form": "madre",
+      "pos": null
+    },
+    "w_0251": {
+      "display_form": "educandato",
+      "normalized_form": "educandato",
+      "pos": null
+    },
+    "w_0390": {
+      "display_form": "freschezza",
+      "normalized_form": "freschezza",
+      "pos": null
+    },
+    "w_0408": {
+      "display_form": "scarpata",
+      "normalized_form": "scarpata",
+      "pos": null
+    },
+    "w_0501": {
+      "display_form": "nota",
+      "normalized_form": "nota",
+      "pos": null
+    },
+    "w_0574": {
+      "display_form": "itinerario",
+      "normalized_form": "itinerario",
+      "pos": null
+    },
+    "w_0619": {
+      "display_form": "durata",
+      "normalized_form": "durata",
+      "pos": null
+    },
+    "w_0682": {
+      "display_form": "sovranità",
+      "normalized_form": "sovranita",
+      "pos": null
+    },
+    "w_0967": {
+      "display_form": "ghiaccio",
+      "normalized_form": "ghiaccio",
+      "pos": null
+    },
+    "w_1003": {
+      "display_form": "immobilità",
+      "normalized_form": "immobilita",
+      "pos": null
+    }
+  },
+  "expressions": {}
+}

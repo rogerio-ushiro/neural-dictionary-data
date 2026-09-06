@@ -1,0 +1,72 @@
+{
+  "shard": "58",
+  "concepts": {
+    "c_0207": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Il gruppo ristretto di parenti e amici intimi.",
+        "example": "Nella sua cerchia si conoscono da sempre."
+      }
+    },
+    "c_0557": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Precipizio stretto e profondo tra le rocce.",
+        "example": "Un ponte di corda attraversava il burrone."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0013",
+      "concept_b": "c_0207",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0045",
+      "concept_b": "c_0557",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    }
+  ],
+  "word_senses": {
+    "s_0207": {
+      "lexeme_id": "w_0207",
+      "lexeme_kind": "word",
+      "concept_id": "c_0207",
+      "is_primary": true
+    },
+    "s_0557": {
+      "lexeme_id": "w_0557",
+      "lexeme_kind": "word",
+      "concept_id": "c_0557",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0207": {
+      "display_form": "cerchia",
+      "normalized_form": "cerchia",
+      "pos": null
+    },
+    "w_0557": {
+      "display_form": "burrone",
+      "normalized_form": "burrone",
+      "pos": null
+    }
+  },
+  "expressions": {}
+}

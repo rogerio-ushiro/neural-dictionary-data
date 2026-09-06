@@ -1,0 +1,33 @@
+{
+  "pack": "graph.ea",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0362",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Ciò che l'occhio percepisce quando la luce si riflette sulle cose, come il rosso o il verde.",
+          "example": "Ha ridipinto la stanza di un colore più chiaro."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0832",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Sentiero di montagna percorribile solo a piedi o con i muli.",
+          "example": "Portarono i rifornimenti su per la mulattiera."
+        }
+      }
+    }
+  ]
+}

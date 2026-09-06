@@ -1,0 +1,142 @@
+{
+  "shard": "f8",
+  "concepts": {
+    "c_0166": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Locale o edificio dove si svolge un lavoro d'amministrazione; anche la carica che si ricopre.",
+        "example": "Esce dall'ufficio verso le sei."
+      }
+    },
+    "c_0672": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Il sottrarsi, anche solo con la mente, agli obblighi e alla routine.",
+        "example": "Per lui il cinema è una forma di evasione."
+      }
+    },
+    "c_0698": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Musica o parte strumentale che sostiene un canto o una scena.",
+        "example": "Cantò la canzone con l'accompagnamento della chitarra."
+      }
+    },
+    "c_0737": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "L'ente che amministra un territorio e i suoi abitanti; il più piccolo dello Stato.",
+        "example": "Il comune ha stanziato i fondi per la nuova scuola."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0010",
+      "concept_b": "c_0166",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0102",
+      "concept_b": "c_0672",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0107",
+      "concept_b": "c_0672",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0113",
+      "concept_b": "c_0698",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0164",
+      "concept_b": "c_0737",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    }
+  ],
+  "word_senses": {
+    "s_0166": {
+      "lexeme_id": "w_0166",
+      "lexeme_kind": "word",
+      "concept_id": "c_0166",
+      "is_primary": true
+    },
+    "s_0672": {
+      "lexeme_id": "w_0672",
+      "lexeme_kind": "word",
+      "concept_id": "c_0672",
+      "is_primary": true
+    },
+    "s_0698": {
+      "lexeme_id": "w_0698",
+      "lexeme_kind": "word",
+      "concept_id": "c_0698",
+      "is_primary": true
+    },
+    "s_0737": {
+      "lexeme_id": "w_0737",
+      "lexeme_kind": "word",
+      "concept_id": "c_0737",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0166": {
+      "display_form": "ufficio",
+      "normalized_form": "ufficio",
+      "pos": null
+    },
+    "w_0672": {
+      "display_form": "evasione",
+      "normalized_form": "evasione",
+      "pos": null
+    },
+    "w_0698": {
+      "display_form": "accompagnamento",
+      "normalized_form": "accompagnamento",
+      "pos": null
+    },
+    "w_0737": {
+      "display_form": "comune",
+      "normalized_form": "comune",
+      "pos": null
+    }
+  },
+  "expressions": {}
+}

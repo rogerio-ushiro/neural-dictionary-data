@@ -1,0 +1,46 @@
+{
+  "pack": "graph.3a",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0029",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Caduta di gocce d'acqua dalle nuvole; al figurato, qualcosa che arriva in grande quantità e senza sosta (una pioggia di critiche).",
+          "example": "La pioggia batteva forte sui vetri."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0371",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Ciascuna delle parti di base che, unite ad altre, compongono un tutto; nell'antichità, una delle sostanze fondamentali come acqua e fuoco.",
+          "example": "La fiducia è un elemento essenziale in ogni squadra."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0821",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "L'insieme dei tratti che determinano il modo di essere e di agire di una persona.",
+          "example": "Ha un carattere forte ma leale."
+        }
+      }
+    }
+  ]
+}

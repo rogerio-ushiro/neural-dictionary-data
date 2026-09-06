@@ -1,0 +1,59 @@
+{
+  "pack": "graph.fe",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0137",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Beni trasportati da un mezzo per essere consegnati altrove.",
+          "example": "Il treno merci passa di notte per non intralciare i passeggeri."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0142",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Contenitore di pelle o stoffa con manici, usato per portare oggetti a mano; anche il luogo dove si scambiano titoli e azioni.",
+          "example": "Ha infilato la spesa in una borsa di tela."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0753",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Essere che ha vita, che nasce, si nutre e muore.",
+          "example": "Ogni essere vivente ha bisogno di acqua."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0928",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Piccola goccia che cade lentamente, una alla volta.",
+          "example": "Dal rubinetto chiuso male cadeva una stilla ogni tanto."
+        }
+      }
+    }
+  ]
+}

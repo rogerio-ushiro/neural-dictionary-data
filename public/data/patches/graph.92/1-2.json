@@ -1,0 +1,72 @@
+{
+  "pack": "graph.92",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0326",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Insieme dei sottili filamenti che coprono la pelle di molti animali e proteggono dal freddo.",
+          "example": "Il gatto perde il pelo in primavera."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0353",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Prodotto della pianta che contiene i semi e di solito si mangia; al figurato, il risultato di uno sforzo.",
+          "example": "Ha colto un frutto maturo direttamente dal ramo."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0803",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Terreno erboso dove il bestiame va a brucare.",
+          "example": "Le mucche salgono al pascolo alto in giugno."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0876",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Che sta o si svolge dentro un edificio o un confine.",
+          "example": "Passarono il pomeriggio in un cortile interno al riparo dal vento."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0919",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Il guadagno che si trae da un'attività o da una vendita.",
+          "example": "Il ricavo della lotteria andrà in beneficenza."
+        }
+      }
+    }
+  ]
+}

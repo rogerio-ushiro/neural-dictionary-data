@@ -1,0 +1,33 @@
+{
+  "pack": "graph.0b",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0365",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Eleganza spontanea nei movimenti e nei modi, che rende piacevole chi la possiede.",
+          "example": "Si muoveva sul palco con grande grazia."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0835",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Che ha l'aspetto o la natura dell'erba, dal fusto tenero.",
+          "example": "Le piante erbacee muoiono col primo gelo."
+        }
+      }
+    }
+  ]
+}

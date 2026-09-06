@@ -1,0 +1,59 @@
+{
+  "pack": "graph.26",
+  "from": 3,
+  "to": 4,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0241",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Il fratello del nonno o della nonna.",
+          "example": "Il prozio emigrato in America mandava lettere a Natale."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0511",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Il farsi buio dopo il tramonto.",
+          "example": "All'imbrunire accesero le lanterne sul portico."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0609",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "La possibilità di vedere lontano e distinguere le cose, che dipende dalla luce e dall'aria; in senso figurato, l'essere notato e conosciuto dal pubblico.",
+          "example": "Con la nebbia la visibilità era ridotta a pochi metri."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_1017",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Di dimensioni ridotte rispetto al normale.",
+          "example": "Hanno una barca piccola, buona solo per il lago."
+        }
+      }
+    }
+  ]
+}

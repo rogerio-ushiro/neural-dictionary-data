@@ -1,0 +1,46 @@
+{
+  "pack": "graph.5a",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0003",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "La stella attorno a cui gira la Terra, che dà luce e calore e regola il giorno e le stagioni.",
+          "example": "Il sole tramonta dietro le colline verso le otto."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0076",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Processo con cui le piante, alla luce del sole, producono nutrimento e ossigeno.",
+          "example": "Senza luce la fotosintesi si arresta e la pianta ingiallisce."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0784",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "L'atto di raccontare per esteso una vicenda; anche il testo che ne risulta.",
+          "example": "La narrazione dei fatti occupava tre pagine."
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "shard": "fa",
+  "concepts": {
+    "c_0050": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Voragine profondissima, di solito in mare, di cui non si vede il fondo; al figurato, una condizione di rovina senza scampo.",
+        "example": "Gli studiosi calarono le sonde nell'abisso oceanico."
+      }
+    },
+    "c_0124": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Ciascuna delle soste di un viaggio, e il tratto percorso tra una sosta e l'altra.",
+        "example": "La seconda tappa del giro si conclude in salita."
+      }
+    },
+    "c_0748": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Successione di sovrani o di membri di una stessa famiglia al potere.",
+        "example": "La dinastia regnò per oltre due secoli."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0001",
+      "concept_b": "c_0050",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0007",
+      "concept_b": "c_0124",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0200",
+      "concept_b": "c_0748",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0203",
+      "concept_b": "c_0748",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0050",
+      "concept_b": "c_1019",
+      "relation_type": "proprietà",
+      "direction_hint": "symmetric",
+      "association_strength": 0.85,
+      "confidence": 0.9,
+      "status": "validated",
+      "revision": 2
+    },
+    {
+      "concept_a": "c_0050",
+      "concept_b": "c_0078",
+      "relation_type": "proprietà",
+      "direction_hint": "symmetric",
+      "association_strength": 0.7,
+      "confidence": 0.85,
+      "status": "validated",
+      "revision": 2
+    },
+    {
+      "concept_a": "c_0050",
+      "concept_b": "c_1020",
+      "relation_type": "contenuto",
+      "direction_hint": "symmetric",
+      "association_strength": 0.6,
+      "confidence": 0.8,
+      "status": "validated",
+      "revision": 2
+    },
+    {
+      "concept_a": "c_0050",
+      "concept_b": "c_1021",
+      "relation_type": "contenuto",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 0.85,
+      "status": "validated",
+      "revision": 2
+    },
+    {
+      "concept_a": "c_0001",
+      "concept_b": "c_0050",
+      "relation_type": "categoria",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 0.95,
+      "status": "validated",
+      "revision": 2
+    }
+  ],
+  "word_senses": {
+    "s_0050": {
+      "lexeme_id": "w_0050",
+      "lexeme_kind": "word",
+      "concept_id": "c_0050",
+      "is_primary": true
+    },
+    "s_0124": {
+      "lexeme_id": "w_0124",
+      "lexeme_kind": "word",
+      "concept_id": "c_0124",
+      "is_primary": true
+    },
+    "s_0748": {
+      "lexeme_id": "w_0748",
+      "lexeme_kind": "word",
+      "concept_id": "c_0748",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0050": {
+      "display_form": "abisso",
+      "normalized_form": "abisso",
+      "pos": null
+    },
+    "w_0124": {
+      "display_form": "tappa",
+      "normalized_form": "tappa",
+      "pos": null
+    },
+    "w_0748": {
+      "display_form": "dinastia",
+      "normalized_form": "dinastia",
+      "pos": null
+    }
+  },
+  "expressions": {}
+}

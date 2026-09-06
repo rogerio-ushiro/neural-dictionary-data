@@ -1,0 +1,46 @@
+{
+  "pack": "graph.f2",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0083",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Il sesto mese dell'anno, quando comincia l'estate.",
+          "example": "A giugno finisce la scuola e cominciano gli esami."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0177",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Ampia parte di un territorio con caratteristiche proprie, spesso con un'amministrazione autonoma.",
+          "example": "In quella regione si parla ancora un dialetto antico."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0704",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "L'essere in movimento anziché fermo; in fisica, il cambiamento di posizione di un corpo nel tempo.",
+          "example": "Il treno si mise lentamente in moto."
+        }
+      }
+    }
+  ]
+}

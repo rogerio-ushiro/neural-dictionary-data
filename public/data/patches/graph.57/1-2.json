@@ -1,0 +1,46 @@
+{
+  "pack": "graph.57",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0039",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "La parte del giorno tra il pomeriggio e la notte, quando la luce cala.",
+          "example": "Di sera si siedono in cortile a chiacchierare."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0361",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Che manda un buon odore.",
+          "example": "L'armadio era pieno di lavanda profumata."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0831",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Impronta lasciata dal piede di una persona o di un animale.",
+          "example": "Seguirono le orme sulla neve fino alla tana."
+        }
+      }
+    }
+  ]
+}

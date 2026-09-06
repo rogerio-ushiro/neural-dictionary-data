@@ -1,0 +1,82 @@
+{
+  "shard": "7e",
+  "concepts": {
+    "c_0205": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Gruppo di famiglie che si riconoscono in un capostipite comune.",
+        "example": "I due clan si contendevano il controllo della valle."
+      }
+    },
+    "c_0555": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Parete di roccia a picco sul mare, spesso di gesso o calcare chiaro.",
+        "example": "Le falesie bianche si vedevano dalla nave a miglia di distanza."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0013",
+      "concept_b": "c_0205",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0045",
+      "concept_b": "c_0555",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0203",
+      "concept_b": "c_0205",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    }
+  ],
+  "word_senses": {
+    "s_0205": {
+      "lexeme_id": "w_0205",
+      "lexeme_kind": "word",
+      "concept_id": "c_0205",
+      "is_primary": true
+    },
+    "s_0555": {
+      "lexeme_id": "w_0555",
+      "lexeme_kind": "word",
+      "concept_id": "c_0555",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0205": {
+      "display_form": "clan",
+      "normalized_form": "clan",
+      "pos": null
+    },
+    "w_0555": {
+      "display_form": "falesia",
+      "normalized_form": "falesia",
+      "pos": null
+    }
+  },
+  "expressions": {}
+}

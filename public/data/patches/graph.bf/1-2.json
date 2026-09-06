@@ -1,0 +1,46 @@
+{
+  "pack": "graph.bf",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0031",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Grande rilievo del terreno che si alza ripido molto al di sopra della pianura.",
+          "example": "In inverno la montagna è coperta di neve fino a valle."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0369",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Proprietà di ciò che scorre facilmente; al figurato, la scioltezza di un discorso o di un movimento.",
+          "example": "Colpiva la fluidità dei suoi gesti mentre danzava."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0839",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Animale con ali e penne, becco e due zampe, che di solito vola e depone uova.",
+          "example": "Un uccello si posò sul davanzale a beccare le briciole."
+        }
+      }
+    }
+  ]
+}

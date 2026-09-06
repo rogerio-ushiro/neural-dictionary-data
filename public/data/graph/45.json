@@ -1,0 +1,162 @@
+{
+  "shard": "45",
+  "concepts": {
+    "c_0437": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Polvere che si ottiene macinando il grano o altri cereali, base per pane, pasta e dolci.",
+        "example": "Ha infarinato il piano di lavoro prima di stendere l'impasto."
+      }
+    },
+    "c_0442": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "La parte interna e morbida del pane, sotto la crosta.",
+        "example": "Ai bambini piace solo la mollica, non la crosta."
+      }
+    },
+    "c_0653": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Vasta regione arida dove non piove quasi mai e cresce pochissima vegetazione.",
+        "example": "Attraversarono il deserto viaggiando solo di notte."
+      }
+    },
+    "c_0925": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Immagine di un defunto che si crede appaia ai vivi; anche una presenza vaga e inquietante.",
+        "example": "Nella casa abbandonata si aggirava, dicevano, un fantasma."
+      }
+    },
+    "c_0990": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Suono confuso, forte e sgradevole, prodotto da cose che urtano o vibrano.",
+        "example": "Il rumore dei lavori in strada non lasciava dormire."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0034",
+      "concept_b": "c_0437",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0034",
+      "concept_b": "c_0442",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0084",
+      "concept_b": "c_0653",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0354",
+      "concept_b": "c_0925",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0392",
+      "concept_b": "c_0990",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    }
+  ],
+  "word_senses": {
+    "s_0437": {
+      "lexeme_id": "w_0437",
+      "lexeme_kind": "word",
+      "concept_id": "c_0437",
+      "is_primary": true
+    },
+    "s_0442": {
+      "lexeme_id": "w_0442",
+      "lexeme_kind": "word",
+      "concept_id": "c_0442",
+      "is_primary": true
+    },
+    "s_0653": {
+      "lexeme_id": "w_0653",
+      "lexeme_kind": "word",
+      "concept_id": "c_0653",
+      "is_primary": true
+    },
+    "s_0925": {
+      "lexeme_id": "w_0925",
+      "lexeme_kind": "word",
+      "concept_id": "c_0925",
+      "is_primary": true
+    },
+    "s_0990": {
+      "lexeme_id": "w_0990",
+      "lexeme_kind": "word",
+      "concept_id": "c_0990",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0437": {
+      "display_form": "farina",
+      "normalized_form": "farina",
+      "pos": null
+    },
+    "w_0442": {
+      "display_form": "mollica",
+      "normalized_form": "mollica",
+      "pos": null
+    },
+    "w_0653": {
+      "display_form": "deserto",
+      "normalized_form": "deserto",
+      "pos": null
+    },
+    "w_0925": {
+      "display_form": "fantasma",
+      "normalized_form": "fantasma",
+      "pos": null
+    },
+    "w_0990": {
+      "display_form": "rumore",
+      "normalized_form": "rumore",
+      "pos": null
+    }
+  },
+  "expressions": {}
+}

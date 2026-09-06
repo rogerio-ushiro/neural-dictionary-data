@@ -1,0 +1,72 @@
+{
+  "pack": "graph.89",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0275",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Compagno con cui si è condiviso il servizio militare o un'esperienza di gruppo.",
+          "example": "Si ritrovano ogni anno con i vecchi camerati di leva."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0341",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Terreno coltivato a ortaggi per il consumo familiare.",
+          "example": "Nell'orto ha piantato zucchine, pomodori e insalata."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0525",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Nelle prime ore del giorno, prima del solito.",
+          "example": "Si alza presto anche la domenica."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0598",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Sostanza scura che colora la pelle e la protegge dai raggi del sole.",
+          "example": "La melanina aumenta con l'esposizione al sole."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0811",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Vasta estensione di terreno piatto.",
+          "example": "La pianura si stende a perdita d'occhio tra i due fiumi."
+        }
+      }
+    }
+  ]
+}

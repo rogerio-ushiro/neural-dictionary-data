@@ -1,0 +1,46 @@
+{
+  "pack": "graph.e7",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0211",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Bambino piccolo (voce affettuosa e letteraria).",
+          "example": "Teneva il pargolo stretto tra le braccia."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0541",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "La parte solida dei continenti, contrapposta al mare.",
+          "example": "Dopo settimane di navigazione avvistarono la terraferma."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0880",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Semplice e senza pretese, come la vita e le cose di campagna.",
+          "example": "Il pranzo fu rustico ma abbondante: pane, salame e vino."
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "pack": "graph.52",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0032",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Ampia distesa d'acqua ferma circondata da terra.",
+          "example": "D'inverno la superficie del lago gela in superficie."
+        }
+      }
+    }
+  ]
+}

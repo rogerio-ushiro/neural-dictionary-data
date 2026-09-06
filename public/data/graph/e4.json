@@ -1,0 +1,212 @@
+{
+  "shard": "e4",
+  "concepts": {
+    "c_0193": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Superficie verticale che chiude o divide uno spazio; anche il fianco a picco di un monte.",
+        "example": "Appesero il quadro alla parete del soggiorno."
+      }
+    },
+    "c_0470": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Reso solido e durissimo dal freddo estremo.",
+        "example": "Trovò il ruscello completamente congelato."
+      }
+    },
+    "c_0584": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Guizzo di luce vivissima e istantanea che precede il tuono nei temporali.",
+        "example": "Un lampo illuminò per un attimo tutta la campagna."
+      }
+    },
+    "c_0607": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Ciò che si percepisce attraverso i sensi o l'animo, come caldo, dolore o gioia.",
+        "example": "Provò una strana sensazione di déjà-vu."
+      }
+    },
+    "c_0975": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Il non provare né mostrare alcun interesse o sentimento verso qualcosa.",
+        "example": "Assistette alla scena con totale indifferenza."
+      }
+    },
+    "c_1019": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Che si spinge molto in basso o molto all'interno; al figurato, intenso e non superficiale.",
+        "example": "Provava per lei un affetto profondo."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0012",
+      "concept_b": "c_0193",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0036",
+      "concept_b": "c_0470",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0045",
+      "concept_b": "c_0193",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0052",
+      "concept_b": "c_0584",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0065",
+      "concept_b": "c_0607",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0066",
+      "concept_b": "c_0584",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0382",
+      "concept_b": "c_0975",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0050",
+      "concept_b": "c_1019",
+      "relation_type": "proprietà",
+      "direction_hint": "symmetric",
+      "association_strength": 0.85,
+      "confidence": 0.9,
+      "status": "validated",
+      "revision": 2
+    }
+  ],
+  "word_senses": {
+    "s_0193": {
+      "lexeme_id": "w_0193",
+      "lexeme_kind": "word",
+      "concept_id": "c_0193",
+      "is_primary": true
+    },
+    "s_0470": {
+      "lexeme_id": "w_0470",
+      "lexeme_kind": "word",
+      "concept_id": "c_0470",
+      "is_primary": true
+    },
+    "s_0584": {
+      "lexeme_id": "w_0584",
+      "lexeme_kind": "word",
+      "concept_id": "c_0584",
+      "is_primary": true
+    },
+    "s_0607": {
+      "lexeme_id": "w_0607",
+      "lexeme_kind": "word",
+      "concept_id": "c_0607",
+      "is_primary": true
+    },
+    "s_0975": {
+      "lexeme_id": "w_0975",
+      "lexeme_kind": "word",
+      "concept_id": "c_0975",
+      "is_primary": true
+    },
+    "s_1019": {
+      "lexeme_id": "w_1019",
+      "lexeme_kind": "word",
+      "concept_id": "c_1019",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0193": {
+      "display_form": "parete",
+      "normalized_form": "parete",
+      "pos": null
+    },
+    "w_0470": {
+      "display_form": "congelato",
+      "normalized_form": "congelato",
+      "pos": null
+    },
+    "w_0584": {
+      "display_form": "lampo",
+      "normalized_form": "lampo",
+      "pos": null
+    },
+    "w_0607": {
+      "display_form": "sensazione",
+      "normalized_form": "sensazione",
+      "pos": null
+    },
+    "w_0975": {
+      "display_form": "indifferenza",
+      "normalized_form": "indifferenza",
+      "pos": null
+    },
+    "w_1019": {
+      "display_form": "profondo",
+      "normalized_form": "profondo",
+      "pos": null
+    }
+  },
+  "expressions": {}
+}

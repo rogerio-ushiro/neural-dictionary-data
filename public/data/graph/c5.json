@@ -1,0 +1,132 @@
+{
+  "shard": "c5",
+  "concepts": {
+    "c_0208": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "L'insieme delle persone che vivono insieme secondo regole comuni.",
+        "example": "In quella società contadina il lavoro si divideva per stagioni."
+      }
+    },
+    "c_0301": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Territorio protetto in cui piante e animali vivono senza essere disturbati; anche una scorta messa da parte.",
+        "example": "Nella riserva è vietato cacciare e raccogliere fiori."
+      }
+    },
+    "c_0558": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Salto verticale del terreno da cui si può cadere.",
+        "example": "Si sporse dal precipizio per guardare il fondovalle."
+      }
+    },
+    "c_0851": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Che riguarda gli esseri viventi e i loro processi vitali.",
+        "example": "L'orologio biologico regola il ritmo del sonno."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0013",
+      "concept_b": "c_0208",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0021",
+      "concept_b": "c_0301",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0045",
+      "concept_b": "c_0558",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0321",
+      "concept_b": "c_0851",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    }
+  ],
+  "word_senses": {
+    "s_0208": {
+      "lexeme_id": "w_0208",
+      "lexeme_kind": "word",
+      "concept_id": "c_0208",
+      "is_primary": true
+    },
+    "s_0301": {
+      "lexeme_id": "w_0301",
+      "lexeme_kind": "word",
+      "concept_id": "c_0301",
+      "is_primary": true
+    },
+    "s_0558": {
+      "lexeme_id": "w_0558",
+      "lexeme_kind": "word",
+      "concept_id": "c_0558",
+      "is_primary": true
+    },
+    "s_0851": {
+      "lexeme_id": "w_0851",
+      "lexeme_kind": "word",
+      "concept_id": "c_0851",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0208": {
+      "display_form": "società",
+      "normalized_form": "societa",
+      "pos": null
+    },
+    "w_0301": {
+      "display_form": "riserva",
+      "normalized_form": "riserva",
+      "pos": null
+    },
+    "w_0558": {
+      "display_form": "precipizio",
+      "normalized_form": "precipizio",
+      "pos": null
+    },
+    "w_0851": {
+      "display_form": "biologico",
+      "normalized_form": "biologico",
+      "pos": null
+    }
+  },
+  "expressions": {}
+}

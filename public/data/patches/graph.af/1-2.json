@@ -1,0 +1,72 @@
+{
+  "pack": "graph.af",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0273",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Persona con cui si condivide un'attività, un'esperienza o la vita; anche chi sta insieme a un altro in coppia.",
+          "example": "È stato il suo compagno di banco per tutte le medie."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0347",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Ciascuna delle diramazioni che partono dal tronco di un albero.",
+          "example": "Un ramo secco cadde durante la tempesta."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0523",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Luce debole e diffusa, come quella che precede l'alba.",
+          "example": "Al chiarore della lampada leggeva fino a tardi."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0817",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Ciò che rende una cosa quello che è, la sua natura più profonda al di là delle apparenze.",
+          "example": "La generosità è l'essenza del suo carattere."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0909",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "L'insieme delle piante di una regione.",
+          "example": "La flora alpina comprende molte specie protette."
+        }
+      }
+    }
+  ]
+}

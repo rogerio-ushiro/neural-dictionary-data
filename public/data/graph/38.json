@@ -1,0 +1,72 @@
+{
+  "shard": "38",
+  "concepts": {
+    "c_0063": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Telo che si usa per asciugarsi dopo il bagno o per stendersi sulla sabbia.",
+        "example": "Stese l'asciugamano vicino alla battigia."
+      }
+    },
+    "c_0795": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Chi abita nella casa accanto o nelle vicinanze.",
+        "example": "I vicini di casa gli tengono le piante quando è via."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0002",
+      "concept_b": "c_0063",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0273",
+      "concept_b": "c_0795",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    }
+  ],
+  "word_senses": {
+    "s_0063": {
+      "lexeme_id": "w_0063",
+      "lexeme_kind": "word",
+      "concept_id": "c_0063",
+      "is_primary": true
+    },
+    "s_0795": {
+      "lexeme_id": "w_0795",
+      "lexeme_kind": "word",
+      "concept_id": "c_0795",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0063": {
+      "display_form": "asciugamano",
+      "normalized_form": "asciugamano",
+      "pos": null
+    },
+    "w_0795": {
+      "display_form": "vicino",
+      "normalized_form": "vicino",
+      "pos": null
+    }
+  },
+  "expressions": {}
+}

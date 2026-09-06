@@ -1,0 +1,46 @@
+{
+  "pack": "graph.f1",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0060",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Il colore più scuro che la pelle assume dopo essere stata a lungo al sole.",
+          "example": "È tornato dalle vacanze con un'abbronzatura invidiabile."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0778",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Il primato assoluto su tutti gli altri.",
+          "example": "Si contendevano la supremazia commerciale sulla regione."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0796",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Bosco fitto e intricato, difficile da attraversare (voce letteraria).",
+          "example": "Si inoltrarono nella selva seguendo un sentiero appena visibile."
+        }
+      }
+    }
+  ]
+}

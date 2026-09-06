@@ -1,0 +1,46 @@
+{
+  "pack": "graph.5f",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0080",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Caldo intenso e pesante delle ore centrali dell'estate.",
+          "example": "Uscirono solo verso sera, quando la calura si attenuò."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0174",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "L'insieme delle persone che condividono una stessa terra, lingua e tradizioni; a volte indica la parte più numerosa e meno ricca di una società, in contrapposizione a chi comanda.",
+          "example": "Il discorso del sindaco fu accolto con favore dal popolo."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0707",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Il sostituire una cosa con un'altra dello stesso genere; nei veicoli, il dispositivo con cui si passa da una marcia all'altra.",
+          "example": "Ha fatto il cambio delle gomme prima dell'inverno."
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,292 @@
+{
+  "shard": "c6",
+  "concepts": {
+    "c_0069": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Quantità di luce che rende un ambiente più o meno chiaro.",
+        "example": "Regolò la luminosità dello schermo per non affaticare gli occhi."
+      }
+    },
+    "c_0115": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "La linea che si segue per andare da un punto a un altro, con le sue tappe e le sue difficoltà.",
+        "example": "Il percorso più breve passa per il bosco."
+      }
+    },
+    "c_0771": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Chi dà avvio a un movimento, a un'usanza o a un'impresa.",
+        "example": "Fu l'iniziatore di una nuova corrente di pensiero."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0003",
+      "concept_b": "c_0069",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0007",
+      "concept_b": "c_0115",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0040",
+      "concept_b": "c_0069",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0051",
+      "concept_b": "c_0115",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0066",
+      "concept_b": "c_0069",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0069",
+      "concept_b": "c_0071",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0069",
+      "concept_b": "c_0074",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0069",
+      "concept_b": "c_0372",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0069",
+      "concept_b": "c_0523",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0069",
+      "concept_b": "c_0527",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0069",
+      "concept_b": "c_0608",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0069",
+      "concept_b": "c_0609",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0069",
+      "concept_b": "c_0610",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0069",
+      "concept_b": "c_0612",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0069",
+      "concept_b": "c_0613",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0069",
+      "concept_b": "c_0614",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0069",
+      "concept_b": "c_0615",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0069",
+      "concept_b": "c_0616",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0069",
+      "concept_b": "c_0617",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0115",
+      "concept_b": "c_0159",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0115",
+      "concept_b": "c_0303",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0226",
+      "concept_b": "c_0771",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    }
+  ],
+  "word_senses": {
+    "s_0069": {
+      "lexeme_id": "w_0069",
+      "lexeme_kind": "word",
+      "concept_id": "c_0069",
+      "is_primary": true
+    },
+    "s_0115": {
+      "lexeme_id": "w_0115",
+      "lexeme_kind": "word",
+      "concept_id": "c_0115",
+      "is_primary": true
+    },
+    "s_0771": {
+      "lexeme_id": "w_0771",
+      "lexeme_kind": "word",
+      "concept_id": "c_0771",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0069": {
+      "display_form": "luminosità",
+      "normalized_form": "luminosita",
+      "pos": null
+    },
+    "w_0115": {
+      "display_form": "percorso",
+      "normalized_form": "percorso",
+      "pos": null
+    },
+    "w_0771": {
+      "display_form": "iniziatore",
+      "normalized_form": "iniziatore",
+      "pos": null
+    }
+  },
+  "expressions": {}
+}

@@ -1,0 +1,111 @@
+{
+  "pack": "graph.d6",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0227",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Chi genera un figlio; il padre o la madre.",
+          "example": "Non ha mai conosciuto i suoi procreatori."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0252",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Istituto in cui ci si prepara al sacerdozio; anche un incontro di studio ristretto.",
+          "example": "Da giovane entrò in seminario, poi cambiò strada."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0393",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Capacità di spingere, sollevare o resistere; indica anche l'intensità di un fenomeno o il potere di un gruppo (le forze dell'ordine, la forza di un argomento).",
+          "example": "Spinse la porta con tutta la sua forza."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0502",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Esecuzione pubblica di brani musicali davanti a un pubblico.",
+          "example": "Il concerto all'aperto è stato spostato per la pioggia."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0577",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Segno lasciato dal passaggio di qualcuno o qualcosa; al figurato, un indizio o un piccolo residuo (una traccia di sale).",
+          "example": "Sulla neve si vedevano le tracce di una volpe."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0681",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Il liberare qualcuno da una condizione di sottomissione o di svantaggio.",
+          "example": "Quel movimento lottava per l'emancipazione dei lavoratori."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0964",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "L'andamento medio del tempo atmosferico in una zona nel corso degli anni.",
+          "example": "Il clima della costa è mite anche d'inverno."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_1000",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Lo stato di chi è solo, per scelta o per necessità.",
+          "example": "La solitudine della casa in montagna gli faceva compagnia."
+        }
+      }
+    }
+  ]
+}

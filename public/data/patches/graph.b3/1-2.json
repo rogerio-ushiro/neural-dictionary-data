@@ -1,0 +1,85 @@
+{
+  "pack": "graph.b3",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0268",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Il modo di scrivere che segue l'ordine naturale del discorso, senza versi.",
+          "example": "Ha una prosa limpida e senza fronzoli."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0321",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Animale che partorisce piccoli già formati e li nutre col proprio latte, come il cane, la balena e l'uomo.",
+          "example": "La balena è il mammifero più grande del pianeta."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0354",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Zona più scura che un corpo proietta parando la luce; al figurato, un vago sospetto o un lato oscuro.",
+          "example": "A mezzogiorno l'ombra dell'albero era ridotta a un cerchio."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0538",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "La fascia di terra che si stende lungo la riva del mare, con i suoi centri abitati.",
+          "example": "Il litorale è protetto da una lunga fila di dune."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0804",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Terreno coltivato o lasciato a prato, fuori dall'abitato; anche lo spazio delimitato per uno sport.",
+          "example": "I campi di grano arrivavano fino all'orizzonte."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0871",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Che riguarda la casa e le sue faccende; anche chi si occupa della famiglia senza un lavoro fuori.",
+          "example": "Le pareva un lavoro casalingo poco gratificante."
+        }
+      }
+    }
+  ]
+}

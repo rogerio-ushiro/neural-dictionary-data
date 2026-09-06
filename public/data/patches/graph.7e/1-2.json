@@ -1,0 +1,33 @@
+{
+  "pack": "graph.7e",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0205",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Gruppo di famiglie che si riconoscono in un capostipite comune.",
+          "example": "I due clan si contendevano il controllo della valle."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0555",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Parete di roccia a picco sul mare, spesso di gesso o calcare chiaro.",
+          "example": "Le falesie bianche si vedevano dalla nave a miglia di distanza."
+        }
+      }
+    }
+  ]
+}

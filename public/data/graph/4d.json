@@ -1,0 +1,222 @@
+{
+  "shard": "4d",
+  "concepts": {
+    "c_0183": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Il luogo dove una persona risulta abitare ufficialmente.",
+        "example": "Ha eletto domicilio presso lo studio dell'avvocato."
+      }
+    },
+    "c_0406": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Grande valle chiusa tra alte montagne.",
+        "example": "Il torrente scorre in fondo al vallone."
+      }
+    },
+    "c_0491": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Rappresentazione offerta al pubblico per stupirlo o divertirlo; anche una scena straordinaria da vedere.",
+        "example": "Il tramonto dal molo era uno spettacolo."
+      }
+    },
+    "c_0617": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Insieme di piccoli lampi di luce che tremolano.",
+        "example": "Il brillio delle stelle si specchiava nel lago."
+      }
+    },
+    "c_0662": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Sospensione temporanea di un combattimento o di una fatica.",
+        "example": "Le due squadre si concessero una breve tregua."
+      }
+    },
+    "c_0969": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Freddo pungente e tagliente.",
+        "example": "Un'algidità improvvisa gli attraversò la schiena."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0012",
+      "concept_b": "c_0183",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0031",
+      "concept_b": "c_0406",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0037",
+      "concept_b": "c_0491",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0069",
+      "concept_b": "c_0617",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0085",
+      "concept_b": "c_0662",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0104",
+      "concept_b": "c_0491",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0107",
+      "concept_b": "c_0491",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0382",
+      "concept_b": "c_0969",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0516",
+      "concept_b": "c_0662",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    }
+  ],
+  "word_senses": {
+    "s_0183": {
+      "lexeme_id": "w_0183",
+      "lexeme_kind": "word",
+      "concept_id": "c_0183",
+      "is_primary": true
+    },
+    "s_0406": {
+      "lexeme_id": "w_0406",
+      "lexeme_kind": "word",
+      "concept_id": "c_0406",
+      "is_primary": true
+    },
+    "s_0491": {
+      "lexeme_id": "w_0491",
+      "lexeme_kind": "word",
+      "concept_id": "c_0491",
+      "is_primary": true
+    },
+    "s_0617": {
+      "lexeme_id": "w_0617",
+      "lexeme_kind": "word",
+      "concept_id": "c_0617",
+      "is_primary": true
+    },
+    "s_0662": {
+      "lexeme_id": "w_0662",
+      "lexeme_kind": "word",
+      "concept_id": "c_0662",
+      "is_primary": true
+    },
+    "s_0969": {
+      "lexeme_id": "w_0969",
+      "lexeme_kind": "word",
+      "concept_id": "c_0969",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0183": {
+      "display_form": "domicilio",
+      "normalized_form": "domicilio",
+      "pos": null
+    },
+    "w_0406": {
+      "display_form": "vallone",
+      "normalized_form": "vallone",
+      "pos": null
+    },
+    "w_0491": {
+      "display_form": "spettacolo",
+      "normalized_form": "spettacolo",
+      "pos": null
+    },
+    "w_0617": {
+      "display_form": "brillio",
+      "normalized_form": "brillio",
+      "pos": null
+    },
+    "w_0662": {
+      "display_form": "tregua",
+      "normalized_form": "tregua",
+      "pos": null
+    },
+    "w_0969": {
+      "display_form": "algidità",
+      "normalized_form": "algidita",
+      "pos": null
+    }
+  },
+  "expressions": {}
+}

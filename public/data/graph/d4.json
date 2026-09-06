@@ -1,0 +1,252 @@
+{
+  "shard": "d4",
+  "concepts": {
+    "c_0052": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Violenta perturbazione del tempo con vento fortissimo, pioggia e fulmini; al figurato, un momento di grande turbamento o conflitto.",
+        "example": "La tempesta ha abbattuto diversi alberi nel parco."
+      }
+    },
+    "c_0126": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Ciascuno dei veicoli agganciati che compongono un treno, per passeggeri o merci.",
+        "example": "Il vagone ristorante è in fondo al convoglio."
+      }
+    },
+    "c_0988": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Forza ed energia di chi è pieno di vita.",
+        "example": "A ottant'anni conserva una vitalità sorprendente."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0001",
+      "concept_b": "c_0052",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0008",
+      "concept_b": "c_0126",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0029",
+      "concept_b": "c_0052",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0030",
+      "concept_b": "c_0052",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0052",
+      "concept_b": "c_0370",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0052",
+      "concept_b": "c_0378",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0052",
+      "concept_b": "c_0578",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0052",
+      "concept_b": "c_0579",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0052",
+      "concept_b": "c_0580",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0052",
+      "concept_b": "c_0581",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0052",
+      "concept_b": "c_0582",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0052",
+      "concept_b": "c_0583",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0052",
+      "concept_b": "c_0584",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0052",
+      "concept_b": "c_0585",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0052",
+      "concept_b": "c_0586",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0052",
+      "concept_b": "c_0587",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0052",
+      "concept_b": "c_0588",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0390",
+      "concept_b": "c_0988",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    }
+  ],
+  "word_senses": {
+    "s_0052": {
+      "lexeme_id": "w_0052",
+      "lexeme_kind": "word",
+      "concept_id": "c_0052",
+      "is_primary": true
+    },
+    "s_0126": {
+      "lexeme_id": "w_0126",
+      "lexeme_kind": "word",
+      "concept_id": "c_0126",
+      "is_primary": true
+    },
+    "s_0988": {
+      "lexeme_id": "w_0988",
+      "lexeme_kind": "word",
+      "concept_id": "c_0988",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0052": {
+      "display_form": "tempesta",
+      "normalized_form": "tempesta",
+      "pos": null
+    },
+    "w_0126": {
+      "display_form": "vagone",
+      "normalized_form": "vagone",
+      "pos": null
+    },
+    "w_0988": {
+      "display_form": "vitalità",
+      "normalized_form": "vitalita",
+      "pos": null
+    }
+  },
+  "expressions": {}
+}

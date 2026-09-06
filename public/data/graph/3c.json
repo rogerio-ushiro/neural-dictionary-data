@@ -1,0 +1,152 @@
+{
+  "shard": "3c",
+  "concepts": {
+    "c_0456": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Frutto tropicale allungato dalla buccia gialla che si sbuccia a spicchi.",
+        "example": "Aggiunse una banana a fette allo yogurt."
+      }
+    },
+    "c_0625": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Luce fioca e incerta, come quella di una stanza in penombra.",
+        "example": "Nella penombra della chiesa si distinguevano appena gli affreschi."
+      }
+    },
+    "c_0742": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Terreno coltivato con la casa colonica annessa.",
+        "example": "Il podere dà olio, vino e un po' di ortaggi."
+      }
+    },
+    "c_0980": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Il modo di tenere e muovere il corpo, che rivela l'educazione o il carattere.",
+        "example": "Camminava con un portamento fiero."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0035",
+      "concept_b": "c_0456",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0075",
+      "concept_b": "c_0625",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0078",
+      "concept_b": "c_0625",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0164",
+      "concept_b": "c_0742",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0354",
+      "concept_b": "c_0625",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0387",
+      "concept_b": "c_0980",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    }
+  ],
+  "word_senses": {
+    "s_0456": {
+      "lexeme_id": "w_0456",
+      "lexeme_kind": "word",
+      "concept_id": "c_0456",
+      "is_primary": true
+    },
+    "s_0625": {
+      "lexeme_id": "w_0625",
+      "lexeme_kind": "word",
+      "concept_id": "c_0625",
+      "is_primary": true
+    },
+    "s_0742": {
+      "lexeme_id": "w_0742",
+      "lexeme_kind": "word",
+      "concept_id": "c_0742",
+      "is_primary": true
+    },
+    "s_0980": {
+      "lexeme_id": "w_0980",
+      "lexeme_kind": "word",
+      "concept_id": "c_0980",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0456": {
+      "display_form": "banana",
+      "normalized_form": "banana",
+      "pos": null
+    },
+    "w_0625": {
+      "display_form": "penombra",
+      "normalized_form": "penombra",
+      "pos": null
+    },
+    "w_0742": {
+      "display_form": "podere",
+      "normalized_form": "podere",
+      "pos": null
+    },
+    "w_0980": {
+      "display_form": "portamento",
+      "normalized_form": "portamento",
+      "pos": null
+    }
+  },
+  "expressions": {}
+}

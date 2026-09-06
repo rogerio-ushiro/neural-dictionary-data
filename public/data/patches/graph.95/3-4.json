@@ -1,0 +1,33 @@
+{
+  "pack": "graph.95",
+  "from": 3,
+  "to": 4,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0046",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Tratto di costa riparato e attrezzato dove le navi attraccano per caricare e scaricare.",
+          "example": "Il traghetto entrò in porto con mezz'ora di ritardo."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0389",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Breve emissione d'aria dalla bocca o di vento leggero.",
+          "example": "Spense le candeline con un soffio."
+        }
+      }
+    }
+  ]
+}

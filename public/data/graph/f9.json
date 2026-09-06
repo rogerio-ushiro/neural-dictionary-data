@@ -1,0 +1,162 @@
+{
+  "shard": "f9",
+  "concepts": {
+    "c_0433": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Bisogno di mangiare che si fa sentire quando lo stomaco è vuoto; al figurato, un desiderio intenso.",
+        "example": "Dopo la camminata avevano una fame da lupi."
+      }
+    },
+    "c_0446": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Disco di pasta lievitata condita con pomodoro, mozzarella e altri ingredienti, cotto al forno.",
+        "example": "Il venerdì sera ordinano sempre la pizza."
+      }
+    },
+    "c_0657": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Riposo e pace, soprattutto dopo una fatica o un dolore.",
+        "example": "Non trovò requie finché non ebbe finito il lavoro."
+      }
+    },
+    "c_0921": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Il contorno scuro di una figura vista controluce.",
+        "example": "Nel corridoio si stagliava la sagoma di una persona."
+      }
+    },
+    "c_0994": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Suono continuo, sordo e vibrante, come quello di un'ape o di un motore lontano.",
+        "example": "Il ronzio del frigorifero riempiva il silenzio della notte."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0033",
+      "concept_b": "c_0433",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0034",
+      "concept_b": "c_0446",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0085",
+      "concept_b": "c_0657",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0354",
+      "concept_b": "c_0921",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0392",
+      "concept_b": "c_0994",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    }
+  ],
+  "word_senses": {
+    "s_0433": {
+      "lexeme_id": "w_0433",
+      "lexeme_kind": "word",
+      "concept_id": "c_0433",
+      "is_primary": true
+    },
+    "s_0446": {
+      "lexeme_id": "w_0446",
+      "lexeme_kind": "word",
+      "concept_id": "c_0446",
+      "is_primary": true
+    },
+    "s_0657": {
+      "lexeme_id": "w_0657",
+      "lexeme_kind": "word",
+      "concept_id": "c_0657",
+      "is_primary": true
+    },
+    "s_0921": {
+      "lexeme_id": "w_0921",
+      "lexeme_kind": "word",
+      "concept_id": "c_0921",
+      "is_primary": true
+    },
+    "s_0994": {
+      "lexeme_id": "w_0994",
+      "lexeme_kind": "word",
+      "concept_id": "c_0994",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0433": {
+      "display_form": "fame",
+      "normalized_form": "fame",
+      "pos": null
+    },
+    "w_0446": {
+      "display_form": "pizza",
+      "normalized_form": "pizza",
+      "pos": null
+    },
+    "w_0657": {
+      "display_form": "requie",
+      "normalized_form": "requie",
+      "pos": null
+    },
+    "w_0921": {
+      "display_form": "sagoma",
+      "normalized_form": "sagoma",
+      "pos": null
+    },
+    "w_0994": {
+      "display_form": "ronzio",
+      "normalized_form": "ronzio",
+      "pos": null
+    }
+  },
+  "expressions": {}
+}

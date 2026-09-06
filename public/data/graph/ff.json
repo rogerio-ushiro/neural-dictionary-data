@@ -1,0 +1,312 @@
+{
+  "shard": "ff",
+  "concepts": {
+    "c_0325": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Che riguarda la casa e la vita familiare; riferito a un animale, allevato dall'uomo e abituato a vivere con lui.",
+        "example": "Sbrigava le faccende domestiche prima di uscire."
+      }
+    },
+    "c_0350": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Parte della pianta che sta sottoterra, la assorbe acqua e la tiene ancorata; al figurato, l'origine profonda di qualcosa.",
+        "example": "Le radici del vecchio pino avevano sollevato il marciapiede."
+      }
+    },
+    "c_0800": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Zona di terreno coperta da cespugli e vegetazione bassa e fitta.",
+        "example": "Il coniglio sparì nella macchia mediterranea."
+      }
+    },
+    "c_0875": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Che riguarda una sola persona e non è aperto agli altri.",
+        "example": "Ha voluto un funerale strettamente privato."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0012",
+      "concept_b": "c_0325",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0023",
+      "concept_b": "c_0325",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0024",
+      "concept_b": "c_0325",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0026",
+      "concept_b": "c_0350",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0181",
+      "concept_b": "c_0325",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0185",
+      "concept_b": "c_0325",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0200",
+      "concept_b": "c_0350",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0297",
+      "concept_b": "c_0800",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0302",
+      "concept_b": "c_0350",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0304",
+      "concept_b": "c_0350",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0325",
+      "concept_b": "c_0871",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0325",
+      "concept_b": "c_0872",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0325",
+      "concept_b": "c_0873",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0325",
+      "concept_b": "c_0874",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0325",
+      "concept_b": "c_0875",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0325",
+      "concept_b": "c_0876",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0325",
+      "concept_b": "c_0877",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0325",
+      "concept_b": "c_0878",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0325",
+      "concept_b": "c_0879",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0325",
+      "concept_b": "c_0880",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0325",
+      "concept_b": "c_0881",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0339",
+      "concept_b": "c_0350",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    }
+  ],
+  "word_senses": {
+    "s_0325": {
+      "lexeme_id": "w_0325",
+      "lexeme_kind": "word",
+      "concept_id": "c_0325",
+      "is_primary": true
+    },
+    "s_0350": {
+      "lexeme_id": "w_0350",
+      "lexeme_kind": "word",
+      "concept_id": "c_0350",
+      "is_primary": true
+    },
+    "s_0800": {
+      "lexeme_id": "w_0800",
+      "lexeme_kind": "word",
+      "concept_id": "c_0800",
+      "is_primary": true
+    },
+    "s_0875": {
+      "lexeme_id": "w_0875",
+      "lexeme_kind": "word",
+      "concept_id": "c_0875",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0325": {
+      "display_form": "domestico",
+      "normalized_form": "domestico",
+      "pos": null
+    },
+    "w_0350": {
+      "display_form": "radice",
+      "normalized_form": "radice",
+      "pos": null
+    },
+    "w_0800": {
+      "display_form": "macchia",
+      "normalized_form": "macchia",
+      "pos": null
+    },
+    "w_0875": {
+      "display_form": "privato",
+      "normalized_form": "privato",
+      "pos": null
+    }
+  },
+  "expressions": {}
+}

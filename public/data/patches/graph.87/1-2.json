@@ -1,0 +1,59 @@
+{
+  "pack": "graph.87",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0156",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Ciascuna delle parti in cui è divisa una città, con una propria identità.",
+          "example": "Nel suo quartiere si conoscono tutti."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0299",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Il colore dell'erba e delle foglie; al figurato, l'insieme delle piante di un luogo e la speranza.",
+          "example": "Dalla finestra si vedeva solo il verde dei prati."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0721",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Materiale elastico e resistente ricavato da una pianta o prodotto in fabbrica, usato per pneumatici e guarnizioni.",
+          "example": "La suola di gomma non fa rumore sul pavimento."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0938",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Corso d'acqua che si getta in un fiume più grande.",
+          "example": "Il torrente è un affluente di sinistra del fiume principale."
+        }
+      }
+    }
+  ]
+}

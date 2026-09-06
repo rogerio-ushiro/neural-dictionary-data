@@ -1,0 +1,222 @@
+{
+  "shard": "d3",
+  "concepts": {
+    "c_0149": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Il chiudere e proteggere merci in involucri per il trasporto o la vendita.",
+        "example": "L'imballaggio del vetro va fatto con cura."
+      }
+    },
+    "c_0431": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "La sensazione che un cibo dà in bocca, dolce, salato, amaro o acido.",
+        "example": "La minestra aveva un sapore delicato di verdure fresche."
+      }
+    },
+    "c_0444": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Panino dolce e soffio a base di burro e uova, tipico della colazione.",
+        "example": "Al bar prese un cappuccino e una brioche calda."
+      }
+    },
+    "c_0655": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Debolezza e spossatezza, per il caldo, la fame o la malinconia.",
+        "example": "Il caldo gli dava un languore che lo faceva desiderare solo di dormire."
+      }
+    },
+    "c_0758": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Qualcosa che esiste come cosa a sé, spesso astratta o difficile da definire.",
+        "example": "Lo Stato è un'entità che sopravvive ai singoli governi."
+      }
+    },
+    "c_0923": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Il contorno di un viso o di una figura visti di lato.",
+        "example": "Riconobbe il suo profilo contro la finestra."
+      }
+    },
+    "c_0996": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Voce alta e improvvisa emessa per paura, dolore o richiamo.",
+        "example": "Un grido nel buio fece accorrere i vicini."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0009",
+      "concept_b": "c_0149",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0033",
+      "concept_b": "c_0431",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0034",
+      "concept_b": "c_0444",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0084",
+      "concept_b": "c_0655",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0218",
+      "concept_b": "c_0758",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0354",
+      "concept_b": "c_0923",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0392",
+      "concept_b": "c_0996",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    }
+  ],
+  "word_senses": {
+    "s_0149": {
+      "lexeme_id": "w_0149",
+      "lexeme_kind": "word",
+      "concept_id": "c_0149",
+      "is_primary": true
+    },
+    "s_0431": {
+      "lexeme_id": "w_0431",
+      "lexeme_kind": "word",
+      "concept_id": "c_0431",
+      "is_primary": true
+    },
+    "s_0444": {
+      "lexeme_id": "w_0444",
+      "lexeme_kind": "word",
+      "concept_id": "c_0444",
+      "is_primary": true
+    },
+    "s_0655": {
+      "lexeme_id": "w_0655",
+      "lexeme_kind": "word",
+      "concept_id": "c_0655",
+      "is_primary": true
+    },
+    "s_0758": {
+      "lexeme_id": "w_0758",
+      "lexeme_kind": "word",
+      "concept_id": "c_0758",
+      "is_primary": true
+    },
+    "s_0923": {
+      "lexeme_id": "w_0923",
+      "lexeme_kind": "word",
+      "concept_id": "c_0923",
+      "is_primary": true
+    },
+    "s_0996": {
+      "lexeme_id": "w_0996",
+      "lexeme_kind": "word",
+      "concept_id": "c_0996",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0149": {
+      "display_form": "imballaggio",
+      "normalized_form": "imballaggio",
+      "pos": null
+    },
+    "w_0431": {
+      "display_form": "sapore",
+      "normalized_form": "sapore",
+      "pos": null
+    },
+    "w_0444": {
+      "display_form": "brioche",
+      "normalized_form": "brioche",
+      "pos": null
+    },
+    "w_0655": {
+      "display_form": "languore",
+      "normalized_form": "languore",
+      "pos": null
+    },
+    "w_0758": {
+      "display_form": "entità",
+      "normalized_form": "entita",
+      "pos": null
+    },
+    "w_0923": {
+      "display_form": "profilo",
+      "normalized_form": "profilo",
+      "pos": null
+    },
+    "w_0996": {
+      "display_form": "grido",
+      "normalized_form": "grido",
+      "pos": null
+    }
+  },
+  "expressions": {}
+}

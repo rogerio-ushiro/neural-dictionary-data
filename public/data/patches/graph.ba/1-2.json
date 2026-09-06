@@ -1,0 +1,85 @@
+{
+  "pack": "graph.ba",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0182",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Il luogo dove si abita, la casa in cui si vive (voce elevata).",
+          "example": "Fissò la propria dimora ai margini del bosco."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0407",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Fianco inclinato di un monte o di una collina.",
+          "example": "Scendevano il pendio con cautela sull'erba bagnata."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0490",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Sentimento vivo di felicità.",
+          "example": "La notizia della nascita portò gioia in tutta la casa."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0616",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Qualità di un'immagine o di un suono ben definiti e privi di disturbi.",
+          "example": "La nitidezza della foto permetteva di leggere l'insegna sullo sfondo."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0663",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Stato di calma serena, senza preoccupazioni né agitazione.",
+          "example": "La musica gli dava una grande tranquillità."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0968",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Estremamente freddo, da paesaggio di ghiacci; riferito a modi e sguardi, di gelida ostilità.",
+          "example": "Soffiava un vento glaciale dalla montagna."
+        }
+      }
+    }
+  ]
+}

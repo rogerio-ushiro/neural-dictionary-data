@@ -1,0 +1,212 @@
+{
+  "shard": "8e",
+  "concepts": {
+    "c_0348": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Insieme dei rami e delle foglie di un albero.",
+        "example": "Il vento agitava le fronde dei pini."
+      }
+    },
+    "c_0465": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Grande frutto estivo dalla scorza verde e dalla polpa rossa, acquosa e dolce, con semi neri.",
+        "example": "Tagliarono il cocomero a fette sul tavolo del giardino."
+      }
+    },
+    "c_0591": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Abbronzatura, colore dorato che la pelle prende al sole (voce familiare).",
+        "example": "È tornata dal mare con una bella tintarella."
+      }
+    },
+    "c_0634": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Il non avere o il non esserci di qualcosa di necessario.",
+        "example": "La mancanza di sonno lo rendeva irritabile."
+      }
+    },
+    "c_0818": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Il carattere di fondo di una persona, il suo modo naturale di essere.",
+        "example": "Ha un'indole tranquilla, difficile da far arrabbiare."
+      }
+    },
+    "c_0906": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Buca profonda scavata nel terreno per attingere l'acqua sotterranea.",
+        "example": "Calarono il secchio nel pozzo per tirare su l'acqua fresca."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0026",
+      "concept_b": "c_0348",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0035",
+      "concept_b": "c_0465",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0060",
+      "concept_b": "c_0591",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0078",
+      "concept_b": "c_0634",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0300",
+      "concept_b": "c_0818",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0302",
+      "concept_b": "c_0348",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0343",
+      "concept_b": "c_0906",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0348",
+      "concept_b": "c_0352",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    }
+  ],
+  "word_senses": {
+    "s_0348": {
+      "lexeme_id": "w_0348",
+      "lexeme_kind": "word",
+      "concept_id": "c_0348",
+      "is_primary": true
+    },
+    "s_0465": {
+      "lexeme_id": "w_0465",
+      "lexeme_kind": "word",
+      "concept_id": "c_0465",
+      "is_primary": true
+    },
+    "s_0591": {
+      "lexeme_id": "w_0591",
+      "lexeme_kind": "word",
+      "concept_id": "c_0591",
+      "is_primary": true
+    },
+    "s_0634": {
+      "lexeme_id": "w_0634",
+      "lexeme_kind": "word",
+      "concept_id": "c_0634",
+      "is_primary": true
+    },
+    "s_0818": {
+      "lexeme_id": "w_0818",
+      "lexeme_kind": "word",
+      "concept_id": "c_0818",
+      "is_primary": true
+    },
+    "s_0906": {
+      "lexeme_id": "w_0906",
+      "lexeme_kind": "word",
+      "concept_id": "c_0906",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0348": {
+      "display_form": "fronda",
+      "normalized_form": "fronda",
+      "pos": null
+    },
+    "w_0465": {
+      "display_form": "cocomero",
+      "normalized_form": "cocomero",
+      "pos": null
+    },
+    "w_0591": {
+      "display_form": "tintarella",
+      "normalized_form": "tintarella",
+      "pos": null
+    },
+    "w_0634": {
+      "display_form": "mancanza",
+      "normalized_form": "mancanza",
+      "pos": null
+    },
+    "w_0818": {
+      "display_form": "indole",
+      "normalized_form": "indole",
+      "pos": null
+    },
+    "w_0906": {
+      "display_form": "pozzo",
+      "normalized_form": "pozzo",
+      "pos": null
+    }
+  },
+  "expressions": {}
+}

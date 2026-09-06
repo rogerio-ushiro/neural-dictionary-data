@@ -1,0 +1,172 @@
+{
+  "shard": "f0",
+  "concepts": {
+    "c_0452": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Frutto tondo dalla buccia liscia, croccante e dal sapore tra il dolce e l'aspro.",
+        "example": "Mette sempre una mela nella borsa per lo spuntino."
+      }
+    },
+    "c_0621": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "La linea lontana dove sembrano toccarsi cielo e terra; al figurato, l'insieme delle prospettive che si aprono.",
+        "example": "Il sole si alzò lento sull'orizzonte del mare."
+      }
+    },
+    "c_0746": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "La famiglia nobile con i suoi antenati e discendenti.",
+        "example": "Appartiene a un casato che risale al Medioevo."
+      }
+    },
+    "c_0984": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Qualcosa di nuovo che prima non c'era o non si conosceva.",
+        "example": "L'arrivo del treno fu una grande novità per il paese."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0035",
+      "concept_b": "c_0452",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0073",
+      "concept_b": "c_0621",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0074",
+      "concept_b": "c_0621",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0075",
+      "concept_b": "c_0621",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0200",
+      "concept_b": "c_0746",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0203",
+      "concept_b": "c_0746",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0353",
+      "concept_b": "c_0452",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0390",
+      "concept_b": "c_0984",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    }
+  ],
+  "word_senses": {
+    "s_0452": {
+      "lexeme_id": "w_0452",
+      "lexeme_kind": "word",
+      "concept_id": "c_0452",
+      "is_primary": true
+    },
+    "s_0621": {
+      "lexeme_id": "w_0621",
+      "lexeme_kind": "word",
+      "concept_id": "c_0621",
+      "is_primary": true
+    },
+    "s_0746": {
+      "lexeme_id": "w_0746",
+      "lexeme_kind": "word",
+      "concept_id": "c_0746",
+      "is_primary": true
+    },
+    "s_0984": {
+      "lexeme_id": "w_0984",
+      "lexeme_kind": "word",
+      "concept_id": "c_0984",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0452": {
+      "display_form": "mela",
+      "normalized_form": "mela",
+      "pos": null
+    },
+    "w_0621": {
+      "display_form": "orizzonte",
+      "normalized_form": "orizzonte",
+      "pos": null
+    },
+    "w_0746": {
+      "display_form": "casato",
+      "normalized_form": "casato",
+      "pos": null
+    },
+    "w_0984": {
+      "display_form": "novità",
+      "normalized_form": "novita",
+      "pos": null
+    }
+  },
+  "expressions": {}
+}

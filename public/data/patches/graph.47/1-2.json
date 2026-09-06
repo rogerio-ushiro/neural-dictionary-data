@@ -1,0 +1,59 @@
+{
+  "pack": "graph.47",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0462",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Piccolo frutto rosso a granuli, simile alla mora, che cresce sui cespugli di montagna.",
+          "example": "Fecero una marmellata di lamponi a fine estate."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0596",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Del colore dell'oro; detto della pelle abbronzata dal sole.",
+          "example": "Aveva la pelle dorata dopo un mese di mare."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0633",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Il colore più scuro di tutti, quello dell'assenza di luce.",
+          "example": "Indossava un abito nero per il funerale."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0901",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Recipiente ampio e incassato che contiene acqua, in bagno o nelle fontane.",
+          "example": "I bambini sguazzavano nella vasca della fontana."
+        }
+      }
+    }
+  ]
+}

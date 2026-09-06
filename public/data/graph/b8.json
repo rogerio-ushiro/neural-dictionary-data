@@ -1,0 +1,192 @@
+{
+  "shard": "b8",
+  "concepts": {
+    "c_0261": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "L'insieme delle parole scritte che compongono un'opera; anche il contenuto rispetto alla forma.",
+        "example": "Ha corretto il testo prima di consegnarlo all'editore."
+      }
+    },
+    "c_0328": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Legame di affetto e fiducia tra persone che si vogliono bene senza legami di parentela.",
+        "example": "La loro amicizia dura da quando erano bambini."
+      }
+    },
+    "c_0531": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Grossa e minacciosa onda del mare in burrasca.",
+        "example": "I marosi facevano beccheggiare paurosamente il peschereccio."
+      }
+    },
+    "c_0878": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Ambiente chiuso di un edificio adibito a un uso; anche un esercizio pubblico dove si beve e si balla.",
+        "example": "Hanno affittato il locale al pianterreno per aprirci un bar."
+      }
+    },
+    "c_0892": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Filamento sottile di materiale animale, vegetale o artificiale, di cui sono fatti tessuti e corde.",
+        "example": "La corda è intrecciata con fibra vegetale."
+      }
+    },
+    "c_0917": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Ciò che si ottiene alla fine di un'azione o di un calcolo.",
+        "example": "Il risultato dell'esame è arrivato per posta."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0018",
+      "concept_b": "c_0261",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0023",
+      "concept_b": "c_0328",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0042",
+      "concept_b": "c_0531",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0325",
+      "concept_b": "c_0878",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0326",
+      "concept_b": "c_0892",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0353",
+      "concept_b": "c_0917",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    }
+  ],
+  "word_senses": {
+    "s_0261": {
+      "lexeme_id": "w_0261",
+      "lexeme_kind": "word",
+      "concept_id": "c_0261",
+      "is_primary": true
+    },
+    "s_0328": {
+      "lexeme_id": "w_0328",
+      "lexeme_kind": "word",
+      "concept_id": "c_0328",
+      "is_primary": true
+    },
+    "s_0531": {
+      "lexeme_id": "w_0531",
+      "lexeme_kind": "word",
+      "concept_id": "c_0531",
+      "is_primary": true
+    },
+    "s_0878": {
+      "lexeme_id": "w_0878",
+      "lexeme_kind": "word",
+      "concept_id": "c_0878",
+      "is_primary": true
+    },
+    "s_0892": {
+      "lexeme_id": "w_0892",
+      "lexeme_kind": "word",
+      "concept_id": "c_0892",
+      "is_primary": true
+    },
+    "s_0917": {
+      "lexeme_id": "w_0917",
+      "lexeme_kind": "word",
+      "concept_id": "c_0917",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0261": {
+      "display_form": "testo",
+      "normalized_form": "testo",
+      "pos": null
+    },
+    "w_0328": {
+      "display_form": "amicizia",
+      "normalized_form": "amicizia",
+      "pos": null
+    },
+    "w_0531": {
+      "display_form": "maroso",
+      "normalized_form": "maroso",
+      "pos": null
+    },
+    "w_0878": {
+      "display_form": "locale",
+      "normalized_form": "locale",
+      "pos": null
+    },
+    "w_0892": {
+      "display_form": "fibra",
+      "normalized_form": "fibra",
+      "pos": null
+    },
+    "w_0917": {
+      "display_form": "risultato",
+      "normalized_form": "risultato",
+      "pos": null
+    }
+  },
+  "expressions": {}
+}

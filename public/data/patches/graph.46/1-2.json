@@ -1,0 +1,72 @@
+{
+  "pack": "graph.46",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0322",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Animale che cammina appoggiandosi su quattro arti, come il cavallo o il cane.",
+          "example": "Nella stalla c'erano diversi quadrupedi da lavoro."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0357",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Odore gradevole, come quello dei fiori.",
+          "example": "Nell'aria si spandeva il profumo dei tigli."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0807",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Ampia superficie piatta e uniforme.",
+          "example": "Davanti a loro si apriva una distesa di sabbia bianca."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0872",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Reso mansueto e abituato a vivere accanto all'uomo, detto di un animale.",
+          "example": "Il gatto selvatico non si lascia addomesticare facilmente."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0898",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Fusto sottile ed erbaceo che regge il fiore o la foglia.",
+          "example": "Il gambo del girasole era spesso come un polso."
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "shard": "a0",
+  "concepts": {
+    "c_0117": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Il luogo che si vuole raggiungere alla fine di un viaggio; al figurato, lo scopo verso cui si tende.",
+        "example": "La meta della gita era un lago di montagna."
+      }
+    },
+    "c_0773": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Il potere riconosciuto di comandare e di farsi obbedire.",
+        "example": "L'insegnante impose la sua autorità con calma."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0007",
+      "concept_b": "c_0117",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0117",
+      "concept_b": "c_0303",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0228",
+      "concept_b": "c_0773",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    }
+  ],
+  "word_senses": {
+    "s_0117": {
+      "lexeme_id": "w_0117",
+      "lexeme_kind": "word",
+      "concept_id": "c_0117",
+      "is_primary": true
+    },
+    "s_0773": {
+      "lexeme_id": "w_0773",
+      "lexeme_kind": "word",
+      "concept_id": "c_0773",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0117": {
+      "display_form": "meta",
+      "normalized_form": "meta",
+      "pos": null
+    },
+    "w_0773": {
+      "display_form": "autorità",
+      "normalized_form": "autorita",
+      "pos": null
+    }
+  },
+  "expressions": {}
+}

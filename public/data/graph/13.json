@@ -1,0 +1,252 @@
+{
+  "shard": "13",
+  "concepts": {
+    "c_0084": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Calore secco e opprimente che secca la gola e la terra.",
+        "example": "Nell'arsura di luglio i campi diventavano gialli."
+      }
+    },
+    "c_0170": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "La terra in cui si è nati, a cui ci si sente legati.",
+        "example": "Ha lasciato la patria a vent'anni e non è più tornato."
+      }
+    },
+    "c_0703": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Assalto rapido e deciso contro un avversario; anche la quantità di energia caricata in una batteria.",
+        "example": "La carica dei soldati sfondò la linea nemica."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0004",
+      "concept_b": "c_0084",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0005",
+      "concept_b": "c_0084",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0011",
+      "concept_b": "c_0170",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0080",
+      "concept_b": "c_0084",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0084",
+      "concept_b": "c_0100",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0084",
+      "concept_b": "c_0644",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0084",
+      "concept_b": "c_0645",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0084",
+      "concept_b": "c_0646",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0084",
+      "concept_b": "c_0647",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0084",
+      "concept_b": "c_0648",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0084",
+      "concept_b": "c_0649",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0084",
+      "concept_b": "c_0650",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0084",
+      "concept_b": "c_0651",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0084",
+      "concept_b": "c_0652",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0084",
+      "concept_b": "c_0653",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0084",
+      "concept_b": "c_0654",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0084",
+      "concept_b": "c_0655",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0113",
+      "concept_b": "c_0703",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    }
+  ],
+  "word_senses": {
+    "s_0084": {
+      "lexeme_id": "w_0084",
+      "lexeme_kind": "word",
+      "concept_id": "c_0084",
+      "is_primary": true
+    },
+    "s_0170": {
+      "lexeme_id": "w_0170",
+      "lexeme_kind": "word",
+      "concept_id": "c_0170",
+      "is_primary": true
+    },
+    "s_0703": {
+      "lexeme_id": "w_0703",
+      "lexeme_kind": "word",
+      "concept_id": "c_0703",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0084": {
+      "display_form": "arsura",
+      "normalized_form": "arsura",
+      "pos": null
+    },
+    "w_0170": {
+      "display_form": "patria",
+      "normalized_form": "patria",
+      "pos": null
+    },
+    "w_0703": {
+      "display_form": "carica",
+      "normalized_form": "carica",
+      "pos": null
+    }
+  },
+  "expressions": {}
+}

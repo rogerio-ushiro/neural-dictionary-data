@@ -1,0 +1,33 @@
+{
+  "pack": "graph.e2",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0335",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Prolungamento della spina dorsale di molti animali, usato per equilibrio o per comunicare; al figurato, la parte finale di qualcosa (la coda della fila).",
+          "example": "Il gatto agitava la coda infastidito."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0865",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Lamina dura all'estremità delle dita, che protegge il polpastrello.",
+          "example": "Si è spezzata un'unghia aprendo la scatola."
+        }
+      }
+    }
+  ]
+}

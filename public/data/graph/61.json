@@ -1,0 +1,102 @@
+{
+  "shard": "61",
+  "concepts": {
+    "c_0150": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "L'azione di tenere qualcosa dentro certi limiti perché non trabocchi o non si sparga.",
+        "example": "La diga serve al contenimento delle piene."
+      }
+    },
+    "c_0428": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Ciascuna delle sostanze che si uniscono per preparare un piatto.",
+        "example": "Manca un ingrediente per completare la ricetta."
+      }
+    },
+    "c_0727": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Qualità di ciò che ha forma tonda o arrotondata.",
+        "example": "La rotondità dei ciottoli è dovuta all'azione dell'acqua."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0009",
+      "concept_b": "c_0150",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0033",
+      "concept_b": "c_0428",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0135",
+      "concept_b": "c_0727",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    }
+  ],
+  "word_senses": {
+    "s_0150": {
+      "lexeme_id": "w_0150",
+      "lexeme_kind": "word",
+      "concept_id": "c_0150",
+      "is_primary": true
+    },
+    "s_0428": {
+      "lexeme_id": "w_0428",
+      "lexeme_kind": "word",
+      "concept_id": "c_0428",
+      "is_primary": true
+    },
+    "s_0727": {
+      "lexeme_id": "w_0727",
+      "lexeme_kind": "word",
+      "concept_id": "c_0727",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0150": {
+      "display_form": "contenimento",
+      "normalized_form": "contenimento",
+      "pos": null
+    },
+    "w_0428": {
+      "display_form": "ingrediente",
+      "normalized_form": "ingrediente",
+      "pos": null
+    },
+    "w_0727": {
+      "display_form": "rotondità",
+      "normalized_form": "rotondita",
+      "pos": null
+    }
+  },
+  "expressions": {}
+}

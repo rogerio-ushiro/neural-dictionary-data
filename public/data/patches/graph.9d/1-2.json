@@ -1,0 +1,72 @@
+{
+  "pack": "graph.9d",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0190",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Luogo dove ci si mette al sicuro da un pericolo o dalle intemperie.",
+          "example": "Trovarono rifugio in una baita durante il temporale."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0473",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Denso e morbido come una crema.",
+          "example": "Il risotto era cotto al punto giusto, ben cremoso."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0587",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Pietra che attira il ferro e ha due poli magnetici.",
+          "example": "Attaccò il disegno al frigorifero con una calamita."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0604",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Calore appassionato con cui ci si dedica a qualcosa.",
+          "example": "Lavora al progetto con grande fervore."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0976",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Il tenersi in disparte con freddezza, senza coinvolgersi.",
+          "example": "Rispose con un distacco che ferì più di un rimprovero."
+        }
+      }
+    }
+  ]
+}

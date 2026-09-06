@@ -1,0 +1,232 @@
+{
+  "shard": "97",
+  "concepts": {
+    "c_0264": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Scritto in cui si espone e si difende un'idea su un argomento.",
+        "example": "Ha pubblicato un saggio sulla storia della cucina."
+      }
+    },
+    "c_0358": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Qualità di ciò che è gradevole a vedersi o a sentirsi e suscita ammirazione.",
+        "example": "Si fermò a contemplare la bellezza del paesaggio."
+      }
+    },
+    "c_0534": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Il diffondersi di un'onda, di un suono o di una notizia da un punto verso lo spazio circostante.",
+        "example": "La propagazione del suono è più lenta di quella della luce."
+      }
+    },
+    "c_0808": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Strato uniforme che ricopre una superficie, come l'erba di un prato.",
+        "example": "Un manto d'erba fresca copriva la radura."
+      }
+    },
+    "c_0897": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Pianta legnosa più bassa di un albero, ramificata fin dal suolo.",
+        "example": "Ha potato gli arbusti di lavanda lungo il muretto."
+      }
+    },
+    "c_0912": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Crescere folto e abbondante, detto della vegetazione.",
+        "example": "Con le piogge il giardino cominciò a lussureggiare."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0018",
+      "concept_b": "c_0264",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0027",
+      "concept_b": "c_0358",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0042",
+      "concept_b": "c_0534",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0298",
+      "concept_b": "c_0808",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0304",
+      "concept_b": "c_0808",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0339",
+      "concept_b": "c_0897",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0352",
+      "concept_b": "c_0897",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0352",
+      "concept_b": "c_0912",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0358",
+      "concept_b": "c_0387",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0358",
+      "concept_b": "c_0390",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    }
+  ],
+  "word_senses": {
+    "s_0264": {
+      "lexeme_id": "w_0264",
+      "lexeme_kind": "word",
+      "concept_id": "c_0264",
+      "is_primary": true
+    },
+    "s_0358": {
+      "lexeme_id": "w_0358",
+      "lexeme_kind": "word",
+      "concept_id": "c_0358",
+      "is_primary": true
+    },
+    "s_0534": {
+      "lexeme_id": "w_0534",
+      "lexeme_kind": "word",
+      "concept_id": "c_0534",
+      "is_primary": true
+    },
+    "s_0808": {
+      "lexeme_id": "w_0808",
+      "lexeme_kind": "word",
+      "concept_id": "c_0808",
+      "is_primary": true
+    },
+    "s_0897": {
+      "lexeme_id": "w_0897",
+      "lexeme_kind": "word",
+      "concept_id": "c_0897",
+      "is_primary": true
+    },
+    "s_0912": {
+      "lexeme_id": "w_0912",
+      "lexeme_kind": "word",
+      "concept_id": "c_0912",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0264": {
+      "display_form": "saggio",
+      "normalized_form": "saggio",
+      "pos": null
+    },
+    "w_0358": {
+      "display_form": "bellezza",
+      "normalized_form": "bellezza",
+      "pos": null
+    },
+    "w_0534": {
+      "display_form": "propagazione",
+      "normalized_form": "propagazione",
+      "pos": null
+    },
+    "w_0808": {
+      "display_form": "manto",
+      "normalized_form": "manto",
+      "pos": null
+    },
+    "w_0897": {
+      "display_form": "arbusto",
+      "normalized_form": "arbusto",
+      "pos": null
+    },
+    "w_0912": {
+      "display_form": "lussureggiare",
+      "normalized_form": "lussureggiare",
+      "pos": null
+    }
+  },
+  "expressions": {}
+}

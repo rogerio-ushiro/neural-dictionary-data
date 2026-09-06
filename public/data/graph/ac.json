@@ -1,0 +1,192 @@
+{
+  "shard": "ac",
+  "concepts": {
+    "c_0236": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "La madre del padre o della madre.",
+        "example": "La nonna raccontava sempre storie di quando era ragazza."
+      }
+    },
+    "c_0283": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Chi ha stima e ammirazione per qualcuno.",
+        "example": "Alla conferenza c'erano molti suoi estimatori."
+      }
+    },
+    "c_0412": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Distesa d'acqua ferma e poco profonda, più piccola di un lago.",
+        "example": "Le rane gracidavano nello stagno dietro il casale."
+      }
+    },
+    "c_0566": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Isola molto piccola.",
+        "example": "Su quell'isoletta non abita nessuno tutto l'anno."
+      }
+    },
+    "c_0694": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Lunga fila di persone e animali da soma che viaggiano insieme attraverso zone deserte.",
+        "example": "La carovana si fermò all'oasi per abbeverare i cammelli."
+      }
+    },
+    "c_0957": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "L'insieme dei gusti nel vestire e nei costumi che si diffondono in un periodo e poi passano.",
+        "example": "Quei pantaloni larghi sono tornati di moda."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0016",
+      "concept_b": "c_0236",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0019",
+      "concept_b": "c_0283",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0032",
+      "concept_b": "c_0412",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0048",
+      "concept_b": "c_0566",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0113",
+      "concept_b": "c_0694",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0374",
+      "concept_b": "c_0957",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    }
+  ],
+  "word_senses": {
+    "s_0236": {
+      "lexeme_id": "w_0236",
+      "lexeme_kind": "word",
+      "concept_id": "c_0236",
+      "is_primary": true
+    },
+    "s_0283": {
+      "lexeme_id": "w_0283",
+      "lexeme_kind": "word",
+      "concept_id": "c_0283",
+      "is_primary": true
+    },
+    "s_0412": {
+      "lexeme_id": "w_0412",
+      "lexeme_kind": "word",
+      "concept_id": "c_0412",
+      "is_primary": true
+    },
+    "s_0566": {
+      "lexeme_id": "w_0566",
+      "lexeme_kind": "word",
+      "concept_id": "c_0566",
+      "is_primary": true
+    },
+    "s_0694": {
+      "lexeme_id": "w_0694",
+      "lexeme_kind": "word",
+      "concept_id": "c_0694",
+      "is_primary": true
+    },
+    "s_0957": {
+      "lexeme_id": "w_0957",
+      "lexeme_kind": "word",
+      "concept_id": "c_0957",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0236": {
+      "display_form": "nonna",
+      "normalized_form": "nonna",
+      "pos": null
+    },
+    "w_0283": {
+      "display_form": "estimatore",
+      "normalized_form": "estimatore",
+      "pos": null
+    },
+    "w_0412": {
+      "display_form": "stagno",
+      "normalized_form": "stagno",
+      "pos": null
+    },
+    "w_0566": {
+      "display_form": "isoletta",
+      "normalized_form": "isoletta",
+      "pos": null
+    },
+    "w_0694": {
+      "display_form": "carovana",
+      "normalized_form": "carovana",
+      "pos": null
+    },
+    "w_0957": {
+      "display_form": "moda",
+      "normalized_form": "moda",
+      "pos": null
+    }
+  },
+  "expressions": {}
+}

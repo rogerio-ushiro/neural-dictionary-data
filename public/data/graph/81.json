@@ -1,0 +1,252 @@
+{
+  "shard": "81",
+  "concepts": {
+    "c_0099": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Innalzamento della temperatura del corpo che accompagna molte malattie.",
+        "example": "È rimasto a casa con la febbre a trentanove."
+      }
+    },
+    "c_0374": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Massa d'acqua o d'aria che si muove con continuità in una direzione; indica anche il passaggio di elettricità in un filo e, al figurato, un indirizzo di pensiero condiviso (una corrente artistica).",
+        "example": "La corrente del fiume trascinava via i rami."
+      }
+    },
+    "c_0824": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Ciascuno dei pregi o dei difetti che compongono il valore di una persona o di una cosa.",
+        "example": "La sincerità è la sua qualità migliore."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0005",
+      "concept_b": "c_0099",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0028",
+      "concept_b": "c_0374",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0030",
+      "concept_b": "c_0374",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0042",
+      "concept_b": "c_0374",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0118",
+      "concept_b": "c_0374",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0300",
+      "concept_b": "c_0824",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0368",
+      "concept_b": "c_0374",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0374",
+      "concept_b": "c_0425",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0374",
+      "concept_b": "c_0702",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0374",
+      "concept_b": "c_0705",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0374",
+      "concept_b": "c_0714",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0374",
+      "concept_b": "c_0734",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0374",
+      "concept_b": "c_0837",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0374",
+      "concept_b": "c_0954",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0374",
+      "concept_b": "c_0955",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0374",
+      "concept_b": "c_0956",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0374",
+      "concept_b": "c_0957",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0374",
+      "concept_b": "c_0958",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    }
+  ],
+  "word_senses": {
+    "s_0099": {
+      "lexeme_id": "w_0099",
+      "lexeme_kind": "word",
+      "concept_id": "c_0099",
+      "is_primary": true
+    },
+    "s_0374": {
+      "lexeme_id": "w_0374",
+      "lexeme_kind": "word",
+      "concept_id": "c_0374",
+      "is_primary": true
+    },
+    "s_0824": {
+      "lexeme_id": "w_0824",
+      "lexeme_kind": "word",
+      "concept_id": "c_0824",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0099": {
+      "display_form": "febbre",
+      "normalized_form": "febbre",
+      "pos": null
+    },
+    "w_0374": {
+      "display_form": "corrente",
+      "normalized_form": "corrente",
+      "pos": null
+    },
+    "w_0824": {
+      "display_form": "qualità",
+      "normalized_form": "qualita",
+      "pos": null
+    }
+  },
+  "expressions": {}
+}

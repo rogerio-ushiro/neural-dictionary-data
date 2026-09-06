@@ -1,0 +1,33 @@
+{
+  "pack": "graph.78",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0364",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Fragile e fine, che si rovina o si offende facilmente.",
+          "example": "Il fiore ha petali delicati che appassiscono in un giorno."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0834",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Costruzione che unisce due sponde permettendo di attraversare un ostacolo; al figurato, ciò che mette in contatto due parti.",
+          "example": "Il ponte di legno scricchiolava sotto i passi."
+        }
+      }
+    }
+  ]
+}

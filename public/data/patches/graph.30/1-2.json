@@ -1,0 +1,33 @@
+{
+  "pack": "graph.30",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0027",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Parte della pianta, spesso colorata e profumata, da cui si sviluppa il frutto; si regala e si usa per ornare.",
+          "example": "Ha colto un fiore di campo e se l'è messo tra i capelli."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0092",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Lingua di gas incandescente che si alza da qualcosa che brucia.",
+          "example": "La fiamma della candela tremolava alla corrente."
+        }
+      }
+    }
+  ]
+}

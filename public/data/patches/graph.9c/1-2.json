@@ -1,0 +1,72 @@
+{
+  "pack": "graph.9c",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0009",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Contenitore rigido con manico, e spesso rotelle, in cui si mettono i vestiti e l'occorrente per un viaggio.",
+          "example": "Ha chiuso a fatica la valigia troppo piena."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0100",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Bisogno pressante di bere, con la gola secca.",
+          "example": "Dopo la corsa aveva una sete tremenda."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0485",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Insieme di atti solenni con cui si celebra un fatto pubblico o religioso.",
+          "example": "La cerimonia di premiazione si tenne in teatro."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0711",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Macchina che trasforma un tipo di energia in movimento, facendo funzionare veicoli e apparecchi; al figurato, la spinta che fa andare avanti qualcosa (il motore dell'economia).",
+          "example": "Il meccanico ha smontato il motore per ripararlo."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0764",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "L'aspetto esterno e riconoscibile di una cosa, il suo contorno.",
+          "example": "Modellò la creta fino a darle la forma di un vaso."
+        }
+      }
+    }
+  ]
+}

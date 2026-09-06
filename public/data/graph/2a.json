@@ -1,0 +1,142 @@
+{
+  "shard": "2a",
+  "concepts": {
+    "c_0267": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Esposizione di una vicenda vera o inventata fatta a voce o per iscritto.",
+        "example": "Il nonno faceva sempre lo stesso racconto di guerra."
+      }
+    },
+    "c_0537": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Qualsiasi cosa, gesto, luce o suono, con cui si trasmette a distanza un'informazione.",
+        "example": "Il faro manda un segnale ogni dieci secondi."
+      }
+    },
+    "c_0894": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Piccola cavità della pelle da cui nasce un pelo.",
+        "example": "Il follicolo infiammato aveva formato un piccolo brufolo."
+      }
+    },
+    "c_0911": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Erba fine e giovane, appena spuntata.",
+        "example": "Sul prato spuntava un velo di erbetta nuova."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0018",
+      "concept_b": "c_0267",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0042",
+      "concept_b": "c_0537",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0267",
+      "concept_b": "c_0272",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0326",
+      "concept_b": "c_0894",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0352",
+      "concept_b": "c_0911",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    }
+  ],
+  "word_senses": {
+    "s_0267": {
+      "lexeme_id": "w_0267",
+      "lexeme_kind": "word",
+      "concept_id": "c_0267",
+      "is_primary": true
+    },
+    "s_0537": {
+      "lexeme_id": "w_0537",
+      "lexeme_kind": "word",
+      "concept_id": "c_0537",
+      "is_primary": true
+    },
+    "s_0894": {
+      "lexeme_id": "w_0894",
+      "lexeme_kind": "word",
+      "concept_id": "c_0894",
+      "is_primary": true
+    },
+    "s_0911": {
+      "lexeme_id": "w_0911",
+      "lexeme_kind": "word",
+      "concept_id": "c_0911",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0267": {
+      "display_form": "racconto",
+      "normalized_form": "racconto",
+      "pos": null
+    },
+    "w_0537": {
+      "display_form": "segnale",
+      "normalized_form": "segnale",
+      "pos": null
+    },
+    "w_0894": {
+      "display_form": "follicolo",
+      "normalized_form": "follicolo",
+      "pos": null
+    },
+    "w_0911": {
+      "display_form": "erbetta",
+      "normalized_form": "erbetta",
+      "pos": null
+    }
+  },
+  "expressions": {}
+}

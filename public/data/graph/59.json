@@ -1,0 +1,112 @@
+{
+  "shard": "59",
+  "concepts": {
+    "c_0068": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Corpo celeste luminoso, in particolare il sole.",
+        "example": "Al calar della notte comparve il primo astro."
+      }
+    },
+    "c_0114": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Il percorso che si compie per andare da un luogo a un altro, di solito breve e abituale.",
+        "example": "Il tragitto da casa all'ufficio dura venti minuti."
+      }
+    },
+    "c_0770": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Chi apre la strada a chi verrà dopo, anticipando idee o scoperte.",
+        "example": "È considerato un precursore della medicina moderna."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0003",
+      "concept_b": "c_0068",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0007",
+      "concept_b": "c_0114",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0114",
+      "concept_b": "c_0159",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0226",
+      "concept_b": "c_0770",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    }
+  ],
+  "word_senses": {
+    "s_0068": {
+      "lexeme_id": "w_0068",
+      "lexeme_kind": "word",
+      "concept_id": "c_0068",
+      "is_primary": true
+    },
+    "s_0114": {
+      "lexeme_id": "w_0114",
+      "lexeme_kind": "word",
+      "concept_id": "c_0114",
+      "is_primary": true
+    },
+    "s_0770": {
+      "lexeme_id": "w_0770",
+      "lexeme_kind": "word",
+      "concept_id": "c_0770",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0068": {
+      "display_form": "astro",
+      "normalized_form": "astro",
+      "pos": null
+    },
+    "w_0114": {
+      "display_form": "tragitto",
+      "normalized_form": "tragitto",
+      "pos": null
+    },
+    "w_0770": {
+      "display_form": "precursore",
+      "normalized_form": "precursore",
+      "pos": null
+    }
+  },
+  "expressions": {}
+}

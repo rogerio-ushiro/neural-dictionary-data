@@ -1,0 +1,172 @@
+{
+  "shard": "a9",
+  "concepts": {
+    "c_0129": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Macchina motrice che spinge o traina i vagoni di un treno.",
+        "example": "Il locomotore elettrico è più silenzioso di quello diesel."
+      }
+    },
+    "c_0451": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Frutto dalla buccia spessa e profumata e dalla polpa a spicchi, come l'arancia e il limone.",
+        "example": "Spremette un agrume per la colazione."
+      }
+    },
+    "c_0622": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Il punto o il momento in cui una cosa comincia.",
+        "example": "L'inizio del film è più lento del resto."
+      }
+    },
+    "c_0745": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Ciò su cui si regge una costruzione o un ragionamento; la parte più profonda e solida.",
+        "example": "Le accuse si sono rivelate prive di fondamento."
+      }
+    },
+    "c_0987": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Energia fisica e forza piena di chi è in salute; riferito a leggi e regole, l'essere in efficacia (una norma entra in vigore).",
+        "example": "Nonostante gli anni, lavora ancora con grande vigore."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0008",
+      "concept_b": "c_0129",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0035",
+      "concept_b": "c_0451",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0074",
+      "concept_b": "c_0622",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0200",
+      "concept_b": "c_0745",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0371",
+      "concept_b": "c_0745",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0390",
+      "concept_b": "c_0987",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    }
+  ],
+  "word_senses": {
+    "s_0129": {
+      "lexeme_id": "w_0129",
+      "lexeme_kind": "word",
+      "concept_id": "c_0129",
+      "is_primary": true
+    },
+    "s_0451": {
+      "lexeme_id": "w_0451",
+      "lexeme_kind": "word",
+      "concept_id": "c_0451",
+      "is_primary": true
+    },
+    "s_0622": {
+      "lexeme_id": "w_0622",
+      "lexeme_kind": "word",
+      "concept_id": "c_0622",
+      "is_primary": true
+    },
+    "s_0745": {
+      "lexeme_id": "w_0745",
+      "lexeme_kind": "word",
+      "concept_id": "c_0745",
+      "is_primary": true
+    },
+    "s_0987": {
+      "lexeme_id": "w_0987",
+      "lexeme_kind": "word",
+      "concept_id": "c_0987",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0129": {
+      "display_form": "locomotore",
+      "normalized_form": "locomotore",
+      "pos": null
+    },
+    "w_0451": {
+      "display_form": "agrume",
+      "normalized_form": "agrume",
+      "pos": null
+    },
+    "w_0622": {
+      "display_form": "inizio",
+      "normalized_form": "inizio",
+      "pos": null
+    },
+    "w_0745": {
+      "display_form": "fondamento",
+      "normalized_form": "fondamento",
+      "pos": null
+    },
+    "w_0987": {
+      "display_form": "vigore",
+      "normalized_form": "vigore",
+      "pos": null
+    }
+  },
+  "expressions": {}
+}

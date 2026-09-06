@@ -1,0 +1,192 @@
+{
+  "shard": "93",
+  "concepts": {
+    "c_0242": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Persona molto avanti negli anni.",
+        "example": "L'anziano del paese ricorda ancora la guerra."
+      }
+    },
+    "c_0512": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Assenza totale o quasi di luce.",
+        "example": "Al buio si muoveva in casa senza sbattere da nessuna parte."
+      }
+    },
+    "c_0589": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Distesa di sabbia lungo la riva del mare.",
+        "example": "L'arenile si estendeva per chilometri deserto."
+      }
+    },
+    "c_0978": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "L'atto di far entrare e uscire aria dai polmoni per vivere; anche un attimo di sollievo.",
+        "example": "Trattenne il respiro mentre si immergeva."
+      }
+    },
+    "c_1014": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Asta di legno con una pala a un capo, che si immerge nell'acqua per spingere avanti la barca.",
+        "example": "Tirò dentro i remi e lasciò scivolare la barca."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0016",
+      "concept_b": "c_0242",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0039",
+      "concept_b": "c_0512",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0058",
+      "concept_b": "c_0589",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0078",
+      "concept_b": "c_0512",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0354",
+      "concept_b": "c_0512",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0387",
+      "concept_b": "c_0978",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0510",
+      "concept_b": "c_0512",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0049",
+      "concept_b": "c_1014",
+      "relation_type": "parti",
+      "direction_hint": "symmetric",
+      "association_strength": 0.7,
+      "confidence": 0.85,
+      "status": "validated",
+      "revision": 2
+    }
+  ],
+  "word_senses": {
+    "s_0242": {
+      "lexeme_id": "w_0242",
+      "lexeme_kind": "word",
+      "concept_id": "c_0242",
+      "is_primary": true
+    },
+    "s_0512": {
+      "lexeme_id": "w_0512",
+      "lexeme_kind": "word",
+      "concept_id": "c_0512",
+      "is_primary": true
+    },
+    "s_0589": {
+      "lexeme_id": "w_0589",
+      "lexeme_kind": "word",
+      "concept_id": "c_0589",
+      "is_primary": true
+    },
+    "s_0978": {
+      "lexeme_id": "w_0978",
+      "lexeme_kind": "word",
+      "concept_id": "c_0978",
+      "is_primary": true
+    },
+    "s_1014": {
+      "lexeme_id": "w_1014",
+      "lexeme_kind": "word",
+      "concept_id": "c_1014",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0242": {
+      "display_form": "anziano",
+      "normalized_form": "anziano",
+      "pos": null
+    },
+    "w_0512": {
+      "display_form": "buio",
+      "normalized_form": "buio",
+      "pos": null
+    },
+    "w_0589": {
+      "display_form": "arenile",
+      "normalized_form": "arenile",
+      "pos": null
+    },
+    "w_0978": {
+      "display_form": "respiro",
+      "normalized_form": "respiro",
+      "pos": null
+    },
+    "w_1014": {
+      "display_form": "remo",
+      "normalized_form": "remo",
+      "pos": "sostantivo"
+    }
+  },
+  "expressions": {}
+}

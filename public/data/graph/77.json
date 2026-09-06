@@ -1,0 +1,222 @@
+{
+  "shard": "77",
+  "concepts": {
+    "c_0192": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Struttura verticale di mattoni o pietra che divide o recinta uno spazio.",
+        "example": "Hanno tinteggiato il muro del giardino di bianco."
+      }
+    },
+    "c_0471": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Freddo molto intenso che ghiaccia l'acqua e irrigidisce il terreno; in senso figurato, un improvviso raffreddarsi dei rapporti tra persone.",
+        "example": "Il gelo notturno ha rovinato le piante sul balcone."
+      }
+    },
+    "c_0585": {
+      "revision": 3,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Rombo cupo e prolungato che segue il lampo durante un temporale.",
+        "example": "Il tuono fece sobbalzare il cane."
+      }
+    },
+    "c_0606": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Slancio pieno di gioia con cui ci si getta in un'impresa.",
+        "example": "Accolse la proposta con entusiasmo."
+      }
+    },
+    "c_0974": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Qualità di ciò che non si piega né si adatta, per materiale o per carattere.",
+        "example": "La rigidità dell'acciaio lo rende adatto alle travi."
+      }
+    },
+    "c_1018": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Catturare pesci con la rete, la lenza o le mani.",
+        "example": "Andava a pescare sul molo ogni domenica all'alba."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0012",
+      "concept_b": "c_0192",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0036",
+      "concept_b": "c_0471",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0052",
+      "concept_b": "c_0585",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0065",
+      "concept_b": "c_0606",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0382",
+      "concept_b": "c_0471",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0382",
+      "concept_b": "c_0974",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0390",
+      "concept_b": "c_0471",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0392",
+      "concept_b": "c_0585",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0049",
+      "concept_b": "c_1018",
+      "relation_type": "azioni",
+      "direction_hint": "symmetric",
+      "association_strength": 0.6,
+      "confidence": 0.75,
+      "status": "validated",
+      "revision": 2
+    }
+  ],
+  "word_senses": {
+    "s_0192": {
+      "lexeme_id": "w_0192",
+      "lexeme_kind": "word",
+      "concept_id": "c_0192",
+      "is_primary": true
+    },
+    "s_0471": {
+      "lexeme_id": "w_0471",
+      "lexeme_kind": "word",
+      "concept_id": "c_0471",
+      "is_primary": true
+    },
+    "s_0585": {
+      "lexeme_id": "w_0585",
+      "lexeme_kind": "word",
+      "concept_id": "c_0585",
+      "is_primary": true
+    },
+    "s_0606": {
+      "lexeme_id": "w_0606",
+      "lexeme_kind": "word",
+      "concept_id": "c_0606",
+      "is_primary": true
+    },
+    "s_0974": {
+      "lexeme_id": "w_0974",
+      "lexeme_kind": "word",
+      "concept_id": "c_0974",
+      "is_primary": true
+    },
+    "s_1018": {
+      "lexeme_id": "w_1018",
+      "lexeme_kind": "word",
+      "concept_id": "c_1018",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0192": {
+      "display_form": "muro",
+      "normalized_form": "muro",
+      "pos": null
+    },
+    "w_0471": {
+      "display_form": "gelo",
+      "normalized_form": "gelo",
+      "pos": null
+    },
+    "w_0585": {
+      "display_form": "tuono",
+      "normalized_form": "tuono",
+      "pos": null
+    },
+    "w_0606": {
+      "display_form": "entusiasmo",
+      "normalized_form": "entusiasmo",
+      "pos": null
+    },
+    "w_0974": {
+      "display_form": "rigidità",
+      "normalized_form": "rigidita",
+      "pos": null
+    },
+    "w_1018": {
+      "display_form": "pescare",
+      "normalized_form": "pescare",
+      "pos": "verbo"
+    }
+  },
+  "expressions": {}
+}

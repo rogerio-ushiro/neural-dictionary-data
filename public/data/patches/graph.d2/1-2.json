@@ -1,0 +1,111 @@
+{
+  "pack": "graph.d2",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0168",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "La zona fuori dalle città, coltivata e poco abitata.",
+          "example": "D'estate si trasferiscono in campagna dai nonni."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0234",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Chi deve rispondere di qualcosa o di qualcuno davanti agli altri.",
+          "example": "È il responsabile della sicurezza del cantiere."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0281",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Chi partecipa a un'impresa comune, in particolare economica.",
+          "example": "È entrato come socio nello studio dell'amico."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0410",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Superficie liscia e lucida che riflette le immagini; al figurato, una distesa d'acqua ferma e limpida.",
+          "example": "Il lago era un vero specchio all'alba."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0564",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Gruppo di isole vicine tra loro nello stesso tratto di mare.",
+          "example": "Navigarono per giorni tra le isole dell'arcipelago."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0696",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Gruppo di persone disposte in file ordinate, soprattutto soldati.",
+          "example": "Una schiera di volontari ripuliva la spiaggia."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0739",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Zona abitata alla periferia di una città, tra questa e la campagna.",
+          "example": "Vivono in un sobborgo tranquillo ben collegato al centro."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0955",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Insieme dei fatti che si intrecciano in una storia; nei tessuti, l'ordito di fili che regge la stoffa.",
+          "example": "La trama del romanzo si complica nel secondo capitolo."
+        }
+      }
+    }
+  ]
+}

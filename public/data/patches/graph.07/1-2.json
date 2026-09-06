@@ -1,0 +1,46 @@
+{
+  "pack": "graph.07",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0314",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Il portare persone o cose da un luogo a un altro con un mezzo; indica anche uno slancio improvviso di affetto o entusiasmo.",
+          "example": "Il trasporto delle merci avviene di notte."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0383",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Tristezza vaga e senza causa precisa, spesso venata di dolcezza.",
+          "example": "Le giornate di pioggia gli mettevano addosso una certa malinconia."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0844",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Belva feroce e temibile, spesso di grossa taglia.",
+          "example": "Nella leggenda l'eroe affronta una belva mostruosa."
+        }
+      }
+    }
+  ]
+}

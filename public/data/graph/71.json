@@ -1,0 +1,132 @@
+{
+  "shard": "71",
+  "concepts": {
+    "c_0262": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Opera che espone in modo ordinato e completo una materia; anche un accordo tra Stati.",
+        "example": "Ha scritto un trattato di agricoltura in tre volumi."
+      }
+    },
+    "c_0532": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Onda molto grande e imponente, che avanza come un muro d'acqua.",
+        "example": "Un cavallone spazzò via l'ombrellone."
+      }
+    },
+    "c_0891": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Qualità di ciò che è coperto di peli duri e irti.",
+        "example": "L'ispidità della barba di qualche giorno le graffiava la guancia."
+      }
+    },
+    "c_0914": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Ciò che è ottenuto da una lavorazione o da un processo, pronto per l'uso o la vendita.",
+        "example": "Nello scaffale sono esposti i prodotti dell'azienda agricola."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0018",
+      "concept_b": "c_0262",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0042",
+      "concept_b": "c_0532",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0326",
+      "concept_b": "c_0891",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0353",
+      "concept_b": "c_0914",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    }
+  ],
+  "word_senses": {
+    "s_0262": {
+      "lexeme_id": "w_0262",
+      "lexeme_kind": "word",
+      "concept_id": "c_0262",
+      "is_primary": true
+    },
+    "s_0532": {
+      "lexeme_id": "w_0532",
+      "lexeme_kind": "word",
+      "concept_id": "c_0532",
+      "is_primary": true
+    },
+    "s_0891": {
+      "lexeme_id": "w_0891",
+      "lexeme_kind": "word",
+      "concept_id": "c_0891",
+      "is_primary": true
+    },
+    "s_0914": {
+      "lexeme_id": "w_0914",
+      "lexeme_kind": "word",
+      "concept_id": "c_0914",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0262": {
+      "display_form": "trattato",
+      "normalized_form": "trattato",
+      "pos": null
+    },
+    "w_0532": {
+      "display_form": "cavallone",
+      "normalized_form": "cavallone",
+      "pos": null
+    },
+    "w_0891": {
+      "display_form": "ispidità",
+      "normalized_form": "ispidita",
+      "pos": null
+    },
+    "w_0914": {
+      "display_form": "prodotto",
+      "normalized_form": "prodotto",
+      "pos": null
+    }
+  },
+  "expressions": {}
+}

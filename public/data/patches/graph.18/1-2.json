@@ -1,0 +1,33 @@
+{
+  "pack": "graph.18",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0012",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Edificio in cui si abita; al figurato, il senso di appartenenza e di rifugio che dà un luogo.",
+          "example": "Rientrò a casa che era già buio."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0179",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Piccolo agglomerato di case fuori dal centro di un comune.",
+          "example": "Abita in una borgata a due chilometri dal paese."
+        }
+      }
+    }
+  ]
+}

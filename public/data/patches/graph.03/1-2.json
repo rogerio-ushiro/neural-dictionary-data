@@ -1,0 +1,33 @@
+{
+  "pack": "graph.03",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0332",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Animale della famiglia del gatto, agile predatore dai denti aguzzi, come la tigre e il leopardo.",
+          "example": "Al circo si esibiva un domatore di felini."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0862",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Il modo in cui una persona tiene il corpo stando in piedi o seduta.",
+          "example": "Una postura corretta previene il mal di schiena."
+        }
+      }
+    }
+  ]
+}

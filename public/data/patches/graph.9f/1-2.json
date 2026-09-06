@@ -1,0 +1,33 @@
+{
+  "pack": "graph.9f",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0303",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Stretto passaggio battuto dai passi, che attraversa boschi e campagne dove non c'è strada.",
+          "example": "Il sentiero sale ripido fino al passo."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0853",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Il momento in cui la femmina dà alla luce il piccolo.",
+          "example": "Il parto è andato bene e il vitello sta in piedi."
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "pack": "graph.7b",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0004",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "La stagione più calda dell'anno, tra la primavera e l'autunno, tempo di vacanze e di giornate lunghe.",
+          "example": "Quest'estate andremo al mare in agosto."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0071",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Energia che si propaga per onde o particelle, come luce e calore del sole.",
+          "example": "Le creme solari schermano parte della radiazione."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0488",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Cerimonia con cui si ricorda pubblicamente una persona o un evento.",
+          "example": "Ogni anno si tiene una commemorazione per i caduti."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0769",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Chi o ciò che produce o mette al mondo qualcosa.",
+          "example": "Il sole è il grande generatore di energia del pianeta."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0783",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Canto lamentoso e monotono, spesso di lutto.",
+          "example": "Le prefiche intonavano una nenia funebre."
+        }
+      }
+    }
+  ]
+}

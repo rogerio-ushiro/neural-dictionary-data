@@ -1,0 +1,59 @@
+{
+  "pack": "graph.4a",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0133",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Chi viaggia su un mezzo di trasporto senza guidarlo.",
+          "example": "Il passeggero seduto accanto al finestrino dormiva."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0146",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Chiusura fatta di due file di dentini che si incastrano tirando un cursore; si dice anche di ciò che unisce e fa da collegamento tra due parti.",
+          "example": "La cerniera della giacca si è bloccata a metà."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0757",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Singola persona o singolo essere, considerato per sé e non come parte di un gruppo.",
+          "example": "Ogni individuo reagisce alla notizia a modo suo."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0999",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Assenza di conflitti e di agitazione; stato di calma e serenità.",
+          "example": "Dopo anni di liti tornò la pace in famiglia."
+        }
+      }
+    }
+  ]
+}

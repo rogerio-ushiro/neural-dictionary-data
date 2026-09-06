@@ -1,0 +1,33 @@
+{
+  "pack": "graph.02",
+  "from": 3,
+  "to": 4,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0047",
+      "concept": {
+        "revision": 3,
+        "region_id": null,
+        "status_fronteira": "expanded",
+        "definition": {
+          "text": "Grande imbarcazione capace di trasportare per mare molte persone o merci pesanti.",
+          "example": "La nave salpò dal porto al tramonto."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0388",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Vento leggero e piacevole che rinfresca senza dare fastidio.",
+          "example": "Dal mare saliva una brezza serale."
+        }
+      }
+    }
+  ]
+}

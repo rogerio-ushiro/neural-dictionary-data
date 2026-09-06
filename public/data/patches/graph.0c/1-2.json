@@ -1,0 +1,33 @@
+{
+  "pack": "graph.0c",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0302",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Vasta estensione di alberi fitti, più grande e selvaggia di un bosco.",
+          "example": "La foresta si estendeva a perdita d'occhio dalla vetta."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0852",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Il mammifero dotato di ragione e linguaggio; l'essere umano.",
+          "example": "L'uomo ha imparato a controllare il fuoco molto presto."
+        }
+      }
+    }
+  ]
+}

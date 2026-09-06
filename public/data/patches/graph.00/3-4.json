@@ -1,0 +1,72 @@
+{
+  "pack": "graph.00",
+  "from": 3,
+  "to": 4,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0243",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Chi ha occupato una carica prima di un altro; anche un antenato.",
+          "example": "Il predecessore aveva lasciato l'ufficio in ordine perfetto."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0513",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Scendere verso il basso; detto del sole, avvicinarsi al tramonto.",
+          "example": "Al calare della sera si accesero i primi lampioni."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0588",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Evento improvviso che provoca gravi danni e vittime.",
+          "example": "L'alluvione fu il peggiore disastro degli ultimi cento anni."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0979",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Il modo in cui una cosa appare, che può non corrispondere alla realtà.",
+          "example": "A prima apparenza sembrava disabitato."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_1015",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Chi va per mare o per fiumi a catturare pesci come mestiere.",
+          "example": "I pescatori rientravano all'alba con le reti cariche."
+        }
+      }
+    }
+  ]
+}

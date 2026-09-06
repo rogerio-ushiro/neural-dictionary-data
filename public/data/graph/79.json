@@ -1,0 +1,72 @@
+{
+  "shard": "79",
+  "concepts": {
+    "c_0305": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Zona verde e ricca d'acqua in mezzo al deserto; al figurato, un luogo di pace tra le difficoltà.",
+        "example": "La carovana si fermò all'oasi per due giorni."
+      }
+    },
+    "c_0855": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Che appartiene alla natura e non è prodotto o alterato dall'uomo.",
+        "example": "Preferisce i tessuti di fibra naturale."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0021",
+      "concept_b": "c_0305",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0321",
+      "concept_b": "c_0855",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    }
+  ],
+  "word_senses": {
+    "s_0305": {
+      "lexeme_id": "w_0305",
+      "lexeme_kind": "word",
+      "concept_id": "c_0305",
+      "is_primary": true
+    },
+    "s_0855": {
+      "lexeme_id": "w_0855",
+      "lexeme_kind": "word",
+      "concept_id": "c_0855",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0305": {
+      "display_form": "oasi",
+      "normalized_form": "oasi",
+      "pos": null
+    },
+    "w_0855": {
+      "display_form": "naturale",
+      "normalized_form": "naturale",
+      "pos": null
+    }
+  },
+  "expressions": {}
+}

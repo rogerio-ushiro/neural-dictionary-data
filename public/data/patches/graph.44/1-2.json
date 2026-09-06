@@ -1,0 +1,46 @@
+{
+  "pack": "graph.44",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0162",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "La zona esterna di una città, lontana dal centro.",
+          "example": "In periferia gli affitti costano meno."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0676",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Passatempo leggero e spensierato, di solito da bambini.",
+          "example": "Il trastullo dei nipoti erano le costruzioni di legno."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0733",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Punto o tratto stretto per cui si può passare da un luogo a un altro.",
+          "example": "Il passaggio tra le rocce era largo appena un metro."
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,322 @@
+{
+  "shard": "22",
+  "concepts": {
+    "c_0223": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Il genitore di sesso maschile.",
+        "example": "Il padre lo accompagnava a scuola in bici ogni mattina."
+      }
+    },
+    "c_0256": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Gruppo di alunni che seguono insieme le lezioni; anche uno dei livelli in cui si dividono le scuole.",
+        "example": "Quest'anno è in una classe di venticinque ragazzi."
+      }
+    },
+    "c_0397": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Il punto più alto di un monte, di un albero o di qualsiasi cosa che si eleva.",
+        "example": "Sulla cima sventolava una bandierina lasciata dagli scalatori."
+      }
+    },
+    "c_0498": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Successione regolare di suoni e pause che dà l'andamento a una musica o a un discorso; indica anche la cadenza con cui si svolge un'attività.",
+        "example": "Batteva il ritmo con il piede sotto il tavolo."
+      }
+    },
+    "c_0506": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Oggetto costruito per produrre suoni musicali.",
+        "example": "Ha imparato a suonare tre strumenti da autodidatta."
+      }
+    },
+    "c_0573": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Grande telo che, gonfiato dal vento, spinge avanti una barca.",
+        "example": "Issarono la vela e la barca prese velocità."
+      }
+    },
+    "c_0685": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "L'atto di scegliere tra più possibilità; anche la libertà di farlo.",
+        "example": "Davanti a lui c'era una scelta difficile."
+      }
+    },
+    "c_0960": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "La volta del cielo con tutte le stelle che vi brillano di notte.",
+        "example": "In campagna il firmamento è di una nitidezza rara."
+      }
+    },
+    "c_1004": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Arresto di un movimento o di un processo che si prolunga.",
+        "example": "Le trattative sono in una fase di stasi da settimane."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0015",
+      "concept_b": "c_0223",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0017",
+      "concept_b": "c_0256",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0031",
+      "concept_b": "c_0397",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0038",
+      "concept_b": "c_0498",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0038",
+      "concept_b": "c_0506",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0042",
+      "concept_b": "c_0498",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0051",
+      "concept_b": "c_0573",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0109",
+      "concept_b": "c_0685",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0223",
+      "concept_b": "c_0226",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0223",
+      "concept_b": "c_0228",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0381",
+      "concept_b": "c_0960",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0516",
+      "concept_b": "c_1004",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0049",
+      "concept_b": "c_0573",
+      "relation_type": "parti",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 0.8,
+      "status": "validated",
+      "revision": 2
+    }
+  ],
+  "word_senses": {
+    "s_0223": {
+      "lexeme_id": "w_0223",
+      "lexeme_kind": "word",
+      "concept_id": "c_0223",
+      "is_primary": true
+    },
+    "s_0256": {
+      "lexeme_id": "w_0256",
+      "lexeme_kind": "word",
+      "concept_id": "c_0256",
+      "is_primary": true
+    },
+    "s_0397": {
+      "lexeme_id": "w_0397",
+      "lexeme_kind": "word",
+      "concept_id": "c_0397",
+      "is_primary": true
+    },
+    "s_0498": {
+      "lexeme_id": "w_0498",
+      "lexeme_kind": "word",
+      "concept_id": "c_0498",
+      "is_primary": true
+    },
+    "s_0506": {
+      "lexeme_id": "w_0506",
+      "lexeme_kind": "word",
+      "concept_id": "c_0506",
+      "is_primary": true
+    },
+    "s_0573": {
+      "lexeme_id": "w_0573",
+      "lexeme_kind": "word",
+      "concept_id": "c_0573",
+      "is_primary": true
+    },
+    "s_0685": {
+      "lexeme_id": "w_0685",
+      "lexeme_kind": "word",
+      "concept_id": "c_0685",
+      "is_primary": true
+    },
+    "s_0960": {
+      "lexeme_id": "w_0960",
+      "lexeme_kind": "word",
+      "concept_id": "c_0960",
+      "is_primary": true
+    },
+    "s_1004": {
+      "lexeme_id": "w_1004",
+      "lexeme_kind": "word",
+      "concept_id": "c_1004",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0223": {
+      "display_form": "padre",
+      "normalized_form": "padre",
+      "pos": null
+    },
+    "w_0256": {
+      "display_form": "classe",
+      "normalized_form": "classe",
+      "pos": null
+    },
+    "w_0397": {
+      "display_form": "cima",
+      "normalized_form": "cima",
+      "pos": null
+    },
+    "w_0498": {
+      "display_form": "ritmo",
+      "normalized_form": "ritmo",
+      "pos": null
+    },
+    "w_0506": {
+      "display_form": "strumento",
+      "normalized_form": "strumento",
+      "pos": null
+    },
+    "w_0573": {
+      "display_form": "vela",
+      "normalized_form": "vela",
+      "pos": null
+    },
+    "w_0685": {
+      "display_form": "scelta",
+      "normalized_form": "scelta",
+      "pos": null
+    },
+    "w_0960": {
+      "display_form": "firmamento",
+      "normalized_form": "firmamento",
+      "pos": null
+    },
+    "w_1004": {
+      "display_form": "stasi",
+      "normalized_form": "stasi",
+      "pos": null
+    }
+  },
+  "expressions": {}
+}

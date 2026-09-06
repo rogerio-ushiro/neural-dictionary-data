@@ -1,0 +1,132 @@
+{
+  "shard": "fe",
+  "concepts": {
+    "c_0137": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Beni trasportati da un mezzo per essere consegnati altrove.",
+        "example": "Il treno merci passa di notte per non intralciare i passeggeri."
+      }
+    },
+    "c_0142": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Contenitore di pelle o stoffa con manici, usato per portare oggetti a mano; anche il luogo dove si scambiano titoli e azioni.",
+        "example": "Ha infilato la spesa in una borsa di tela."
+      }
+    },
+    "c_0753": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Essere che ha vita, che nasce, si nutre e muore.",
+        "example": "Ogni essere vivente ha bisogno di acqua."
+      }
+    },
+    "c_0928": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Piccola goccia che cade lentamente, una alla volta.",
+        "example": "Dal rubinetto chiuso male cadeva una stilla ogni tanto."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0008",
+      "concept_b": "c_0137",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0009",
+      "concept_b": "c_0142",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0218",
+      "concept_b": "c_0753",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0367",
+      "concept_b": "c_0928",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    }
+  ],
+  "word_senses": {
+    "s_0137": {
+      "lexeme_id": "w_0137",
+      "lexeme_kind": "word",
+      "concept_id": "c_0137",
+      "is_primary": true
+    },
+    "s_0142": {
+      "lexeme_id": "w_0142",
+      "lexeme_kind": "word",
+      "concept_id": "c_0142",
+      "is_primary": true
+    },
+    "s_0753": {
+      "lexeme_id": "w_0753",
+      "lexeme_kind": "word",
+      "concept_id": "c_0753",
+      "is_primary": true
+    },
+    "s_0928": {
+      "lexeme_id": "w_0928",
+      "lexeme_kind": "word",
+      "concept_id": "c_0928",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0137": {
+      "display_form": "merci",
+      "normalized_form": "merci",
+      "pos": null
+    },
+    "w_0142": {
+      "display_form": "borsa",
+      "normalized_form": "borsa",
+      "pos": null
+    },
+    "w_0753": {
+      "display_form": "vivente",
+      "normalized_form": "vivente",
+      "pos": null
+    },
+    "w_0928": {
+      "display_form": "stilla",
+      "normalized_form": "stilla",
+      "pos": null
+    }
+  },
+  "expressions": {}
+}

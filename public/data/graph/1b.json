@@ -1,0 +1,102 @@
+{
+  "shard": "1b",
+  "concepts": {
+    "c_0057": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "La striscia di sabbia bagnata dove le onde si spingono e si ritirano.",
+        "example": "Passeggiavano scalzi sulla battigia."
+      }
+    },
+    "c_0123": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Esperienza fuori dall'ordinario, piena di imprevisti e di rischio, ma anche di scoperta.",
+        "example": "Attraversare il deserto è stata una vera avventura."
+      }
+    },
+    "c_0628": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Le prime ore della sera.",
+        "example": "Trascorsero la serata a chiacchierare sul terrazzo."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0002",
+      "concept_b": "c_0057",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0007",
+      "concept_b": "c_0123",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0075",
+      "concept_b": "c_0628",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    }
+  ],
+  "word_senses": {
+    "s_0057": {
+      "lexeme_id": "w_0057",
+      "lexeme_kind": "word",
+      "concept_id": "c_0057",
+      "is_primary": true
+    },
+    "s_0123": {
+      "lexeme_id": "w_0123",
+      "lexeme_kind": "word",
+      "concept_id": "c_0123",
+      "is_primary": true
+    },
+    "s_0628": {
+      "lexeme_id": "w_0628",
+      "lexeme_kind": "word",
+      "concept_id": "c_0628",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0057": {
+      "display_form": "battigia",
+      "normalized_form": "battigia",
+      "pos": null
+    },
+    "w_0123": {
+      "display_form": "avventura",
+      "normalized_form": "avventura",
+      "pos": null
+    },
+    "w_0628": {
+      "display_form": "serata",
+      "normalized_form": "serata",
+      "pos": null
+    }
+  },
+  "expressions": {}
+}

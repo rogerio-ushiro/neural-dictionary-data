@@ -1,0 +1,242 @@
+{
+  "shard": "5f",
+  "concepts": {
+    "c_0080": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Caldo intenso e pesante delle ore centrali dell'estate.",
+        "example": "Uscirono solo verso sera, quando la calura si attenuò."
+      }
+    },
+    "c_0174": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "L'insieme delle persone che condividono una stessa terra, lingua e tradizioni; a volte indica la parte più numerosa e meno ricca di una società, in contrapposizione a chi comanda.",
+        "example": "Il discorso del sindaco fu accolto con favore dal popolo."
+      }
+    },
+    "c_0707": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Il sostituire una cosa con un'altra dello stesso genere; nei veicoli, il dispositivo con cui si passa da una marcia all'altra.",
+        "example": "Ha fatto il cambio delle gomme prima dell'inverno."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0003",
+      "concept_b": "c_0080",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0004",
+      "concept_b": "c_0080",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0005",
+      "concept_b": "c_0080",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0011",
+      "concept_b": "c_0174",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0065",
+      "concept_b": "c_0080",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0080",
+      "concept_b": "c_0084",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0080",
+      "concept_b": "c_0090",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0080",
+      "concept_b": "c_0092",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0080",
+      "concept_b": "c_0094",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0080",
+      "concept_b": "c_0095",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0080",
+      "concept_b": "c_0100",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0080",
+      "concept_b": "c_0640",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0080",
+      "concept_b": "c_0641",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0080",
+      "concept_b": "c_0642",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0080",
+      "concept_b": "c_0643",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0080",
+      "concept_b": "c_0644",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0118",
+      "concept_b": "c_0707",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    }
+  ],
+  "word_senses": {
+    "s_0080": {
+      "lexeme_id": "w_0080",
+      "lexeme_kind": "word",
+      "concept_id": "c_0080",
+      "is_primary": true
+    },
+    "s_0174": {
+      "lexeme_id": "w_0174",
+      "lexeme_kind": "word",
+      "concept_id": "c_0174",
+      "is_primary": true
+    },
+    "s_0707": {
+      "lexeme_id": "w_0707",
+      "lexeme_kind": "word",
+      "concept_id": "c_0707",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0080": {
+      "display_form": "calura",
+      "normalized_form": "calura",
+      "pos": null
+    },
+    "w_0174": {
+      "display_form": "popolo",
+      "normalized_form": "popolo",
+      "pos": null
+    },
+    "w_0707": {
+      "display_form": "cambio",
+      "normalized_form": "cambio",
+      "pos": null
+    }
+  },
+  "expressions": {}
+}

@@ -1,0 +1,59 @@
+{
+  "pack": "graph.35",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0020",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Attività fatta per divertirsi, spesso con regole e con un vincitore.",
+          "example": "I bambini inventarono un gioco con i tappi delle bottiglie."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0095",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Stato di un corpo così caldo da diventare luminoso e rossastro.",
+          "example": "Il ferro raggiunse l'incandescenza nella fucina."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0378",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Perturbazione di breve durata con pioggia intensa, tuoni e lampi.",
+          "example": "Un temporale estivo rinfrescò l'aria della sera."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0828",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "L'insieme dei rami e delle foglie in cima a un albero; anche la capigliatura di una persona.",
+          "example": "Gli uccelli nidificano nella chioma folta della quercia."
+        }
+      }
+    }
+  ]
+}

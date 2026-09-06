@@ -1,0 +1,172 @@
+{
+  "shard": "ca",
+  "concepts": {
+    "c_0201": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Stirpe, razza (spesso con tono spregiativo).",
+        "example": "Non voleva aver niente a che fare con quella genia di imbroglioni."
+      }
+    },
+    "c_0308": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Antico veicolo a pedali, antenato della bicicletta.",
+        "example": "Al museo è esposto un velocipede con la ruota anteriore enorme."
+      }
+    },
+    "c_0551": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Sporgenza della costa che si protende nel mare.",
+        "example": "Il faro sorge sulla punta del promontorio."
+      }
+    },
+    "c_0858": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "La parte finale di un arto o di un oggetto allungato, il punto più lontano dal centro.",
+        "example": "Ha battuto l'estremità del dito contro lo spigolo."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0013",
+      "concept_b": "c_0201",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0022",
+      "concept_b": "c_0308",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0044",
+      "concept_b": "c_0551",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0045",
+      "concept_b": "c_0551",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0048",
+      "concept_b": "c_0551",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0201",
+      "concept_b": "c_0203",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0322",
+      "concept_b": "c_0858",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0324",
+      "concept_b": "c_0858",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    }
+  ],
+  "word_senses": {
+    "s_0201": {
+      "lexeme_id": "w_0201",
+      "lexeme_kind": "word",
+      "concept_id": "c_0201",
+      "is_primary": true
+    },
+    "s_0308": {
+      "lexeme_id": "w_0308",
+      "lexeme_kind": "word",
+      "concept_id": "c_0308",
+      "is_primary": true
+    },
+    "s_0551": {
+      "lexeme_id": "w_0551",
+      "lexeme_kind": "word",
+      "concept_id": "c_0551",
+      "is_primary": true
+    },
+    "s_0858": {
+      "lexeme_id": "w_0858",
+      "lexeme_kind": "word",
+      "concept_id": "c_0858",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0201": {
+      "display_form": "genia",
+      "normalized_form": "genia",
+      "pos": null
+    },
+    "w_0308": {
+      "display_form": "velocipede",
+      "normalized_form": "velocipede",
+      "pos": null
+    },
+    "w_0551": {
+      "display_form": "promontorio",
+      "normalized_form": "promontorio",
+      "pos": null
+    },
+    "w_0858": {
+      "display_form": "estremità",
+      "normalized_form": "estremita",
+      "pos": null
+    }
+  },
+  "expressions": {}
+}

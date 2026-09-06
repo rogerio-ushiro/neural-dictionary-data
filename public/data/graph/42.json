@@ -1,0 +1,212 @@
+{
+  "shard": "42",
+  "concepts": {
+    "c_0270": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Arte di comporre in versi; anche il singolo componimento.",
+        "example": "Ha imparato a memoria una poesia per la recita."
+      }
+    },
+    "c_0344": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Barriera che chiude e delimita un terreno.",
+        "example": "Ha rinforzato il recinto per tenere fuori i cinghiali."
+      }
+    },
+    "c_0469": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Dolce gelato a forma di fetta o di cupola, con più gusti e canditi.",
+        "example": "La cassata siciliana è ricca di ricotta e frutta candita."
+      }
+    },
+    "c_0520": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "La prima luce chiara del giorno che spunta a oriente.",
+        "example": "All'albore si mise in cammino verso il valico."
+      }
+    },
+    "c_0638": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Ciò che resta nascosto e non si riesce a spiegare.",
+        "example": "La sua sparizione è rimasta un mistero."
+      }
+    },
+    "c_0814": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Che è di un verde vivo e naturale (voce letteraria).",
+        "example": "Il pendio era coperto di un manto silvestre."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0018",
+      "concept_b": "c_0270",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0025",
+      "concept_b": "c_0344",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0036",
+      "concept_b": "c_0469",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0040",
+      "concept_b": "c_0520",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0074",
+      "concept_b": "c_0520",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0078",
+      "concept_b": "c_0638",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0270",
+      "concept_b": "c_0272",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0299",
+      "concept_b": "c_0814",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    }
+  ],
+  "word_senses": {
+    "s_0270": {
+      "lexeme_id": "w_0270",
+      "lexeme_kind": "word",
+      "concept_id": "c_0270",
+      "is_primary": true
+    },
+    "s_0344": {
+      "lexeme_id": "w_0344",
+      "lexeme_kind": "word",
+      "concept_id": "c_0344",
+      "is_primary": true
+    },
+    "s_0469": {
+      "lexeme_id": "w_0469",
+      "lexeme_kind": "word",
+      "concept_id": "c_0469",
+      "is_primary": true
+    },
+    "s_0520": {
+      "lexeme_id": "w_0520",
+      "lexeme_kind": "word",
+      "concept_id": "c_0520",
+      "is_primary": true
+    },
+    "s_0638": {
+      "lexeme_id": "w_0638",
+      "lexeme_kind": "word",
+      "concept_id": "c_0638",
+      "is_primary": true
+    },
+    "s_0814": {
+      "lexeme_id": "w_0814",
+      "lexeme_kind": "word",
+      "concept_id": "c_0814",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0270": {
+      "display_form": "poesia",
+      "normalized_form": "poesia",
+      "pos": null
+    },
+    "w_0344": {
+      "display_form": "recinto",
+      "normalized_form": "recinto",
+      "pos": null
+    },
+    "w_0469": {
+      "display_form": "cassata",
+      "normalized_form": "cassata",
+      "pos": null
+    },
+    "w_0520": {
+      "display_form": "albore",
+      "normalized_form": "albore",
+      "pos": null
+    },
+    "w_0638": {
+      "display_form": "mistero",
+      "normalized_form": "mistero",
+      "pos": null
+    },
+    "w_0814": {
+      "display_form": "silvestre",
+      "normalized_form": "silvestre",
+      "pos": null
+    }
+  },
+  "expressions": {}
+}

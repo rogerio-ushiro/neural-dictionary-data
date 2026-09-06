@@ -1,0 +1,46 @@
+{
+  "pack": "graph.fa",
+  "from": 3,
+  "to": 4,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0050",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Voragine profondissima, di solito in mare, di cui non si vede il fondo; al figurato, una condizione di rovina senza scampo.",
+          "example": "Gli studiosi calarono le sonde nell'abisso oceanico."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0124",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Ciascuna delle soste di un viaggio, e il tratto percorso tra una sosta e l'altra.",
+          "example": "La seconda tappa del giro si conclude in salita."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0748",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Successione di sovrani o di membri di una stessa famiglia al potere.",
+          "example": "La dinastia regnò per oltre due secoli."
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,202 @@
+{
+  "shard": "6a",
+  "concepts": {
+    "c_0160": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Grande edificio signorile in città, spesso sede di uffici o di famiglie nobili.",
+        "example": "Il palazzo ha un cortile con un pozzo antico."
+      }
+    },
+    "c_0289": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Ciò che tiene occupato e diverte il pubblico o gli ospiti.",
+        "example": "Il giocoliere assicurò l'intrattenimento per tutta la serata."
+      }
+    },
+    "c_0418": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Scavo lungo e stretto per far scorrere via l'acqua ai lati di una strada o di un campo.",
+        "example": "L'acqua piovana defluiva nel fosso lungo la carreggiata."
+      }
+    },
+    "c_0674": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Attività piacevole con cui si passa il tempo libero, di solito all'aperto.",
+        "example": "La pesca è il suo diporto preferito."
+      }
+    },
+    "c_0731": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Striscia di terreno battuto senza asfalto, usata per camminare, correre o gareggiare.",
+        "example": "Correva ogni mattina sulla pista sterrata del parco."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0010",
+      "concept_b": "c_0160",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0020",
+      "concept_b": "c_0289",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0032",
+      "concept_b": "c_0418",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0102",
+      "concept_b": "c_0289",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0104",
+      "concept_b": "c_0289",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0104",
+      "concept_b": "c_0674",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0107",
+      "concept_b": "c_0289",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0159",
+      "concept_b": "c_0731",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0303",
+      "concept_b": "c_0731",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    }
+  ],
+  "word_senses": {
+    "s_0160": {
+      "lexeme_id": "w_0160",
+      "lexeme_kind": "word",
+      "concept_id": "c_0160",
+      "is_primary": true
+    },
+    "s_0289": {
+      "lexeme_id": "w_0289",
+      "lexeme_kind": "word",
+      "concept_id": "c_0289",
+      "is_primary": true
+    },
+    "s_0418": {
+      "lexeme_id": "w_0418",
+      "lexeme_kind": "word",
+      "concept_id": "c_0418",
+      "is_primary": true
+    },
+    "s_0674": {
+      "lexeme_id": "w_0674",
+      "lexeme_kind": "word",
+      "concept_id": "c_0674",
+      "is_primary": true
+    },
+    "s_0731": {
+      "lexeme_id": "w_0731",
+      "lexeme_kind": "word",
+      "concept_id": "c_0731",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0160": {
+      "display_form": "palazzo",
+      "normalized_form": "palazzo",
+      "pos": null
+    },
+    "w_0289": {
+      "display_form": "intrattenimento",
+      "normalized_form": "intrattenimento",
+      "pos": null
+    },
+    "w_0418": {
+      "display_form": "fosso",
+      "normalized_form": "fosso",
+      "pos": null
+    },
+    "w_0674": {
+      "display_form": "diporto",
+      "normalized_form": "diporto",
+      "pos": null
+    },
+    "w_0731": {
+      "display_form": "pista",
+      "normalized_form": "pista",
+      "pos": null
+    }
+  },
+  "expressions": {}
+}

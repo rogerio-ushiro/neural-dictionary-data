@@ -1,0 +1,162 @@
+{
+  "shard": "8b",
+  "concepts": {
+    "c_0167": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Piccolo centro abitato antico, spesso raccolto attorno a un castello o a una chiesa.",
+        "example": "Il borgo è arroccato sulla collina sopra la valle."
+      }
+    },
+    "c_0673": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Sensazione di appagamento che dà gioia e benessere.",
+        "example": "Provava un vero piacere nell'aiutare gli altri."
+      }
+    },
+    "c_0699": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Serie di persone o cose disposte una dietro l'altra.",
+        "example": "C'era una lunga fila alla cassa del supermercato."
+      }
+    },
+    "c_0736": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Piccolo agglomerato di case che fa parte di un comune ma è staccato dal centro.",
+        "example": "La frazione ha una chiesetta e nient'altro."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0010",
+      "concept_b": "c_0167",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0102",
+      "concept_b": "c_0673",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0104",
+      "concept_b": "c_0673",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0107",
+      "concept_b": "c_0673",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0113",
+      "concept_b": "c_0699",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0164",
+      "concept_b": "c_0167",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0164",
+      "concept_b": "c_0736",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    }
+  ],
+  "word_senses": {
+    "s_0167": {
+      "lexeme_id": "w_0167",
+      "lexeme_kind": "word",
+      "concept_id": "c_0167",
+      "is_primary": true
+    },
+    "s_0673": {
+      "lexeme_id": "w_0673",
+      "lexeme_kind": "word",
+      "concept_id": "c_0673",
+      "is_primary": true
+    },
+    "s_0699": {
+      "lexeme_id": "w_0699",
+      "lexeme_kind": "word",
+      "concept_id": "c_0699",
+      "is_primary": true
+    },
+    "s_0736": {
+      "lexeme_id": "w_0736",
+      "lexeme_kind": "word",
+      "concept_id": "c_0736",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0167": {
+      "display_form": "borgo",
+      "normalized_form": "borgo",
+      "pos": null
+    },
+    "w_0673": {
+      "display_form": "piacere",
+      "normalized_form": "piacere",
+      "pos": null
+    },
+    "w_0699": {
+      "display_form": "fila",
+      "normalized_form": "fila",
+      "pos": null
+    },
+    "w_0736": {
+      "display_form": "frazione",
+      "normalized_form": "frazione",
+      "pos": null
+    }
+  },
+  "expressions": {}
+}

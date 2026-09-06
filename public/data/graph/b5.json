@@ -1,0 +1,292 @@
+{
+  "shard": "b5",
+  "concepts": {
+    "c_0222": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Bambino paffuto raffigurato nell'arte come un angioletto nudo.",
+        "example": "Sulla volta della chiesa erano dipinti dei putti tra le nuvole."
+      }
+    },
+    "c_0257": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Stanza della scuola dove si tengono le lezioni.",
+        "example": "L'aula in fondo al corridoio ha la lavagna nuova."
+      }
+    },
+    "c_0396": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Cima aguzza e isolata di una montagna.",
+        "example": "Il picco più alto della catena supera i quattromila metri."
+      }
+    },
+    "c_0499": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Accordo piacevole di suoni che stanno bene insieme; al figurato, la concordia tra persone o parti.",
+        "example": "Nel coro le voci si fondevano in perfetta armonia."
+      }
+    },
+    "c_0507": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Il suono prodotto dall'apparato vocale dell'uomo per parlare o cantare.",
+        "example": "Riconobbe la sua voce al telefono dopo anni."
+      }
+    },
+    "c_0572": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Serie di azioni con cui si guida e si sposta una nave, un'auto o un aereo.",
+        "example": "La manovra di parcheggio in quello spazio stretto fu delicata."
+      }
+    },
+    "c_0684": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Il potere o la possibilità riconosciuta di fare qualcosa; anche una branca dell'università.",
+        "example": "Ha la facoltà di firmare al posto del direttore."
+      }
+    },
+    "c_0961": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Nelle religioni, il luogo di felicità eterna dopo la morte; al figurato, un posto meraviglioso.",
+        "example": "Quell'isola sperduta era un piccolo paradiso."
+      }
+    },
+    "c_1005": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Mancanza di movimento o di reazione; anche la pigrizia di chi non prende iniziative.",
+        "example": "Lo Stato è rimasto nell'inerzia di fronte al problema."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0014",
+      "concept_b": "c_0222",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0017",
+      "concept_b": "c_0257",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0031",
+      "concept_b": "c_0396",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0038",
+      "concept_b": "c_0499",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0038",
+      "concept_b": "c_0507",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0051",
+      "concept_b": "c_0572",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0109",
+      "concept_b": "c_0684",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0381",
+      "concept_b": "c_0961",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0392",
+      "concept_b": "c_0499",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0516",
+      "concept_b": "c_1005",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    }
+  ],
+  "word_senses": {
+    "s_0222": {
+      "lexeme_id": "w_0222",
+      "lexeme_kind": "word",
+      "concept_id": "c_0222",
+      "is_primary": true
+    },
+    "s_0257": {
+      "lexeme_id": "w_0257",
+      "lexeme_kind": "word",
+      "concept_id": "c_0257",
+      "is_primary": true
+    },
+    "s_0396": {
+      "lexeme_id": "w_0396",
+      "lexeme_kind": "word",
+      "concept_id": "c_0396",
+      "is_primary": true
+    },
+    "s_0499": {
+      "lexeme_id": "w_0499",
+      "lexeme_kind": "word",
+      "concept_id": "c_0499",
+      "is_primary": true
+    },
+    "s_0507": {
+      "lexeme_id": "w_0507",
+      "lexeme_kind": "word",
+      "concept_id": "c_0507",
+      "is_primary": true
+    },
+    "s_0572": {
+      "lexeme_id": "w_0572",
+      "lexeme_kind": "word",
+      "concept_id": "c_0572",
+      "is_primary": true
+    },
+    "s_0684": {
+      "lexeme_id": "w_0684",
+      "lexeme_kind": "word",
+      "concept_id": "c_0684",
+      "is_primary": true
+    },
+    "s_0961": {
+      "lexeme_id": "w_0961",
+      "lexeme_kind": "word",
+      "concept_id": "c_0961",
+      "is_primary": true
+    },
+    "s_1005": {
+      "lexeme_id": "w_1005",
+      "lexeme_kind": "word",
+      "concept_id": "c_1005",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0222": {
+      "display_form": "putto",
+      "normalized_form": "putto",
+      "pos": null
+    },
+    "w_0257": {
+      "display_form": "aula",
+      "normalized_form": "aula",
+      "pos": null
+    },
+    "w_0396": {
+      "display_form": "picco",
+      "normalized_form": "picco",
+      "pos": null
+    },
+    "w_0499": {
+      "display_form": "armonia",
+      "normalized_form": "armonia",
+      "pos": null
+    },
+    "w_0507": {
+      "display_form": "voce",
+      "normalized_form": "voce",
+      "pos": null
+    },
+    "w_0572": {
+      "display_form": "manovra",
+      "normalized_form": "manovra",
+      "pos": null
+    },
+    "w_0684": {
+      "display_form": "facoltà",
+      "normalized_form": "facolta",
+      "pos": null
+    },
+    "w_0961": {
+      "display_form": "paradiso",
+      "normalized_form": "paradiso",
+      "pos": null
+    },
+    "w_1005": {
+      "display_form": "inerzia",
+      "normalized_form": "inerzia",
+      "pos": null
+    }
+  },
+  "expressions": {}
+}

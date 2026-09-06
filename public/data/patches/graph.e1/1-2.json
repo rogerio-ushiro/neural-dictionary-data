@@ -1,0 +1,46 @@
+{
+  "pack": "graph.e1",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0312",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Leva su cui si spinge col piede per mettere in moto una bicicletta o azionare un comando.",
+          "example": "Spingeva sui pedali con tutte le forze in salita."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0385",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Colore spento e uniforme tra il bianco e il nero; al figurato, un'atmosfera monotona e triste.",
+          "example": "Il grigiore del cielo durò per giorni."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0842",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Che nasce da un impulso naturale e non da riflessione.",
+          "example": "Ebbe una reazione istintiva di paura."
+        }
+      }
+    }
+  ]
+}

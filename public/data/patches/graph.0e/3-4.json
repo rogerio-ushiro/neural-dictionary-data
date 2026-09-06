@@ -1,0 +1,46 @@
+{
+  "pack": "graph.0e",
+  "from": 3,
+  "to": 4,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0007",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Il fatto di allontanarsi dal luogo dove si abita per raggiungerne un altro lontano, per svago, lavoro o necessità; in senso figurato, un percorso di crescita interiore.",
+          "example": "Hanno passato mesi a organizzare il viaggio in Giappone."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0072",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Capacità di compiere un lavoro o di mettere in moto qualcosa; al figurato, la vitalità di una persona.",
+          "example": "I pannelli trasformano la luce del sole in energia."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0780",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Fatto avvenuto in passato a cui ci si richiama per giustificare o prevedere qualcosa.",
+          "example": "Non c'è un precedente simile nella storia del club."
+        }
+      }
+    }
+  ]
+}

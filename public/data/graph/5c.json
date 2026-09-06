@@ -1,0 +1,192 @@
+{
+  "shard": "5c",
+  "concepts": {
+    "c_0290": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Ciascuno degli incontri in cui si svolge un gioco o uno sport tra due contendenti.",
+        "example": "La partita è stata rinviata per pioggia."
+      }
+    },
+    "c_0427": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Introdurre cibo nel corpo per nutrirsi.",
+        "example": "Con quel mal di gola non riusciva a mangiare nulla di solido."
+      }
+    },
+    "c_0643": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Ondata di calore intenso e improvviso, come quella che sale da un forno.",
+        "example": "Aprendo lo sportello lo investì una vampata."
+      }
+    },
+    "c_0728": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Parte della fisica che studia il moto dei corpi e le forze che lo causano; anche il funzionamento interno di qualcosa.",
+        "example": "Non capiva la meccanica di quel giocattolo a molla."
+      }
+    },
+    "c_0931": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "La parte dura al centro di certi frutti, che contiene il seme.",
+        "example": "Sputò il nocciolo dell'oliva nel piatto."
+      }
+    },
+    "c_0944": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Vapore o gas che si sprigiona da un corpo, spesso maleodorante.",
+        "example": "Dalla palude salivano esalazioni sgradevoli."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0020",
+      "concept_b": "c_0290",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0033",
+      "concept_b": "c_0427",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0080",
+      "concept_b": "c_0643",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0135",
+      "concept_b": "c_0728",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0367",
+      "concept_b": "c_0931",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0370",
+      "concept_b": "c_0944",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    }
+  ],
+  "word_senses": {
+    "s_0290": {
+      "lexeme_id": "w_0290",
+      "lexeme_kind": "word",
+      "concept_id": "c_0290",
+      "is_primary": true
+    },
+    "s_0427": {
+      "lexeme_id": "w_0427",
+      "lexeme_kind": "word",
+      "concept_id": "c_0427",
+      "is_primary": true
+    },
+    "s_0643": {
+      "lexeme_id": "w_0643",
+      "lexeme_kind": "word",
+      "concept_id": "c_0643",
+      "is_primary": true
+    },
+    "s_0728": {
+      "lexeme_id": "w_0728",
+      "lexeme_kind": "word",
+      "concept_id": "c_0728",
+      "is_primary": true
+    },
+    "s_0931": {
+      "lexeme_id": "w_0931",
+      "lexeme_kind": "word",
+      "concept_id": "c_0931",
+      "is_primary": true
+    },
+    "s_0944": {
+      "lexeme_id": "w_0944",
+      "lexeme_kind": "word",
+      "concept_id": "c_0944",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0290": {
+      "display_form": "partita",
+      "normalized_form": "partita",
+      "pos": null
+    },
+    "w_0427": {
+      "display_form": "mangiare",
+      "normalized_form": "mangiare",
+      "pos": null
+    },
+    "w_0643": {
+      "display_form": "vampata",
+      "normalized_form": "vampata",
+      "pos": null
+    },
+    "w_0728": {
+      "display_form": "meccanica",
+      "normalized_form": "meccanica",
+      "pos": null
+    },
+    "w_0931": {
+      "display_form": "nocciolo",
+      "normalized_form": "nocciolo",
+      "pos": null
+    },
+    "w_0944": {
+      "display_form": "esalazione",
+      "normalized_form": "esalazione",
+      "pos": null
+    }
+  },
+  "expressions": {}
+}

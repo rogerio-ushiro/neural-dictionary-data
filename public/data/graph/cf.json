@@ -1,0 +1,132 @@
+{
+  "shard": "cf",
+  "concepts": {
+    "c_0457": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Piccolo frutto rosso e tondo con il nocciolo, che matura a coppie su un lungo picciolo.",
+        "example": "I bambini si appesero le ciliegie alle orecchie."
+      }
+    },
+    "c_0624": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Il tramontare del sole; per estensione, la fine di un periodo (voce letteraria).",
+        "example": "All'occaso il cielo si accese di arancio."
+      }
+    },
+    "c_0743": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Il punto da cui qualcosa comincia o proviene; anche la famiglia o il luogo di provenienza.",
+        "example": "Le sue origini sono in un piccolo paese del sud."
+      }
+    },
+    "c_0981": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Qualità di ciò che è pulito e privo di ogni elemento estraneo; anche l'onestà d'animo di chi non ha secondi fini.",
+        "example": "Apprezzava la purezza dell'aria di montagna."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0035",
+      "concept_b": "c_0457",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0075",
+      "concept_b": "c_0624",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0200",
+      "concept_b": "c_0743",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0390",
+      "concept_b": "c_0981",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    }
+  ],
+  "word_senses": {
+    "s_0457": {
+      "lexeme_id": "w_0457",
+      "lexeme_kind": "word",
+      "concept_id": "c_0457",
+      "is_primary": true
+    },
+    "s_0624": {
+      "lexeme_id": "w_0624",
+      "lexeme_kind": "word",
+      "concept_id": "c_0624",
+      "is_primary": true
+    },
+    "s_0743": {
+      "lexeme_id": "w_0743",
+      "lexeme_kind": "word",
+      "concept_id": "c_0743",
+      "is_primary": true
+    },
+    "s_0981": {
+      "lexeme_id": "w_0981",
+      "lexeme_kind": "word",
+      "concept_id": "c_0981",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0457": {
+      "display_form": "ciliegia",
+      "normalized_form": "ciliegia",
+      "pos": null
+    },
+    "w_0624": {
+      "display_form": "occaso",
+      "normalized_form": "occaso",
+      "pos": null
+    },
+    "w_0743": {
+      "display_form": "origine",
+      "normalized_form": "origine",
+      "pos": null
+    },
+    "w_0981": {
+      "display_form": "purezza",
+      "normalized_form": "purezza",
+      "pos": null
+    }
+  },
+  "expressions": {}
+}

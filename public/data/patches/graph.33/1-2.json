@@ -1,0 +1,33 @@
+{
+  "pack": "graph.33",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0116",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Un percorso che riporta al punto di partenza, fatto per svago o per visitare più luoghi.",
+          "example": "Hanno fatto il giro dell'isola in barca."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0772",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "La capacità di condizionare le scelte e le opinioni degli altri.",
+          "example": "Ha molta influenza sulle decisioni del gruppo."
+        }
+      }
+    }
+  ]
+}

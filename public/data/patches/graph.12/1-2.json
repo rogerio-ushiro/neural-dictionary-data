@@ -1,0 +1,33 @@
+{
+  "pack": "graph.12",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0111",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Il tornare al punto di partenza dopo un'assenza.",
+          "example": "Al ritorno dalle vacanze trovò la casa in ordine."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0775",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Il pieno controllo su un territorio o su un ambito.",
+          "example": "L'impero estese il proprio dominio su tutto il Mediterraneo."
+        }
+      }
+    }
+  ]
+}

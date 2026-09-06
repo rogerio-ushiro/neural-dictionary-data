@@ -1,0 +1,46 @@
+{
+  "pack": "graph.cc",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0081",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Il settimo mese dell'anno, nel pieno dell'estate.",
+          "example": "A luglio la scuola è chiusa e si va al mare."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0175",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Il suolo su cui si vive e si coltiva; anche il paese di cui si è originari.",
+          "example": "Dopo anni all'estero tornò nella sua terra."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0706",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "La facilità con cui una persona o una cosa può spostarsi; indica anche la possibilità di cambiare condizione sociale o lavoro.",
+          "example": "Dopo l'incidente ha recuperato la mobilità del braccio."
+        }
+      }
+    }
+  ]
+}

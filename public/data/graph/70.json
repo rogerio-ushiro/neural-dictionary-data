@@ -1,0 +1,72 @@
+{
+  "shard": "70",
+  "concepts": {
+    "c_0333": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Nome affettuoso e familiare con cui si chiama un gatto, soprattutto una femmina.",
+        "example": "La micia si è accucciata in grembo al bambino."
+      }
+    },
+    "c_0863": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Ciascuna delle parti mobili del corpo che servono a muoversi o ad afferrare, come braccia e gambe.",
+        "example": "L'atleta ha gli arti lunghi e muscolosi."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0024",
+      "concept_b": "c_0333",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0324",
+      "concept_b": "c_0863",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    }
+  ],
+  "word_senses": {
+    "s_0333": {
+      "lexeme_id": "w_0333",
+      "lexeme_kind": "word",
+      "concept_id": "c_0333",
+      "is_primary": true
+    },
+    "s_0863": {
+      "lexeme_id": "w_0863",
+      "lexeme_kind": "word",
+      "concept_id": "c_0863",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0333": {
+      "display_form": "micia",
+      "normalized_form": "micia",
+      "pos": null
+    },
+    "w_0863": {
+      "display_form": "arto",
+      "normalized_form": "arto",
+      "pos": null
+    }
+  },
+  "expressions": {}
+}

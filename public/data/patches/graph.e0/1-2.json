@@ -1,0 +1,20 @@
+{
+  "pack": "graph.e0",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0034",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Cibo di uso quotidiano ottenuto cuocendo al forno un impasto di farina, acqua e lievito; in senso figurato, il minimo necessario per vivere (guadagnarsi il pane).",
+          "example": "Ogni mattina passa dal fornaio a comprare il pane fresco."
+        }
+      }
+    }
+  ]
+}

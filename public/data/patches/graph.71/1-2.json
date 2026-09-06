@@ -1,0 +1,59 @@
+{
+  "pack": "graph.71",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0262",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Opera che espone in modo ordinato e completo una materia; anche un accordo tra Stati.",
+          "example": "Ha scritto un trattato di agricoltura in tre volumi."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0532",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Onda molto grande e imponente, che avanza come un muro d'acqua.",
+          "example": "Un cavallone spazzò via l'ombrellone."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0891",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Qualità di ciò che è coperto di peli duri e irti.",
+          "example": "L'ispidità della barba di qualche giorno le graffiava la guancia."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0914",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Ciò che è ottenuto da una lavorazione o da un processo, pronto per l'uso o la vendita.",
+          "example": "Nello scaffale sono esposti i prodotti dell'azienda agricola."
+        }
+      }
+    }
+  ]
+}

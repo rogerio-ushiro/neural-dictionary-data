@@ -1,0 +1,302 @@
+{
+  "shard": "d8",
+  "concepts": {
+    "c_0135": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Disco o cerchio che gira attorno a un perno e permette a un veicolo di rotolare avanti; al figurato, l'elemento che fa funzionare un meccanismo più grande.",
+        "example": "Una ruota della carriola si è sgonfiata."
+      }
+    },
+    "c_0140": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "L'insieme delle valigie e dei colli che ci si porta dietro in viaggio.",
+        "example": "Ha imbarcato il bagaglio e si è diretto al gate."
+      }
+    },
+    "c_0438": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Cereale da cui si ricava la farina per il pane; le sue spighe maturano d'estate.",
+        "example": "I campi di grano ondeggiavano sotto il vento."
+      }
+    },
+    "c_0751": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Il liquido rosso che circola nel corpo; al figurato, la parentela e la discendenza.",
+        "example": "Sono legati dallo stesso sangue."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0008",
+      "concept_b": "c_0135",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0009",
+      "concept_b": "c_0135",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0009",
+      "concept_b": "c_0140",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0022",
+      "concept_b": "c_0135",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0034",
+      "concept_b": "c_0438",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0070",
+      "concept_b": "c_0135",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0135",
+      "concept_b": "c_0312",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0135",
+      "concept_b": "c_0316",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0135",
+      "concept_b": "c_0717",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0135",
+      "concept_b": "c_0718",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0135",
+      "concept_b": "c_0719",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0135",
+      "concept_b": "c_0720",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0135",
+      "concept_b": "c_0721",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0135",
+      "concept_b": "c_0722",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0135",
+      "concept_b": "c_0723",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0135",
+      "concept_b": "c_0724",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0135",
+      "concept_b": "c_0725",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0135",
+      "concept_b": "c_0726",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0135",
+      "concept_b": "c_0727",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0135",
+      "concept_b": "c_0728",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0203",
+      "concept_b": "c_0751",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    }
+  ],
+  "word_senses": {
+    "s_0135": {
+      "lexeme_id": "w_0135",
+      "lexeme_kind": "word",
+      "concept_id": "c_0135",
+      "is_primary": true
+    },
+    "s_0140": {
+      "lexeme_id": "w_0140",
+      "lexeme_kind": "word",
+      "concept_id": "c_0140",
+      "is_primary": true
+    },
+    "s_0438": {
+      "lexeme_id": "w_0438",
+      "lexeme_kind": "word",
+      "concept_id": "c_0438",
+      "is_primary": true
+    },
+    "s_0751": {
+      "lexeme_id": "w_0751",
+      "lexeme_kind": "word",
+      "concept_id": "c_0751",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0135": {
+      "display_form": "ruota",
+      "normalized_form": "ruota",
+      "pos": null
+    },
+    "w_0140": {
+      "display_form": "bagaglio",
+      "normalized_form": "bagaglio",
+      "pos": null
+    },
+    "w_0438": {
+      "display_form": "grano",
+      "normalized_form": "grano",
+      "pos": null
+    },
+    "w_0751": {
+      "display_form": "sangue",
+      "normalized_form": "sangue",
+      "pos": null
+    }
+  },
+  "expressions": {}
+}

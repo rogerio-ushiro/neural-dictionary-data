@@ -1,0 +1,342 @@
+{
+  "shard": "32",
+  "concepts": {
+    "c_0209": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Bambino piccolo (voce affettuosa).",
+        "example": "Il bimbo si è addormentato in braccio alla madre."
+      }
+    },
+    "c_0300": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "L'insieme di tutto ciò che esiste senza l'intervento dell'uomo, dalle piante ai monti al clima; anche il carattere di fondo di una persona.",
+        "example": "Ama passare i fine settimana immerso nella natura."
+      }
+    },
+    "c_0559": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Pietra di media grandezza, staccata dalla roccia.",
+        "example": "Inciampò in un sasso e per poco non cadde."
+      }
+    },
+    "c_0850": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Che produce o riguarda il latte.",
+        "example": "Le ghiandole lattifere si sviluppano durante l'allattamento."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0014",
+      "concept_b": "c_0209",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0021",
+      "concept_b": "c_0300",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0025",
+      "concept_b": "c_0300",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0026",
+      "concept_b": "c_0300",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0027",
+      "concept_b": "c_0300",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0045",
+      "concept_b": "c_0559",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0297",
+      "concept_b": "c_0300",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0299",
+      "concept_b": "c_0300",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0300",
+      "concept_b": "c_0371",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0300",
+      "concept_b": "c_0375",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0300",
+      "concept_b": "c_0409",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0300",
+      "concept_b": "c_0815",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0300",
+      "concept_b": "c_0816",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0300",
+      "concept_b": "c_0817",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0300",
+      "concept_b": "c_0818",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0300",
+      "concept_b": "c_0819",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0300",
+      "concept_b": "c_0820",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0300",
+      "concept_b": "c_0821",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0300",
+      "concept_b": "c_0822",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0300",
+      "concept_b": "c_0823",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0300",
+      "concept_b": "c_0824",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0300",
+      "concept_b": "c_0825",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0300",
+      "concept_b": "c_0826",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0300",
+      "concept_b": "c_0827",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0321",
+      "concept_b": "c_0850",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    }
+  ],
+  "word_senses": {
+    "s_0209": {
+      "lexeme_id": "w_0209",
+      "lexeme_kind": "word",
+      "concept_id": "c_0209",
+      "is_primary": true
+    },
+    "s_0300": {
+      "lexeme_id": "w_0300",
+      "lexeme_kind": "word",
+      "concept_id": "c_0300",
+      "is_primary": true
+    },
+    "s_0559": {
+      "lexeme_id": "w_0559",
+      "lexeme_kind": "word",
+      "concept_id": "c_0559",
+      "is_primary": true
+    },
+    "s_0850": {
+      "lexeme_id": "w_0850",
+      "lexeme_kind": "word",
+      "concept_id": "c_0850",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0209": {
+      "display_form": "bimbo",
+      "normalized_form": "bimbo",
+      "pos": null
+    },
+    "w_0300": {
+      "display_form": "natura",
+      "normalized_form": "natura",
+      "pos": null
+    },
+    "w_0559": {
+      "display_form": "sasso",
+      "normalized_form": "sasso",
+      "pos": null
+    },
+    "w_0850": {
+      "display_form": "lattifero",
+      "normalized_form": "lattifero",
+      "pos": null
+    }
+  },
+  "expressions": {}
+}

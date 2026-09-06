@@ -1,0 +1,59 @@
+{
+  "pack": "graph.de",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0263",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Libro che spiega passo passo come fare o usare qualcosa.",
+          "example": "Ha consultato il manuale per montare la libreria."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0533",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Rapido tremolio di un corpo che si trasmette all'aria e produce suono.",
+          "example": "Si sentiva la vibrazione del motore sotto i piedi."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0890",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Peluria fine e soffice, come quella che ricopre certi frutti o i piccoli degli animali.",
+          "example": "Il pulcino era una pallina di lanugine gialla."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0915",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Parte del frutto da cui, seminata, nasce una nuova pianta.",
+          "example": "Conserva i semi dei pomodori migliori per l'anno dopo."
+        }
+      }
+    }
+  ]
+}

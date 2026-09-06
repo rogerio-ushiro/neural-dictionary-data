@@ -1,0 +1,72 @@
+{
+  "pack": "graph.82",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0292",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Serie di gare tra più concorrenti per assegnare un titolo.",
+          "example": "Ha vinto il torneo di scacchi della scuola."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0425",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Ciascuno dei piatti che compongono un pasto, servito nel suo turno.",
+          "example": "Come portata principale hanno servito arrosto e patate."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0641",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Caldo estremo e bruciante, tipico dei deserti e delle ore di punta d'estate.",
+          "example": "Nella torridità di mezzogiorno le strade erano deserte."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0933",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Getto rapido di gocce lanciate in aria.",
+          "example": "Passò una barca e sollevò uno spruzzo che li bagnò tutti."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0946",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Elemento o circostanza che contribuisce a produrre un certo risultato.",
+          "example": "Il clima è un fattore decisivo per il raccolto."
+        }
+      }
+    }
+  ]
+}

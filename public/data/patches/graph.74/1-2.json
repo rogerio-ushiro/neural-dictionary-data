@@ -1,0 +1,46 @@
+{
+  "pack": "graph.74",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0315",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Serie di anelli metallici uniti l'uno all'altro, usata per legare, sollevare o trasmettere il moto ai pedali.",
+          "example": "La catena della bici è uscita dagli ingranaggi."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0382",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Bassa temperatura che fa rabbrividire e cercare riparo; riferito ai modi di una persona, mancanza di calore e cordialità.",
+          "example": "Fa un freddo pungente stamattina."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0845",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Che vive nei boschi allo stato naturale, non allevato dall'uomo.",
+          "example": "Nella tana c'era una covata di conigli selvatici."
+        }
+      }
+    }
+  ]
+}

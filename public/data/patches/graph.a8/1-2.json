@@ -1,0 +1,46 @@
+{
+  "pack": "graph.a8",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0153",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Città molto grande e popolosa, centro di traffici e di attività.",
+          "example": "Nella metropoli si può vivere anni senza conoscere i vicini."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0724",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Ruota dentata attorno a cui gira la catena della bicicletta.",
+          "example": "La catena era saltata via dalla corona."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0948",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Ciò di cui una cosa è fatta; al figurato, il contenuto concreto e importante di un discorso.",
+          "example": "Un discorso lungo ma privo di sostanza."
+        }
+      }
+    }
+  ]
+}

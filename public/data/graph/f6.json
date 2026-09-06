@@ -1,0 +1,172 @@
+{
+  "shard": "f6",
+  "concepts": {
+    "c_0274": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Persona a cui si confidano i propri segreti e pensieri.",
+        "example": "È l'unica confidente delle sue preoccupazioni."
+      }
+    },
+    "c_0340": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Piccola porzione di terreno delimitata in un giardino, dove si coltivano fiori.",
+        "example": "Ha piantato tulipani lungo l'aiuola del vialetto."
+      }
+    },
+    "c_0524": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Il momento centrale del giorno, quando il sole è più alto.",
+        "example": "A mezzogiorno le campane suonano l'Angelus."
+      }
+    },
+    "c_0599": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Colore scuro tra il rosso e il nero, come quello della terra o della pelle abbronzata.",
+        "example": "Ha scelto un divano marrone per non far vedere le macchie."
+      }
+    },
+    "c_0810": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Superficie morbida e uniforme che ricopre un pavimento o il terreno.",
+        "example": "Un tappeto di aghi di pino attutiva i passi nel bosco."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0019",
+      "concept_b": "c_0274",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0025",
+      "concept_b": "c_0340",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0040",
+      "concept_b": "c_0524",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0060",
+      "concept_b": "c_0599",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0298",
+      "concept_b": "c_0810",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0304",
+      "concept_b": "c_0810",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    }
+  ],
+  "word_senses": {
+    "s_0274": {
+      "lexeme_id": "w_0274",
+      "lexeme_kind": "word",
+      "concept_id": "c_0274",
+      "is_primary": true
+    },
+    "s_0340": {
+      "lexeme_id": "w_0340",
+      "lexeme_kind": "word",
+      "concept_id": "c_0340",
+      "is_primary": true
+    },
+    "s_0524": {
+      "lexeme_id": "w_0524",
+      "lexeme_kind": "word",
+      "concept_id": "c_0524",
+      "is_primary": true
+    },
+    "s_0599": {
+      "lexeme_id": "w_0599",
+      "lexeme_kind": "word",
+      "concept_id": "c_0599",
+      "is_primary": true
+    },
+    "s_0810": {
+      "lexeme_id": "w_0810",
+      "lexeme_kind": "word",
+      "concept_id": "c_0810",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0274": {
+      "display_form": "confidente",
+      "normalized_form": "confidente",
+      "pos": null
+    },
+    "w_0340": {
+      "display_form": "aiuola",
+      "normalized_form": "aiuola",
+      "pos": null
+    },
+    "w_0524": {
+      "display_form": "mezzogiorno",
+      "normalized_form": "mezzogiorno",
+      "pos": null
+    },
+    "w_0599": {
+      "display_form": "marrone",
+      "normalized_form": "marrone",
+      "pos": null
+    },
+    "w_0810": {
+      "display_form": "tappeto",
+      "normalized_form": "tappeto",
+      "pos": null
+    }
+  },
+  "expressions": {}
+}

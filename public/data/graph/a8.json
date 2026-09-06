@@ -1,0 +1,102 @@
+{
+  "shard": "a8",
+  "concepts": {
+    "c_0153": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Città molto grande e popolosa, centro di traffici e di attività.",
+        "example": "Nella metropoli si può vivere anni senza conoscere i vicini."
+      }
+    },
+    "c_0724": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Ruota dentata attorno a cui gira la catena della bicicletta.",
+        "example": "La catena era saltata via dalla corona."
+      }
+    },
+    "c_0948": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Ciò di cui una cosa è fatta; al figurato, il contenuto concreto e importante di un discorso.",
+        "example": "Un discorso lungo ma privo di sostanza."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0010",
+      "concept_b": "c_0153",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0135",
+      "concept_b": "c_0724",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0371",
+      "concept_b": "c_0948",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    }
+  ],
+  "word_senses": {
+    "s_0153": {
+      "lexeme_id": "w_0153",
+      "lexeme_kind": "word",
+      "concept_id": "c_0153",
+      "is_primary": true
+    },
+    "s_0724": {
+      "lexeme_id": "w_0724",
+      "lexeme_kind": "word",
+      "concept_id": "c_0724",
+      "is_primary": true
+    },
+    "s_0948": {
+      "lexeme_id": "w_0948",
+      "lexeme_kind": "word",
+      "concept_id": "c_0948",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0153": {
+      "display_form": "metropoli",
+      "normalized_form": "metropoli",
+      "pos": null
+    },
+    "w_0724": {
+      "display_form": "corona",
+      "normalized_form": "corona",
+      "pos": null
+    },
+    "w_0948": {
+      "display_form": "sostanza",
+      "normalized_form": "sostanza",
+      "pos": null
+    }
+  },
+  "expressions": {}
+}

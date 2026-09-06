@@ -1,0 +1,33 @@
+{
+  "pack": "graph.0f",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0022",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Mezzo a due ruote che si fa avanzare pedalando, usato per spostarsi o per sport; tenersi in sella richiede equilibrio.",
+          "example": "Va al lavoro in bicicletta anche quando piove."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0097",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Sensazione di calore fastidioso sulla pelle o dentro il corpo.",
+          "example": "Sentiva un bruciore agli occhi per il fumo."
+        }
+      }
+    }
+  ]
+}

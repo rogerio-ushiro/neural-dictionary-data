@@ -1,0 +1,33 @@
+{
+  "pack": "graph.53",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0307",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "L'insieme degli animali che vivono in un territorio.",
+          "example": "La fauna del parco comprende lupi, cervi e aquile."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0857",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Arto inferiore su cui il corpo si regge e cammina, dal fianco al piede.",
+          "example": "Correndo si è procurato uno strappo alla gamba."
+        }
+      }
+    }
+  ]
+}

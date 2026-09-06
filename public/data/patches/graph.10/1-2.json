@@ -1,0 +1,72 @@
+{
+  "pack": "graph.10",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0294",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Invito a misurarsi in una prova; anche una difficoltà da affrontare.",
+          "example": "Ha accettato la sfida di correre la maratona."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0423",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "L'insieme del cibo necessario per vivere; anche ciò che spetta per il mantenimento.",
+          "example": "Al collegio erano compresi vitto e alloggio."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0647",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Grave perdita d'acqua da parte del corpo, che indebolisce e mette in pericolo.",
+          "example": "Con quel caldo il rischio di disidratazione è alto."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0935",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Corso d'acqua di montagna dalla corrente rapida e dal letto sassoso, spesso in secca d'estate.",
+          "example": "Dopo il temporale il torrente si gonfiò in poche ore."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0940",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Il punto in cui un fiume sfocia nel mare o in un lago.",
+          "example": "Alla foce del fiume nidificano molti uccelli acquatici."
+        }
+      }
+    }
+  ]
+}

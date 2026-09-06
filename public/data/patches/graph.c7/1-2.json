@@ -1,0 +1,59 @@
+{
+  "pack": "graph.c7",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0075",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Il momento in cui il sole scende sotto l'orizzonte e la luce cala; al figurato, la fine di un periodo o di una vita.",
+          "example": "Si fermarono a guardare il tramonto dalla terrazza."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0109",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Condizione di chi può pensare, agire e muoversi senza costrizioni; è anche un diritto garantito dalle leggi.",
+          "example": "Dopo anni di lavoro si è preso la libertà di viaggiare."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0718",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Anello metallico che fa da bordo alla ruota e su cui si monta il pneumatico.",
+          "example": "Il cerchione si è ammaccato contro il marciapiede."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0787",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Ciascuna delle righe in cui è scritta una poesia.",
+          "example": "Ricordava a memoria i primi versi del poema."
+        }
+      }
+    }
+  ]
+}

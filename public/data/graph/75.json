@@ -1,0 +1,92 @@
+{
+  "shard": "75",
+  "concepts": {
+    "c_0334": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Unghia robusta, ricurva e appuntita di certi animali, usata per afferrare la preda o difendersi.",
+        "example": "Il gatto ha affondato gli artigli nella tenda."
+      }
+    },
+    "c_0864": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Parte terminale della gamba su cui il corpo si appoggia per stare in piedi e camminare; al figurato, la base di un oggetto (il piede del tavolo).",
+        "example": "Dopo la camminata aveva i piedi gonfi."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0024",
+      "concept_b": "c_0334",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0322",
+      "concept_b": "c_0334",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0324",
+      "concept_b": "c_0334",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0324",
+      "concept_b": "c_0864",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    }
+  ],
+  "word_senses": {
+    "s_0334": {
+      "lexeme_id": "w_0334",
+      "lexeme_kind": "word",
+      "concept_id": "c_0334",
+      "is_primary": true
+    },
+    "s_0864": {
+      "lexeme_id": "w_0864",
+      "lexeme_kind": "word",
+      "concept_id": "c_0864",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0334": {
+      "display_form": "artiglio",
+      "normalized_form": "artiglio",
+      "pos": null
+    },
+    "w_0864": {
+      "display_form": "piede",
+      "normalized_form": "piede",
+      "pos": null
+    }
+  },
+  "expressions": {}
+}

@@ -1,0 +1,162 @@
+{
+  "shard": "10",
+  "concepts": {
+    "c_0294": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Invito a misurarsi in una prova; anche una difficoltà da affrontare.",
+        "example": "Ha accettato la sfida di correre la maratona."
+      }
+    },
+    "c_0423": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "L'insieme del cibo necessario per vivere; anche ciò che spetta per il mantenimento.",
+        "example": "Al collegio erano compresi vitto e alloggio."
+      }
+    },
+    "c_0647": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Grave perdita d'acqua da parte del corpo, che indebolisce e mette in pericolo.",
+        "example": "Con quel caldo il rischio di disidratazione è alto."
+      }
+    },
+    "c_0935": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Corso d'acqua di montagna dalla corrente rapida e dal letto sassoso, spesso in secca d'estate.",
+        "example": "Dopo il temporale il torrente si gonfiò in poche ore."
+      }
+    },
+    "c_0940": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Il punto in cui un fiume sfocia nel mare o in un lago.",
+        "example": "Alla foce del fiume nidificano molti uccelli acquatici."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0020",
+      "concept_b": "c_0294",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0033",
+      "concept_b": "c_0423",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0084",
+      "concept_b": "c_0647",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0368",
+      "concept_b": "c_0935",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0368",
+      "concept_b": "c_0940",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    }
+  ],
+  "word_senses": {
+    "s_0294": {
+      "lexeme_id": "w_0294",
+      "lexeme_kind": "word",
+      "concept_id": "c_0294",
+      "is_primary": true
+    },
+    "s_0423": {
+      "lexeme_id": "w_0423",
+      "lexeme_kind": "word",
+      "concept_id": "c_0423",
+      "is_primary": true
+    },
+    "s_0647": {
+      "lexeme_id": "w_0647",
+      "lexeme_kind": "word",
+      "concept_id": "c_0647",
+      "is_primary": true
+    },
+    "s_0935": {
+      "lexeme_id": "w_0935",
+      "lexeme_kind": "word",
+      "concept_id": "c_0935",
+      "is_primary": true
+    },
+    "s_0940": {
+      "lexeme_id": "w_0940",
+      "lexeme_kind": "word",
+      "concept_id": "c_0940",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0294": {
+      "display_form": "sfida",
+      "normalized_form": "sfida",
+      "pos": null
+    },
+    "w_0423": {
+      "display_form": "vitto",
+      "normalized_form": "vitto",
+      "pos": null
+    },
+    "w_0647": {
+      "display_form": "disidratazione",
+      "normalized_form": "disidratazione",
+      "pos": null
+    },
+    "w_0935": {
+      "display_form": "torrente",
+      "normalized_form": "torrente",
+      "pos": null
+    },
+    "w_0940": {
+      "display_form": "foce",
+      "normalized_form": "foce",
+      "pos": null
+    }
+  },
+  "expressions": {}
+}

@@ -1,0 +1,46 @@
+{
+  "pack": "graph.cd",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0028",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Liquido senza colore, odore né sapore che riempie mari, laghi e fiumi e serve a bere, lavare e irrigare; è indispensabile a ogni essere vivente.",
+          "example": "Bevi un bicchiere d'acqua prima di dormire."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0370",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Presenza di acqua nell'aria o in un materiale, che rende l'ambiente afoso o le cose bagnaticce.",
+          "example": "In cantina l'umidità ha rovinato i cartoni."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0820",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "L'insieme di ciò che esiste davvero, in contrapposizione a sogni e illusioni.",
+          "example": "Prima o poi dovrà fare i conti con la realtà."
+        }
+      }
+    }
+  ]
+}

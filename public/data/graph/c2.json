@@ -1,0 +1,272 @@
+{
+  "shard": "c2",
+  "concepts": {
+    "c_0102": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Attività piacevole con cui ci si riposa la mente distraendosi dagli impegni.",
+        "example": "Nei pomeriggi liberi si dedica allo svago della lettura."
+      }
+    },
+    "c_0487": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Festa chiassosa e sfrenata, con canti e abbondanti bevute.",
+        "example": "Fecero baldoria fino all'alba per la vittoria."
+      }
+    },
+    "c_0713": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Leggero e involontario scuotersi del corpo, per freddo, paura o emozione.",
+        "example": "Un tremore alle mani lo tradiva mentre firmava."
+      }
+    },
+    "c_0766": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Il padre del nonno o della nonna.",
+        "example": "Il bisnonno visse fino a cent'anni."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0006",
+      "concept_b": "c_0102",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0020",
+      "concept_b": "c_0102",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0037",
+      "concept_b": "c_0102",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0037",
+      "concept_b": "c_0487",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0085",
+      "concept_b": "c_0102",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0102",
+      "concept_b": "c_0104",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0102",
+      "concept_b": "c_0107",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0102",
+      "concept_b": "c_0108",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0102",
+      "concept_b": "c_0287",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0102",
+      "concept_b": "c_0289",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0102",
+      "concept_b": "c_0489",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0102",
+      "concept_b": "c_0490",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0102",
+      "concept_b": "c_0670",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0102",
+      "concept_b": "c_0671",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0102",
+      "concept_b": "c_0672",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0102",
+      "concept_b": "c_0673",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0118",
+      "concept_b": "c_0713",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0226",
+      "concept_b": "c_0766",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    }
+  ],
+  "word_senses": {
+    "s_0102": {
+      "lexeme_id": "w_0102",
+      "lexeme_kind": "word",
+      "concept_id": "c_0102",
+      "is_primary": true
+    },
+    "s_0487": {
+      "lexeme_id": "w_0487",
+      "lexeme_kind": "word",
+      "concept_id": "c_0487",
+      "is_primary": true
+    },
+    "s_0713": {
+      "lexeme_id": "w_0713",
+      "lexeme_kind": "word",
+      "concept_id": "c_0713",
+      "is_primary": true
+    },
+    "s_0766": {
+      "lexeme_id": "w_0766",
+      "lexeme_kind": "word",
+      "concept_id": "c_0766",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0102": {
+      "display_form": "svago",
+      "normalized_form": "svago",
+      "pos": null
+    },
+    "w_0487": {
+      "display_form": "baldoria",
+      "normalized_form": "baldoria",
+      "pos": null
+    },
+    "w_0713": {
+      "display_form": "tremore",
+      "normalized_form": "tremore",
+      "pos": null
+    },
+    "w_0766": {
+      "display_form": "bisnonno",
+      "normalized_form": "bisnonno",
+      "pos": null
+    }
+  },
+  "expressions": {}
+}

@@ -1,0 +1,72 @@
+{
+  "shard": "33",
+  "concepts": {
+    "c_0116": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Un percorso che riporta al punto di partenza, fatto per svago o per visitare più luoghi.",
+        "example": "Hanno fatto il giro dell'isola in barca."
+      }
+    },
+    "c_0772": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "La capacità di condizionare le scelte e le opinioni degli altri.",
+        "example": "Ha molta influenza sulle decisioni del gruppo."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0007",
+      "concept_b": "c_0116",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0228",
+      "concept_b": "c_0772",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    }
+  ],
+  "word_senses": {
+    "s_0116": {
+      "lexeme_id": "w_0116",
+      "lexeme_kind": "word",
+      "concept_id": "c_0116",
+      "is_primary": true
+    },
+    "s_0772": {
+      "lexeme_id": "w_0772",
+      "lexeme_kind": "word",
+      "concept_id": "c_0772",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0116": {
+      "display_form": "giro",
+      "normalized_form": "giro",
+      "pos": null
+    },
+    "w_0772": {
+      "display_form": "influenza",
+      "normalized_form": "influenza",
+      "pos": null
+    }
+  },
+  "expressions": {}
+}

@@ -1,0 +1,202 @@
+{
+  "shard": "ef",
+  "concepts": {
+    "c_0291": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Spirito di gara e volontà di prevalere sull'avversario.",
+        "example": "Mette troppo agonismo anche nelle partite tra amici."
+      }
+    },
+    "c_0426": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Il locale della casa dove si preparano i cibi; anche l'insieme dei piatti tipici di un luogo.",
+        "example": "La cucina profumava di sugo fin dalle scale."
+      }
+    },
+    "c_0642": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Vento caldo e umido che soffia da sud portando afa.",
+        "example": "Con lo scirocco il cielo si fa lattiginoso e l'aria pesante."
+      }
+    },
+    "c_0729": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Percorso che collega due luoghi e permette di passare; al figurato, il modo per ottenere qualcosa (la via del successo).",
+        "example": "Prese una via secondaria per evitare il traffico."
+      }
+    },
+    "c_0930": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Piccola sfera lucente che si forma nella conchiglia di alcuni molluschi, usata come gioiello.",
+        "example": "Portava al collo un filo di perle della nonna."
+      }
+    },
+    "c_0945": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Ciascuna delle parti che, unite, formano un tutto o un meccanismo.",
+        "example": "Manca un componente e la lampada non si accende."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0020",
+      "concept_b": "c_0291",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0033",
+      "concept_b": "c_0426",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0080",
+      "concept_b": "c_0642",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0159",
+      "concept_b": "c_0729",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0303",
+      "concept_b": "c_0729",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0367",
+      "concept_b": "c_0930",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0371",
+      "concept_b": "c_0945",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    }
+  ],
+  "word_senses": {
+    "s_0291": {
+      "lexeme_id": "w_0291",
+      "lexeme_kind": "word",
+      "concept_id": "c_0291",
+      "is_primary": true
+    },
+    "s_0426": {
+      "lexeme_id": "w_0426",
+      "lexeme_kind": "word",
+      "concept_id": "c_0426",
+      "is_primary": true
+    },
+    "s_0642": {
+      "lexeme_id": "w_0642",
+      "lexeme_kind": "word",
+      "concept_id": "c_0642",
+      "is_primary": true
+    },
+    "s_0729": {
+      "lexeme_id": "w_0729",
+      "lexeme_kind": "word",
+      "concept_id": "c_0729",
+      "is_primary": true
+    },
+    "s_0930": {
+      "lexeme_id": "w_0930",
+      "lexeme_kind": "word",
+      "concept_id": "c_0930",
+      "is_primary": true
+    },
+    "s_0945": {
+      "lexeme_id": "w_0945",
+      "lexeme_kind": "word",
+      "concept_id": "c_0945",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0291": {
+      "display_form": "agonismo",
+      "normalized_form": "agonismo",
+      "pos": null
+    },
+    "w_0426": {
+      "display_form": "cucina",
+      "normalized_form": "cucina",
+      "pos": null
+    },
+    "w_0642": {
+      "display_form": "sirocco",
+      "normalized_form": "sirocco",
+      "pos": null
+    },
+    "w_0729": {
+      "display_form": "via",
+      "normalized_form": "via",
+      "pos": null
+    },
+    "w_0930": {
+      "display_form": "perla",
+      "normalized_form": "perla",
+      "pos": null
+    },
+    "w_0945": {
+      "display_form": "componente",
+      "normalized_form": "componente",
+      "pos": null
+    }
+  },
+  "expressions": {}
+}

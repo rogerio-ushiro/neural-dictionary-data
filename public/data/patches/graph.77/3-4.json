@@ -1,0 +1,85 @@
+{
+  "pack": "graph.77",
+  "from": 3,
+  "to": 4,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0192",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Struttura verticale di mattoni o pietra che divide o recinta uno spazio.",
+          "example": "Hanno tinteggiato il muro del giardino di bianco."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0471",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Freddo molto intenso che ghiaccia l'acqua e irrigidisce il terreno; in senso figurato, un improvviso raffreddarsi dei rapporti tra persone.",
+          "example": "Il gelo notturno ha rovinato le piante sul balcone."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0585",
+      "concept": {
+        "revision": 3,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Rombo cupo e prolungato che segue il lampo durante un temporale.",
+          "example": "Il tuono fece sobbalzare il cane."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0606",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Slancio pieno di gioia con cui ci si getta in un'impresa.",
+          "example": "Accolse la proposta con entusiasmo."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0974",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Qualità di ciò che non si piega né si adatta, per materiale o per carattere.",
+          "example": "La rigidità dell'acciaio lo rende adatto alle travi."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_1018",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Catturare pesci con la rete, la lenza o le mani.",
+          "example": "Andava a pescare sul molo ogni domenica all'alba."
+        }
+      }
+    }
+  ]
+}

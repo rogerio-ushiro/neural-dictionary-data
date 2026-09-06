@@ -1,0 +1,46 @@
+{
+  "pack": "graph.61",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0150",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "L'azione di tenere qualcosa dentro certi limiti perché non trabocchi o non si sparga.",
+          "example": "La diga serve al contenimento delle piene."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0428",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Ciascuna delle sostanze che si uniscono per preparare un piatto.",
+          "example": "Manca un ingrediente per completare la ricetta."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0727",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Qualità di ciò che ha forma tonda o arrotondata.",
+          "example": "La rotondità dei ciottoli è dovuta all'azione dell'acqua."
+        }
+      }
+    }
+  ]
+}

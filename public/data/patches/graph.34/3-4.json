@@ -1,0 +1,72 @@
+{
+  "pack": "graph.34",
+  "from": 3,
+  "to": 4,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0001",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Grande distesa di acqua salata che circonda i continenti, su cui si naviga e si pesca; al figurato, una quantità sterminata di qualcosa (un mare di guai).",
+          "example": "D'inverno il mare è grigio e agitato."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0074",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Il primo apparire della luce del giorno, prima che il sole spunti; al figurato, l'inizio di qualcosa di nuovo.",
+          "example": "Sono partiti all'alba per evitare il traffico."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0108",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Il non fare nulla, lasciando passare il tempo senza impegni.",
+          "example": "Passò l'intero pomeriggio nell'ozio più completo."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0719",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Parte centrale della ruota, che gira attorno al perno e a cui si fissano i raggi.",
+          "example": "Il mozzo della ruota anteriore andava lubrificato."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0786",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Racconto tramandato che mescola fatti storici e invenzione fantastica.",
+          "example": "La leggenda vuole che sotto la collina sia sepolto un tesoro."
+        }
+      }
+    }
+  ]
+}

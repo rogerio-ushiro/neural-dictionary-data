@@ -1,0 +1,272 @@
+{
+  "shard": "d2",
+  "concepts": {
+    "c_0168": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "La zona fuori dalle città, coltivata e poco abitata.",
+        "example": "D'estate si trasferiscono in campagna dai nonni."
+      }
+    },
+    "c_0234": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Chi deve rispondere di qualcosa o di qualcuno davanti agli altri.",
+        "example": "È il responsabile della sicurezza del cantiere."
+      }
+    },
+    "c_0281": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Chi partecipa a un'impresa comune, in particolare economica.",
+        "example": "È entrato come socio nello studio dell'amico."
+      }
+    },
+    "c_0410": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Superficie liscia e lucida che riflette le immagini; al figurato, una distesa d'acqua ferma e limpida.",
+        "example": "Il lago era un vero specchio all'alba."
+      }
+    },
+    "c_0564": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Gruppo di isole vicine tra loro nello stesso tratto di mare.",
+        "example": "Navigarono per giorni tra le isole dell'arcipelago."
+      }
+    },
+    "c_0696": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Gruppo di persone disposte in file ordinate, soprattutto soldati.",
+        "example": "Una schiera di volontari ripuliva la spiaggia."
+      }
+    },
+    "c_0739": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Zona abitata alla periferia di una città, tra questa e la campagna.",
+        "example": "Vivono in un sobborgo tranquillo ben collegato al centro."
+      }
+    },
+    "c_0955": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Insieme dei fatti che si intrecciano in una storia; nei tessuti, l'ordito di fili che regge la stoffa.",
+        "example": "La trama del romanzo si complica nel secondo capitolo."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0010",
+      "concept_b": "c_0168",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0015",
+      "concept_b": "c_0234",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0019",
+      "concept_b": "c_0281",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0032",
+      "concept_b": "c_0410",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0048",
+      "concept_b": "c_0564",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0113",
+      "concept_b": "c_0696",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0164",
+      "concept_b": "c_0739",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0273",
+      "concept_b": "c_0281",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0343",
+      "concept_b": "c_0410",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0374",
+      "concept_b": "c_0955",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    }
+  ],
+  "word_senses": {
+    "s_0168": {
+      "lexeme_id": "w_0168",
+      "lexeme_kind": "word",
+      "concept_id": "c_0168",
+      "is_primary": true
+    },
+    "s_0234": {
+      "lexeme_id": "w_0234",
+      "lexeme_kind": "word",
+      "concept_id": "c_0234",
+      "is_primary": true
+    },
+    "s_0281": {
+      "lexeme_id": "w_0281",
+      "lexeme_kind": "word",
+      "concept_id": "c_0281",
+      "is_primary": true
+    },
+    "s_0410": {
+      "lexeme_id": "w_0410",
+      "lexeme_kind": "word",
+      "concept_id": "c_0410",
+      "is_primary": true
+    },
+    "s_0564": {
+      "lexeme_id": "w_0564",
+      "lexeme_kind": "word",
+      "concept_id": "c_0564",
+      "is_primary": true
+    },
+    "s_0696": {
+      "lexeme_id": "w_0696",
+      "lexeme_kind": "word",
+      "concept_id": "c_0696",
+      "is_primary": true
+    },
+    "s_0739": {
+      "lexeme_id": "w_0739",
+      "lexeme_kind": "word",
+      "concept_id": "c_0739",
+      "is_primary": true
+    },
+    "s_0955": {
+      "lexeme_id": "w_0955",
+      "lexeme_kind": "word",
+      "concept_id": "c_0955",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0168": {
+      "display_form": "campagna",
+      "normalized_form": "campagna",
+      "pos": null
+    },
+    "w_0234": {
+      "display_form": "responsabile",
+      "normalized_form": "responsabile",
+      "pos": null
+    },
+    "w_0281": {
+      "display_form": "socio",
+      "normalized_form": "socio",
+      "pos": null
+    },
+    "w_0410": {
+      "display_form": "specchio",
+      "normalized_form": "specchio",
+      "pos": null
+    },
+    "w_0564": {
+      "display_form": "arcipelago",
+      "normalized_form": "arcipelago",
+      "pos": null
+    },
+    "w_0696": {
+      "display_form": "schiera",
+      "normalized_form": "schiera",
+      "pos": null
+    },
+    "w_0739": {
+      "display_form": "sobborgo",
+      "normalized_form": "sobborgo",
+      "pos": null
+    },
+    "w_0955": {
+      "display_form": "trama",
+      "normalized_form": "trama",
+      "pos": null
+    }
+  },
+  "expressions": {}
+}

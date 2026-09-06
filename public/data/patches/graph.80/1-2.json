@@ -1,0 +1,46 @@
+{
+  "pack": "graph.80",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0085",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "L'interrompere ogni attività per recuperare le forze; anche il sonno e la quiete che lo accompagnano.",
+          "example": "Dopo la scalata si concesse un lungo riposo."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0171",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "L'estensione di terra su cui uno Stato o un ente esercita il proprio potere.",
+          "example": "Il parco naturale copre un vasto territorio."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0702",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Il camminare a passo cadenzato e ordinato, spesso di molte persone insieme; indica anche il rapporto di velocità inserito in un veicolo.",
+          "example": "I soldati sfilarono in marcia lungo il viale."
+        }
+      }
+    }
+  ]
+}

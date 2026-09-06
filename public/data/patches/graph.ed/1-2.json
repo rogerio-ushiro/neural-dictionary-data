@@ -1,0 +1,46 @@
+{
+  "pack": "graph.ed",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0002",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Striscia di sabbia o ghiaia lungo il mare, dove ci si stende al sole e si fa il bagno.",
+          "example": "D'estate la spiaggia si riempie già di mattina."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0077",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Il corpo celeste che gira attorno alla Terra e di notte ne riflette la luce del sole.",
+          "example": "C'era la luna piena e si camminava senza torcia."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0785",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Componimento poetico solenne, spesso di argomento sacro o funebre.",
+          "example": "Il poeta compose un carme per la morte dell'amico."
+        }
+      }
+    }
+  ]
+}

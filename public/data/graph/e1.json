@@ -1,0 +1,122 @@
+{
+  "shard": "e1",
+  "concepts": {
+    "c_0312": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Leva su cui si spinge col piede per mettere in moto una bicicletta o azionare un comando.",
+        "example": "Spingeva sui pedali con tutte le forze in salita."
+      }
+    },
+    "c_0385": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Colore spento e uniforme tra il bianco e il nero; al figurato, un'atmosfera monotona e triste.",
+        "example": "Il grigiore del cielo durò per giorni."
+      }
+    },
+    "c_0842": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Che nasce da un impulso naturale e non da riflessione.",
+        "example": "Ebbe una reazione istintiva di paura."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0022",
+      "concept_b": "c_0312",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0029",
+      "concept_b": "c_0385",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0135",
+      "concept_b": "c_0312",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0319",
+      "concept_b": "c_0842",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0320",
+      "concept_b": "c_0842",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    }
+  ],
+  "word_senses": {
+    "s_0312": {
+      "lexeme_id": "w_0312",
+      "lexeme_kind": "word",
+      "concept_id": "c_0312",
+      "is_primary": true
+    },
+    "s_0385": {
+      "lexeme_id": "w_0385",
+      "lexeme_kind": "word",
+      "concept_id": "c_0385",
+      "is_primary": true
+    },
+    "s_0842": {
+      "lexeme_id": "w_0842",
+      "lexeme_kind": "word",
+      "concept_id": "c_0842",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0312": {
+      "display_form": "pedale",
+      "normalized_form": "pedale",
+      "pos": null
+    },
+    "w_0385": {
+      "display_form": "grigiore",
+      "normalized_form": "grigiore",
+      "pos": null
+    },
+    "w_0842": {
+      "display_form": "istintivo",
+      "normalized_form": "istintivo",
+      "pos": null
+    }
+  },
+  "expressions": {}
+}

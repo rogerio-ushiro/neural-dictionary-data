@@ -1,0 +1,202 @@
+{
+  "shard": "ab",
+  "concepts": {
+    "c_0013": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Il gruppo di persone unite da vincoli di sangue o di matrimonio che di solito vivono insieme.",
+        "example": "La domenica pranza tutta la famiglia dai nonni."
+      }
+    },
+    "c_0178": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Suddivisione amministrativa di uno Stato, intermedia tra comune e regione.",
+        "example": "Il capoluogo di provincia dista trenta chilometri."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0011",
+      "concept_b": "c_0178",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0013",
+      "concept_b": "c_0195",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0013",
+      "concept_b": "c_0196",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0013",
+      "concept_b": "c_0197",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0013",
+      "concept_b": "c_0198",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0013",
+      "concept_b": "c_0199",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0013",
+      "concept_b": "c_0200",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0013",
+      "concept_b": "c_0201",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0013",
+      "concept_b": "c_0202",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0013",
+      "concept_b": "c_0203",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0013",
+      "concept_b": "c_0204",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0013",
+      "concept_b": "c_0205",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0013",
+      "concept_b": "c_0206",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0013",
+      "concept_b": "c_0207",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0013",
+      "concept_b": "c_0208",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    }
+  ],
+  "word_senses": {
+    "s_0013": {
+      "lexeme_id": "w_0013",
+      "lexeme_kind": "word",
+      "concept_id": "c_0013",
+      "is_primary": true
+    },
+    "s_0178": {
+      "lexeme_id": "w_0178",
+      "lexeme_kind": "word",
+      "concept_id": "c_0178",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0013": {
+      "display_form": "famiglia",
+      "normalized_form": "famiglia",
+      "pos": null
+    },
+    "w_0178": {
+      "display_form": "provincia",
+      "normalized_form": "provincia",
+      "pos": null
+    }
+  },
+  "expressions": {}
+}

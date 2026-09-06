@@ -1,0 +1,33 @@
+{
+  "pack": "graph.cb",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0062",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Chi si trova in spiaggia per fare il bagno e prendere il sole.",
+          "example": "I bagnanti sgomberarono la riva all'arrivo del temporale."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0794",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Amico stretto e di lunga data (voce familiare).",
+          "example": "Il vecchio compare lo aspettava all'osteria."
+        }
+      }
+    }
+  ]
+}

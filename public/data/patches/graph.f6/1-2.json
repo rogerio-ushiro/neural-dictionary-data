@@ -1,0 +1,72 @@
+{
+  "pack": "graph.f6",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0274",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Persona a cui si confidano i propri segreti e pensieri.",
+          "example": "È l'unica confidente delle sue preoccupazioni."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0340",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Piccola porzione di terreno delimitata in un giardino, dove si coltivano fiori.",
+          "example": "Ha piantato tulipani lungo l'aiuola del vialetto."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0524",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Il momento centrale del giorno, quando il sole è più alto.",
+          "example": "A mezzogiorno le campane suonano l'Angelus."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0599",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Colore scuro tra il rosso e il nero, come quello della terra o della pelle abbronzata.",
+          "example": "Ha scelto un divano marrone per non far vedere le macchie."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0810",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Superficie morbida e uniforme che ricopre un pavimento o il terreno.",
+          "example": "Un tappeto di aghi di pino attutiva i passi nel bosco."
+        }
+      }
+    }
+  ]
+}

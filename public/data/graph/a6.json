@@ -1,0 +1,272 @@
+{
+  "shard": "a6",
+  "concepts": {
+    "c_0018": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Insieme di fogli stampati e rilegati che si leggono; contiene un racconto, uno studio o informazioni.",
+        "example": "Ha finito il libro in una notte."
+      }
+    },
+    "c_0087": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "La stagione tra l'estate e l'inverno, quando le foglie ingialliscono e cadono.",
+        "example": "In autunno il bosco si tinge di rosso e di giallo."
+      }
+    },
+    "c_0173": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Insieme di persone legate da un luogo, da interessi o da valori comuni.",
+        "example": "La comunità del paese si è stretta attorno alle famiglie colpite."
+      }
+    },
+    "c_0700": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Insieme di persone o cose riunite in un unico complesso.",
+        "example": "Un gruppo di turisti aspettava la guida davanti al museo."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0004",
+      "concept_b": "c_0087",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0011",
+      "concept_b": "c_0173",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0018",
+      "concept_b": "c_0259",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0018",
+      "concept_b": "c_0260",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0018",
+      "concept_b": "c_0261",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0018",
+      "concept_b": "c_0262",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0018",
+      "concept_b": "c_0263",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0018",
+      "concept_b": "c_0264",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0018",
+      "concept_b": "c_0265",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0018",
+      "concept_b": "c_0266",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0018",
+      "concept_b": "c_0267",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0018",
+      "concept_b": "c_0268",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0018",
+      "concept_b": "c_0269",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0018",
+      "concept_b": "c_0270",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0018",
+      "concept_b": "c_0271",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0018",
+      "concept_b": "c_0272",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0113",
+      "concept_b": "c_0700",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0164",
+      "concept_b": "c_0173",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    }
+  ],
+  "word_senses": {
+    "s_0018": {
+      "lexeme_id": "w_0018",
+      "lexeme_kind": "word",
+      "concept_id": "c_0018",
+      "is_primary": true
+    },
+    "s_0087": {
+      "lexeme_id": "w_0087",
+      "lexeme_kind": "word",
+      "concept_id": "c_0087",
+      "is_primary": true
+    },
+    "s_0173": {
+      "lexeme_id": "w_0173",
+      "lexeme_kind": "word",
+      "concept_id": "c_0173",
+      "is_primary": true
+    },
+    "s_0700": {
+      "lexeme_id": "w_0700",
+      "lexeme_kind": "word",
+      "concept_id": "c_0700",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0018": {
+      "display_form": "libro",
+      "normalized_form": "libro",
+      "pos": null
+    },
+    "w_0087": {
+      "display_form": "autunno",
+      "normalized_form": "autunno",
+      "pos": null
+    },
+    "w_0173": {
+      "display_form": "comunità",
+      "normalized_form": "comunita",
+      "pos": null
+    },
+    "w_0700": {
+      "display_form": "gruppo",
+      "normalized_form": "gruppo",
+      "pos": null
+    }
+  },
+  "expressions": {}
+}

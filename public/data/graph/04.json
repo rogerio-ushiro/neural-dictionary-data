@@ -1,0 +1,192 @@
+{
+  "shard": "04",
+  "concepts": {
+    "c_0265": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Lunga opera narrativa in prosa che racconta vicende inventate.",
+        "example": "Ha finito il romanzo in due sere."
+      }
+    },
+    "c_0359": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Fiore dai petali morbidi e profumati e dal gambo spinoso, simbolo dell'amore.",
+        "example": "Le regalò una rosa rossa per l'anniversario."
+      }
+    },
+    "c_0535": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Il numero di volte in cui un fatto si ripete in un certo tempo; per le onde, quante ne passano in un secondo.",
+        "example": "Aumenta la frequenza degli allenamenti prima della gara."
+      }
+    },
+    "c_0809": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Il taglio dell'erba di un prato con la falce o la falciatrice.",
+        "example": "Dopo la falciatura il prato profumava di fieno."
+      }
+    },
+    "c_0896": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Che appartiene alle piante; come sostantivo, un ortaggio.",
+        "example": "Segue una dieta a base di vegetali freschi."
+      }
+    },
+    "c_0913": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "L'insieme dei prodotti della terra raccolti in una stagione.",
+        "example": "Il raccolto di quest'anno è stato abbondante."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0018",
+      "concept_b": "c_0265",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0027",
+      "concept_b": "c_0359",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0042",
+      "concept_b": "c_0535",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0298",
+      "concept_b": "c_0809",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0339",
+      "concept_b": "c_0896",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0353",
+      "concept_b": "c_0913",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    }
+  ],
+  "word_senses": {
+    "s_0265": {
+      "lexeme_id": "w_0265",
+      "lexeme_kind": "word",
+      "concept_id": "c_0265",
+      "is_primary": true
+    },
+    "s_0359": {
+      "lexeme_id": "w_0359",
+      "lexeme_kind": "word",
+      "concept_id": "c_0359",
+      "is_primary": true
+    },
+    "s_0535": {
+      "lexeme_id": "w_0535",
+      "lexeme_kind": "word",
+      "concept_id": "c_0535",
+      "is_primary": true
+    },
+    "s_0809": {
+      "lexeme_id": "w_0809",
+      "lexeme_kind": "word",
+      "concept_id": "c_0809",
+      "is_primary": true
+    },
+    "s_0896": {
+      "lexeme_id": "w_0896",
+      "lexeme_kind": "word",
+      "concept_id": "c_0896",
+      "is_primary": true
+    },
+    "s_0913": {
+      "lexeme_id": "w_0913",
+      "lexeme_kind": "word",
+      "concept_id": "c_0913",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0265": {
+      "display_form": "romanzo",
+      "normalized_form": "romanzo",
+      "pos": null
+    },
+    "w_0359": {
+      "display_form": "rosa",
+      "normalized_form": "rosa",
+      "pos": null
+    },
+    "w_0535": {
+      "display_form": "frequenza",
+      "normalized_form": "frequenza",
+      "pos": null
+    },
+    "w_0809": {
+      "display_form": "falciatura",
+      "normalized_form": "falciatura",
+      "pos": null
+    },
+    "w_0896": {
+      "display_form": "vegetale",
+      "normalized_form": "vegetale",
+      "pos": null
+    },
+    "w_0913": {
+      "display_form": "raccolto",
+      "normalized_form": "raccolto",
+      "pos": null
+    }
+  },
+  "expressions": {}
+}

@@ -1,0 +1,72 @@
+{
+  "pack": "graph.b2",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0436",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Pane basso e schiacciato, condito con olio e sale e a volte farcito.",
+          "example": "Comprò una focaccia calda appena sfornata."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0443",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Involucro esterno del pane, dorato e croccante per la cottura.",
+          "example": "Tagliò via la crosta bruciacchiata."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0652",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Il progressivo indebolirsi e consumarsi di un corpo o di un ambiente.",
+          "example": "La siccità causò il deperimento di tutta la vegetazione."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0924",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Tessuto sottile e trasparente; al figurato, ciò che nasconde appena qualcosa.",
+          "example": "Un velo di nebbia copriva i campi al mattino."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0991",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Rumore improvviso, forte e disordinato, di cose che cadono o si rompono.",
+          "example": "Dalla cucina arrivò un gran fracasso di piatti rotti."
+        }
+      }
+    }
+  ]
+}

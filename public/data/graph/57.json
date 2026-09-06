@@ -1,0 +1,252 @@
+{
+  "shard": "57",
+  "concepts": {
+    "c_0039": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "La parte del giorno tra il pomeriggio e la notte, quando la luce cala.",
+        "example": "Di sera si siedono in cortile a chiacchierare."
+      }
+    },
+    "c_0361": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Che manda un buon odore.",
+        "example": "L'armadio era pieno di lavanda profumata."
+      }
+    },
+    "c_0831": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Impronta lasciata dal piede di una persona o di un animale.",
+        "example": "Seguirono le orme sulla neve fino alla tana."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0027",
+      "concept_b": "c_0361",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0039",
+      "concept_b": "c_0040",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0039",
+      "concept_b": "c_0073",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0039",
+      "concept_b": "c_0074",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0039",
+      "concept_b": "c_0075",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0039",
+      "concept_b": "c_0078",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0039",
+      "concept_b": "c_0354",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0039",
+      "concept_b": "c_0509",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0039",
+      "concept_b": "c_0510",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0039",
+      "concept_b": "c_0511",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0039",
+      "concept_b": "c_0512",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0039",
+      "concept_b": "c_0513",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0039",
+      "concept_b": "c_0514",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0039",
+      "concept_b": "c_0515",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0039",
+      "concept_b": "c_0516",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0039",
+      "concept_b": "c_0517",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0039",
+      "concept_b": "c_0518",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0303",
+      "concept_b": "c_0831",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    }
+  ],
+  "word_senses": {
+    "s_0039": {
+      "lexeme_id": "w_0039",
+      "lexeme_kind": "word",
+      "concept_id": "c_0039",
+      "is_primary": true
+    },
+    "s_0361": {
+      "lexeme_id": "w_0361",
+      "lexeme_kind": "word",
+      "concept_id": "c_0361",
+      "is_primary": true
+    },
+    "s_0831": {
+      "lexeme_id": "w_0831",
+      "lexeme_kind": "word",
+      "concept_id": "c_0831",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0039": {
+      "display_form": "sera",
+      "normalized_form": "sera",
+      "pos": null
+    },
+    "w_0361": {
+      "display_form": "profumato",
+      "normalized_form": "profumato",
+      "pos": null
+    },
+    "w_0831": {
+      "display_form": "orma",
+      "normalized_form": "orma",
+      "pos": null
+    }
+  },
+  "expressions": {}
+}

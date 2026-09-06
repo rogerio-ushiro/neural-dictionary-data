@@ -1,0 +1,182 @@
+{
+  "shard": "76",
+  "concepts": {
+    "c_0106": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Senso di alleggerimento che si prova quando cessa un fastidio o una pena.",
+        "example": "Tirò un respiro di sollievo alla notizia."
+      }
+    },
+    "c_0483": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Pranzo o cena solenne e abbondante per molti invitati.",
+        "example": "Il banchetto di nozze durò fino a sera."
+      }
+    },
+    "c_0717": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Linea curva chiusa i cui punti sono tutti alla stessa distanza dal centro; anche un gruppo ristretto di persone unite da un interesse.",
+        "example": "I bambini si misero in cerchio per il gioco."
+      }
+    },
+    "c_0762": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Animale privo di ragione visto solo nella sua parte istintiva; come insulto, persona violenta e senza sensibilità.",
+        "example": "Si comportò da bruto e tutti lo evitarono."
+      }
+    },
+    "c_0788": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Racconto di fatti veri o inventati che si narra a qualcuno; con l'iniziale maiuscola, lo studio del passato dell'umanità e degli avvenimenti che l'hanno segnato.",
+        "example": "Ogni sera raccontava ai figli una storia prima di dormire."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0006",
+      "concept_b": "c_0106",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0037",
+      "concept_b": "c_0483",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0135",
+      "concept_b": "c_0717",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0218",
+      "concept_b": "c_0762",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0272",
+      "concept_b": "c_0788",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0319",
+      "concept_b": "c_0762",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0320",
+      "concept_b": "c_0762",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    }
+  ],
+  "word_senses": {
+    "s_0106": {
+      "lexeme_id": "w_0106",
+      "lexeme_kind": "word",
+      "concept_id": "c_0106",
+      "is_primary": true
+    },
+    "s_0483": {
+      "lexeme_id": "w_0483",
+      "lexeme_kind": "word",
+      "concept_id": "c_0483",
+      "is_primary": true
+    },
+    "s_0717": {
+      "lexeme_id": "w_0717",
+      "lexeme_kind": "word",
+      "concept_id": "c_0717",
+      "is_primary": true
+    },
+    "s_0762": {
+      "lexeme_id": "w_0762",
+      "lexeme_kind": "word",
+      "concept_id": "c_0762",
+      "is_primary": true
+    },
+    "s_0788": {
+      "lexeme_id": "w_0788",
+      "lexeme_kind": "word",
+      "concept_id": "c_0788",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0106": {
+      "display_form": "sollievo",
+      "normalized_form": "sollievo",
+      "pos": null
+    },
+    "w_0483": {
+      "display_form": "banchetto",
+      "normalized_form": "banchetto",
+      "pos": null
+    },
+    "w_0717": {
+      "display_form": "cerchio",
+      "normalized_form": "cerchio",
+      "pos": null
+    },
+    "w_0762": {
+      "display_form": "bruto",
+      "normalized_form": "bruto",
+      "pos": null
+    },
+    "w_0788": {
+      "display_form": "storia",
+      "normalized_form": "storia",
+      "pos": null
+    }
+  },
+  "expressions": {}
+}

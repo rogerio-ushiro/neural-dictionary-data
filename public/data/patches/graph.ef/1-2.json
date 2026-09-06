@@ -1,0 +1,85 @@
+{
+  "pack": "graph.ef",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0291",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Spirito di gara e volontà di prevalere sull'avversario.",
+          "example": "Mette troppo agonismo anche nelle partite tra amici."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0426",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Il locale della casa dove si preparano i cibi; anche l'insieme dei piatti tipici di un luogo.",
+          "example": "La cucina profumava di sugo fin dalle scale."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0642",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Vento caldo e umido che soffia da sud portando afa.",
+          "example": "Con lo scirocco il cielo si fa lattiginoso e l'aria pesante."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0729",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Percorso che collega due luoghi e permette di passare; al figurato, il modo per ottenere qualcosa (la via del successo).",
+          "example": "Prese una via secondaria per evitare il traffico."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0930",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Piccola sfera lucente che si forma nella conchiglia di alcuni molluschi, usata come gioiello.",
+          "example": "Portava al collo un filo di perle della nonna."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0945",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Ciascuna delle parti che, unite, formano un tutto o un meccanismo.",
+          "example": "Manca un componente e la lampada non si accende."
+        }
+      }
+    }
+  ]
+}

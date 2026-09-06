@@ -1,0 +1,33 @@
+{
+  "pack": "graph.c8",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0377",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Massa bianca o grigia di vapore acqueo sospesa in cielo.",
+          "example": "Le nuvole si diradarono e tornò il sereno."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0827",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Ciascuno dei grandi gruppi in cui si dividono gli esseri viventi; anche un territorio governato da un re.",
+          "example": "La balena appartiene al regno animale."
+        }
+      }
+    }
+  ]
+}

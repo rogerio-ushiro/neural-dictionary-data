@@ -1,0 +1,162 @@
+{
+  "shard": "9d",
+  "concepts": {
+    "c_0190": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Luogo dove ci si mette al sicuro da un pericolo o dalle intemperie.",
+        "example": "Trovarono rifugio in una baita durante il temporale."
+      }
+    },
+    "c_0473": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Denso e morbido come una crema.",
+        "example": "Il risotto era cotto al punto giusto, ben cremoso."
+      }
+    },
+    "c_0587": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Pietra che attira il ferro e ha due poli magnetici.",
+        "example": "Attaccò il disegno al frigorifero con una calamita."
+      }
+    },
+    "c_0604": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Calore appassionato con cui ci si dedica a qualcosa.",
+        "example": "Lavora al progetto con grande fervore."
+      }
+    },
+    "c_0976": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Il tenersi in disparte con freddezza, senza coinvolgersi.",
+        "example": "Rispose con un distacco che ferì più di un rimprovero."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0012",
+      "concept_b": "c_0190",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0036",
+      "concept_b": "c_0473",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0052",
+      "concept_b": "c_0587",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0065",
+      "concept_b": "c_0604",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0382",
+      "concept_b": "c_0976",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    }
+  ],
+  "word_senses": {
+    "s_0190": {
+      "lexeme_id": "w_0190",
+      "lexeme_kind": "word",
+      "concept_id": "c_0190",
+      "is_primary": true
+    },
+    "s_0473": {
+      "lexeme_id": "w_0473",
+      "lexeme_kind": "word",
+      "concept_id": "c_0473",
+      "is_primary": true
+    },
+    "s_0587": {
+      "lexeme_id": "w_0587",
+      "lexeme_kind": "word",
+      "concept_id": "c_0587",
+      "is_primary": true
+    },
+    "s_0604": {
+      "lexeme_id": "w_0604",
+      "lexeme_kind": "word",
+      "concept_id": "c_0604",
+      "is_primary": true
+    },
+    "s_0976": {
+      "lexeme_id": "w_0976",
+      "lexeme_kind": "word",
+      "concept_id": "c_0976",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0190": {
+      "display_form": "rifugio",
+      "normalized_form": "rifugio",
+      "pos": null
+    },
+    "w_0473": {
+      "display_form": "cremoso",
+      "normalized_form": "cremoso",
+      "pos": null
+    },
+    "w_0587": {
+      "display_form": "calamita",
+      "normalized_form": "calamita",
+      "pos": null
+    },
+    "w_0604": {
+      "display_form": "fervore",
+      "normalized_form": "fervore",
+      "pos": null
+    },
+    "w_0976": {
+      "display_form": "distacco",
+      "normalized_form": "distacco",
+      "pos": null
+    }
+  },
+  "expressions": {}
+}

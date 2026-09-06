@@ -1,0 +1,46 @@
+{
+  "pack": "graph.54",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0210",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Bambino nei primissimi anni di vita, che ancora non parla.",
+          "example": "L'infante dormiva nella culla accanto al letto."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0540",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Punta di terra che si spinge nel mare, di solito alta e rocciosa.",
+          "example": "Doppiarono il capo con il mare grosso."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0881",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Che sta in disparte, lontano dagli altri e dal rumore.",
+          "example": "Si sono comprati una casa appartata in mezzo agli ulivi."
+        }
+      }
+    }
+  ]
+}

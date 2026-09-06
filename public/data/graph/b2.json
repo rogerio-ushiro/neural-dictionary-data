@@ -1,0 +1,162 @@
+{
+  "shard": "b2",
+  "concepts": {
+    "c_0436": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Pane basso e schiacciato, condito con olio e sale e a volte farcito.",
+        "example": "Comprò una focaccia calda appena sfornata."
+      }
+    },
+    "c_0443": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Involucro esterno del pane, dorato e croccante per la cottura.",
+        "example": "Tagliò via la crosta bruciacchiata."
+      }
+    },
+    "c_0652": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Il progressivo indebolirsi e consumarsi di un corpo o di un ambiente.",
+        "example": "La siccità causò il deperimento di tutta la vegetazione."
+      }
+    },
+    "c_0924": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Tessuto sottile e trasparente; al figurato, ciò che nasconde appena qualcosa.",
+        "example": "Un velo di nebbia copriva i campi al mattino."
+      }
+    },
+    "c_0991": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Rumore improvviso, forte e disordinato, di cose che cadono o si rompono.",
+        "example": "Dalla cucina arrivò un gran fracasso di piatti rotti."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0034",
+      "concept_b": "c_0436",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0034",
+      "concept_b": "c_0443",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0084",
+      "concept_b": "c_0652",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0354",
+      "concept_b": "c_0924",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0392",
+      "concept_b": "c_0991",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    }
+  ],
+  "word_senses": {
+    "s_0436": {
+      "lexeme_id": "w_0436",
+      "lexeme_kind": "word",
+      "concept_id": "c_0436",
+      "is_primary": true
+    },
+    "s_0443": {
+      "lexeme_id": "w_0443",
+      "lexeme_kind": "word",
+      "concept_id": "c_0443",
+      "is_primary": true
+    },
+    "s_0652": {
+      "lexeme_id": "w_0652",
+      "lexeme_kind": "word",
+      "concept_id": "c_0652",
+      "is_primary": true
+    },
+    "s_0924": {
+      "lexeme_id": "w_0924",
+      "lexeme_kind": "word",
+      "concept_id": "c_0924",
+      "is_primary": true
+    },
+    "s_0991": {
+      "lexeme_id": "w_0991",
+      "lexeme_kind": "word",
+      "concept_id": "c_0991",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0436": {
+      "display_form": "focaccia",
+      "normalized_form": "focaccia",
+      "pos": null
+    },
+    "w_0443": {
+      "display_form": "crosta",
+      "normalized_form": "crosta",
+      "pos": null
+    },
+    "w_0652": {
+      "display_form": "deperimento",
+      "normalized_form": "deperimento",
+      "pos": null
+    },
+    "w_0924": {
+      "display_form": "velo",
+      "normalized_form": "velo",
+      "pos": null
+    },
+    "w_0991": {
+      "display_form": "fracasso",
+      "normalized_form": "fracasso",
+      "pos": null
+    }
+  },
+  "expressions": {}
+}

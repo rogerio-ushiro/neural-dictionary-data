@@ -1,0 +1,372 @@
+{
+  "shard": "b0",
+  "concepts": {
+    "c_0225": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "La madre, chi ha messo al mondo un figlio (voce elevata).",
+        "example": "Perse la genitrice quando era ancora bambino."
+      }
+    },
+    "c_0250": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "L'attività di chi trasmette conoscenze e metodi a chi impara; anche ciò che una vicenda ci lascia capire.",
+        "example": "Ha dedicato quarant'anni all'insegnamento della matematica."
+      }
+    },
+    "c_0391": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Il muoversi ripetuto avanti e indietro attorno a un punto fisso, come quello di un pendolo o di un ramo al vento.",
+        "example": "L'oscillazione della barca gli diede la nausea."
+      }
+    },
+    "c_0409": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "L'aspetto d'insieme di un tratto di territorio così come si presenta alla vista.",
+        "example": "Dalla cima si godeva un paesaggio di valli e boschi."
+      }
+    },
+    "c_0500": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Breve componimento di parole cantate su una melodia, che si ascolta, si canticchia o si balla; in tono scherzoso, un discorso ripetuto e noioso (la solita canzone).",
+        "example": "Alla radio passava una canzone che conosceva a memoria."
+      }
+    },
+    "c_0575": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Dispositivo con cui si dirige un'imbarcazione o un aereo facendogli cambiare rotta; in senso figurato, la guida di un'impresa o di un governo.",
+        "example": "Il comandante teneva saldo il timone durante la tempesta."
+      }
+    },
+    "c_0618": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "L'insieme delle condizioni dell'atmosfera in un luogo, come sole, pioggia e vento; anche il trascorrere delle ore e degli anni.",
+        "example": "Il tempo è cambiato all'improvviso nel pomeriggio."
+      }
+    },
+    "c_0683": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Ciò che a qualcuno spetta per legge o per giustizia e che può pretendere.",
+        "example": "Ogni cittadino ha diritto all'istruzione."
+      }
+    },
+    "c_0966": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Il colore del cielo sereno, tra il blu e il celeste.",
+        "example": "Indossava una camicia azzurra."
+      }
+    },
+    "c_1002": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Calma serena e distesa.",
+        "example": "Sul viso del vecchio c'era una placidità che rassicurava."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0015",
+      "concept_b": "c_0225",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0017",
+      "concept_b": "c_0250",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0030",
+      "concept_b": "c_0391",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0031",
+      "concept_b": "c_0409",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0038",
+      "concept_b": "c_0500",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0042",
+      "concept_b": "c_0391",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0051",
+      "concept_b": "c_0575",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0073",
+      "concept_b": "c_0618",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0109",
+      "concept_b": "c_0683",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0118",
+      "concept_b": "c_0391",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0272",
+      "concept_b": "c_0500",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0300",
+      "concept_b": "c_0409",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0381",
+      "concept_b": "c_0618",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0381",
+      "concept_b": "c_0966",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0516",
+      "concept_b": "c_1002",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0047",
+      "concept_b": "c_0575",
+      "relation_type": "parti",
+      "direction_hint": "symmetric",
+      "association_strength": 0.7,
+      "confidence": 0.85,
+      "status": "validated",
+      "revision": 2
+    }
+  ],
+  "word_senses": {
+    "s_0225": {
+      "lexeme_id": "w_0225",
+      "lexeme_kind": "word",
+      "concept_id": "c_0225",
+      "is_primary": true
+    },
+    "s_0250": {
+      "lexeme_id": "w_0250",
+      "lexeme_kind": "word",
+      "concept_id": "c_0250",
+      "is_primary": true
+    },
+    "s_0391": {
+      "lexeme_id": "w_0391",
+      "lexeme_kind": "word",
+      "concept_id": "c_0391",
+      "is_primary": true
+    },
+    "s_0409": {
+      "lexeme_id": "w_0409",
+      "lexeme_kind": "word",
+      "concept_id": "c_0409",
+      "is_primary": true
+    },
+    "s_0500": {
+      "lexeme_id": "w_0500",
+      "lexeme_kind": "word",
+      "concept_id": "c_0500",
+      "is_primary": true
+    },
+    "s_0575": {
+      "lexeme_id": "w_0575",
+      "lexeme_kind": "word",
+      "concept_id": "c_0575",
+      "is_primary": true
+    },
+    "s_0618": {
+      "lexeme_id": "w_0618",
+      "lexeme_kind": "word",
+      "concept_id": "c_0618",
+      "is_primary": true
+    },
+    "s_0683": {
+      "lexeme_id": "w_0683",
+      "lexeme_kind": "word",
+      "concept_id": "c_0683",
+      "is_primary": true
+    },
+    "s_0966": {
+      "lexeme_id": "w_0966",
+      "lexeme_kind": "word",
+      "concept_id": "c_0966",
+      "is_primary": true
+    },
+    "s_1002": {
+      "lexeme_id": "w_1002",
+      "lexeme_kind": "word",
+      "concept_id": "c_1002",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0225": {
+      "display_form": "genitrice",
+      "normalized_form": "genitrice",
+      "pos": null
+    },
+    "w_0250": {
+      "display_form": "insegnamento",
+      "normalized_form": "insegnamento",
+      "pos": null
+    },
+    "w_0391": {
+      "display_form": "oscillazione",
+      "normalized_form": "oscillazione",
+      "pos": null
+    },
+    "w_0409": {
+      "display_form": "paesaggio",
+      "normalized_form": "paesaggio",
+      "pos": null
+    },
+    "w_0500": {
+      "display_form": "canzone",
+      "normalized_form": "canzone",
+      "pos": null
+    },
+    "w_0575": {
+      "display_form": "timone",
+      "normalized_form": "timone",
+      "pos": null
+    },
+    "w_0618": {
+      "display_form": "tempo",
+      "normalized_form": "tempo",
+      "pos": null
+    },
+    "w_0683": {
+      "display_form": "diritto",
+      "normalized_form": "diritto",
+      "pos": null
+    },
+    "w_0966": {
+      "display_form": "azzurro",
+      "normalized_form": "azzurro",
+      "pos": null
+    },
+    "w_1002": {
+      "display_form": "placidità",
+      "normalized_form": "placidita",
+      "pos": null
+    }
+  },
+  "expressions": {}
+}

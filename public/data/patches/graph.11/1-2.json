@@ -1,0 +1,33 @@
+{
+  "pack": "graph.11",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0204",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "L'insieme dei figli, la discendenza di una coppia.",
+          "example": "Ha cresciuto una numerosa prole con pochi mezzi."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0554",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Roccia alta e scoscesa, quasi a strapiombo.",
+          "example": "L'aquila aveva il nido su una rupe inaccessibile."
+        }
+      }
+    }
+  ]
+}

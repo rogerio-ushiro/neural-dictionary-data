@@ -1,0 +1,162 @@
+{
+  "shard": "68",
+  "concepts": {
+    "c_0467": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Molto freddo al tatto, quasi ghiacciato; riferito a modi e sguardi, privo di ogni calore.",
+        "example": "Si tuffò nell'acqua gelida del torrente."
+      }
+    },
+    "c_0593": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Fasci di luce del sole, in particolare quelli che abbronzano o scottano la pelle.",
+        "example": "Si protesse dai raggi con un cappello a tesa larga."
+      }
+    },
+    "c_0636": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Che si trova sotto il livello del suolo; anche nascosto e clandestino.",
+        "example": "Il parcheggio sotterraneo ha tre piani."
+      }
+    },
+    "c_0904": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Salto d'acqua che precipita da un dislivello lungo il corso di un fiume.",
+        "example": "Il rumore della cascata si sentiva già dal sentiero."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0036",
+      "concept_b": "c_0467",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0060",
+      "concept_b": "c_0593",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0066",
+      "concept_b": "c_0593",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0078",
+      "concept_b": "c_0636",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0343",
+      "concept_b": "c_0904",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0368",
+      "concept_b": "c_0904",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0382",
+      "concept_b": "c_0467",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    }
+  ],
+  "word_senses": {
+    "s_0467": {
+      "lexeme_id": "w_0467",
+      "lexeme_kind": "word",
+      "concept_id": "c_0467",
+      "is_primary": true
+    },
+    "s_0593": {
+      "lexeme_id": "w_0593",
+      "lexeme_kind": "word",
+      "concept_id": "c_0593",
+      "is_primary": true
+    },
+    "s_0636": {
+      "lexeme_id": "w_0636",
+      "lexeme_kind": "word",
+      "concept_id": "c_0636",
+      "is_primary": true
+    },
+    "s_0904": {
+      "lexeme_id": "w_0904",
+      "lexeme_kind": "word",
+      "concept_id": "c_0904",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0467": {
+      "display_form": "gelido",
+      "normalized_form": "gelido",
+      "pos": null
+    },
+    "w_0593": {
+      "display_form": "raggi",
+      "normalized_form": "raggi",
+      "pos": null
+    },
+    "w_0636": {
+      "display_form": "sotterraneo",
+      "normalized_form": "sotterraneo",
+      "pos": null
+    },
+    "w_0904": {
+      "display_form": "cascata",
+      "normalized_form": "cascata",
+      "pos": null
+    }
+  },
+  "expressions": {}
+}

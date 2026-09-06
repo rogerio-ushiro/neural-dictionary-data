@@ -1,0 +1,59 @@
+{
+  "pack": "graph.ff",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0325",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Che riguarda la casa e la vita familiare; riferito a un animale, allevato dall'uomo e abituato a vivere con lui.",
+          "example": "Sbrigava le faccende domestiche prima di uscire."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0350",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Parte della pianta che sta sottoterra, la assorbe acqua e la tiene ancorata; al figurato, l'origine profonda di qualcosa.",
+          "example": "Le radici del vecchio pino avevano sollevato il marciapiede."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0800",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Zona di terreno coperta da cespugli e vegetazione bassa e fitta.",
+          "example": "Il coniglio sparì nella macchia mediterranea."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0875",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Che riguarda una sola persona e non è aperto agli altri.",
+          "example": "Ha voluto un funerale strettamente privato."
+        }
+      }
+    }
+  ]
+}

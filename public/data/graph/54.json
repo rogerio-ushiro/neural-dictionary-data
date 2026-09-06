@@ -1,0 +1,102 @@
+{
+  "shard": "54",
+  "concepts": {
+    "c_0210": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Bambino nei primissimi anni di vita, che ancora non parla.",
+        "example": "L'infante dormiva nella culla accanto al letto."
+      }
+    },
+    "c_0540": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Punta di terra che si spinge nel mare, di solito alta e rocciosa.",
+        "example": "Doppiarono il capo con il mare grosso."
+      }
+    },
+    "c_0881": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Che sta in disparte, lontano dagli altri e dal rumore.",
+        "example": "Si sono comprati una casa appartata in mezzo agli ulivi."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0014",
+      "concept_b": "c_0210",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0043",
+      "concept_b": "c_0540",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0325",
+      "concept_b": "c_0881",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    }
+  ],
+  "word_senses": {
+    "s_0210": {
+      "lexeme_id": "w_0210",
+      "lexeme_kind": "word",
+      "concept_id": "c_0210",
+      "is_primary": true
+    },
+    "s_0540": {
+      "lexeme_id": "w_0540",
+      "lexeme_kind": "word",
+      "concept_id": "c_0540",
+      "is_primary": true
+    },
+    "s_0881": {
+      "lexeme_id": "w_0881",
+      "lexeme_kind": "word",
+      "concept_id": "c_0881",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0210": {
+      "display_form": "infante",
+      "normalized_form": "infante",
+      "pos": null
+    },
+    "w_0540": {
+      "display_form": "capo",
+      "normalized_form": "capo",
+      "pos": null
+    },
+    "w_0881": {
+      "display_form": "appartato",
+      "normalized_form": "appartato",
+      "pos": null
+    }
+  },
+  "expressions": {}
+}

@@ -1,0 +1,137 @@
+{
+  "pack": "graph.43",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0224",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Il genitore di sesso femminile.",
+          "example": "La madre gli scriveva una lettera ogni settimana."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0251",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Istituto in cui un tempo le fanciulle venivano educate in convitto.",
+          "example": "Sua nonna era stata cresciuta in un educandato."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0390",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Sensazione gradevole di aria pulita e leggermente fredda; riferito a idee o persone, il pregio di essere nuovi e non sciupati dall'abitudine.",
+          "example": "La freschezza della sera invitava a passeggiare."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0408",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Terrapieno ripido ai lati di una strada o di una ferrovia.",
+          "example": "L'auto è finita giù per la scarpata senza gravi conseguenze."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0501",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Ciascuno dei suoni di altezza definita con cui si scrive e si esegue la musica.",
+          "example": "Ha sbagliato una nota nell'ultimo passaggio."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0574",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Il tragitto studiato in anticipo, con le tappe da toccare durante un viaggio.",
+          "example": "Segnò sulla mappa l'itinerario del giro in bici."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0619",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Il tempo per cui una cosa dura o si protrae.",
+          "example": "La durata del film è di due ore."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0682",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Il potere supremo di uno Stato di governarsi senza sottostare ad altri.",
+          "example": "La sovranità appartiene al popolo."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0967",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Acqua diventata solida per il freddo; al figurato, un atteggiamento rigido e ostile.",
+          "example": "Mise qualche cubetto di ghiaccio nel bicchiere."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_1003",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Assenza totale di movimento.",
+          "example": "Restò in perfetta immobilità finché il cervo non si allontanò."
+        }
+      }
+    }
+  ]
+}

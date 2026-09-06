@@ -1,0 +1,85 @@
+{
+  "pack": "graph.21",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0349",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Lamina sottile e di solito verde che spunta dai rami e cattura la luce per nutrire la pianta.",
+          "example": "In autunno le foglie si staccano e ricoprono il vialetto."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0464",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Seme oleoso dal guscio legnoso, usato in pasticceria e per fare l'olio.",
+          "example": "Sbucciava le mandorle tuffandole in acqua bollente."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0590",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Linea che segna il limite estremo di qualcosa, soprattutto lungo l'acqua.",
+          "example": "Camminavano sul bordo del molo tenendosi per mano."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0635",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Incapacità di vedere; al figurato, l'ostinazione a non voler capire.",
+          "example": "La cecità improvvisa lo costrinse a cambiare vita."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0819",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "L'atto di dar vita a qualcosa che prima non esisteva; nella religione, l'origine del mondo.",
+          "example": "Il quadro è una sua libera creazione."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0907",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Piccolo corso d'acqua che scorre tra i prati con poca portata.",
+          "example": "I bambini cercavano gamberetti nel ruscello."
+        }
+      }
+    }
+  ]
+}

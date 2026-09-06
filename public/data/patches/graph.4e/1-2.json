@@ -1,0 +1,46 @@
+{
+  "pack": "graph.4e",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0313",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Qualunque cosa serva a raggiungere uno scopo o a spostarsi; al plurale, le risorse economiche di cui si dispone.",
+          "example": "La bicicletta è il suo mezzo preferito per andare in ufficio."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0384",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "La capacità di un terreno o di un essere vivente di produrre frutti e nuova vita.",
+          "example": "Le piene del fiume aumentano la fertilità dei campi."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0843",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Bestia feroce e pericolosa; anche una grande esposizione con vendita di merci e bestiame.",
+          "example": "Il domatore entrò nella gabbia della fiera."
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,342 @@
+{
+  "shard": "36",
+  "concepts": {
+    "c_0159": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Fascia di terreno preparata perché ci passino persone e veicoli tra due luoghi; al figurato, la via da seguire per raggiungere uno scopo.",
+        "example": "La strada per il paese è stretta e piena di curve."
+      }
+    },
+    "c_0296": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Scherno pubblico che espone qualcuno al ridicolo.",
+        "example": "Fu esposto al ludibrio dei compagni per quell'errore."
+      }
+    },
+    "c_0421": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Cibo preparato e servito a tavola.",
+        "example": "Sulla mensa fumavano vivande di ogni genere."
+      }
+    },
+    "c_0645": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Lunga assenza di pioggia che secca i campi e prosciuga i corsi d'acqua.",
+        "example": "La siccità di quell'estate rovinò tutto il raccolto."
+      }
+    },
+    "c_0937": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Il letto scavato dall'acqua in cui scorre un fiume.",
+        "example": "In estate l'alveo del torrente resta quasi asciutto."
+      }
+    },
+    "c_0942": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Rendere leggermente umido.",
+        "example": "Inumidì un panno per pulire lo schermo."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0007",
+      "concept_b": "c_0159",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0010",
+      "concept_b": "c_0159",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0020",
+      "concept_b": "c_0296",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0022",
+      "concept_b": "c_0159",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0033",
+      "concept_b": "c_0421",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0084",
+      "concept_b": "c_0645",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0114",
+      "concept_b": "c_0159",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0115",
+      "concept_b": "c_0159",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0120",
+      "concept_b": "c_0159",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0159",
+      "concept_b": "c_0303",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0159",
+      "concept_b": "c_0571",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0159",
+      "concept_b": "c_0574",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0159",
+      "concept_b": "c_0577",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0159",
+      "concept_b": "c_0729",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0159",
+      "concept_b": "c_0730",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0159",
+      "concept_b": "c_0731",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0159",
+      "concept_b": "c_0732",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0159",
+      "concept_b": "c_0733",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0159",
+      "concept_b": "c_0734",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0368",
+      "concept_b": "c_0937",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0370",
+      "concept_b": "c_0942",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    }
+  ],
+  "word_senses": {
+    "s_0159": {
+      "lexeme_id": "w_0159",
+      "lexeme_kind": "word",
+      "concept_id": "c_0159",
+      "is_primary": true
+    },
+    "s_0296": {
+      "lexeme_id": "w_0296",
+      "lexeme_kind": "word",
+      "concept_id": "c_0296",
+      "is_primary": true
+    },
+    "s_0421": {
+      "lexeme_id": "w_0421",
+      "lexeme_kind": "word",
+      "concept_id": "c_0421",
+      "is_primary": true
+    },
+    "s_0645": {
+      "lexeme_id": "w_0645",
+      "lexeme_kind": "word",
+      "concept_id": "c_0645",
+      "is_primary": true
+    },
+    "s_0937": {
+      "lexeme_id": "w_0937",
+      "lexeme_kind": "word",
+      "concept_id": "c_0937",
+      "is_primary": true
+    },
+    "s_0942": {
+      "lexeme_id": "w_0942",
+      "lexeme_kind": "word",
+      "concept_id": "c_0942",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0159": {
+      "display_form": "strada",
+      "normalized_form": "strada",
+      "pos": null
+    },
+    "w_0296": {
+      "display_form": "ludibrio",
+      "normalized_form": "ludibrio",
+      "pos": null
+    },
+    "w_0421": {
+      "display_form": "vivanda",
+      "normalized_form": "vivanda",
+      "pos": null
+    },
+    "w_0645": {
+      "display_form": "siccità",
+      "normalized_form": "siccita",
+      "pos": null
+    },
+    "w_0937": {
+      "display_form": "alveo",
+      "normalized_form": "alveo",
+      "pos": null
+    },
+    "w_0942": {
+      "display_form": "inumidire",
+      "normalized_form": "inumidire",
+      "pos": null
+    }
+  },
+  "expressions": {}
+}

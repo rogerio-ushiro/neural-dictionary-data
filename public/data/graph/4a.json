@@ -1,0 +1,142 @@
+{
+  "shard": "4a",
+  "concepts": {
+    "c_0133": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Chi viaggia su un mezzo di trasporto senza guidarlo.",
+        "example": "Il passeggero seduto accanto al finestrino dormiva."
+      }
+    },
+    "c_0146": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Chiusura fatta di due file di dentini che si incastrano tirando un cursore; si dice anche di ciò che unisce e fa da collegamento tra due parti.",
+        "example": "La cerniera della giacca si è bloccata a metà."
+      }
+    },
+    "c_0757": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Singola persona o singolo essere, considerato per sé e non come parte di un gruppo.",
+        "example": "Ogni individuo reagisce alla notizia a modo suo."
+      }
+    },
+    "c_0999": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Assenza di conflitti e di agitazione; stato di calma e serenità.",
+        "example": "Dopo anni di liti tornò la pace in famiglia."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0008",
+      "concept_b": "c_0133",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0009",
+      "concept_b": "c_0146",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0218",
+      "concept_b": "c_0757",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0510",
+      "concept_b": "c_0999",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0516",
+      "concept_b": "c_0999",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    }
+  ],
+  "word_senses": {
+    "s_0133": {
+      "lexeme_id": "w_0133",
+      "lexeme_kind": "word",
+      "concept_id": "c_0133",
+      "is_primary": true
+    },
+    "s_0146": {
+      "lexeme_id": "w_0146",
+      "lexeme_kind": "word",
+      "concept_id": "c_0146",
+      "is_primary": true
+    },
+    "s_0757": {
+      "lexeme_id": "w_0757",
+      "lexeme_kind": "word",
+      "concept_id": "c_0757",
+      "is_primary": true
+    },
+    "s_0999": {
+      "lexeme_id": "w_0999",
+      "lexeme_kind": "word",
+      "concept_id": "c_0999",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0133": {
+      "display_form": "passeggero",
+      "normalized_form": "passeggero",
+      "pos": null
+    },
+    "w_0146": {
+      "display_form": "cerniera",
+      "normalized_form": "cerniera",
+      "pos": null
+    },
+    "w_0757": {
+      "display_form": "individuo",
+      "normalized_form": "individuo",
+      "pos": null
+    },
+    "w_0999": {
+      "display_form": "pace",
+      "normalized_form": "pace",
+      "pos": null
+    }
+  },
+  "expressions": {}
+}

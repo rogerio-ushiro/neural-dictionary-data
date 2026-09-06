@@ -1,0 +1,72 @@
+{
+  "pack": "graph.16",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0128",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Veicolo motorizzato che traina i vagoni di un treno lungo i binari.",
+          "example": "La locomotiva a vapore è esposta al museo dei trasporti."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0450",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Dolce da forno soffice, spesso farcito, servito a fette per le occasioni speciali.",
+          "example": "Ha preparato una torta di mele per il compleanno."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0623",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Ciascuna delle ventiquattro parti in cui si divide il giorno; anche il momento adatto per qualcosa.",
+          "example": "È arrivata l'ora di andare a dormire."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0744",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Ceppo da cui discende una famiglia; anche il montante verticale di una porta.",
+          "example": "È lo stipite di una dinastia di artigiani."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0986",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Lo stato di ciò che è privo di sporco e disordine.",
+          "example": "Apprezzava la pulizia impeccabile della cucina."
+        }
+      }
+    }
+  ]
+}

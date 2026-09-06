@@ -1,0 +1,132 @@
+{
+  "shard": "41",
+  "concepts": {
+    "c_0055": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Tratto di spiaggia attrezzato con ombrelloni e cabine per la balneazione.",
+        "example": "Hanno preso un ombrellone al lido per tutta la stagione."
+      }
+    },
+    "c_0121": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Il momento in cui si lascia un luogo per mettersi in viaggio.",
+        "example": "La partenza è fissata per le sei del mattino."
+      }
+    },
+    "c_0459": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Frutto dolce e morbido, dalla buccia sottile e dalla polpa piena di semini, che matura a fine estate.",
+        "example": "Colse un fico maturo e se lo mangiò sull'albero."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0002",
+      "concept_b": "c_0055",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0007",
+      "concept_b": "c_0121",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0035",
+      "concept_b": "c_0459",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0043",
+      "concept_b": "c_0055",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0055",
+      "concept_b": "c_0058",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0353",
+      "concept_b": "c_0459",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    }
+  ],
+  "word_senses": {
+    "s_0055": {
+      "lexeme_id": "w_0055",
+      "lexeme_kind": "word",
+      "concept_id": "c_0055",
+      "is_primary": true
+    },
+    "s_0121": {
+      "lexeme_id": "w_0121",
+      "lexeme_kind": "word",
+      "concept_id": "c_0121",
+      "is_primary": true
+    },
+    "s_0459": {
+      "lexeme_id": "w_0459",
+      "lexeme_kind": "word",
+      "concept_id": "c_0459",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0055": {
+      "display_form": "lido",
+      "normalized_form": "lido",
+      "pos": null
+    },
+    "w_0121": {
+      "display_form": "partenza",
+      "normalized_form": "partenza",
+      "pos": null
+    },
+    "w_0459": {
+      "display_form": "fico",
+      "normalized_form": "fico",
+      "pos": null
+    }
+  },
+  "expressions": {}
+}

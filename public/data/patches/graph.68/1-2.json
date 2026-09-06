@@ -1,0 +1,59 @@
+{
+  "pack": "graph.68",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0467",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Molto freddo al tatto, quasi ghiacciato; riferito a modi e sguardi, privo di ogni calore.",
+          "example": "Si tuffò nell'acqua gelida del torrente."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0593",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Fasci di luce del sole, in particolare quelli che abbronzano o scottano la pelle.",
+          "example": "Si protesse dai raggi con un cappello a tesa larga."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0636",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Che si trova sotto il livello del suolo; anche nascosto e clandestino.",
+          "example": "Il parcheggio sotterraneo ha tre piani."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0904",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Salto d'acqua che precipita da un dislivello lungo il corso di un fiume.",
+          "example": "Il rumore della cascata si sentiva già dal sentiero."
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "shard": "53",
+  "concepts": {
+    "c_0307": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "L'insieme degli animali che vivono in un territorio.",
+        "example": "La fauna del parco comprende lupi, cervi e aquile."
+      }
+    },
+    "c_0857": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Arto inferiore su cui il corpo si regge e cammina, dal fianco al piede.",
+        "example": "Correndo si è procurato uno strappo alla gamba."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0021",
+      "concept_b": "c_0307",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0322",
+      "concept_b": "c_0857",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0324",
+      "concept_b": "c_0857",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    }
+  ],
+  "word_senses": {
+    "s_0307": {
+      "lexeme_id": "w_0307",
+      "lexeme_kind": "word",
+      "concept_id": "c_0307",
+      "is_primary": true
+    },
+    "s_0857": {
+      "lexeme_id": "w_0857",
+      "lexeme_kind": "word",
+      "concept_id": "c_0857",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0307": {
+      "display_form": "fauna",
+      "normalized_form": "fauna",
+      "pos": null
+    },
+    "w_0857": {
+      "display_form": "gamba",
+      "normalized_form": "gamba",
+      "pos": null
+    }
+  },
+  "expressions": {}
+}

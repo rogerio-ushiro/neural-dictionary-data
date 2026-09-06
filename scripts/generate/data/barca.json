@@ -1,0 +1,11 @@
+[
+  { "lemma": "imbarcazione", "relation_type": "categoria", "association_strength": 0.85, "confidence": 0.9 },
+  { "lemma": "remo", "relation_type": "parti", "association_strength": 0.7, "confidence": 0.85, "pos": "sostantivo" },
+  { "lemma": "vela", "relation_type": "parti", "association_strength": 0.65, "confidence": 0.8, "pos": "sostantivo" },
+  { "lemma": "pescatore", "relation_type": "esseri_viventi", "association_strength": 0.65, "confidence": 0.8, "pos": "sostantivo" },
+  { "lemma": "remare", "relation_type": "azioni", "association_strength": 0.75, "confidence": 0.85, "pos": "verbo" },
+  { "lemma": "piccolo", "relation_type": "proprietà", "association_strength": 0.55, "confidence": 0.7, "pos": "aggettivo" },
+  { "lemma": "riva", "relation_type": "luoghi", "association_strength": 0.6, "confidence": 0.8 },
+  { "lemma": "nave", "relation_type": "similarità", "association_strength": 0.6, "confidence": 0.8 },
+  { "lemma": "pescare", "relation_type": "azioni", "association_strength": 0.6, "confidence": 0.75, "pos": "verbo" }
+]

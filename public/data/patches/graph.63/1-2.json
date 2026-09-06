@@ -1,0 +1,59 @@
+{
+  "pack": "graph.63",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0277",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Compagno affiatato come lo è un membro della stessa famiglia; anche il membro di un ordine religioso.",
+          "example": "Al reparto lo trattavano come un fratello."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0343",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Costruzione con vasche e getti d'acqua, posta in piazze e giardini per ornamento o per attingere acqua.",
+          "example": "I bambini lanciavano monetine nella fontana."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0527",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Luce viva e intensa che si irradia da qualcosa; al figurato, il fasto o la magnificenza.",
+          "example": "Lo splendore del sole sulla neve costringeva a socchiudere gli occhi."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0813",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Vasta pianura coperta d'erba, senza alberi.",
+          "example": "Nella prateria pascolavano mandrie di bisonti."
+        }
+      }
+    }
+  ]
+}

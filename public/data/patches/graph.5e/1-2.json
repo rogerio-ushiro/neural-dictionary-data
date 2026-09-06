@@ -1,0 +1,46 @@
+{
+  "pack": "graph.5e",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0061",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Persona incaricata di vigilare i bagnanti e soccorrere chi è in difficoltà in acqua.",
+          "example": "Il bagnino fischiò ai ragazzi che si erano spinti troppo al largo."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0779",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Autorità e importanza che si dà alle parole o alle scelte di qualcuno.",
+          "example": "Il suo parere ha molto peso nelle riunioni."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0797",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Materiale duro ricavato dal tronco degli alberi, usato per costruire e ardere.",
+          "example": "Il tavolo è di legno massiccio di noce."
+        }
+      }
+    }
+  ]
+}

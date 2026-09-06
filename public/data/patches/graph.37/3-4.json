@@ -1,0 +1,46 @@
+{
+  "pack": "graph.37",
+  "from": 3,
+  "to": 4,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0202",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Stirpe, discendenza di una famiglia (spesso con valore spregiativo).",
+          "example": "Veniva da una schiatta di prepotenti, dicevano in paese."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0552",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Spazio vuoto all'interno di un corpo o del terreno.",
+          "example": "Il torrente ha scavato una cavità nella parete."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_1021",
+      "concept": {
+        "revision": 2,
+        "region_id": "r_natura",
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Piccolo animale marino che vive in colonie e forma scogliere ramificate.",
+          "example": "Nuotando sopra la barriera vedeva il corallo rosa e giallo."
+        }
+      }
+    }
+  ]
+}

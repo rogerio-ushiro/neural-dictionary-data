@@ -1,0 +1,85 @@
+{
+  "pack": "graph.ac",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0236",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "La madre del padre o della madre.",
+          "example": "La nonna raccontava sempre storie di quando era ragazza."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0283",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Chi ha stima e ammirazione per qualcuno.",
+          "example": "Alla conferenza c'erano molti suoi estimatori."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0412",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Distesa d'acqua ferma e poco profonda, più piccola di un lago.",
+          "example": "Le rane gracidavano nello stagno dietro il casale."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0566",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Isola molto piccola.",
+          "example": "Su quell'isoletta non abita nessuno tutto l'anno."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0694",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Lunga fila di persone e animali da soma che viaggiano insieme attraverso zone deserte.",
+          "example": "La carovana si fermò all'oasi per abbeverare i cammelli."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0957",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "L'insieme dei gusti nel vestire e nei costumi che si diffondono in un periodo e poi passano.",
+          "example": "Quei pantaloni larghi sono tornati di moda."
+        }
+      }
+    }
+  ]
+}

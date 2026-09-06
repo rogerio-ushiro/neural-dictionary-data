@@ -1,0 +1,46 @@
+{
+  "pack": "graph.a1",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0006",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Periodo di riposo dal lavoro o dalla scuola, spesso trascorso lontano da casa.",
+          "example": "In vacanza non guarda mai l'orologio."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0073",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Il periodo di luce tra un'alba e la successiva; anche un intero periodo di ventiquattro ore.",
+          "example": "È stata una giornata piena, dal mattino alla sera."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0781",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Qualsiasi opera scritta in versi o in prosa di una certa cura.",
+          "example": "Presentò un breve componimento al concorso di poesia."
+        }
+      }
+    }
+  ]
+}

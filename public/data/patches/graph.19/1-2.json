@@ -1,0 +1,98 @@
+{
+  "pack": "graph.19",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0231",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Chi ha il compito legale di proteggere e rappresentare un minore o un incapace.",
+          "example": "Alla morte dei genitori lo zio ne divenne il tutore."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0284",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Chi condivide la vita con un'altra persona come marito o moglie.",
+          "example": "Presentò la sua consorte agli invitati."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0415",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Insenatura stretta e allungata della costa, tra due lingue di terra.",
+          "example": "La barca si infilò in un'insenatura riparata dal vento."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0561",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Parte di roccia o di muro che sporge dalla superficie.",
+          "example": "Si aggrappò a una sporgenza per non scivolare."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0679",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "La condizione di chi si governa da sé, senza dipendere da altri.",
+          "example": "La regione ha ottenuto una maggiore autonomia fiscale."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0693",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Fila ordinata di persone che avanzano insieme per una cerimonia, un funerale o una manifestazione.",
+          "example": "Il corteo nuziale attraversò lentamente la piazza."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0950",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Gruppo di atomi legati insieme, la più piccola parte di una sostanza composta.",
+          "example": "Una molecola d'acqua ha due atomi di idrogeno e uno di ossigeno."
+        }
+      }
+    }
+  ]
+}

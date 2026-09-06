@@ -1,0 +1,112 @@
+{
+  "shard": "5e",
+  "concepts": {
+    "c_0061": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Persona incaricata di vigilare i bagnanti e soccorrere chi è in difficoltà in acqua.",
+        "example": "Il bagnino fischiò ai ragazzi che si erano spinti troppo al largo."
+      }
+    },
+    "c_0779": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Autorità e importanza che si dà alle parole o alle scelte di qualcuno.",
+        "example": "Il suo parere ha molto peso nelle riunioni."
+      }
+    },
+    "c_0797": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Materiale duro ricavato dal tronco degli alberi, usato per costruire e ardere.",
+        "example": "Il tavolo è di legno massiccio di noce."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0002",
+      "concept_b": "c_0061",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0228",
+      "concept_b": "c_0779",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0297",
+      "concept_b": "c_0797",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0302",
+      "concept_b": "c_0797",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    }
+  ],
+  "word_senses": {
+    "s_0061": {
+      "lexeme_id": "w_0061",
+      "lexeme_kind": "word",
+      "concept_id": "c_0061",
+      "is_primary": true
+    },
+    "s_0779": {
+      "lexeme_id": "w_0779",
+      "lexeme_kind": "word",
+      "concept_id": "c_0779",
+      "is_primary": true
+    },
+    "s_0797": {
+      "lexeme_id": "w_0797",
+      "lexeme_kind": "word",
+      "concept_id": "c_0797",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0061": {
+      "display_form": "bagnino",
+      "normalized_form": "bagnino",
+      "pos": null
+    },
+    "w_0779": {
+      "display_form": "peso",
+      "normalized_form": "peso",
+      "pos": null
+    },
+    "w_0797": {
+      "display_form": "legno",
+      "normalized_form": "legno",
+      "pos": null
+    }
+  },
+  "expressions": {}
+}

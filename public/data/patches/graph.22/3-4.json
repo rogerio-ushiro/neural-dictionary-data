@@ -1,0 +1,124 @@
+{
+  "pack": "graph.22",
+  "from": 3,
+  "to": 4,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0223",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Il genitore di sesso maschile.",
+          "example": "Il padre lo accompagnava a scuola in bici ogni mattina."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0256",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Gruppo di alunni che seguono insieme le lezioni; anche uno dei livelli in cui si dividono le scuole.",
+          "example": "Quest'anno è in una classe di venticinque ragazzi."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0397",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Il punto più alto di un monte, di un albero o di qualsiasi cosa che si eleva.",
+          "example": "Sulla cima sventolava una bandierina lasciata dagli scalatori."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0498",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Successione regolare di suoni e pause che dà l'andamento a una musica o a un discorso; indica anche la cadenza con cui si svolge un'attività.",
+          "example": "Batteva il ritmo con il piede sotto il tavolo."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0506",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Oggetto costruito per produrre suoni musicali.",
+          "example": "Ha imparato a suonare tre strumenti da autodidatta."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0573",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Grande telo che, gonfiato dal vento, spinge avanti una barca.",
+          "example": "Issarono la vela e la barca prese velocità."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0685",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "L'atto di scegliere tra più possibilità; anche la libertà di farlo.",
+          "example": "Davanti a lui c'era una scelta difficile."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0960",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "La volta del cielo con tutte le stelle che vi brillano di notte.",
+          "example": "In campagna il firmamento è di una nitidezza rara."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_1004",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Arresto di un movimento o di un processo che si prolunga.",
+          "example": "Le trattative sono in una fase di stasi da settimane."
+        }
+      }
+    }
+  ]
+}

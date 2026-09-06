@@ -1,0 +1,98 @@
+{
+  "pack": "graph.6e",
+  "from": 3,
+  "to": 4,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0186",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Costruzione con muri e tetto destinata ad abitazione o ad altri usi.",
+          "example": "Il nuovo edificio ospiterà la biblioteca comunale."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0403",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Valico tra due monti, punto più basso di una cresta per cui si passa.",
+          "example": "Il giogo era ancora coperto di neve a maggio."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0494",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Insieme di persone riunite per deliberare su questioni comuni.",
+          "example": "L'assemblea dei condomini ha approvato i lavori."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0612",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Il grado di forza con cui una luce, un suono o un sentimento si manifesta.",
+          "example": "Abbassò l'intensità della lampada per leggere."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0667",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Nuovo getto che spunta da un seme, da un ramo o da una gemma.",
+          "example": "Sul ramo tagliato erano già spuntati due germogli."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0689",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Il liberarsi da una condizione di schiavitù o di colpa, spesso pagando un prezzo.",
+          "example": "Vedeva nel lavoro onesto la via del riscatto."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_1008",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Qualsiasi natante costruito per galleggiare e spostarsi sull'acqua.",
+          "example": "Un'imbarcazione da diporto era ormeggiata al pontile."
+        }
+      }
+    }
+  ]
+}

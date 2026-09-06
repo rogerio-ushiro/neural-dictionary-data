@@ -1,0 +1,46 @@
+{
+  "pack": "graph.ad",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0154",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "L'edificio dove ha sede il governo di una città e si sbrigano le pratiche dei cittadini.",
+          "example": "Si sposarono in municipio con due testimoni."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0648",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Il perdere freschezza e vigore, come una pianta senz'acqua.",
+          "example": "L'avvizzimento delle foglie annunciava la fine dell'estate."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0723",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Oggetto di forma circolare senza principio né fine, spesso portato al dito.",
+          "example": "Le è caduto l'anello nello scarico del lavandino."
+        }
+      }
+    }
+  ]
+}

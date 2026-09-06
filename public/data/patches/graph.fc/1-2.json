@@ -1,0 +1,137 @@
+{
+  "pack": "graph.fc",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0188",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "La copertura superiore di un edificio, che ripara da pioggia e sole.",
+          "example": "Il vento aveva scoperchiato una parte del tetto."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0221",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Il piccolo del cane e di altri mammiferi; con affetto, un bambino.",
+          "example": "Il cucciolo mordicchiava le pantofole di tutti."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0254",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Il processo con cui una persona acquisisce conoscenze e capacità per una professione.",
+          "example": "Ha seguito un corso di formazione per infermieri."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0395",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Il punto più alto di una montagna.",
+          "example": "Raggiunsero la vetta poco prima di mezzogiorno."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0504",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "L'emettere con la voce suoni musicali; anche il brano che si canta.",
+          "example": "Dai campi saliva il canto dei mietitori."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0571",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "La direzione da tenere durante un viaggio per mare o per aria; al figurato, la linea di condotta scelta.",
+          "example": "Il comandante corresse la rotta per evitare la tempesta."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0669",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Sentimento profondo di affetto e attrazione che lega a una persona o a una cosa.",
+          "example": "Il loro amore è nato sui banchi di scuola."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0687",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Permesso ufficiale di fare o esercitare qualcosa; anche un eccesso di libertà nei modi.",
+          "example": "Ha ottenuto la licenza per aprire il locale."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0962",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Involucro di aria che avvolge la Terra; anche il clima emotivo che si respira in un luogo.",
+          "example": "In sala regnava un'atmosfera di attesa."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_1006",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Dolcezza e moderazione di modi; anche la clemenza del clima.",
+          "example": "Lo colpì la mitezza con cui rispose all'offesa."
+        }
+      }
+    }
+  ]
+}

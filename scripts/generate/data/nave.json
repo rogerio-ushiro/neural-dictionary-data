@@ -1,0 +1,12 @@
+[
+  { "lemma": "imbarcazione", "relation_type": "categoria", "association_strength": 0.85, "confidence": 0.9, "pos": "sostantivo" },
+  { "lemma": "scafo", "relation_type": "parti", "association_strength": 0.8, "confidence": 0.9, "pos": "sostantivo" },
+  { "lemma": "timone", "relation_type": "parti", "association_strength": 0.7, "confidence": 0.85, "pos": "sostantivo" },
+  { "lemma": "equipaggio", "relation_type": "contenuto", "association_strength": 0.75, "confidence": 0.9, "pos": "sostantivo" },
+  { "lemma": "capitano", "relation_type": "esseri_viventi", "association_strength": 0.7, "confidence": 0.85, "pos": "sostantivo" },
+  { "lemma": "navigare", "relation_type": "azioni", "association_strength": 0.85, "confidence": 0.9, "pos": "verbo" },
+  { "lemma": "salpare", "relation_type": "azioni", "association_strength": 0.7, "confidence": 0.8, "pos": "verbo" },
+  { "lemma": "porto", "relation_type": "luoghi", "association_strength": 0.75, "confidence": 0.9 },
+  { "lemma": "barca", "relation_type": "similarità", "association_strength": 0.6, "confidence": 0.8 },
+  { "lemma": "viaggio", "relation_type": "evocativa", "association_strength": 0.5, "confidence": 0.7 }
+]

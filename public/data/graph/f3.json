@@ -1,0 +1,212 @@
+{
+  "shard": "f3",
+  "concepts": {
+    "c_0233": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Punto da cui sgorga l'acqua; al figurato, chi o ciò che dà origine a una notizia o a un bene.",
+        "example": "L'acqua della fonte era freschissima anche d'estate."
+      }
+    },
+    "c_0286": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Compagno fidato, camerata (voce di uso familiare e affettuoso).",
+        "example": "Sono stati camarada per tutta la naia."
+      }
+    },
+    "c_0417": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Solco artificiale scavato per far scorrere l'acqua, per irrigare o per far passare le barche; per estensione, una via attraverso cui passano informazioni o programmi (un canale televisivo).",
+        "example": "Le merci arrivavano in città lungo il canale."
+      }
+    },
+    "c_0563": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Punta sottile e slanciata che sormonta una torre o una montagna.",
+        "example": "La guglia del duomo si vede da tutta la pianura."
+      }
+    },
+    "c_0691": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Non soggetto a costrizioni o vincoli; anche non occupato.",
+        "example": "Il pomeriggio è libero, possiamo vederci."
+      }
+    },
+    "c_0952": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Legge o verità di fondo da cui si parte per ragionare o per agire.",
+        "example": "Non transige sui suoi principi morali."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0015",
+      "concept_b": "c_0233",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0019",
+      "concept_b": "c_0286",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0032",
+      "concept_b": "c_0417",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0044",
+      "concept_b": "c_0417",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0045",
+      "concept_b": "c_0563",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0109",
+      "concept_b": "c_0691",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0233",
+      "concept_b": "c_0343",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0371",
+      "concept_b": "c_0952",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    }
+  ],
+  "word_senses": {
+    "s_0233": {
+      "lexeme_id": "w_0233",
+      "lexeme_kind": "word",
+      "concept_id": "c_0233",
+      "is_primary": true
+    },
+    "s_0286": {
+      "lexeme_id": "w_0286",
+      "lexeme_kind": "word",
+      "concept_id": "c_0286",
+      "is_primary": true
+    },
+    "s_0417": {
+      "lexeme_id": "w_0417",
+      "lexeme_kind": "word",
+      "concept_id": "c_0417",
+      "is_primary": true
+    },
+    "s_0563": {
+      "lexeme_id": "w_0563",
+      "lexeme_kind": "word",
+      "concept_id": "c_0563",
+      "is_primary": true
+    },
+    "s_0691": {
+      "lexeme_id": "w_0691",
+      "lexeme_kind": "word",
+      "concept_id": "c_0691",
+      "is_primary": true
+    },
+    "s_0952": {
+      "lexeme_id": "w_0952",
+      "lexeme_kind": "word",
+      "concept_id": "c_0952",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0233": {
+      "display_form": "fonte",
+      "normalized_form": "fonte",
+      "pos": null
+    },
+    "w_0286": {
+      "display_form": "camarada",
+      "normalized_form": "camarada",
+      "pos": null
+    },
+    "w_0417": {
+      "display_form": "canale",
+      "normalized_form": "canale",
+      "pos": null
+    },
+    "w_0563": {
+      "display_form": "guglia",
+      "normalized_form": "guglia",
+      "pos": null
+    },
+    "w_0691": {
+      "display_form": "libero",
+      "normalized_form": "libero",
+      "pos": null
+    },
+    "w_0952": {
+      "display_form": "principio",
+      "normalized_form": "principio",
+      "pos": null
+    }
+  },
+  "expressions": {}
+}

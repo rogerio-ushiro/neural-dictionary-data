@@ -1,0 +1,72 @@
+{
+  "pack": "graph.bc",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0218",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Qualsiasi essere vivente, soprattutto un animale o una persona vista come oggetto di compassione o tenerezza.",
+          "example": "Non farebbe del male a nessuna creatura."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0337",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Capacità di muoversi con scioltezza e prontezza; è dote proverbiale del gatto.",
+          "example": "Con un'agilità sorprendente scavalcò il muretto."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0548",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Punto di ancoraggio riparato dove le navi possono sostare.",
+          "example": "Trovarono fonda sicura dietro il promontorio."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0867",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Tessuto del corpo capace di contrarsi, che produce il movimento delle ossa e degli organi.",
+          "example": "Dopo la palestra aveva i muscoli indolenziti."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0889",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Fibra tessile morbida ricavata dal vello della pecora.",
+          "example": "Ha lavorato a maglia un maglione di lana grezza."
+        }
+      }
+    }
+  ]
+}

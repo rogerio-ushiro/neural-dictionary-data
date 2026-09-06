@@ -1,0 +1,33 @@
+{
+  "pack": "graph.84",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0067",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Corpo celeste che brilla di luce propria nel cielo notturno; al figurato, una persona famosa e ammirata.",
+          "example": "Quella sera si vedeva una stella cadente dietro l'altra."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0791",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Membro della stessa confraternita o compagno di fede.",
+          "example": "I confratelli si occupano dell'assistenza agli anziani."
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "pack": "graph.23",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0040",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "La prima parte del giorno, dal sorgere del sole fino a mezzogiorno.",
+          "example": "La mattina si sveglia sempre prima della sveglia."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0318",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Condizione di stabilità in cui le forze si compensano e nulla cade o si rovescia; anche la calma interiore di chi non perde il controllo.",
+          "example": "Ha ritrovato l'equilibrio dopo un momento difficile."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0848",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Che appartiene ai tempi più antichi e non ancora toccati dalla civiltà; anche rozzo e non evoluto.",
+          "example": "In quella valle si conservano usanze primitive."
+        }
+      }
+    }
+  ]
+}

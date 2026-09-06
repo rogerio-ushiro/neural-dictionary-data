@@ -1,0 +1,46 @@
+{
+  "pack": "graph.41",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0055",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Tratto di spiaggia attrezzato con ombrelloni e cabine per la balneazione.",
+          "example": "Hanno preso un ombrellone al lido per tutta la stagione."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0121",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Il momento in cui si lascia un luogo per mettersi in viaggio.",
+          "example": "La partenza è fissata per le sei del mattino."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0459",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Frutto dolce e morbido, dalla buccia sottile e dalla polpa piena di semini, che matura a fine estate.",
+          "example": "Colse un fico maturo e se lo mangiò sull'albero."
+        }
+      }
+    }
+  ]
+}

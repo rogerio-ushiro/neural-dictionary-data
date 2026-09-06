@@ -1,0 +1,142 @@
+{
+  "shard": "de",
+  "concepts": {
+    "c_0263": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Libro che spiega passo passo come fare o usare qualcosa.",
+        "example": "Ha consultato il manuale per montare la libreria."
+      }
+    },
+    "c_0533": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Rapido tremolio di un corpo che si trasmette all'aria e produce suono.",
+        "example": "Si sentiva la vibrazione del motore sotto i piedi."
+      }
+    },
+    "c_0890": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Peluria fine e soffice, come quella che ricopre certi frutti o i piccoli degli animali.",
+        "example": "Il pulcino era una pallina di lanugine gialla."
+      }
+    },
+    "c_0915": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Parte del frutto da cui, seminata, nasce una nuova pianta.",
+        "example": "Conserva i semi dei pomodori migliori per l'anno dopo."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0018",
+      "concept_b": "c_0263",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0042",
+      "concept_b": "c_0533",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0326",
+      "concept_b": "c_0890",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0353",
+      "concept_b": "c_0915",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0392",
+      "concept_b": "c_0533",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    }
+  ],
+  "word_senses": {
+    "s_0263": {
+      "lexeme_id": "w_0263",
+      "lexeme_kind": "word",
+      "concept_id": "c_0263",
+      "is_primary": true
+    },
+    "s_0533": {
+      "lexeme_id": "w_0533",
+      "lexeme_kind": "word",
+      "concept_id": "c_0533",
+      "is_primary": true
+    },
+    "s_0890": {
+      "lexeme_id": "w_0890",
+      "lexeme_kind": "word",
+      "concept_id": "c_0890",
+      "is_primary": true
+    },
+    "s_0915": {
+      "lexeme_id": "w_0915",
+      "lexeme_kind": "word",
+      "concept_id": "c_0915",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0263": {
+      "display_form": "manuale",
+      "normalized_form": "manuale",
+      "pos": null
+    },
+    "w_0533": {
+      "display_form": "vibrazione",
+      "normalized_form": "vibrazione",
+      "pos": null
+    },
+    "w_0890": {
+      "display_form": "lanugine",
+      "normalized_form": "lanugine",
+      "pos": null
+    },
+    "w_0915": {
+      "display_form": "seme",
+      "normalized_form": "seme",
+      "pos": null
+    }
+  },
+  "expressions": {}
+}

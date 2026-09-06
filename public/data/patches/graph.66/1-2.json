@@ -1,0 +1,72 @@
+{
+  "pack": "graph.66",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0432",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Il senso con cui si percepisce il sapore dei cibi; anche il senso estetico che guida le scelte.",
+          "example": "Ha buon gusto nell'arredare la casa."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0447",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Sottile biscotto secco e salato che si mangia con formaggi o salse.",
+          "example": "Servì i cracker con un piattino di olive."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0656",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Lo stato di riposo in cui si cade addormentandosi, con i sensi sospesi.",
+          "example": "Cadde in un sonno profondo appena si sdraiò."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0920",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Ciò che una causa produce; la conseguenza di un fatto.",
+          "example": "L'aumento dei prezzi è un effetto della siccità."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0995",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Combinazione di più suoni che, uditi insieme, risultano gradevoli.",
+          "example": "Suonò un accordo di chitarra per accordare gli strumenti."
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "pack": "graph.6a",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0160",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Grande edificio signorile in città, spesso sede di uffici o di famiglie nobili.",
+          "example": "Il palazzo ha un cortile con un pozzo antico."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0289",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Ciò che tiene occupato e diverte il pubblico o gli ospiti.",
+          "example": "Il giocoliere assicurò l'intrattenimento per tutta la serata."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0418",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Scavo lungo e stretto per far scorrere via l'acqua ai lati di una strada o di un campo.",
+          "example": "L'acqua piovana defluiva nel fosso lungo la carreggiata."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0674",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Attività piacevole con cui si passa il tempo libero, di solito all'aperto.",
+          "example": "La pesca è il suo diporto preferito."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0731",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Striscia di terreno battuto senza asfalto, usata per camminare, correre o gareggiare.",
+          "example": "Correva ogni mattina sulla pista sterrata del parco."
+        }
+      }
+    }
+  ]
+}

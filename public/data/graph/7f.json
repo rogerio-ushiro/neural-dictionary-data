@@ -1,0 +1,122 @@
+{
+  "shard": "7f",
+  "concepts": {
+    "c_0112": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Il luogo verso cui si è diretti, il punto d'arrivo di un viaggio o di una spedizione.",
+        "example": "Sul biglietto era stampata la destinazione."
+      }
+    },
+    "c_0776": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "L'atto di dare ordini e la posizione di chi li dà.",
+        "example": "Il comando delle operazioni passò al vice."
+      }
+    },
+    "c_0798": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Foresta tropicale fittissima e umida.",
+        "example": "Nella giungla la luce del sole arriva a stento al suolo."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0007",
+      "concept_b": "c_0112",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0228",
+      "concept_b": "c_0776",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0297",
+      "concept_b": "c_0798",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0302",
+      "concept_b": "c_0798",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0352",
+      "concept_b": "c_0798",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    }
+  ],
+  "word_senses": {
+    "s_0112": {
+      "lexeme_id": "w_0112",
+      "lexeme_kind": "word",
+      "concept_id": "c_0112",
+      "is_primary": true
+    },
+    "s_0776": {
+      "lexeme_id": "w_0776",
+      "lexeme_kind": "word",
+      "concept_id": "c_0776",
+      "is_primary": true
+    },
+    "s_0798": {
+      "lexeme_id": "w_0798",
+      "lexeme_kind": "word",
+      "concept_id": "c_0798",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0112": {
+      "display_form": "destinazione",
+      "normalized_form": "destinazione",
+      "pos": null
+    },
+    "w_0776": {
+      "display_form": "comando",
+      "normalized_form": "comando",
+      "pos": null
+    },
+    "w_0798": {
+      "display_form": "giungla",
+      "normalized_form": "giungla",
+      "pos": null
+    }
+  },
+  "expressions": {}
+}

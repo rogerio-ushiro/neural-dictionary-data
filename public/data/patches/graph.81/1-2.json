@@ -1,0 +1,46 @@
+{
+  "pack": "graph.81",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0099",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Innalzamento della temperatura del corpo che accompagna molte malattie.",
+          "example": "È rimasto a casa con la febbre a trentanove."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0374",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Massa d'acqua o d'aria che si muove con continuità in una direzione; indica anche il passaggio di elettricità in un filo e, al figurato, un indirizzo di pensiero condiviso (una corrente artistica).",
+          "example": "La corrente del fiume trascinava via i rami."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0824",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Ciascuno dei pregi o dei difetti che compongono il valore di una persona o di una cosa.",
+          "example": "La sincerità è la sua qualità migliore."
+        }
+      }
+    }
+  ]
+}

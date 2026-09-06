@@ -1,0 +1,392 @@
+{
+  "shard": "27",
+  "concepts": {
+    "c_0181": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Il luogo dove si vive stabilmente, la propria casa.",
+        "example": "Ha cambiato abitazione per avvicinarsi al lavoro."
+      }
+    },
+    "c_0228": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Antenato da cui si discende; anche l'influenza o il prestigio che si esercita sugli altri.",
+        "example": "Ha un forte ascendente sui più giovani."
+      }
+    },
+    "c_0404": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Rilievo del terreno più basso e più dolce di una montagna.",
+        "example": "Le vigne coprono i fianchi della collina fino alla cima."
+      }
+    },
+    "c_0493": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Riunione di molte persone convenute per uno scopo comune.",
+        "example": "Al raduno degli alpini parteciparono migliaia di persone."
+      }
+    },
+    "c_0578": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Tempesta improvvisa e violenta, con vento e pioggia scroscianti.",
+        "example": "Furono sorpresi da una bufera di neve sul valico."
+      }
+    },
+    "c_0615": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Il rimando della luce o del calore da una superficie; anche il pensare a lungo su qualcosa.",
+        "example": "La riflessione del sole sull'acqua abbagliava."
+      }
+    },
+    "c_0660": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Stato di distensione fisica e mentale che allontana lo stress.",
+        "example": "Un po' di musica gli basta per trovare il relax."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0012",
+      "concept_b": "c_0181",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0015",
+      "concept_b": "c_0228",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0016",
+      "concept_b": "c_0228",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0031",
+      "concept_b": "c_0404",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0037",
+      "concept_b": "c_0493",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0052",
+      "concept_b": "c_0578",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0069",
+      "concept_b": "c_0615",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0085",
+      "concept_b": "c_0660",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0164",
+      "concept_b": "c_0181",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0181",
+      "concept_b": "c_0325",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0223",
+      "concept_b": "c_0228",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0226",
+      "concept_b": "c_0228",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0228",
+      "concept_b": "c_0235",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0228",
+      "concept_b": "c_0237",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0228",
+      "concept_b": "c_0243",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0228",
+      "concept_b": "c_0772",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0228",
+      "concept_b": "c_0773",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0228",
+      "concept_b": "c_0774",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0228",
+      "concept_b": "c_0775",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0228",
+      "concept_b": "c_0776",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0228",
+      "concept_b": "c_0777",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0228",
+      "concept_b": "c_0778",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0228",
+      "concept_b": "c_0779",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0228",
+      "concept_b": "c_0780",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    }
+  ],
+  "word_senses": {
+    "s_0181": {
+      "lexeme_id": "w_0181",
+      "lexeme_kind": "word",
+      "concept_id": "c_0181",
+      "is_primary": true
+    },
+    "s_0228": {
+      "lexeme_id": "w_0228",
+      "lexeme_kind": "word",
+      "concept_id": "c_0228",
+      "is_primary": true
+    },
+    "s_0404": {
+      "lexeme_id": "w_0404",
+      "lexeme_kind": "word",
+      "concept_id": "c_0404",
+      "is_primary": true
+    },
+    "s_0493": {
+      "lexeme_id": "w_0493",
+      "lexeme_kind": "word",
+      "concept_id": "c_0493",
+      "is_primary": true
+    },
+    "s_0578": {
+      "lexeme_id": "w_0578",
+      "lexeme_kind": "word",
+      "concept_id": "c_0578",
+      "is_primary": true
+    },
+    "s_0615": {
+      "lexeme_id": "w_0615",
+      "lexeme_kind": "word",
+      "concept_id": "c_0615",
+      "is_primary": true
+    },
+    "s_0660": {
+      "lexeme_id": "w_0660",
+      "lexeme_kind": "word",
+      "concept_id": "c_0660",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0181": {
+      "display_form": "abitazione",
+      "normalized_form": "abitazione",
+      "pos": null
+    },
+    "w_0228": {
+      "display_form": "ascendente",
+      "normalized_form": "ascendente",
+      "pos": null
+    },
+    "w_0404": {
+      "display_form": "collina",
+      "normalized_form": "collina",
+      "pos": null
+    },
+    "w_0493": {
+      "display_form": "raduno",
+      "normalized_form": "raduno",
+      "pos": null
+    },
+    "w_0578": {
+      "display_form": "bufera",
+      "normalized_form": "bufera",
+      "pos": null
+    },
+    "w_0615": {
+      "display_form": "riflessione",
+      "normalized_form": "riflessione",
+      "pos": null
+    },
+    "w_0660": {
+      "display_form": "relax",
+      "normalized_form": "relax",
+      "pos": null
+    }
+  },
+  "expressions": {}
+}

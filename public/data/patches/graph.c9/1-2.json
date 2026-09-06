@@ -1,0 +1,85 @@
+{
+  "pack": "graph.c9",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0158",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "La parte più antica e importante di una città o di un paese; anche il punto attorno a cui si organizza qualcosa.",
+          "example": "Ha aperto un negozio nel centro storico."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0297",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Estensione di terreno coperta di alberi fitti, meno vasta di una foresta.",
+          "example": "Nel bosco si sentiva solo il fruscio delle foglie."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0420",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Cibo cucinato e pronto da servire in tavola.",
+          "example": "Ha preparato una pietanza di pesce per gli ospiti."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0644",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Mancanza d'acqua che rende un terreno sterile; al figurato, povertà di sentimenti o di idee.",
+          "example": "Nell'aridità del deserto non cresce nulla."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0936",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Ampia curva che un fiume disegna serpeggiando nella pianura.",
+          "example": "Il sentiero seguiva i meandri del fiume."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0943",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Il passaggio di un liquido allo stato di vapore per effetto del calore.",
+          "example": "L'evaporazione dell'acqua del mare forma le nuvole."
+        }
+      }
+    }
+  ]
+}

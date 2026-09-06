@@ -1,0 +1,85 @@
+{
+  "pack": "graph.1e",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0164",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Piccolo centro abitato di campagna, con poche case raccolte attorno a una piazza.",
+          "example": "Nel villaggio c'è un solo negozio che vende di tutto."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0238",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Il padre del bisnonno; antenato di quattro generazioni prima.",
+          "example": "Il bisavo aveva costruito la casa con le proprie mani."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0568",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Lingua di terra che si protende nel mare rimanendo unita al continente.",
+          "example": "La penisola si spinge per venti chilometri nel golfo."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0670",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Piacere sereno e raffinato che si prova in un'attività amata.",
+          "example": "Legge poesia con vero diletto."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0735",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Villaggio molto piccolo.",
+          "example": "È cresciuto in un paesetto di poche case sulle colline."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0959",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Superficie curva che copre uno spazio dall'alto, come quella di una cupola o del cielo.",
+          "example": "Alzò gli occhi verso la volta stellata."
+        }
+      }
+    }
+  ]
+}

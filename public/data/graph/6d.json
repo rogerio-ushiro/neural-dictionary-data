@@ -1,0 +1,202 @@
+{
+  "shard": "6d",
+  "concepts": {
+    "c_0279": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Chi lavora insieme a un altro nello stesso ufficio o mestiere.",
+        "example": "Ha invitato a cena due colleghi del reparto."
+      }
+    },
+    "c_0460": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Grosso frutto estivo dalla polpa dolce e profumata, giallo o arancione dentro.",
+        "example": "Un melone ben maturo si riconosce dal profumo."
+      }
+    },
+    "c_0529": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Il formarsi di onde sulla superficie di un liquido.",
+        "example": "Un sasso nello stagno provocò una lenta undulazione."
+      }
+    },
+    "c_0594": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Il tempo trascorso al sole o all'aria; anche il modo in cui un edificio è rivolto rispetto al sole.",
+        "example": "La casa gode di un'ottima esposizione a mezzogiorno."
+      }
+    },
+    "c_0631": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Grado di oscurità, il buio più o meno fitto.",
+        "example": "Con la scurezza del temporale dovettero accendere le luci a mezzogiorno."
+      }
+    },
+    "c_0903": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Zampillo d'acqua o di altro liquido che esce con forza da un'apertura.",
+        "example": "Un getto d'acqua schizzò via dal tubo rotto."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0019",
+      "concept_b": "c_0279",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0035",
+      "concept_b": "c_0460",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0042",
+      "concept_b": "c_0529",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0060",
+      "concept_b": "c_0594",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0078",
+      "concept_b": "c_0631",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0273",
+      "concept_b": "c_0279",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0343",
+      "concept_b": "c_0903",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    }
+  ],
+  "word_senses": {
+    "s_0279": {
+      "lexeme_id": "w_0279",
+      "lexeme_kind": "word",
+      "concept_id": "c_0279",
+      "is_primary": true
+    },
+    "s_0460": {
+      "lexeme_id": "w_0460",
+      "lexeme_kind": "word",
+      "concept_id": "c_0460",
+      "is_primary": true
+    },
+    "s_0529": {
+      "lexeme_id": "w_0529",
+      "lexeme_kind": "word",
+      "concept_id": "c_0529",
+      "is_primary": true
+    },
+    "s_0594": {
+      "lexeme_id": "w_0594",
+      "lexeme_kind": "word",
+      "concept_id": "c_0594",
+      "is_primary": true
+    },
+    "s_0631": {
+      "lexeme_id": "w_0631",
+      "lexeme_kind": "word",
+      "concept_id": "c_0631",
+      "is_primary": true
+    },
+    "s_0903": {
+      "lexeme_id": "w_0903",
+      "lexeme_kind": "word",
+      "concept_id": "c_0903",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0279": {
+      "display_form": "collega",
+      "normalized_form": "collega",
+      "pos": null
+    },
+    "w_0460": {
+      "display_form": "melone",
+      "normalized_form": "melone",
+      "pos": null
+    },
+    "w_0529": {
+      "display_form": "undulazione",
+      "normalized_form": "undulazione",
+      "pos": null
+    },
+    "w_0594": {
+      "display_form": "esposizione",
+      "normalized_form": "esposizione",
+      "pos": null
+    },
+    "w_0631": {
+      "display_form": "scurezza",
+      "normalized_form": "scurezza",
+      "pos": null
+    },
+    "w_0903": {
+      "display_form": "getto",
+      "normalized_form": "getto",
+      "pos": null
+    }
+  },
+  "expressions": {}
+}

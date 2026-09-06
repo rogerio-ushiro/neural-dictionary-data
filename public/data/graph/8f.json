@@ -1,0 +1,322 @@
+{
+  "shard": "8f",
+  "concepts": {
+    "c_0189": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Riparo che gli uccelli costruiscono per deporre le uova e allevare i piccoli; al figurato, la casa accogliente.",
+        "example": "Sul cornicione due rondini avevano fatto il nido."
+      }
+    },
+    "c_0220": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Piccolo del pollo appena nato; scherzosamente, un bambino indifeso.",
+        "example": "La chioccia teneva i pulcini al riparo sotto le ali."
+      }
+    },
+    "c_0255": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Ufficio o carica di maestro; anche la facoltà che formava gli insegnanti.",
+        "example": "Si laureò in magistero per diventare maestra elementare."
+      }
+    },
+    "c_0394": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Movimento disordinato e vorticoso dell'aria o dell'acqua; al figurato, un periodo agitato e privo di stabilità.",
+        "example": "L'aereo attraversò una zona di turbolenza."
+      }
+    },
+    "c_0505": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Complesso di musicisti che suonano insieme sotto la guida di un direttore.",
+        "example": "L'orchestra accordò gli strumenti prima dell'ingresso del maestro."
+      }
+    },
+    "c_0570": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Il percorrere per intero un mare o un tratto d'acqua da una sponda all'altra.",
+        "example": "La traversata dello stretto dura quaranta minuti."
+      }
+    },
+    "c_0668": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Fiducia serena che qualcosa di buono debba accadere.",
+        "example": "Non ha mai perso la speranza di rivederli."
+      }
+    },
+    "c_0686": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Esenzione da un obbligo, un dazio o una tassa.",
+        "example": "I bagagli entro i venti chili viaggiano in franchigia."
+      }
+    },
+    "c_0963": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "L'estensione vuota e sconfinata oltre l'atmosfera terrestre, dove si muovono i pianeti.",
+        "example": "Il satellite fu lanciato nello spazio dal poligono."
+      }
+    },
+    "c_1007": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Calma completa del mare, senza un filo di vento.",
+        "example": "In piena bonaccia le vele pendevano flosce."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0012",
+      "concept_b": "c_0189",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0014",
+      "concept_b": "c_0220",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0017",
+      "concept_b": "c_0255",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0030",
+      "concept_b": "c_0394",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0038",
+      "concept_b": "c_0505",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0051",
+      "concept_b": "c_0570",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0086",
+      "concept_b": "c_0668",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0109",
+      "concept_b": "c_0686",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0299",
+      "concept_b": "c_0668",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0381",
+      "concept_b": "c_0963",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0516",
+      "concept_b": "c_1007",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    }
+  ],
+  "word_senses": {
+    "s_0189": {
+      "lexeme_id": "w_0189",
+      "lexeme_kind": "word",
+      "concept_id": "c_0189",
+      "is_primary": true
+    },
+    "s_0220": {
+      "lexeme_id": "w_0220",
+      "lexeme_kind": "word",
+      "concept_id": "c_0220",
+      "is_primary": true
+    },
+    "s_0255": {
+      "lexeme_id": "w_0255",
+      "lexeme_kind": "word",
+      "concept_id": "c_0255",
+      "is_primary": true
+    },
+    "s_0394": {
+      "lexeme_id": "w_0394",
+      "lexeme_kind": "word",
+      "concept_id": "c_0394",
+      "is_primary": true
+    },
+    "s_0505": {
+      "lexeme_id": "w_0505",
+      "lexeme_kind": "word",
+      "concept_id": "c_0505",
+      "is_primary": true
+    },
+    "s_0570": {
+      "lexeme_id": "w_0570",
+      "lexeme_kind": "word",
+      "concept_id": "c_0570",
+      "is_primary": true
+    },
+    "s_0668": {
+      "lexeme_id": "w_0668",
+      "lexeme_kind": "word",
+      "concept_id": "c_0668",
+      "is_primary": true
+    },
+    "s_0686": {
+      "lexeme_id": "w_0686",
+      "lexeme_kind": "word",
+      "concept_id": "c_0686",
+      "is_primary": true
+    },
+    "s_0963": {
+      "lexeme_id": "w_0963",
+      "lexeme_kind": "word",
+      "concept_id": "c_0963",
+      "is_primary": true
+    },
+    "s_1007": {
+      "lexeme_id": "w_1007",
+      "lexeme_kind": "word",
+      "concept_id": "c_1007",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0189": {
+      "display_form": "nido",
+      "normalized_form": "nido",
+      "pos": null
+    },
+    "w_0220": {
+      "display_form": "pulcino",
+      "normalized_form": "pulcino",
+      "pos": null
+    },
+    "w_0255": {
+      "display_form": "magistero",
+      "normalized_form": "magistero",
+      "pos": null
+    },
+    "w_0394": {
+      "display_form": "turbolenza",
+      "normalized_form": "turbolenza",
+      "pos": null
+    },
+    "w_0505": {
+      "display_form": "orchestra",
+      "normalized_form": "orchestra",
+      "pos": null
+    },
+    "w_0570": {
+      "display_form": "traversata",
+      "normalized_form": "traversata",
+      "pos": null
+    },
+    "w_0668": {
+      "display_form": "speranza",
+      "normalized_form": "speranza",
+      "pos": null
+    },
+    "w_0686": {
+      "display_form": "franchigia",
+      "normalized_form": "franchigia",
+      "pos": null
+    },
+    "w_0963": {
+      "display_form": "spazio",
+      "normalized_form": "spazio",
+      "pos": null
+    },
+    "w_1007": {
+      "display_form": "bonaccia",
+      "normalized_form": "bonaccia",
+      "pos": null
+    }
+  },
+  "expressions": {}
+}

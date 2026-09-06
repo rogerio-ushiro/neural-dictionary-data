@@ -1,0 +1,46 @@
+{
+  "pack": "graph.7f",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0112",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Il luogo verso cui si è diretti, il punto d'arrivo di un viaggio o di una spedizione.",
+          "example": "Sul biglietto era stampata la destinazione."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0776",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "L'atto di dare ordini e la posizione di chi li dà.",
+          "example": "Il comando delle operazioni passò al vice."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0798",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Foresta tropicale fittissima e umida.",
+          "example": "Nella giungla la luce del sole arriva a stento al suolo."
+        }
+      }
+    }
+  ]
+}

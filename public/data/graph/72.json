@@ -1,0 +1,142 @@
+{
+  "shard": "72",
+  "concepts": {
+    "c_0199": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "L'insieme di chi discende da un antenato comune.",
+        "example": "La discendenza del vecchio conte si è estinta un secolo fa."
+      }
+    },
+    "c_0245": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Scuola superiore che prepara agli studi universitari, con indirizzo classico, scientifico o linguistico.",
+        "example": "Al liceo ha studiato latino per cinque anni."
+      }
+    },
+    "c_0515": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Consumare il pasto della sera.",
+        "example": "D'estate cenano sempre in terrazza."
+      }
+    },
+    "c_1013": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Sciogliere gli ormeggi e partire con la nave.",
+        "example": "La nave salperà con l'alta marea."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0013",
+      "concept_b": "c_0199",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0017",
+      "concept_b": "c_0245",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0039",
+      "concept_b": "c_0515",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0199",
+      "concept_b": "c_0203",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0047",
+      "concept_b": "c_1013",
+      "relation_type": "azioni",
+      "direction_hint": "symmetric",
+      "association_strength": 0.7,
+      "confidence": 0.8,
+      "status": "validated",
+      "revision": 2
+    }
+  ],
+  "word_senses": {
+    "s_0199": {
+      "lexeme_id": "w_0199",
+      "lexeme_kind": "word",
+      "concept_id": "c_0199",
+      "is_primary": true
+    },
+    "s_0245": {
+      "lexeme_id": "w_0245",
+      "lexeme_kind": "word",
+      "concept_id": "c_0245",
+      "is_primary": true
+    },
+    "s_0515": {
+      "lexeme_id": "w_0515",
+      "lexeme_kind": "word",
+      "concept_id": "c_0515",
+      "is_primary": true
+    },
+    "s_1013": {
+      "lexeme_id": "w_1013",
+      "lexeme_kind": "word",
+      "concept_id": "c_1013",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0199": {
+      "display_form": "discendenza",
+      "normalized_form": "discendenza",
+      "pos": null
+    },
+    "w_0245": {
+      "display_form": "liceo",
+      "normalized_form": "liceo",
+      "pos": null
+    },
+    "w_0515": {
+      "display_form": "cenare",
+      "normalized_form": "cenare",
+      "pos": null
+    },
+    "w_1013": {
+      "display_form": "salpare",
+      "normalized_form": "salpare",
+      "pos": "verbo"
+    }
+  },
+  "expressions": {}
+}

@@ -1,0 +1,59 @@
+{
+  "pack": "graph.83",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0453",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Agrume tondo dalla buccia arancione e dalla polpa dolce a spicchi.",
+          "example": "A colazione beve sempre una spremuta d'arancia."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0620",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Serie di fasi che si ripetono sempre nello stesso ordine, come quello del giorno e della notte.",
+          "example": "Il ciclo delle stagioni scandisce i lavori nei campi."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0747",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "La parte inferiore su cui una cosa poggia; il punto di partenza di un ragionamento.",
+          "example": "La colonna poggia su una base di marmo."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0985",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Sollievo dato da qualcosa di fresco quando fa molto caldo.",
+          "example": "Un tuffo in piscina fu un vero refrigerio."
+        }
+      }
+    }
+  ]
+}

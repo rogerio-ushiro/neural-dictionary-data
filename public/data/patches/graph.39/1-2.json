@@ -1,0 +1,59 @@
+{
+  "pack": "graph.39",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0019",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Persona a cui si vuole bene e di cui ci si fida, fuori dai legami di sangue.",
+          "example": "Un vero amico si vede nei momenti difficili."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0086",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "La stagione che segue l'inverno, quando la natura rifiorisce e le giornate si allungano.",
+          "example": "In primavera il giardino si riempie di api."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0172",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "L'organizzazione politica che governa un popolo su un territorio; anche la condizione in cui una cosa si trova.",
+          "example": "Lo Stato garantisce l'istruzione gratuita."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0701",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Merce, insieme di beni destinati alla vendita o al trasporto.",
+          "example": "La stiva era carica di mercanzia da scaricare al porto."
+        }
+      }
+    }
+  ]
+}

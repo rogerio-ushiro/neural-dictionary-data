@@ -1,0 +1,72 @@
+{
+  "pack": "graph.98",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0197",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Famiglia nobile considerata nel suo insieme di antenati e discendenti.",
+          "example": "La casata possedeva metà delle terre della valle."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0474",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Di sapore zuccherino, gradevole al palato; al figurato, mite e affettuoso nei modi.",
+          "example": "Ha un carattere dolce e paziente."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0580",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Tempesta rotante di enorme forza distruttiva, con venti che superano i cento chilometri orari.",
+          "example": "L'uragano ha scoperchiato decine di case sulla costa."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0603",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Calore lieve e piacevole che riscalda senza bruciare.",
+          "example": "Il tepore del sole di marzo invitava a uscire."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0971",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Sottile strato di ghiaccio che si forma di notte su superfici esposte al freddo.",
+          "example": "Il parabrezza era coperto di brina al mattino."
+        }
+      }
+    }
+  ]
+}

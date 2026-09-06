@@ -1,0 +1,182 @@
+{
+  "shard": "24",
+  "concepts": {
+    "c_0131": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Coppia di rotaie parallele su cui corrono i treni.",
+        "example": "È vietato attraversare il binario fuori dai passaggi."
+      }
+    },
+    "c_0144": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Sacca che si porta sulle spalle con due bretelle, usata per tenere le mani libere mentre si cammina o si va a scuola.",
+        "example": "Ha infilato il quaderno nello zaino ed è uscito di corsa."
+      }
+    },
+    "c_0449": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Pianta erbacea coltivata per i suoi semi commestibili, come grano, mais e riso.",
+        "example": "A colazione mangia un cereale con il latte."
+      }
+    },
+    "c_0658": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "L'allentamento della tensione muscolare e mentale che dà riposo.",
+        "example": "Qualche minuto di rilassamento prima di dormire."
+      }
+    },
+    "c_0755": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Qualsiasi essere vivente, animale o vegetale, capace di nascere, nutrirsi e riprodursi.",
+        "example": "Anche il più piccolo organismo ha un ruolo nell'ecosistema."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0008",
+      "concept_b": "c_0131",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0009",
+      "concept_b": "c_0144",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0034",
+      "concept_b": "c_0449",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0085",
+      "concept_b": "c_0658",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0218",
+      "concept_b": "c_0755",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0319",
+      "concept_b": "c_0755",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0339",
+      "concept_b": "c_0755",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    }
+  ],
+  "word_senses": {
+    "s_0131": {
+      "lexeme_id": "w_0131",
+      "lexeme_kind": "word",
+      "concept_id": "c_0131",
+      "is_primary": true
+    },
+    "s_0144": {
+      "lexeme_id": "w_0144",
+      "lexeme_kind": "word",
+      "concept_id": "c_0144",
+      "is_primary": true
+    },
+    "s_0449": {
+      "lexeme_id": "w_0449",
+      "lexeme_kind": "word",
+      "concept_id": "c_0449",
+      "is_primary": true
+    },
+    "s_0658": {
+      "lexeme_id": "w_0658",
+      "lexeme_kind": "word",
+      "concept_id": "c_0658",
+      "is_primary": true
+    },
+    "s_0755": {
+      "lexeme_id": "w_0755",
+      "lexeme_kind": "word",
+      "concept_id": "c_0755",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0131": {
+      "display_form": "binario",
+      "normalized_form": "binario",
+      "pos": null
+    },
+    "w_0144": {
+      "display_form": "zaino",
+      "normalized_form": "zaino",
+      "pos": null
+    },
+    "w_0449": {
+      "display_form": "cereale",
+      "normalized_form": "cereale",
+      "pos": null
+    },
+    "w_0658": {
+      "display_form": "rilassamento",
+      "normalized_form": "rilassamento",
+      "pos": null
+    },
+    "w_0755": {
+      "display_form": "organismo",
+      "normalized_form": "organismo",
+      "pos": null
+    }
+  },
+  "expressions": {}
+}

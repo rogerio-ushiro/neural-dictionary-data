@@ -1,0 +1,4086 @@
+{
+  "meta": {
+    "language": "it"
+  },
+  "semantic_regions": {
+    "r_corpo": {
+      "label": "corpo"
+    },
+    "r_cibo": {
+      "label": "cibo"
+    },
+    "r_casa": {
+      "label": "casa"
+    },
+    "r_natura": {
+      "label": "natura"
+    },
+    "r_animali": {
+      "label": "animali"
+    },
+    "r_movimento": {
+      "label": "movimento"
+    },
+    "r_lavoro": {
+      "label": "lavoro"
+    },
+    "r_citta": {
+      "label": "città"
+    },
+    "r_oggetti": {
+      "label": "oggetti"
+    },
+    "r_emozioni": {
+      "label": "emozioni"
+    },
+    "r_tempo": {
+      "label": "tempo"
+    },
+    "r_relazioni_sociali": {
+      "label": "relazioni_sociali"
+    },
+    "r_azioni": {
+      "label": "azioni"
+    },
+    "r_qualita": {
+      "label": "qualità"
+    },
+    "r_concetti_astratti": {
+      "label": "concetti_astratti"
+    }
+  },
+  "expansion_queue": [
+    {
+      "concept_id": "c_0047",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0049",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0050",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0053",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0056",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0057",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0059",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0061",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0062",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0063",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0064",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0068",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0076",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0079",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0081",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0082",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0083",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0087",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0088",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0089",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0093",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0097",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0098",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0099",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0103",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0106",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0110",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0111",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0112",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0116",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0119",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0121",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0122",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0123",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0124",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0125",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0126",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0127",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0128",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0129",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0130",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0131",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0132",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0133",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0134",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0136",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0137",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0139",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0140",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0141",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0142",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0143",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0144",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0145",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0146",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0147",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0148",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0149",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0150",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0151",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0152",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0153",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0154",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0155",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0156",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0157",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0160",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0161",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0162",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0163",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0165",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0166",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0168",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0169",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0170",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0172",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0174",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0176",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0177",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0178",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0179",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0180",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0182",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0183",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0184",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0186",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0187",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0188",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0189",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0190",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0191",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0192",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0194",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0195",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0196",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0197",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0204",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0207",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0208",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0209",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0210",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0211",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0212",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0213",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0214",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0215",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0216",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0217",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0220",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0221",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0222",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0224",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0225",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0227",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0229",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0230",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0231",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0232",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0234",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0236",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0238",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0239",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0241",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0242",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0244",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0245",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0246",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0247",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0248",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0249",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0250",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0251",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0252",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0253",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0254",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0255",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0256",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0257",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0258",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0259",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0260",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0261",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0262",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0263",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0264",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0265",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0268",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0269",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0271",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0274",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0276",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0278",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0283",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0285",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0286",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0290",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0291",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0292",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0293",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0294",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0295",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0296",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0301",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0305",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0306",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0307",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0308",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0309",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0310",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0311",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0313",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0315",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0317",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0318",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0323",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0327",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0328",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0329",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0330",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0332",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0333",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0335",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0336",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0337",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0340",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0341",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0342",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0344",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0351",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0356",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0357",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0359",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0360",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0361",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0363",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0364",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0369",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0376",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0383",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0385",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0386",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0393",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0394",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0395",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0396",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0397",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0398",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0399",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0400",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0401",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0402",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0403",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0404",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0405",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0406",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0407",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0408",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0412",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0413",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0418",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0419",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0420",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0421",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0422",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0423",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0424",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0426",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0427",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0428",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0429",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0430",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0431",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0432",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0433",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0434",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0435",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0436",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0437",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0438",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0439",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0440",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0441",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0442",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0443",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0444",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0445",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0446",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0447",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0448",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0449",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0450",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0451",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0453",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0455",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0456",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0457",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0458",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0460",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0462",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0464",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0465",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0466",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0468",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0469",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0470",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0472",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0473",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0474",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0475",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0476",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0477",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0478",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0479",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0480",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0481",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0482",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0483",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0484",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0485",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0486",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0487",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0488",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0492",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0493",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0494",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0495",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0497",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0502",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0503",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0505",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0506",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0507",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0513",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0515",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0517",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0521",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0522",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0524",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0525",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0526",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0528",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0529",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0530",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0531",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0532",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0534",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0535",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0536",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0537",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0538",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0540",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0541",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0544",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0545",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0546",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0548",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0550",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0552",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0553",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0554",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0555",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0556",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0557",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0558",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0559",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0560",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0561",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0562",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0563",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0564",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0565",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0566",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0567",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0568",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0569",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0570",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0572",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0573",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0575",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0576",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0578",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0579",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0580",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0581",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0582",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0583",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0587",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0588",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0589",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0590",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0591",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0592",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0594",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0595",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0596",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0597",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0598",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0599",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0600",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0602",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0603",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0604",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0605",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0606",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0607",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0611",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0612",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0613",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0614",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0615",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0616",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0617",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0619",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0622",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0623",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0624",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0626",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0627",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0628",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0629",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0631",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0632",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0633",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0634",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0635",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0636",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0637",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0638",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0639",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0641",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0642",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0643",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0645",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0647",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0648",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0649",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0650",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0651",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0652",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0653",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0654",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0655",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0657",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0658",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0659",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0660",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0664",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0665",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0666",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0669",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0674",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0675",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0676",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0677",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0678",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0679",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0680",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0681",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0682",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0683",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0684",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0685",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0686",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0687",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0688",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0689",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0690",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0691",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0692",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0693",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0694",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0695",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0696",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0697",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0698",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0699",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0700",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0701",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0703",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0704",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0706",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0707",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0708",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0709",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0710",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0711",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0712",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0713",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0715",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0716",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0717",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0718",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0719",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0720",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0721",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0722",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0723",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0724",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0725",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0726",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0727",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0728",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0730",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0732",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0735",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0736",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0737",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0738",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0739",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0740",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0741",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0742",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0743",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0747",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0750",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0751",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0752",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0753",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0754",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0757",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0758",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0759",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0761",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0763",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0764",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0765",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0766",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0767",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0768",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0769",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0770",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0771",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0772",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0773",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0774",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0775",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0776",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0777",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0778",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0779",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0780",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0781",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0782",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0783",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0784",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0785",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0786",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0787",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0788",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0789",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0790",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0791",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0792",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0793",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0794",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0795",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0800",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0802",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0804",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0805",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0807",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0809",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0811",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0812",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0813",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0814",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0816",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0818",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0819",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0820",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0821",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0823",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0824",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0826",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0827",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0828",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0829",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0830",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0831",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0832",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0833",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0834",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0835",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0836",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0841",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0843",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0844",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0845",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0846",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0847",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0848",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0849",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0850",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0851",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0852",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0853",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0854",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0855",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0856",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0860",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0861",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0862",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0863",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0864",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0865",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0866",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0867",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0868",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0869",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0870",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0871",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0872",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0873",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0874",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0875",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0876",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0877",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0878",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0879",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0880",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0881",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0882",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0883",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0884",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0885",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0886",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0887",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0888",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0889",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0890",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0891",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0892",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0893",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0894",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0895",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0896",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0898",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0899",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0900",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0901",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0902",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0903",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0905",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0906",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0908",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0909",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0910",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0911",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0912",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0913",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0914",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0915",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0916",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0917",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0918",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0919",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0920",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0921",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0922",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0923",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0924",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0925",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0927",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0928",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0929",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0930",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0931",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0932",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0933",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0935",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0936",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0937",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0938",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0939",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0940",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0941",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0942",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0943",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0944",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0945",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0946",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0947",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0948",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0949",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0950",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0951",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0952",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0953",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0954",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0955",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0956",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0957",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0958",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0959",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0960",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0961",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0963",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0964",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0965",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0966",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0968",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0969",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0970",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0971",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0972",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0973",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0974",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0975",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0976",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0977",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0978",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0979",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0980",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0981",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0982",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0983",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0984",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0985",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0986",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0987",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0988",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0989",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0990",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0991",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0992",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0993",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0994",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0995",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0996",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0997",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_1000",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_1001",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_1002",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_1003",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_1004",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_1005",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_1006",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_1007",
+      "expansion_priority": 0.9500000000000001
+    },
+    {
+      "concept_id": "c_0041",
+      "expansion_priority": 0.9083333333333334
+    },
+    {
+      "concept_id": "c_0054",
+      "expansion_priority": 0.9083333333333334
+    },
+    {
+      "concept_id": "c_0070",
+      "expansion_priority": 0.9083333333333334
+    },
+    {
+      "concept_id": "c_0095",
+      "expansion_priority": 0.9083333333333334
+    },
+    {
+      "concept_id": "c_0096",
+      "expansion_priority": 0.9083333333333334
+    },
+    {
+      "concept_id": "c_0101",
+      "expansion_priority": 0.9083333333333334
+    },
+    {
+      "concept_id": "c_0114",
+      "expansion_priority": 0.9083333333333334
+    },
+    {
+      "concept_id": "c_0117",
+      "expansion_priority": 0.9083333333333334
+    },
+    {
+      "concept_id": "c_0138",
+      "expansion_priority": 0.9083333333333334
+    },
+    {
+      "concept_id": "c_0158",
+      "expansion_priority": 0.9083333333333334
+    },
+    {
+      "concept_id": "c_0167",
+      "expansion_priority": 0.9083333333333334
+    },
+    {
+      "concept_id": "c_0171",
+      "expansion_priority": 0.9083333333333334
+    },
+    {
+      "concept_id": "c_0173",
+      "expansion_priority": 0.9083333333333334
+    },
+    {
+      "concept_id": "c_0185",
+      "expansion_priority": 0.9083333333333334
+    },
+    {
+      "concept_id": "c_0193",
+      "expansion_priority": 0.9083333333333334
+    },
+    {
+      "concept_id": "c_0199",
+      "expansion_priority": 0.9083333333333334
+    },
+    {
+      "concept_id": "c_0201",
+      "expansion_priority": 0.9083333333333334
+    },
+    {
+      "concept_id": "c_0205",
+      "expansion_priority": 0.9083333333333334
+    },
+    {
+      "concept_id": "c_0206",
+      "expansion_priority": 0.9083333333333334
+    },
+    {
+      "concept_id": "c_0219",
+      "expansion_priority": 0.9083333333333334
+    },
+    {
+      "concept_id": "c_0233",
+      "expansion_priority": 0.9083333333333334
+    },
+    {
+      "concept_id": "c_0240",
+      "expansion_priority": 0.9083333333333334
+    },
+    {
+      "concept_id": "c_0243",
+      "expansion_priority": 0.9083333333333334
+    },
+    {
+      "concept_id": "c_0266",
+      "expansion_priority": 0.9083333333333334
+    },
+    {
+      "concept_id": "c_0267",
+      "expansion_priority": 0.9083333333333334
+    },
+    {
+      "concept_id": "c_0270",
+      "expansion_priority": 0.9083333333333334
+    },
+    {
+      "concept_id": "c_0275",
+      "expansion_priority": 0.9083333333333334
+    },
+    {
+      "concept_id": "c_0277",
+      "expansion_priority": 0.9083333333333334
+    },
+    {
+      "concept_id": "c_0279",
+      "expansion_priority": 0.9083333333333334
+    },
+    {
+      "concept_id": "c_0280",
+      "expansion_priority": 0.9083333333333334
+    },
+    {
+      "concept_id": "c_0281",
+      "expansion_priority": 0.9083333333333334
+    },
+    {
+      "concept_id": "c_0282",
+      "expansion_priority": 0.9083333333333334
+    },
+    {
+      "concept_id": "c_0284",
+      "expansion_priority": 0.9083333333333334
+    },
+    {
+      "concept_id": "c_0288",
+      "expansion_priority": 0.9083333333333334
+    },
+    {
+      "concept_id": "c_0312",
+      "expansion_priority": 0.9083333333333334
+    },
+    {
+      "concept_id": "c_0314",
+      "expansion_priority": 0.9083333333333334
+    },
+    {
+      "concept_id": "c_0316",
+      "expansion_priority": 0.9083333333333334
+    },
+    {
+      "concept_id": "c_0338",
+      "expansion_priority": 0.9083333333333334
+    },
+    {
+      "concept_id": "c_0345",
+      "expansion_priority": 0.9083333333333334
+    },
+    {
+      "concept_id": "c_0355",
+      "expansion_priority": 0.9083333333333334
+    },
+    {
+      "concept_id": "c_0362",
+      "expansion_priority": 0.9083333333333334
+    },
+    {
+      "concept_id": "c_0365",
+      "expansion_priority": 0.9083333333333334
+    },
+    {
+      "concept_id": "c_0366",
+      "expansion_priority": 0.9083333333333334
+    },
+    {
+      "concept_id": "c_0377",
+      "expansion_priority": 0.9083333333333334
+    },
+    {
+      "concept_id": "c_0378",
+      "expansion_priority": 0.9083333333333334
+    },
+    {
+      "concept_id": "c_0379",
+      "expansion_priority": 0.9083333333333334
+    },
+    {
+      "concept_id": "c_0384",
+      "expansion_priority": 0.9083333333333334
+    },
+    {
+      "concept_id": "c_0388",
+      "expansion_priority": 0.9083333333333334
+    },
+    {
+      "concept_id": "c_0389",
+      "expansion_priority": 0.9083333333333334
+    },
+    {
+      "concept_id": "c_0409",
+      "expansion_priority": 0.9083333333333334
+    },
+    {
+      "concept_id": "c_0410",
+      "expansion_priority": 0.9083333333333334
+    },
+    {
+      "concept_id": "c_0411",
+      "expansion_priority": 0.9083333333333334
+    },
+    {
+      "concept_id": "c_0414",
+      "expansion_priority": 0.9083333333333334
+    },
+    {
+      "concept_id": "c_0415",
+      "expansion_priority": 0.9083333333333334
+    },
+    {
+      "concept_id": "c_0417",
+      "expansion_priority": 0.9083333333333334
+    },
+    {
+      "concept_id": "c_0425",
+      "expansion_priority": 0.9083333333333334
+    },
+    {
+      "concept_id": "c_0452",
+      "expansion_priority": 0.9083333333333334
+    },
+    {
+      "concept_id": "c_0454",
+      "expansion_priority": 0.9083333333333334
+    },
+    {
+      "concept_id": "c_0459",
+      "expansion_priority": 0.9083333333333334
+    },
+    {
+      "concept_id": "c_0461",
+      "expansion_priority": 0.9083333333333334
+    },
+    {
+      "concept_id": "c_0463",
+      "expansion_priority": 0.9083333333333334
+    },
+    {
+      "concept_id": "c_0467",
+      "expansion_priority": 0.9083333333333334
+    },
+    {
+      "concept_id": "c_0490",
+      "expansion_priority": 0.9083333333333334
+    },
+    {
+      "concept_id": "c_0498",
+      "expansion_priority": 0.9083333333333334
+    },
+    {
+      "concept_id": "c_0499",
+      "expansion_priority": 0.9083333333333334
+    },
+    {
+      "concept_id": "c_0500",
+      "expansion_priority": 0.9083333333333334
+    },
+    {
+      "concept_id": "c_0501",
+      "expansion_priority": 0.9083333333333334
+    },
+    {
+      "concept_id": "c_0504",
+      "expansion_priority": 0.9083333333333334
+    },
+    {
+      "concept_id": "c_0511",
+      "expansion_priority": 0.9083333333333334
+    },
+    {
+      "concept_id": "c_0514",
+      "expansion_priority": 0.9083333333333334
+    },
+    {
+      "concept_id": "c_0518",
+      "expansion_priority": 0.9083333333333334
+    },
+    {
+      "concept_id": "c_0520",
+      "expansion_priority": 0.9083333333333334
+    },
+    {
+      "concept_id": "c_0533",
+      "expansion_priority": 0.9083333333333334
+    },
+    {
+      "concept_id": "c_0543",
+      "expansion_priority": 0.9083333333333334
+    },
+    {
+      "concept_id": "c_0547",
+      "expansion_priority": 0.9083333333333334
+    },
+    {
+      "concept_id": "c_0549",
+      "expansion_priority": 0.9083333333333334
+    },
+    {
+      "concept_id": "c_0571",
+      "expansion_priority": 0.9083333333333334
+    },
+    {
+      "concept_id": "c_0574",
+      "expansion_priority": 0.9083333333333334
+    },
+    {
+      "concept_id": "c_0584",
+      "expansion_priority": 0.9083333333333334
+    },
+    {
+      "concept_id": "c_0585",
+      "expansion_priority": 0.9083333333333334
+    },
+    {
+      "concept_id": "c_0586",
+      "expansion_priority": 0.9083333333333334
+    },
+    {
+      "concept_id": "c_0593",
+      "expansion_priority": 0.9083333333333334
+    },
+    {
+      "concept_id": "c_0601",
+      "expansion_priority": 0.9083333333333334
+    },
+    {
+      "concept_id": "c_0608",
+      "expansion_priority": 0.9083333333333334
+    },
+    {
+      "concept_id": "c_0609",
+      "expansion_priority": 0.9083333333333334
+    },
+    {
+      "concept_id": "c_0610",
+      "expansion_priority": 0.9083333333333334
+    },
+    {
+      "concept_id": "c_0618",
+      "expansion_priority": 0.9083333333333334
+    },
+    {
+      "concept_id": "c_0620",
+      "expansion_priority": 0.9083333333333334
+    },
+    {
+      "concept_id": "c_0640",
+      "expansion_priority": 0.9083333333333334
+    },
+    {
+      "concept_id": "c_0644",
+      "expansion_priority": 0.9083333333333334
+    },
+    {
+      "concept_id": "c_0646",
+      "expansion_priority": 0.9083333333333334
+    },
+    {
+      "concept_id": "c_0656",
+      "expansion_priority": 0.9083333333333334
+    },
+    {
+      "concept_id": "c_0661",
+      "expansion_priority": 0.9083333333333334
+    },
+    {
+      "concept_id": "c_0662",
+      "expansion_priority": 0.9083333333333334
+    },
+    {
+      "concept_id": "c_0663",
+      "expansion_priority": 0.9083333333333334
+    },
+    {
+      "concept_id": "c_0668",
+      "expansion_priority": 0.9083333333333334
+    },
+    {
+      "concept_id": "c_0670",
+      "expansion_priority": 0.9083333333333334
+    },
+    {
+      "concept_id": "c_0671",
+      "expansion_priority": 0.9083333333333334
+    },
+    {
+      "concept_id": "c_0672",
+      "expansion_priority": 0.9083333333333334
+    },
+    {
+      "concept_id": "c_0705",
+      "expansion_priority": 0.9083333333333334
+    },
+    {
+      "concept_id": "c_0714",
+      "expansion_priority": 0.9083333333333334
+    },
+    {
+      "concept_id": "c_0729",
+      "expansion_priority": 0.9083333333333334
+    },
+    {
+      "concept_id": "c_0731",
+      "expansion_priority": 0.9083333333333334
+    },
+    {
+      "concept_id": "c_0733",
+      "expansion_priority": 0.9083333333333334
+    },
+    {
+      "concept_id": "c_0744",
+      "expansion_priority": 0.9083333333333334
+    },
+    {
+      "concept_id": "c_0745",
+      "expansion_priority": 0.9083333333333334
+    },
+    {
+      "concept_id": "c_0746",
+      "expansion_priority": 0.9083333333333334
+    },
+    {
+      "concept_id": "c_0748",
+      "expansion_priority": 0.9083333333333334
+    },
+    {
+      "concept_id": "c_0749",
+      "expansion_priority": 0.9083333333333334
+    },
+    {
+      "concept_id": "c_0756",
+      "expansion_priority": 0.9083333333333334
+    },
+    {
+      "concept_id": "c_0760",
+      "expansion_priority": 0.9083333333333334
+    },
+    {
+      "concept_id": "c_0797",
+      "expansion_priority": 0.9083333333333334
+    },
+    {
+      "concept_id": "c_0799",
+      "expansion_priority": 0.9083333333333334
+    },
+    {
+      "concept_id": "c_0803",
+      "expansion_priority": 0.9083333333333334
+    },
+    {
+      "concept_id": "c_0806",
+      "expansion_priority": 0.9083333333333334
+    },
+    {
+      "concept_id": "c_0808",
+      "expansion_priority": 0.9083333333333334
+    },
+    {
+      "concept_id": "c_0810",
+      "expansion_priority": 0.9083333333333334
+    },
+    {
+      "concept_id": "c_0815",
+      "expansion_priority": 0.9083333333333334
+    },
+    {
+      "concept_id": "c_0817",
+      "expansion_priority": 0.9083333333333334
+    },
+    {
+      "concept_id": "c_0822",
+      "expansion_priority": 0.9083333333333334
+    },
+    {
+      "concept_id": "c_0837",
+      "expansion_priority": 0.9083333333333334
+    },
+    {
+      "concept_id": "c_0839",
+      "expansion_priority": 0.9083333333333334
+    },
+    {
+      "concept_id": "c_0840",
+      "expansion_priority": 0.9083333333333334
+    },
+    {
+      "concept_id": "c_0842",
+      "expansion_priority": 0.9083333333333334
+    },
+    {
+      "concept_id": "c_0857",
+      "expansion_priority": 0.9083333333333334
+    },
+    {
+      "concept_id": "c_0858",
+      "expansion_priority": 0.9083333333333334
+    },
+    {
+      "concept_id": "c_0859",
+      "expansion_priority": 0.9083333333333334
+    },
+    {
+      "concept_id": "c_0897",
+      "expansion_priority": 0.9083333333333334
+    },
+    {
+      "concept_id": "c_0904",
+      "expansion_priority": 0.9083333333333334
+    },
+    {
+      "concept_id": "c_0907",
+      "expansion_priority": 0.9083333333333334
+    },
+    {
+      "concept_id": "c_0926",
+      "expansion_priority": 0.9083333333333334
+    },
+    {
+      "concept_id": "c_0934",
+      "expansion_priority": 0.9083333333333334
+    },
+    {
+      "concept_id": "c_0962",
+      "expansion_priority": 0.9083333333333334
+    },
+    {
+      "concept_id": "c_0967",
+      "expansion_priority": 0.9083333333333334
+    },
+    {
+      "concept_id": "c_0998",
+      "expansion_priority": 0.9083333333333334
+    },
+    {
+      "concept_id": "c_0999",
+      "expansion_priority": 0.9083333333333334
+    },
+    {
+      "concept_id": "c_0055",
+      "expansion_priority": 0.8666666666666667
+    },
+    {
+      "concept_id": "c_0067",
+      "expansion_priority": 0.8666666666666667
+    },
+    {
+      "concept_id": "c_0077",
+      "expansion_priority": 0.8666666666666667
+    },
+    {
+      "concept_id": "c_0090",
+      "expansion_priority": 0.8666666666666667
+    },
+    {
+      "concept_id": "c_0091",
+      "expansion_priority": 0.8666666666666667
+    },
+    {
+      "concept_id": "c_0092",
+      "expansion_priority": 0.8666666666666667
+    },
+    {
+      "concept_id": "c_0094",
+      "expansion_priority": 0.8666666666666667
+    },
+    {
+      "concept_id": "c_0100",
+      "expansion_priority": 0.8666666666666667
+    },
+    {
+      "concept_id": "c_0175",
+      "expansion_priority": 0.8666666666666667
+    },
+    {
+      "concept_id": "c_0181",
+      "expansion_priority": 0.8666666666666667
+    },
+    {
+      "concept_id": "c_0198",
+      "expansion_priority": 0.8666666666666667
+    },
+    {
+      "concept_id": "c_0202",
+      "expansion_priority": 0.8666666666666667
+    },
+    {
+      "concept_id": "c_0223",
+      "expansion_priority": 0.8666666666666667
+    },
+    {
+      "concept_id": "c_0235",
+      "expansion_priority": 0.8666666666666667
+    },
+    {
+      "concept_id": "c_0237",
+      "expansion_priority": 0.8666666666666667
+    },
+    {
+      "concept_id": "c_0331",
+      "expansion_priority": 0.8666666666666667
+    },
+    {
+      "concept_id": "c_0334",
+      "expansion_priority": 0.8666666666666667
+    },
+    {
+      "concept_id": "c_0348",
+      "expansion_priority": 0.8666666666666667
+    },
+    {
+      "concept_id": "c_0358",
+      "expansion_priority": 0.8666666666666667
+    },
+    {
+      "concept_id": "c_0372",
+      "expansion_priority": 0.8666666666666667
+    },
+    {
+      "concept_id": "c_0373",
+      "expansion_priority": 0.8666666666666667
+    },
+    {
+      "concept_id": "c_0375",
+      "expansion_priority": 0.8666666666666667
+    },
+    {
+      "concept_id": "c_0380",
+      "expansion_priority": 0.8666666666666667
+    },
+    {
+      "concept_id": "c_0391",
+      "expansion_priority": 0.8666666666666667
+    },
+    {
+      "concept_id": "c_0471",
+      "expansion_priority": 0.8666666666666667
+    },
+    {
+      "concept_id": "c_0489",
+      "expansion_priority": 0.8666666666666667
+    },
+    {
+      "concept_id": "c_0491",
+      "expansion_priority": 0.8666666666666667
+    },
+    {
+      "concept_id": "c_0496",
+      "expansion_priority": 0.8666666666666667
+    },
+    {
+      "concept_id": "c_0508",
+      "expansion_priority": 0.8666666666666667
+    },
+    {
+      "concept_id": "c_0539",
+      "expansion_priority": 0.8666666666666667
+    },
+    {
+      "concept_id": "c_0542",
+      "expansion_priority": 0.8666666666666667
+    },
+    {
+      "concept_id": "c_0551",
+      "expansion_priority": 0.8666666666666667
+    },
+    {
+      "concept_id": "c_0621",
+      "expansion_priority": 0.8666666666666667
+    },
+    {
+      "concept_id": "c_0625",
+      "expansion_priority": 0.8666666666666667
+    },
+    {
+      "concept_id": "c_0630",
+      "expansion_priority": 0.8666666666666667
+    },
+    {
+      "concept_id": "c_0667",
+      "expansion_priority": 0.8666666666666667
+    },
+    {
+      "concept_id": "c_0673",
+      "expansion_priority": 0.8666666666666667
+    },
+    {
+      "concept_id": "c_0702",
+      "expansion_priority": 0.8666666666666667
+    },
+    {
+      "concept_id": "c_0734",
+      "expansion_priority": 0.8666666666666667
+    },
+    {
+      "concept_id": "c_0755",
+      "expansion_priority": 0.8666666666666667
+    },
+    {
+      "concept_id": "c_0762",
+      "expansion_priority": 0.8666666666666667
+    },
+    {
+      "concept_id": "c_0796",
+      "expansion_priority": 0.8666666666666667
+    },
+    {
+      "concept_id": "c_0798",
+      "expansion_priority": 0.8666666666666667
+    },
+    {
+      "concept_id": "c_0838",
+      "expansion_priority": 0.8666666666666667
+    },
+    {
+      "concept_id": "c_0071",
+      "expansion_priority": 0.825
+    },
+    {
+      "concept_id": "c_0072",
+      "expansion_priority": 0.825
+    },
+    {
+      "concept_id": "c_0105",
+      "expansion_priority": 0.825
+    },
+    {
+      "concept_id": "c_0108",
+      "expansion_priority": 0.825
+    },
+    {
+      "concept_id": "c_0115",
+      "expansion_priority": 0.825
+    },
+    {
+      "concept_id": "c_0120",
+      "expansion_priority": 0.825
+    },
+    {
+      "concept_id": "c_0287",
+      "expansion_priority": 0.825
+    },
+    {
+      "concept_id": "c_0289",
+      "expansion_priority": 0.825
+    },
+    {
+      "concept_id": "c_0346",
+      "expansion_priority": 0.825
+    },
+    {
+      "concept_id": "c_0347",
+      "expansion_priority": 0.825
+    },
+    {
+      "concept_id": "c_0416",
+      "expansion_priority": 0.825
+    },
+    {
+      "concept_id": "c_0512",
+      "expansion_priority": 0.825
+    },
+    {
+      "concept_id": "c_0519",
+      "expansion_priority": 0.825
+    },
+    {
+      "concept_id": "c_0527",
+      "expansion_priority": 0.825
+    },
+    {
+      "concept_id": "c_0801",
+      "expansion_priority": 0.825
+    },
+    {
+      "concept_id": "c_0825",
+      "expansion_priority": 0.825
+    },
+    {
+      "concept_id": "c_0349",
+      "expansion_priority": 0.7833333333333333
+    },
+    {
+      "concept_id": "c_0350",
+      "expansion_priority": 0.7833333333333333
+    },
+    {
+      "concept_id": "c_0523",
+      "expansion_priority": 0.7833333333333333
+    },
+    {
+      "concept_id": "c_0577",
+      "expansion_priority": 0.7833333333333333
+    },
+    {
+      "concept_id": "c_0046",
+      "expansion_priority": 0.7416666666666668
+    },
+    {
+      "concept_id": "c_0509",
+      "expansion_priority": 0.7416666666666668
+    },
+    {
+      "concept_id": "c_0015",
+      "expansion_priority": 0.6
+    },
+    {
+      "concept_id": "c_0048",
+      "expansion_priority": 0.5833333333333334
+    },
+    {
+      "concept_id": "c_0367",
+      "expansion_priority": 0.5833333333333334
+    },
+    {
+      "concept_id": "c_0011",
+      "expansion_priority": 0.5666666666666667
+    },
+    {
+      "concept_id": "c_0013",
+      "expansion_priority": 0.5666666666666667
+    },
+    {
+      "concept_id": "c_0014",
+      "expansion_priority": 0.5666666666666667
+    },
+    {
+      "concept_id": "c_0016",
+      "expansion_priority": 0.5666666666666667
+    },
+    {
+      "concept_id": "c_0017",
+      "expansion_priority": 0.5666666666666667
+    },
+    {
+      "concept_id": "c_0018",
+      "expansion_priority": 0.5666666666666667
+    },
+    {
+      "concept_id": "c_0019",
+      "expansion_priority": 0.5666666666666667
+    },
+    {
+      "concept_id": "c_0020",
+      "expansion_priority": 0.5666666666666667
+    },
+    {
+      "concept_id": "c_0021",
+      "expansion_priority": 0.5666666666666667
+    },
+    {
+      "concept_id": "c_0044",
+      "expansion_priority": 0.5666666666666667
+    },
+    {
+      "concept_id": "c_0051",
+      "expansion_priority": 0.5666666666666667
+    },
+    {
+      "concept_id": "c_0060",
+      "expansion_priority": 0.5666666666666667
+    },
+    {
+      "concept_id": "c_0086",
+      "expansion_priority": 0.5666666666666667
+    },
+    {
+      "concept_id": "c_0343",
+      "expansion_priority": 0.5666666666666667
+    },
+    {
+      "concept_id": "c_0009",
+      "expansion_priority": 0.55
+    },
+    {
+      "concept_id": "c_0012",
+      "expansion_priority": 0.55
+    },
+    {
+      "concept_id": "c_0022",
+      "expansion_priority": 0.55
+    },
+    {
+      "concept_id": "c_0023",
+      "expansion_priority": 0.55
+    },
+    {
+      "concept_id": "c_0025",
+      "expansion_priority": 0.55
+    },
+    {
+      "concept_id": "c_0031",
+      "expansion_priority": 0.55
+    },
+    {
+      "concept_id": "c_0040",
+      "expansion_priority": 0.55
+    },
+    {
+      "concept_id": "c_0058",
+      "expansion_priority": 0.55
+    },
+    {
+      "concept_id": "c_0073",
+      "expansion_priority": 0.55
+    },
+    {
+      "concept_id": "c_0075",
+      "expansion_priority": 0.55
+    },
+    {
+      "concept_id": "c_0080",
+      "expansion_priority": 0.55
+    },
+    {
+      "concept_id": "c_0102",
+      "expansion_priority": 0.55
+    },
+    {
+      "concept_id": "c_0104",
+      "expansion_priority": 0.55
+    },
+    {
+      "concept_id": "c_0113",
+      "expansion_priority": 0.55
+    },
+    {
+      "concept_id": "c_0164",
+      "expansion_priority": 0.55
+    },
+    {
+      "concept_id": "c_0200",
+      "expansion_priority": 0.55
+    },
+    {
+      "concept_id": "c_0203",
+      "expansion_priority": 0.55
+    },
+    {
+      "concept_id": "c_0226",
+      "expansion_priority": 0.55
+    },
+    {
+      "concept_id": "c_0298",
+      "expansion_priority": 0.55
+    },
+    {
+      "concept_id": "c_0368",
+      "expansion_priority": 0.55
+    },
+    {
+      "concept_id": "c_0006",
+      "expansion_priority": 0.5333333333333333
+    },
+    {
+      "concept_id": "c_0008",
+      "expansion_priority": 0.5333333333333333
+    },
+    {
+      "concept_id": "c_0024",
+      "expansion_priority": 0.5333333333333333
+    },
+    {
+      "concept_id": "c_0028",
+      "expansion_priority": 0.5333333333333333
+    },
+    {
+      "concept_id": "c_0029",
+      "expansion_priority": 0.5333333333333333
+    },
+    {
+      "concept_id": "c_0030",
+      "expansion_priority": 0.5333333333333333
+    },
+    {
+      "concept_id": "c_0032",
+      "expansion_priority": 0.5333333333333333
+    },
+    {
+      "concept_id": "c_0033",
+      "expansion_priority": 0.5333333333333333
+    },
+    {
+      "concept_id": "c_0034",
+      "expansion_priority": 0.5333333333333333
+    },
+    {
+      "concept_id": "c_0035",
+      "expansion_priority": 0.5333333333333333
+    },
+    {
+      "concept_id": "c_0036",
+      "expansion_priority": 0.5333333333333333
+    },
+    {
+      "concept_id": "c_0038",
+      "expansion_priority": 0.5333333333333333
+    },
+    {
+      "concept_id": "c_0039",
+      "expansion_priority": 0.5333333333333333
+    },
+    {
+      "concept_id": "c_0045",
+      "expansion_priority": 0.5333333333333333
+    },
+    {
+      "concept_id": "c_0052",
+      "expansion_priority": 0.5333333333333333
+    },
+    {
+      "concept_id": "c_0084",
+      "expansion_priority": 0.5333333333333333
+    },
+    {
+      "concept_id": "c_0107",
+      "expansion_priority": 0.5333333333333333
+    },
+    {
+      "concept_id": "c_0109",
+      "expansion_priority": 0.5333333333333333
+    },
+    {
+      "concept_id": "c_0159",
+      "expansion_priority": 0.5333333333333333
+    },
+    {
+      "concept_id": "c_0228",
+      "expansion_priority": 0.5333333333333333
+    },
+    {
+      "concept_id": "c_0272",
+      "expansion_priority": 0.5333333333333333
+    },
+    {
+      "concept_id": "c_0302",
+      "expansion_priority": 0.5333333333333333
+    },
+    {
+      "concept_id": "c_0303",
+      "expansion_priority": 0.5333333333333333
+    },
+    {
+      "concept_id": "c_0304",
+      "expansion_priority": 0.5333333333333333
+    },
+    {
+      "concept_id": "c_0319",
+      "expansion_priority": 0.5333333333333333
+    },
+    {
+      "concept_id": "c_0320",
+      "expansion_priority": 0.5333333333333333
+    },
+    {
+      "concept_id": "c_0321",
+      "expansion_priority": 0.5333333333333333
+    },
+    {
+      "concept_id": "c_0322",
+      "expansion_priority": 0.5333333333333333
+    },
+    {
+      "concept_id": "c_0324",
+      "expansion_priority": 0.5333333333333333
+    },
+    {
+      "concept_id": "c_0325",
+      "expansion_priority": 0.5333333333333333
+    },
+    {
+      "concept_id": "c_0326",
+      "expansion_priority": 0.5333333333333333
+    },
+    {
+      "concept_id": "c_0339",
+      "expansion_priority": 0.5333333333333333
+    },
+    {
+      "concept_id": "c_0370",
+      "expansion_priority": 0.5333333333333333
+    },
+    {
+      "concept_id": "c_0371",
+      "expansion_priority": 0.5333333333333333
+    },
+    {
+      "concept_id": "c_0374",
+      "expansion_priority": 0.5333333333333333
+    },
+    {
+      "concept_id": "c_0387",
+      "expansion_priority": 0.5333333333333333
+    },
+    {
+      "concept_id": "c_0392",
+      "expansion_priority": 0.5333333333333333
+    },
+    {
+      "concept_id": "c_0516",
+      "expansion_priority": 0.5333333333333333
+    },
+    {
+      "concept_id": "c_0004",
+      "expansion_priority": 0.5166666666666666
+    },
+    {
+      "concept_id": "c_0005",
+      "expansion_priority": 0.5166666666666666
+    },
+    {
+      "concept_id": "c_0010",
+      "expansion_priority": 0.5166666666666666
+    },
+    {
+      "concept_id": "c_0027",
+      "expansion_priority": 0.5166666666666666
+    },
+    {
+      "concept_id": "c_0042",
+      "expansion_priority": 0.5166666666666666
+    },
+    {
+      "concept_id": "c_0065",
+      "expansion_priority": 0.5166666666666666
+    },
+    {
+      "concept_id": "c_0069",
+      "expansion_priority": 0.5166666666666666
+    },
+    {
+      "concept_id": "c_0078",
+      "expansion_priority": 0.5166666666666666
+    },
+    {
+      "concept_id": "c_0085",
+      "expansion_priority": 0.5166666666666666
+    },
+    {
+      "concept_id": "c_0273",
+      "expansion_priority": 0.5166666666666666
+    },
+    {
+      "concept_id": "c_0297",
+      "expansion_priority": 0.5166666666666666
+    },
+    {
+      "concept_id": "c_0299",
+      "expansion_priority": 0.5166666666666666
+    },
+    {
+      "concept_id": "c_0352",
+      "expansion_priority": 0.5166666666666666
+    },
+    {
+      "concept_id": "c_0353",
+      "expansion_priority": 0.5166666666666666
+    },
+    {
+      "concept_id": "c_0354",
+      "expansion_priority": 0.5166666666666666
+    },
+    {
+      "concept_id": "c_0381",
+      "expansion_priority": 0.5166666666666666
+    },
+    {
+      "concept_id": "c_0390",
+      "expansion_priority": 0.5166666666666666
+    },
+    {
+      "concept_id": "c_0510",
+      "expansion_priority": 0.5166666666666666
+    },
+    {
+      "concept_id": "c_0001",
+      "expansion_priority": 0.5
+    },
+    {
+      "concept_id": "c_0002",
+      "expansion_priority": 0.5
+    },
+    {
+      "concept_id": "c_0026",
+      "expansion_priority": 0.5
+    },
+    {
+      "concept_id": "c_0066",
+      "expansion_priority": 0.5
+    },
+    {
+      "concept_id": "c_0135",
+      "expansion_priority": 0.5
+    },
+    {
+      "concept_id": "c_0382",
+      "expansion_priority": 0.5
+    },
+    {
+      "concept_id": "c_0037",
+      "expansion_priority": 0.4833333333333334
+    },
+    {
+      "concept_id": "c_0043",
+      "expansion_priority": 0.4833333333333334
+    },
+    {
+      "concept_id": "c_0074",
+      "expansion_priority": 0.4833333333333334
+    },
+    {
+      "concept_id": "c_0218",
+      "expansion_priority": 0.4833333333333334
+    },
+    {
+      "concept_id": "c_0003",
+      "expansion_priority": 0.4666666666666667
+    },
+    {
+      "concept_id": "c_0007",
+      "expansion_priority": 0.44999999999999996
+    },
+    {
+      "concept_id": "c_0300",
+      "expansion_priority": 0.43333333333333335
+    },
+    {
+      "concept_id": "c_0118",
+      "expansion_priority": 0.41666666666666663
+    }
+  ],
+  "sync_state": {
+    "manifest_version": null,
+    "ready": false
+  }
+}

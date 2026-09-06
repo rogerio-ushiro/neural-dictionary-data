@@ -1,0 +1,33 @@
+{
+  "pack": "graph.a0",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0117",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Il luogo che si vuole raggiungere alla fine di un viaggio; al figurato, lo scopo verso cui si tende.",
+          "example": "La meta della gita era un lago di montagna."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0773",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Il potere riconosciuto di comandare e di farsi obbedire.",
+          "example": "L'insegnante impose la sua autorità con calma."
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "pack": "graph.5d",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0200",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "La parte del tronco che resta nel terreno quando si taglia un albero; al figurato, il capostipite di una famiglia.",
+          "example": "Si sedette su un ceppo a riposare."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0309",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Qualsiasi mezzo che serve a trasportare persone o cose su strada, rotaia, acqua o aria.",
+          "example": "Il veicolo è rimasto in panne sulla corsia di emergenza."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0550",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Il fissare una nave in un punto con l'ancora perché non si sposti.",
+          "example": "Il fondale sabbioso offriva un buon ancoraggio."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0859",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Rivestimento corneo che protegge il piede di cavalli, buoi e altri animali.",
+          "example": "Il maniscalco ferrava gli zoccoli del cavallo."
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "pack": "graph.b8",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0261",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "L'insieme delle parole scritte che compongono un'opera; anche il contenuto rispetto alla forma.",
+          "example": "Ha corretto il testo prima di consegnarlo all'editore."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0328",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Legame di affetto e fiducia tra persone che si vogliono bene senza legami di parentela.",
+          "example": "La loro amicizia dura da quando erano bambini."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0531",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Grossa e minacciosa onda del mare in burrasca.",
+          "example": "I marosi facevano beccheggiare paurosamente il peschereccio."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0878",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Ambiente chiuso di un edificio adibito a un uso; anche un esercizio pubblico dove si beve e si balla.",
+          "example": "Hanno affittato il locale al pianterreno per aprirci un bar."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0892",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Filamento sottile di materiale animale, vegetale o artificiale, di cui sono fatti tessuti e corde.",
+          "example": "La corda è intrecciata con fibra vegetale."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0917",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Ciò che si ottiene alla fine di un'azione o di un calcolo.",
+          "example": "Il risultato dell'esame è arrivato per posta."
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "pack": "graph.48",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0184",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Luogo dove si è ospitati o si vive temporaneamente.",
+          "example": "L'alloggio era piccolo ma pulito e vicino al centro."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0258",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Materia di studio; anche la capacità di rispettare regole e ordine.",
+          "example": "La matematica è la disciplina che preferisce."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0399",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Linea di roccia frastagliata che corre lungo la sommità di un monte; anche il ciuffo di penne sul capo di certi uccelli.",
+          "example": "Camminarono lungo la cresta con il vuoto da entrambe le parti."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0401",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Terreno che si eleva rispetto a quello circostante, meno di una montagna.",
+          "example": "La cascina sorge su un'altura ventosa."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0496",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Sequenza di note che, cantata o suonata, forma un motivo riconoscibile e piacevole.",
+          "example": "Fischiettava una melodia allegra andando a lavoro."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0508",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "L'altezza e il colore di un suono o di una voce; anche l'atteggiamento che traspare dal modo di parlare.",
+          "example": "Rispose con un tono seccato."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0610",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Qualità di ciò che brilla ed emette molta luce.",
+          "example": "La brillantezza dello smalto durò tutta la stagione."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0665",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Un tornare a vivere e a fiorire dopo un periodo di declino.",
+          "example": "La primavera è il simbolo della rinascita della natura."
+        }
+      }
+    }
+  ]
+}

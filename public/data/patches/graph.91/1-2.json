@@ -1,0 +1,59 @@
+{
+  "pack": "graph.91",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0136",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Tagliando che dà diritto a salire su un mezzo o a entrare in un luogo.",
+          "example": "Ha timbrato il biglietto prima di salire sul treno."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0143",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Involucro rigido che protegge un oggetto delicato quando non si usa.",
+          "example": "Ripose gli occhiali nella custodia."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0752",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Gruppo di individui con caratteri fisici comuni tramandati; anche una varietà di animali allevati.",
+          "example": "Alleva cani di razza da vent'anni."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0929",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Goccia di liquido salato che scende dagli occhi per pianto o irritazione.",
+          "example": "Una lacrima le rigò la guancia mentre salutava."
+        }
+      }
+    }
+  ]
+}

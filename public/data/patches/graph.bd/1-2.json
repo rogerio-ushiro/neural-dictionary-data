@@ -1,0 +1,59 @@
+{
+  "pack": "graph.bd",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0266",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Breve racconto di fantasia, più corto di un romanzo.",
+          "example": "Ha pubblicato una raccolta di novelle ambientate al mare."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0536",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "La misura di quanto una cosa si estende da un capo all'altro; per le onde, la distanza tra due creste successive.",
+          "example": "Ha misurato la lunghezza del tavolo con il metro."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0895",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Pelo trasformato in punta rigida e pungente, come quello del riccio.",
+          "example": "Il riccio drizzò gli aculei sentendo il cane."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0910",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "L'insieme delle foglie di una pianta o di un bosco.",
+          "example": "Il vento faceva stormire il fogliame dei pioppi."
+        }
+      }
+    }
+  ]
+}

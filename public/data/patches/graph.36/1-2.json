@@ -1,0 +1,85 @@
+{
+  "pack": "graph.36",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0159",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Fascia di terreno preparata perché ci passino persone e veicoli tra due luoghi; al figurato, la via da seguire per raggiungere uno scopo.",
+          "example": "La strada per il paese è stretta e piena di curve."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0296",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Scherno pubblico che espone qualcuno al ridicolo.",
+          "example": "Fu esposto al ludibrio dei compagni per quell'errore."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0421",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Cibo preparato e servito a tavola.",
+          "example": "Sulla mensa fumavano vivande di ogni genere."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0645",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Lunga assenza di pioggia che secca i campi e prosciuga i corsi d'acqua.",
+          "example": "La siccità di quell'estate rovinò tutto il raccolto."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0937",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Il letto scavato dall'acqua in cui scorre un fiume.",
+          "example": "In estate l'alveo del torrente resta quasi asciutto."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0942",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Rendere leggermente umido.",
+          "example": "Inumidì un panno per pulire lo schermo."
+        }
+      }
+    }
+  ]
+}

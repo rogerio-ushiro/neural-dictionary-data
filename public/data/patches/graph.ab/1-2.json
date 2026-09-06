@@ -1,0 +1,33 @@
+{
+  "pack": "graph.ab",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0013",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Il gruppo di persone unite da vincoli di sangue o di matrimonio che di solito vivono insieme.",
+          "example": "La domenica pranza tutta la famiglia dai nonni."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0178",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Suddivisione amministrativa di uno Stato, intermedia tra comune e regione.",
+          "example": "Il capoluogo di provincia dista trenta chilometri."
+        }
+      }
+    }
+  ]
+}

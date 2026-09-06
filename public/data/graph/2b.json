@@ -1,0 +1,162 @@
+{
+  "shard": "2b",
+  "concepts": {
+    "c_0196": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Le persone legate dallo stesso sangue.",
+        "example": "Solo i consanguinei più stretti furono ammessi alla lettura del testamento."
+      }
+    },
+    "c_0475": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Preparazione dolce, densa e morbida, a base di latte, uova o frutta.",
+        "example": "Ha spalmato la crema di nocciole sul pane."
+      }
+    },
+    "c_0581": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Vortice di vento che solleva polvere e detriti girando su se stesso.",
+        "example": "Un turbine di foglie si alzò in mezzo alla strada."
+      }
+    },
+    "c_0602": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Slancio appassionato e intenso con cui si fa o si desidera qualcosa.",
+        "example": "Difese la sua tesi con ardore."
+      }
+    },
+    "c_0970": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Il passaggio di un liquido allo stato solido per effetto del freddo.",
+        "example": "Il congelamento dell'acqua nelle crepe spacca la roccia."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0013",
+      "concept_b": "c_0196",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0036",
+      "concept_b": "c_0475",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0052",
+      "concept_b": "c_0581",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0065",
+      "concept_b": "c_0602",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0382",
+      "concept_b": "c_0970",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    }
+  ],
+  "word_senses": {
+    "s_0196": {
+      "lexeme_id": "w_0196",
+      "lexeme_kind": "word",
+      "concept_id": "c_0196",
+      "is_primary": true
+    },
+    "s_0475": {
+      "lexeme_id": "w_0475",
+      "lexeme_kind": "word",
+      "concept_id": "c_0475",
+      "is_primary": true
+    },
+    "s_0581": {
+      "lexeme_id": "w_0581",
+      "lexeme_kind": "word",
+      "concept_id": "c_0581",
+      "is_primary": true
+    },
+    "s_0602": {
+      "lexeme_id": "w_0602",
+      "lexeme_kind": "word",
+      "concept_id": "c_0602",
+      "is_primary": true
+    },
+    "s_0970": {
+      "lexeme_id": "w_0970",
+      "lexeme_kind": "word",
+      "concept_id": "c_0970",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0196": {
+      "display_form": "consanguinei",
+      "normalized_form": "consanguinei",
+      "pos": null
+    },
+    "w_0475": {
+      "display_form": "crema",
+      "normalized_form": "crema",
+      "pos": null
+    },
+    "w_0581": {
+      "display_form": "turbine",
+      "normalized_form": "turbine",
+      "pos": null
+    },
+    "w_0602": {
+      "display_form": "ardore",
+      "normalized_form": "ardore",
+      "pos": null
+    },
+    "w_0970": {
+      "display_form": "congelamento",
+      "normalized_form": "congelamento",
+      "pos": null
+    }
+  },
+  "expressions": {}
+}

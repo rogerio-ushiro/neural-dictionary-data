@@ -1,0 +1,72 @@
+{
+  "pack": "graph.2e",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0216",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Chi non ha ancora raggiunto l'età adulta secondo la legge.",
+          "example": "Ai minori è vietata la vendita di alcolici."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0339",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Essere vivente che mette radici nel terreno, cresce verso la luce e non si sposta.",
+          "example": "Ha annaffiato tutte le piante prima di partire."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0546",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "La linea che segna il limite di uno Stato; al figurato, la zona di passaggio tra due mondi.",
+          "example": "Alla frontiera controllarono i documenti a tutti."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0869",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Robusto artiglio sporgente dalla zampa di alcuni uccelli, usato per combattere.",
+          "example": "Il gallo colpì il rivale con lo sperone."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0887",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "I peli che crescono sul mento e sulle guance dell'uomo.",
+          "example": "Si è fatto crescere la barba durante l'inverno."
+        }
+      }
+    }
+  ]
+}

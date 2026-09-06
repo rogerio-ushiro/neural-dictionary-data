@@ -1,0 +1,72 @@
+{
+  "pack": "graph.50",
+  "from": 3,
+  "to": 4,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0078",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Assenza di luce; al figurato, ignoranza o mistero in cui non si vede chiaro.",
+          "example": "Nell'oscurità della cantina cercò a tentoni l'interruttore."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0104",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Attività piacevole che serve a distendersi e a recuperare le forze dopo il lavoro.",
+          "example": "Il cortile della scuola è riservato alla ricreazione."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0481",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "L'atto di festeggiare pubblicamente un avvenimento importante.",
+          "example": "La celebrazione dell'anniversario si tenne in municipio."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0715",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Studio delle forze che mettono in moto i corpi; al figurato, il modo in cui si sviluppano e si concatenano i fatti di una vicenda.",
+          "example": "Gli storici analizzano la dinamica degli avvenimenti."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0760",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "L'aspetto esteriore con cui qualcuno o qualcosa si presenta, spesso ingannevole.",
+          "example": "Sotto quella sembianza mite si nascondeva un carattere duro."
+        }
+      }
+    }
+  ]
+}

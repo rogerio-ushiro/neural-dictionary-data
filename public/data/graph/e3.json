@@ -1,0 +1,202 @@
+{
+  "shard": "e3",
+  "concepts": {
+    "c_0079": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Ciascuno dei quattro periodi in cui si divide l'anno secondo il clima.",
+        "example": "L'autunno è la sua stagione preferita."
+      }
+    },
+    "c_0105": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Breve interruzione di un'attività per riposarsi o cambiare occupazione.",
+        "example": "Facciamo una pausa di dieci minuti e poi riprendiamo."
+      }
+    },
+    "c_0480": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Alimento dolce e scuro ricavato dai semi del cacao, base di dolci e bevande.",
+        "example": "Sciolse un quadretto di cioccolato fondente nel latte."
+      }
+    },
+    "c_0714": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Lo scorrere continuo e ordinato di un liquido, un gas o anche di persone e informazioni.",
+        "example": "Un flusso ininterrotto di turisti attraversava la piazza."
+      }
+    },
+    "c_0761": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "L'aspetto esteriore di una persona vista da lontano o nell'ombra.",
+        "example": "Nella nebbia si intravedeva una figura ferma sul ponte."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0004",
+      "concept_b": "c_0079",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0006",
+      "concept_b": "c_0105",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0036",
+      "concept_b": "c_0480",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0085",
+      "concept_b": "c_0105",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0104",
+      "concept_b": "c_0105",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0105",
+      "concept_b": "c_0516",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0118",
+      "concept_b": "c_0714",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0218",
+      "concept_b": "c_0761",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0374",
+      "concept_b": "c_0714",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    }
+  ],
+  "word_senses": {
+    "s_0079": {
+      "lexeme_id": "w_0079",
+      "lexeme_kind": "word",
+      "concept_id": "c_0079",
+      "is_primary": true
+    },
+    "s_0105": {
+      "lexeme_id": "w_0105",
+      "lexeme_kind": "word",
+      "concept_id": "c_0105",
+      "is_primary": true
+    },
+    "s_0480": {
+      "lexeme_id": "w_0480",
+      "lexeme_kind": "word",
+      "concept_id": "c_0480",
+      "is_primary": true
+    },
+    "s_0714": {
+      "lexeme_id": "w_0714",
+      "lexeme_kind": "word",
+      "concept_id": "c_0714",
+      "is_primary": true
+    },
+    "s_0761": {
+      "lexeme_id": "w_0761",
+      "lexeme_kind": "word",
+      "concept_id": "c_0761",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0079": {
+      "display_form": "stagione",
+      "normalized_form": "stagione",
+      "pos": null
+    },
+    "w_0105": {
+      "display_form": "pausa",
+      "normalized_form": "pausa",
+      "pos": null
+    },
+    "w_0480": {
+      "display_form": "cioccolato",
+      "normalized_form": "cioccolato",
+      "pos": null
+    },
+    "w_0714": {
+      "display_form": "flusso",
+      "normalized_form": "flusso",
+      "pos": null
+    },
+    "w_0761": {
+      "display_form": "figura",
+      "normalized_form": "figura",
+      "pos": null
+    }
+  },
+  "expressions": {}
+}

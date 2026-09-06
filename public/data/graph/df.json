@@ -1,0 +1,282 @@
+{
+  "shard": "df",
+  "concepts": {
+    "c_0246": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Ente pubblico o privato che si occupa di istruzione, ricerca o assistenza.",
+        "example": "Frequenta un istituto tecnico per geometri."
+      }
+    },
+    "c_0479": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Aroma dolce e profumato ricavato da un baccello, usato per insaporire dolci, creme e bevande.",
+        "example": "Ha preparato un budino alla vaniglia per i bambini."
+      }
+    },
+    "c_0516": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Stato di calma assoluta, senza rumori né movimenti né agitazione d'animo.",
+        "example": "Cercava la quiete della campagna per scrivere."
+      }
+    },
+    "c_1010": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "L'insieme delle persone che lavorano a bordo di una nave o di un aereo.",
+        "example": "L'equipaggio si preparò alle manovre di attracco."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0017",
+      "concept_b": "c_0246",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0036",
+      "concept_b": "c_0479",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0039",
+      "concept_b": "c_0516",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0085",
+      "concept_b": "c_0516",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0105",
+      "concept_b": "c_0516",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0345",
+      "concept_b": "c_0516",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0510",
+      "concept_b": "c_0516",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0516",
+      "concept_b": "c_0662",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0516",
+      "concept_b": "c_0663",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0516",
+      "concept_b": "c_0998",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0516",
+      "concept_b": "c_0999",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0516",
+      "concept_b": "c_1001",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0516",
+      "concept_b": "c_1002",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0516",
+      "concept_b": "c_1003",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0516",
+      "concept_b": "c_1004",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0516",
+      "concept_b": "c_1005",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0516",
+      "concept_b": "c_1006",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0516",
+      "concept_b": "c_1007",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0047",
+      "concept_b": "c_1010",
+      "relation_type": "contenuto",
+      "direction_hint": "symmetric",
+      "association_strength": 0.75,
+      "confidence": 0.9,
+      "status": "validated",
+      "revision": 2
+    }
+  ],
+  "word_senses": {
+    "s_0246": {
+      "lexeme_id": "w_0246",
+      "lexeme_kind": "word",
+      "concept_id": "c_0246",
+      "is_primary": true
+    },
+    "s_0479": {
+      "lexeme_id": "w_0479",
+      "lexeme_kind": "word",
+      "concept_id": "c_0479",
+      "is_primary": true
+    },
+    "s_0516": {
+      "lexeme_id": "w_0516",
+      "lexeme_kind": "word",
+      "concept_id": "c_0516",
+      "is_primary": true
+    },
+    "s_1010": {
+      "lexeme_id": "w_1010",
+      "lexeme_kind": "word",
+      "concept_id": "c_1010",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0246": {
+      "display_form": "istituto",
+      "normalized_form": "istituto",
+      "pos": null
+    },
+    "w_0479": {
+      "display_form": "vaniglia",
+      "normalized_form": "vaniglia",
+      "pos": null
+    },
+    "w_0516": {
+      "display_form": "quiete",
+      "normalized_form": "quiete",
+      "pos": null
+    },
+    "w_1010": {
+      "display_form": "equipaggio",
+      "normalized_form": "equipaggio",
+      "pos": "sostantivo"
+    }
+  },
+  "expressions": {}
+}

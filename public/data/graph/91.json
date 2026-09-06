@@ -1,0 +1,132 @@
+{
+  "shard": "91",
+  "concepts": {
+    "c_0136": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Tagliando che dà diritto a salire su un mezzo o a entrare in un luogo.",
+        "example": "Ha timbrato il biglietto prima di salire sul treno."
+      }
+    },
+    "c_0143": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Involucro rigido che protegge un oggetto delicato quando non si usa.",
+        "example": "Ripose gli occhiali nella custodia."
+      }
+    },
+    "c_0752": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Gruppo di individui con caratteri fisici comuni tramandati; anche una varietà di animali allevati.",
+        "example": "Alleva cani di razza da vent'anni."
+      }
+    },
+    "c_0929": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Goccia di liquido salato che scende dagli occhi per pianto o irritazione.",
+        "example": "Una lacrima le rigò la guancia mentre salutava."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0008",
+      "concept_b": "c_0136",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0009",
+      "concept_b": "c_0143",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0203",
+      "concept_b": "c_0752",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0367",
+      "concept_b": "c_0929",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    }
+  ],
+  "word_senses": {
+    "s_0136": {
+      "lexeme_id": "w_0136",
+      "lexeme_kind": "word",
+      "concept_id": "c_0136",
+      "is_primary": true
+    },
+    "s_0143": {
+      "lexeme_id": "w_0143",
+      "lexeme_kind": "word",
+      "concept_id": "c_0143",
+      "is_primary": true
+    },
+    "s_0752": {
+      "lexeme_id": "w_0752",
+      "lexeme_kind": "word",
+      "concept_id": "c_0752",
+      "is_primary": true
+    },
+    "s_0929": {
+      "lexeme_id": "w_0929",
+      "lexeme_kind": "word",
+      "concept_id": "c_0929",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0136": {
+      "display_form": "biglietto",
+      "normalized_form": "biglietto",
+      "pos": null
+    },
+    "w_0143": {
+      "display_form": "custodia",
+      "normalized_form": "custodia",
+      "pos": null
+    },
+    "w_0752": {
+      "display_form": "razza",
+      "normalized_form": "razza",
+      "pos": null
+    },
+    "w_0929": {
+      "display_form": "lacrima",
+      "normalized_form": "lacrima",
+      "pos": null
+    }
+  },
+  "expressions": {}
+}

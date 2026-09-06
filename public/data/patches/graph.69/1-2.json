@@ -1,0 +1,111 @@
+{
+  "pack": "graph.69",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0226",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Il primo antenato di una famiglia o di una stirpe.",
+          "example": "Il ritratto del progenitore campeggiava sopra il camino."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0253",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Scuola di alto livello per lo studio della musica.",
+          "example": "Si è diplomato in violino al conservatorio."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0392",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Ciò che si percepisce con l'udito, prodotto da un corpo che vibra e fa tremare l'aria.",
+          "example": "Nella valle il suono delle campane arrivava attutito."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0503",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Composizione musicale per uno o due strumenti, in più movimenti.",
+          "example": "Suonò una sonata per pianoforte a memoria."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0576",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Strumento con un ago calamitato che indica sempre il nord, usato per orientarsi.",
+          "example": "Senza la bussola si sarebbero persi nella nebbia."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0680",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "L'atto di liberare o liberarsi da un legame, un obbligo o una dipendenza.",
+          "example": "Chiese lo svincolamento anticipato dal contratto."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0965",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Ciò che non ha limiti di spazio o di tempo; al figurato, una quantità sterminata.",
+          "example": "Guardando il mare provava un senso di infinito."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_1001",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Stato di completa tranquillità, senza agitazione né rumore.",
+          "example": "Affrontò la notizia con sorprendente calma."
+        }
+      }
+    }
+  ]
+}

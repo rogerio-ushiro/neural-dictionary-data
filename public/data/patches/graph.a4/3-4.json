@@ -1,0 +1,46 @@
+{
+  "pack": "graph.a4",
+  "from": 3,
+  "to": 4,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0203",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "La successione degli antenati e dei discendenti di una famiglia, soprattutto nobile.",
+          "example": "Si vantava di appartenere a una stirpe di antichi guerrieri."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0553",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Massa di pietra dura e compatta che affiora dal terreno o forma i monti.",
+          "example": "Gli scalatori si aggrapparono a una sporgenza della roccia."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_1020",
+      "concept": {
+        "revision": 2,
+        "region_id": "r_natura",
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Guscio calcareo che protegge molti animali marini e che si raccoglie sulla spiaggia.",
+          "example": "Portava all'orecchio la conchiglia per sentire il mare."
+        }
+      }
+    }
+  ]
+}

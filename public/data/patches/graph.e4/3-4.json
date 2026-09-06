@@ -1,0 +1,85 @@
+{
+  "pack": "graph.e4",
+  "from": 3,
+  "to": 4,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0193",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Superficie verticale che chiude o divide uno spazio; anche il fianco a picco di un monte.",
+          "example": "Appesero il quadro alla parete del soggiorno."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0470",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Reso solido e durissimo dal freddo estremo.",
+          "example": "Trovò il ruscello completamente congelato."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0584",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Guizzo di luce vivissima e istantanea che precede il tuono nei temporali.",
+          "example": "Un lampo illuminò per un attimo tutta la campagna."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0607",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Ciò che si percepisce attraverso i sensi o l'animo, come caldo, dolore o gioia.",
+          "example": "Provò una strana sensazione di déjà-vu."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0975",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Il non provare né mostrare alcun interesse o sentimento verso qualcosa.",
+          "example": "Assistette alla scena con totale indifferenza."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_1019",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Che si spinge molto in basso o molto all'interno; al figurato, intenso e non superficiale.",
+          "example": "Provava per lei un affetto profondo."
+        }
+      }
+    }
+  ]
+}

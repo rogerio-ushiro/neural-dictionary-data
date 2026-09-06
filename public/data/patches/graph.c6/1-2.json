@@ -1,0 +1,46 @@
+{
+  "pack": "graph.c6",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0069",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Quantità di luce che rende un ambiente più o meno chiaro.",
+          "example": "Regolò la luminosità dello schermo per non affaticare gli occhi."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0115",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "La linea che si segue per andare da un punto a un altro, con le sue tappe e le sue difficoltà.",
+          "example": "Il percorso più breve passa per il bosco."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0771",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Chi dà avvio a un movimento, a un'usanza o a un'impresa.",
+          "example": "Fu l'iniziatore di una nuova corrente di pensiero."
+        }
+      }
+    }
+  ]
+}

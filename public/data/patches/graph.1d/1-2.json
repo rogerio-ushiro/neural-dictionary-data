@@ -1,0 +1,20 @@
+{
+  "pack": "graph.1d",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0015",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Chi ha generato o alleva un figlio, il padre o la madre.",
+          "example": "Ogni genitore vuole il meglio per i propri figli."
+        }
+      }
+    }
+  ]
+}

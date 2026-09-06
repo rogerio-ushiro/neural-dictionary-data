@@ -1,0 +1,85 @@
+{
+  "pack": "graph.8e",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0348",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Insieme dei rami e delle foglie di un albero.",
+          "example": "Il vento agitava le fronde dei pini."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0465",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Grande frutto estivo dalla scorza verde e dalla polpa rossa, acquosa e dolce, con semi neri.",
+          "example": "Tagliarono il cocomero a fette sul tavolo del giardino."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0591",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Abbronzatura, colore dorato che la pelle prende al sole (voce familiare).",
+          "example": "È tornata dal mare con una bella tintarella."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0634",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Il non avere o il non esserci di qualcosa di necessario.",
+          "example": "La mancanza di sonno lo rendeva irritabile."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0818",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Il carattere di fondo di una persona, il suo modo naturale di essere.",
+          "example": "Ha un'indole tranquilla, difficile da far arrabbiare."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0906",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Buca profonda scavata nel terreno per attingere l'acqua sotterranea.",
+          "example": "Calarono il secchio nel pozzo per tirare su l'acqua fresca."
+        }
+      }
+    }
+  ]
+}

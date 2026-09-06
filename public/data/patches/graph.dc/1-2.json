@@ -1,0 +1,20 @@
+{
+  "pack": "graph.dc",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0045",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Parete di roccia a picco sul mare, spesso frastagliata e pericolosa per le barche.",
+          "example": "Le onde si frangevano ai piedi della scogliera."
+        }
+      }
+    }
+  ]
+}

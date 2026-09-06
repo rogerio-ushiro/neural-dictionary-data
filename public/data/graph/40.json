@@ -1,0 +1,222 @@
+{
+  "shard": "40",
+  "concepts": {
+    "c_0148": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Striscia di tessuto o cinghia che sorregge una borsa o uno zaino sulla spalla.",
+        "example": "La spallina dello zaino gli segava il collo."
+      }
+    },
+    "c_0430": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Il mobile su cui si mangia; per estensione, il pranzo stesso e chi vi partecipa.",
+        "example": "A tavola non si parla con la bocca piena."
+      }
+    },
+    "c_0445": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Piccolo dolce secco e croccante da inzuppare nel latte o nel caffè.",
+        "example": "A colazione inzuppava tre biscotti nella tazza."
+      }
+    },
+    "c_0654": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Il non essercene abbastanza; penuria di qualcosa di necessario.",
+        "example": "La scarsità di piogge ha fatto salire il prezzo del grano."
+      }
+    },
+    "c_0759": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Che è destinato a morire, come ogni essere umano.",
+        "example": "Anche gli eroi sono creature mortali."
+      }
+    },
+    "c_0922": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Contrasto tra zone di luce e zone d'ombra in un dipinto o in un ambiente.",
+        "example": "Il pittore era maestro nel chiaroscuro."
+      }
+    },
+    "c_0997": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Serie di piccoli scoppi secchi e ripetuti.",
+        "example": "Si sentiva il crepitio della legna nel camino."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0009",
+      "concept_b": "c_0148",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0033",
+      "concept_b": "c_0430",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0034",
+      "concept_b": "c_0445",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0084",
+      "concept_b": "c_0654",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0218",
+      "concept_b": "c_0759",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0354",
+      "concept_b": "c_0922",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0392",
+      "concept_b": "c_0997",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    }
+  ],
+  "word_senses": {
+    "s_0148": {
+      "lexeme_id": "w_0148",
+      "lexeme_kind": "word",
+      "concept_id": "c_0148",
+      "is_primary": true
+    },
+    "s_0430": {
+      "lexeme_id": "w_0430",
+      "lexeme_kind": "word",
+      "concept_id": "c_0430",
+      "is_primary": true
+    },
+    "s_0445": {
+      "lexeme_id": "w_0445",
+      "lexeme_kind": "word",
+      "concept_id": "c_0445",
+      "is_primary": true
+    },
+    "s_0654": {
+      "lexeme_id": "w_0654",
+      "lexeme_kind": "word",
+      "concept_id": "c_0654",
+      "is_primary": true
+    },
+    "s_0759": {
+      "lexeme_id": "w_0759",
+      "lexeme_kind": "word",
+      "concept_id": "c_0759",
+      "is_primary": true
+    },
+    "s_0922": {
+      "lexeme_id": "w_0922",
+      "lexeme_kind": "word",
+      "concept_id": "c_0922",
+      "is_primary": true
+    },
+    "s_0997": {
+      "lexeme_id": "w_0997",
+      "lexeme_kind": "word",
+      "concept_id": "c_0997",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0148": {
+      "display_form": "spallina",
+      "normalized_form": "spallina",
+      "pos": null
+    },
+    "w_0430": {
+      "display_form": "tavola",
+      "normalized_form": "tavola",
+      "pos": null
+    },
+    "w_0445": {
+      "display_form": "biscotto",
+      "normalized_form": "biscotto",
+      "pos": null
+    },
+    "w_0654": {
+      "display_form": "scarsità",
+      "normalized_form": "scarsita",
+      "pos": null
+    },
+    "w_0759": {
+      "display_form": "mortale",
+      "normalized_form": "mortale",
+      "pos": null
+    },
+    "w_0922": {
+      "display_form": "chiaroscuro",
+      "normalized_form": "chiaroscuro",
+      "pos": null
+    },
+    "w_0997": {
+      "display_form": "crepitio",
+      "normalized_form": "crepitio",
+      "pos": null
+    }
+  },
+  "expressions": {}
+}

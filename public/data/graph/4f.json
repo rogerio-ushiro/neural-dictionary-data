@@ -1,0 +1,182 @@
+{
+  "shard": "4f",
+  "concepts": {
+    "c_0219": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Che è nell'età tra l'infanzia e la maturità; anche fresco e appena formato.",
+        "example": "Da giovane ha girato l'Europa in autostop."
+      }
+    },
+    "c_0336": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Emettere il verso lamentoso e prolungato tipico del gatto.",
+        "example": "Il gatto miagolava davanti alla porta chiusa."
+      }
+    },
+    "c_0549": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "La fascia di terra che costeggia il mare, dove si affacciano porti e stabilimenti balneari; come aggettivo, ciò che riguarda questa zona.",
+        "example": "D'estate il littorale si riempie di ombrelloni."
+      }
+    },
+    "c_0866": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Punto in cui due ossa si uniscono e lasciano piegare o ruotare una parte del corpo; in senso figurato, il modo in cui un discorso o un'organizzazione è suddiviso in parti collegate.",
+        "example": "Dopo la corsa sentiva dolore alle articolazioni delle ginocchia."
+      }
+    },
+    "c_0888": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Il manto folto e morbido di peli di certi animali, usato anche per capi di abbigliamento.",
+        "example": "La volpe ha una pelliccia rossiccia e spessa."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0014",
+      "concept_b": "c_0219",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0024",
+      "concept_b": "c_0336",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0044",
+      "concept_b": "c_0549",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0058",
+      "concept_b": "c_0549",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0219",
+      "concept_b": "c_0299",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0324",
+      "concept_b": "c_0866",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0326",
+      "concept_b": "c_0888",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    }
+  ],
+  "word_senses": {
+    "s_0219": {
+      "lexeme_id": "w_0219",
+      "lexeme_kind": "word",
+      "concept_id": "c_0219",
+      "is_primary": true
+    },
+    "s_0336": {
+      "lexeme_id": "w_0336",
+      "lexeme_kind": "word",
+      "concept_id": "c_0336",
+      "is_primary": true
+    },
+    "s_0549": {
+      "lexeme_id": "w_0549",
+      "lexeme_kind": "word",
+      "concept_id": "c_0549",
+      "is_primary": true
+    },
+    "s_0866": {
+      "lexeme_id": "w_0866",
+      "lexeme_kind": "word",
+      "concept_id": "c_0866",
+      "is_primary": true
+    },
+    "s_0888": {
+      "lexeme_id": "w_0888",
+      "lexeme_kind": "word",
+      "concept_id": "c_0888",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0219": {
+      "display_form": "giovane",
+      "normalized_form": "giovane",
+      "pos": null
+    },
+    "w_0336": {
+      "display_form": "miagolare",
+      "normalized_form": "miagolare",
+      "pos": null
+    },
+    "w_0549": {
+      "display_form": "littorale",
+      "normalized_form": "littorale",
+      "pos": null
+    },
+    "w_0866": {
+      "display_form": "articolazione",
+      "normalized_form": "articolazione",
+      "pos": null
+    },
+    "w_0888": {
+      "display_form": "pelliccia",
+      "normalized_form": "pelliccia",
+      "pos": null
+    }
+  },
+  "expressions": {}
+}

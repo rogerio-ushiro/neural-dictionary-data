@@ -1,0 +1,59 @@
+{
+  "pack": "graph.05",
+  "from": 3,
+  "to": 4,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0198",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "La linea di discendenza di una famiglia, i suoi antenati.",
+          "example": "Poteva far risalire il proprio lignaggio a un antico feudatario."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0244",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Persona avanti con gli anni.",
+          "example": "Il vecchio sedeva sulla panchina a guardare i passanti."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0514",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "La parte del giorno tra il mezzogiorno e la sera.",
+          "example": "Il pomeriggio lo dedica ai compiti e allo sport."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_1012",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Spostarsi sull'acqua con una barca o una nave; anche muoversi tra le pagine di internet.",
+          "example": "Impararono a navigare a vela durante l'estate."
+        }
+      }
+    }
+  ]
+}

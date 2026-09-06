@@ -1,0 +1,46 @@
+{
+  "pack": "graph.0d",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0213",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Bambino piccolo e vivace (voce familiare e scherzosa).",
+          "example": "Quel marmocchio non sta fermo un attimo."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0543",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Il bordo estremo di una superficie, il punto in cui finisce.",
+          "example": "Riempì il bicchiere fino all'orlo."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0882",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Sottile e rado strato di peli, soprattutto sul viso o su frutti come la pesca.",
+          "example": "Sulle guance del ragazzo spuntava una prima peluria."
+        }
+      }
+    }
+  ]
+}

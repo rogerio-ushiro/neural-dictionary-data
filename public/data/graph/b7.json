@@ -1,0 +1,162 @@
+{
+  "shard": "b7",
+  "concepts": {
+    "c_0130": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Luogo attrezzato dove i treni si fermano per far salire e scendere i passeggeri.",
+        "example": "Ci vediamo davanti all'ingresso della stazione."
+      }
+    },
+    "c_0145": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Parte di un oggetto per cui lo si afferra e si regge.",
+        "example": "Il manico della borsa si è staccato."
+      }
+    },
+    "c_0448": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Impasto di farina e acqua tirato e tagliato in vari formati, che si lessa e si condisce.",
+        "example": "Ha buttato la pasta appena l'acqua ha bollito."
+      }
+    },
+    "c_0659": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Sonno profondo e prolungato in cui certi animali passano l'inverno.",
+        "example": "L'orso esce dal letargo quando la neve si scioglie."
+      }
+    },
+    "c_0754": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Qualsiasi cosa che esiste, dotata o no di vita; spesso l'uomo o un animale.",
+        "example": "Ogni essere merita rispetto."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0008",
+      "concept_b": "c_0130",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0009",
+      "concept_b": "c_0145",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0034",
+      "concept_b": "c_0448",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0085",
+      "concept_b": "c_0659",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0218",
+      "concept_b": "c_0754",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    }
+  ],
+  "word_senses": {
+    "s_0130": {
+      "lexeme_id": "w_0130",
+      "lexeme_kind": "word",
+      "concept_id": "c_0130",
+      "is_primary": true
+    },
+    "s_0145": {
+      "lexeme_id": "w_0145",
+      "lexeme_kind": "word",
+      "concept_id": "c_0145",
+      "is_primary": true
+    },
+    "s_0448": {
+      "lexeme_id": "w_0448",
+      "lexeme_kind": "word",
+      "concept_id": "c_0448",
+      "is_primary": true
+    },
+    "s_0659": {
+      "lexeme_id": "w_0659",
+      "lexeme_kind": "word",
+      "concept_id": "c_0659",
+      "is_primary": true
+    },
+    "s_0754": {
+      "lexeme_id": "w_0754",
+      "lexeme_kind": "word",
+      "concept_id": "c_0754",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0130": {
+      "display_form": "stazione",
+      "normalized_form": "stazione",
+      "pos": null
+    },
+    "w_0145": {
+      "display_form": "manico",
+      "normalized_form": "manico",
+      "pos": null
+    },
+    "w_0448": {
+      "display_form": "pasta",
+      "normalized_form": "pasta",
+      "pos": null
+    },
+    "w_0659": {
+      "display_form": "letargo",
+      "normalized_form": "letargo",
+      "pos": null
+    },
+    "w_0754": {
+      "display_form": "essere",
+      "normalized_form": "essere",
+      "pos": null
+    }
+  },
+  "expressions": {}
+}

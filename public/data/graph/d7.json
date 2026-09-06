@@ -1,0 +1,102 @@
+{
+  "shard": "d7",
+  "concepts": {
+    "c_0163": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Il progressivo estendersi delle città sul territorio.",
+        "example": "L'urbanizzazione ha consumato molti terreni agricoli."
+      }
+    },
+    "c_0677": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Passatempo che distrae dalle occupazioni serie.",
+        "example": "Il teatro era la sua unica diversione settimanale."
+      }
+    },
+    "c_0732": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Strada principale a scorrimento veloce che collega le parti di una città; nel corpo, il vaso che porta il sangue dal cuore.",
+        "example": "L'arteria di scorrimento era bloccata dal traffico."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0010",
+      "concept_b": "c_0163",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0107",
+      "concept_b": "c_0677",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0159",
+      "concept_b": "c_0732",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    }
+  ],
+  "word_senses": {
+    "s_0163": {
+      "lexeme_id": "w_0163",
+      "lexeme_kind": "word",
+      "concept_id": "c_0163",
+      "is_primary": true
+    },
+    "s_0677": {
+      "lexeme_id": "w_0677",
+      "lexeme_kind": "word",
+      "concept_id": "c_0677",
+      "is_primary": true
+    },
+    "s_0732": {
+      "lexeme_id": "w_0732",
+      "lexeme_kind": "word",
+      "concept_id": "c_0732",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0163": {
+      "display_form": "urbanizzazione",
+      "normalized_form": "urbanizzazione",
+      "pos": null
+    },
+    "w_0677": {
+      "display_form": "diversione",
+      "normalized_form": "diversione",
+      "pos": null
+    },
+    "w_0732": {
+      "display_form": "arteria",
+      "normalized_form": "arteria",
+      "pos": null
+    }
+  },
+  "expressions": {}
+}

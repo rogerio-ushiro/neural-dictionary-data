@@ -1,0 +1,59 @@
+{
+  "pack": "graph.dd",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0132",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Dispositivo che rallenta o ferma un veicolo premendo su ruote o dischi.",
+          "example": "Tirò il freno a mano in discesa."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0147",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Qualsiasi dispositivo che serve a tenere serrato un contenitore o un indumento.",
+          "example": "La chiusura della borsa si è inceppata."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0756",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Essere umano considerato singolarmente, con la sua identità e dignità.",
+          "example": "Non conosceva una sola persona in quella città."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0998",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Assenza di rumori e di voci.",
+          "example": "Nel silenzio della notte si sentiva solo il ticchettio dell'orologio."
+        }
+      }
+    }
+  ]
+}

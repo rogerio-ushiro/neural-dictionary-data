@@ -1,0 +1,20 @@
+{
+  "pack": "graph.6f",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0044",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Ampia insenatura del mare che rientra nella costa formando un bacino riparato.",
+          "example": "Le barche erano all'ancora nel golfo al riparo dal vento."
+        }
+      }
+    }
+  ]
+}

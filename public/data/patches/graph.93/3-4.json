@@ -1,0 +1,72 @@
+{
+  "pack": "graph.93",
+  "from": 3,
+  "to": 4,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0242",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Persona molto avanti negli anni.",
+          "example": "L'anziano del paese ricorda ancora la guerra."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0512",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Assenza totale o quasi di luce.",
+          "example": "Al buio si muoveva in casa senza sbattere da nessuna parte."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0589",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Distesa di sabbia lungo la riva del mare.",
+          "example": "L'arenile si estendeva per chilometri deserto."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0978",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "L'atto di far entrare e uscire aria dai polmoni per vivere; anche un attimo di sollievo.",
+          "example": "Trattenne il respiro mentre si immergeva."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_1014",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Asta di legno con una pala a un capo, che si immerge nell'acqua per spingere avanti la barca.",
+          "example": "Tirò dentro i remi e lasciò scivolare la barca."
+        }
+      }
+    }
+  ]
+}

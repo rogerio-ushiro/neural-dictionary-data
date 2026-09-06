@@ -1,0 +1,242 @@
+{
+  "shard": "21",
+  "concepts": {
+    "c_0349": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Lamina sottile e di solito verde che spunta dai rami e cattura la luce per nutrire la pianta.",
+        "example": "In autunno le foglie si staccano e ricoprono il vialetto."
+      }
+    },
+    "c_0464": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Seme oleoso dal guscio legnoso, usato in pasticceria e per fare l'olio.",
+        "example": "Sbucciava le mandorle tuffandole in acqua bollente."
+      }
+    },
+    "c_0590": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Linea che segna il limite estremo di qualcosa, soprattutto lungo l'acqua.",
+        "example": "Camminavano sul bordo del molo tenendosi per mano."
+      }
+    },
+    "c_0635": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Incapacità di vedere; al figurato, l'ostinazione a non voler capire.",
+        "example": "La cecità improvvisa lo costrinse a cambiare vita."
+      }
+    },
+    "c_0819": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "L'atto di dar vita a qualcosa che prima non esisteva; nella religione, l'origine del mondo.",
+        "example": "Il quadro è una sua libera creazione."
+      }
+    },
+    "c_0907": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Piccolo corso d'acqua che scorre tra i prati con poca portata.",
+        "example": "I bambini cercavano gamberetti nel ruscello."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0026",
+      "concept_b": "c_0349",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0035",
+      "concept_b": "c_0464",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0058",
+      "concept_b": "c_0590",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0078",
+      "concept_b": "c_0635",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0297",
+      "concept_b": "c_0349",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0299",
+      "concept_b": "c_0349",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0300",
+      "concept_b": "c_0819",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0304",
+      "concept_b": "c_0349",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0339",
+      "concept_b": "c_0349",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0343",
+      "concept_b": "c_0907",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0368",
+      "concept_b": "c_0907",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    }
+  ],
+  "word_senses": {
+    "s_0349": {
+      "lexeme_id": "w_0349",
+      "lexeme_kind": "word",
+      "concept_id": "c_0349",
+      "is_primary": true
+    },
+    "s_0464": {
+      "lexeme_id": "w_0464",
+      "lexeme_kind": "word",
+      "concept_id": "c_0464",
+      "is_primary": true
+    },
+    "s_0590": {
+      "lexeme_id": "w_0590",
+      "lexeme_kind": "word",
+      "concept_id": "c_0590",
+      "is_primary": true
+    },
+    "s_0635": {
+      "lexeme_id": "w_0635",
+      "lexeme_kind": "word",
+      "concept_id": "c_0635",
+      "is_primary": true
+    },
+    "s_0819": {
+      "lexeme_id": "w_0819",
+      "lexeme_kind": "word",
+      "concept_id": "c_0819",
+      "is_primary": true
+    },
+    "s_0907": {
+      "lexeme_id": "w_0907",
+      "lexeme_kind": "word",
+      "concept_id": "c_0907",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0349": {
+      "display_form": "foglia",
+      "normalized_form": "foglia",
+      "pos": null
+    },
+    "w_0464": {
+      "display_form": "mandorla",
+      "normalized_form": "mandorla",
+      "pos": null
+    },
+    "w_0590": {
+      "display_form": "bordo",
+      "normalized_form": "bordo",
+      "pos": null
+    },
+    "w_0635": {
+      "display_form": "cecità",
+      "normalized_form": "cecita",
+      "pos": null
+    },
+    "w_0819": {
+      "display_form": "creazione",
+      "normalized_form": "creazione",
+      "pos": null
+    },
+    "w_0907": {
+      "display_form": "ruscello",
+      "normalized_form": "ruscello",
+      "pos": null
+    }
+  },
+  "expressions": {}
+}

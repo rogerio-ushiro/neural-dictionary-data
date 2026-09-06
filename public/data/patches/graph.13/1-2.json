@@ -1,0 +1,46 @@
+{
+  "pack": "graph.13",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0084",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Calore secco e opprimente che secca la gola e la terra.",
+          "example": "Nell'arsura di luglio i campi diventavano gialli."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0170",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "La terra in cui si è nati, a cui ci si sente legati.",
+          "example": "Ha lasciato la patria a vent'anni e non è più tornato."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0703",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Assalto rapido e deciso contro un avversario; anche la quantità di energia caricata in una batteria.",
+          "example": "La carica dei soldati sfondò la linea nemica."
+        }
+      }
+    }
+  ]
+}

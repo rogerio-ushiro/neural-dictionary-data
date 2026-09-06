@@ -1,0 +1,46 @@
+{
+  "pack": "graph.ae",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0054",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Animale acquatico coperto di squame che respira con le branchie e nuota con le pinne.",
+          "example": "Ha pescato un pesce troppo piccolo e lo ha rigettato in acqua."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0120",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "L'atto di percorrere a piedi una certa distanza; al figurato, il percorso di vita o di crescita di una persona.",
+          "example": "Dopo un lungo cammino raggiunsero il rifugio."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0458",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Piccolo frutto rosso, tenero e profumato, che matura in primavera.",
+          "example": "Ha raccolto un cestino di fragole nell'orto."
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "pack": "graph.be",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0195",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Le persone legate da vincoli di sangue o di matrimonio.",
+          "example": "A Natale si riuniscono tutti i parenti."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0249",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Istituto che ospita gli studenti offrendo vitto, alloggio e sorveglianza.",
+          "example": "Da ragazzo studiò in un collegio di montagna."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0476",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Recipiente basso e largo in cui si serve il gelato o la macedonia.",
+          "example": "Ordinò una coppa con tre gusti e panna."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0519",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "La luce rossastra che colora il cielo poco prima che sorga il sole.",
+          "example": "L'aurora tingeva di rosa le cime innevate."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0582",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Tempesta di mare violenta e prolungata.",
+          "example": "La procella durò tutta la notte scuotendo il faro."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0601",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "L'età giovanile, il tempo della vita tra l'infanzia e la maturità.",
+          "example": "Nella sua gioventù aveva girato mezzo mondo."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0973",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Freddo intenso e severo; anche il rispetto scrupoloso di una regola.",
+          "example": "Applicò il regolamento con estremo rigore."
+        }
+      }
+    }
+  ]
+}

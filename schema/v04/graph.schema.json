@@ -1,0 +1,186 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://neural-dictionary/schema/v04/graph.schema.json",
+  "title": "PublishedGraph v0.4",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "meta",
+    "words",
+    "expressions",
+    "word_senses",
+    "concepts",
+    "associations",
+    "lexical_index",
+    "semantic_regions",
+    "expansion_queue",
+    "sync_state"
+  ],
+  "definitions": {
+    "wordId": { "type": "string", "pattern": "^w_[0-9]{4,}$" },
+    "expressionId": { "type": "string", "pattern": "^e_[0-9]{4,}$" },
+    "senseId": { "type": "string", "pattern": "^s_[0-9]{4,}$" },
+    "conceptId": { "type": "string", "pattern": "^c_[0-9]{4,}$" },
+    "regionId": { "type": "string", "pattern": "^r_[a-z_]+$" },
+    "lexemeId": { "type": "string", "pattern": "^[we]_[0-9]{4,}$" },
+    "pos": {
+      "type": ["string", "null"],
+      "enum": ["sostantivo", "verbo", "aggettivo", "avverbio", "locuzione", null]
+    },
+    "unit": { "type": "number", "minimum": 0, "maximum": 1 }
+  },
+  "properties": {
+    "meta": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["language"],
+      "properties": {
+        "language": { "type": "string", "minLength": 2 },
+        "manifest_version": { "type": "integer", "minimum": 0 }
+      }
+    },
+    "words": {
+      "type": "object",
+      "propertyNames": { "$ref": "#/definitions/wordId" },
+      "additionalProperties": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["display_form", "normalized_form", "pos"],
+        "properties": {
+          "display_form": { "type": "string", "minLength": 1 },
+          "normalized_form": { "type": "string", "minLength": 1 },
+          "pos": { "$ref": "#/definitions/pos" }
+        }
+      }
+    },
+    "expressions": {
+      "type": "object",
+      "propertyNames": { "$ref": "#/definitions/expressionId" },
+      "additionalProperties": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["display_form", "normalized_form", "component_word_ids", "pos"],
+        "properties": {
+          "display_form": { "type": "string", "minLength": 1 },
+          "normalized_form": { "type": "string", "minLength": 1 },
+          "component_word_ids": {
+            "type": "array",
+            "items": { "$ref": "#/definitions/wordId" }
+          },
+          "pos": { "$ref": "#/definitions/pos" }
+        }
+      }
+    },
+    "word_senses": {
+      "type": "object",
+      "propertyNames": { "$ref": "#/definitions/senseId" },
+      "additionalProperties": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["lexeme_id", "lexeme_kind", "concept_id", "is_primary"],
+        "properties": {
+          "lexeme_id": { "$ref": "#/definitions/lexemeId" },
+          "lexeme_kind": { "enum": ["word", "expression"] },
+          "concept_id": { "$ref": "#/definitions/conceptId" },
+          "gloss": { "type": "string" },
+          "is_primary": { "type": "boolean" }
+        }
+      }
+    },
+    "concepts": {
+      "type": "object",
+      "propertyNames": { "$ref": "#/definitions/conceptId" },
+      "additionalProperties": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["revision", "region_id", "status_fronteira"],
+        "properties": {
+          "revision": { "type": "integer", "minimum": 1 },
+          "region_id": {
+            "oneOf": [{ "$ref": "#/definitions/regionId" }, { "type": "null" }]
+          },
+          "status_fronteira": { "enum": ["needs_expansion", "expanded"] },
+          "definition": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["text", "example"],
+            "properties": {
+              "text": { "type": "string", "minLength": 1 },
+              "example": { "type": "string", "minLength": 1 }
+            }
+          }
+        }
+      }
+    },
+    "associations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "concept_a",
+          "concept_b",
+          "relation_type",
+          "association_strength",
+          "confidence",
+          "status",
+          "revision"
+        ],
+        "properties": {
+          "concept_a": { "$ref": "#/definitions/conceptId" },
+          "concept_b": { "$ref": "#/definitions/conceptId" },
+          "relation_type": { "type": "string", "minLength": 1 },
+          "direction_hint": { "enum": ["a_to_b", "b_to_a", "symmetric"] },
+          "association_strength": { "$ref": "#/definitions/unit" },
+          "confidence": { "$ref": "#/definitions/unit" },
+          "status": { "enum": ["candidate", "validated", "rejected", "deprecated"] },
+          "revision": { "type": "integer", "minimum": 1 }
+        }
+      }
+    },
+    "lexical_index": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["normalized_form", "lexeme_id", "lexeme_kind"],
+        "properties": {
+          "normalized_form": { "type": "string", "minLength": 1 },
+          "lexeme_id": { "$ref": "#/definitions/lexemeId" },
+          "lexeme_kind": { "enum": ["word", "expression"] }
+        }
+      }
+    },
+    "semantic_regions": {
+      "type": "object",
+      "propertyNames": { "$ref": "#/definitions/regionId" },
+      "additionalProperties": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["label"],
+        "properties": { "label": { "type": "string", "minLength": 1 } }
+      }
+    },
+    "expansion_queue": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["concept_id", "expansion_priority"],
+        "properties": {
+          "concept_id": { "$ref": "#/definitions/conceptId" },
+          "expansion_priority": { "type": "number", "minimum": 0 }
+        }
+      }
+    },
+    "sync_state": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["manifest_version", "ready"],
+      "properties": {
+        "manifest_version": { "type": ["integer", "null"], "minimum": 0 },
+        "ready": { "type": "boolean" }
+      }
+    }
+  }
+}

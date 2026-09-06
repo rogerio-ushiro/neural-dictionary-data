@@ -1,0 +1,33 @@
+{
+  "pack": "graph.64",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0016",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Il padre del padre o della madre.",
+          "example": "Il nonno lo portava a pescare tutte le domeniche."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0089",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Caldo intenso e opprimente.",
+          "example": "La caldura del pomeriggio li costrinse a fermarsi all'ombra."
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "pack": "graph.d4",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0052",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Violenta perturbazione del tempo con vento fortissimo, pioggia e fulmini; al figurato, un momento di grande turbamento o conflitto.",
+          "example": "La tempesta ha abbattuto diversi alberi nel parco."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0126",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Ciascuno dei veicoli agganciati che compongono un treno, per passeggeri o merci.",
+          "example": "Il vagone ristorante è in fondo al convoglio."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0988",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Forza ed energia di chi è pieno di vita.",
+          "example": "A ottant'anni conserva una vitalità sorprendente."
+        }
+      }
+    }
+  ]
+}

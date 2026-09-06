@@ -1,0 +1,142 @@
+{
+  "shard": "bd",
+  "concepts": {
+    "c_0266": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Breve racconto di fantasia, più corto di un romanzo.",
+        "example": "Ha pubblicato una raccolta di novelle ambientate al mare."
+      }
+    },
+    "c_0536": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "La misura di quanto una cosa si estende da un capo all'altro; per le onde, la distanza tra due creste successive.",
+        "example": "Ha misurato la lunghezza del tavolo con il metro."
+      }
+    },
+    "c_0895": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Pelo trasformato in punta rigida e pungente, come quello del riccio.",
+        "example": "Il riccio drizzò gli aculei sentendo il cane."
+      }
+    },
+    "c_0910": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "L'insieme delle foglie di una pianta o di un bosco.",
+        "example": "Il vento faceva stormire il fogliame dei pioppi."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0018",
+      "concept_b": "c_0266",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0042",
+      "concept_b": "c_0536",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0266",
+      "concept_b": "c_0272",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0326",
+      "concept_b": "c_0895",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0352",
+      "concept_b": "c_0910",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    }
+  ],
+  "word_senses": {
+    "s_0266": {
+      "lexeme_id": "w_0266",
+      "lexeme_kind": "word",
+      "concept_id": "c_0266",
+      "is_primary": true
+    },
+    "s_0536": {
+      "lexeme_id": "w_0536",
+      "lexeme_kind": "word",
+      "concept_id": "c_0536",
+      "is_primary": true
+    },
+    "s_0895": {
+      "lexeme_id": "w_0895",
+      "lexeme_kind": "word",
+      "concept_id": "c_0895",
+      "is_primary": true
+    },
+    "s_0910": {
+      "lexeme_id": "w_0910",
+      "lexeme_kind": "word",
+      "concept_id": "c_0910",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0266": {
+      "display_form": "novella",
+      "normalized_form": "novella",
+      "pos": null
+    },
+    "w_0536": {
+      "display_form": "lunghezza",
+      "normalized_form": "lunghezza",
+      "pos": null
+    },
+    "w_0895": {
+      "display_form": "aculeo",
+      "normalized_form": "aculeo",
+      "pos": null
+    },
+    "w_0910": {
+      "display_form": "fogliame",
+      "normalized_form": "fogliame",
+      "pos": null
+    }
+  },
+  "expressions": {}
+}

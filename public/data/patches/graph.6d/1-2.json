@@ -1,0 +1,85 @@
+{
+  "pack": "graph.6d",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0279",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Chi lavora insieme a un altro nello stesso ufficio o mestiere.",
+          "example": "Ha invitato a cena due colleghi del reparto."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0460",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Grosso frutto estivo dalla polpa dolce e profumata, giallo o arancione dentro.",
+          "example": "Un melone ben maturo si riconosce dal profumo."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0529",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Il formarsi di onde sulla superficie di un liquido.",
+          "example": "Un sasso nello stagno provocò una lenta undulazione."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0594",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Il tempo trascorso al sole o all'aria; anche il modo in cui un edificio è rivolto rispetto al sole.",
+          "example": "La casa gode di un'ottima esposizione a mezzogiorno."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0631",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Grado di oscurità, il buio più o meno fitto.",
+          "example": "Con la scurezza del temporale dovettero accendere le luci a mezzogiorno."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0903",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Zampillo d'acqua o di altro liquido che esce con forza da un'apertura.",
+          "example": "Un getto d'acqua schizzò via dal tubo rotto."
+        }
+      }
+    }
+  ]
+}

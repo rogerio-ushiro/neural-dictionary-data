@@ -1,0 +1,59 @@
+{
+  "pack": "graph.32",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0209",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Bambino piccolo (voce affettuosa).",
+          "example": "Il bimbo si è addormentato in braccio alla madre."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0300",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "L'insieme di tutto ciò che esiste senza l'intervento dell'uomo, dalle piante ai monti al clima; anche il carattere di fondo di una persona.",
+          "example": "Ama passare i fine settimana immerso nella natura."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0559",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Pietra di media grandezza, staccata dalla roccia.",
+          "example": "Inciampò in un sasso e per poco non cadde."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0850",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Che produce o riguarda il latte.",
+          "example": "Le ghiandole lattifere si sviluppano durante l'allattamento."
+        }
+      }
+    }
+  ]
+}

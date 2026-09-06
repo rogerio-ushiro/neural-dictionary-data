@@ -1,0 +1,59 @@
+{
+  "pack": "graph.72",
+  "from": 3,
+  "to": 4,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0199",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "L'insieme di chi discende da un antenato comune.",
+          "example": "La discendenza del vecchio conte si è estinta un secolo fa."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0245",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Scuola superiore che prepara agli studi universitari, con indirizzo classico, scientifico o linguistico.",
+          "example": "Al liceo ha studiato latino per cinque anni."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0515",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Consumare il pasto della sera.",
+          "example": "D'estate cenano sempre in terrazza."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_1013",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Sciogliere gli ormeggi e partire con la nave.",
+          "example": "La nave salperà con l'alta marea."
+        }
+      }
+    }
+  ]
+}

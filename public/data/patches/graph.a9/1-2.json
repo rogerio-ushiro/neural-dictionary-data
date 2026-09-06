@@ -1,0 +1,72 @@
+{
+  "pack": "graph.a9",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0129",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Macchina motrice che spinge o traina i vagoni di un treno.",
+          "example": "Il locomotore elettrico è più silenzioso di quello diesel."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0451",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Frutto dalla buccia spessa e profumata e dalla polpa a spicchi, come l'arancia e il limone.",
+          "example": "Spremette un agrume per la colazione."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0622",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Il punto o il momento in cui una cosa comincia.",
+          "example": "L'inizio del film è più lento del resto."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0745",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Ciò su cui si regge una costruzione o un ragionamento; la parte più profonda e solida.",
+          "example": "Le accuse si sono rivelate prive di fondamento."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0987",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Energia fisica e forza piena di chi è in salute; riferito a leggi e regole, l'essere in efficacia (una norma entra in vigore).",
+          "example": "Nonostante gli anni, lavora ancora con grande vigore."
+        }
+      }
+    }
+  ]
+}

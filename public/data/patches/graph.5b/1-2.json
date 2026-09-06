@@ -1,0 +1,33 @@
+{
+  "pack": "graph.5b",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0376",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Caduta dal cielo di acqua, neve o grandine.",
+          "example": "Sono previste precipitazioni abbondanti sulle zone montane."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0826",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Qualsiasi fatto o evento che si può osservare in natura o nella società.",
+          "example": "L'aurora boreale è un fenomeno spettacolare."
+        }
+      }
+    }
+  ]
+}

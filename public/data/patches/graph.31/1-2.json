@@ -1,0 +1,33 @@
+{
+  "pack": "graph.31",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0367",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Minima quantità di liquido di forma tondeggiante che si stacca e cade; al figurato, un contributo piccolissimo (una goccia nel mare).",
+          "example": "Una goccia di sudore gli scese sulla fronte."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0837",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Sottile filamento di materiale usato per cucire, legare o condurre elettricità; al figurato, ciò che collega e tiene unite le parti di un ragionamento.",
+          "example": "Ha perso il filo del discorso a metà frase."
+        }
+      }
+    }
+  ]
+}

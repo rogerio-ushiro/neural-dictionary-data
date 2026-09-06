@@ -1,0 +1,85 @@
+{
+  "pack": "graph.04",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0265",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Lunga opera narrativa in prosa che racconta vicende inventate.",
+          "example": "Ha finito il romanzo in due sere."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0359",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Fiore dai petali morbidi e profumati e dal gambo spinoso, simbolo dell'amore.",
+          "example": "Le regalò una rosa rossa per l'anniversario."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0535",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Il numero di volte in cui un fatto si ripete in un certo tempo; per le onde, quante ne passano in un secondo.",
+          "example": "Aumenta la frequenza degli allenamenti prima della gara."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0809",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Il taglio dell'erba di un prato con la falce o la falciatrice.",
+          "example": "Dopo la falciatura il prato profumava di fieno."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0896",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Che appartiene alle piante; come sostantivo, un ortaggio.",
+          "example": "Segue una dieta a base di vegetali freschi."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0913",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "L'insieme dei prodotti della terra raccolti in una stagione.",
+          "example": "Il raccolto di quest'anno è stato abbondante."
+        }
+      }
+    }
+  ]
+}

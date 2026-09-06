@@ -1,0 +1,33 @@
+{
+  "pack": "graph.a7",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0372",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Qualità di ciò che si lascia attraversare dalla luce e permette di vedere attraverso; anche la chiarezza e l'onestà nel comportarsi.",
+          "example": "Attraverso la trasparenza del vetro si vedeva il fondo."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0822",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Caratteristica che appartiene a una cosa e ne definisce il modo di essere; anche un bene che si possiede.",
+          "example": "La trasparenza è una proprietà del vetro."
+        }
+      }
+    }
+  ]
+}

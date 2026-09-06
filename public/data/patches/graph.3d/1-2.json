@@ -1,0 +1,46 @@
+{
+  "pack": "graph.3d",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0064",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Costruzione di sabbia bagnata che i bambini modellano sulla spiaggia.",
+          "example": "L'onda si portò via il castello appena finito."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0118",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Il fatto di cambiare posizione o di non stare fermi; si usa anche per una corrente di idee o di persone che agiscono insieme per uno scopo (un movimento artistico, un movimento politico).",
+          "example": "Con un movimento della mano fece cenno di avvicinarsi."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0792",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Chi partecipa con un altro a un'azione, di solito illecita.",
+          "example": "È stato arrestato insieme al suo complice."
+        }
+      }
+    }
+  ]
+}

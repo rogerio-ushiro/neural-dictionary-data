@@ -1,0 +1,262 @@
+{
+  "shard": "be",
+  "concepts": {
+    "c_0195": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Le persone legate da vincoli di sangue o di matrimonio.",
+        "example": "A Natale si riuniscono tutti i parenti."
+      }
+    },
+    "c_0249": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Istituto che ospita gli studenti offrendo vitto, alloggio e sorveglianza.",
+        "example": "Da ragazzo studiò in un collegio di montagna."
+      }
+    },
+    "c_0476": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Recipiente basso e largo in cui si serve il gelato o la macedonia.",
+        "example": "Ordinò una coppa con tre gusti e panna."
+      }
+    },
+    "c_0519": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "La luce rossastra che colora il cielo poco prima che sorga il sole.",
+        "example": "L'aurora tingeva di rosa le cime innevate."
+      }
+    },
+    "c_0582": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Tempesta di mare violenta e prolungata.",
+        "example": "La procella durò tutta la notte scuotendo il faro."
+      }
+    },
+    "c_0601": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "L'età giovanile, il tempo della vita tra l'infanzia e la maturità.",
+        "example": "Nella sua gioventù aveva girato mezzo mondo."
+      }
+    },
+    "c_0973": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Freddo intenso e severo; anche il rispetto scrupoloso di una regola.",
+        "example": "Applicò il regolamento con estremo rigore."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0013",
+      "concept_b": "c_0195",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0017",
+      "concept_b": "c_0249",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0036",
+      "concept_b": "c_0476",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0040",
+      "concept_b": "c_0519",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0052",
+      "concept_b": "c_0582",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0060",
+      "concept_b": "c_0601",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0073",
+      "concept_b": "c_0519",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0074",
+      "concept_b": "c_0519",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0086",
+      "concept_b": "c_0519",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0086",
+      "concept_b": "c_0601",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0382",
+      "concept_b": "c_0973",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    }
+  ],
+  "word_senses": {
+    "s_0195": {
+      "lexeme_id": "w_0195",
+      "lexeme_kind": "word",
+      "concept_id": "c_0195",
+      "is_primary": true
+    },
+    "s_0249": {
+      "lexeme_id": "w_0249",
+      "lexeme_kind": "word",
+      "concept_id": "c_0249",
+      "is_primary": true
+    },
+    "s_0476": {
+      "lexeme_id": "w_0476",
+      "lexeme_kind": "word",
+      "concept_id": "c_0476",
+      "is_primary": true
+    },
+    "s_0519": {
+      "lexeme_id": "w_0519",
+      "lexeme_kind": "word",
+      "concept_id": "c_0519",
+      "is_primary": true
+    },
+    "s_0582": {
+      "lexeme_id": "w_0582",
+      "lexeme_kind": "word",
+      "concept_id": "c_0582",
+      "is_primary": true
+    },
+    "s_0601": {
+      "lexeme_id": "w_0601",
+      "lexeme_kind": "word",
+      "concept_id": "c_0601",
+      "is_primary": true
+    },
+    "s_0973": {
+      "lexeme_id": "w_0973",
+      "lexeme_kind": "word",
+      "concept_id": "c_0973",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0195": {
+      "display_form": "parenti",
+      "normalized_form": "parenti",
+      "pos": null
+    },
+    "w_0249": {
+      "display_form": "collegio",
+      "normalized_form": "collegio",
+      "pos": null
+    },
+    "w_0476": {
+      "display_form": "coppa",
+      "normalized_form": "coppa",
+      "pos": null
+    },
+    "w_0519": {
+      "display_form": "aurora",
+      "normalized_form": "aurora",
+      "pos": null
+    },
+    "w_0582": {
+      "display_form": "procella",
+      "normalized_form": "procella",
+      "pos": null
+    },
+    "w_0601": {
+      "display_form": "gioventù",
+      "normalized_form": "gioventu",
+      "pos": null
+    },
+    "w_0973": {
+      "display_form": "rigore",
+      "normalized_form": "rigore",
+      "pos": null
+    }
+  },
+  "expressions": {}
+}

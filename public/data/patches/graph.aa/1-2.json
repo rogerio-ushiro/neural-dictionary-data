@@ -1,0 +1,46 @@
+{
+  "pack": "graph.aa",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0065",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Forma di energia che alza la temperatura dei corpi e passa dal più caldo al più freddo; al figurato, l'ardore di un sentimento.",
+          "example": "Dal camino si diffondeva un piacevole calore."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0119",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Gita di un giorno, spesso in montagna o in campagna, fatta a piedi per svago.",
+          "example": "Domenica faremo un'escursione fino alla cascata."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0793",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Chi vive sotto lo stesso tetto con un'altra persona come in una coppia.",
+          "example": "Ha presentato il convivente ai genitori."
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,222 @@
+{
+  "shard": "3f",
+  "concepts": {
+    "c_0237": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Chi appartiene alle generazioni passate della propria famiglia.",
+        "example": "I suoi antenati coltivavano queste stesse terre."
+      }
+    },
+    "c_0282": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Chi siede alla stessa tavola come ospite abituale.",
+        "example": "Era il commensale più spiritoso delle nostre cene."
+      }
+    },
+    "c_0413": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Distesa d'acqua salmastra separata dal mare da un cordone di sabbia.",
+        "example": "In laguna si naviga solo lungo i canali segnati."
+      }
+    },
+    "c_0567": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Isola bassa a forma di anello, con una laguna al centro.",
+        "example": "L'atollo emerge appena dall'oceano."
+      }
+    },
+    "c_0695": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Corteo religioso di fedeli che avanzano pregando dietro una statua o una croce.",
+        "example": "La processione percorse le vie del paese al lume delle candele."
+      }
+    },
+    "c_0956": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Il verso verso cui qualcuno o qualcosa si muove o si orienta; al figurato, la linea di condotta di un'impresa.",
+        "example": "Ha preso la direzione sbagliata all'incrocio."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0016",
+      "concept_b": "c_0237",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0019",
+      "concept_b": "c_0282",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0032",
+      "concept_b": "c_0413",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0048",
+      "concept_b": "c_0567",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0113",
+      "concept_b": "c_0695",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0226",
+      "concept_b": "c_0237",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0228",
+      "concept_b": "c_0237",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0273",
+      "concept_b": "c_0282",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0374",
+      "concept_b": "c_0956",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    }
+  ],
+  "word_senses": {
+    "s_0237": {
+      "lexeme_id": "w_0237",
+      "lexeme_kind": "word",
+      "concept_id": "c_0237",
+      "is_primary": true
+    },
+    "s_0282": {
+      "lexeme_id": "w_0282",
+      "lexeme_kind": "word",
+      "concept_id": "c_0282",
+      "is_primary": true
+    },
+    "s_0413": {
+      "lexeme_id": "w_0413",
+      "lexeme_kind": "word",
+      "concept_id": "c_0413",
+      "is_primary": true
+    },
+    "s_0567": {
+      "lexeme_id": "w_0567",
+      "lexeme_kind": "word",
+      "concept_id": "c_0567",
+      "is_primary": true
+    },
+    "s_0695": {
+      "lexeme_id": "w_0695",
+      "lexeme_kind": "word",
+      "concept_id": "c_0695",
+      "is_primary": true
+    },
+    "s_0956": {
+      "lexeme_id": "w_0956",
+      "lexeme_kind": "word",
+      "concept_id": "c_0956",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0237": {
+      "display_form": "antenato",
+      "normalized_form": "antenato",
+      "pos": null
+    },
+    "w_0282": {
+      "display_form": "commensale",
+      "normalized_form": "commensale",
+      "pos": null
+    },
+    "w_0413": {
+      "display_form": "laguna",
+      "normalized_form": "laguna",
+      "pos": null
+    },
+    "w_0567": {
+      "display_form": "atollo",
+      "normalized_form": "atollo",
+      "pos": null
+    },
+    "w_0695": {
+      "display_form": "processione",
+      "normalized_form": "processione",
+      "pos": null
+    },
+    "w_0956": {
+      "display_form": "direzione",
+      "normalized_form": "direzione",
+      "pos": null
+    }
+  },
+  "expressions": {}
+}

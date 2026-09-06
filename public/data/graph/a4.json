@@ -1,0 +1,242 @@
+{
+  "shard": "a4",
+  "concepts": {
+    "c_0203": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "La successione degli antenati e dei discendenti di una famiglia, soprattutto nobile.",
+        "example": "Si vantava di appartenere a una stirpe di antichi guerrieri."
+      }
+    },
+    "c_0553": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Massa di pietra dura e compatta che affiora dal terreno o forma i monti.",
+        "example": "Gli scalatori si aggrapparono a una sporgenza della roccia."
+      }
+    },
+    "c_1020": {
+      "revision": 2,
+      "region_id": "r_natura",
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Guscio calcareo che protegge molti animali marini e che si raccoglie sulla spiaggia.",
+        "example": "Portava all'orecchio la conchiglia per sentire il mare."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0013",
+      "concept_b": "c_0203",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0016",
+      "concept_b": "c_0203",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0045",
+      "concept_b": "c_0553",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0198",
+      "concept_b": "c_0203",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0199",
+      "concept_b": "c_0203",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0200",
+      "concept_b": "c_0203",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0201",
+      "concept_b": "c_0203",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0202",
+      "concept_b": "c_0203",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0203",
+      "concept_b": "c_0205",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0203",
+      "concept_b": "c_0206",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0203",
+      "concept_b": "c_0746",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0203",
+      "concept_b": "c_0748",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0203",
+      "concept_b": "c_0749",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0203",
+      "concept_b": "c_0750",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0203",
+      "concept_b": "c_0751",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0203",
+      "concept_b": "c_0752",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0050",
+      "concept_b": "c_1020",
+      "relation_type": "contenuto",
+      "direction_hint": "symmetric",
+      "association_strength": 0.6,
+      "confidence": 0.8,
+      "status": "validated",
+      "revision": 2
+    }
+  ],
+  "word_senses": {
+    "s_0203": {
+      "lexeme_id": "w_0203",
+      "lexeme_kind": "word",
+      "concept_id": "c_0203",
+      "is_primary": true
+    },
+    "s_0553": {
+      "lexeme_id": "w_0553",
+      "lexeme_kind": "word",
+      "concept_id": "c_0553",
+      "is_primary": true
+    },
+    "s_1020": {
+      "lexeme_id": "w_1020",
+      "lexeme_kind": "word",
+      "concept_id": "c_1020",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0203": {
+      "display_form": "stirpe",
+      "normalized_form": "stirpe",
+      "pos": null
+    },
+    "w_0553": {
+      "display_form": "roccia",
+      "normalized_form": "roccia",
+      "pos": null
+    },
+    "w_1020": {
+      "display_form": "conchiglia",
+      "normalized_form": "conchiglia",
+      "pos": "sostantivo"
+    }
+  },
+  "expressions": {}
+}

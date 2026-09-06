@@ -1,0 +1,46 @@
+{
+  "pack": "graph.8d",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0051",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Il condurre una nave o un aereo lungo una rotta stabilita; indica anche lo spostarsi tra le pagine di un sito.",
+          "example": "La navigazione fu resa difficile dalla nebbia."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0125",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Partenza in massa di molte persone da un luogo, per sfuggire a un pericolo o cercare condizioni migliori.",
+          "example": "Ad agosto c'è l'esodo delle città verso il mare."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0749",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Categoria che raccoglie cose o esseri con caratteri comuni.",
+          "example": "Il romanzo giallo è un genere molto amato."
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "pack": "graph.62",
+  "from": 3,
+  "to": 4,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0058",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "La striscia di terra a ridosso dell'acqua di un mare, di un lago o di un fiume.",
+          "example": "Tirarono la barca in secco sulla riva."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0454",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Frutto dolce e succoso, più stretto in alto e largo in basso, dalla polpa granulosa.",
+          "example": "Ha sbucciato una pera matura per il bambino."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0627",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Il passaggio graduale da uno stato a un altro.",
+          "example": "Il crepuscolo è la transizione tra il giorno e la notte."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0740",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Piccolo gruppo di case, il centro originario di un abitato.",
+          "example": "Il nucleo antico del paese è tutto in pietra."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0982",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Il pregio di ciò che è nuovo e non imitato da altri.",
+          "example": "La sua musica colpisce per l'originalità."
+        }
+      }
+    }
+  ]
+}

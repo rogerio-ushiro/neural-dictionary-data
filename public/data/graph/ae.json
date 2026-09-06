@@ -1,0 +1,142 @@
+{
+  "shard": "ae",
+  "concepts": {
+    "c_0054": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Animale acquatico coperto di squame che respira con le branchie e nuota con le pinne.",
+        "example": "Ha pescato un pesce troppo piccolo e lo ha rigettato in acqua."
+      }
+    },
+    "c_0120": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "L'atto di percorrere a piedi una certa distanza; al figurato, il percorso di vita o di crescita di una persona.",
+        "example": "Dopo un lungo cammino raggiunsero il rifugio."
+      }
+    },
+    "c_0458": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Piccolo frutto rosso, tenero e profumato, che matura in primavera.",
+        "example": "Ha raccolto un cestino di fragole nell'orto."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0001",
+      "concept_b": "c_0054",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0007",
+      "concept_b": "c_0120",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0035",
+      "concept_b": "c_0458",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0051",
+      "concept_b": "c_0120",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0054",
+      "concept_b": "c_0319",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0120",
+      "concept_b": "c_0159",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0120",
+      "concept_b": "c_0303",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    }
+  ],
+  "word_senses": {
+    "s_0054": {
+      "lexeme_id": "w_0054",
+      "lexeme_kind": "word",
+      "concept_id": "c_0054",
+      "is_primary": true
+    },
+    "s_0120": {
+      "lexeme_id": "w_0120",
+      "lexeme_kind": "word",
+      "concept_id": "c_0120",
+      "is_primary": true
+    },
+    "s_0458": {
+      "lexeme_id": "w_0458",
+      "lexeme_kind": "word",
+      "concept_id": "c_0458",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0054": {
+      "display_form": "pesce",
+      "normalized_form": "pesce",
+      "pos": null
+    },
+    "w_0120": {
+      "display_form": "cammino",
+      "normalized_form": "cammino",
+      "pos": null
+    },
+    "w_0458": {
+      "display_form": "fragola",
+      "normalized_form": "fragola",
+      "pos": null
+    }
+  },
+  "expressions": {}
+}

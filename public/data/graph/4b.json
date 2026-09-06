@@ -1,0 +1,192 @@
+{
+  "shard": "4b",
+  "concepts": {
+    "c_0260": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Ciò che qualcuno crea con l'ingegno o il lavoro, in arte o in altro campo.",
+        "example": "Quel dipinto è la sua opera più famosa."
+      }
+    },
+    "c_0329": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "L'azione di difendere qualcuno o qualcosa da un pericolo o da un danno.",
+        "example": "Il cane offre una buona protezione alla fattoria."
+      }
+    },
+    "c_0530": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Serie di onde che si susseguono rapide; al figurato, un'ondata di caldo, di gente o di emozioni.",
+        "example": "Un'ondata di freddo ha investito tutta la regione."
+      }
+    },
+    "c_0879": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Che riguarda la città e la vita cittadina.",
+        "example": "Il trasporto urbano è gratuito per gli anziani."
+      }
+    },
+    "c_0893": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Ciascuna delle formazioni leggere che ricoprono il corpo degli uccelli e servono al volo e al caldo.",
+        "example": "Trovò una piuma bianca sul davanzale."
+      }
+    },
+    "c_0916": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Insieme di acini o di frutti attaccati a un unico stelo.",
+        "example": "Staccò un grappolo d'uva dalla pergola."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0018",
+      "concept_b": "c_0260",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0023",
+      "concept_b": "c_0329",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0042",
+      "concept_b": "c_0530",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0325",
+      "concept_b": "c_0879",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0326",
+      "concept_b": "c_0893",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0353",
+      "concept_b": "c_0916",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    }
+  ],
+  "word_senses": {
+    "s_0260": {
+      "lexeme_id": "w_0260",
+      "lexeme_kind": "word",
+      "concept_id": "c_0260",
+      "is_primary": true
+    },
+    "s_0329": {
+      "lexeme_id": "w_0329",
+      "lexeme_kind": "word",
+      "concept_id": "c_0329",
+      "is_primary": true
+    },
+    "s_0530": {
+      "lexeme_id": "w_0530",
+      "lexeme_kind": "word",
+      "concept_id": "c_0530",
+      "is_primary": true
+    },
+    "s_0879": {
+      "lexeme_id": "w_0879",
+      "lexeme_kind": "word",
+      "concept_id": "c_0879",
+      "is_primary": true
+    },
+    "s_0893": {
+      "lexeme_id": "w_0893",
+      "lexeme_kind": "word",
+      "concept_id": "c_0893",
+      "is_primary": true
+    },
+    "s_0916": {
+      "lexeme_id": "w_0916",
+      "lexeme_kind": "word",
+      "concept_id": "c_0916",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0260": {
+      "display_form": "opera",
+      "normalized_form": "opera",
+      "pos": null
+    },
+    "w_0329": {
+      "display_form": "protezione",
+      "normalized_form": "protezione",
+      "pos": null
+    },
+    "w_0530": {
+      "display_form": "ondata",
+      "normalized_form": "ondata",
+      "pos": null
+    },
+    "w_0879": {
+      "display_form": "urbano",
+      "normalized_form": "urbano",
+      "pos": null
+    },
+    "w_0893": {
+      "display_form": "piuma",
+      "normalized_form": "piuma",
+      "pos": null
+    },
+    "w_0916": {
+      "display_form": "grappolo",
+      "normalized_form": "grappolo",
+      "pos": null
+    }
+  },
+  "expressions": {}
+}

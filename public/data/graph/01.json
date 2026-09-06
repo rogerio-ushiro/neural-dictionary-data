@@ -1,0 +1,222 @@
+{
+  "shard": "01",
+  "concepts": {
+    "c_0187": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "L'atto e il modo di costruire un edificio o un'opera; anche l'opera stessa.",
+        "example": "La costruzione del ponte durò tre anni."
+      }
+    },
+    "c_0402": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Rilievo del terreno più basso e dai fianchi meno ripidi di una montagna, spesso coltivato o abitato in cima.",
+        "example": "La chiesa sorge in cima al colle, fuori dal paese."
+      }
+    },
+    "c_0495": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Spuntino leggero che si fa nel pomeriggio, soprattutto dai bambini.",
+        "example": "Per merenda si prese pane e marmellata."
+      }
+    },
+    "c_0613": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Luce viva e improvvisa che risalta nel buio.",
+        "example": "Nel temporale un bagliore illuminò tutta la stanza."
+      }
+    },
+    "c_0666": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Il sostituire ciò che è vecchio o consumato con qualcosa di nuovo.",
+        "example": "Il palazzo ha bisogno di un profondo rinnovamento."
+      }
+    },
+    "c_0688": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Il consenso a fare qualcosa dato da chi ne ha l'autorità.",
+        "example": "Ha chiesto il permesso di uscire prima."
+      }
+    },
+    "c_1009": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Il guscio esterno di una nave, la struttura che galleggia sull'acqua.",
+        "example": "Lo scafo aveva bisogno di una raschiata e di nuova vernice."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0012",
+      "concept_b": "c_0187",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0031",
+      "concept_b": "c_0402",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0037",
+      "concept_b": "c_0495",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0069",
+      "concept_b": "c_0613",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0086",
+      "concept_b": "c_0666",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0109",
+      "concept_b": "c_0688",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0047",
+      "concept_b": "c_1009",
+      "relation_type": "parti",
+      "direction_hint": "symmetric",
+      "association_strength": 0.8,
+      "confidence": 0.9,
+      "status": "validated",
+      "revision": 2
+    }
+  ],
+  "word_senses": {
+    "s_0187": {
+      "lexeme_id": "w_0187",
+      "lexeme_kind": "word",
+      "concept_id": "c_0187",
+      "is_primary": true
+    },
+    "s_0402": {
+      "lexeme_id": "w_0402",
+      "lexeme_kind": "word",
+      "concept_id": "c_0402",
+      "is_primary": true
+    },
+    "s_0495": {
+      "lexeme_id": "w_0495",
+      "lexeme_kind": "word",
+      "concept_id": "c_0495",
+      "is_primary": true
+    },
+    "s_0613": {
+      "lexeme_id": "w_0613",
+      "lexeme_kind": "word",
+      "concept_id": "c_0613",
+      "is_primary": true
+    },
+    "s_0666": {
+      "lexeme_id": "w_0666",
+      "lexeme_kind": "word",
+      "concept_id": "c_0666",
+      "is_primary": true
+    },
+    "s_0688": {
+      "lexeme_id": "w_0688",
+      "lexeme_kind": "word",
+      "concept_id": "c_0688",
+      "is_primary": true
+    },
+    "s_1009": {
+      "lexeme_id": "w_1009",
+      "lexeme_kind": "word",
+      "concept_id": "c_1009",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0187": {
+      "display_form": "costruzione",
+      "normalized_form": "costruzione",
+      "pos": null
+    },
+    "w_0402": {
+      "display_form": "colle",
+      "normalized_form": "colle",
+      "pos": null
+    },
+    "w_0495": {
+      "display_form": "merenda",
+      "normalized_form": "merenda",
+      "pos": null
+    },
+    "w_0613": {
+      "display_form": "bagliore",
+      "normalized_form": "bagliore",
+      "pos": null
+    },
+    "w_0666": {
+      "display_form": "rinnovamento",
+      "normalized_form": "rinnovamento",
+      "pos": null
+    },
+    "w_0688": {
+      "display_form": "permesso",
+      "normalized_form": "permesso",
+      "pos": null
+    },
+    "w_1009": {
+      "display_form": "scafo",
+      "normalized_form": "scafo",
+      "pos": "sostantivo"
+    }
+  },
+  "expressions": {}
+}

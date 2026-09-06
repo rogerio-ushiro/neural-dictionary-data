@@ -1,0 +1,33 @@
+{
+  "pack": "graph.eb",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0206",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Gruppo di famiglie unite da lingua, usi e un capo comune.",
+          "example": "La tribù si spostava seguendo le mandrie."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0556",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Spaccatura profonda del terreno tra pareti ripide.",
+          "example": "Il sentiero costeggiava un dirupo senza parapetto."
+        }
+      }
+    }
+  ]
+}

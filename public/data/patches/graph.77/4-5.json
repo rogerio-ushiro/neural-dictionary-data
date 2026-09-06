@@ -1,0 +1,20 @@
+{
+  "pack": "graph.77",
+  "from": 4,
+  "to": 5,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0585",
+      "concept": {
+        "revision": 3,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Rombo cupo e prolungato che segue il lampo durante un temporale.",
+          "example": "Il tuono fece sobbalzare il cane."
+        }
+      }
+    }
+  ]
+}

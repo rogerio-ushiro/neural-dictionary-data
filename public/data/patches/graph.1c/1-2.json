@@ -1,0 +1,72 @@
+{
+  "pack": "graph.1c",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0272",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Componimento in versi che racconta una vicenda, spesso cantato con una melodia semplice e ripetuta.",
+          "example": "Il menestrello intonò una ballata d'amore."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0346",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "La parte legnosa e centrale dell'albero, tra le radici e i rami.",
+          "example": "Hanno segato il tronco caduto per farne legna."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0522",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Il momento in cui un astro sale sopra l'orizzonte.",
+          "example": "Si alzarono prima del levare del sole."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0816",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Tutto ciò che esiste, la Terra con i suoi abitanti; anche un ambiente sociale ristretto.",
+          "example": "Il viaggio le fece vedere il mondo con altri occhi."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0908",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Recipiente largo e poco profondo in cui si versa acqua per lavarsi le mani o il viso, comune un tempo prima dei lavandini.",
+          "example": "Versò l'acqua nel bacile e si rinfrescò il volto."
+        }
+      }
+    }
+  ]
+}

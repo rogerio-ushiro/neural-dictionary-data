@@ -1,0 +1,72 @@
+{
+  "shard": "5b",
+  "concepts": {
+    "c_0376": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Caduta dal cielo di acqua, neve o grandine.",
+        "example": "Sono previste precipitazioni abbondanti sulle zone montane."
+      }
+    },
+    "c_0826": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Qualsiasi fatto o evento che si può osservare in natura o nella società.",
+        "example": "L'aurora boreale è un fenomeno spettacolare."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0029",
+      "concept_b": "c_0376",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0300",
+      "concept_b": "c_0826",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    }
+  ],
+  "word_senses": {
+    "s_0376": {
+      "lexeme_id": "w_0376",
+      "lexeme_kind": "word",
+      "concept_id": "c_0376",
+      "is_primary": true
+    },
+    "s_0826": {
+      "lexeme_id": "w_0826",
+      "lexeme_kind": "word",
+      "concept_id": "c_0826",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0376": {
+      "display_form": "precipitazione",
+      "normalized_form": "precipitazione",
+      "pos": null
+    },
+    "w_0826": {
+      "display_form": "fenomeno",
+      "normalized_form": "fenomeno",
+      "pos": null
+    }
+  },
+  "expressions": {}
+}

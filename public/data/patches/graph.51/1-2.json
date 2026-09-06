@@ -1,0 +1,98 @@
+{
+  "pack": "graph.51",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0194",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Luogo in cui trovare protezione e accoglienza.",
+          "example": "La stalla fece da ricovero al gregge durante la bufera."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0248",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Istituzione che riunisce studiosi e artisti, o scuola superiore di arti come musica e belle arti.",
+          "example": "È stato ammesso all'accademia di belle arti."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0477",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Cialda di forma conica in cui si serve il gelato da passeggio.",
+          "example": "Il gelato colava dal cono lungo la mano."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0518",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Piacevolmente freddo, non ancora caldo; anche riposante e non sciupato.",
+          "example": "La sera portava un'aria fresca dopo la giornata afosa."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0583",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Scarica elettrica intensa che si scaglia dal cielo alla terra durante i temporali.",
+          "example": "Un fulmine colpì il campanile della chiesa."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0600",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Ciascuna delle gradazioni di un colore, dalla più chiara alla più scura.",
+          "example": "Ha dipinto la parete in una tonalità calda di beige."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0972",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Fremito rapido del corpo per freddo, febbre o forte emozione.",
+          "example": "Un brivido gli corse lungo la schiena entrando nella grotta."
+        }
+      }
+    }
+  ]
+}

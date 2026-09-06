@@ -1,0 +1,72 @@
+{
+  "pack": "graph.45",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0437",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Polvere che si ottiene macinando il grano o altri cereali, base per pane, pasta e dolci.",
+          "example": "Ha infarinato il piano di lavoro prima di stendere l'impasto."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0442",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "La parte interna e morbida del pane, sotto la crosta.",
+          "example": "Ai bambini piace solo la mollica, non la crosta."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0653",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Vasta regione arida dove non piove quasi mai e cresce pochissima vegetazione.",
+          "example": "Attraversarono il deserto viaggiando solo di notte."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0925",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Immagine di un defunto che si crede appaia ai vivi; anche una presenza vaga e inquietante.",
+          "example": "Nella casa abbandonata si aggirava, dicevano, un fantasma."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0990",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Suono confuso, forte e sgradevole, prodotto da cose che urtano o vibrano.",
+          "example": "Il rumore dei lavori in strada non lasciava dormire."
+        }
+      }
+    }
+  ]
+}

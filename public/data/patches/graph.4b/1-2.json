@@ -1,0 +1,85 @@
+{
+  "pack": "graph.4b",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0260",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Ciò che qualcuno crea con l'ingegno o il lavoro, in arte o in altro campo.",
+          "example": "Quel dipinto è la sua opera più famosa."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0329",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "L'azione di difendere qualcuno o qualcosa da un pericolo o da un danno.",
+          "example": "Il cane offre una buona protezione alla fattoria."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0530",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Serie di onde che si susseguono rapide; al figurato, un'ondata di caldo, di gente o di emozioni.",
+          "example": "Un'ondata di freddo ha investito tutta la regione."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0879",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Che riguarda la città e la vita cittadina.",
+          "example": "Il trasporto urbano è gratuito per gli anziani."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0893",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Ciascuna delle formazioni leggere che ricoprono il corpo degli uccelli e servono al volo e al caldo.",
+          "example": "Trovò una piuma bianca sul davanzale."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0916",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Insieme di acini o di frutti attaccati a un unico stelo.",
+          "example": "Staccò un grappolo d'uva dalla pergola."
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "shard": "e7",
+  "concepts": {
+    "c_0211": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Bambino piccolo (voce affettuosa e letteraria).",
+        "example": "Teneva il pargolo stretto tra le braccia."
+      }
+    },
+    "c_0541": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "La parte solida dei continenti, contrapposta al mare.",
+        "example": "Dopo settimane di navigazione avvistarono la terraferma."
+      }
+    },
+    "c_0880": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Semplice e senza pretese, come la vita e le cose di campagna.",
+        "example": "Il pranzo fu rustico ma abbondante: pane, salame e vino."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0014",
+      "concept_b": "c_0211",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0043",
+      "concept_b": "c_0541",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0325",
+      "concept_b": "c_0880",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    }
+  ],
+  "word_senses": {
+    "s_0211": {
+      "lexeme_id": "w_0211",
+      "lexeme_kind": "word",
+      "concept_id": "c_0211",
+      "is_primary": true
+    },
+    "s_0541": {
+      "lexeme_id": "w_0541",
+      "lexeme_kind": "word",
+      "concept_id": "c_0541",
+      "is_primary": true
+    },
+    "s_0880": {
+      "lexeme_id": "w_0880",
+      "lexeme_kind": "word",
+      "concept_id": "c_0880",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0211": {
+      "display_form": "pargolo",
+      "normalized_form": "pargolo",
+      "pos": null
+    },
+    "w_0541": {
+      "display_form": "terraferma",
+      "normalized_form": "terraferma",
+      "pos": null
+    },
+    "w_0880": {
+      "display_form": "rustico",
+      "normalized_form": "rustico",
+      "pos": null
+    }
+  },
+  "expressions": {}
+}

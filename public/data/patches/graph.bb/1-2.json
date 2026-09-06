@@ -1,0 +1,59 @@
+{
+  "pack": "graph.bb",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0048",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Terra circondata da acqua per ogni lato.",
+          "example": "Sull'isola si arriva solo con il traghetto."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0310",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Barra ricurva della bicicletta o della moto che si impugna per guidare e sterzare.",
+          "example": "Stringeva il manubrio nelle discese ripide."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0387",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Miscuglio gassoso che si respira e circonda la Terra; indica anche un breve motivo musicale e l'aspetto che una persona mostra di sé.",
+          "example": "Aprì la finestra per far entrare un po' d'aria."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0840",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Animale dalla pelle coperta di squame che striscia o cammina su zampe corte, come il serpente e la lucertola.",
+          "example": "Sotto il sasso si nascondeva un piccolo rettile."
+        }
+      }
+    }
+  ]
+}

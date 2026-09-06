@@ -1,0 +1,212 @@
+{
+  "shard": "18",
+  "concepts": {
+    "c_0012": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Edificio in cui si abita; al figurato, il senso di appartenenza e di rifugio che dà un luogo.",
+        "example": "Rientrò a casa che era già buio."
+      }
+    },
+    "c_0179": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Piccolo agglomerato di case fuori dal centro di un comune.",
+        "example": "Abita in una borgata a due chilometri dal paese."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0011",
+      "concept_b": "c_0179",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0012",
+      "concept_b": "c_0181",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0012",
+      "concept_b": "c_0182",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0012",
+      "concept_b": "c_0183",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0012",
+      "concept_b": "c_0184",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0012",
+      "concept_b": "c_0185",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0012",
+      "concept_b": "c_0186",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0012",
+      "concept_b": "c_0187",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0012",
+      "concept_b": "c_0188",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0012",
+      "concept_b": "c_0189",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0012",
+      "concept_b": "c_0190",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0012",
+      "concept_b": "c_0191",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0012",
+      "concept_b": "c_0192",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0012",
+      "concept_b": "c_0193",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0012",
+      "concept_b": "c_0194",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0012",
+      "concept_b": "c_0325",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    }
+  ],
+  "word_senses": {
+    "s_0012": {
+      "lexeme_id": "w_0012",
+      "lexeme_kind": "word",
+      "concept_id": "c_0012",
+      "is_primary": true
+    },
+    "s_0179": {
+      "lexeme_id": "w_0179",
+      "lexeme_kind": "word",
+      "concept_id": "c_0179",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0012": {
+      "display_form": "casa",
+      "normalized_form": "casa",
+      "pos": null
+    },
+    "w_0179": {
+      "display_form": "borgata",
+      "normalized_form": "borgata",
+      "pos": null
+    }
+  },
+  "expressions": {}
+}

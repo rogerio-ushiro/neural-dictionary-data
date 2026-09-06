@@ -1,0 +1,66 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://neural-dictionary/schema/v04/graph-shard.schema.json",
+  "title": "Graph shard v0.4",
+  "description": "One structural shard graph/NN (Story 4). Carries a subset of concepts plus every association that touches them; a cross-shard association is duplicated into both shards' bundles, so shard bundles are exempt from the canonical-uniqueness invariant until dedupeShards recombines them.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["shard", "concepts", "associations", "word_senses", "words", "expressions"],
+  "properties": {
+    "shard": { "type": "string", "pattern": "^[0-9a-f]{2}$" },
+    "concepts": {
+      "type": "object",
+      "propertyNames": { "type": "string", "pattern": "^c_[0-9]{4,}$" },
+      "additionalProperties": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["revision", "region_id", "status_fronteira"],
+        "properties": {
+          "revision": { "type": "integer", "minimum": 1 },
+          "region_id": {
+            "oneOf": [{ "type": "string", "pattern": "^r_[a-z_]+$" }, { "type": "null" }]
+          },
+          "status_fronteira": { "enum": ["needs_expansion", "expanded"] },
+          "definition": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["text", "example"],
+            "properties": {
+              "text": { "type": "string", "minLength": 1 },
+              "example": { "type": "string", "minLength": 1 }
+            }
+          }
+        }
+      }
+    },
+    "associations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "concept_a",
+          "concept_b",
+          "relation_type",
+          "association_strength",
+          "confidence",
+          "status",
+          "revision"
+        ],
+        "properties": {
+          "concept_a": { "type": "string", "pattern": "^c_[0-9]{4,}$" },
+          "concept_b": { "type": "string", "pattern": "^c_[0-9]{4,}$" },
+          "relation_type": { "type": "string", "minLength": 1 },
+          "direction_hint": { "enum": ["a_to_b", "b_to_a", "symmetric"] },
+          "association_strength": { "type": "number", "minimum": 0, "maximum": 1 },
+          "confidence": { "type": "number", "minimum": 0, "maximum": 1 },
+          "status": { "enum": ["candidate", "validated", "rejected", "deprecated"] },
+          "revision": { "type": "integer", "minimum": 1 }
+        }
+      }
+    },
+    "word_senses": { "type": "object" },
+    "words": { "type": "object" },
+    "expressions": { "type": "object" }
+  }
+}

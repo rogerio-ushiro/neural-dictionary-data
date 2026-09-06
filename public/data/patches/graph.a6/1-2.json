@@ -1,0 +1,59 @@
+{
+  "pack": "graph.a6",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0018",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Insieme di fogli stampati e rilegati che si leggono; contiene un racconto, uno studio o informazioni.",
+          "example": "Ha finito il libro in una notte."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0087",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "La stagione tra l'estate e l'inverno, quando le foglie ingialliscono e cadono.",
+          "example": "In autunno il bosco si tinge di rosso e di giallo."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0173",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Insieme di persone legate da un luogo, da interessi o da valori comuni.",
+          "example": "La comunità del paese si è stretta attorno alle famiglie colpite."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0700",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Insieme di persone o cose riunite in un unico complesso.",
+          "example": "Un gruppo di turisti aspettava la guida davanti al museo."
+        }
+      }
+    }
+  ]
+}

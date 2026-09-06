@@ -1,0 +1,46 @@
+{
+  "pack": "graph.ce",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0151",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Insieme di capi coordinati che si indossano per vestirsi con una certa cura.",
+          "example": "Ha stirato l'abito per il colloquio di lavoro."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0429",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Descrizione degli ingredienti e dei passaggi per preparare un piatto.",
+          "example": "Ha copiato la ricetta della torta dalla nonna."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0726",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Ruota con pale che gira spinta da acqua, vapore o gas per produrre energia.",
+          "example": "La turbina della centrale sfrutta la caduta dell'acqua."
+        }
+      }
+    }
+  ]
+}

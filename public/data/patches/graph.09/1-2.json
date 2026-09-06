@@ -1,0 +1,72 @@
+{
+  "pack": "graph.09",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0107",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Ciò che occupa piacevolmente il tempo libero e distrae dalle preoccupazioni.",
+          "example": "Per lui il divertimento più grande è pescare al lago."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0482",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Festa in cui si accolgono e si intrattengono gli ospiti.",
+          "example": "Diedero un ricevimento in giardino per le nozze."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0716",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Qualsiasi cosa si faccia impiegando tempo ed energie, per lavoro, studio o svago.",
+          "example": "Il nuoto è un'attività adatta a tutte le età."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0763",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Insieme di esseri viventi simili tra loro, che si riproducono tra di loro.",
+          "example": "Quella specie di uccelli è protetta."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0789",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Gruppo di versi di una poesia, separato dagli altri da uno spazio.",
+          "example": "La canzone ha tre strofe e un ritornello."
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "pack": "graph.d8",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0135",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Disco o cerchio che gira attorno a un perno e permette a un veicolo di rotolare avanti; al figurato, l'elemento che fa funzionare un meccanismo più grande.",
+          "example": "Una ruota della carriola si è sgonfiata."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0140",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "L'insieme delle valigie e dei colli che ci si porta dietro in viaggio.",
+          "example": "Ha imbarcato il bagaglio e si è diretto al gate."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0438",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Cereale da cui si ricava la farina per il pane; le sue spighe maturano d'estate.",
+          "example": "I campi di grano ondeggiavano sotto il vento."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0751",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Il liquido rosso che circola nel corpo; al figurato, la parentela e la discendenza.",
+          "example": "Sono legati dallo stesso sangue."
+        }
+      }
+    }
+  ]
+}

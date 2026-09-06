@@ -1,0 +1,59 @@
+{
+  "pack": "graph.2a",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0267",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Esposizione di una vicenda vera o inventata fatta a voce o per iscritto.",
+          "example": "Il nonno faceva sempre lo stesso racconto di guerra."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0537",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Qualsiasi cosa, gesto, luce o suono, con cui si trasmette a distanza un'informazione.",
+          "example": "Il faro manda un segnale ogni dieci secondi."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0894",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Piccola cavità della pelle da cui nasce un pelo.",
+          "example": "Il follicolo infiammato aveva formato un piccolo brufolo."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0911",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Erba fine e giovane, appena spuntata.",
+          "example": "Sul prato spuntava un velo di erbetta nuova."
+        }
+      }
+    }
+  ]
+}

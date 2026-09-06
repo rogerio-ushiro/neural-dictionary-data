@@ -1,0 +1,85 @@
+{
+  "pack": "graph.3f",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0237",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Chi appartiene alle generazioni passate della propria famiglia.",
+          "example": "I suoi antenati coltivavano queste stesse terre."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0282",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Chi siede alla stessa tavola come ospite abituale.",
+          "example": "Era il commensale più spiritoso delle nostre cene."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0413",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Distesa d'acqua salmastra separata dal mare da un cordone di sabbia.",
+          "example": "In laguna si naviga solo lungo i canali segnati."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0567",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Isola bassa a forma di anello, con una laguna al centro.",
+          "example": "L'atollo emerge appena dall'oceano."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0695",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Corteo religioso di fedeli che avanzano pregando dietro una statua o una croce.",
+          "example": "La processione percorse le vie del paese al lume delle candele."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0956",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Il verso verso cui qualcuno o qualcosa si muove o si orienta; al figurato, la linea di condotta di un'impresa.",
+          "example": "Ha preso la direzione sbagliata all'incrocio."
+        }
+      }
+    }
+  ]
+}

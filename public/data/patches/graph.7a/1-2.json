@@ -1,0 +1,46 @@
+{
+  "pack": "graph.7a",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0212",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Bambino o ragazzo (voce letteraria).",
+          "example": "Il fanciullo correva scalzo lungo la riva."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0542",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "La linea che segna il confine di una superficie; anche lo spazio libero che si lascia intorno a uno scritto o il guadagno che resta.",
+          "example": "Scrisse un appunto sul margine della pagina."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0883",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Ciascuno dei sottili filamenti che crescono sul capo dell'uomo.",
+          "example": "Si è tagliata i capelli cortissimi per l'estate."
+        }
+      }
+    }
+  ]
+}

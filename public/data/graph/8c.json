@@ -1,0 +1,202 @@
+{
+  "shard": "8c",
+  "concepts": {
+    "c_0139": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "L'aumento progressivo della velocità di un corpo in movimento.",
+        "example": "Il treno prese velocità con una lenta accelerazione."
+      }
+    },
+    "c_0434": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Organo interno in cui il cibo comincia a essere digerito; al figurato, la resistenza a situazioni sgradevoli.",
+        "example": "Il cibo troppo pesante gli è rimasto sullo stomaco."
+      }
+    },
+    "c_0441": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Sostanza che, aggiunta all'impasto, lo fa gonfiare e diventare soffice.",
+        "example": "Senza lievito il pane resta duro come una pietra."
+      }
+    },
+    "c_0650": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Fenditura che si apre in un terreno o in un muro secco.",
+        "example": "Con la siccità nella terra si aprirono crepe larghe una mano."
+      }
+    },
+    "c_0926": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Sospensione di minute gocce d'acqua vicino al suolo che riduce la visibilità.",
+        "example": "La nebbia era così fitta che non si vedeva la strada."
+      }
+    },
+    "c_0993": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Rumore secco e forte di qualcosa che esplode o si rompe di colpo.",
+        "example": "Lo scoppio del petardo spaventò i passanti."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0008",
+      "concept_b": "c_0139",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0033",
+      "concept_b": "c_0434",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0034",
+      "concept_b": "c_0441",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0084",
+      "concept_b": "c_0650",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0354",
+      "concept_b": "c_0926",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0370",
+      "concept_b": "c_0926",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0392",
+      "concept_b": "c_0993",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    }
+  ],
+  "word_senses": {
+    "s_0139": {
+      "lexeme_id": "w_0139",
+      "lexeme_kind": "word",
+      "concept_id": "c_0139",
+      "is_primary": true
+    },
+    "s_0434": {
+      "lexeme_id": "w_0434",
+      "lexeme_kind": "word",
+      "concept_id": "c_0434",
+      "is_primary": true
+    },
+    "s_0441": {
+      "lexeme_id": "w_0441",
+      "lexeme_kind": "word",
+      "concept_id": "c_0441",
+      "is_primary": true
+    },
+    "s_0650": {
+      "lexeme_id": "w_0650",
+      "lexeme_kind": "word",
+      "concept_id": "c_0650",
+      "is_primary": true
+    },
+    "s_0926": {
+      "lexeme_id": "w_0926",
+      "lexeme_kind": "word",
+      "concept_id": "c_0926",
+      "is_primary": true
+    },
+    "s_0993": {
+      "lexeme_id": "w_0993",
+      "lexeme_kind": "word",
+      "concept_id": "c_0993",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0139": {
+      "display_form": "accelerazione",
+      "normalized_form": "accelerazione",
+      "pos": null
+    },
+    "w_0434": {
+      "display_form": "stomaco",
+      "normalized_form": "stomaco",
+      "pos": null
+    },
+    "w_0441": {
+      "display_form": "lievito",
+      "normalized_form": "lievito",
+      "pos": null
+    },
+    "w_0650": {
+      "display_form": "crepa",
+      "normalized_form": "crepa",
+      "pos": null
+    },
+    "w_0926": {
+      "display_form": "nebbia",
+      "normalized_form": "nebbia",
+      "pos": null
+    },
+    "w_0993": {
+      "display_form": "scoppio",
+      "normalized_form": "scoppio",
+      "pos": null
+    }
+  },
+  "expressions": {}
+}

@@ -1,0 +1,33 @@
+{
+  "pack": "graph.3e",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0010",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Grande centro abitato con molti edifici, strade e servizi, dove vive e lavora un gran numero di persone.",
+          "example": "In città è difficile trovare parcheggio la sera."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0708",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Lo spostare qualcosa da un punto a un altro mantenendolo uguale a se stesso, senza girarlo né deformarlo.",
+          "example": "La gru eseguì la traslazione del container sul molo."
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "shard": "ea",
+  "concepts": {
+    "c_0362": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Ciò che l'occhio percepisce quando la luce si riflette sulle cose, come il rosso o il verde.",
+        "example": "Ha ridipinto la stanza di un colore più chiaro."
+      }
+    },
+    "c_0832": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Sentiero di montagna percorribile solo a piedi o con i muli.",
+        "example": "Portarono i rifornimenti su per la mulattiera."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0027",
+      "concept_b": "c_0362",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0299",
+      "concept_b": "c_0362",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0303",
+      "concept_b": "c_0832",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    }
+  ],
+  "word_senses": {
+    "s_0362": {
+      "lexeme_id": "w_0362",
+      "lexeme_kind": "word",
+      "concept_id": "c_0362",
+      "is_primary": true
+    },
+    "s_0832": {
+      "lexeme_id": "w_0832",
+      "lexeme_kind": "word",
+      "concept_id": "c_0832",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0362": {
+      "display_form": "colore",
+      "normalized_form": "colore",
+      "pos": null
+    },
+    "w_0832": {
+      "display_form": "mulattiera",
+      "normalized_form": "mulattiera",
+      "pos": null
+    }
+  },
+  "expressions": {}
+}

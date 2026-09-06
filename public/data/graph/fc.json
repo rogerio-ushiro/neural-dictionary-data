@@ -1,0 +1,342 @@
+{
+  "shard": "fc",
+  "concepts": {
+    "c_0188": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "La copertura superiore di un edificio, che ripara da pioggia e sole.",
+        "example": "Il vento aveva scoperchiato una parte del tetto."
+      }
+    },
+    "c_0221": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Il piccolo del cane e di altri mammiferi; con affetto, un bambino.",
+        "example": "Il cucciolo mordicchiava le pantofole di tutti."
+      }
+    },
+    "c_0254": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Il processo con cui una persona acquisisce conoscenze e capacità per una professione.",
+        "example": "Ha seguito un corso di formazione per infermieri."
+      }
+    },
+    "c_0395": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Il punto più alto di una montagna.",
+        "example": "Raggiunsero la vetta poco prima di mezzogiorno."
+      }
+    },
+    "c_0504": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "L'emettere con la voce suoni musicali; anche il brano che si canta.",
+        "example": "Dai campi saliva il canto dei mietitori."
+      }
+    },
+    "c_0571": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "La direzione da tenere durante un viaggio per mare o per aria; al figurato, la linea di condotta scelta.",
+        "example": "Il comandante corresse la rotta per evitare la tempesta."
+      }
+    },
+    "c_0669": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Sentimento profondo di affetto e attrazione che lega a una persona o a una cosa.",
+        "example": "Il loro amore è nato sui banchi di scuola."
+      }
+    },
+    "c_0687": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Permesso ufficiale di fare o esercitare qualcosa; anche un eccesso di libertà nei modi.",
+        "example": "Ha ottenuto la licenza per aprire il locale."
+      }
+    },
+    "c_0962": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Involucro di aria che avvolge la Terra; anche il clima emotivo che si respira in un luogo.",
+        "example": "In sala regnava un'atmosfera di attesa."
+      }
+    },
+    "c_1006": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Dolcezza e moderazione di modi; anche la clemenza del clima.",
+        "example": "Lo colpì la mitezza con cui rispose all'offesa."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0012",
+      "concept_b": "c_0188",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0014",
+      "concept_b": "c_0221",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0017",
+      "concept_b": "c_0254",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0031",
+      "concept_b": "c_0395",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0038",
+      "concept_b": "c_0504",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0051",
+      "concept_b": "c_0571",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0086",
+      "concept_b": "c_0669",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0109",
+      "concept_b": "c_0687",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0159",
+      "concept_b": "c_0571",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0272",
+      "concept_b": "c_0504",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0381",
+      "concept_b": "c_0962",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0387",
+      "concept_b": "c_0962",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0516",
+      "concept_b": "c_1006",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    }
+  ],
+  "word_senses": {
+    "s_0188": {
+      "lexeme_id": "w_0188",
+      "lexeme_kind": "word",
+      "concept_id": "c_0188",
+      "is_primary": true
+    },
+    "s_0221": {
+      "lexeme_id": "w_0221",
+      "lexeme_kind": "word",
+      "concept_id": "c_0221",
+      "is_primary": true
+    },
+    "s_0254": {
+      "lexeme_id": "w_0254",
+      "lexeme_kind": "word",
+      "concept_id": "c_0254",
+      "is_primary": true
+    },
+    "s_0395": {
+      "lexeme_id": "w_0395",
+      "lexeme_kind": "word",
+      "concept_id": "c_0395",
+      "is_primary": true
+    },
+    "s_0504": {
+      "lexeme_id": "w_0504",
+      "lexeme_kind": "word",
+      "concept_id": "c_0504",
+      "is_primary": true
+    },
+    "s_0571": {
+      "lexeme_id": "w_0571",
+      "lexeme_kind": "word",
+      "concept_id": "c_0571",
+      "is_primary": true
+    },
+    "s_0669": {
+      "lexeme_id": "w_0669",
+      "lexeme_kind": "word",
+      "concept_id": "c_0669",
+      "is_primary": true
+    },
+    "s_0687": {
+      "lexeme_id": "w_0687",
+      "lexeme_kind": "word",
+      "concept_id": "c_0687",
+      "is_primary": true
+    },
+    "s_0962": {
+      "lexeme_id": "w_0962",
+      "lexeme_kind": "word",
+      "concept_id": "c_0962",
+      "is_primary": true
+    },
+    "s_1006": {
+      "lexeme_id": "w_1006",
+      "lexeme_kind": "word",
+      "concept_id": "c_1006",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0188": {
+      "display_form": "tetto",
+      "normalized_form": "tetto",
+      "pos": null
+    },
+    "w_0221": {
+      "display_form": "cucciolo",
+      "normalized_form": "cucciolo",
+      "pos": null
+    },
+    "w_0254": {
+      "display_form": "formazione",
+      "normalized_form": "formazione",
+      "pos": null
+    },
+    "w_0395": {
+      "display_form": "vetta",
+      "normalized_form": "vetta",
+      "pos": null
+    },
+    "w_0504": {
+      "display_form": "canto",
+      "normalized_form": "canto",
+      "pos": null
+    },
+    "w_0571": {
+      "display_form": "rotta",
+      "normalized_form": "rotta",
+      "pos": null
+    },
+    "w_0669": {
+      "display_form": "amore",
+      "normalized_form": "amore",
+      "pos": null
+    },
+    "w_0687": {
+      "display_form": "licenza",
+      "normalized_form": "licenza",
+      "pos": null
+    },
+    "w_0962": {
+      "display_form": "atmosfera",
+      "normalized_form": "atmosfera",
+      "pos": null
+    },
+    "w_1006": {
+      "display_form": "mitezza",
+      "normalized_form": "mitezza",
+      "pos": null
+    }
+  },
+  "expressions": {}
+}

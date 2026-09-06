@@ -1,0 +1,322 @@
+{
+  "shard": "2f",
+  "concepts": {
+    "c_0008": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Convoglio di vagoni trainati su rotaia da una locomotiva, usato per trasportare persone o merci tra le stazioni.",
+        "example": "Il treno per Milano parte dal binario quattro."
+      }
+    },
+    "c_0101": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Giorni di riposo retribuito che spettano al lavoratore ogni anno.",
+        "example": "Prende le ferie sempre nella seconda metà di agosto."
+      }
+    },
+    "c_0484": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Pranzo festoso in compagnia; anche l'insieme dei convitati.",
+        "example": "Il convivio si protrasse tra racconti e risate."
+      }
+    },
+    "c_0710": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Ciò che qualcuno fa concretamente per ottenere un risultato, in contrapposizione alle sole parole o intenzioni.",
+        "example": "È il momento di passare all'azione."
+      }
+    },
+    "c_0765": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Il primo antenato da cui discende una famiglia o un popolo.",
+        "example": "Il capostipite arrivò in questa valle tre secoli fa."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0006",
+      "concept_b": "c_0101",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0007",
+      "concept_b": "c_0008",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0008",
+      "concept_b": "c_0113",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0008",
+      "concept_b": "c_0126",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0008",
+      "concept_b": "c_0127",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0008",
+      "concept_b": "c_0128",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0008",
+      "concept_b": "c_0129",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0008",
+      "concept_b": "c_0130",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0008",
+      "concept_b": "c_0131",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0008",
+      "concept_b": "c_0132",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0008",
+      "concept_b": "c_0133",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0008",
+      "concept_b": "c_0134",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0008",
+      "concept_b": "c_0135",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0008",
+      "concept_b": "c_0136",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0008",
+      "concept_b": "c_0137",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0008",
+      "concept_b": "c_0138",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0008",
+      "concept_b": "c_0139",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0037",
+      "concept_b": "c_0484",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0085",
+      "concept_b": "c_0101",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0118",
+      "concept_b": "c_0710",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0226",
+      "concept_b": "c_0765",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    }
+  ],
+  "word_senses": {
+    "s_0008": {
+      "lexeme_id": "w_0008",
+      "lexeme_kind": "word",
+      "concept_id": "c_0008",
+      "is_primary": true
+    },
+    "s_0101": {
+      "lexeme_id": "w_0101",
+      "lexeme_kind": "word",
+      "concept_id": "c_0101",
+      "is_primary": true
+    },
+    "s_0484": {
+      "lexeme_id": "w_0484",
+      "lexeme_kind": "word",
+      "concept_id": "c_0484",
+      "is_primary": true
+    },
+    "s_0710": {
+      "lexeme_id": "w_0710",
+      "lexeme_kind": "word",
+      "concept_id": "c_0710",
+      "is_primary": true
+    },
+    "s_0765": {
+      "lexeme_id": "w_0765",
+      "lexeme_kind": "word",
+      "concept_id": "c_0765",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0008": {
+      "display_form": "treno",
+      "normalized_form": "treno",
+      "pos": null
+    },
+    "w_0101": {
+      "display_form": "ferie",
+      "normalized_form": "ferie",
+      "pos": null
+    },
+    "w_0484": {
+      "display_form": "convivio",
+      "normalized_form": "convivio",
+      "pos": null
+    },
+    "w_0710": {
+      "display_form": "azione",
+      "normalized_form": "azione",
+      "pos": null
+    },
+    "w_0765": {
+      "display_form": "capostipite",
+      "normalized_form": "capostipite",
+      "pos": null
+    }
+  },
+  "expressions": {}
+}

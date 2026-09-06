@@ -1,0 +1,46 @@
+{
+  "pack": "graph.c4",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0038",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Arte di combinare suoni e ritmi in modo gradevole all'orecchio; anche l'insieme dei brani che si ascoltano.",
+          "example": "Studia musica da quando aveva sei anni."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0360",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Fiore a coppa dai colori vivaci che sboccia in primavera da un bulbo.",
+          "example": "Nel prato erano spuntati centinaia di tulipani rossi."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0830",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Sentiero stretto e poco battuto.",
+          "example": "Una stradetta in salita portava alla cappella."
+        }
+      }
+    }
+  ]
+}

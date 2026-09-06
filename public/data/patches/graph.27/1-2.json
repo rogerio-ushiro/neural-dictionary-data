@@ -1,0 +1,98 @@
+{
+  "pack": "graph.27",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0181",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Il luogo dove si vive stabilmente, la propria casa.",
+          "example": "Ha cambiato abitazione per avvicinarsi al lavoro."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0228",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Antenato da cui si discende; anche l'influenza o il prestigio che si esercita sugli altri.",
+          "example": "Ha un forte ascendente sui più giovani."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0404",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Rilievo del terreno più basso e più dolce di una montagna.",
+          "example": "Le vigne coprono i fianchi della collina fino alla cima."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0493",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Riunione di molte persone convenute per uno scopo comune.",
+          "example": "Al raduno degli alpini parteciparono migliaia di persone."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0578",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Tempesta improvvisa e violenta, con vento e pioggia scroscianti.",
+          "example": "Furono sorpresi da una bufera di neve sul valico."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0615",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Il rimando della luce o del calore da una superficie; anche il pensare a lungo su qualcosa.",
+          "example": "La riflessione del sole sull'acqua abbagliava."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0660",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Stato di distensione fisica e mentale che allontana lo stress.",
+          "example": "Un po' di musica gli basta per trovare il relax."
+        }
+      }
+    }
+  ]
+}

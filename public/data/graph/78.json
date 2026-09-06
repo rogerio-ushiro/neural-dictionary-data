@@ -1,0 +1,72 @@
+{
+  "shard": "78",
+  "concepts": {
+    "c_0364": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Fragile e fine, che si rovina o si offende facilmente.",
+        "example": "Il fiore ha petali delicati che appassiscono in un giorno."
+      }
+    },
+    "c_0834": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Costruzione che unisce due sponde permettendo di attraversare un ostacolo; al figurato, ciò che mette in contatto due parti.",
+        "example": "Il ponte di legno scricchiolava sotto i passi."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0027",
+      "concept_b": "c_0364",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0303",
+      "concept_b": "c_0834",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    }
+  ],
+  "word_senses": {
+    "s_0364": {
+      "lexeme_id": "w_0364",
+      "lexeme_kind": "word",
+      "concept_id": "c_0364",
+      "is_primary": true
+    },
+    "s_0834": {
+      "lexeme_id": "w_0834",
+      "lexeme_kind": "word",
+      "concept_id": "c_0834",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0364": {
+      "display_form": "delicato",
+      "normalized_form": "delicato",
+      "pos": null
+    },
+    "w_0834": {
+      "display_form": "ponte",
+      "normalized_form": "ponte",
+      "pos": null
+    }
+  },
+  "expressions": {}
+}

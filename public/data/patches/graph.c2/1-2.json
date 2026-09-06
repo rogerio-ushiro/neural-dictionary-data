@@ -1,0 +1,59 @@
+{
+  "pack": "graph.c2",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0102",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Attività piacevole con cui ci si riposa la mente distraendosi dagli impegni.",
+          "example": "Nei pomeriggi liberi si dedica allo svago della lettura."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0487",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Festa chiassosa e sfrenata, con canti e abbondanti bevute.",
+          "example": "Fecero baldoria fino all'alba per la vittoria."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0713",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Leggero e involontario scuotersi del corpo, per freddo, paura o emozione.",
+          "example": "Un tremore alle mani lo tradiva mentre firmava."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0766",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Il padre del nonno o della nonna.",
+          "example": "Il bisnonno visse fino a cent'anni."
+        }
+      }
+    }
+  ]
+}

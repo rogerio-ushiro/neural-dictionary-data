@@ -1,0 +1,72 @@
+{
+  "pack": "graph.2f",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0008",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Convoglio di vagoni trainati su rotaia da una locomotiva, usato per trasportare persone o merci tra le stazioni.",
+          "example": "Il treno per Milano parte dal binario quattro."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0101",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Giorni di riposo retribuito che spettano al lavoratore ogni anno.",
+          "example": "Prende le ferie sempre nella seconda metà di agosto."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0484",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Pranzo festoso in compagnia; anche l'insieme dei convitati.",
+          "example": "Il convivio si protrasse tra racconti e risate."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0710",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Ciò che qualcuno fa concretamente per ottenere un risultato, in contrapposizione alle sole parole o intenzioni.",
+          "example": "È il momento di passare all'azione."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0765",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Il primo antenato da cui discende una famiglia o un popolo.",
+          "example": "Il capostipite arrivò in questa valle tre secoli fa."
+        }
+      }
+    }
+  ]
+}

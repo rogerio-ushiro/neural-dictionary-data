@@ -1,0 +1,59 @@
+{
+  "pack": "graph.d0",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0276",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Amico strettissimo, con cui si condivide tutto.",
+          "example": "Solo un amico intimo poteva permettersi quella battuta."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0342",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "L'attività di far crescere piante utili lavorando il terreno.",
+          "example": "Si dedica alla coltivazione degli ulivi da quando è in pensione."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0526",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Che viene prima di tutti gli altri nel tempo o nell'ordine.",
+          "example": "Fu il primo ad arrivare e l'ultimo ad andarsene."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0812",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Pietra preziosa di un verde intenso.",
+          "example": "L'anello aveva uno smeraldo incastonato tra due diamanti."
+        }
+      }
+    }
+  ]
+}

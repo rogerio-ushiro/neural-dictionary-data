@@ -1,0 +1,26 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://neural-dictionary/schema/v04/lexicon-pack.schema.json",
+  "title": "Lexicon pack v0.4",
+  "description": "One autocomplete pack, e.g. lexicon/it/ma. Derived from the graph's inline lexical_index (Story 4).",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["prefix", "entries"],
+  "properties": {
+    "prefix": { "type": "string", "minLength": 1 },
+    "entries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["normalized_form", "lexeme_id", "lexeme_kind", "display_form"],
+        "properties": {
+          "normalized_form": { "type": "string", "minLength": 1 },
+          "lexeme_id": { "type": "string", "pattern": "^[we]_[0-9]{4,}$" },
+          "lexeme_kind": { "enum": ["word", "expression"] },
+          "display_form": { "type": "string", "minLength": 1 }
+        }
+      }
+    }
+  }
+}

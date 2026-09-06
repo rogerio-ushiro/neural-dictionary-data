@@ -1,0 +1,222 @@
+{
+  "shard": "da",
+  "concepts": {
+    "c_0278": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Chi si unisce a un altro per un fine comune, contro un avversario condiviso.",
+        "example": "In quella battaglia trovò un alleato inaspettato."
+      }
+    },
+    "c_0461": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Piccolo frutto carnoso con semi all'interno, come il mirtillo o il ribes.",
+        "example": "Raccolsero bacche di sottobosco per la marmellata."
+      }
+    },
+    "c_0528": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Onda ampia e possente del mare aperto.",
+        "example": "I flutti si abbattevano contro la scogliera."
+      }
+    },
+    "c_0595": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Bruciatura leggera della pelle causata da troppa esposizione al sole.",
+        "example": "Dopo un'ora senza crema si era già preso una scottatura."
+      }
+    },
+    "c_0630": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Oscurità fitta e completa (voce letteraria).",
+        "example": "Le tenebre calarono sulla valle senza una stella."
+      }
+    },
+    "c_0902": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Opera d'arte eretta in luogo pubblico per ricordare una persona o un fatto.",
+        "example": "Al centro della piazza c'è un monumento ai caduti."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0019",
+      "concept_b": "c_0278",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0035",
+      "concept_b": "c_0461",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0042",
+      "concept_b": "c_0528",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0060",
+      "concept_b": "c_0595",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0078",
+      "concept_b": "c_0630",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0343",
+      "concept_b": "c_0902",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0353",
+      "concept_b": "c_0461",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0354",
+      "concept_b": "c_0630",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0510",
+      "concept_b": "c_0630",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    }
+  ],
+  "word_senses": {
+    "s_0278": {
+      "lexeme_id": "w_0278",
+      "lexeme_kind": "word",
+      "concept_id": "c_0278",
+      "is_primary": true
+    },
+    "s_0461": {
+      "lexeme_id": "w_0461",
+      "lexeme_kind": "word",
+      "concept_id": "c_0461",
+      "is_primary": true
+    },
+    "s_0528": {
+      "lexeme_id": "w_0528",
+      "lexeme_kind": "word",
+      "concept_id": "c_0528",
+      "is_primary": true
+    },
+    "s_0595": {
+      "lexeme_id": "w_0595",
+      "lexeme_kind": "word",
+      "concept_id": "c_0595",
+      "is_primary": true
+    },
+    "s_0630": {
+      "lexeme_id": "w_0630",
+      "lexeme_kind": "word",
+      "concept_id": "c_0630",
+      "is_primary": true
+    },
+    "s_0902": {
+      "lexeme_id": "w_0902",
+      "lexeme_kind": "word",
+      "concept_id": "c_0902",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0278": {
+      "display_form": "alleato",
+      "normalized_form": "alleato",
+      "pos": null
+    },
+    "w_0461": {
+      "display_form": "bacca",
+      "normalized_form": "bacca",
+      "pos": null
+    },
+    "w_0528": {
+      "display_form": "flutto",
+      "normalized_form": "flutto",
+      "pos": null
+    },
+    "w_0595": {
+      "display_form": "scottatura",
+      "normalized_form": "scottatura",
+      "pos": null
+    },
+    "w_0630": {
+      "display_form": "tenebra",
+      "normalized_form": "tenebra",
+      "pos": null
+    },
+    "w_0902": {
+      "display_form": "monumento",
+      "normalized_form": "monumento",
+      "pos": null
+    }
+  },
+  "expressions": {}
+}

@@ -1,0 +1,132 @@
+{
+  "shard": "d0",
+  "concepts": {
+    "c_0276": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Amico strettissimo, con cui si condivide tutto.",
+        "example": "Solo un amico intimo poteva permettersi quella battuta."
+      }
+    },
+    "c_0342": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "L'attività di far crescere piante utili lavorando il terreno.",
+        "example": "Si dedica alla coltivazione degli ulivi da quando è in pensione."
+      }
+    },
+    "c_0526": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Che viene prima di tutti gli altri nel tempo o nell'ordine.",
+        "example": "Fu il primo ad arrivare e l'ultimo ad andarsene."
+      }
+    },
+    "c_0812": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Pietra preziosa di un verde intenso.",
+        "example": "L'anello aveva uno smeraldo incastonato tra due diamanti."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0019",
+      "concept_b": "c_0276",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0025",
+      "concept_b": "c_0342",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0040",
+      "concept_b": "c_0526",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0299",
+      "concept_b": "c_0812",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    }
+  ],
+  "word_senses": {
+    "s_0276": {
+      "lexeme_id": "w_0276",
+      "lexeme_kind": "word",
+      "concept_id": "c_0276",
+      "is_primary": true
+    },
+    "s_0342": {
+      "lexeme_id": "w_0342",
+      "lexeme_kind": "word",
+      "concept_id": "c_0342",
+      "is_primary": true
+    },
+    "s_0526": {
+      "lexeme_id": "w_0526",
+      "lexeme_kind": "word",
+      "concept_id": "c_0526",
+      "is_primary": true
+    },
+    "s_0812": {
+      "lexeme_id": "w_0812",
+      "lexeme_kind": "word",
+      "concept_id": "c_0812",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0276": {
+      "display_form": "intimo",
+      "normalized_form": "intimo",
+      "pos": null
+    },
+    "w_0342": {
+      "display_form": "coltivazione",
+      "normalized_form": "coltivazione",
+      "pos": null
+    },
+    "w_0526": {
+      "display_form": "primo",
+      "normalized_form": "primo",
+      "pos": null
+    },
+    "w_0812": {
+      "display_form": "smeraldo",
+      "normalized_form": "smeraldo",
+      "pos": null
+    }
+  },
+  "expressions": {}
+}

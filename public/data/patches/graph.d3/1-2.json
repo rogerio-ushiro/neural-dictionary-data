@@ -1,0 +1,98 @@
+{
+  "pack": "graph.d3",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0149",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Il chiudere e proteggere merci in involucri per il trasporto o la vendita.",
+          "example": "L'imballaggio del vetro va fatto con cura."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0431",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "La sensazione che un cibo dà in bocca, dolce, salato, amaro o acido.",
+          "example": "La minestra aveva un sapore delicato di verdure fresche."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0444",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Panino dolce e soffio a base di burro e uova, tipico della colazione.",
+          "example": "Al bar prese un cappuccino e una brioche calda."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0655",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Debolezza e spossatezza, per il caldo, la fame o la malinconia.",
+          "example": "Il caldo gli dava un languore che lo faceva desiderare solo di dormire."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0758",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Qualcosa che esiste come cosa a sé, spesso astratta o difficile da definire.",
+          "example": "Lo Stato è un'entità che sopravvive ai singoli governi."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0923",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Il contorno di un viso o di una figura visti di lato.",
+          "example": "Riconobbe il suo profilo contro la finestra."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0996",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Voce alta e improvvisa emessa per paura, dolore o richiamo.",
+          "example": "Un grido nel buio fece accorrere i vicini."
+        }
+      }
+    }
+  ]
+}

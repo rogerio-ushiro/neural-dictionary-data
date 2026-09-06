@@ -1,0 +1,59 @@
+{
+  "pack": "graph.f4",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0157",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Spazio aperto al centro di un abitato, punto di incontro e di mercato.",
+          "example": "La piazza si riempiva di bancarelle il sabato mattina."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0298",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Terreno coperto d'erba bassa, usato per il pascolo o come giardino.",
+          "example": "Stesero la coperta sul prato per il picnic."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0720",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Elemento cilindrico attorno a cui gira una ruota o una leva.",
+          "example": "Il perno del cancello era arrugginito e cigolava."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0939",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Zona dove un fiume, prima di sfociare, si divide in più rami depositando detriti.",
+          "example": "Il delta del fiume è una vasta area di canali e isolotti."
+        }
+      }
+    }
+  ]
+}

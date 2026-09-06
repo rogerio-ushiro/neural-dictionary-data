@@ -1,0 +1,112 @@
+{
+  "shard": "85",
+  "concepts": {
+    "c_0082": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "L'ottavo mese dell'anno, il più caldo e quello delle ferie.",
+        "example": "Ad agosto il paese si svuota e i negozi chiudono."
+      }
+    },
+    "c_0176": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "L'insieme delle persone di un luogo o di una condizione.",
+        "example": "La gente del paese si dà una mano nei momenti difficili."
+      }
+    },
+    "c_0705": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Il passaggio di qualcosa o qualcuno da un luogo a un altro.",
+        "example": "Lo spostamento dei mobili ha richiesto tutto il pomeriggio."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0004",
+      "concept_b": "c_0082",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0011",
+      "concept_b": "c_0176",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0118",
+      "concept_b": "c_0705",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0374",
+      "concept_b": "c_0705",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    }
+  ],
+  "word_senses": {
+    "s_0082": {
+      "lexeme_id": "w_0082",
+      "lexeme_kind": "word",
+      "concept_id": "c_0082",
+      "is_primary": true
+    },
+    "s_0176": {
+      "lexeme_id": "w_0176",
+      "lexeme_kind": "word",
+      "concept_id": "c_0176",
+      "is_primary": true
+    },
+    "s_0705": {
+      "lexeme_id": "w_0705",
+      "lexeme_kind": "word",
+      "concept_id": "c_0705",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0082": {
+      "display_form": "agosto",
+      "normalized_form": "agosto",
+      "pos": null
+    },
+    "w_0176": {
+      "display_form": "gente",
+      "normalized_form": "gente",
+      "pos": null
+    },
+    "w_0705": {
+      "display_form": "spostamento",
+      "normalized_form": "spostamento",
+      "pos": null
+    }
+  },
+  "expressions": {}
+}

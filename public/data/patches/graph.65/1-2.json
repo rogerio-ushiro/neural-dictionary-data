@@ -1,0 +1,111 @@
+{
+  "pack": "graph.65",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0169",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Comunità di persone con la stessa lingua, storia e territorio, organizzata in Stato.",
+          "example": "L'inno viene cantato prima delle partite della nazione."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0235",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Antenato, in particolare il nonno o un ascendente lontano (voce elevata).",
+          "example": "Gli avi riposano tutti nello stesso cimitero di campagna."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0280",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Ogni altra persona verso cui si hanno doveri di rispetto e solidarietà.",
+          "example": "Ama il prossimo come te stesso."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0411",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Ampia conca del terreno in cui si raccolgono le acque di un fiume o di un lago.",
+          "example": "Le piogge riempiono il bacino artificiale della diga."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0565",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Piccola isola.",
+          "example": "Al centro del lago spunta un isolotto con una cappella."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0697",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "L'insieme delle persone che accompagnano e servono un personaggio importante.",
+          "example": "Il ministro arrivò con tutto il suo seguito."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0738",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Il primo stabilirsi di un gruppo di persone in un luogo per abitarvi.",
+          "example": "Gli scavi hanno riportato alla luce un insediamento preistorico."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0954",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Il modo in cui una situazione si sviluppa nel tempo, se in meglio o in peggio.",
+          "example": "L'andamento delle vendite è migliorato in autunno."
+        }
+      }
+    }
+  ]
+}

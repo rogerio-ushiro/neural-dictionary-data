@@ -1,0 +1,72 @@
+{
+  "pack": "graph.24",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0131",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Coppia di rotaie parallele su cui corrono i treni.",
+          "example": "È vietato attraversare il binario fuori dai passaggi."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0144",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Sacca che si porta sulle spalle con due bretelle, usata per tenere le mani libere mentre si cammina o si va a scuola.",
+          "example": "Ha infilato il quaderno nello zaino ed è uscito di corsa."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0449",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Pianta erbacea coltivata per i suoi semi commestibili, come grano, mais e riso.",
+          "example": "A colazione mangia un cereale con il latte."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0658",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "L'allentamento della tensione muscolare e mentale che dà riposo.",
+          "example": "Qualche minuto di rilassamento prima di dormire."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0755",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Qualsiasi essere vivente, animale o vegetale, capace di nascere, nutrirsi e riprodursi.",
+          "example": "Anche il più piccolo organismo ha un ruolo nell'ecosistema."
+        }
+      }
+    }
+  ]
+}

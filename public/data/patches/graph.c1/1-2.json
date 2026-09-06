@@ -1,0 +1,72 @@
+{
+  "pack": "graph.c1",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0217",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Discendente diretto, figlio o nipote di una famiglia.",
+          "example": "È l'ultimo rampollo di una nobile casata."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0338",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Il non dipendere da nessuno per decidere e agire; è tratto proverbiale del gatto.",
+          "example": "Ha lasciato l'azienda di famiglia per cercare la propria indipendenza."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0547",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Ampia insenatura del mare che entra nella terraferma; anche la parte del corpo tra il collo e il petto.",
+          "example": "Le barche riposavano nel seno del porto."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0868",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Parte dura e rigida che forma lo scheletro del corpo e ne sostiene i tessuti.",
+          "example": "Cadendo si è rotto un osso del polso."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0886",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Pelo corto e rigido di alcuni animali, come quello del maiale.",
+          "example": "Le spazzole di un tempo erano fatte di setole."
+        }
+      }
+    }
+  ]
+}

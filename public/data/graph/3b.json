@@ -1,0 +1,102 @@
+{
+  "shard": "3b",
+  "concepts": {
+    "c_0152": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Cartellino applicato a un oggetto per indicarne contenuto, prezzo o proprietario.",
+        "example": "Sull'etichetta della valigia c'era l'indirizzo di casa."
+      }
+    },
+    "c_0725": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Ruota dentata che ingrana con un'altra per trasmettere il movimento in un meccanismo.",
+        "example": "Un ingranaggio consumato faceva slittare la trasmissione."
+      }
+    },
+    "c_0949": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "La più piccola parte di una sostanza che ne conserva le proprietà.",
+        "example": "Ogni atomo è formato da un nucleo e da elettroni."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0009",
+      "concept_b": "c_0152",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0135",
+      "concept_b": "c_0725",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0371",
+      "concept_b": "c_0949",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    }
+  ],
+  "word_senses": {
+    "s_0152": {
+      "lexeme_id": "w_0152",
+      "lexeme_kind": "word",
+      "concept_id": "c_0152",
+      "is_primary": true
+    },
+    "s_0725": {
+      "lexeme_id": "w_0725",
+      "lexeme_kind": "word",
+      "concept_id": "c_0725",
+      "is_primary": true
+    },
+    "s_0949": {
+      "lexeme_id": "w_0949",
+      "lexeme_kind": "word",
+      "concept_id": "c_0949",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0152": {
+      "display_form": "etichetta",
+      "normalized_form": "etichetta",
+      "pos": null
+    },
+    "w_0725": {
+      "display_form": "ingranaggio",
+      "normalized_form": "ingranaggio",
+      "pos": null
+    },
+    "w_0949": {
+      "display_form": "atomo",
+      "normalized_form": "atomo",
+      "pos": null
+    }
+  },
+  "expressions": {}
+}

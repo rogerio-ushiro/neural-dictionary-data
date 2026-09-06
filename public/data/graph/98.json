@@ -1,0 +1,162 @@
+{
+  "shard": "98",
+  "concepts": {
+    "c_0197": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Famiglia nobile considerata nel suo insieme di antenati e discendenti.",
+        "example": "La casata possedeva metà delle terre della valle."
+      }
+    },
+    "c_0474": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Di sapore zuccherino, gradevole al palato; al figurato, mite e affettuoso nei modi.",
+        "example": "Ha un carattere dolce e paziente."
+      }
+    },
+    "c_0580": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Tempesta rotante di enorme forza distruttiva, con venti che superano i cento chilometri orari.",
+        "example": "L'uragano ha scoperchiato decine di case sulla costa."
+      }
+    },
+    "c_0603": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Calore lieve e piacevole che riscalda senza bruciare.",
+        "example": "Il tepore del sole di marzo invitava a uscire."
+      }
+    },
+    "c_0971": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Sottile strato di ghiaccio che si forma di notte su superfici esposte al freddo.",
+        "example": "Il parabrezza era coperto di brina al mattino."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0013",
+      "concept_b": "c_0197",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0036",
+      "concept_b": "c_0474",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0052",
+      "concept_b": "c_0580",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0065",
+      "concept_b": "c_0603",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0382",
+      "concept_b": "c_0971",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    }
+  ],
+  "word_senses": {
+    "s_0197": {
+      "lexeme_id": "w_0197",
+      "lexeme_kind": "word",
+      "concept_id": "c_0197",
+      "is_primary": true
+    },
+    "s_0474": {
+      "lexeme_id": "w_0474",
+      "lexeme_kind": "word",
+      "concept_id": "c_0474",
+      "is_primary": true
+    },
+    "s_0580": {
+      "lexeme_id": "w_0580",
+      "lexeme_kind": "word",
+      "concept_id": "c_0580",
+      "is_primary": true
+    },
+    "s_0603": {
+      "lexeme_id": "w_0603",
+      "lexeme_kind": "word",
+      "concept_id": "c_0603",
+      "is_primary": true
+    },
+    "s_0971": {
+      "lexeme_id": "w_0971",
+      "lexeme_kind": "word",
+      "concept_id": "c_0971",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0197": {
+      "display_form": "casata",
+      "normalized_form": "casata",
+      "pos": null
+    },
+    "w_0474": {
+      "display_form": "dolce",
+      "normalized_form": "dolce",
+      "pos": null
+    },
+    "w_0580": {
+      "display_form": "uragano",
+      "normalized_form": "uragano",
+      "pos": null
+    },
+    "w_0603": {
+      "display_form": "tepore",
+      "normalized_form": "tepore",
+      "pos": null
+    },
+    "w_0971": {
+      "display_form": "brina",
+      "normalized_form": "brina",
+      "pos": null
+    }
+  },
+  "expressions": {}
+}

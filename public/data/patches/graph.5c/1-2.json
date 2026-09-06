@@ -1,0 +1,85 @@
+{
+  "pack": "graph.5c",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0290",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Ciascuno degli incontri in cui si svolge un gioco o uno sport tra due contendenti.",
+          "example": "La partita è stata rinviata per pioggia."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0427",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Introdurre cibo nel corpo per nutrirsi.",
+          "example": "Con quel mal di gola non riusciva a mangiare nulla di solido."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0643",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Ondata di calore intenso e improvviso, come quella che sale da un forno.",
+          "example": "Aprendo lo sportello lo investì una vampata."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0728",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Parte della fisica che studia il moto dei corpi e le forze che lo causano; anche il funzionamento interno di qualcosa.",
+          "example": "Non capiva la meccanica di quel giocattolo a molla."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0931",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "La parte dura al centro di certi frutti, che contiene il seme.",
+          "example": "Sputò il nocciolo dell'oliva nel piatto."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0944",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Vapore o gas che si sprigiona da un corpo, spesso maleodorante.",
+          "example": "Dalla palude salivano esalazioni sgradevoli."
+        }
+      }
+    }
+  ]
+}

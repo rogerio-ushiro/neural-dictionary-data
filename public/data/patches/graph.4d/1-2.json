@@ -1,0 +1,85 @@
+{
+  "pack": "graph.4d",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0183",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Il luogo dove una persona risulta abitare ufficialmente.",
+          "example": "Ha eletto domicilio presso lo studio dell'avvocato."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0406",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Grande valle chiusa tra alte montagne.",
+          "example": "Il torrente scorre in fondo al vallone."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0491",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Rappresentazione offerta al pubblico per stupirlo o divertirlo; anche una scena straordinaria da vedere.",
+          "example": "Il tramonto dal molo era uno spettacolo."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0617",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Insieme di piccoli lampi di luce che tremolano.",
+          "example": "Il brillio delle stelle si specchiava nel lago."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0662",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Sospensione temporanea di un combattimento o di una fatica.",
+          "example": "Le due squadre si concessero una breve tregua."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0969",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Freddo pungente e tagliente.",
+          "example": "Un'algidità improvvisa gli attraversò la schiena."
+        }
+      }
+    }
+  ]
+}

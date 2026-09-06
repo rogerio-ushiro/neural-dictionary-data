@@ -1,0 +1,72 @@
+{
+  "shard": "03",
+  "concepts": {
+    "c_0332": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Animale della famiglia del gatto, agile predatore dai denti aguzzi, come la tigre e il leopardo.",
+        "example": "Al circo si esibiva un domatore di felini."
+      }
+    },
+    "c_0862": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Il modo in cui una persona tiene il corpo stando in piedi o seduta.",
+        "example": "Una postura corretta previene il mal di schiena."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0024",
+      "concept_b": "c_0332",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0322",
+      "concept_b": "c_0862",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    }
+  ],
+  "word_senses": {
+    "s_0332": {
+      "lexeme_id": "w_0332",
+      "lexeme_kind": "word",
+      "concept_id": "c_0332",
+      "is_primary": true
+    },
+    "s_0862": {
+      "lexeme_id": "w_0862",
+      "lexeme_kind": "word",
+      "concept_id": "c_0862",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0332": {
+      "display_form": "felino",
+      "normalized_form": "felino",
+      "pos": null
+    },
+    "w_0862": {
+      "display_form": "postura",
+      "normalized_form": "postura",
+      "pos": null
+    }
+  },
+  "expressions": {}
+}

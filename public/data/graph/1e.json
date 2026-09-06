@@ -1,0 +1,332 @@
+{
+  "shard": "1e",
+  "concepts": {
+    "c_0164": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Piccolo centro abitato di campagna, con poche case raccolte attorno a una piazza.",
+        "example": "Nel villaggio c'è un solo negozio che vende di tutto."
+      }
+    },
+    "c_0238": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Il padre del bisnonno; antenato di quattro generazioni prima.",
+        "example": "Il bisavo aveva costruito la casa con le proprie mani."
+      }
+    },
+    "c_0568": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Lingua di terra che si protende nel mare rimanendo unita al continente.",
+        "example": "La penisola si spinge per venti chilometri nel golfo."
+      }
+    },
+    "c_0670": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Piacere sereno e raffinato che si prova in un'attività amata.",
+        "example": "Legge poesia con vero diletto."
+      }
+    },
+    "c_0735": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Villaggio molto piccolo.",
+        "example": "È cresciuto in un paesetto di poche case sulle colline."
+      }
+    },
+    "c_0959": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Superficie curva che copre uno spazio dall'alto, come quella di una cupola o del cielo.",
+        "example": "Alzò gli occhi verso la volta stellata."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0010",
+      "concept_b": "c_0164",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0011",
+      "concept_b": "c_0164",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0016",
+      "concept_b": "c_0238",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0048",
+      "concept_b": "c_0568",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0102",
+      "concept_b": "c_0670",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0104",
+      "concept_b": "c_0670",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0158",
+      "concept_b": "c_0164",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0164",
+      "concept_b": "c_0167",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0164",
+      "concept_b": "c_0171",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0164",
+      "concept_b": "c_0173",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0164",
+      "concept_b": "c_0181",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0164",
+      "concept_b": "c_0735",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0164",
+      "concept_b": "c_0736",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0164",
+      "concept_b": "c_0737",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0164",
+      "concept_b": "c_0738",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0164",
+      "concept_b": "c_0739",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0164",
+      "concept_b": "c_0740",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0164",
+      "concept_b": "c_0741",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0164",
+      "concept_b": "c_0742",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0381",
+      "concept_b": "c_0959",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    }
+  ],
+  "word_senses": {
+    "s_0164": {
+      "lexeme_id": "w_0164",
+      "lexeme_kind": "word",
+      "concept_id": "c_0164",
+      "is_primary": true
+    },
+    "s_0238": {
+      "lexeme_id": "w_0238",
+      "lexeme_kind": "word",
+      "concept_id": "c_0238",
+      "is_primary": true
+    },
+    "s_0568": {
+      "lexeme_id": "w_0568",
+      "lexeme_kind": "word",
+      "concept_id": "c_0568",
+      "is_primary": true
+    },
+    "s_0670": {
+      "lexeme_id": "w_0670",
+      "lexeme_kind": "word",
+      "concept_id": "c_0670",
+      "is_primary": true
+    },
+    "s_0735": {
+      "lexeme_id": "w_0735",
+      "lexeme_kind": "word",
+      "concept_id": "c_0735",
+      "is_primary": true
+    },
+    "s_0959": {
+      "lexeme_id": "w_0959",
+      "lexeme_kind": "word",
+      "concept_id": "c_0959",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0164": {
+      "display_form": "villaggio",
+      "normalized_form": "villaggio",
+      "pos": null
+    },
+    "w_0238": {
+      "display_form": "bisavo",
+      "normalized_form": "bisavo",
+      "pos": null
+    },
+    "w_0568": {
+      "display_form": "penisola",
+      "normalized_form": "penisola",
+      "pos": null
+    },
+    "w_0670": {
+      "display_form": "diletto",
+      "normalized_form": "diletto",
+      "pos": null
+    },
+    "w_0735": {
+      "display_form": "paesetto",
+      "normalized_form": "paesetto",
+      "pos": null
+    },
+    "w_0959": {
+      "display_form": "volta",
+      "normalized_form": "volta",
+      "pos": null
+    }
+  },
+  "expressions": {}
+}

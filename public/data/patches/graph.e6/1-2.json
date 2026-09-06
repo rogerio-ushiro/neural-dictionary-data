@@ -1,0 +1,33 @@
+{
+  "pack": "graph.e6",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0304",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Pianta bassa dal fusto tenero che ricopre prati e giardini; al plurale, le piante usate in cucina o in medicina.",
+          "example": "Il giardiniere taglia l'erba ogni settimana."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0854",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Organo che durante la gravidanza nutre il piccolo nel ventre della madre.",
+          "example": "La placenta viene espulsa poco dopo il parto."
+        }
+      }
+    }
+  ]
+}

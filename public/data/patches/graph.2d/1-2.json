@@ -1,0 +1,46 @@
+{
+  "pack": "graph.2d",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0316",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Involucro di gomma pieno d'aria che riveste la ruota di un veicolo e ne ammortizza la corsa.",
+          "example": "Ha forato uno pneumatico su una buca."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0381",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Lo spazio che sovrasta la terra, dove si vedono sole, nuvole e stelle; nelle religioni, la sede di Dio e dei beati.",
+          "example": "Il cielo si è coperto all'improvviso."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0846",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Proprio delle belve, per aspetto o istinti feroci.",
+          "example": "Aveva uno sguardo ferino quando si arrabbiava."
+        }
+      }
+    }
+  ]
+}

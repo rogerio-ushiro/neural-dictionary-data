@@ -1,0 +1,162 @@
+{
+  "shard": "05",
+  "concepts": {
+    "c_0198": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "La linea di discendenza di una famiglia, i suoi antenati.",
+        "example": "Poteva far risalire il proprio lignaggio a un antico feudatario."
+      }
+    },
+    "c_0244": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Persona avanti con gli anni.",
+        "example": "Il vecchio sedeva sulla panchina a guardare i passanti."
+      }
+    },
+    "c_0514": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "La parte del giorno tra il mezzogiorno e la sera.",
+        "example": "Il pomeriggio lo dedica ai compiti e allo sport."
+      }
+    },
+    "c_1012": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Spostarsi sull'acqua con una barca o una nave; anche muoversi tra le pagine di internet.",
+        "example": "Impararono a navigare a vela durante l'estate."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0013",
+      "concept_b": "c_0198",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0016",
+      "concept_b": "c_0244",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0039",
+      "concept_b": "c_0514",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0073",
+      "concept_b": "c_0514",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0198",
+      "concept_b": "c_0200",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0198",
+      "concept_b": "c_0203",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0047",
+      "concept_b": "c_1012",
+      "relation_type": "azioni",
+      "direction_hint": "symmetric",
+      "association_strength": 0.85,
+      "confidence": 0.9,
+      "status": "validated",
+      "revision": 2
+    }
+  ],
+  "word_senses": {
+    "s_0198": {
+      "lexeme_id": "w_0198",
+      "lexeme_kind": "word",
+      "concept_id": "c_0198",
+      "is_primary": true
+    },
+    "s_0244": {
+      "lexeme_id": "w_0244",
+      "lexeme_kind": "word",
+      "concept_id": "c_0244",
+      "is_primary": true
+    },
+    "s_0514": {
+      "lexeme_id": "w_0514",
+      "lexeme_kind": "word",
+      "concept_id": "c_0514",
+      "is_primary": true
+    },
+    "s_1012": {
+      "lexeme_id": "w_1012",
+      "lexeme_kind": "word",
+      "concept_id": "c_1012",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0198": {
+      "display_form": "lignaggio",
+      "normalized_form": "lignaggio",
+      "pos": null
+    },
+    "w_0244": {
+      "display_form": "vecchio",
+      "normalized_form": "vecchio",
+      "pos": null
+    },
+    "w_0514": {
+      "display_form": "pomeriggio",
+      "normalized_form": "pomeriggio",
+      "pos": null
+    },
+    "w_1012": {
+      "display_form": "navigare",
+      "normalized_form": "navigare",
+      "pos": "verbo"
+    }
+  },
+  "expressions": {}
+}

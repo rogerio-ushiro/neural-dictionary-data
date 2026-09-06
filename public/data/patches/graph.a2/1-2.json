@@ -1,0 +1,59 @@
+{
+  "pack": "graph.a2",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0021",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Ampio spazio verde pubblico, con alberi e vialetti, dove si passeggia e ci si riposa.",
+          "example": "Al parco i bambini giocano a pallone fino a sera."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0094",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Liquido salato che la pelle emette per il caldo o lo sforzo, e che raffredda il corpo evaporando.",
+          "example": "Si asciugò il sudore dalla fronte con la manica."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0379",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Reso umido o coperto d'acqua.",
+          "example": "Rientrò a casa bagnato fradicio dalla pioggia."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0829",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "La misura di quanto una cosa si estende verso il basso o verso l'interno; al figurato, l'intensità di un pensiero.",
+          "example": "Non si conosceva la profondità del pozzo."
+        }
+      }
+    }
+  ]
+}

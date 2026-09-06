@@ -1,0 +1,212 @@
+{
+  "shard": "ba",
+  "concepts": {
+    "c_0182": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Il luogo dove si abita, la casa in cui si vive (voce elevata).",
+        "example": "Fissò la propria dimora ai margini del bosco."
+      }
+    },
+    "c_0407": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Fianco inclinato di un monte o di una collina.",
+        "example": "Scendevano il pendio con cautela sull'erba bagnata."
+      }
+    },
+    "c_0490": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Sentimento vivo di felicità.",
+        "example": "La notizia della nascita portò gioia in tutta la casa."
+      }
+    },
+    "c_0616": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Qualità di un'immagine o di un suono ben definiti e privi di disturbi.",
+        "example": "La nitidezza della foto permetteva di leggere l'insegna sullo sfondo."
+      }
+    },
+    "c_0663": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Stato di calma serena, senza preoccupazioni né agitazione.",
+        "example": "La musica gli dava una grande tranquillità."
+      }
+    },
+    "c_0968": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Estremamente freddo, da paesaggio di ghiacci; riferito a modi e sguardi, di gelida ostilità.",
+        "example": "Soffiava un vento glaciale dalla montagna."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0012",
+      "concept_b": "c_0182",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0031",
+      "concept_b": "c_0407",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0037",
+      "concept_b": "c_0490",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0069",
+      "concept_b": "c_0616",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0085",
+      "concept_b": "c_0663",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0102",
+      "concept_b": "c_0490",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0382",
+      "concept_b": "c_0968",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0516",
+      "concept_b": "c_0663",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    }
+  ],
+  "word_senses": {
+    "s_0182": {
+      "lexeme_id": "w_0182",
+      "lexeme_kind": "word",
+      "concept_id": "c_0182",
+      "is_primary": true
+    },
+    "s_0407": {
+      "lexeme_id": "w_0407",
+      "lexeme_kind": "word",
+      "concept_id": "c_0407",
+      "is_primary": true
+    },
+    "s_0490": {
+      "lexeme_id": "w_0490",
+      "lexeme_kind": "word",
+      "concept_id": "c_0490",
+      "is_primary": true
+    },
+    "s_0616": {
+      "lexeme_id": "w_0616",
+      "lexeme_kind": "word",
+      "concept_id": "c_0616",
+      "is_primary": true
+    },
+    "s_0663": {
+      "lexeme_id": "w_0663",
+      "lexeme_kind": "word",
+      "concept_id": "c_0663",
+      "is_primary": true
+    },
+    "s_0968": {
+      "lexeme_id": "w_0968",
+      "lexeme_kind": "word",
+      "concept_id": "c_0968",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0182": {
+      "display_form": "dimora",
+      "normalized_form": "dimora",
+      "pos": null
+    },
+    "w_0407": {
+      "display_form": "pendio",
+      "normalized_form": "pendio",
+      "pos": null
+    },
+    "w_0490": {
+      "display_form": "gioia",
+      "normalized_form": "gioia",
+      "pos": null
+    },
+    "w_0616": {
+      "display_form": "nitidezza",
+      "normalized_form": "nitidezza",
+      "pos": null
+    },
+    "w_0663": {
+      "display_form": "tranquillità",
+      "normalized_form": "tranquillita",
+      "pos": null
+    },
+    "w_0968": {
+      "display_form": "glaciale",
+      "normalized_form": "glaciale",
+      "pos": null
+    }
+  },
+  "expressions": {}
+}

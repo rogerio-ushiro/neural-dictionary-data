@@ -1,0 +1,72 @@
+{
+  "pack": "graph.25",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0327",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "L'essere costante e leale verso una persona, un'idea o un impegno; è virtù proverbiale del cane.",
+          "example": "Lo ha servito per trent'anni con assoluta fedeltà."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0352",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "L'insieme delle piante che coprono un territorio.",
+          "example": "La vegetazione si fa più rada man mano che si sale."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0802",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Piccola apertura erbosa in mezzo a un bosco.",
+          "example": "Trovarono una radura soleggiata dove fermarsi a mangiare."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0877",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Docile e paziente, che non reagisce con violenza.",
+          "example": "È un cane mansueto, adatto ai bambini."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0918",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Frutto secco dal guscio duro e legnoso, con dentro un seme oleoso.",
+          "example": "A Natale non mancano mai noci e mandarini."
+        }
+      }
+    }
+  ]
+}

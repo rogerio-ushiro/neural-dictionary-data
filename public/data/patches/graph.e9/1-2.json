@@ -1,0 +1,33 @@
+{
+  "pack": "graph.e9",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0024",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Piccolo animale domestico dai movimenti agili e silenziosi, tenuto in casa per compagnia; è proverbiale la sua indipendenza.",
+          "example": "Il gatto dorme tutto il giorno sul divano."
+        }
+      }
+    },
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0091",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Combustione che produce fiamme, luce e calore; al figurato, un ardore intenso (il fuoco della passione).",
+          "example": "Accese il fuoco nel camino con qualche rametto secco."
+        }
+      }
+    }
+  ]
+}

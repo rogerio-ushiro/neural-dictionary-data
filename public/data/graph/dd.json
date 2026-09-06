@@ -1,0 +1,152 @@
+{
+  "shard": "dd",
+  "concepts": {
+    "c_0132": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Dispositivo che rallenta o ferma un veicolo premendo su ruote o dischi.",
+        "example": "Tirò il freno a mano in discesa."
+      }
+    },
+    "c_0147": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Qualsiasi dispositivo che serve a tenere serrato un contenitore o un indumento.",
+        "example": "La chiusura della borsa si è inceppata."
+      }
+    },
+    "c_0756": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Essere umano considerato singolarmente, con la sua identità e dignità.",
+        "example": "Non conosceva una sola persona in quella città."
+      }
+    },
+    "c_0998": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Assenza di rumori e di voci.",
+        "example": "Nel silenzio della notte si sentiva solo il ticchettio dell'orologio."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0008",
+      "concept_b": "c_0132",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0009",
+      "concept_b": "c_0147",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0218",
+      "concept_b": "c_0756",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0273",
+      "concept_b": "c_0756",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0510",
+      "concept_b": "c_0998",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0516",
+      "concept_b": "c_0998",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    }
+  ],
+  "word_senses": {
+    "s_0132": {
+      "lexeme_id": "w_0132",
+      "lexeme_kind": "word",
+      "concept_id": "c_0132",
+      "is_primary": true
+    },
+    "s_0147": {
+      "lexeme_id": "w_0147",
+      "lexeme_kind": "word",
+      "concept_id": "c_0147",
+      "is_primary": true
+    },
+    "s_0756": {
+      "lexeme_id": "w_0756",
+      "lexeme_kind": "word",
+      "concept_id": "c_0756",
+      "is_primary": true
+    },
+    "s_0998": {
+      "lexeme_id": "w_0998",
+      "lexeme_kind": "word",
+      "concept_id": "c_0998",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0132": {
+      "display_form": "freno",
+      "normalized_form": "freno",
+      "pos": null
+    },
+    "w_0147": {
+      "display_form": "chiusura",
+      "normalized_form": "chiusura",
+      "pos": null
+    },
+    "w_0756": {
+      "display_form": "persona",
+      "normalized_form": "persona",
+      "pos": null
+    },
+    "w_0998": {
+      "display_form": "silenzio",
+      "normalized_form": "silenzio",
+      "pos": null
+    }
+  },
+  "expressions": {}
+}

@@ -1,0 +1,29 @@
+{
+  "pack": "graph.e4",
+  "from": 1,
+  "to": 2,
+  "ops": [
+    {
+      "op": "ADD_CONCEPT",
+      "concept_id": "c_1019",
+      "concept": {
+        "revision": 1,
+        "region_id": null,
+        "status_fronteira": "needs_expansion"
+      }
+    },
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0050",
+        "concept_b": "c_1019",
+        "relation_type": "proprietà",
+        "direction_hint": "symmetric",
+        "association_strength": 0.85,
+        "confidence": 0.9,
+        "status": "candidate",
+        "revision": 1
+      }
+    }
+  ]
+}

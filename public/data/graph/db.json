@@ -1,0 +1,312 @@
+{
+  "shard": "db",
+  "concepts": {
+    "c_0185": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Il camino acceso attorno a cui si raccoglie la famiglia; al figurato, la casa e gli affetti domestici.",
+        "example": "D'inverno la sera si stava tutti intorno al focolare."
+      }
+    },
+    "c_0259": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Ciascuno dei libri di un'opera in più tomi; anche lo spazio occupato da un corpo.",
+        "example": "Il dizionario è in due volumi."
+      }
+    },
+    "c_0398": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Rilievo del terreno alto e imponente; sinonimo di montagna.",
+        "example": "Il monte era avvolto dalle nuvole fino a metà."
+      }
+    },
+    "c_0400": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Qualsiasi parte del terreno che si eleva; anche l'importanza data a qualcosa.",
+        "example": "La strada segue i rilievi della collina."
+      }
+    },
+    "c_0497": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Ampia composizione musicale per orchestra, divisa in più movimenti.",
+        "example": "Al concerto eseguirono una sinfonia di Beethoven."
+      }
+    },
+    "c_0509": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "La luce incerta che c'è poco prima dell'alba o poco dopo il tramonto.",
+        "example": "Rientrarono al crepuscolo, quando i primi lampioni si accendevano."
+      }
+    },
+    "c_0611": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Cilindro di cera con uno stoppino che, acceso, dà luce e un po' di calore finché non si consuma; nel motore, il pezzo che produce la scintilla per l'accensione.",
+        "example": "Durante il blackout accesero qualche candela in cucina."
+      }
+    },
+    "c_0664": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Il periodo in cui le piante si coprono di fiori.",
+        "example": "Ad aprile comincia la fioritura dei meli."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0012",
+      "concept_b": "c_0185",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0018",
+      "concept_b": "c_0259",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0031",
+      "concept_b": "c_0398",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0031",
+      "concept_b": "c_0400",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0038",
+      "concept_b": "c_0497",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0039",
+      "concept_b": "c_0509",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0066",
+      "concept_b": "c_0611",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0073",
+      "concept_b": "c_0509",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0074",
+      "concept_b": "c_0509",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0075",
+      "concept_b": "c_0509",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0086",
+      "concept_b": "c_0664",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0185",
+      "concept_b": "c_0325",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0354",
+      "concept_b": "c_0509",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0509",
+      "concept_b": "c_0510",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    }
+  ],
+  "word_senses": {
+    "s_0185": {
+      "lexeme_id": "w_0185",
+      "lexeme_kind": "word",
+      "concept_id": "c_0185",
+      "is_primary": true
+    },
+    "s_0259": {
+      "lexeme_id": "w_0259",
+      "lexeme_kind": "word",
+      "concept_id": "c_0259",
+      "is_primary": true
+    },
+    "s_0398": {
+      "lexeme_id": "w_0398",
+      "lexeme_kind": "word",
+      "concept_id": "c_0398",
+      "is_primary": true
+    },
+    "s_0400": {
+      "lexeme_id": "w_0400",
+      "lexeme_kind": "word",
+      "concept_id": "c_0400",
+      "is_primary": true
+    },
+    "s_0497": {
+      "lexeme_id": "w_0497",
+      "lexeme_kind": "word",
+      "concept_id": "c_0497",
+      "is_primary": true
+    },
+    "s_0509": {
+      "lexeme_id": "w_0509",
+      "lexeme_kind": "word",
+      "concept_id": "c_0509",
+      "is_primary": true
+    },
+    "s_0611": {
+      "lexeme_id": "w_0611",
+      "lexeme_kind": "word",
+      "concept_id": "c_0611",
+      "is_primary": true
+    },
+    "s_0664": {
+      "lexeme_id": "w_0664",
+      "lexeme_kind": "word",
+      "concept_id": "c_0664",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0185": {
+      "display_form": "focolare",
+      "normalized_form": "focolare",
+      "pos": null
+    },
+    "w_0259": {
+      "display_form": "volume",
+      "normalized_form": "volume",
+      "pos": null
+    },
+    "w_0398": {
+      "display_form": "monte",
+      "normalized_form": "monte",
+      "pos": null
+    },
+    "w_0400": {
+      "display_form": "rilievo",
+      "normalized_form": "rilievo",
+      "pos": null
+    },
+    "w_0497": {
+      "display_form": "sinfonia",
+      "normalized_form": "sinfonia",
+      "pos": null
+    },
+    "w_0509": {
+      "display_form": "crepuscolo",
+      "normalized_form": "crepuscolo",
+      "pos": null
+    },
+    "w_0611": {
+      "display_form": "candela",
+      "normalized_form": "candela",
+      "pos": null
+    },
+    "w_0664": {
+      "display_form": "fioritura",
+      "normalized_form": "fioritura",
+      "pos": null
+    }
+  },
+  "expressions": {}
+}

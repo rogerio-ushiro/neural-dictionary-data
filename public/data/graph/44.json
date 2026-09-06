@@ -1,0 +1,112 @@
+{
+  "shard": "44",
+  "concepts": {
+    "c_0162": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "La zona esterna di una città, lontana dal centro.",
+        "example": "In periferia gli affitti costano meno."
+      }
+    },
+    "c_0676": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Passatempo leggero e spensierato, di solito da bambini.",
+        "example": "Il trastullo dei nipoti erano le costruzioni di legno."
+      }
+    },
+    "c_0733": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Punto o tratto stretto per cui si può passare da un luogo a un altro.",
+        "example": "Il passaggio tra le rocce era largo appena un metro."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0010",
+      "concept_b": "c_0162",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0107",
+      "concept_b": "c_0676",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0159",
+      "concept_b": "c_0733",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0303",
+      "concept_b": "c_0733",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    }
+  ],
+  "word_senses": {
+    "s_0162": {
+      "lexeme_id": "w_0162",
+      "lexeme_kind": "word",
+      "concept_id": "c_0162",
+      "is_primary": true
+    },
+    "s_0676": {
+      "lexeme_id": "w_0676",
+      "lexeme_kind": "word",
+      "concept_id": "c_0676",
+      "is_primary": true
+    },
+    "s_0733": {
+      "lexeme_id": "w_0733",
+      "lexeme_kind": "word",
+      "concept_id": "c_0733",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0162": {
+      "display_form": "periferia",
+      "normalized_form": "periferia",
+      "pos": null
+    },
+    "w_0676": {
+      "display_form": "trastullo",
+      "normalized_form": "trastullo",
+      "pos": null
+    },
+    "w_0733": {
+      "display_form": "passaggio",
+      "normalized_form": "passaggio",
+      "pos": null
+    }
+  },
+  "expressions": {}
+}

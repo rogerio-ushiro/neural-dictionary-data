@@ -1,0 +1,132 @@
+{
+  "shard": "55",
+  "concepts": {
+    "c_0103": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Autorizzazione ad assentarsi dal lavoro o dal servizio per un periodo.",
+        "example": "Ha chiesto un giorno di congedo per motivi familiari."
+      }
+    },
+    "c_0486": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Fatto di rilievo che accade in un momento preciso.",
+        "example": "Il concerto è stato l'evento dell'estate in paese."
+      }
+    },
+    "c_0712": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Stato di forte irrequietezza, fisica o d'animo, con movimenti scomposti e nervosi.",
+        "example": "Nella sala d'attesa c'era una certa agitazione."
+      }
+    },
+    "c_0767": {
+      "revision": 2,
+      "region_id": null,
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Chi ha dato inizio a un'istituzione, un'impresa o una città.",
+        "example": "Il fondatore dell'azienda partì da una piccola bottega."
+      }
+    }
+  },
+  "associations": [
+    {
+      "concept_a": "c_0006",
+      "concept_b": "c_0103",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.9,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0037",
+      "concept_b": "c_0486",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0118",
+      "concept_b": "c_0712",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0226",
+      "concept_b": "c_0767",
+      "relation_type": "associata",
+      "direction_hint": "symmetric",
+      "association_strength": 0.65,
+      "confidence": 1,
+      "status": "validated",
+      "revision": 1
+    }
+  ],
+  "word_senses": {
+    "s_0103": {
+      "lexeme_id": "w_0103",
+      "lexeme_kind": "word",
+      "concept_id": "c_0103",
+      "is_primary": true
+    },
+    "s_0486": {
+      "lexeme_id": "w_0486",
+      "lexeme_kind": "word",
+      "concept_id": "c_0486",
+      "is_primary": true
+    },
+    "s_0712": {
+      "lexeme_id": "w_0712",
+      "lexeme_kind": "word",
+      "concept_id": "c_0712",
+      "is_primary": true
+    },
+    "s_0767": {
+      "lexeme_id": "w_0767",
+      "lexeme_kind": "word",
+      "concept_id": "c_0767",
+      "is_primary": true
+    }
+  },
+  "words": {
+    "w_0103": {
+      "display_form": "congedo",
+      "normalized_form": "congedo",
+      "pos": null
+    },
+    "w_0486": {
+      "display_form": "evento",
+      "normalized_form": "evento",
+      "pos": null
+    },
+    "w_0712": {
+      "display_form": "agitazione",
+      "normalized_form": "agitazione",
+      "pos": null
+    },
+    "w_0767": {
+      "display_form": "fondatore",
+      "normalized_form": "fondatore",
+      "pos": null
+    }
+  },
+  "expressions": {}
+}
