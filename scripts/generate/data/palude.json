@@ -1,0 +1,122 @@
+[
+  {
+    "lemma": "stagno",
+    "relation_type": "categoria",
+    "association_strength": 0.7
+  },
+  {
+    "lemma": "distesa",
+    "relation_type": "categoria",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "acqua",
+    "relation_type": "costituzione",
+    "association_strength": 0.65
+  },
+  {
+    "lemma": "umidita",
+    "relation_type": "costituzione",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "rettile",
+    "relation_type": "contenuto",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "insetto",
+    "relation_type": "contenuto",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "fauna",
+    "relation_type": "contenuto",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "erba",
+    "relation_type": "contenuto",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "immobilita",
+    "relation_type": "proprietà",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "laguna",
+    "relation_type": "luoghi",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "foce",
+    "relation_type": "luoghi",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "delta",
+    "relation_type": "luoghi",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "pianura",
+    "relation_type": "luoghi",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "nebbia",
+    "relation_type": "fenomeni",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "foschia",
+    "relation_type": "fenomeni",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "esalazione",
+    "relation_type": "fenomeni",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "stagno",
+    "relation_type": "similarità",
+    "association_strength": 0.7
+  },
+  {
+    "lemma": "laguna",
+    "relation_type": "similarità",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "deserto",
+    "relation_type": "contrasto",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "aridita",
+    "relation_type": "contrasto",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "terraferma",
+    "relation_type": "contrasto",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "mistero",
+    "relation_type": "evocativa",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "silenzio",
+    "relation_type": "evocativa",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "insetto",
+    "relation_type": "esseri_viventi",
+    "association_strength": 0.45
+  }
+]

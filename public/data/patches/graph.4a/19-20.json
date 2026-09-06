@@ -1,0 +1,33 @@
+{
+  "pack": "graph.4a",
+  "from": 19,
+  "to": 20,
+  "ops": [
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0757",
+        "concept_b": "c_0818",
+        "relation_type": "esseri_viventi",
+        "direction_hint": "symmetric",
+        "association_strength": 0.45,
+        "confidence": 0.85,
+        "status": "candidate",
+        "revision": 1
+      }
+    },
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0735",
+        "concept_b": "c_0999",
+        "relation_type": "evocativa",
+        "direction_hint": "symmetric",
+        "association_strength": 0.45,
+        "confidence": 0.85,
+        "status": "candidate",
+        "revision": 1
+      }
+    }
+  ]
+}

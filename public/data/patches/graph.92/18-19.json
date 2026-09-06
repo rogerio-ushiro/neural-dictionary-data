@@ -1,0 +1,59 @@
+{
+  "pack": "graph.92",
+  "from": 18,
+  "to": 19,
+  "ops": [
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_1010",
+        "concept_b": "c_1040",
+        "relation_type": "contrasto",
+        "direction_hint": "symmetric",
+        "association_strength": 0.45,
+        "confidence": 0.85,
+        "status": "candidate",
+        "revision": 1
+      }
+    },
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0353",
+        "concept_b": "c_0452",
+        "relation_type": "categoria",
+        "direction_hint": "symmetric",
+        "association_strength": 0.85,
+        "confidence": 0.85,
+        "status": "candidate",
+        "revision": 1
+      }
+    },
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0353",
+        "concept_b": "c_0463",
+        "relation_type": "categoria",
+        "direction_hint": "symmetric",
+        "association_strength": 0.75,
+        "confidence": 0.85,
+        "status": "candidate",
+        "revision": 1
+      }
+    },
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0326",
+        "concept_b": "c_0808",
+        "relation_type": "costituzione",
+        "direction_hint": "symmetric",
+        "association_strength": 0.45,
+        "confidence": 0.85,
+        "status": "candidate",
+        "revision": 1
+      }
+    }
+  ]
+}

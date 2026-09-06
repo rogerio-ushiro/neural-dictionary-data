@@ -1,0 +1,112 @@
+[
+  {
+    "lemma": "suono",
+    "relation_type": "categoria",
+    "association_strength": 0.7
+  },
+  {
+    "lemma": "rumore",
+    "relation_type": "categoria",
+    "association_strength": 0.65
+  },
+  {
+    "lemma": "vibrazione",
+    "relation_type": "costituzione",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "suono",
+    "relation_type": "costituzione",
+    "association_strength": 0.65
+  },
+  {
+    "lemma": "intensita",
+    "relation_type": "proprietà",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "forza",
+    "relation_type": "proprietà",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "fulmine",
+    "relation_type": "cause",
+    "association_strength": 0.75
+  },
+  {
+    "lemma": "lampo",
+    "relation_type": "cause",
+    "association_strength": 0.7
+  },
+  {
+    "lemma": "tempesta",
+    "relation_type": "cause",
+    "association_strength": 0.65
+  },
+  {
+    "lemma": "temporale",
+    "relation_type": "cause",
+    "association_strength": 0.65
+  },
+  {
+    "lemma": "eco",
+    "relation_type": "effetti",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "tremore",
+    "relation_type": "effetti",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "temporale",
+    "relation_type": "fenomeni",
+    "association_strength": 0.65
+  },
+  {
+    "lemma": "pioggia",
+    "relation_type": "fenomeni",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "nube",
+    "relation_type": "fenomeni",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "cielo",
+    "relation_type": "luoghi",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "orizzonte",
+    "relation_type": "luoghi",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "montagna",
+    "relation_type": "luoghi",
+    "association_strength": 0.35
+  },
+  {
+    "lemma": "rumore",
+    "relation_type": "similarità",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "silenzio",
+    "relation_type": "contrasto",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "quiete",
+    "relation_type": "contrasto",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "calma",
+    "relation_type": "contrasto",
+    "association_strength": 0.4
+  }
+]

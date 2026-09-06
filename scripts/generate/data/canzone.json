@@ -1,0 +1,117 @@
+[
+  {
+    "lemma": "musica",
+    "relation_type": "categoria",
+    "association_strength": 0.8
+  },
+  {
+    "lemma": "componimento",
+    "relation_type": "categoria",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "melodia",
+    "relation_type": "categoria",
+    "association_strength": 0.65
+  },
+  {
+    "lemma": "strofa",
+    "relation_type": "parti",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "verso",
+    "relation_type": "parti",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "ritmo",
+    "relation_type": "parti",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "testo",
+    "relation_type": "parti",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "nota",
+    "relation_type": "parti",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "testo",
+    "relation_type": "contenuto",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "amore",
+    "relation_type": "contenuto",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "armonia",
+    "relation_type": "proprietà",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "voce",
+    "relation_type": "esseri_viventi",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "canto",
+    "relation_type": "azioni",
+    "association_strength": 0.65
+  },
+  {
+    "lemma": "disco",
+    "relation_type": "oggetti",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "strumento",
+    "relation_type": "oggetti",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "ballata",
+    "relation_type": "similarità",
+    "association_strength": 0.7
+  },
+  {
+    "lemma": "melodia",
+    "relation_type": "similarità",
+    "association_strength": 0.65
+  },
+  {
+    "lemma": "poesia",
+    "relation_type": "similarità",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "aria",
+    "relation_type": "similarità",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "concerto",
+    "relation_type": "luoghi",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "festa",
+    "relation_type": "luoghi",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "gioia",
+    "relation_type": "evocativa",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "malinconia",
+    "relation_type": "evocativa",
+    "association_strength": 0.4
+  }
+]
