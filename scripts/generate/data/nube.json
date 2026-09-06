@@ -1,0 +1,97 @@
+[
+  {
+    "lemma": "nuvola",
+    "relation_type": "categoria",
+    "association_strength": 0.85
+  },
+  {
+    "lemma": "foschia",
+    "relation_type": "categoria",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "vapore",
+    "relation_type": "costituzione",
+    "association_strength": 0.7
+  },
+  {
+    "lemma": "acqua",
+    "relation_type": "costituzione",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "umidita",
+    "relation_type": "costituzione",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "condensa",
+    "relation_type": "costituzione",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "scurezza",
+    "relation_type": "proprietà",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "grigiore",
+    "relation_type": "proprietà",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "cielo",
+    "relation_type": "luoghi",
+    "association_strength": 0.75
+  },
+  {
+    "lemma": "atmosfera",
+    "relation_type": "luoghi",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "orizzonte",
+    "relation_type": "luoghi",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "tempesta",
+    "relation_type": "effetti",
+    "association_strength": 0.65
+  },
+  {
+    "lemma": "pioggia",
+    "relation_type": "effetti",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "fulmine",
+    "relation_type": "effetti",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "temporale",
+    "relation_type": "effetti",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "stellato",
+    "relation_type": "contrasto",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "sole",
+    "relation_type": "contrasto",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "nebbia",
+    "relation_type": "similarità",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "burrasca",
+    "relation_type": "evocativa",
+    "association_strength": 0.5
+  }
+]

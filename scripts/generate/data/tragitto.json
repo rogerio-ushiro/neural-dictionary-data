@@ -1,0 +1,102 @@
+[
+  {
+    "lemma": "viaggio",
+    "relation_type": "categoria",
+    "association_strength": 0.75
+  },
+  {
+    "lemma": "percorso",
+    "relation_type": "categoria",
+    "association_strength": 0.8
+  },
+  {
+    "lemma": "itinerario",
+    "relation_type": "categoria",
+    "association_strength": 0.7
+  },
+  {
+    "lemma": "cammino",
+    "relation_type": "categoria",
+    "association_strength": 0.65
+  },
+  {
+    "lemma": "via",
+    "relation_type": "categoria",
+    "association_strength": 0.65
+  },
+  {
+    "lemma": "tappa",
+    "relation_type": "parti",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "strada",
+    "relation_type": "luoghi",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "sentiero",
+    "relation_type": "luoghi",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "citta",
+    "relation_type": "luoghi",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "spostamento",
+    "relation_type": "azioni",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "marcia",
+    "relation_type": "azioni",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "corsa",
+    "relation_type": "azioni",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "lunghezza",
+    "relation_type": "proprietà",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "durata",
+    "relation_type": "proprietà",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "rotta",
+    "relation_type": "similarità",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "giro",
+    "relation_type": "similarità",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "destinazione",
+    "relation_type": "evocativa",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "arrivo",
+    "relation_type": "evocativa",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "partenza",
+    "relation_type": "evocativa",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "meta",
+    "relation_type": "evocativa",
+    "association_strength": 0.5
+  }
+]

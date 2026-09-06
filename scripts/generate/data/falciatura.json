@@ -1,0 +1,82 @@
+[
+  {
+    "lemma": "raccolto",
+    "relation_type": "categoria",
+    "association_strength": 0.7
+  },
+  {
+    "lemma": "attivita",
+    "relation_type": "categoria",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "coltivazione",
+    "relation_type": "categoria",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "coltivazione",
+    "relation_type": "azioni",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "erba",
+    "relation_type": "oggetti",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "fieno",
+    "relation_type": "oggetti",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "prato",
+    "relation_type": "luoghi",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "campo",
+    "relation_type": "luoghi",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "campagna",
+    "relation_type": "luoghi",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "podere",
+    "relation_type": "luoghi",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "pascolo",
+    "relation_type": "luoghi",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "fieno",
+    "relation_type": "effetti",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "estate",
+    "relation_type": "cause",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "grano",
+    "relation_type": "contenuto",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "cereale",
+    "relation_type": "contenuto",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "raccolto",
+    "relation_type": "similarità",
+    "association_strength": 0.6
+  }
+]

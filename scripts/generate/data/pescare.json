@@ -1,0 +1,82 @@
+[
+  {
+    "lemma": "attivita",
+    "relation_type": "categoria",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "azione",
+    "relation_type": "categoria",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "barca",
+    "relation_type": "oggetti",
+    "association_strength": 0.7
+  },
+  {
+    "lemma": "imbarcazione",
+    "relation_type": "oggetti",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "scafo",
+    "relation_type": "oggetti",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "pesce",
+    "relation_type": "esseri_viventi",
+    "association_strength": 0.8
+  },
+  {
+    "lemma": "pescatore",
+    "relation_type": "esseri_viventi",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "mare",
+    "relation_type": "luoghi",
+    "association_strength": 0.7
+  },
+  {
+    "lemma": "lago",
+    "relation_type": "luoghi",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "fiume",
+    "relation_type": "luoghi",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "porto",
+    "relation_type": "luoghi",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "navigare",
+    "relation_type": "azioni",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "remare",
+    "relation_type": "azioni",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "cibo",
+    "relation_type": "effetti",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "alimento",
+    "relation_type": "effetti",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "silenzio",
+    "relation_type": "evocativa",
+    "association_strength": 0.4
+  }
+]

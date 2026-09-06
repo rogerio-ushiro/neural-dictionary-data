@@ -1,0 +1,77 @@
+[
+  {
+    "lemma": "svago",
+    "relation_type": "categoria",
+    "association_strength": 0.75
+  },
+  {
+    "lemma": "diversione",
+    "relation_type": "categoria",
+    "association_strength": 0.7
+  },
+  {
+    "lemma": "passatempo",
+    "relation_type": "categoria",
+    "association_strength": 0.65
+  },
+  {
+    "lemma": "sollievo",
+    "relation_type": "effetti",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "riposo",
+    "relation_type": "effetti",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "gioco",
+    "relation_type": "azioni",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "passeggiata",
+    "relation_type": "azioni",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "diporto",
+    "relation_type": "similarità",
+    "association_strength": 0.65
+  },
+  {
+    "lemma": "trastullo",
+    "relation_type": "similarità",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "sollazzo",
+    "relation_type": "similarità",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "ozio",
+    "relation_type": "similarità",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "disciplina",
+    "relation_type": "contrasto",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "rigore",
+    "relation_type": "contrasto",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "svago",
+    "relation_type": "evocativa",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "gioco",
+    "relation_type": "evocativa",
+    "association_strength": 0.5
+  }
+]

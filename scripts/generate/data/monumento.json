@@ -1,0 +1,87 @@
+[
+  {
+    "lemma": "costruzione",
+    "relation_type": "categoria",
+    "association_strength": 0.7
+  },
+  {
+    "lemma": "edificio",
+    "relation_type": "categoria",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "opera",
+    "relation_type": "categoria",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "pietra",
+    "relation_type": "costituzione",
+    "association_strength": 0.65
+  },
+  {
+    "lemma": "roccia",
+    "relation_type": "costituzione",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "guglia",
+    "relation_type": "parti",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "rilievo",
+    "relation_type": "parti",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "base",
+    "relation_type": "parti",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "piazza",
+    "relation_type": "luoghi",
+    "association_strength": 0.7
+  },
+  {
+    "lemma": "citta",
+    "relation_type": "luoghi",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "parco",
+    "relation_type": "luoghi",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "centro",
+    "relation_type": "luoghi",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "bellezza",
+    "relation_type": "proprietà",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "durata",
+    "relation_type": "proprietà",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "palazzo",
+    "relation_type": "similarità",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "storia",
+    "relation_type": "evocativa",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "commemorazione",
+    "relation_type": "evocativa",
+    "association_strength": 0.6
+  }
+]

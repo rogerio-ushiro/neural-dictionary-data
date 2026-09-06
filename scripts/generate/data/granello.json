@@ -1,0 +1,62 @@
+[
+  {
+    "lemma": "grano",
+    "relation_type": "categoria",
+    "association_strength": 0.7
+  },
+  {
+    "lemma": "particella",
+    "relation_type": "categoria",
+    "association_strength": 0.65
+  },
+  {
+    "lemma": "sabbia",
+    "relation_type": "costituzione",
+    "association_strength": 0.7
+  },
+  {
+    "lemma": "farina",
+    "relation_type": "costituzione",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "cereale",
+    "relation_type": "parti",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "rotondita",
+    "relation_type": "proprietà",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "sasso",
+    "relation_type": "similarità",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "atomo",
+    "relation_type": "similarità",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "seme",
+    "relation_type": "similarità",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "spiaggia",
+    "relation_type": "luoghi",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "arenile",
+    "relation_type": "luoghi",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "deserto",
+    "relation_type": "luoghi",
+    "association_strength": 0.4
+  }
+]
