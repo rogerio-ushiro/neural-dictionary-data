@@ -1,0 +1,72 @@
+[
+  {
+    "lemma": "elemento",
+    "relation_type": "categoria",
+    "association_strength": 0.8
+  },
+  {
+    "lemma": "parte",
+    "relation_type": "categoria",
+    "association_strength": 0.7
+  },
+  {
+    "lemma": "fattore",
+    "relation_type": "categoria",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "ingranaggio",
+    "relation_type": "parti",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "particella",
+    "relation_type": "parti",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "atomo",
+    "relation_type": "parti",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "molecola",
+    "relation_type": "parti",
+    "association_strength": 0.35
+  },
+  {
+    "lemma": "sostanza",
+    "relation_type": "costituzione",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "elemento",
+    "relation_type": "costituzione",
+    "association_strength": 0.7
+  },
+  {
+    "lemma": "elemento",
+    "relation_type": "similarità",
+    "association_strength": 0.75
+  },
+  {
+    "lemma": "parte",
+    "relation_type": "similarità",
+    "association_strength": 0.65
+  },
+  {
+    "lemma": "ingrediente",
+    "relation_type": "similarità",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "fibra",
+    "relation_type": "similarità",
+    "association_strength": 0.35
+  },
+  {
+    "lemma": "caratteristica",
+    "relation_type": "proprietà",
+    "association_strength": 0.5
+  }
+]
