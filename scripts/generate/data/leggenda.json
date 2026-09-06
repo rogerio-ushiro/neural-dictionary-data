@@ -1,0 +1,72 @@
+[
+  {
+    "lemma": "racconto",
+    "relation_type": "categoria",
+    "association_strength": 0.8
+  },
+  {
+    "lemma": "narrazione",
+    "relation_type": "categoria",
+    "association_strength": 0.75
+  },
+  {
+    "lemma": "storia",
+    "relation_type": "categoria",
+    "association_strength": 0.65
+  },
+  {
+    "lemma": "mistero",
+    "relation_type": "contenuto",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "avventura",
+    "relation_type": "contenuto",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "popolo",
+    "relation_type": "contenuto",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "durata",
+    "relation_type": "proprietà",
+    "association_strength": 0.35
+  },
+  {
+    "lemma": "ballata",
+    "relation_type": "similarità",
+    "association_strength": 0.65
+  },
+  {
+    "lemma": "novella",
+    "relation_type": "similarità",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "romanzo",
+    "relation_type": "similarità",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "narrazione",
+    "relation_type": "azioni",
+    "association_strength": 0.7
+  },
+  {
+    "lemma": "antenato",
+    "relation_type": "evocativa",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "fantasma",
+    "relation_type": "evocativa",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "realta",
+    "relation_type": "contrasto",
+    "association_strength": 0.45
+  }
+]

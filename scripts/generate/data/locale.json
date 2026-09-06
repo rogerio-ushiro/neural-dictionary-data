@@ -1,0 +1,82 @@
+[
+  {
+    "lemma": "stanza",
+    "relation_type": "categoria",
+    "association_strength": 0.8
+  },
+  {
+    "lemma": "ambiente",
+    "relation_type": "categoria",
+    "association_strength": 0.7
+  },
+  {
+    "lemma": "spazio",
+    "relation_type": "categoria",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "parete",
+    "relation_type": "parti",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "muro",
+    "relation_type": "parti",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "edificio",
+    "relation_type": "luoghi",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "palazzo",
+    "relation_type": "luoghi",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "citta",
+    "relation_type": "luoghi",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "quartiere",
+    "relation_type": "luoghi",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "interno",
+    "relation_type": "proprietà",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "riparo",
+    "relation_type": "proprietà",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "alloggio",
+    "relation_type": "similarità",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "ufficio",
+    "relation_type": "similarità",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "aula",
+    "relation_type": "similarità",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "ricovero",
+    "relation_type": "similarità",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "tavola",
+    "relation_type": "oggetti",
+    "association_strength": 0.4
+  }
+]

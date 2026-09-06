@@ -1,0 +1,33 @@
+{
+  "pack": "graph.59",
+  "from": 5,
+  "to": 6,
+  "ops": [
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0067",
+        "concept_b": "c_0068",
+        "relation_type": "categoria",
+        "direction_hint": "symmetric",
+        "association_strength": 0.9,
+        "confidence": 0.85,
+        "status": "candidate",
+        "revision": 1
+      }
+    },
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0114",
+        "concept_b": "c_0729",
+        "relation_type": "categoria",
+        "direction_hint": "symmetric",
+        "association_strength": 0.55,
+        "confidence": 0.85,
+        "status": "candidate",
+        "revision": 1
+      }
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+[
+  {
+    "lemma": "vento",
+    "relation_type": "categoria",
+    "association_strength": 0.8
+  },
+  {
+    "lemma": "brezza",
+    "relation_type": "categoria",
+    "association_strength": 0.7
+  },
+  {
+    "lemma": "corrente",
+    "relation_type": "categoria",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "aria",
+    "relation_type": "costituzione",
+    "association_strength": 0.8
+  },
+  {
+    "lemma": "respiro",
+    "relation_type": "costituzione",
+    "association_strength": 0.65
+  },
+  {
+    "lemma": "bocca",
+    "relation_type": "cause",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "fresco",
+    "relation_type": "effetti",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "refrigerio",
+    "relation_type": "effetti",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "brivido",
+    "relation_type": "effetti",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "voce",
+    "relation_type": "similarità",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "profumo",
+    "relation_type": "similarità",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "vampata",
+    "relation_type": "similarità",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "delicato",
+    "relation_type": "proprietà",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "tepore",
+    "relation_type": "proprietà",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "quiete",
+    "relation_type": "evocativa",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "silenzio",
+    "relation_type": "evocativa",
+    "association_strength": 0.35
+  }
+]

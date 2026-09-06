@@ -1,0 +1,92 @@
+[
+  {
+    "lemma": "dimora",
+    "relation_type": "categoria",
+    "association_strength": 0.85
+  },
+  {
+    "lemma": "alloggio",
+    "relation_type": "categoria",
+    "association_strength": 0.8
+  },
+  {
+    "lemma": "casa",
+    "relation_type": "categoria",
+    "association_strength": 0.85
+  },
+  {
+    "lemma": "stanza",
+    "relation_type": "parti",
+    "association_strength": 0.7
+  },
+  {
+    "lemma": "muro",
+    "relation_type": "parti",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "tetto",
+    "relation_type": "parti",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "parete",
+    "relation_type": "parti",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "focolare",
+    "relation_type": "contenuto",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "famiglia",
+    "relation_type": "contenuto",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "quartiere",
+    "relation_type": "luoghi",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "borgo",
+    "relation_type": "luoghi",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "citta",
+    "relation_type": "luoghi",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "domestico",
+    "relation_type": "proprietà",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "privato",
+    "relation_type": "proprietà",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "riparo",
+    "relation_type": "proprietà",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "rifugio",
+    "relation_type": "similarità",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "ricovero",
+    "relation_type": "similarità",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "edificio",
+    "relation_type": "similarità",
+    "association_strength": 0.6
+  }
+]

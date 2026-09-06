@@ -1,0 +1,72 @@
+[
+  {
+    "lemma": "svago",
+    "relation_type": "categoria",
+    "association_strength": 0.8
+  },
+  {
+    "lemma": "diporto",
+    "relation_type": "categoria",
+    "association_strength": 0.7
+  },
+  {
+    "lemma": "attivita",
+    "relation_type": "categoria",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "gioco",
+    "relation_type": "similarità",
+    "association_strength": 0.7
+  },
+  {
+    "lemma": "ozio",
+    "relation_type": "similarità",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "sollazzo",
+    "relation_type": "similarità",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "passeggiata",
+    "relation_type": "azioni",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "riposo",
+    "relation_type": "azioni",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "giardino",
+    "relation_type": "luoghi",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "parco",
+    "relation_type": "luoghi",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "piacere",
+    "relation_type": "effetti",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "allegria",
+    "relation_type": "effetti",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "distrazione",
+    "relation_type": "effetti",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "disciplina",
+    "relation_type": "contrasto",
+    "association_strength": 0.4
+  }
+]

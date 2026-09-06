@@ -1,0 +1,215 @@
+{
+  "pack": "graph.d6",
+  "from": 17,
+  "to": 18,
+  "ops": [
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0537",
+        "concept_b": "c_0577",
+        "relation_type": "categoria",
+        "direction_hint": "symmetric",
+        "association_strength": 0.65,
+        "confidence": 0.85,
+        "status": "candidate",
+        "revision": 1
+      }
+    },
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0577",
+        "concept_b": "c_0831",
+        "relation_type": "similarità",
+        "direction_hint": "symmetric",
+        "association_strength": 0.75,
+        "confidence": 0.85,
+        "status": "candidate",
+        "revision": 1
+      }
+    },
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0354",
+        "concept_b": "c_0577",
+        "relation_type": "similarità",
+        "direction_hint": "symmetric",
+        "association_strength": 0.55,
+        "confidence": 0.85,
+        "status": "candidate",
+        "revision": 1
+      }
+    },
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0405",
+        "concept_b": "c_0577",
+        "relation_type": "azioni",
+        "direction_hint": "symmetric",
+        "association_strength": 0.6,
+        "confidence": 0.85,
+        "status": "candidate",
+        "revision": 1
+      }
+    },
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0120",
+        "concept_b": "c_0577",
+        "relation_type": "azioni",
+        "direction_hint": "symmetric",
+        "association_strength": 0.5,
+        "confidence": 0.85,
+        "status": "candidate",
+        "revision": 1
+      }
+    },
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0577",
+        "concept_b": "c_0702",
+        "relation_type": "azioni",
+        "direction_hint": "symmetric",
+        "association_strength": 0.45,
+        "confidence": 0.85,
+        "status": "candidate",
+        "revision": 1
+      }
+    },
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0303",
+        "concept_b": "c_0577",
+        "relation_type": "luoghi",
+        "direction_hint": "symmetric",
+        "association_strength": 0.55,
+        "confidence": 0.85,
+        "status": "candidate",
+        "revision": 1
+      }
+    },
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0577",
+        "concept_b": "c_0731",
+        "relation_type": "luoghi",
+        "direction_hint": "symmetric",
+        "association_strength": 0.6,
+        "confidence": 0.85,
+        "status": "candidate",
+        "revision": 1
+      }
+    },
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0159",
+        "concept_b": "c_0577",
+        "relation_type": "luoghi",
+        "direction_hint": "symmetric",
+        "association_strength": 0.45,
+        "confidence": 0.85,
+        "status": "candidate",
+        "revision": 1
+      }
+    },
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0577",
+        "concept_b": "c_0733",
+        "relation_type": "cause",
+        "direction_hint": "symmetric",
+        "association_strength": 0.65,
+        "confidence": 0.85,
+        "status": "candidate",
+        "revision": 1
+      }
+    },
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0118",
+        "concept_b": "c_0577",
+        "relation_type": "cause",
+        "direction_hint": "symmetric",
+        "association_strength": 0.5,
+        "confidence": 0.85,
+        "status": "candidate",
+        "revision": 1
+      }
+    },
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0577",
+        "concept_b": "c_0616",
+        "relation_type": "proprietà",
+        "direction_hint": "symmetric",
+        "association_strength": 0.5,
+        "confidence": 0.85,
+        "status": "candidate",
+        "revision": 1
+      }
+    },
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0577",
+        "concept_b": "c_0829",
+        "relation_type": "proprietà",
+        "direction_hint": "symmetric",
+        "association_strength": 0.4,
+        "confidence": 0.85,
+        "status": "candidate",
+        "revision": 1
+      }
+    },
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0577",
+        "concept_b": "c_0638",
+        "relation_type": "evocativa",
+        "direction_hint": "symmetric",
+        "association_strength": 0.55,
+        "confidence": 0.85,
+        "status": "candidate",
+        "revision": 1
+      }
+    },
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0542",
+        "concept_b": "c_1000",
+        "relation_type": "evocativa",
+        "direction_hint": "symmetric",
+        "association_strength": 0.35,
+        "confidence": 0.85,
+        "status": "candidate",
+        "revision": 1
+      }
+    },
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0393",
+        "concept_b": "c_0751",
+        "relation_type": "effetti",
+        "direction_hint": "symmetric",
+        "association_strength": 0.45,
+        "confidence": 0.85,
+        "status": "candidate",
+        "revision": 1
+      }
+    }
+  ]
+}

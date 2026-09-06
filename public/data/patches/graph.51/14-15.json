@@ -1,0 +1,59 @@
+{
+  "pack": "graph.51",
+  "from": 14,
+  "to": 15,
+  "ops": [
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0181",
+        "concept_b": "c_0194",
+        "relation_type": "similarità",
+        "direction_hint": "symmetric",
+        "association_strength": 0.55,
+        "confidence": 0.85,
+        "status": "candidate",
+        "revision": 1
+      }
+    },
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0389",
+        "concept_b": "c_0518",
+        "relation_type": "effetti",
+        "direction_hint": "symmetric",
+        "association_strength": 0.5,
+        "confidence": 0.85,
+        "status": "candidate",
+        "revision": 1
+      }
+    },
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0389",
+        "concept_b": "c_0972",
+        "relation_type": "effetti",
+        "direction_hint": "symmetric",
+        "association_strength": 0.45,
+        "confidence": 0.85,
+        "status": "candidate",
+        "revision": 1
+      }
+    },
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0194",
+        "concept_b": "c_0878",
+        "relation_type": "similarità",
+        "direction_hint": "symmetric",
+        "association_strength": 0.4,
+        "confidence": 0.85,
+        "status": "candidate",
+        "revision": 1
+      }
+    }
+  ]
+}

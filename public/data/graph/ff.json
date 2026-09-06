@@ -537,6 +537,36 @@
       "confidence": 0.85,
       "status": "candidate",
       "revision": 1
+    },
+    {
+      "concept_a": "c_0181",
+      "concept_b": "c_0325",
+      "relation_type": "proprietà",
+      "direction_hint": "symmetric",
+      "association_strength": 0.6,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0181",
+      "concept_b": "c_0875",
+      "relation_type": "proprietà",
+      "direction_hint": "symmetric",
+      "association_strength": 0.5,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0798",
+      "concept_b": "c_0800",
+      "relation_type": "similarità",
+      "direction_hint": "symmetric",
+      "association_strength": 0.45,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
     }
   ],
   "word_senses": {

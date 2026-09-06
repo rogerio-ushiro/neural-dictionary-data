@@ -1,0 +1,72 @@
+[
+  {
+    "lemma": "segnale",
+    "relation_type": "categoria",
+    "association_strength": 0.65
+  },
+  {
+    "lemma": "orma",
+    "relation_type": "similarità",
+    "association_strength": 0.75
+  },
+  {
+    "lemma": "ombra",
+    "relation_type": "similarità",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "passo",
+    "relation_type": "azioni",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "cammino",
+    "relation_type": "azioni",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "marcia",
+    "relation_type": "azioni",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "sentiero",
+    "relation_type": "luoghi",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "pista",
+    "relation_type": "luoghi",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "strada",
+    "relation_type": "luoghi",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "passaggio",
+    "relation_type": "cause",
+    "association_strength": 0.65
+  },
+  {
+    "lemma": "movimento",
+    "relation_type": "cause",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "nitidezza",
+    "relation_type": "proprietà",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "profondita",
+    "relation_type": "proprietà",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "mistero",
+    "relation_type": "evocativa",
+    "association_strength": 0.55
+  }
+]

@@ -1774,6 +1774,26 @@
       "confidence": 0.85,
       "status": "candidate",
       "revision": 1
+    },
+    {
+      "concept_a": "c_0509",
+      "concept_b": "c_0519",
+      "relation_type": "similarità",
+      "direction_hint": "symmetric",
+      "association_strength": 0.6,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0181",
+      "concept_b": "c_0185",
+      "relation_type": "contenuto",
+      "direction_hint": "symmetric",
+      "association_strength": 0.5,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
     }
   ],
   "word_senses": {

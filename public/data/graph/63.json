@@ -528,6 +528,26 @@
       "confidence": 0.85,
       "status": "candidate",
       "revision": 1
+    },
+    {
+      "concept_a": "c_0067",
+      "concept_b": "c_0527",
+      "relation_type": "proprietà",
+      "direction_hint": "symmetric",
+      "association_strength": 0.6,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0343",
+      "concept_b": "c_0410",
+      "relation_type": "similarità",
+      "direction_hint": "symmetric",
+      "association_strength": 0.5,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
     }
   ],
   "word_senses": {
