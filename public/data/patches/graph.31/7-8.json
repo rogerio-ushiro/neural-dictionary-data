@@ -1,0 +1,46 @@
+{
+  "pack": "graph.31",
+  "from": 7,
+  "to": 8,
+  "ops": [
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0611",
+        "concept_b": "c_0837",
+        "relation_type": "parti",
+        "direction_hint": "symmetric",
+        "association_strength": 0.35,
+        "confidence": 0.85,
+        "status": "candidate",
+        "revision": 1
+      }
+    },
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0367",
+        "concept_b": "c_0617",
+        "relation_type": "oggetti",
+        "direction_hint": "symmetric",
+        "association_strength": 0.45,
+        "confidence": 0.85,
+        "status": "candidate",
+        "revision": 1
+      }
+    },
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0367",
+        "concept_b": "c_0639",
+        "relation_type": "costituzione",
+        "direction_hint": "symmetric",
+        "association_strength": 0.45,
+        "confidence": 0.85,
+        "status": "candidate",
+        "revision": 1
+      }
+    }
+  ]
+}

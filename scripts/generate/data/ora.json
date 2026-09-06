@@ -1,0 +1,102 @@
+[
+  {
+    "lemma": "tempo",
+    "relation_type": "categoria",
+    "association_strength": 0.65
+  },
+  {
+    "lemma": "durata",
+    "relation_type": "categoria",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "periodo",
+    "relation_type": "categoria",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "frazione",
+    "relation_type": "parti",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "mezzogiorno",
+    "relation_type": "contenuto",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "mattina",
+    "relation_type": "contenuto",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "sera",
+    "relation_type": "contenuto",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "orario",
+    "relation_type": "oggetti",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "biglietto",
+    "relation_type": "oggetti",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "passaggio",
+    "relation_type": "azioni",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "transizione",
+    "relation_type": "azioni",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "ritmo",
+    "relation_type": "azioni",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "velocità",
+    "relation_type": "proprietà",
+    "association_strength": 0.35
+  },
+  {
+    "lemma": "frequenza",
+    "relation_type": "proprietà",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "giorno",
+    "relation_type": "similarità",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "pomeriggio",
+    "relation_type": "similarità",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "notte",
+    "relation_type": "luoghi",
+    "association_strength": 0.35
+  },
+  {
+    "lemma": "limite",
+    "relation_type": "effetti",
+    "association_strength": 0.35
+  },
+  {
+    "lemma": "mancanza",
+    "relation_type": "effetti",
+    "association_strength": 0.3
+  },
+  {
+    "lemma": "vita",
+    "relation_type": "evocativa",
+    "association_strength": 0.3
+  }
+]

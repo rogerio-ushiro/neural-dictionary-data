@@ -1,0 +1,137 @@
+[
+  {
+    "lemma": "strumento",
+    "relation_type": "categoria",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "fonte",
+    "relation_type": "categoria",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "fiamma",
+    "relation_type": "parti",
+    "association_strength": 0.65
+  },
+  {
+    "lemma": "base",
+    "relation_type": "parti",
+    "association_strength": 0.35
+  },
+  {
+    "lemma": "filo",
+    "relation_type": "parti",
+    "association_strength": 0.35
+  },
+  {
+    "lemma": "fuoco",
+    "relation_type": "costituzione",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "luce",
+    "relation_type": "effetti",
+    "association_strength": 0.75
+  },
+  {
+    "lemma": "calore",
+    "relation_type": "effetti",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "ombra",
+    "relation_type": "effetti",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "bagliore",
+    "relation_type": "effetti",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "illuminazione",
+    "relation_type": "azioni",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "ardore",
+    "relation_type": "azioni",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "tavola",
+    "relation_type": "luoghi",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "torta",
+    "relation_type": "luoghi",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "cerimonia",
+    "relation_type": "luoghi",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "casa",
+    "relation_type": "luoghi",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "profumato",
+    "relation_type": "proprietà",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "luminosità",
+    "relation_type": "proprietà",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "delicato",
+    "relation_type": "proprietà",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "buio",
+    "relation_type": "contrasto",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "oscurità",
+    "relation_type": "contrasto",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "tenebra",
+    "relation_type": "contrasto",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "riflessione",
+    "relation_type": "evocativa",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "festa",
+    "relation_type": "evocativa",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "silenzio",
+    "relation_type": "evocativa",
+    "association_strength": 0.35
+  },
+  {
+    "lemma": "fuoco",
+    "relation_type": "similarità",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "stella",
+    "relation_type": "similarità",
+    "association_strength": 0.3
+  }
+]

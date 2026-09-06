@@ -1,0 +1,122 @@
+[
+  {
+    "lemma": "chiarezza",
+    "relation_type": "categoria",
+    "association_strength": 0.7
+  },
+  {
+    "lemma": "purezza",
+    "relation_type": "categoria",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "trasparenza",
+    "relation_type": "categoria",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "pulizia",
+    "relation_type": "similarità",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "luminosità",
+    "relation_type": "similarità",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "lavaggio",
+    "relation_type": "cause",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "luce",
+    "relation_type": "cause",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "aria",
+    "relation_type": "cause",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "acqua",
+    "relation_type": "cause",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "intensità",
+    "relation_type": "proprietà",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "freschezza",
+    "relation_type": "proprietà",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "visibilità",
+    "relation_type": "effetti",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "bellezza",
+    "relation_type": "effetti",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "foschia",
+    "relation_type": "contrasto",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "nebbia",
+    "relation_type": "contrasto",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "macchia",
+    "relation_type": "contrasto",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "grigiore",
+    "relation_type": "contrasto",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "cielo",
+    "relation_type": "luoghi",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "aria",
+    "relation_type": "luoghi",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "specchio",
+    "relation_type": "luoghi",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "illuminazione",
+    "relation_type": "azioni",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "transizione",
+    "relation_type": "azioni",
+    "association_strength": 0.3
+  },
+  {
+    "lemma": "mattina",
+    "relation_type": "evocativa",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "inverno",
+    "relation_type": "evocativa",
+    "association_strength": 0.35
+  }
+]

@@ -1,0 +1,85 @@
+{
+  "pack": "graph.97",
+  "from": 14,
+  "to": 15,
+  "ops": [
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0358",
+        "concept_b": "c_0616",
+        "relation_type": "effetti",
+        "direction_hint": "symmetric",
+        "association_strength": 0.4,
+        "confidence": 0.85,
+        "status": "candidate",
+        "revision": 1
+      }
+    },
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0358",
+        "concept_b": "c_0617",
+        "relation_type": "proprietà",
+        "direction_hint": "symmetric",
+        "association_strength": 0.4,
+        "confidence": 0.85,
+        "status": "candidate",
+        "revision": 1
+      }
+    },
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0534",
+        "concept_b": "c_0627",
+        "relation_type": "azioni",
+        "direction_hint": "symmetric",
+        "association_strength": 0.35,
+        "confidence": 0.85,
+        "status": "candidate",
+        "revision": 1
+      }
+    },
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0534",
+        "concept_b": "c_0639",
+        "relation_type": "azioni",
+        "direction_hint": "symmetric",
+        "association_strength": 0.35,
+        "confidence": 0.85,
+        "status": "candidate",
+        "revision": 1
+      }
+    },
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0534",
+        "concept_b": "c_0642",
+        "relation_type": "azioni",
+        "direction_hint": "symmetric",
+        "association_strength": 0.4,
+        "confidence": 0.85,
+        "status": "candidate",
+        "revision": 1
+      }
+    },
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0534",
+        "concept_b": "c_0643",
+        "relation_type": "azioni",
+        "direction_hint": "symmetric",
+        "association_strength": 0.35,
+        "confidence": 0.85,
+        "status": "candidate",
+        "revision": 1
+      }
+    }
+  ]
+}

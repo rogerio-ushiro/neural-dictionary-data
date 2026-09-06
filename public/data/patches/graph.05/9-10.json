@@ -1,0 +1,98 @@
+{
+  "pack": "graph.05",
+  "from": 9,
+  "to": 10,
+  "ops": [
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0514",
+        "concept_b": "c_0623",
+        "relation_type": "similarità",
+        "direction_hint": "symmetric",
+        "association_strength": 0.4,
+        "confidence": 0.85,
+        "status": "candidate",
+        "revision": 1
+      }
+    },
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0244",
+        "concept_b": "c_0624",
+        "relation_type": "evocativa",
+        "direction_hint": "symmetric",
+        "association_strength": 0.4,
+        "confidence": 0.85,
+        "status": "candidate",
+        "revision": 1
+      }
+    },
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0244",
+        "concept_b": "c_0626",
+        "relation_type": "evocativa",
+        "direction_hint": "symmetric",
+        "association_strength": 0.45,
+        "confidence": 0.85,
+        "status": "candidate",
+        "revision": 1
+      }
+    },
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0514",
+        "concept_b": "c_0628",
+        "relation_type": "similarità",
+        "direction_hint": "symmetric",
+        "association_strength": 0.4,
+        "confidence": 0.85,
+        "status": "candidate",
+        "revision": 1
+      }
+    },
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0244",
+        "concept_b": "c_0635",
+        "relation_type": "cause",
+        "direction_hint": "symmetric",
+        "association_strength": 0.4,
+        "confidence": 0.85,
+        "status": "candidate",
+        "revision": 1
+      }
+    },
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0244",
+        "concept_b": "c_0648",
+        "relation_type": "cause",
+        "direction_hint": "symmetric",
+        "association_strength": 0.4,
+        "confidence": 0.85,
+        "status": "candidate",
+        "revision": 1
+      }
+    },
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0244",
+        "concept_b": "c_0649",
+        "relation_type": "evocativa",
+        "direction_hint": "symmetric",
+        "association_strength": 0.4,
+        "confidence": 0.85,
+        "status": "candidate",
+        "revision": 1
+      }
+    }
+  ]
+}

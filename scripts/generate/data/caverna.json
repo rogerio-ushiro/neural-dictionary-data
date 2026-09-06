@@ -1,0 +1,137 @@
+[
+  {
+    "lemma": "cavità",
+    "relation_type": "categoria",
+    "association_strength": 0.65
+  },
+  {
+    "lemma": "sotterraneo",
+    "relation_type": "categoria",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "rifugio",
+    "relation_type": "categoria",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "pozzo",
+    "relation_type": "similarità",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "burrone",
+    "relation_type": "similarità",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "montagna",
+    "relation_type": "luoghi",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "roccia",
+    "relation_type": "luoghi",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "scogliera",
+    "relation_type": "luoghi",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "bosco",
+    "relation_type": "luoghi",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "oscurità",
+    "relation_type": "proprietà",
+    "association_strength": 0.65
+  },
+  {
+    "lemma": "profondità",
+    "relation_type": "proprietà",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "umidità",
+    "relation_type": "proprietà",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "silenzio",
+    "relation_type": "proprietà",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "buio",
+    "relation_type": "contenuto",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "ombra",
+    "relation_type": "contenuto",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "eco",
+    "relation_type": "contenuto",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "acqua",
+    "relation_type": "contenuto",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "animale",
+    "relation_type": "esseri_viventi",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "belva",
+    "relation_type": "esseri_viventi",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "uomo",
+    "relation_type": "esseri_viventi",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "riparo",
+    "relation_type": "effetti",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "mistero",
+    "relation_type": "effetti",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "protezione",
+    "relation_type": "effetti",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "contenimento",
+    "relation_type": "azioni",
+    "association_strength": 0.35
+  },
+  {
+    "lemma": "riflessione",
+    "relation_type": "azioni",
+    "association_strength": 0.3
+  },
+  {
+    "lemma": "tenebra",
+    "relation_type": "evocativa",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "solitudine",
+    "relation_type": "evocativa",
+    "association_strength": 0.45
+  }
+]

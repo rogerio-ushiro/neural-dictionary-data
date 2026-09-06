@@ -1565,6 +1565,46 @@
       "confidence": 0.85,
       "status": "candidate",
       "revision": 1
+    },
+    {
+      "concept_a": "c_0611",
+      "concept_b": "c_0615",
+      "relation_type": "evocativa",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0628",
+      "concept_b": "c_0660",
+      "relation_type": "evocativa",
+      "direction_hint": "symmetric",
+      "association_strength": 0.45,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0615",
+      "concept_b": "c_0637",
+      "relation_type": "azioni",
+      "direction_hint": "symmetric",
+      "association_strength": 0.3,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0578",
+      "concept_b": "c_0642",
+      "relation_type": "similarità",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
     }
   ],
   "word_senses": {

@@ -1,0 +1,152 @@
+[
+  {
+    "lemma": "sera",
+    "relation_type": "categoria",
+    "association_strength": 0.8
+  },
+  {
+    "lemma": "notte",
+    "relation_type": "categoria",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "evento",
+    "relation_type": "categoria",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "pomeriggio",
+    "relation_type": "similarità",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "festa",
+    "relation_type": "similarità",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "ricevimento",
+    "relation_type": "similarità",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "spettacolo",
+    "relation_type": "contenuto",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "musica",
+    "relation_type": "contenuto",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "gioco",
+    "relation_type": "contenuto",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "concerto",
+    "relation_type": "contenuto",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "cenare",
+    "relation_type": "azioni",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "divertimento",
+    "relation_type": "azioni",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "riposo",
+    "relation_type": "azioni",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "passeggiata",
+    "relation_type": "azioni",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "casa",
+    "relation_type": "luoghi",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "piazza",
+    "relation_type": "luoghi",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "città",
+    "relation_type": "luoghi",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "amico",
+    "relation_type": "esseri_viventi",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "famiglia",
+    "relation_type": "esseri_viventi",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "gente",
+    "relation_type": "esseri_viventi",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "durata",
+    "relation_type": "proprietà",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "tranquillità",
+    "relation_type": "proprietà",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "freschezza",
+    "relation_type": "proprietà",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "serenità",
+    "relation_type": "effetti",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "gioia",
+    "relation_type": "effetti",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "mattina",
+    "relation_type": "contrasto",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "giorno",
+    "relation_type": "contrasto",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "relax",
+    "relation_type": "evocativa",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "amicizia",
+    "relation_type": "evocativa",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "estate",
+    "relation_type": "evocativa",
+    "association_strength": 0.35
+  }
+]
