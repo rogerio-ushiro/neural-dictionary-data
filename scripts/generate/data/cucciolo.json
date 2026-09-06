@@ -1,0 +1,147 @@
+[
+  {
+    "lemma": "animale",
+    "relation_type": "categoria",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "prole",
+    "relation_type": "categoria",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "creatura",
+    "relation_type": "categoria",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "bestia",
+    "relation_type": "categoria",
+    "association_strength": 0.35
+  },
+  {
+    "lemma": "cane",
+    "relation_type": "esseri_viventi",
+    "association_strength": 0.65
+  },
+  {
+    "lemma": "gatto",
+    "relation_type": "esseri_viventi",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "madre",
+    "relation_type": "esseri_viventi",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "animale",
+    "relation_type": "esseri_viventi",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "felino",
+    "relation_type": "esseri_viventi",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "piccolo",
+    "relation_type": "proprietà",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "delicato",
+    "relation_type": "proprietà",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "vitalità",
+    "relation_type": "proprietà",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "gioventù",
+    "relation_type": "proprietà",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "gioco",
+    "relation_type": "azioni",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "allattamento",
+    "relation_type": "azioni",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "abbaiare",
+    "relation_type": "azioni",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "miagolare",
+    "relation_type": "azioni",
+    "association_strength": 0.35
+  },
+  {
+    "lemma": "corsa",
+    "relation_type": "azioni",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "nido",
+    "relation_type": "luoghi",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "casa",
+    "relation_type": "luoghi",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "cascina",
+    "relation_type": "luoghi",
+    "association_strength": 0.35
+  },
+  {
+    "lemma": "bosco",
+    "relation_type": "luoghi",
+    "association_strength": 0.35
+  },
+  {
+    "lemma": "belva",
+    "relation_type": "contrasto",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "anziano",
+    "relation_type": "contrasto",
+    "association_strength": 0.35
+  },
+  {
+    "lemma": "bimbo",
+    "relation_type": "similarità",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "pargolo",
+    "relation_type": "similarità",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "pulcino",
+    "relation_type": "similarità",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "gioia",
+    "relation_type": "evocativa",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "innocenza",
+    "relation_type": "evocativa",
+    "association_strength": 0.4
+  }
+]
