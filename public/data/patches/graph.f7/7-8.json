@@ -1,0 +1,20 @@
+{
+  "pack": "graph.f7",
+  "from": 7,
+  "to": 8,
+  "ops": [
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0088",
+        "concept_b": "c_0385",
+        "relation_type": "evocativa",
+        "direction_hint": "symmetric",
+        "association_strength": 0.45,
+        "confidence": 0.85,
+        "status": "candidate",
+        "revision": 1
+      }
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "pack": "graph.de",
+  "from": 6,
+  "to": 7,
+  "ops": [
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0394",
+        "concept_b": "c_0533",
+        "relation_type": "effetti",
+        "direction_hint": "symmetric",
+        "association_strength": 0.45,
+        "confidence": 0.85,
+        "status": "candidate",
+        "revision": 1
+      }
+    }
+  ]
+}
