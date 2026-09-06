@@ -15,6 +15,11 @@ on:
     paths:
       - 'public/data/**'
       - 'src/data/v04/seed/**'
+  # promote-merged-candidates.yml commits with GITHUB_TOKEN, whose pushes do NOT
+  # trigger workflows (GitHub's recursion safeguard). Catch that commit here.
+  workflow_run:
+    workflows: ['Promote merged candidates']
+    types: [completed]
   workflow_dispatch:
 
 permissions:
@@ -30,6 +35,8 @@ concurrency:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    # For workflow_run, only deploy if the promotion actually succeeded.
+    if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
