@@ -1,0 +1,18 @@
+[
+  { "lemma": "persona", "relation_type": "categoria", "association_strength": 0.7 },
+  { "lemma": "turista", "relation_type": "categoria", "association_strength": 0.6, "pos": "sostantivo", "region": "relazioni_sociali" },
+  { "lemma": "nuoto", "relation_type": "azioni", "association_strength": 0.7 },
+  { "lemma": "tintarella", "relation_type": "azioni", "association_strength": 0.6 },
+  { "lemma": "passeggiata", "relation_type": "azioni", "association_strength": 0.45 },
+  { "lemma": "spiaggia", "relation_type": "luoghi", "association_strength": 0.9 },
+  { "lemma": "mare", "relation_type": "luoghi", "association_strength": 0.8 },
+  { "lemma": "lido", "relation_type": "luoghi", "association_strength": 0.7 },
+  { "lemma": "piscina", "relation_type": "luoghi", "association_strength": 0.55 },
+  { "lemma": "asciugamano", "relation_type": "oggetti", "association_strength": 0.6 },
+  { "lemma": "ombrellone", "relation_type": "oggetti", "association_strength": 0.6 },
+  { "lemma": "bagnino", "relation_type": "esseri_viventi", "association_strength": 0.55 },
+  { "lemma": "abbronzatura", "relation_type": "proprietà", "association_strength": 0.55 },
+  { "lemma": "scottatura", "relation_type": "effetti", "association_strength": 0.45 },
+  { "lemma": "estate", "relation_type": "evocativa", "association_strength": 0.7 },
+  { "lemma": "vacanza", "relation_type": "evocativa", "association_strength": 0.6 }
+]

@@ -1,0 +1,97 @@
+[
+  {
+    "lemma": "piacere",
+    "relation_type": "categoria",
+    "association_strength": 0.75
+  },
+  {
+    "lemma": "svago",
+    "relation_type": "categoria",
+    "association_strength": 0.65
+  },
+  {
+    "lemma": "gioia",
+    "relation_type": "categoria",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "divertimento",
+    "relation_type": "categoria",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "piacere",
+    "relation_type": "similarità",
+    "association_strength": 0.7
+  },
+  {
+    "lemma": "diporto",
+    "relation_type": "similarità",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "trastullo",
+    "relation_type": "similarità",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "sollazzo",
+    "relation_type": "similarità",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "gioia",
+    "relation_type": "effetti",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "allegria",
+    "relation_type": "effetti",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "serenita",
+    "relation_type": "effetti",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "gioco",
+    "relation_type": "cause",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "passatempo",
+    "relation_type": "cause",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "musica",
+    "relation_type": "cause",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "bellezza",
+    "relation_type": "cause",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "disciplina",
+    "relation_type": "contrasto",
+    "association_strength": 0.3
+  },
+  {
+    "lemma": "austerita",
+    "relation_type": "contrasto",
+    "association_strength": 0.3
+  },
+  {
+    "lemma": "passeggiata",
+    "relation_type": "azioni",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "ozio",
+    "relation_type": "evocativa",
+    "association_strength": 0.4
+  }
+]

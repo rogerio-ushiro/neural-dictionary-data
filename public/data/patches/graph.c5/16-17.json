@@ -1,0 +1,20 @@
+{
+  "pack": "graph.c5",
+  "from": 16,
+  "to": 17,
+  "ops": [
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0850",
+        "concept_b": "c_0851",
+        "relation_type": "similarità",
+        "direction_hint": "symmetric",
+        "association_strength": 0.4,
+        "confidence": 0.85,
+        "status": "candidate",
+        "revision": 1
+      }
+    }
+  ]
+}

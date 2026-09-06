@@ -1,0 +1,87 @@
+[
+  {
+    "lemma": "strumento",
+    "relation_type": "categoria",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "comando",
+    "relation_type": "categoria",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "ingranaggio",
+    "relation_type": "categoria",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "pedale",
+    "relation_type": "parti",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "disco",
+    "relation_type": "parti",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "ruota",
+    "relation_type": "parti",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "treno",
+    "relation_type": "oggetti",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "bicicletta",
+    "relation_type": "oggetti",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "motore",
+    "relation_type": "oggetti",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "manovra",
+    "relation_type": "azioni",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "calare",
+    "relation_type": "azioni",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "accelerazione",
+    "relation_type": "contrasto",
+    "association_strength": 0.75
+  },
+  {
+    "lemma": "velocità",
+    "relation_type": "contrasto",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "motore",
+    "relation_type": "contrasto",
+    "association_strength": 0.35
+  },
+  {
+    "lemma": "immobilità",
+    "relation_type": "effetti",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "stasi",
+    "relation_type": "effetti",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "equilibrio",
+    "relation_type": "effetti",
+    "association_strength": 0.4
+  }
+]

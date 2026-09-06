@@ -1,0 +1,132 @@
+[
+  {
+    "lemma": "raggio",
+    "relation_type": "categoria",
+    "association_strength": 0.75
+  },
+  {
+    "lemma": "luce",
+    "relation_type": "categoria",
+    "association_strength": 0.65
+  },
+  {
+    "lemma": "luce",
+    "relation_type": "costituzione",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "energia",
+    "relation_type": "costituzione",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "radiazione",
+    "relation_type": "costituzione",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "luminosita",
+    "relation_type": "proprietà",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "calore",
+    "relation_type": "proprietà",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "intensita",
+    "relation_type": "proprietà",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "direzione",
+    "relation_type": "proprietà",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "sole",
+    "relation_type": "fenomeni",
+    "association_strength": 0.7
+  },
+  {
+    "lemma": "bagliore",
+    "relation_type": "fenomeni",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "illuminazione",
+    "relation_type": "fenomeni",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "splendore",
+    "relation_type": "fenomeni",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "sole",
+    "relation_type": "cause",
+    "association_strength": 0.65
+  },
+  {
+    "lemma": "stella",
+    "relation_type": "cause",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "abbronzatura",
+    "relation_type": "effetti",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "scottatura",
+    "relation_type": "effetti",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "tintarella",
+    "relation_type": "effetti",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "stella",
+    "relation_type": "oggetti",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "ruota",
+    "relation_type": "oggetti",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "bicicletta",
+    "relation_type": "oggetti",
+    "association_strength": 0.35
+  },
+  {
+    "lemma": "cielo",
+    "relation_type": "luoghi",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "orizzonte",
+    "relation_type": "luoghi",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "raggio",
+    "relation_type": "similarità",
+    "association_strength": 0.75
+  },
+  {
+    "lemma": "estate",
+    "relation_type": "evocativa",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "speranza",
+    "relation_type": "evocativa",
+    "association_strength": 0.35
+  }
+]

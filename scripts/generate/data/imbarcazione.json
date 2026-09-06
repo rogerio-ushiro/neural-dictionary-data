@@ -1,0 +1,112 @@
+[
+  {
+    "lemma": "nave",
+    "relation_type": "categoria",
+    "association_strength": 0.8
+  },
+  {
+    "lemma": "barca",
+    "relation_type": "categoria",
+    "association_strength": 0.8
+  },
+  {
+    "lemma": "veicolo",
+    "relation_type": "categoria",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "mezzo",
+    "relation_type": "categoria",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "scafo",
+    "relation_type": "parti",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "vela",
+    "relation_type": "parti",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "timone",
+    "relation_type": "parti",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "remo",
+    "relation_type": "parti",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "equilibrio",
+    "relation_type": "proprietà",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "mare",
+    "relation_type": "luoghi",
+    "association_strength": 0.65
+  },
+  {
+    "lemma": "porto",
+    "relation_type": "luoghi",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "lago",
+    "relation_type": "luoghi",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "fiume",
+    "relation_type": "luoghi",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "navigare",
+    "relation_type": "azioni",
+    "association_strength": 0.65
+  },
+  {
+    "lemma": "navigazione",
+    "relation_type": "azioni",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "traversata",
+    "relation_type": "azioni",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "salpare",
+    "relation_type": "azioni",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "bussola",
+    "relation_type": "oggetti",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "ancoraggio",
+    "relation_type": "oggetti",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "equipaggio",
+    "relation_type": "esseri_viventi",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "capitano",
+    "relation_type": "esseri_viventi",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "viaggio",
+    "relation_type": "evocativa",
+    "association_strength": 0.5
+  }
+]

@@ -1,0 +1,18 @@
+[
+  { "lemma": "riva", "relation_type": "categoria", "association_strength": 0.8 },
+  { "lemma": "margine", "relation_type": "categoria", "association_strength": 0.5 },
+  { "lemma": "spiaggia", "relation_type": "luoghi", "association_strength": 0.85 },
+  { "lemma": "mare", "relation_type": "luoghi", "association_strength": 0.8 },
+  { "lemma": "costa", "relation_type": "luoghi", "association_strength": 0.7 },
+  { "lemma": "lido", "relation_type": "luoghi", "association_strength": 0.65 },
+  { "lemma": "sabbia", "relation_type": "parti", "association_strength": 0.7 },
+  { "lemma": "onda", "relation_type": "parti", "association_strength": 0.7 },
+  { "lemma": "umidità", "relation_type": "proprietà", "association_strength": 0.6 },
+  { "lemma": "bagnato", "relation_type": "proprietà", "association_strength": 0.6 },
+  { "lemma": "flusso", "relation_type": "fenomeni", "association_strength": 0.55 },
+  { "lemma": "corrente", "relation_type": "fenomeni", "association_strength": 0.45 },
+  { "lemma": "conchiglia", "relation_type": "oggetti", "association_strength": 0.5 },
+  { "lemma": "passeggiata", "relation_type": "azioni", "association_strength": 0.5 },
+  { "lemma": "bagnante", "relation_type": "esseri_viventi", "association_strength": 0.5 },
+  { "lemma": "estate", "relation_type": "evocativa", "association_strength": 0.5 }
+]

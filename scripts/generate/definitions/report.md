@@ -1,7 +1,7 @@
 # Definition backfill — coverage
 
-- concepts: **1021**
-- with definition: **1021** (100%)
+- concepts: **1047**
+- with definition: **1047** (100%)
 - missing: **0**
 - normalized_form collisions: **0**
 

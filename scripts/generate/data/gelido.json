@@ -1,0 +1,112 @@
+[
+  {
+    "lemma": "freddo",
+    "relation_type": "categoria",
+    "association_strength": 0.8
+  },
+  {
+    "lemma": "algidita",
+    "relation_type": "categoria",
+    "association_strength": 0.65
+  },
+  {
+    "lemma": "freddo",
+    "relation_type": "proprietà",
+    "association_strength": 0.75
+  },
+  {
+    "lemma": "glaciale",
+    "relation_type": "proprietà",
+    "association_strength": 0.7
+  },
+  {
+    "lemma": "ghiacciato",
+    "relation_type": "proprietà",
+    "association_strength": 0.65
+  },
+  {
+    "lemma": "glaciale",
+    "relation_type": "similarità",
+    "association_strength": 0.7
+  },
+  {
+    "lemma": "congelato",
+    "relation_type": "similarità",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "algidita",
+    "relation_type": "similarità",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "caldo",
+    "relation_type": "contrasto",
+    "association_strength": 0.65
+  },
+  {
+    "lemma": "tepore",
+    "relation_type": "contrasto",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "calore",
+    "relation_type": "contrasto",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "ardore",
+    "relation_type": "contrasto",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "gelo",
+    "relation_type": "cause",
+    "association_strength": 0.65
+  },
+  {
+    "lemma": "ghiaccio",
+    "relation_type": "cause",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "inverno",
+    "relation_type": "cause",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "brina",
+    "relation_type": "cause",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "brivido",
+    "relation_type": "effetti",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "tremore",
+    "relation_type": "effetti",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "torpore",
+    "relation_type": "effetti",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "montagna",
+    "relation_type": "luoghi",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "solitudine",
+    "relation_type": "evocativa",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "silenzio",
+    "relation_type": "evocativa",
+    "association_strength": 0.35
+  }
+]

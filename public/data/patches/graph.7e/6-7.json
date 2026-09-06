@@ -1,0 +1,29 @@
+{
+  "pack": "graph.7e",
+  "from": 6,
+  "to": 7,
+  "ops": [
+    {
+      "op": "ADD_CONCEPT",
+      "concept_id": "c_1026",
+      "concept": {
+        "revision": 1,
+        "region_id": "r_natura",
+        "status_fronteira": "needs_expansion"
+      }
+    },
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0068",
+        "concept_b": "c_1026",
+        "relation_type": "similarità",
+        "direction_hint": "symmetric",
+        "association_strength": 0.7,
+        "confidence": 0.85,
+        "status": "candidate",
+        "revision": 1
+      }
+    }
+  ]
+}

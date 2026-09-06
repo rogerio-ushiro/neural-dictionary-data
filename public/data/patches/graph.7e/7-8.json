@@ -1,0 +1,20 @@
+{
+  "pack": "graph.7e",
+  "from": 7,
+  "to": 8,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_1026",
+      "concept": {
+        "revision": 2,
+        "region_id": "r_natura",
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Grande corpo celeste che gira intorno a una stella senza emettere luce propria, come la Terra rispetto al Sole.",
+          "example": "Con il telescopio si distingueva un pianeta poco sopra la Luna."
+        }
+      }
+    }
+  ]
+}

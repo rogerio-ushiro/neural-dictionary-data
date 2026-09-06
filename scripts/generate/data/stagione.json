@@ -1,0 +1,16 @@
+[
+  { "lemma": "periodo", "relation_type": "categoria", "association_strength": 0.75, "pos": "sostantivo", "region": "tempo" },
+  { "lemma": "estate", "relation_type": "categoria", "association_strength": 0.8 },
+  { "lemma": "primavera", "relation_type": "categoria", "association_strength": 0.8 },
+  { "lemma": "autunno", "relation_type": "categoria", "association_strength": 0.8 },
+  { "lemma": "inverno", "relation_type": "categoria", "association_strength": 0.8 },
+  { "lemma": "mese", "relation_type": "contenuto", "association_strength": 0.6, "pos": "sostantivo", "region": "tempo" },
+  { "lemma": "clima", "relation_type": "fenomeni", "association_strength": 0.8 },
+  { "lemma": "tempo", "relation_type": "fenomeni", "association_strength": 0.6 },
+  { "lemma": "durata", "relation_type": "proprietà", "association_strength": 0.5 },
+  { "lemma": "transizione", "relation_type": "azioni", "association_strength": 0.5 },
+  { "lemma": "ciclo", "relation_type": "azioni", "association_strength": 0.5 },
+  { "lemma": "raccolto", "relation_type": "effetti", "association_strength": 0.5 },
+  { "lemma": "fioritura", "relation_type": "effetti", "association_strength": 0.45 },
+  { "lemma": "natura", "relation_type": "evocativa", "association_strength": 0.45 }
+]

@@ -1,0 +1,20 @@
+{
+  "pack": "graph.6c",
+  "from": 3,
+  "to": 4,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_1042",
+      "concept": {
+        "revision": 2,
+        "region_id": "r_oggetti",
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Materiale sottile ricavato dalla cellulosa, su cui si scrive, si stampa o si avvolgono le cose.",
+          "example": "Avvolse il regalo in un foglio di carta colorata."
+        }
+      }
+    }
+  ]
+}

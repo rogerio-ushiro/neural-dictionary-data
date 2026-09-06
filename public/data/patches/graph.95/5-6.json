@@ -1,0 +1,20 @@
+{
+  "pack": "graph.95",
+  "from": 5,
+  "to": 6,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_1038",
+      "concept": {
+        "revision": 2,
+        "region_id": "r_movimento",
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Vettura chiusa di un treno dove viaggiano i passeggeri; un tempo, il veicolo tirato dai cavalli.",
+          "example": "Salirono nell'ultima carrozza, quasi vuota."
+        }
+      }
+    }
+  ]
+}

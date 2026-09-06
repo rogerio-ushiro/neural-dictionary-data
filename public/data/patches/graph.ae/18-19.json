@@ -1,0 +1,33 @@
+{
+  "pack": "graph.ae",
+  "from": 18,
+  "to": 19,
+  "ops": [
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0120",
+        "concept_b": "c_0860",
+        "relation_type": "azioni",
+        "direction_hint": "symmetric",
+        "association_strength": 0.6,
+        "confidence": 0.85,
+        "status": "candidate",
+        "revision": 1
+      }
+    },
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0120",
+        "concept_b": "c_0831",
+        "relation_type": "azioni",
+        "direction_hint": "symmetric",
+        "association_strength": 0.55,
+        "confidence": 0.85,
+        "status": "candidate",
+        "revision": 1
+      }
+    }
+  ]
+}

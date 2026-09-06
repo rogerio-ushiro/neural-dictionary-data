@@ -1,0 +1,117 @@
+[
+  {
+    "lemma": "verso",
+    "relation_type": "categoria",
+    "association_strength": 0.7
+  },
+  {
+    "lemma": "suono",
+    "relation_type": "categoria",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "azione",
+    "relation_type": "categoria",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "gatto",
+    "relation_type": "esseri_viventi",
+    "association_strength": 0.8
+  },
+  {
+    "lemma": "micia",
+    "relation_type": "esseri_viventi",
+    "association_strength": 0.65
+  },
+  {
+    "lemma": "felino",
+    "relation_type": "esseri_viventi",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "abbaiare",
+    "relation_type": "similarità",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "grido",
+    "relation_type": "similarità",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "nenia",
+    "relation_type": "similarità",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "fame",
+    "relation_type": "cause",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "solitudine",
+    "relation_type": "cause",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "gioia",
+    "relation_type": "cause",
+    "association_strength": 0.35
+  },
+  {
+    "lemma": "rumore",
+    "relation_type": "effetti",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "eco",
+    "relation_type": "effetti",
+    "association_strength": 0.35
+  },
+  {
+    "lemma": "casa",
+    "relation_type": "luoghi",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "tetto",
+    "relation_type": "luoghi",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "focolare",
+    "relation_type": "luoghi",
+    "association_strength": 0.35
+  },
+  {
+    "lemma": "silenzio",
+    "relation_type": "contrasto",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "quiete",
+    "relation_type": "contrasto",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "calma",
+    "relation_type": "contrasto",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "intensità",
+    "relation_type": "proprietà",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "melodia",
+    "relation_type": "proprietà",
+    "association_strength": 0.3
+  },
+  {
+    "lemma": "notte",
+    "relation_type": "evocativa",
+    "association_strength": 0.45
+  }
+]

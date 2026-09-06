@@ -1,0 +1,20 @@
+[
+  { "lemma": "calore", "relation_type": "categoria", "association_strength": 0.85 },
+  { "lemma": "temperatura", "relation_type": "categoria", "association_strength": 0.5 },
+  { "lemma": "afa", "relation_type": "similarità", "association_strength": 0.8 },
+  { "lemma": "calura", "relation_type": "similarità", "association_strength": 0.85 },
+  { "lemma": "arsura", "relation_type": "similarità", "association_strength": 0.7 },
+  { "lemma": "torridità", "relation_type": "similarità", "association_strength": 0.65 },
+  { "lemma": "freddo", "relation_type": "contrasto", "association_strength": 0.65 },
+  { "lemma": "freschezza", "relation_type": "contrasto", "association_strength": 0.55 },
+  { "lemma": "sole", "relation_type": "cause", "association_strength": 0.8 },
+  { "lemma": "estate", "relation_type": "cause", "association_strength": 0.7 },
+  { "lemma": "siccità", "relation_type": "cause", "association_strength": 0.5 },
+  { "lemma": "sudore", "relation_type": "effetti", "association_strength": 0.7 },
+  { "lemma": "sete", "relation_type": "effetti", "association_strength": 0.65 },
+  { "lemma": "torpore", "relation_type": "effetti", "association_strength": 0.5 },
+  { "lemma": "disidratazione", "relation_type": "effetti", "association_strength": 0.5 },
+  { "lemma": "intensità", "relation_type": "proprietà", "association_strength": 0.5 },
+  { "lemma": "sirocco", "relation_type": "fenomeni", "association_strength": 0.5 },
+  { "lemma": "mezzogiorno", "relation_type": "evocativa", "association_strength": 0.55 }
+]

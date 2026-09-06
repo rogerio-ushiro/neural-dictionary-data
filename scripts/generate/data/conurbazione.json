@@ -1,0 +1,107 @@
+[
+  {
+    "lemma": "insediamento",
+    "relation_type": "categoria",
+    "association_strength": 0.65
+  },
+  {
+    "lemma": "regione",
+    "relation_type": "categoria",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "distesa",
+    "relation_type": "categoria",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "città",
+    "relation_type": "parti",
+    "association_strength": 0.8
+  },
+  {
+    "lemma": "periferia",
+    "relation_type": "parti",
+    "association_strength": 0.65
+  },
+  {
+    "lemma": "sobborgo",
+    "relation_type": "parti",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "quartiere",
+    "relation_type": "parti",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "borgata",
+    "relation_type": "parti",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "popolazione",
+    "relation_type": "contenuto",
+    "association_strength": 0.65
+  },
+  {
+    "lemma": "gente",
+    "relation_type": "contenuto",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "urbanizzazione",
+    "relation_type": "azioni",
+    "association_strength": 0.65
+  },
+  {
+    "lemma": "propagazione",
+    "relation_type": "azioni",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "formazione",
+    "relation_type": "azioni",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "metropoli",
+    "relation_type": "similarità",
+    "association_strength": 0.7
+  },
+  {
+    "lemma": "campagna",
+    "relation_type": "contrasto",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "villaggio",
+    "relation_type": "contrasto",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "solitudine",
+    "relation_type": "contrasto",
+    "association_strength": 0.35
+  },
+  {
+    "lemma": "pianura",
+    "relation_type": "luoghi",
+    "association_strength": 0.35
+  },
+  {
+    "lemma": "costa",
+    "relation_type": "luoghi",
+    "association_strength": 0.35
+  },
+  {
+    "lemma": "regione",
+    "relation_type": "luoghi",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "movimento",
+    "relation_type": "evocativa",
+    "association_strength": 0.35
+  }
+]

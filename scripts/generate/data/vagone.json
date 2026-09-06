@@ -1,0 +1,89 @@
+[
+  {
+    "lemma": "carrozza",
+    "relation_type": "categoria",
+    "association_strength": 0.8,
+    "pos": "sostantivo",
+    "region": "movimento"
+  },
+  {
+    "lemma": "veicolo",
+    "relation_type": "categoria",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "mezzo",
+    "relation_type": "categoria",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "treno",
+    "relation_type": "parti",
+    "association_strength": 0.8
+  },
+  {
+    "lemma": "ruota",
+    "relation_type": "parti",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "convoglio",
+    "relation_type": "parti",
+    "association_strength": 0.65
+  },
+  {
+    "lemma": "passeggero",
+    "relation_type": "contenuto",
+    "association_strength": 0.7
+  },
+  {
+    "lemma": "merci",
+    "relation_type": "contenuto",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "bagaglio",
+    "relation_type": "contenuto",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "ferrovia",
+    "relation_type": "luoghi",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "binario",
+    "relation_type": "luoghi",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "stazione",
+    "relation_type": "luoghi",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "trasporto",
+    "relation_type": "azioni",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "marcia",
+    "relation_type": "azioni",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "fila",
+    "relation_type": "similarità",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "viaggio",
+    "relation_type": "evocativa",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "treno",
+    "relation_type": "evocativa",
+    "association_strength": 0.4
+  }
+]

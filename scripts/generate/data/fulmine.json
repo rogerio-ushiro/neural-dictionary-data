@@ -1,0 +1,142 @@
+[
+  {
+    "lemma": "lampo",
+    "relation_type": "categoria",
+    "association_strength": 0.7
+  },
+  {
+    "lemma": "bagliore",
+    "relation_type": "categoria",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "fenomeno",
+    "relation_type": "categoria",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "getto",
+    "relation_type": "similarità",
+    "association_strength": 0.35
+  },
+  {
+    "lemma": "raggio",
+    "relation_type": "similarità",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "brillio",
+    "relation_type": "similarità",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "tempesta",
+    "relation_type": "cause",
+    "association_strength": 0.65
+  },
+  {
+    "lemma": "nube",
+    "relation_type": "cause",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "energia",
+    "relation_type": "cause",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "temporale",
+    "relation_type": "cause",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "tuono",
+    "relation_type": "effetti",
+    "association_strength": 0.65
+  },
+  {
+    "lemma": "luce",
+    "relation_type": "effetti",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "scoppio",
+    "relation_type": "effetti",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "fuoco",
+    "relation_type": "effetti",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "velocità",
+    "relation_type": "proprietà",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "intensità",
+    "relation_type": "proprietà",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "luminosità",
+    "relation_type": "proprietà",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "forza",
+    "relation_type": "proprietà",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "cielo",
+    "relation_type": "luoghi",
+    "association_strength": 0.7
+  },
+  {
+    "lemma": "atmosfera",
+    "relation_type": "luoghi",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "montagna",
+    "relation_type": "luoghi",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "illuminazione",
+    "relation_type": "azioni",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "movimento",
+    "relation_type": "azioni",
+    "association_strength": 0.35
+  },
+  {
+    "lemma": "buio",
+    "relation_type": "contrasto",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "oscurità",
+    "relation_type": "contrasto",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "tenebra",
+    "relation_type": "contrasto",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "passione",
+    "relation_type": "evocativa",
+    "association_strength": 0.3
+  },
+  {
+    "lemma": "dramma",
+    "relation_type": "evocativa",
+    "association_strength": 0.3
+  }
+]

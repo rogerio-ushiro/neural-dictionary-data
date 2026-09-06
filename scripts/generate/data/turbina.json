@@ -1,0 +1,137 @@
+[
+  {
+    "lemma": "motore",
+    "relation_type": "categoria",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "generatore",
+    "relation_type": "categoria",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "ruota",
+    "relation_type": "categoria",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "perno",
+    "relation_type": "parti",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "ingranaggio",
+    "relation_type": "parti",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "cerchio",
+    "relation_type": "parti",
+    "association_strength": 0.35
+  },
+  {
+    "lemma": "rotazione",
+    "relation_type": "azioni",
+    "association_strength": 0.7
+  },
+  {
+    "lemma": "movimento",
+    "relation_type": "azioni",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "accelerazione",
+    "relation_type": "azioni",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "vento",
+    "relation_type": "cause",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "acqua",
+    "relation_type": "cause",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "vapore",
+    "relation_type": "cause",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "corrente",
+    "relation_type": "cause",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "energia",
+    "relation_type": "effetti",
+    "association_strength": 0.65
+  },
+  {
+    "lemma": "forza",
+    "relation_type": "effetti",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "velocità",
+    "relation_type": "effetti",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "corrente",
+    "relation_type": "effetti",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "fiume",
+    "relation_type": "luoghi",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "cascata",
+    "relation_type": "luoghi",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "locomotiva",
+    "relation_type": "luoghi",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "nave",
+    "relation_type": "luoghi",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "rotondità",
+    "relation_type": "proprietà",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "intensità",
+    "relation_type": "proprietà",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "turbine",
+    "relation_type": "similarità",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "oscillazione",
+    "relation_type": "similarità",
+    "association_strength": 0.3
+  },
+  {
+    "lemma": "potere",
+    "relation_type": "evocativa",
+    "association_strength": 0.35
+  },
+  {
+    "lemma": "vibrazione",
+    "relation_type": "evocativa",
+    "association_strength": 0.35
+  }
+]

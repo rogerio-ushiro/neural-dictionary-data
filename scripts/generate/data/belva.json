@@ -1,0 +1,122 @@
+[
+  {
+    "lemma": "bestia",
+    "relation_type": "categoria",
+    "association_strength": 0.8
+  },
+  {
+    "lemma": "animale",
+    "relation_type": "categoria",
+    "association_strength": 0.65
+  },
+  {
+    "lemma": "fiera",
+    "relation_type": "categoria",
+    "association_strength": 0.7
+  },
+  {
+    "lemma": "bruto",
+    "relation_type": "categoria",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "artiglio",
+    "relation_type": "parti",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "coda",
+    "relation_type": "parti",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "zampa",
+    "relation_type": "parti",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "unghia",
+    "relation_type": "parti",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "brutale",
+    "relation_type": "proprietà",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "ferino",
+    "relation_type": "proprietà",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "selvaggio",
+    "relation_type": "proprietà",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "agilita",
+    "relation_type": "proprietà",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "felino",
+    "relation_type": "esseri_viventi",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "abbaiare",
+    "relation_type": "azioni",
+    "association_strength": 0.3
+  },
+  {
+    "lemma": "giungla",
+    "relation_type": "luoghi",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "foresta",
+    "relation_type": "luoghi",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "caverna",
+    "relation_type": "luoghi",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "deserto",
+    "relation_type": "luoghi",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "micia",
+    "relation_type": "similarità",
+    "association_strength": 0.35
+  },
+  {
+    "lemma": "cucciolo",
+    "relation_type": "contrasto",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "mansueto",
+    "relation_type": "contrasto",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "addomesticato",
+    "relation_type": "contrasto",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "istinto",
+    "relation_type": "evocativa",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "mistero",
+    "relation_type": "evocativa",
+    "association_strength": 0.4
+  }
+]

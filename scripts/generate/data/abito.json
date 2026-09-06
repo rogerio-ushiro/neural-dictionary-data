@@ -1,0 +1,114 @@
+[
+  {
+    "lemma": "vestito",
+    "relation_type": "categoria",
+    "association_strength": 0.75,
+    "pos": "sostantivo",
+    "region": "oggetti"
+  },
+  {
+    "lemma": "manto",
+    "relation_type": "categoria",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "velo",
+    "relation_type": "categoria",
+    "association_strength": 0.35
+  },
+  {
+    "lemma": "orlo",
+    "relation_type": "parti",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "bordo",
+    "relation_type": "parti",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "filo",
+    "relation_type": "parti",
+    "association_strength": 0.35
+  },
+  {
+    "lemma": "lana",
+    "relation_type": "costituzione",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "fibra",
+    "relation_type": "costituzione",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "velo",
+    "relation_type": "costituzione",
+    "association_strength": 0.35
+  },
+  {
+    "lemma": "filo",
+    "relation_type": "costituzione",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "baule",
+    "relation_type": "luoghi",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "valigia",
+    "relation_type": "luoghi",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "pelle",
+    "relation_type": "luoghi",
+    "association_strength": 0.35
+  },
+  {
+    "lemma": "bellezza",
+    "relation_type": "proprietà",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "colore",
+    "relation_type": "proprietà",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "forma",
+    "relation_type": "proprietà",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "delicato",
+    "relation_type": "proprietà",
+    "association_strength": 0.3
+  },
+  {
+    "lemma": "moda",
+    "relation_type": "azioni",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "cerimonia",
+    "relation_type": "azioni",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "pelliccia",
+    "relation_type": "similarità",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "festa",
+    "relation_type": "evocativa",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "apparenza",
+    "relation_type": "evocativa",
+    "association_strength": 0.4
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "pack": "graph.c7",
+  "from": 19,
+  "to": 20,
+  "ops": [
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0500",
+        "concept_b": "c_0787",
+        "relation_type": "parti",
+        "direction_hint": "symmetric",
+        "association_strength": 0.55,
+        "confidence": 0.85,
+        "status": "candidate",
+        "revision": 1
+      }
+    }
+  ]
+}

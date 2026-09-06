@@ -1,0 +1,94 @@
+[
+  {
+    "lemma": "rotaia",
+    "relation_type": "categoria",
+    "association_strength": 0.8,
+    "pos": "sostantivo",
+    "region": "movimento"
+  },
+  {
+    "lemma": "via",
+    "relation_type": "categoria",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "percorso",
+    "relation_type": "categoria",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "ferrovia",
+    "relation_type": "parti",
+    "association_strength": 0.8
+  },
+  {
+    "lemma": "catena",
+    "relation_type": "parti",
+    "association_strength": 0.3
+  },
+  {
+    "lemma": "treno",
+    "relation_type": "oggetti",
+    "association_strength": 0.7
+  },
+  {
+    "lemma": "vagone",
+    "relation_type": "oggetti",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "locomotiva",
+    "relation_type": "oggetti",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "stazione",
+    "relation_type": "luoghi",
+    "association_strength": 0.7
+  },
+  {
+    "lemma": "campagna",
+    "relation_type": "luoghi",
+    "association_strength": 0.35
+  },
+  {
+    "lemma": "direzione",
+    "relation_type": "azioni",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "marcia",
+    "relation_type": "azioni",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "lunghezza",
+    "relation_type": "proprietà",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "rigidità",
+    "relation_type": "proprietà",
+    "association_strength": 0.35
+  },
+  {
+    "lemma": "strada",
+    "relation_type": "similarità",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "catena",
+    "relation_type": "similarità",
+    "association_strength": 0.35
+  },
+  {
+    "lemma": "viaggio",
+    "relation_type": "evocativa",
+    "association_strength": 0.35
+  },
+  {
+    "lemma": "partenza",
+    "relation_type": "evocativa",
+    "association_strength": 0.4
+  }
+]

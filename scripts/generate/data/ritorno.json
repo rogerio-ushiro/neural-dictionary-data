@@ -1,0 +1,20 @@
+[
+  { "lemma": "spostamento", "relation_type": "categoria", "association_strength": 0.6 },
+  { "lemma": "viaggio", "relation_type": "categoria", "association_strength": 0.5 },
+  { "lemma": "partenza", "relation_type": "contrasto", "association_strength": 0.85 },
+  { "lemma": "esodo", "relation_type": "contrasto", "association_strength": 0.5 },
+  { "lemma": "distacco", "relation_type": "contrasto", "association_strength": 0.45 },
+  { "lemma": "arrivo", "relation_type": "similarità", "association_strength": 0.7 },
+  { "lemma": "viaggio", "relation_type": "azioni", "association_strength": 0.6 },
+  { "lemma": "tragitto", "relation_type": "azioni", "association_strength": 0.5 },
+  { "lemma": "percorso", "relation_type": "azioni", "association_strength": 0.45 },
+  { "lemma": "casa", "relation_type": "luoghi", "association_strength": 0.7 },
+  { "lemma": "patria", "relation_type": "luoghi", "association_strength": 0.6 },
+  { "lemma": "origine", "relation_type": "luoghi", "association_strength": 0.55 },
+  { "lemma": "stazione", "relation_type": "luoghi", "association_strength": 0.4 },
+  { "lemma": "sollievo", "relation_type": "effetti", "association_strength": 0.45 },
+  { "lemma": "malinconia", "relation_type": "effetti", "association_strength": 0.4 },
+  { "lemma": "bagaglio", "relation_type": "oggetti", "association_strength": 0.5 },
+  { "lemma": "biglietto", "relation_type": "oggetti", "association_strength": 0.45 },
+  { "lemma": "famiglia", "relation_type": "evocativa", "association_strength": 0.5 }
+]

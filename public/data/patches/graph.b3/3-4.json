@@ -1,0 +1,42 @@
+{
+  "pack": "graph.b3",
+  "from": 3,
+  "to": 4,
+  "ops": [
+    {
+      "op": "ADD_CONCEPT",
+      "concept_id": "c_1047",
+      "concept": {
+        "revision": 1,
+        "region_id": "r_oggetti",
+        "status_fronteira": "needs_expansion"
+      }
+    },
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0151",
+        "concept_b": "c_1047",
+        "relation_type": "categoria",
+        "direction_hint": "symmetric",
+        "association_strength": 0.75,
+        "confidence": 0.85,
+        "status": "candidate",
+        "revision": 1
+      }
+    },
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0168",
+        "concept_b": "c_0804",
+        "relation_type": "parti",
+        "direction_hint": "symmetric",
+        "association_strength": 0.75,
+        "confidence": 0.85,
+        "status": "candidate",
+        "revision": 1
+      }
+    }
+  ]
+}

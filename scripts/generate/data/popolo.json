@@ -1,0 +1,157 @@
+[
+  {
+    "lemma": "gente",
+    "relation_type": "categoria",
+    "association_strength": 0.75
+  },
+  {
+    "lemma": "comunità",
+    "relation_type": "categoria",
+    "association_strength": 0.65
+  },
+  {
+    "lemma": "società",
+    "relation_type": "categoria",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "nazione",
+    "relation_type": "categoria",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "famiglia",
+    "relation_type": "parti",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "classe",
+    "relation_type": "parti",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "individuo",
+    "relation_type": "parti",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "gruppo",
+    "relation_type": "parti",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "tribù",
+    "relation_type": "parti",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "clan",
+    "relation_type": "parti",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "nazione",
+    "relation_type": "luoghi",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "patria",
+    "relation_type": "luoghi",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "territorio",
+    "relation_type": "luoghi",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "paese",
+    "relation_type": "luoghi",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "regno",
+    "relation_type": "luoghi",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "storia",
+    "relation_type": "contenuto",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "leggenda",
+    "relation_type": "contenuto",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "canto",
+    "relation_type": "contenuto",
+    "association_strength": 0.35
+  },
+  {
+    "lemma": "codice",
+    "relation_type": "contenuto",
+    "association_strength": 0.35
+  },
+  {
+    "lemma": "carattere",
+    "relation_type": "proprietà",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "indole",
+    "relation_type": "proprietà",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "fedeltà",
+    "relation_type": "proprietà",
+    "association_strength": 0.35
+  },
+  {
+    "lemma": "capo",
+    "relation_type": "contrasto",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "autorità",
+    "relation_type": "contrasto",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "dominio",
+    "relation_type": "contrasto",
+    "association_strength": 0.35
+  },
+  {
+    "lemma": "raduno",
+    "relation_type": "azioni",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "esodo",
+    "relation_type": "azioni",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "emancipazione",
+    "relation_type": "azioni",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "libertà",
+    "relation_type": "evocativa",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "uomo",
+    "relation_type": "esseri_viventi",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "antenato",
+    "relation_type": "esseri_viventi",
+    "association_strength": 0.35
+  }
+]

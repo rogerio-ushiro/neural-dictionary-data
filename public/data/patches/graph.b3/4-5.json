@@ -1,0 +1,20 @@
+{
+  "pack": "graph.b3",
+  "from": 4,
+  "to": 5,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_1047",
+      "concept": {
+        "revision": 2,
+        "region_id": "r_oggetti",
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Capo che si indossa per coprire il corpo, spesso scelto secondo l'occasione o il gusto di chi lo porta.",
+          "example": "Per il colloquio ha tirato fuori il vestito buono."
+        }
+      }
+    }
+  ]
+}

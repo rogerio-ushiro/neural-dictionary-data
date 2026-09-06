@@ -1,0 +1,20 @@
+{
+  "pack": "graph.25",
+  "from": 3,
+  "to": 4,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_1041",
+      "concept": {
+        "revision": 2,
+        "region_id": "r_oggetti",
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Foglio o fascicolo che registra o certifica qualcosa di ufficiale.",
+          "example": "Per il rimborso serve il documento originale, non una copia."
+        }
+      }
+    }
+  ]
+}

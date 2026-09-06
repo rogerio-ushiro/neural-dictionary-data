@@ -1,0 +1,137 @@
+[
+  {
+    "lemma": "alba",
+    "relation_type": "categoria",
+    "association_strength": 0.85
+  },
+  {
+    "lemma": "aurora",
+    "relation_type": "categoria",
+    "association_strength": 0.75
+  },
+  {
+    "lemma": "chiarore",
+    "relation_type": "categoria",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "luce",
+    "relation_type": "categoria",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "albeggiare",
+    "relation_type": "azioni",
+    "association_strength": 0.8
+  },
+  {
+    "lemma": "levare",
+    "relation_type": "azioni",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "luce",
+    "relation_type": "fenomeni",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "chiarore",
+    "relation_type": "fenomeni",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "sole",
+    "relation_type": "fenomeni",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "aurora",
+    "relation_type": "fenomeni",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "chiarezza",
+    "relation_type": "proprietà",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "rosso",
+    "relation_type": "proprietà",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "freschezza",
+    "relation_type": "proprietà",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "cielo",
+    "relation_type": "luoghi",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "orizzonte",
+    "relation_type": "luoghi",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "tramonto",
+    "relation_type": "contrasto",
+    "association_strength": 0.65
+  },
+  {
+    "lemma": "occaso",
+    "relation_type": "contrasto",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "notte",
+    "relation_type": "contrasto",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "crepuscolo",
+    "relation_type": "contrasto",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "imbrunire",
+    "relation_type": "contrasto",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "alba",
+    "relation_type": "similarità",
+    "association_strength": 0.85
+  },
+  {
+    "lemma": "aurora",
+    "relation_type": "similarità",
+    "association_strength": 0.75
+  },
+  {
+    "lemma": "mattina",
+    "relation_type": "similarità",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "giorno",
+    "relation_type": "effetti",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "speranza",
+    "relation_type": "evocativa",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "inizio",
+    "relation_type": "evocativa",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "rinascita",
+    "relation_type": "evocativa",
+    "association_strength": 0.45
+  }
+]

@@ -1,0 +1,112 @@
+[
+  {
+    "lemma": "fiore",
+    "relation_type": "categoria",
+    "association_strength": 0.8
+  },
+  {
+    "lemma": "pianta",
+    "relation_type": "categoria",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "arbusto",
+    "relation_type": "categoria",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "petalo",
+    "relation_type": "parti",
+    "association_strength": 0.7
+  },
+  {
+    "lemma": "stelo",
+    "relation_type": "parti",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "aculeo",
+    "relation_type": "parti",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "foglia",
+    "relation_type": "parti",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "profumo",
+    "relation_type": "proprietà",
+    "association_strength": 0.65
+  },
+  {
+    "lemma": "bellezza",
+    "relation_type": "proprietà",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "delicato",
+    "relation_type": "proprietà",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "rosso",
+    "relation_type": "proprietà",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "aiuola",
+    "relation_type": "luoghi",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "giardino",
+    "relation_type": "luoghi",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "cespuglio",
+    "relation_type": "luoghi",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "fioritura",
+    "relation_type": "azioni",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "avvizzimento",
+    "relation_type": "azioni",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "coltivazione",
+    "relation_type": "azioni",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "tulipano",
+    "relation_type": "similarità",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "insetto",
+    "relation_type": "esseri_viventi",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "amore",
+    "relation_type": "evocativa",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "passione",
+    "relation_type": "evocativa",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "primavera",
+    "relation_type": "evocativa",
+    "association_strength": 0.45
+  }
+]

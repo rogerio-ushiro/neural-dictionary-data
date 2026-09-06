@@ -1,0 +1,127 @@
+[
+  {
+    "lemma": "ustione",
+    "relation_type": "categoria",
+    "association_strength": 0.7
+  },
+  {
+    "lemma": "bruciatura",
+    "relation_type": "categoria",
+    "association_strength": 0.65
+  },
+  {
+    "lemma": "ferita",
+    "relation_type": "categoria",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "bruciore",
+    "relation_type": "similarità",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "arsura",
+    "relation_type": "similarità",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "sole",
+    "relation_type": "cause",
+    "association_strength": 0.65
+  },
+  {
+    "lemma": "calore",
+    "relation_type": "cause",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "fuoco",
+    "relation_type": "cause",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "esposizione",
+    "relation_type": "cause",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "pelle",
+    "relation_type": "luoghi",
+    "association_strength": 0.75
+  },
+  {
+    "lemma": "arto",
+    "relation_type": "luoghi",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "spiaggia",
+    "relation_type": "luoghi",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "bruciore",
+    "relation_type": "effetti",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "rosso",
+    "relation_type": "effetti",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "languore",
+    "relation_type": "effetti",
+    "association_strength": 0.3
+  },
+  {
+    "lemma": "calore",
+    "relation_type": "proprietà",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "intensità",
+    "relation_type": "proprietà",
+    "association_strength": 0.35
+  },
+  {
+    "lemma": "bagnante",
+    "relation_type": "esseri_viventi",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "turista",
+    "relation_type": "esseri_viventi",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "ombra",
+    "relation_type": "contrasto",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "refrigerio",
+    "relation_type": "contrasto",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "freschezza",
+    "relation_type": "contrasto",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "crema",
+    "relation_type": "contrasto",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "estate",
+    "relation_type": "evocativa",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "vacanza",
+    "relation_type": "evocativa",
+    "association_strength": 0.4
+  }
+]

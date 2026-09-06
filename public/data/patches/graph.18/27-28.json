@@ -1,0 +1,20 @@
+{
+  "pack": "graph.18",
+  "from": 27,
+  "to": 28,
+  "ops": [
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0012",
+        "concept_b": "c_1034",
+        "relation_type": "luoghi",
+        "direction_hint": "symmetric",
+        "association_strength": 0.4,
+        "confidence": 0.85,
+        "status": "candidate",
+        "revision": 1
+      }
+    }
+  ]
+}

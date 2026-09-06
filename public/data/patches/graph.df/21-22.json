@@ -1,0 +1,20 @@
+{
+  "pack": "graph.df",
+  "from": 21,
+  "to": 22,
+  "ops": [
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0516",
+        "concept_b": "c_1006",
+        "relation_type": "similarità",
+        "direction_hint": "symmetric",
+        "association_strength": 0.6,
+        "confidence": 0.85,
+        "status": "candidate",
+        "revision": 1
+      }
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+[
+  {
+    "lemma": "vapore",
+    "relation_type": "categoria",
+    "association_strength": 0.65
+  },
+  {
+    "lemma": "profumo",
+    "relation_type": "categoria",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "foschia",
+    "relation_type": "categoria",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "aria",
+    "relation_type": "costituzione",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "vapore",
+    "relation_type": "costituzione",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "profumo",
+    "relation_type": "proprietà",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "tepore",
+    "relation_type": "proprietà",
+    "association_strength": 0.35
+  },
+  {
+    "lemma": "calore",
+    "relation_type": "cause",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "bruciatura",
+    "relation_type": "cause",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "umidita",
+    "relation_type": "cause",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "foschia",
+    "relation_type": "effetti",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "nebbia",
+    "relation_type": "effetti",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "vapore",
+    "relation_type": "fenomeni",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "nebbia",
+    "relation_type": "fenomeni",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "palude",
+    "relation_type": "luoghi",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "fornace",
+    "relation_type": "luoghi",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "respiro",
+    "relation_type": "similarità",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "soffio",
+    "relation_type": "similarità",
+    "association_strength": 0.4
+  }
+]

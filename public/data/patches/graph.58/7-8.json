@@ -1,0 +1,20 @@
+{
+  "pack": "graph.58",
+  "from": 7,
+  "to": 8,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_1024",
+      "concept": {
+        "revision": 2,
+        "region_id": "r_relazioni_sociali",
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Chi si sposta e visita luoghi diversi da quelli in cui vive, per svago o curiosità e di solito per un periodo breve.",
+          "example": "Ad agosto i turisti riempiono i vicoli del centro."
+        }
+      }
+    }
+  ]
+}

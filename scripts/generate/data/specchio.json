@@ -1,0 +1,82 @@
+[
+  {
+    "lemma": "strumento",
+    "relation_type": "categoria",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "disco",
+    "relation_type": "categoria",
+    "association_strength": 0.35
+  },
+  {
+    "lemma": "nitidezza",
+    "relation_type": "proprietà",
+    "association_strength": 0.65
+  },
+  {
+    "lemma": "trasparenza",
+    "relation_type": "proprietà",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "brillantezza",
+    "relation_type": "proprietà",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "riflessione",
+    "relation_type": "fenomeni",
+    "association_strength": 0.8
+  },
+  {
+    "lemma": "eco",
+    "relation_type": "fenomeni",
+    "association_strength": 0.35
+  },
+  {
+    "lemma": "luce",
+    "relation_type": "fenomeni",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "lago",
+    "relation_type": "similarità",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "stagno",
+    "relation_type": "similarità",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "fontana",
+    "relation_type": "similarità",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "acqua",
+    "relation_type": "similarità",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "stanza",
+    "relation_type": "luoghi",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "apparenza",
+    "relation_type": "evocativa",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "figura",
+    "relation_type": "evocativa",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "sagoma",
+    "relation_type": "evocativa",
+    "association_strength": 0.4
+  }
+]

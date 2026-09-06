@@ -1,0 +1,82 @@
+[
+  {
+    "lemma": "esalazione",
+    "relation_type": "categoria",
+    "association_strength": 0.65
+  },
+  {
+    "lemma": "foschia",
+    "relation_type": "categoria",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "acqua",
+    "relation_type": "costituzione",
+    "association_strength": 0.7
+  },
+  {
+    "lemma": "umidita",
+    "relation_type": "costituzione",
+    "association_strength": 0.7
+  },
+  {
+    "lemma": "aria",
+    "relation_type": "costituzione",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "calore",
+    "relation_type": "cause",
+    "association_strength": 0.75
+  },
+  {
+    "lemma": "caldo",
+    "relation_type": "cause",
+    "association_strength": 0.7
+  },
+  {
+    "lemma": "evaporazione",
+    "relation_type": "cause",
+    "association_strength": 0.8
+  },
+  {
+    "lemma": "condensa",
+    "relation_type": "effetti",
+    "association_strength": 0.65
+  },
+  {
+    "lemma": "nebbia",
+    "relation_type": "effetti",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "ustione",
+    "relation_type": "effetti",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "nuvola",
+    "relation_type": "fenomeni",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "nube",
+    "relation_type": "fenomeni",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "pioggia",
+    "relation_type": "fenomeni",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "turbina",
+    "relation_type": "oggetti",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "locomotiva",
+    "relation_type": "oggetti",
+    "association_strength": 0.5
+  }
+]

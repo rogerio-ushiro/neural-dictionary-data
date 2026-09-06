@@ -1,0 +1,107 @@
+[
+  {
+    "lemma": "proprieta",
+    "relation_type": "categoria",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "umidita",
+    "relation_type": "proprietà",
+    "association_strength": 0.65
+  },
+  {
+    "lemma": "freddo",
+    "relation_type": "proprietà",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "acqua",
+    "relation_type": "costituzione",
+    "association_strength": 0.7
+  },
+  {
+    "lemma": "goccia",
+    "relation_type": "costituzione",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "pioggia",
+    "relation_type": "cause",
+    "association_strength": 0.7
+  },
+  {
+    "lemma": "acqua",
+    "relation_type": "cause",
+    "association_strength": 0.65
+  },
+  {
+    "lemma": "condensa",
+    "relation_type": "cause",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "rugiada",
+    "relation_type": "cause",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "sudore",
+    "relation_type": "cause",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "freddo",
+    "relation_type": "effetti",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "brivido",
+    "relation_type": "effetti",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "macchia",
+    "relation_type": "effetti",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "secchezza",
+    "relation_type": "contrasto",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "aridita",
+    "relation_type": "contrasto",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "disidratazione",
+    "relation_type": "contrasto",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "battigia",
+    "relation_type": "luoghi",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "riva",
+    "relation_type": "luoghi",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "palude",
+    "relation_type": "luoghi",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "lavaggio",
+    "relation_type": "azioni",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "inumidire",
+    "relation_type": "azioni",
+    "association_strength": 0.5
+  }
+]

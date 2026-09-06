@@ -1,0 +1,16 @@
+[
+  { "lemma": "custode", "relation_type": "categoria", "association_strength": 0.6 },
+  { "lemma": "responsabile", "relation_type": "categoria", "association_strength": 0.55 },
+  { "lemma": "soccorritore", "relation_type": "categoria", "association_strength": 0.8, "pos": "sostantivo", "region": "lavoro" },
+  { "lemma": "spiaggia", "relation_type": "luoghi", "association_strength": 0.9 },
+  { "lemma": "piscina", "relation_type": "luoghi", "association_strength": 0.8 },
+  { "lemma": "mare", "relation_type": "luoghi", "association_strength": 0.7 },
+  { "lemma": "lido", "relation_type": "luoghi", "association_strength": 0.65 },
+  { "lemma": "custodia", "relation_type": "azioni", "association_strength": 0.55 },
+  { "lemma": "protezione", "relation_type": "azioni", "association_strength": 0.6 },
+  { "lemma": "bagnante", "relation_type": "esseri_viventi", "association_strength": 0.75 },
+  { "lemma": "sollievo", "relation_type": "effetti", "association_strength": 0.4 },
+  { "lemma": "vigore", "relation_type": "proprietà", "association_strength": 0.4 },
+  { "lemma": "estate", "relation_type": "evocativa", "association_strength": 0.55 },
+  { "lemma": "mare", "relation_type": "evocativa", "association_strength": 0.5 }
+]

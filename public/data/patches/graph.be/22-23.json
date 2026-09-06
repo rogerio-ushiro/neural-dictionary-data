@@ -1,0 +1,20 @@
+{
+  "pack": "graph.be",
+  "from": 22,
+  "to": 23,
+  "ops": [
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0511",
+        "concept_b": "c_0519",
+        "relation_type": "contrasto",
+        "direction_hint": "symmetric",
+        "association_strength": 0.55,
+        "confidence": 0.85,
+        "status": "candidate",
+        "revision": 1
+      }
+    }
+  ]
+}

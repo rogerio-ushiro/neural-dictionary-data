@@ -1,0 +1,147 @@
+[
+  {
+    "lemma": "costruzione",
+    "relation_type": "categoria",
+    "association_strength": 0.8
+  },
+  {
+    "lemma": "opera",
+    "relation_type": "categoria",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "parete",
+    "relation_type": "parti",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "muro",
+    "relation_type": "parti",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "tetto",
+    "relation_type": "parti",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "fondamento",
+    "relation_type": "parti",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "stanza",
+    "relation_type": "parti",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "base",
+    "relation_type": "parti",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "stipite",
+    "relation_type": "parti",
+    "association_strength": 0.35
+  },
+  {
+    "lemma": "pietra",
+    "relation_type": "costituzione",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "mattone",
+    "relation_type": "costituzione",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "legno",
+    "relation_type": "costituzione",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "ufficio",
+    "relation_type": "contenuto",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "abitazione",
+    "relation_type": "contenuto",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "famiglia",
+    "relation_type": "contenuto",
+    "association_strength": 0.35
+  },
+  {
+    "lemma": "città",
+    "relation_type": "luoghi",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "via",
+    "relation_type": "luoghi",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "centro",
+    "relation_type": "luoghi",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "quartiere",
+    "relation_type": "luoghi",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "piazza",
+    "relation_type": "luoghi",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "formazione",
+    "relation_type": "azioni",
+    "association_strength": 0.35
+  },
+  {
+    "lemma": "riparo",
+    "relation_type": "azioni",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "altura",
+    "relation_type": "proprietà",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "volume",
+    "relation_type": "proprietà",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "forma",
+    "relation_type": "proprietà",
+    "association_strength": 0.35
+  },
+  {
+    "lemma": "palazzo",
+    "relation_type": "similarità",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "casa",
+    "relation_type": "similarità",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "monumento",
+    "relation_type": "similarità",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "urbanizzazione",
+    "relation_type": "evocativa",
+    "association_strength": 0.4
+  }
+]
