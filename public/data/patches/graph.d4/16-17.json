@@ -1,0 +1,20 @@
+{
+  "pack": "graph.d4",
+  "from": 16,
+  "to": 17,
+  "ops": [
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0052",
+        "concept_b": "c_0388",
+        "relation_type": "contrasto",
+        "direction_hint": "symmetric",
+        "association_strength": 0.5,
+        "confidence": 0.85,
+        "status": "candidate",
+        "revision": 1
+      }
+    }
+  ]
+}

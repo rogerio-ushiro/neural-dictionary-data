@@ -1,0 +1,87 @@
+[
+  {
+    "lemma": "lavaggio",
+    "relation_type": "categoria",
+    "association_strength": 0.7
+  },
+  {
+    "lemma": "cura",
+    "relation_type": "categoria",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "lavaggio",
+    "relation_type": "azioni",
+    "association_strength": 0.7
+  },
+  {
+    "lemma": "cura",
+    "relation_type": "azioni",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "freschezza",
+    "relation_type": "effetti",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "splendore",
+    "relation_type": "effetti",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "nitidezza",
+    "relation_type": "effetti",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "rinnovamento",
+    "relation_type": "effetti",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "purezza",
+    "relation_type": "proprietà",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "chiarezza",
+    "relation_type": "proprietà",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "nitidezza",
+    "relation_type": "proprietà",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "purezza",
+    "relation_type": "similarità",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "nitidezza",
+    "relation_type": "similarità",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "macchia",
+    "relation_type": "contrasto",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "gomma",
+    "relation_type": "oggetti",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "acqua",
+    "relation_type": "oggetti",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "freschezza",
+    "relation_type": "evocativa",
+    "association_strength": 0.5
+  }
+]

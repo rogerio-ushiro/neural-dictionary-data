@@ -1,0 +1,122 @@
+[
+  {
+    "lemma": "gelo",
+    "relation_type": "categoria",
+    "association_strength": 0.7
+  },
+  {
+    "lemma": "ghiaccio",
+    "relation_type": "categoria",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "precipitazione",
+    "relation_type": "categoria",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "ghiaccio",
+    "relation_type": "costituzione",
+    "association_strength": 0.65
+  },
+  {
+    "lemma": "acqua",
+    "relation_type": "costituzione",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "freddo",
+    "relation_type": "proprietà",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "gelido",
+    "relation_type": "proprietà",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "ghiacciato",
+    "relation_type": "proprietà",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "freddo",
+    "relation_type": "cause",
+    "association_strength": 0.7
+  },
+  {
+    "lemma": "notte",
+    "relation_type": "cause",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "umidita",
+    "relation_type": "cause",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "prato",
+    "relation_type": "luoghi",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "campo",
+    "relation_type": "luoghi",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "erba",
+    "relation_type": "luoghi",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "montagna",
+    "relation_type": "luoghi",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "tetto",
+    "relation_type": "luoghi",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "inverno",
+    "relation_type": "fenomeni",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "rugiada",
+    "relation_type": "fenomeni",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "ghiaccio",
+    "relation_type": "similarità",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "rugiada",
+    "relation_type": "similarità",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "caldo",
+    "relation_type": "contrasto",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "tepore",
+    "relation_type": "contrasto",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "congelamento",
+    "relation_type": "effetti",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "silenzio",
+    "relation_type": "evocativa",
+    "association_strength": 0.35
+  }
+]
