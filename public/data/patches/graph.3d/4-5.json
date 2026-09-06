@@ -1,0 +1,13 @@
+{
+  "pack": "graph.3d",
+  "from": 4,
+  "to": 5,
+  "ops": [
+    {
+      "op": "REMOVE_ASSOCIATION",
+      "concept_a": "c_0053",
+      "concept_b": "c_0118",
+      "relation_type": "similarità"
+    }
+  ]
+}

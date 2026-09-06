@@ -1,0 +1,59 @@
+{
+  "pack": "graph.c0",
+  "from": 0,
+  "to": 5,
+  "ops": [
+    {
+      "op": "ADD_CONCEPT",
+      "concept_id": "c_0306",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Breve giro fatto a piedi per svago.",
+          "example": "Dopo cena facevano sempre una passeggiata fino al ponte."
+        }
+      }
+    },
+    {
+      "op": "ADD_CONCEPT",
+      "concept_id": "c_0856",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Animale o essere che cammina su due soli arti, come l'uomo e gli uccelli.",
+          "example": "L'uomo è l'unico bipede che cammina sempre eretto."
+        }
+      }
+    },
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0021",
+        "concept_b": "c_0306",
+        "relation_type": "associata",
+        "direction_hint": "symmetric",
+        "association_strength": 0.4,
+        "confidence": 1,
+        "status": "validated",
+        "revision": 1
+      }
+    },
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0322",
+        "concept_b": "c_0856",
+        "relation_type": "associata",
+        "direction_hint": "symmetric",
+        "association_strength": 0.65,
+        "confidence": 1,
+        "status": "validated",
+        "revision": 1
+      }
+    }
+  ]
+}

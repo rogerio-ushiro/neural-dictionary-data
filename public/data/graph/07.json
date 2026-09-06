@@ -27,15 +27,6 @@
         "text": "Belva feroce e temibile, spesso di grossa taglia.",
         "example": "Nella leggenda l'eroe affronta una belva mostruosa."
       }
-    },
-    "c_1032": {
-      "revision": 2,
-      "region_id": null,
-      "status_fronteira": "needs_expansion",
-      "definition": {
-        "text": "Strumento che misura il tempo facendo colare la sabbia da un'ampolla all'altra.",
-        "example": "Girò la clessidra e cominciò a leggere."
-      }
     }
   },
   "associations": [
@@ -78,16 +69,6 @@
       "confidence": 1,
       "status": "validated",
       "revision": 1
-    },
-    {
-      "concept_a": "c_0056",
-      "concept_b": "c_1032",
-      "relation_type": "evocativa",
-      "direction_hint": "symmetric",
-      "association_strength": 0.6,
-      "confidence": 0.85,
-      "status": "validated",
-      "revision": 2
     }
   ],
   "word_senses": {
@@ -108,12 +89,6 @@
       "lexeme_kind": "word",
       "concept_id": "c_0844",
       "is_primary": true
-    },
-    "s_1032": {
-      "lexeme_id": "w_1032",
-      "lexeme_kind": "word",
-      "concept_id": "c_1032",
-      "is_primary": true
     }
   },
   "words": {
@@ -130,11 +105,6 @@
     "w_0844": {
       "display_form": "belva",
       "normalized_form": "belva",
-      "pos": null
-    },
-    "w_1032": {
-      "display_form": "clessidra",
-      "normalized_form": "clessidra",
       "pos": null
     }
   },

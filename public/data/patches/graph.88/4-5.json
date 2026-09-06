@@ -1,0 +1,74 @@
+{
+  "pack": "graph.88",
+  "from": 4,
+  "to": 5,
+  "ops": [
+    {
+      "op": "UPDATE_CONCEPT",
+      "concept_id": "c_0056",
+      "concept": {
+        "revision": 2,
+        "region_id": null,
+        "status_fronteira": "needs_expansion",
+        "definition": {
+          "text": "Insieme di minuti granelli di roccia che formano le spiagge e i deserti.",
+          "example": "I bambini costruivano castelli di sabbia sulla battigia."
+        }
+      }
+    },
+    {
+      "op": "REMOVE_ASSOCIATION",
+      "concept_a": "c_0056",
+      "concept_b": "c_1027",
+      "relation_type": "categoria"
+    },
+    {
+      "op": "REMOVE_ASSOCIATION",
+      "concept_a": "c_0056",
+      "concept_b": "c_1028",
+      "relation_type": "costituzione"
+    },
+    {
+      "op": "REMOVE_ASSOCIATION",
+      "concept_a": "c_0056",
+      "concept_b": "c_0653",
+      "relation_type": "luoghi"
+    },
+    {
+      "op": "REMOVE_ASSOCIATION",
+      "concept_a": "c_0056",
+      "concept_b": "c_1029",
+      "relation_type": "parti"
+    },
+    {
+      "op": "REMOVE_ASSOCIATION",
+      "concept_a": "c_0056",
+      "concept_b": "c_1030",
+      "relation_type": "oggetti"
+    },
+    {
+      "op": "REMOVE_ASSOCIATION",
+      "concept_a": "c_0056",
+      "concept_b": "c_1031",
+      "relation_type": "cause"
+    },
+    {
+      "op": "REMOVE_ASSOCIATION",
+      "concept_a": "c_0056",
+      "concept_b": "c_1032",
+      "relation_type": "evocativa"
+    },
+    {
+      "op": "REMOVE_ASSOCIATION",
+      "concept_a": "c_0056",
+      "concept_b": "c_0646",
+      "relation_type": "proprietà"
+    },
+    {
+      "op": "REMOVE_ASSOCIATION",
+      "concept_a": "c_0056",
+      "concept_b": "c_0057",
+      "relation_type": "costituzione"
+    }
+  ]
+}
