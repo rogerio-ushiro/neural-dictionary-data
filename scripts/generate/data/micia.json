@@ -1,0 +1,122 @@
+[
+  {
+    "lemma": "gatto",
+    "relation_type": "categoria",
+    "association_strength": 0.85
+  },
+  {
+    "lemma": "felino",
+    "relation_type": "categoria",
+    "association_strength": 0.65
+  },
+  {
+    "lemma": "animale",
+    "relation_type": "categoria",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "cucciolo",
+    "relation_type": "similarità",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "belva",
+    "relation_type": "similarità",
+    "association_strength": 0.3
+  },
+  {
+    "lemma": "pelo",
+    "relation_type": "parti",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "coda",
+    "relation_type": "parti",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "artiglio",
+    "relation_type": "parti",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "zampa",
+    "relation_type": "parti",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "miagolare",
+    "relation_type": "azioni",
+    "association_strength": 0.65
+  },
+  {
+    "lemma": "gioco",
+    "relation_type": "azioni",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "sonno",
+    "relation_type": "azioni",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "delicato",
+    "relation_type": "proprietà",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "agilità",
+    "relation_type": "proprietà",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "grazia",
+    "relation_type": "proprietà",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "domestico",
+    "relation_type": "proprietà",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "casa",
+    "relation_type": "luoghi",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "focolare",
+    "relation_type": "luoghi",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "tetto",
+    "relation_type": "luoghi",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "bambino",
+    "relation_type": "esseri_viventi",
+    "association_strength": 0.35
+  },
+  {
+    "lemma": "calore",
+    "relation_type": "evocativa",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "mitezza",
+    "relation_type": "evocativa",
+    "association_strength": 0.35
+  },
+  {
+    "lemma": "cane",
+    "relation_type": "contrasto",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "selvatico",
+    "relation_type": "contrasto",
+    "association_strength": 0.4
+  }
+]

@@ -1,0 +1,132 @@
+[
+  {
+    "lemma": "bicicletta",
+    "relation_type": "categoria",
+    "association_strength": 0.85
+  },
+  {
+    "lemma": "veicolo",
+    "relation_type": "categoria",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "mezzo",
+    "relation_type": "categoria",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "ruota",
+    "relation_type": "parti",
+    "association_strength": 0.7
+  },
+  {
+    "lemma": "pedale",
+    "relation_type": "parti",
+    "association_strength": 0.65
+  },
+  {
+    "lemma": "manubrio",
+    "relation_type": "parti",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "telaio",
+    "relation_type": "parti",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "catena",
+    "relation_type": "parti",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "cerchione",
+    "relation_type": "parti",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "spostamento",
+    "relation_type": "azioni",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "locomozione",
+    "relation_type": "azioni",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "corsa",
+    "relation_type": "azioni",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "strada",
+    "relation_type": "luoghi",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "pista",
+    "relation_type": "luoghi",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "viale",
+    "relation_type": "luoghi",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "velocità",
+    "relation_type": "proprietà",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "equilibrio",
+    "relation_type": "proprietà",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "agilità",
+    "relation_type": "proprietà",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "mobilità",
+    "relation_type": "proprietà",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "ragazzo",
+    "relation_type": "esseri_viventi",
+    "association_strength": 0.35
+  },
+  {
+    "lemma": "bambino",
+    "relation_type": "esseri_viventi",
+    "association_strength": 0.35
+  },
+  {
+    "lemma": "libertà",
+    "relation_type": "evocativa",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "svago",
+    "relation_type": "evocativa",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "gioventù",
+    "relation_type": "evocativa",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "immobilità",
+    "relation_type": "contrasto",
+    "association_strength": 0.35
+  },
+  {
+    "lemma": "inerzia",
+    "relation_type": "contrasto",
+    "association_strength": 0.35
+  }
+]
