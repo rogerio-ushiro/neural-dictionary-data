@@ -1,0 +1,77 @@
+[
+  {
+    "lemma": "chiusura",
+    "relation_type": "categoria",
+    "association_strength": 0.85
+  },
+  {
+    "lemma": "articolazione",
+    "relation_type": "categoria",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "perno",
+    "relation_type": "parti",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "anello",
+    "relation_type": "parti",
+    "association_strength": 0.3
+  },
+  {
+    "lemma": "filo",
+    "relation_type": "parti",
+    "association_strength": 0.3
+  },
+  {
+    "lemma": "valigia",
+    "relation_type": "oggetti",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "borsa",
+    "relation_type": "oggetti",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "zaino",
+    "relation_type": "oggetti",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "abito",
+    "relation_type": "oggetti",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "movimento",
+    "relation_type": "azioni",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "oscillazione",
+    "relation_type": "azioni",
+    "association_strength": 0.35
+  },
+  {
+    "lemma": "lampo",
+    "relation_type": "similarità",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "catena",
+    "relation_type": "similarità",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "ingranaggio",
+    "relation_type": "similarità",
+    "association_strength": 0.35
+  },
+  {
+    "lemma": "fluidità",
+    "relation_type": "proprietà",
+    "association_strength": 0.3
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "pack": "graph.48",
+  "from": 4,
+  "to": 5,
+  "ops": [
+    {
+      "op": "ADD_ASSOCIATION",
+      "association": {
+        "concept_a": "c_0165",
+        "concept_b": "c_0665",
+        "relation_type": "azioni",
+        "direction_hint": "symmetric",
+        "association_strength": 0.35,
+        "confidence": 0.85,
+        "status": "candidate",
+        "revision": 1
+      }
+    }
+  ]
+}

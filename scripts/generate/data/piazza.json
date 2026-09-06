@@ -1,0 +1,107 @@
+[
+  {
+    "lemma": "spazio",
+    "relation_type": "categoria",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "centro",
+    "relation_type": "categoria",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "fontana",
+    "relation_type": "parti",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "monumento",
+    "relation_type": "parti",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "pietra",
+    "relation_type": "parti",
+    "association_strength": 0.35
+  },
+  {
+    "lemma": "aiuola",
+    "relation_type": "parti",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "città",
+    "relation_type": "luoghi",
+    "association_strength": 0.65
+  },
+  {
+    "lemma": "centro",
+    "relation_type": "luoghi",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "quartiere",
+    "relation_type": "luoghi",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "borgo",
+    "relation_type": "luoghi",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "gente",
+    "relation_type": "contenuto",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "corteo",
+    "relation_type": "contenuto",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "raduno",
+    "relation_type": "azioni",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "riunione",
+    "relation_type": "azioni",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "processione",
+    "relation_type": "azioni",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "passeggiata",
+    "relation_type": "azioni",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "celebrazione",
+    "relation_type": "azioni",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "giro",
+    "relation_type": "azioni",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "comunità",
+    "relation_type": "evocativa",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "vita",
+    "relation_type": "evocativa",
+    "association_strength": 0.35
+  },
+  {
+    "lemma": "movimento",
+    "relation_type": "evocativa",
+    "association_strength": 0.35
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "lemma": "gente",
+    "relation_type": "categoria",
+    "association_strength": 0.7
+  },
+  {
+    "lemma": "comunità",
+    "relation_type": "categoria",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "società",
+    "relation_type": "categoria",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "famiglia",
+    "relation_type": "parti",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "gruppo",
+    "relation_type": "parti",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "classe",
+    "relation_type": "parti",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "individuo",
+    "relation_type": "parti",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "persona",
+    "relation_type": "parti",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "città",
+    "relation_type": "luoghi",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "nazione",
+    "relation_type": "luoghi",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "territorio",
+    "relation_type": "luoghi",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "regione",
+    "relation_type": "luoghi",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "paese",
+    "relation_type": "luoghi",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "propagazione",
+    "relation_type": "fenomeni",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "urbanizzazione",
+    "relation_type": "fenomeni",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "raduno",
+    "relation_type": "azioni",
+    "association_strength": 0.35
+  },
+  {
+    "lemma": "movimento",
+    "relation_type": "azioni",
+    "association_strength": 0.35
+  },
+  {
+    "lemma": "formazione",
+    "relation_type": "azioni",
+    "association_strength": 0.35
+  },
+  {
+    "lemma": "solitudine",
+    "relation_type": "contrasto",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "deserto",
+    "relation_type": "contrasto",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "uomo",
+    "relation_type": "esseri_viventi",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "anziano",
+    "relation_type": "esseri_viventi",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "bambino",
+    "relation_type": "esseri_viventi",
+    "association_strength": 0.35
+  },
+  {
+    "lemma": "vita",
+    "relation_type": "evocativa",
+    "association_strength": 0.35
+  }
+]

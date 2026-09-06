@@ -1,0 +1,97 @@
+[
+  {
+    "lemma": "fenomeno",
+    "relation_type": "categoria",
+    "association_strength": 0.65
+  },
+  {
+    "lemma": "formazione",
+    "relation_type": "categoria",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "propagazione",
+    "relation_type": "categoria",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "transizione",
+    "relation_type": "categoria",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "città",
+    "relation_type": "effetti",
+    "association_strength": 0.7
+  },
+  {
+    "lemma": "periferia",
+    "relation_type": "effetti",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "metropoli",
+    "relation_type": "effetti",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "quartiere",
+    "relation_type": "effetti",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "conurbazione",
+    "relation_type": "effetti",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "popolazione",
+    "relation_type": "cause",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "movimento",
+    "relation_type": "cause",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "campagna",
+    "relation_type": "contrasto",
+    "association_strength": 0.65
+  },
+  {
+    "lemma": "natura",
+    "relation_type": "contrasto",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "prateria",
+    "relation_type": "contrasto",
+    "association_strength": 0.35
+  },
+  {
+    "lemma": "costruzione",
+    "relation_type": "azioni",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "insediamento",
+    "relation_type": "azioni",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "intensità",
+    "relation_type": "proprietà",
+    "association_strength": 0.35
+  },
+  {
+    "lemma": "frequenza",
+    "relation_type": "proprietà",
+    "association_strength": 0.3
+  },
+  {
+    "lemma": "rumore",
+    "relation_type": "evocativa",
+    "association_strength": 0.35
+  }
+]

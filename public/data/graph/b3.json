@@ -54,6 +54,15 @@
         "text": "Che riguarda la casa e le sue faccende; anche chi si occupa della famiglia senza un lavoro fuori.",
         "example": "Le pareva un lavoro casalingo poco gratificante."
       }
+    },
+    "c_1047": {
+      "revision": 2,
+      "region_id": "r_oggetti",
+      "status_fronteira": "needs_expansion",
+      "definition": {
+        "text": "Capo che si indossa per coprire il corpo, spesso scelto secondo l'occasione o il gusto di chi lo porta.",
+        "example": "Per il colloquio ha tirato fuori il vestito buono."
+      }
     }
   },
   "associations": [
@@ -436,6 +445,26 @@
       "confidence": 0.85,
       "status": "candidate",
       "revision": 1
+    },
+    {
+      "concept_a": "c_0151",
+      "concept_b": "c_1047",
+      "relation_type": "categoria",
+      "direction_hint": "symmetric",
+      "association_strength": 0.75,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0168",
+      "concept_b": "c_0804",
+      "relation_type": "parti",
+      "direction_hint": "symmetric",
+      "association_strength": 0.75,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
     }
   ],
   "word_senses": {
@@ -474,6 +503,12 @@
       "lexeme_kind": "word",
       "concept_id": "c_0871",
       "is_primary": true
+    },
+    "s_1047": {
+      "lexeme_id": "w_1047",
+      "lexeme_kind": "word",
+      "concept_id": "c_1047",
+      "is_primary": true
     }
   },
   "words": {
@@ -506,6 +541,11 @@
       "display_form": "casalingo",
       "normalized_form": "casalingo",
       "pos": null
+    },
+    "w_1047": {
+      "display_form": "vestito",
+      "normalized_form": "vestito",
+      "pos": "sostantivo"
     }
   },
   "expressions": {}

@@ -1,0 +1,92 @@
+[
+  {
+    "lemma": "protezione",
+    "relation_type": "categoria",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "contenitore",
+    "relation_type": "categoria",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "carta",
+    "relation_type": "parti",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "gomma",
+    "relation_type": "parti",
+    "association_strength": 0.3
+  },
+  {
+    "lemma": "legno",
+    "relation_type": "parti",
+    "association_strength": 0.35
+  },
+  {
+    "lemma": "legno",
+    "relation_type": "costituzione",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "gomma",
+    "relation_type": "costituzione",
+    "association_strength": 0.35
+  },
+  {
+    "lemma": "merci",
+    "relation_type": "contenuto",
+    "association_strength": 0.65
+  },
+  {
+    "lemma": "prodotto",
+    "relation_type": "contenuto",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "mercanzia",
+    "relation_type": "contenuto",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "trasporto",
+    "relation_type": "azioni",
+    "association_strength": 0.65
+  },
+  {
+    "lemma": "contenimento",
+    "relation_type": "azioni",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "porto",
+    "relation_type": "luoghi",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "nave",
+    "relation_type": "luoghi",
+    "association_strength": 0.35
+  },
+  {
+    "lemma": "riparo",
+    "relation_type": "effetti",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "volume",
+    "relation_type": "proprietà",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "peso",
+    "relation_type": "proprietà",
+    "association_strength": 0.35
+  },
+  {
+    "lemma": "merci",
+    "relation_type": "evocativa",
+    "association_strength": 0.35
+  }
+]

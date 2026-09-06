@@ -50,6 +50,56 @@
       "confidence": 1,
       "status": "validated",
       "revision": 1
+    },
+    {
+      "concept_a": "c_0169",
+      "concept_b": "c_0827",
+      "relation_type": "categoria",
+      "direction_hint": "symmetric",
+      "association_strength": 0.45,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0169",
+      "concept_b": "c_0827",
+      "relation_type": "similarità",
+      "direction_hint": "symmetric",
+      "association_strength": 0.5,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0170",
+      "concept_b": "c_0827",
+      "relation_type": "categoria",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0172",
+      "concept_b": "c_0827",
+      "relation_type": "categoria",
+      "direction_hint": "symmetric",
+      "association_strength": 0.5,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
+    },
+    {
+      "concept_a": "c_0174",
+      "concept_b": "c_0827",
+      "relation_type": "luoghi",
+      "direction_hint": "symmetric",
+      "association_strength": 0.4,
+      "confidence": 0.85,
+      "status": "candidate",
+      "revision": 1
     }
   ],
   "word_senses": {

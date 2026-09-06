@@ -1,0 +1,152 @@
+[
+  {
+    "lemma": "territorio",
+    "relation_type": "categoria",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "ambiente",
+    "relation_type": "categoria",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "distesa",
+    "relation_type": "categoria",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "paesaggio",
+    "relation_type": "categoria",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "campo",
+    "relation_type": "parti",
+    "association_strength": 0.75
+  },
+  {
+    "lemma": "prato",
+    "relation_type": "parti",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "podere",
+    "relation_type": "parti",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "cascina",
+    "relation_type": "parti",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "orto",
+    "relation_type": "parti",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "pascolo",
+    "relation_type": "parti",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "fosso",
+    "relation_type": "parti",
+    "association_strength": 0.35
+  },
+  {
+    "lemma": "coltivazione",
+    "relation_type": "contenuto",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "raccolto",
+    "relation_type": "contenuto",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "fieno",
+    "relation_type": "contenuto",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "grano",
+    "relation_type": "contenuto",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "bestia",
+    "relation_type": "contenuto",
+    "association_strength": 0.35
+  },
+  {
+    "lemma": "città",
+    "relation_type": "contrasto",
+    "association_strength": 0.75
+  },
+  {
+    "lemma": "metropoli",
+    "relation_type": "contrasto",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "centro",
+    "relation_type": "contrasto",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "quiete",
+    "relation_type": "proprietà",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "silenzio",
+    "relation_type": "proprietà",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "pace",
+    "relation_type": "proprietà",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "falciatura",
+    "relation_type": "azioni",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "passeggiata",
+    "relation_type": "azioni",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "uccello",
+    "relation_type": "esseri_viventi",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "insetto",
+    "relation_type": "esseri_viventi",
+    "association_strength": 0.35
+  },
+  {
+    "lemma": "natura",
+    "relation_type": "evocativa",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "collina",
+    "relation_type": "luoghi",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "pianura",
+    "relation_type": "luoghi",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "colle",
+    "relation_type": "luoghi",
+    "association_strength": 0.35
+  }
+]

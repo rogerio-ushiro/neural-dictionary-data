@@ -1,0 +1,92 @@
+[
+  {
+    "lemma": "azione",
+    "relation_type": "categoria",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "limite",
+    "relation_type": "categoria",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "cerniera",
+    "relation_type": "oggetti",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "baule",
+    "relation_type": "oggetti",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "valigia",
+    "relation_type": "oggetti",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "recinto",
+    "relation_type": "oggetti",
+    "association_strength": 0.35
+  },
+  {
+    "lemma": "inizio",
+    "relation_type": "contrasto",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "evasione",
+    "relation_type": "contrasto",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "libertà",
+    "relation_type": "contrasto",
+    "association_strength": 0.35
+  },
+  {
+    "lemma": "confine",
+    "relation_type": "similarità",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "recinto",
+    "relation_type": "similarità",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "protezione",
+    "relation_type": "effetti",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "immunità",
+    "relation_type": "effetti",
+    "association_strength": 0.35
+  },
+  {
+    "lemma": "riparo",
+    "relation_type": "effetti",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "contenimento",
+    "relation_type": "azioni",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "manovra",
+    "relation_type": "azioni",
+    "association_strength": 0.35
+  },
+  {
+    "lemma": "silenzio",
+    "relation_type": "evocativa",
+    "association_strength": 0.35
+  },
+  {
+    "lemma": "notte",
+    "relation_type": "evocativa",
+    "association_strength": 0.3
+  }
+]

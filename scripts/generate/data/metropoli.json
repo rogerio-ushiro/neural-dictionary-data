@@ -1,0 +1,107 @@
+[
+  {
+    "lemma": "città",
+    "relation_type": "categoria",
+    "association_strength": 0.9
+  },
+  {
+    "lemma": "centro",
+    "relation_type": "categoria",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "quartiere",
+    "relation_type": "parti",
+    "association_strength": 0.7
+  },
+  {
+    "lemma": "periferia",
+    "relation_type": "parti",
+    "association_strength": 0.65
+  },
+  {
+    "lemma": "centro",
+    "relation_type": "parti",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "sobborgo",
+    "relation_type": "parti",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "viale",
+    "relation_type": "parti",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "popolazione",
+    "relation_type": "contenuto",
+    "association_strength": 0.7
+  },
+  {
+    "lemma": "gente",
+    "relation_type": "contenuto",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "rumore",
+    "relation_type": "contenuto",
+    "association_strength": 0.55
+  },
+  {
+    "lemma": "intensità",
+    "relation_type": "proprietà",
+    "association_strength": 0.35
+  },
+  {
+    "lemma": "movimento",
+    "relation_type": "proprietà",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "villaggio",
+    "relation_type": "contrasto",
+    "association_strength": 0.7
+  },
+  {
+    "lemma": "borgo",
+    "relation_type": "contrasto",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "campagna",
+    "relation_type": "contrasto",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "paesetto",
+    "relation_type": "contrasto",
+    "association_strength": 0.5
+  },
+  {
+    "lemma": "deserto",
+    "relation_type": "contrasto",
+    "association_strength": 0.4
+  },
+  {
+    "lemma": "urbanizzazione",
+    "relation_type": "fenomeni",
+    "association_strength": 0.6
+  },
+  {
+    "lemma": "movimento",
+    "relation_type": "azioni",
+    "association_strength": 0.45
+  },
+  {
+    "lemma": "raduno",
+    "relation_type": "azioni",
+    "association_strength": 0.35
+  },
+  {
+    "lemma": "solitudine",
+    "relation_type": "evocativa",
+    "association_strength": 0.45
+  }
+]
