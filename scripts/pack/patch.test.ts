@@ -4,7 +4,8 @@ import path from 'node:path'
 import { afterEach, beforeEach, describe, expect, it } from 'vitest'
 import { applyShardPatch } from '../../src/data/loader'
 import type { PublishedGraph } from '../../src/model/v04/types'
-import type { GraphShard } from '../../src/model/v04/wire'
+import type { GraphShard, Patch, PatchOp } from '../../src/model/v04/wire'
+import { editAssociations } from '../routine/edit-associations'
 import { buildPacks } from './build-packs'
 import { dedupeShards } from './dedupe'
 import { writeManifest } from './manifest'
@@ -203,5 +204,138 @@ describe('diffManifest + writePatch', () => {
     expect([...patched.associations].sort((a, b) => a.relation_type.localeCompare(b.relation_type))).toEqual(
       [...newShard.associations].sort((a, b) => a.relation_type.localeCompare(b.relation_type)),
     )
+  })
+})
+
+describe('edit-associations round-trip (Story G)', () => {
+  let seedPath: string
+  let packsDir: string
+
+  beforeEach(() => {
+    seedPath = path.join(tmpDir, 'seed.json')
+    packsDir = path.join(tmpDir, 'packs')
+  })
+
+  /** Write `graph` as the seed and build the packs it starts from — the "old"
+   * state editAssociations snapshots and diffs against. */
+  function seedAndPack(graph: PublishedGraph): void {
+    fs.writeFileSync(seedPath, JSON.stringify(graph))
+    buildPacks(seedPath, packsDir)
+    writeManifest(packsDir)
+  }
+
+  /** Every op editAssociations wrote under packs/patches/. */
+  function writtenOps(): PatchOp[] {
+    const dir = path.join(packsDir, 'patches')
+    if (!fs.existsSync(dir)) return []
+    const ops: PatchOp[] = []
+    for (const packDir of fs.readdirSync(dir)) {
+      for (const file of fs.readdirSync(path.join(dir, packDir))) {
+        const patch = JSON.parse(fs.readFileSync(path.join(dir, packDir, file), 'utf8')) as Patch
+        ops.push(...patch.ops)
+      }
+    }
+    return ops
+  }
+
+  const findAssoc = (g: PublishedGraph, a: string, b: string, t: string) =>
+    g.associations.find((x) => x.concept_a === a && x.concept_b === b && x.relation_type === t)
+
+  it('reweight → one UPDATE_ASSOCIATION, strength + revision bumped, status kept', async () => {
+    seedAndPack(graphOf(30))
+    await editAssociations(
+      [{ concept_a: 'c_0001', concept_b: 'c_0002', relation_type: 'associata', op: 'reweight', to_strength: 0.9 }],
+      { seedPath, packsDir },
+    )
+
+    // A cross-shard edge is mirrored into both shards' bundles, so the reweight
+    // can surface as one UPDATE_ASSOCIATION per shard — all for the same key,
+    // idempotent on the client. The contract is: it's an update, never a retype.
+    const updates = writtenOps().filter((o) => o.op === 'UPDATE_ASSOCIATION')
+    expect(updates.length).toBeGreaterThanOrEqual(1)
+    for (const o of updates) {
+      expect(o).toMatchObject({
+        op: 'UPDATE_ASSOCIATION',
+        association: { concept_a: 'c_0001', concept_b: 'c_0002', relation_type: 'associata', association_strength: 0.9, status: 'validated', revision: 2 },
+      })
+    }
+    expect(writtenOps().some((o) => o.op === 'REMOVE_ASSOCIATION' || o.op === 'ADD_ASSOCIATION')).toBe(false)
+
+    const final = dedupeShards(packsDir)
+    expect(findAssoc(final, 'c_0001', 'c_0002', 'associata')).toMatchObject({ association_strength: 0.9, status: 'validated', revision: 2 })
+  })
+
+  it('retype → REMOVE (old key) + ADD (new key), no orphan, order-independent', async () => {
+    seedAndPack(graphOf(30))
+    await editAssociations(
+      [{ concept_a: 'c_0002', concept_b: 'c_0003', relation_type: 'associata', op: 'retype', to_type: 'similarità' }],
+      { seedPath, packsDir },
+    )
+
+    const ops = writtenOps()
+    expect(
+      ops.some((o) => o.op === 'REMOVE_ASSOCIATION' && o.concept_a === 'c_0002' && o.concept_b === 'c_0003' && o.relation_type === 'associata'),
+    ).toBe(true)
+    expect(
+      ops.some((o) => o.op === 'ADD_ASSOCIATION' && o.association.concept_a === 'c_0002' && o.association.concept_b === 'c_0003' && o.association.relation_type === 'similarità' && o.association.revision === 2),
+    ).toBe(true)
+
+    const final = dedupeShards(packsDir)
+    expect(findAssoc(final, 'c_0002', 'c_0003', 'similarità')).toBeDefined()
+    expect(findAssoc(final, 'c_0002', 'c_0003', 'associata')).toBeUndefined()
+  })
+
+  it('deprecate → UPDATE_ASSOCIATION with status deprecated; client drops it from the ego view', async () => {
+    seedAndPack(graphOf(30))
+    await editAssociations(
+      [{ concept_a: 'c_0004', concept_b: 'c_0005', relation_type: 'associata', op: 'deprecate' }],
+      { seedPath, packsDir },
+    )
+
+    const updates = writtenOps().filter((o) => o.op === 'UPDATE_ASSOCIATION')
+    expect(updates.some((o) => o.op === 'UPDATE_ASSOCIATION' && o.association.concept_a === 'c_0004' && o.association.status === 'deprecated' && o.association.revision === 2)).toBe(true)
+  })
+
+  it('retype into an existing (pair, type) aborts and leaves the seed untouched', async () => {
+    const g = graphOf(30)
+    g.associations.push({
+      concept_a: 'c_0001', concept_b: 'c_0002', relation_type: 'similarità',
+      direction_hint: 'symmetric', association_strength: 0.6, confidence: 1, status: 'validated', revision: 1,
+    })
+    seedAndPack(g)
+    const before = fs.readFileSync(seedPath, 'utf8')
+
+    await expect(
+      editAssociations(
+        [{ concept_a: 'c_0001', concept_b: 'c_0002', relation_type: 'associata', op: 'retype', to_type: 'similarità' }],
+        { seedPath, packsDir },
+      ),
+    ).rejects.toThrow(/already exists/)
+    expect(fs.readFileSync(seedPath, 'utf8')).toBe(before)
+  })
+
+  it('a candidate-status edge round-trips (Story D edits template edges on the routine branch)', async () => {
+    const g = graphOf(30)
+    findAssoc(g, 'c_0001', 'c_0002', 'associata')!.status = 'candidate'
+    seedAndPack(g)
+
+    await editAssociations(
+      [{ concept_a: 'c_0001', concept_b: 'c_0002', relation_type: 'associata', op: 'reweight', to_strength: 0.8 }],
+      { seedPath, packsDir },
+    )
+
+    const final = dedupeShards(packsDir)
+    expect(findAssoc(final, 'c_0001', 'c_0002', 'associata')).toMatchObject({ status: 'candidate', association_strength: 0.8, revision: 2 })
+  })
+
+  it('matches the row regardless of concept_a/concept_b order in the edit', async () => {
+    seedAndPack(graphOf(30))
+    // c_0009 < c_0010 canonically; pass them reversed
+    await editAssociations(
+      [{ concept_a: 'c_0010', concept_b: 'c_0009', relation_type: 'associata', op: 'reweight', to_strength: 0.7 }],
+      { seedPath, packsDir },
+    )
+    const final = dedupeShards(packsDir)
+    expect(findAssoc(final, 'c_0009', 'c_0010', 'associata')).toMatchObject({ association_strength: 0.7 })
   })
 })
