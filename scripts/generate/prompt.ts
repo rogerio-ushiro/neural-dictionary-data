@@ -4,7 +4,7 @@
 // dormant on the API path (`--source api`, D15 keeps it off); documents the
 // contract any provider — file, subagent, API — must produce.
 
-import { RELATION_TYPE_WORKING_SET } from '../../src/model/v04/config'
+import { GENERATED_RELATION_TYPES } from '../../src/model/v04/config'
 import type { GenerationTask } from './contract'
 
 export const MODEL = 'claude-haiku-4-5'
@@ -17,7 +17,7 @@ export const SYSTEM = [
   'Dato un lemma, i suoi rapporti già noti e le dimensioni semantiche ancora scoperte,',
   'proponi nuovi candidati — non ripetere rapporti già elencati come "existing_relations".',
   `Ogni candidato ha: "lemma" (italiano, forma di dizionario, una sola parola salvo locuzioni note),`,
-  `"relation_type" (uno tra: ${RELATION_TYPE_WORKING_SET.join(', ')}),`,
+  `"relation_type" (uno tra: ${GENERATED_RELATION_TYPES.join(', ')}),`,
   '"association_strength" da 0 a 1 (1 = rapporto fortissimo, 0 = nessuno),',
   'opzionalmente "confidence" da 0 a 1 (quanto sei sicuro del candidato).',
   'Se il lemma proposto è nuovo nel grafo, indica anche "pos"',

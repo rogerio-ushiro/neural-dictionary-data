@@ -3,10 +3,10 @@
 
 import type { AssociationStatus, Pos } from './types'
 
-// --- D1: relation-type working set (the 15 dimensions of spec §7 + `associata`).
-// `relation_type` is a free string in the schema; this is only the *known* set.
-// validateStructure warns (not errors) on a type outside it, so the Story 5
-// classifier can try new types without breaking the build.
+// --- D1: relation-type working set — the 15 §7 dimensions + `associata` +
+// `sinonimo`. `relation_type` is a free string in the schema; this is only the
+// *known* set. validateStructure warns (not errors) on a type outside it, so the
+// Story 5 classifier can try new types without breaking the build.
 
 export const RELATION_TYPE_WORKING_SET = [
   'categoria',
@@ -25,6 +25,7 @@ export const RELATION_TYPE_WORKING_SET = [
   'contrasto',
   'evocativa',
   'associata', // migration default (v0.3 data carries only `faixa`)
+  'sinonimo', // human-applied only (edit-associations); not a §7 dimension, not proposed by the generator
 ] as const
 
 export type KnownRelationType = (typeof RELATION_TYPE_WORKING_SET)[number]
@@ -36,6 +37,16 @@ export function isKnownRelationType(t: string): boolean {
 }
 
 /**
+ * The subset the generation pipeline is allowed to propose (D12/D15). `sinonimo`
+ * is excluded: synonym edges are marked by hand via `edit-associations`, never
+ * emitted by the model — leaking it into the prompt would have the generator tag
+ * every near-synonym as `sinonimo` on every concept.
+ */
+export const GENERATED_RELATION_TYPES: readonly string[] = RELATION_TYPE_WORKING_SET.filter(
+  (t) => t !== 'sinonimo',
+)
+
+/**
  * Symmetric relation types (spec §7.13–15) — the UI phrases them without a
  * direction. Everything else is conceptually directional but still stored on the
  * canonical `concept_a < concept_b` pair (D2); this set only informs display.
@@ -45,13 +56,15 @@ export const SYMMETRIC_RELATION_TYPES: ReadonlySet<string> = new Set([
   'contrasto',
   'evocativa',
   'associata',
+  'sinonimo',
 ])
 
 /**
  * Order the pipeline investigates dimensions in (spec §8): fundamental first.
- * All 15 semantic dimensions of §7 (the non-`associata` members of the working
- * set). Coverage analysis (frontier.ts, Story 5) uses this as the full set of
- * dimensions — keep it in sync with RELATION_TYPE_WORKING_SET.
+ * The 15 semantic dimensions of §7 — a deliberate subset of
+ * RELATION_TYPE_WORKING_SET (it excludes the non-§7 members `associata` and
+ * `sinonimo`). Coverage analysis and D9 (frontier.ts) treat this as the full set
+ * of dimensions.
  */
 export const RELATION_INVESTIGATION_ORDER: readonly string[] = [
   'categoria',

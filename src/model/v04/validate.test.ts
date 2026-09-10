@@ -82,6 +82,17 @@ describe('validateStructure', () => {
     expect(validateStructure(ok).ok).toBe(true)
   })
 
+  it('does not warn on a `sinonimo` edge (known type) but does on a genuinely unknown one', () => {
+    const g = clone(base)
+    g.associations.push({ concept_a: 'c_0001', concept_b: 'c_0002', relation_type: 'sinonimo', direction_hint: 'symmetric', association_strength: 0.95, confidence: 1, status: 'validated', revision: 1 })
+    g.associations.push({ concept_a: 'c_0001', concept_b: 'c_0003', relation_type: 'quux', direction_hint: 'symmetric', association_strength: 0.5, confidence: 1, status: 'validated', revision: 1 })
+    const res = validateStructure(g)
+    expect(res.ok).toBe(true)
+    const unknown = res.warnings.filter((w) => w.kind === 'unknown-relation-type')
+    expect(unknown.map((w) => w.detail).some((d) => d.includes('sinonimo'))).toBe(false)
+    expect(unknown.map((w) => w.detail).some((d) => d.includes('quux'))).toBe(true)
+  })
+
   it('flags a dangling sense → concept reference', () => {
     const bad = clone(base)
     bad.word_senses.s_0001.concept_id = 'c_9999'
