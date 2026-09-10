@@ -80,12 +80,32 @@ export async function finishBatch(conceptIds: string[], opts: FinishBatchOptions
   }
 }
 
+/** Per-concept lines from the pipeline's own reports — surfaces the numbers
+ * runPipeline computes and otherwise only writes to report.md. `useful=0`
+ * flags a concept whose data file was missing / all stale-format / produced
+ * nothing; `D9=NO` flags a concept that won't be `expanded` on promotion. */
+export function perConceptReport(pipeline: Pick<PipelineResult, 'coverageReport' | 'gapLoopReport'>): string {
+  const gap = new Map(pipeline.gapLoopReport.map((g) => [g.concept_id, g]))
+  const rows = pipeline.coverageReport.map((c) => {
+    const g = gap.get(c.concept_id)
+    return (
+      `  ${c.concept_id} ${c.word.padEnd(18)} ` +
+      `useful=${String(g?.usefulCount ?? 0).padStart(2)} ` +
+      `cov ${c.coveredBefore.length}→${c.coveredAfter.length} ` +
+      `D9=${g?.wouldSatisfyD9IfValidated ? 'yes' : 'NO '} ` +
+      `missing[${c.missingAfter.join(',') || '—'}]`
+    )
+  })
+  return `per concept:\n${rows.join('\n')}\n`
+}
+
 async function main(): Promise<void> {
   const { concepts } = parseFlags(process.argv.slice(2), ['concepts'] as const)
   if (!concepts) throw new Error('usage: finish-batch.ts --concepts c_0001,c_0002,...')
   const conceptIds = concepts.split(',').map((s) => s.trim()).filter(Boolean)
 
   const result = await finishBatch(conceptIds)
+  process.stdout.write(perConceptReport(result.pipeline))
   process.stdout.write(
     `OK — ${result.pipeline.candidateCount} candidates, ${result.patchedPacks} pack(s) patched, ` +
       `seed promoted. git add: ${result.changedPaths.join(', ')}\n`,

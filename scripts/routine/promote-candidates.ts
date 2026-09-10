@@ -19,6 +19,12 @@ import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { isMainModule, parseFlags } from '../lib/cli'
 import { buildValidatedAdjacency, wouldBeExpanded } from '../../src/model/v04/frontier'
+import {
+  EXPANDED_MIN_DEGREE,
+  EXPANDED_MIN_DIMENSIONS,
+  EXPANDED_REQUIRED_DIMENSION,
+  MIN_VALIDATED_ASSOCIATES,
+} from '../../src/model/v04/config'
 import { validatePublishedClosure } from '../../src/model/v04/validate'
 import type { PublishedGraph } from '../../src/model/v04/types'
 import { buildPacks } from '../pack/build-packs'
@@ -96,10 +102,97 @@ export async function runPromotion(seedPath: string, packsDir: string): Promise<
   return { ...result, patchedPacks: patches.length }
 }
 
+/** Primary-sense lemma for a concept, for readable dry-run output. */
+function lemmaOf(graph: PublishedGraph, conceptId: string): string {
+  for (const sense of Object.values(graph.word_senses)) {
+    if (sense.concept_id !== conceptId || !sense.is_primary) continue
+    const lex = sense.lexeme_kind === 'word' ? graph.words[sense.lexeme_id] : graph.expressions[sense.lexeme_id]
+    if (lex) return lex.display_form
+  }
+  return conceptId
+}
+
+export interface D9Shortfall {
+  conceptId: string
+  lemma: string
+  degree: number
+  dimensions: number
+  /** any of: `deg<8`, `dim<5`, `cat=false` */
+  reasons: string[]
+}
+
+export interface DryRunReport {
+  promotedAssociations: number
+  expandedConcepts: number
+  closureOk: boolean
+  closureIssues: { kind: string; detail: string }[]
+  /** still-`needs_expansion` concepts with validated degree ≥ MIN_VALIDATED_ASSOCIATES
+   * that still fall short of D9 after promotion — worth a look before merge. */
+  shortfalls: D9Shortfall[]
+}
+
+/** Pure preview of what a merge would promote — the read-only counterpart of
+ * `runPromotion`. Runs `promoteCandidates` (which never mutates the input) and
+ * reads back the resulting graph; writes nothing. */
+export function dryRunReport(seed: PublishedGraph): DryRunReport {
+  const { graph, promotedAssociations, expandedConcepts } = promoteCandidates(seed)
+  const closure = validatePublishedClosure(graph)
+  const adj = buildValidatedAdjacency(graph)
+
+  const shortfalls: D9Shortfall[] = []
+  for (const [id, concept] of Object.entries(graph.concepts)) {
+    if (concept.status_fronteira !== 'needs_expansion') continue
+    const degree = adj.degree.get(id) ?? 0
+    if (degree < MIN_VALIDATED_ASSOCIATES) continue
+    if (wouldBeExpanded(graph, id, adj)) continue
+    const dims = adj.dimensions.get(id) ?? new Set<string>()
+    const reasons: string[] = []
+    if (degree < EXPANDED_MIN_DEGREE) reasons.push(`deg<${EXPANDED_MIN_DEGREE}`)
+    if (dims.size < EXPANDED_MIN_DIMENSIONS) reasons.push(`dim<${EXPANDED_MIN_DIMENSIONS}`)
+    if (!dims.has(EXPANDED_REQUIRED_DIMENSION)) reasons.push('cat=false')
+    shortfalls.push({ conceptId: id, lemma: lemmaOf(graph, id), degree, dimensions: dims.size, reasons })
+  }
+
+  return {
+    promotedAssociations,
+    expandedConcepts,
+    closureOk: closure.ok,
+    closureIssues: closure.issues,
+    shortfalls,
+  }
+}
+
+function formatDryRun(r: DryRunReport): string {
+  const lines = [
+    `DRY RUN — would promote ${r.promotedAssociations} association(s), expand ${r.expandedConcepts} concept(s)`,
+    `validatePublishedClosure: ${r.closureOk ? 'ok' : 'FAIL'}`,
+    ...r.closureIssues.map((i) => `  [${i.kind}] ${i.detail}`),
+    '',
+    `still short of D9 (validated degree ≥ ${MIN_VALIDATED_ASSOCIATES}), ${r.shortfalls.length} concept(s):`,
+    ...(r.shortfalls.length === 0
+      ? ['  (none)']
+      : r.shortfalls.map(
+          (s) => `  ${s.conceptId} ${s.lemma.padEnd(18)} deg=${s.degree} dim=${s.dimensions}  ${s.reasons.join(' ')}`,
+        )),
+  ]
+  return `${lines.join('\n')}\n`
+}
+
 async function main(): Promise<void> {
-  const { seed: seedArg, packs: packsArg } = parseFlags(process.argv.slice(2), ['seed', 'packs'] as const)
+  const argv = process.argv.slice(2)
+  const isDryRun = argv.includes('--dry-run')
+  const { seed: seedArg, packs: packsArg } = parseFlags(
+    argv.filter((a) => a !== '--dry-run'),
+    ['seed', 'packs'] as const,
+  )
   const seedPath = seedArg ? path.resolve(seedArg) : DEFAULT_SEED_PATH
   const packsDir = packsArg ? path.resolve(packsArg) : DEFAULT_PACKS_DIR
+
+  if (isDryRun) {
+    const seed = JSON.parse(fs.readFileSync(seedPath, 'utf8')) as PublishedGraph
+    process.stdout.write(formatDryRun(dryRunReport(seed)))
+    return
+  }
 
   const result = await runPromotion(seedPath, packsDir)
   process.stdout.write(

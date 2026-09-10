@@ -38,6 +38,9 @@ export function fileSource(task: GenerationTask): RawCandidate[] {
   try {
     text = fs.readFileSync(file, 'utf8')
   } catch {
+    process.stderr.write(
+      `  ! ${file}: not found or unreadable — 0 associations for "${task.word}" (${task.concept_id})\n`,
+    )
     return []
   }
 

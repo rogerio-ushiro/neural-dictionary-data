@@ -4,7 +4,7 @@ import path from 'node:path'
 import { afterEach, beforeEach, describe, expect, it } from 'vitest'
 import { validateStructure } from '../../src/model/v04/validate'
 import type { PublishedGraph } from '../../src/model/v04/types'
-import { finishBatch } from './finish-batch'
+import { finishBatch, perConceptReport } from './finish-batch'
 import { buildPacks } from '../pack/build-packs'
 import { writeManifest } from '../pack/manifest'
 import { DATA_DIR, fileKey } from '../generate/file-source'
@@ -92,5 +92,23 @@ describe('finishBatch (routine)', () => {
 
     const result = await finishBatch(['c_0001'], { seedPath, candidateDir, packsDir })
     expect(result.changedPaths).toContain(dataFile)
+  })
+})
+
+describe('perConceptReport', () => {
+  it('flags a concept that produced nothing (useful=0) and one that would not reach D9', () => {
+    const report = perConceptReport({
+      coverageReport: [
+        { concept_id: 'c_0001', word: 'mare', coveredBefore: [], coveredAfter: ['categoria'], missingAfter: ['parti'], newLexicalClasses: [] },
+        { concept_id: 'c_0002', word: 'acqua', coveredBefore: ['categoria'], coveredAfter: ['categoria', 'parti', 'contenuto', 'proprietà', 'azioni'], missingAfter: [], newLexicalClasses: [] },
+      ],
+      gapLoopReport: [
+        { concept_id: 'c_0001', usefulCount: 0, rejectedCount: 0, stopped: true, wouldSatisfyD9IfValidated: false },
+        { concept_id: 'c_0002', usefulCount: 9, rejectedCount: 1, stopped: false, wouldSatisfyD9IfValidated: true },
+      ],
+    })
+    expect(report).toContain('c_0001')
+    expect(report).toMatch(/c_0001.*useful= 0.*D9=NO/)
+    expect(report).toMatch(/c_0002.*useful= 9.*D9=yes/)
   })
 })

@@ -36,6 +36,12 @@ Escreve um array de `GenerationTask` (default `scripts/routine/.batch/tasks.json
 São os N conceitos de maior `expansion_priority` ainda `needs_expansion`. Para
 cada um, anotar: `concept_id`, lema primário, associados `validated` atuais.
 
+`--n 10` é o default D13 (`DEFAULT_BATCH_SIZE` em `select-batch.ts`,
+`routine-espansione.md` §"D13"). Ciclos recentes rodaram lotes maiores (até ~25):
+mais throughput por PR, mas a autoria por conceito fica mais rasa/formulaica.
+Manter perto de 10 quando a qualidade do conteúdo importa; só subir para
+throughput bruto em conceitos-folha simples.
+
 ## Passo 2 — Gerar o conteúdo (o subagente = você)
 
 Para **cada** conceito do lote, montar o contexto e gerar duas coisas:
@@ -50,6 +56,10 @@ Regras:
   ≥ 5 dimensões distintas, `categoria` presente — senão o conceito não vira
   `expanded` na promoção.
 - `association_strength` 0..1 (raio do anel). `confidence` fica pro gate.
+- Quando a associação natural exige um lema que ainda não é conceito, **deixar o
+  pipeline mintar** (e escrever a definição, ver 2b) — não trocar por um
+  quase-sinônimo mais fraco só para evitar o trabalho da definição. Trocas
+  forçadas por sinônimo fraco degradam a qualidade e deixam o léxico com buracos.
 
 ### 2b. Definições — `scripts/generate/definitions/data/<concept_id>.json`
 
@@ -86,10 +96,12 @@ Rodar de novo `build-packs`+`manifest`+`patch` se `apply.ts` mudou o seed
 - `npm test` verde (incl. `packs-in-sync` e `dedupe` round-trip).
 - `npx tsx scripts/generate/definitions/report.ts` — cobertura de definição não
   regrediu.
-- `npx tsx scripts/routine/promote-candidates.ts --dry-run` se existir, ou
-  inspecionar: `validatePublishedClosure` do grafo pós-merge **passaria**
-  (nenhum `expanded` com 0 associados `validated`). Se não passaria, o lote está
-  incompleto — voltar ao Passo 2.
+- `npx tsx scripts/routine/promote-candidates.ts --dry-run` — não escreve nada;
+  imprime quantas associações/conceitos a promoção validaria, o resultado de
+  `validatePublishedClosure` (**tem que passar** — nenhum `expanded` com 0
+  associados `validated`), e a lista de conceitos ainda aquém do D9 com o motivo
+  (`deg<8` / `dim<5` / `cat=false`). Se `validatePublishedClosure` falharia ou
+  um conceito do lote aparece na lista, o lote está incompleto — voltar ao Passo 2.
 - Amostra manual: centralizar 3-4 dos conceitos novos no preview
   (`VITE_DATA_BASE_URL` apontando pro `public/data` local) e conferir grafo +
   modal de definição.

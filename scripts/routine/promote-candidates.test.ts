@@ -2,7 +2,7 @@ import fs from 'node:fs'
 import os from 'node:os'
 import path from 'node:path'
 import { afterEach, beforeEach, describe, expect, it } from 'vitest'
-import { promoteCandidates, runPromotion } from './promote-candidates'
+import { dryRunReport, promoteCandidates, runPromotion } from './promote-candidates'
 import type { Association, PublishedGraph } from '../../src/model/v04/types'
 
 function assoc(a: string, b: string, relationType: string, status: Association['status'] = 'candidate'): Association {
@@ -127,6 +127,47 @@ describe('runPromotion', () => {
     await expect(runPromotion(seedPath, packsDir)).rejects.toThrow(/validatePublishedClosure/)
     expect(fs.readFileSync(seedPath, 'utf8')).toBe(before)
     expect(fs.existsSync(packsDir)).toBe(false)
+  })
+})
+
+describe('dryRunReport (--dry-run)', () => {
+  it('reports would-be counts and no shortfall when D9 is met', () => {
+    const r = dryRunReport(graphWithEightCoveredDims())
+    expect(r.promotedAssociations).toBe(8)
+    expect(r.expandedConcepts).toBe(1)
+    expect(r.closureOk).toBe(true)
+    expect(r.shortfalls.find((s) => s.conceptId === 'c_0001')).toBeUndefined()
+  })
+
+  it('lists a concept short on degree and dimensions, with reasons', () => {
+    const g = graphWithEightCoveredDims()
+    g.associations = g.associations.slice(0, 4) // categoria + 3 more: deg 4, dim 4
+    const r = dryRunReport(g)
+    expect(r.expandedConcepts).toBe(0)
+    const s = r.shortfalls.find((x) => x.conceptId === 'c_0001')
+    expect(s).toMatchObject({ degree: 4, dimensions: 4, reasons: ['deg<8', 'dim<5'] })
+  })
+
+  it('flags a missing categoria', () => {
+    const g = graphWithEightCoveredDims()
+    g.associations = g.associations.slice(1, 6) // no categoria: deg 5, dim 5
+    const s = dryRunReport(g).shortfalls.find((x) => x.conceptId === 'c_0001')
+    expect(s).toMatchObject({ degree: 5, dimensions: 5, reasons: ['deg<8', 'cat=false'] })
+  })
+
+  it('ignores concepts below the reporting-degree floor', () => {
+    const g = graphWithEightCoveredDims()
+    g.associations = g.associations.slice(0, 3) // deg 3 < MIN_VALIDATED_ASSOCIATES
+    expect(dryRunReport(g).shortfalls.find((x) => x.conceptId === 'c_0001')).toBeUndefined()
+  })
+
+  it('surfaces a closure failure without throwing', () => {
+    const g = graphWithEightCoveredDims()
+    g.associations = []
+    g.concepts.c_0001.status_fronteira = 'expanded'
+    const r = dryRunReport(g)
+    expect(r.closureOk).toBe(false)
+    expect(r.closureIssues.length).toBeGreaterThan(0)
   })
 })
 
